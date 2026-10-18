@@ -1,0 +1,4 @@
+free cube b 0.001277 time constant default | mean_speed_ums 1098
+free cube b 0.001277 time constant 2 | mean_speed_ums 488
+free cube b 0.00031925 time constant default | mean_speed_ums 482
+free cube b 0.00031925 time constant 2 | mean_speed_ums 121

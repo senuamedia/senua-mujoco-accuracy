@@ -1,0 +1,1 @@
+steps 0.01 0.0025 0.000625 0.00015625 ; chain mass1=1.2 mass2=0.6 radius=0.04 arm1=0.25 len1=0.5 arm2=0.2; free (no gravity) angle2=-0.9 omega1=2.5 omega2=1.5; swinging (gravity, from rest) angle1=0.4 angle2=-0.7; tumbling body i1=0.0045 i2=0.0072 i3=0.0101 w1=2.2 w2=1.4 w3=-3.1; 2 s each

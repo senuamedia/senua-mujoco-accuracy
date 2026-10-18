@@ -1,0 +1,28 @@
+release: 3492 tests; Passed 3491; Skipped 1; 
+off: 3492 tests; Passed 3491; Skipped 1; 
+on: 3492 tests; Failed 6; Passed 3485; Skipped 1; 
+== off against release
+every test the same
+== on against off
+459c459
+< 459 ForwardTest.DiscreteStiffLegPress Passed
+---
+> 459 ForwardTest.DiscreteStiffLegPress Failed
+571c571
+< 571 InverseTest.DiscreteInverseFreeBody Passed
+---
+> 571 InverseTest.DiscreteInverseFreeBody Failed
+665c665
+< 665 IpcTest.FoldDenseBlocksSolveMatches Passed
+---
+> 665 IpcTest.FoldDenseBlocksSolveMatches Failed
+750,751c750,751
+< 750 SensorTest.ContactStage Passed
+< 751 SensorTest.ContactVelocity Passed
+---
+> 750 SensorTest.ContactStage Failed
+> 751 SensorTest.ContactVelocity Failed
+815c815
+< 815 SleepTest.SleepingUnaffectedByWaking Passed
+---
+> 815 SleepTest.SleepingUnaffectedByWaking Failed

@@ -1,0 +1,5 @@
+the rig before and now, tracedir unset, txt: the same bytes
+the rig before and now, tracedir unset, trace: the same bytes
+the rig before and now, tracedir unset, stats: the same bytes
+tracedir=1 against the rig before, txt: the same bytes
+tracedir=1 against the rig before, stats: the same bytes

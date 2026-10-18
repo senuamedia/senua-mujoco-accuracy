@@ -1,0 +1,2 @@
+registered | ROTVEC cases 40 real_bits 64 bound_ppm 1 ; at_or_under_2e-9_rad 20 passed 20 ; larger 20 passed 20 ; largest_distance_ppm 0 ; smallest_failed_distance_ppm -1
+toward the floor | ROTVEC cases 45 real_bits 64 bound_ppm 1 ; at_or_under_2e-9_rad 45 passed 25 ; larger 0 passed 0 ; largest_distance_ppm 1632993 ; smallest_failed_distance_ppm 1131371

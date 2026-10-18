@@ -1,0 +1,6 @@
+per step in trace/*.steps: step sweeps first_improvement last_improvement contacts zero_friction_returns_all_sweeps at_cone_edge_last_sweep largest_friction_change_last_sweep_N smallest_scaled_det
+safe when off: 56 of 56 files byte for byte as released; traced byte for byte as untraced: 56 of 56; the trace build's stderr with the switch unset: 0 lines
+stack5_0.000285 most_tilt_urad 2302 first_step_any_cube_past_100_urad 2829 steps 7022 sweeps_mean 2.00 steps_at_100_sweeps 0 contacts_most 32 steps_with_zero_friction_return 0 steps_with_cone_edge 0 largest_last_improvement 4.37e-07 smallest_scaled_det 5.26
+stack9_0.000285 most_tilt_urad 2523 first_step_any_cube_past_100_urad 4862 steps 7025 sweeps_mean 2.00 steps_at_100_sweeps 0 contacts_most 54 steps_with_zero_friction_return 0 steps_with_cone_edge 0 largest_last_improvement 2.83e-07 smallest_scaled_det 5.23
+stack5_0.00114 most_tilt_urad 0 first_step_any_cube_past_100_urad none steps 1759 sweeps_mean 2.00 steps_at_100_sweeps 0 contacts_most 20 steps_with_zero_friction_return 0 steps_with_cone_edge 0 largest_last_improvement 4.95e-22 smallest_scaled_det 5.26
+stack9_0.00114 most_tilt_urad 0 first_step_any_cube_past_100_urad none steps 1767 sweeps_mean 1.99 steps_at_100_sweeps 0 contacts_most 38 steps_with_zero_friction_return 0 steps_with_cone_edge 0 largest_last_improvement 1.32e-19 smallest_scaled_det 5.23

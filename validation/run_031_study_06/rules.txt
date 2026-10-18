@@ -1,0 +1,40 @@
+RULE R1_safe_when_off_plays eq 102 102 : HELD
+RULE R2_safe_when_off_suite eq 0 0 : HELD
+RULE R3_release_direction_33 share 95567 128114 100 115 : HELD
+RULE R3_release_direction_57 share 95567 128114 100 115 : HELD
+RULE R4_no_direction_0.0012 all_within 95567 10000 95567 95567 95567 95567 : HELD
+RULE R5_no_drift_0.0012 all_le 10 0 0 0 0 0 : HELD
+RULE R4_no_direction_0.0003 all_within 96021 10000 96021 96021 96021 96021 : HELD
+RULE R5_no_drift_0.0003 all_le 10 0 0 0 0 0 : HELD
+RULE R6_coulomb all_within 95929 100 96021 96021 96021 96021 96021 : HELD
+RULE R7_no_direction_hold_0.74 all_within 1863 100 1863 1863 1863 1863 : HELD
+RULE R7_no_direction_hold_0.91 all_within 2642 100 2642 2642 2642 2642 : HELD
+RULE R8_release_hold_lets_go share 2642 593305 1 10 : HELD
+RULE R9_moving_floor_on_belt20_0.0012 near 258 258 1 : HELD
+RULE R10_moving_floor_release_belt20_0.0012 ge 45 2 : HELD
+RULE R9_moving_floor_on_belt42_0.0012 near 304 303 1 : HELD
+RULE R10_moving_floor_release_belt42_0.0012 ge 91 2 : HELD
+RULE R9_moving_floor_on_belt20_0.0003 near 1050 1048 2 : HELD
+RULE R10_moving_floor_release_belt20_0.0003 ge 184 2 : HELD
+RULE R9_moving_floor_on_belt42_0.0003 near 1233 1229 3 : FAILED
+RULE R10_moving_floor_release_belt42_0.0003 ge 364 2 : HELD
+RULE R11_free_cube_spread le 173 4070 : HELD
+RULE R11_free_cube_drift le 93 365 : HELD
+RULE R12_SensorTest.ContactStage eq 1 1 : HELD
+RULE R12_SensorTest.ContactVelocity eq 1 1 : HELD
+RULE R12_SleepTest.SleepingUnaffectedByWaking eq 1 1 : HELD
+RULE R12_IpcTest.FoldDenseBlocksSolveMatches eq 1 1 : HELD
+RULE R12_ForwardTest.DiscreteStiffLegPress eq 1 1 : HELD
+RULE R13_suites_on_as_released eq 72 72 : HELD
+RULE R13_mujoco_suite_beside_the_lift eq 0 0 : HELD
+RULE R14_iteration_limit eq 0 0 : HELD
+RULE R14_warnings eq 0 0 : HELD
+RULE R14_most_iterations le_plus 7 6 2 : HELD
+reported: changed with the switch set: 571 InverseTest.DiscreteInverseFreeBody Failed
+reported: lift 0.0012, release 212 194 190 190 194 / on 212 212 212 212 212 
+reported: lift 0.0003, release 61 46 31 31 46 / on 61 61 61 61 61 
+reported: the two cones on a still floor along x at the slip speed of belt20, 0.0012: pyramidal 259, elliptic 258, apart 1 steps
+reported: the two cones on a still floor along x at the slip speed of belt42, 0.0012: pyramidal 306, elliptic 305, apart 1 steps
+reported: the two cones on a still floor along x at the slip speed of belt20, 0.0003: pyramidal 1052, elliptic 1050, apart 2 steps
+reported: the two cones on a still floor along x at the slip speed of belt42, 0.0003: pyramidal 1242, elliptic 1239, apart 3 steps
+rules: 32, held: 31

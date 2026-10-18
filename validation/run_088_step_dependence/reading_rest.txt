@@ -1,0 +1,28 @@
+rest default 0.005 | depth_nm -17055 fastest_vz_ums 0
+rest default from the surface 0.005 | depth_nm -17055 fastest_vz_ums 0
+rest guard off 0.005 | depth_nm -17055 fastest_vz_ums 0
+rest guard off implicit 0.005 | depth_nm -17055 fastest_vz_ums 0
+rest at 1 ms with the time constant the guard gives 0.005, 0.02 | depth_nm -17055 fastest_vz_ums 0
+rest default 0.01 | depth_nm -17055 fastest_vz_ums 0
+rest default from the surface 0.01 | depth_nm -17055 fastest_vz_ums 0
+rest guard off 0.01 | depth_nm -17055 fastest_vz_ums 0
+rest guard off implicit 0.01 | depth_nm -17055 fastest_vz_ums 0
+rest at 1 ms with the time constant the guard gives 0.01, 0.02 | depth_nm -17055 fastest_vz_ums 0
+rest default 0.02 | depth_nm -67861 fastest_vz_ums 0
+rest default from the surface 0.02 | depth_nm -67861 fastest_vz_ums 0
+rest guard off 0.02 | depth_nm 1493155750 fastest_vz_ums 4013869
+rest guard off implicit 0.02 | depth_nm 1493155749 fastest_vz_ums 4013869
+rest at 1 ms with the time constant the guard gives 0.02, 0.04 | depth_nm -67861 fastest_vz_ums 0
+rest default 0.04 | depth_nm -252121 fastest_vz_ums 2
+rest default from the surface 0.04 | depth_nm -252086 fastest_vz_ums 1
+rest guard off 0.04 | depth_nm 18741167427 fastest_vz_ums 34931500
+rest guard off implicit 0.04 | depth_nm 18741167427 fastest_vz_ums 34931500
+rest at 1 ms with the time constant the guard gives 0.04, 0.08 | depth_nm -252062 fastest_vz_ums 0
+rest time constant 0.01 step 1/16 of it, 0.000625 | depth_nm -4265 fastest_vz_ums 0
+rest time constant 0.01 step 1/4 of it, 0.0025 | depth_nm -4265 fastest_vz_ums 0
+rest time constant 0.01 step 1/2 of it, 0.005 | depth_nm -4265 fastest_vz_ums 0
+rest time constant 0.01 step 1/1 of it, 0.01 | depth_nm -17055 fastest_vz_ums 0
+rest time constant 0.04 step 1/16 of it, 0.0025 | depth_nm -67861 fastest_vz_ums 0
+rest time constant 0.04 step 1/4 of it, 0.01 | depth_nm -67861 fastest_vz_ums 0
+rest time constant 0.04 step 1/2 of it, 0.02 | depth_nm -67861 fastest_vz_ums 0
+rest time constant 0.04 step 1/1 of it, 0.04 | depth_nm -252121 fastest_vz_ums 2

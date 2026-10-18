@@ -1,0 +1,5 @@
+dt_coarse 0.00174
+dt_fine 0.000435
+cube_mass 1.505
+cube_half 0.0437
+cube_v 0.91

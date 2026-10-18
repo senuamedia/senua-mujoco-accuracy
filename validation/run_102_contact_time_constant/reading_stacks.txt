@@ -1,0 +1,24 @@
+straight 3 0.00114 time constant default | cube 1 -293669 0 tilt 0 0 | cube 2 -366909 0 tilt 0 0 | cube 3 -207044 0 tilt 0 0 |
+straight 5 0.00114 time constant default | cube 1 -428217 0 tilt 0 0 | cube 2 -563645 0 tilt 0 0 | cube 3 -479614 0 tilt 0 0 | cube 4 -366909 0 tilt 0 0 | cube 5 -207044 0 tilt 0 0 |
+straight 10 0.00114 time constant default | cube 1 -636821 0 tilt 0 0 | cube 2 -901106 0 tilt 0 0 | cube 3 -832755 0 tilt 0 0 | cube 4 -768309 0 tilt 0 0 | cube 5 -703979 0 tilt 0 0 | cube 6 -636821 0 tilt 0 0 | cube 7 -563645 0 tilt 0 0 | cube 8 -479614 0 tilt 0 0 | cube 9 -366909 0 tilt 0 0 | cube 10 -207044 0 tilt 0 0 |
+offset 0.001 0.00114 time constant default | cube 1 tilt 130 429 | cube 2 tilt 530 3473 | cube 3 tilt 612 3567
+offset 0.005 0.00114 time constant default | cube 1 tilt 683 2 | cube 2 tilt 1495 11 | cube 3 tilt 480 11
+offset 0.017 0.00114 time constant default | cube 1 tilt 2352 6 | cube 2 tilt 7016 20 | cube 3 tilt 6673 21
+straight 3 0.00114 time constant 2 | cube 1 -4257 0 tilt 0 0 | cube 2 -5676 0 tilt 0 0 | cube 3 -2838 0 tilt 0 0 |
+straight 5 0.00114 time constant 2 | cube 1 -7095 0 tilt 0 0 | cube 2 -11351 0 tilt 0 0 | cube 3 -8514 0 tilt 0 0 | cube 4 -5676 0 tilt 0 0 | cube 5 -2838 0 tilt 0 0 |
+straight 10 0.00114 time constant 2 | cube 1 -14187 0 tilt 0 0 | cube 2 -25523 0 tilt 0 0 | cube 3 -22691 0 tilt 0 0 | cube 4 -19857 0 tilt 0 0 | cube 5 -17023 0 tilt 0 0 | cube 6 -14187 0 tilt 0 0 | cube 7 -11351 0 tilt 0 0 | cube 8 -8514 0 tilt 0 0 | cube 9 -5676 0 tilt 0 0 | cube 10 -2838 0 tilt 0 0 |
+offset 0.001 0.00114 time constant 2 | cube 1 tilt 2 0 | cube 2 tilt 6 0 | cube 3 tilt 6 0
+offset 0.005 0.00114 time constant 2 | cube 1 tilt 12 0 | cube 2 tilt 43 0 | cube 3 tilt 48 0
+offset 0.017 0.00114 time constant 2 | cube 1 tilt 40 0 | cube 2 tilt 127 1 | cube 3 tilt 126 1
+straight 3 0.000285 time constant default | cube 1 -293669 0 tilt 0 0 | cube 2 -366909 0 tilt 0 0 | cube 3 -207044 0 tilt 0 0 |
+straight 5 0.000285 time constant default | cube 1 -428217 0 tilt 0 0 | cube 2 -563645 0 tilt 0 0 | cube 3 -479614 0 tilt 0 0 | cube 4 -366909 0 tilt 0 0 | cube 5 -207044 0 tilt 0 0 |
+straight 10 0.000285 time constant default | cube 1 -636821 0 tilt 0 0 | cube 2 -901106 0 tilt 0 0 | cube 3 -832755 0 tilt 0 0 | cube 4 -768309 0 tilt 0 0 | cube 5 -703979 0 tilt 0 0 | cube 6 -636821 0 tilt 0 0 | cube 7 -563645 0 tilt 0 0 | cube 8 -479614 0 tilt 0 0 | cube 9 -366909 0 tilt 0 0 | cube 10 -207044 0 tilt 0 0 |
+offset 0.001 0.000285 time constant default | cube 1 tilt 153 199 | cube 2 tilt 2131 1685 | cube 3 tilt 1000 1822
+offset 0.005 0.000285 time constant default | cube 1 tilt 683 2 | cube 2 tilt 1497 11 | cube 3 tilt 482 11
+offset 0.017 0.000285 time constant default | cube 1 tilt 2352 6 | cube 2 tilt 7014 20 | cube 3 tilt 6671 21
+straight 3 0.000285 time constant 2 | cube 1 -266 0 tilt 0 0 | cube 2 -355 0 tilt 0 0 | cube 3 -177 0 tilt 0 0 |
+straight 5 0.000285 time constant 2 | cube 1 -443 0 tilt 0 0 | cube 2 -710 0 tilt 0 0 | cube 3 -532 0 tilt 0 0 | cube 4 -355 0 tilt 0 0 | cube 5 -177 0 tilt 0 0 |
+straight 10 0.000285 time constant 2 | cube 1 -887 0 tilt 0 0 | cube 2 -1596 0 tilt 0 0 | cube 3 -1419 0 tilt 0 0 | cube 4 -1242 0 tilt 0 0 | cube 5 -1064 0 tilt 0 0 | cube 6 -887 0 tilt 0 0 | cube 7 -710 0 tilt 0 0 | cube 8 -532 0 tilt 0 0 | cube 9 -355 0 tilt 0 0 | cube 10 -177 0 tilt 0 0 |
+offset 0.001 0.000285 time constant 2 | cube 1 tilt 0 0 | cube 2 tilt 0 0 | cube 3 tilt 0 0
+offset 0.005 0.000285 time constant 2 | cube 1 tilt 1 0 | cube 2 tilt 2 0 | cube 3 tilt 2 0
+offset 0.017 0.000285 time constant 2 | cube 1 tilt 3 0 | cube 2 tilt 8 0 | cube 3 tilt 9 0

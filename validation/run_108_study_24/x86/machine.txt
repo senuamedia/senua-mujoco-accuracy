@@ -1,0 +1,4 @@
+x86_64
+model name	: Intel(R) Xeon(R) Platinum 8488C
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Ubuntu 24.04.5 LTS

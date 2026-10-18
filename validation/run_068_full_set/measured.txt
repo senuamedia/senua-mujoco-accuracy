@@ -1,0 +1,273 @@
+files rel against off: 249 of 249 the same
+files rel against all: 109 of 249 the same
+files rel_rk4 against all_rk4: 80 of 249 the same
+rel holds 0.00114 0 0 0 0 0 0 0 0 0 
+rel slides 0.00114 slid_um 133036 133036 133036  free slid_um 133042 136043 133266 
+rel grips 0.00114 1 0 1 0 
+rel s10_pose1_as_rest_0.00114 creep_ums -714
+rel s10_pose1_mirror_rest_0.00114 creep_ums 714
+rel s10_pose1_drop_0.00114 creep_ums -591 last_moving_s 3.0005
+rel s10_pose2_as_rest_0.00114 creep_ums -9
+rel s10_pose2_mirror_rest_0.00114 creep_ums 9
+rel s10_pose2_drop_0.00114 creep_ums 84 last_moving_s 3.0005
+rel s13_pose1_as_rest_0.00114 creep_ums 0
+rel s13_pose1_mirror_rest_0.00114 creep_ums 0
+rel s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2839
+rel s13_pose2_as_rest_0.00114 creep_ums -192
+rel s13_pose2_mirror_rest_0.00114 creep_ums 192
+rel s13_pose2_drop_0.00114 creep_ums -79 last_moving_s 3.0005
+rel jf_pose1_0.00114 creep_ums -2
+rel jf_pose2_0.00114 creep_ums -2
+rel stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+rel holds 0.000285 0 0 0 0 0 0 0 0 0 
+rel slides 0.000285 slid_um 133471 133471 133471  free slid_um 133491 135734 133605 
+rel grips 0.000285 1 0 1 0 
+rel s10_pose1_as_rest_0.000285 creep_ums -714
+rel s10_pose1_mirror_rest_0.000285 creep_ums 714
+rel s10_pose1_drop_0.000285 creep_ums -590 last_moving_s 2.9999
+rel s10_pose2_as_rest_0.000285 creep_ums -9
+rel s10_pose2_mirror_rest_0.000285 creep_ums 9
+rel s10_pose2_drop_0.000285 creep_ums 84 last_moving_s 2.9999
+rel s13_pose1_as_rest_0.000285 creep_ums 0
+rel s13_pose1_mirror_rest_0.000285 creep_ums 0
+rel s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+rel s13_pose2_as_rest_0.000285 creep_ums -192
+rel s13_pose2_mirror_rest_0.000285 creep_ums 192
+rel s13_pose2_drop_0.000285 creep_ums -79 last_moving_s 2.9999
+rel jf_pose1_0.000285 creep_ums -2
+rel jf_pose2_0.000285 creep_ums -2
+rel stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+rel stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+rel offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+rel s14_pose1_as_rest_0.00119 creep_ums -497
+rel s14_pose1_mirror_rest_0.00119 creep_ums 497
+rel s14_pose1_drop_0.00119 creep_ums -331 last_moving_s 3.0000
+rel s14_pose2_as_rest_0.00119 creep_ums -31
+rel s14_pose2_mirror_rest_0.00119 creep_ums 31
+rel s14_pose2_drop_0.00119 creep_ums 87 last_moving_s 3.0000
+rel s14_pose3_as_rest_0.00119 creep_ums 102
+rel s14_pose3_mirror_rest_0.00119 creep_ums -102
+rel s14_pose3_drop_0.00119 creep_ums 319 last_moving_s 3.0000
+rel s14_pose4_as_rest_0.00119 creep_ums -21
+rel s14_pose4_mirror_rest_0.00119 creep_ums 21
+rel s14_pose4_drop_0.00119 creep_ums 114 last_moving_s 3.0000
+rel s14_pose1_as_rest_0.0002975 creep_ums -497
+rel s14_pose1_mirror_rest_0.0002975 creep_ums 497
+rel s14_pose1_drop_0.0002975 creep_ums -329 last_moving_s 3.0000
+rel s14_pose2_as_rest_0.0002975 creep_ums -32
+rel s14_pose2_mirror_rest_0.0002975 creep_ums 32
+rel s14_pose2_drop_0.0002975 creep_ums 87 last_moving_s 3.0000
+rel s14_pose3_as_rest_0.0002975 creep_ums 102
+rel s14_pose3_mirror_rest_0.0002975 creep_ums -102
+rel s14_pose3_drop_0.0002975 creep_ums 321 last_moving_s 3.0000
+rel s14_pose4_as_rest_0.0002975 creep_ums -22
+rel s14_pose4_mirror_rest_0.0002975 creep_ums 22
+rel s14_pose4_drop_0.0002975 creep_ums 115 last_moving_s 3.0000
+rel box 999 194612255 -76978 0 0 0
+rel suite1 passed 10 | suite1 on Study 14's cube passed 9 T08 the refinement chain falls at every step: 83213 25898 11754 6154 2928 3469 : FAIL
+rel solver most_iterations 18 at_iteration_limit 0 warnings 0
+all holds 0.00114 0 0 0 0 0 0 0 0 0 
+all slides 0.00114 slid_um 133052 133052 133052  free slid_um 133036 133036 133036 
+all grips 0.00114 1 0 1 0 
+all s10_pose1_as_rest_0.00114 creep_ums 0
+all s10_pose1_mirror_rest_0.00114 creep_ums 0
+all s10_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2770
+all s10_pose2_as_rest_0.00114 creep_ums 0
+all s10_pose2_mirror_rest_0.00114 creep_ums 0
+all s10_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6395
+all s13_pose1_as_rest_0.00114 creep_ums 0
+all s13_pose1_mirror_rest_0.00114 creep_ums 0
+all s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2827
+all s13_pose2_as_rest_0.00114 creep_ums 0
+all s13_pose2_mirror_rest_0.00114 creep_ums 0
+all s13_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6373
+all jf_pose1_0.00114 creep_ums -2
+all jf_pose2_0.00114 creep_ums -2
+all stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+all stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+all offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+all holds 0.000285 0 0 0 0 0 0 0 0 0 
+all slides 0.000285 slid_um 133494 133494 133494  free slid_um 133478 133478 133478 
+all grips 0.000285 1 0 1 0 
+all s10_pose1_as_rest_0.000285 creep_ums 0
+all s10_pose1_mirror_rest_0.000285 creep_ums 0
+all s10_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2907
+all s10_pose2_as_rest_0.000285 creep_ums 0
+all s10_pose2_mirror_rest_0.000285 creep_ums 0
+all s10_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6375
+all s13_pose1_as_rest_0.000285 creep_ums 0
+all s13_pose1_mirror_rest_0.000285 creep_ums 0
+all s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2930
+all s13_pose2_as_rest_0.000285 creep_ums 0
+all s13_pose2_mirror_rest_0.000285 creep_ums 0
+all s13_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6358
+all jf_pose1_0.000285 creep_ums -2
+all jf_pose2_0.000285 creep_ums -2
+all stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+all stack9_0.000285 most_tilt_urad 3181 end_speed_ums 6136
+all offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+all s14_pose1_as_rest_0.00119 creep_ums 0
+all s14_pose1_mirror_rest_0.00119 creep_ums 0
+all s14_pose1_drop_0.00119 creep_ums 0 last_moving_s 0.2868
+all s14_pose2_as_rest_0.00119 creep_ums 0
+all s14_pose2_mirror_rest_0.00119 creep_ums 0
+all s14_pose2_drop_0.00119 creep_ums 0 last_moving_s 0.6557
+all s14_pose3_as_rest_0.00119 creep_ums 0
+all s14_pose3_mirror_rest_0.00119 creep_ums 0
+all s14_pose3_drop_0.00119 creep_ums 0 last_moving_s 0.2892
+all s14_pose4_as_rest_0.00119 creep_ums 0
+all s14_pose4_mirror_rest_0.00119 creep_ums 0
+all s14_pose4_drop_0.00119 creep_ums 0 last_moving_s 0.6438
+all s14_pose1_as_rest_0.0002975 creep_ums 0
+all s14_pose1_mirror_rest_0.0002975 creep_ums 0
+all s14_pose1_drop_0.0002975 creep_ums 0 last_moving_s 0.2984
+all s14_pose2_as_rest_0.0002975 creep_ums 0
+all s14_pose2_mirror_rest_0.0002975 creep_ums 0
+all s14_pose2_drop_0.0002975 creep_ums 0 last_moving_s 0.6542
+all s14_pose3_as_rest_0.0002975 creep_ums 0
+all s14_pose3_mirror_rest_0.0002975 creep_ums 0
+all s14_pose3_drop_0.0002975 creep_ums 0 last_moving_s 0.2996
+all s14_pose4_as_rest_0.0002975 creep_ums 0
+all s14_pose4_mirror_rest_0.0002975 creep_ums 0
+all s14_pose4_drop_0.0002975 creep_ums 0 last_moving_s 0.6420
+all box 999 188019916 55 0 0 0
+all suite1 passed 10 | suite1 on Study 14's cube passed 10 T08 the refinement chain falls at every step: 34526 16517 8197 3811 2013 1737 : PASS
+all solver most_iterations 57 at_iteration_limit 0 warnings 0
+rel_rk4 holds 0.00114 0 0 0 0 0 0 0 0 0 
+rel_rk4 slides 0.00114 slid_um 133039 133039 133039  free slid_um 133051 134897 133076 
+rel_rk4 grips 0.00114 1 0 1 0 
+rel_rk4 s10_pose1_as_rest_0.00114 creep_ums -714
+rel_rk4 s10_pose1_mirror_rest_0.00114 creep_ums 714
+rel_rk4 s10_pose1_drop_0.00114 creep_ums -590 last_moving_s 3.0005
+rel_rk4 s10_pose2_as_rest_0.00114 creep_ums -9
+rel_rk4 s10_pose2_mirror_rest_0.00114 creep_ums 9
+rel_rk4 s10_pose2_drop_0.00114 creep_ums 83 last_moving_s 3.0005
+rel_rk4 s13_pose1_as_rest_0.00114 creep_ums 0
+rel_rk4 s13_pose1_mirror_rest_0.00114 creep_ums 0
+rel_rk4 s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2941
+rel_rk4 s13_pose2_as_rest_0.00114 creep_ums -192
+rel_rk4 s13_pose2_mirror_rest_0.00114 creep_ums 192
+rel_rk4 s13_pose2_drop_0.00114 creep_ums -79 last_moving_s 3.0005
+rel_rk4 jf_pose1_0.00114 creep_ums -2
+rel_rk4 jf_pose2_0.00114 creep_ums -2
+rel_rk4 stack5_0.00114 most_tilt_urad 4415 end_speed_ums 1099
+rel_rk4 stack9_0.00114 most_tilt_urad 1415 end_speed_ums 3083
+rel_rk4 offset3_0.00114 most_tilt_urad 9570 end_speed_ums 5
+rel_rk4 holds 0.000285 0 0 0 0 0 0 0 0 0 
+rel_rk4 slides 0.000285 slid_um 133461 133461 133461  free slid_um 133468 134979 133685 
+rel_rk4 grips 0.000285 1 0 1 0 
+rel_rk4 s10_pose1_as_rest_0.000285 creep_ums -714
+rel_rk4 s10_pose1_mirror_rest_0.000285 creep_ums 714
+rel_rk4 s10_pose1_drop_0.000285 creep_ums -590 last_moving_s 2.9999
+rel_rk4 s10_pose2_as_rest_0.000285 creep_ums -9
+rel_rk4 s10_pose2_mirror_rest_0.000285 creep_ums 9
+rel_rk4 s10_pose2_drop_0.000285 creep_ums 83 last_moving_s 2.9999
+rel_rk4 s13_pose1_as_rest_0.000285 creep_ums 0
+rel_rk4 s13_pose1_mirror_rest_0.000285 creep_ums 0
+rel_rk4 s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2941
+rel_rk4 s13_pose2_as_rest_0.000285 creep_ums -191
+rel_rk4 s13_pose2_mirror_rest_0.000285 creep_ums 191
+rel_rk4 s13_pose2_drop_0.000285 creep_ums -79 last_moving_s 2.9999
+rel_rk4 jf_pose1_0.000285 creep_ums -2
+rel_rk4 jf_pose2_0.000285 creep_ums -2
+rel_rk4 stack5_0.000285 most_tilt_urad 3126 end_speed_ums 2328
+rel_rk4 stack9_0.000285 most_tilt_urad 5390 end_speed_ums 6119
+rel_rk4 offset3_0.000285 most_tilt_urad 9863 end_speed_ums 3
+rel_rk4 s14_pose1_as_rest_0.00119 creep_ums -497
+rel_rk4 s14_pose1_mirror_rest_0.00119 creep_ums 497
+rel_rk4 s14_pose1_drop_0.00119 creep_ums -329 last_moving_s 3.0000
+rel_rk4 s14_pose2_as_rest_0.00119 creep_ums -31
+rel_rk4 s14_pose2_mirror_rest_0.00119 creep_ums 31
+rel_rk4 s14_pose2_drop_0.00119 creep_ums 88 last_moving_s 3.0000
+rel_rk4 s14_pose3_as_rest_0.00119 creep_ums 102
+rel_rk4 s14_pose3_mirror_rest_0.00119 creep_ums -102
+rel_rk4 s14_pose3_drop_0.00119 creep_ums 321 last_moving_s 3.0000
+rel_rk4 s14_pose4_as_rest_0.00119 creep_ums -22
+rel_rk4 s14_pose4_mirror_rest_0.00119 creep_ums 22
+rel_rk4 s14_pose4_drop_0.00119 creep_ums 115 last_moving_s 3.0000
+rel_rk4 s14_pose1_as_rest_0.0002975 creep_ums -497
+rel_rk4 s14_pose1_mirror_rest_0.0002975 creep_ums 497
+rel_rk4 s14_pose1_drop_0.0002975 creep_ums -329 last_moving_s 3.0000
+rel_rk4 s14_pose2_as_rest_0.0002975 creep_ums -31
+rel_rk4 s14_pose2_mirror_rest_0.0002975 creep_ums 31
+rel_rk4 s14_pose2_drop_0.0002975 creep_ums 88 last_moving_s 3.0000
+rel_rk4 s14_pose3_as_rest_0.0002975 creep_ums 102
+rel_rk4 s14_pose3_mirror_rest_0.0002975 creep_ums -102
+rel_rk4 s14_pose3_drop_0.0002975 creep_ums 322 last_moving_s 3.0000
+rel_rk4 s14_pose4_as_rest_0.0002975 creep_ums -22
+rel_rk4 s14_pose4_mirror_rest_0.0002975 creep_ums 22
+rel_rk4 s14_pose4_drop_0.0002975 creep_ums 115 last_moving_s 3.0000
+rel_rk4 box 999 194612255 -76978 0 0 0
+rel_rk4 suite1 passed 9 | suite1 on Study 14's cube passed 8 T08 the refinement chain falls at every step: 14349 5493 2325 3373 1537 1146 : FAIL
+rel_rk4 solver most_iterations 103 at_iteration_limit 20 warnings 0
+all_rk4 holds 0.00114 0 0 0 0 0 0 0 0 0 
+all_rk4 slides 0.00114 slid_um 133071 133071 133071  free slid_um 133054 133054 133054 
+all_rk4 grips 0.00114 1 0 1 0 
+all_rk4 s10_pose1_as_rest_0.00114 creep_ums 0
+all_rk4 s10_pose1_mirror_rest_0.00114 creep_ums 0
+all_rk4 s10_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2907
+all_rk4 s10_pose2_as_rest_0.00114 creep_ums 0
+all_rk4 s10_pose2_mirror_rest_0.00114 creep_ums 0
+all_rk4 s10_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6361
+all_rk4 s13_pose1_as_rest_0.00114 creep_ums 0
+all_rk4 s13_pose1_mirror_rest_0.00114 creep_ums 0
+all_rk4 s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2941
+all_rk4 s13_pose2_as_rest_0.00114 creep_ums 0
+all_rk4 s13_pose2_mirror_rest_0.00114 creep_ums 0
+all_rk4 s13_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6350
+all_rk4 jf_pose1_0.00114 creep_ums -2
+all_rk4 jf_pose2_0.00114 creep_ums -2
+all_rk4 stack5_0.00114 most_tilt_urad 3517 end_speed_ums 829
+all_rk4 stack9_0.00114 most_tilt_urad 999 end_speed_ums 4403
+all_rk4 offset3_0.00114 most_tilt_urad 9832 end_speed_ums 3
+all_rk4 holds 0.000285 0 0 0 0 0 0 0 0 0 
+all_rk4 slides 0.000285 slid_um 133500 133500 133500  free slid_um 133482 133482 133482 
+all_rk4 grips 0.000285 1 0 1 0 
+all_rk4 s10_pose1_as_rest_0.000285 creep_ums 0
+all_rk4 s10_pose1_mirror_rest_0.000285 creep_ums 0
+all_rk4 s10_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+all_rk4 s10_pose2_as_rest_0.000285 creep_ums 0
+all_rk4 s10_pose2_mirror_rest_0.000285 creep_ums 0
+all_rk4 s10_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6367
+all_rk4 s13_pose1_as_rest_0.000285 creep_ums 0
+all_rk4 s13_pose1_mirror_rest_0.000285 creep_ums 0
+all_rk4 s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2947
+all_rk4 s13_pose2_as_rest_0.000285 creep_ums 0
+all_rk4 s13_pose2_mirror_rest_0.000285 creep_ums 0
+all_rk4 s13_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6353
+all_rk4 jf_pose1_0.000285 creep_ums -2
+all_rk4 jf_pose2_0.000285 creep_ums -2
+all_rk4 stack5_0.000285 most_tilt_urad 4146 end_speed_ums 61
+all_rk4 stack9_0.000285 most_tilt_urad 6739 end_speed_ums 4609
+all_rk4 offset3_0.000285 most_tilt_urad 9591 end_speed_ums 6
+all_rk4 s14_pose1_as_rest_0.00119 creep_ums 0
+all_rk4 s14_pose1_mirror_rest_0.00119 creep_ums 0
+all_rk4 s14_pose1_drop_0.00119 creep_ums 0 last_moving_s 0.2999
+all_rk4 s14_pose2_as_rest_0.00119 creep_ums 0
+all_rk4 s14_pose2_mirror_rest_0.00119 creep_ums 0
+all_rk4 s14_pose2_drop_0.00119 creep_ums 0 last_moving_s 0.6533
+all_rk4 s14_pose3_as_rest_0.00119 creep_ums 0
+all_rk4 s14_pose3_mirror_rest_0.00119 creep_ums 0
+all_rk4 s14_pose3_drop_0.00119 creep_ums 0 last_moving_s 0.3011
+all_rk4 s14_pose4_as_rest_0.00119 creep_ums 0
+all_rk4 s14_pose4_mirror_rest_0.00119 creep_ums 0
+all_rk4 s14_pose4_drop_0.00119 creep_ums 0 last_moving_s 0.6402
+all_rk4 s14_pose1_as_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose1_mirror_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose1_drop_0.0002975 creep_ums 0 last_moving_s 0.3002
+all_rk4 s14_pose2_as_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose2_mirror_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose2_drop_0.0002975 creep_ums 0 last_moving_s 0.6536
+all_rk4 s14_pose3_as_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose3_mirror_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose3_drop_0.0002975 creep_ums 0 last_moving_s 0.3017
+all_rk4 s14_pose4_as_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose4_mirror_rest_0.0002975 creep_ums 0
+all_rk4 s14_pose4_drop_0.0002975 creep_ums 0 last_moving_s 0.6411
+all_rk4 box 999 188019916 55 0 0 0
+all_rk4 suite1 passed 9 | suite1 on Study 14's cube passed 8 T08 the refinement chain falls at every step: 4241 2067 1032 1532 254 382 : FAIL
+all_rk4 solver most_iterations 57 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with every switch set: 2
+MuJoCo suite, every switch unset against the release (run 064's suite_results_release.txt): 0 tests read differently

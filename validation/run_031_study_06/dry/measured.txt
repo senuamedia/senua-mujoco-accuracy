@@ -1,0 +1,48 @@
+release slide 0 0.0012 slid_um 127121 side_um 0 highest_um 242 fastest_up_ums 63806
+release slide 12 0.0012 slid_um 135268 side_um 23955 highest_um 148 fastest_up_ums 53053
+release slide 33 0.0012 slid_um 170238 side_um 27040 highest_um 153 fastest_up_ums 52979
+release slide 57 0.0012 slid_um 170238 side_um -27040 highest_um 153 fastest_up_ums 52979
+release slide 78 0.0012 slid_um 135268 side_um -23955 highest_um 148 fastest_up_ums 53053
+release slide 0 0.0003 slid_um 127573 side_um 0 highest_um 26 fastest_up_ums 22562
+release slide 12 0.0003 slid_um 135726 side_um 23940 highest_um 54 fastest_up_ums 31370
+release slide 33 0.0003 slid_um 170674 side_um 26971 highest_um 23 fastest_up_ums 20478
+release slide 57 0.0003 slid_um 170674 side_um -26971 highest_um 23 fastest_up_ums 20478
+release slide 78 0.0003 slid_um 135726 side_um -23940 highest_um 54 fastest_up_ums 31370
+release hold 0 0.74 creep_ums 1464
+release hold 12 0.74 creep_ums 1413
+release hold 33 0.74 creep_ums 45239
+release hold 57 0.74 creep_ums 45239
+release hold 78 0.74 creep_ums 1413
+release hold 0 0.91 creep_ums 2076
+release hold 12 0.91 creep_ums 134333
+release hold 33 0.91 creep_ums 493549
+release hold 57 0.91 creep_ums 493549
+release hold 78 0.91 creep_ums 134333
+release belt20 0.0012 stopped_at_step 362
+release belt42 0.0012 stopped_at_step 476
+release belt20 0.0003 stopped_at_step 1466
+release belt42 0.0003 stopped_at_step 1923
+release free 0 slid_um 127131 side_um 0
+release free 12 slid_um 135725 side_um 23280
+release free 33 slid_um 170295 side_um 26845
+release free 57 slid_um 170295 side_um -26845
+release free 78 slid_um 135725 side_um -23280
+release solver most_iterations 7 at_iteration_limit 0 warnings 0
+elliptic belt20 0.0012 stopped_at_step 303
+elliptic belt42 0.0012 stopped_at_step 361
+elliptic belt20 0.0003 stopped_at_step 1230
+elliptic belt42 0.0003 stopped_at_step 1462
+axis pyramidal 20 0.0012 stopped_at_step 304 slid_um 143990
+axis elliptic 20 0.0012 stopped_at_step 303 slid_um 143969
+axis pyramidal 42 0.0012 stopped_at_step 364 slid_um 230335
+axis elliptic 42 0.0012 stopped_at_step 363 slid_um 230313
+axis pyramidal 20 0.0003 stopped_at_step 1234 slid_um 144461
+axis elliptic 20 0.0003 stopped_at_step 1232 slid_um 144452
+axis pyramidal 42 0.0003 stopped_at_step 1474 slid_um 230931
+axis elliptic 42 0.0003 stopped_at_step 1472 slid_um 230925
+elliptic free 0 slid_um 127137 side_um 0
+elliptic free 12 slid_um 128964 side_um 695
+elliptic free 33 slid_um 128912 side_um 321
+elliptic free 57 slid_um 128912 side_um -321
+elliptic free 78 slid_um 128964 side_um -695
+reference solver most_iterations 7 at_iteration_limit 0 warnings 0

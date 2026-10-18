@@ -1,0 +1,15 @@
+SAME def_mu0.1_v1.2_1.txt
+SAME def_mu0.1_v1.2_16.txt
+SAME def_mu0.1_v1.2_4.txt
+SAME def_mu0.4_v0.6_1.txt
+SAME def_mu0.4_v0.6_16.txt
+SAME def_mu0.4_v0.6_4.txt
+SAME def_mu0.4_v1.2_1.txt
+SAME def_mu0.4_v1.2_16.txt
+SAME def_mu0.4_v1.2_4.txt
+SAME def_mu0.4_v2.4_1.txt
+SAME def_mu0.4_v2.4_16.txt
+SAME def_mu0.4_v2.4_4.txt
+SAME def_mu0.8_v1.2_1.txt
+SAME def_mu0.8_v1.2_16.txt
+SAME def_mu0.8_v1.2_4.txt

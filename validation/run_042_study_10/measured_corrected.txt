@@ -1,0 +1,660 @@
+rel_def hold 0 0.5 0.00114 creep_ums 581
+rel_def hold 0 0.75 0.00114 creep_ums 1452
+rel_def hold 0 0.95 0.00114 creep_ums 2150
+rel_def slide 0 0.00114 slid_um 133048 side_um 0
+rel_def hold 22.5 0.5 0.00114 creep_ums 581
+rel_def hold 22.5 0.75 0.00114 creep_ums 1286
+rel_def hold 22.5 0.95 0.00114 creep_ums 490220
+rel_def slide 22.5 0.00114 slid_um 159246 side_um 35448
+rel_def hold 45 0.5 0.00114 creep_ums 581
+rel_def hold 45 0.75 0.00114 creep_ums 131274
+rel_def hold 45 0.95 0.00114 creep_ums 743398
+rel_def slide 45 0.00114 slid_um 188284 side_um 0
+rel_def hold 0 0.5 0.000285 creep_ums 581
+rel_def hold 0 0.75 0.000285 creep_ums 1452
+rel_def hold 0 0.95 0.000285 creep_ums 2150
+rel_def slide 0 0.000285 slid_um 133494 side_um 0
+rel_def hold 22.5 0.5 0.000285 creep_ums 581
+rel_def hold 22.5 0.75 0.000285 creep_ums 1286
+rel_def hold 22.5 0.95 0.000285 creep_ums 489709
+rel_def slide 22.5 0.000285 slid_um 159685 side_um 35416
+rel_def hold 45 0.5 0.000285 creep_ums 581
+rel_def hold 45 0.75 0.000285 creep_ums 131151
+rel_def hold 45 0.95 0.000285 creep_ums 742663
+rel_def slide 45 0.000285 slid_um 188713 side_um 0
+rel_def free 0 slid_um 133066 side_um 0
+rel_def free 22.5 slid_um 159544 side_um 34808
+rel_def free 45 slid_um 188307 side_um 0
+rel_def grip box 0 creep_ums 6398 turned_urad 0 turning_urads 0
+rel_def grip mesh 0 creep_ums 6398 turned_urad 0 turning_urads 0
+rel_def grip box 0.0093 creep_ums 6054 turned_urad 179019 turning_urads 95660
+rel_def grip mesh 0.0093 creep_ums 8083 turned_urad 192238 turning_urads 105485
+rel_def suite1 passed 9 t06_failed 1
+rel_def arm pose1 rest 0.00114 straight apart_nm 46885 speed_apart_ums 462
+rel_def arm pose1 rest 0.00114 folded apart_nm 17898 speed_apart_ums 178
+rel_def creep pose1 0.00114 native mean_speed_ums -1188
+rel_def creep pose1 0.00114 straight mean_speed_ums -733
+rel_def creep pose1 0.00114 folded mean_speed_ums -1013
+rel_def arm pose1 rest 0.000285 straight apart_nm 46884 speed_apart_ums 462
+rel_def arm pose1 rest 0.000285 folded apart_nm 17897 speed_apart_ums 178
+rel_def creep pose1 0.000285 native mean_speed_ums -1188
+rel_def creep pose1 0.000285 straight mean_speed_ums -733
+rel_def creep pose1 0.000285 folded mean_speed_ums -1013
+rel_def arm pose1 drop 0.00114 straight apart_nm 47326 speed_apart_ums 368
+rel_def arm pose1 drop 0.00114 folded apart_nm 18071 speed_apart_ums 141
+rel_def arm pose1 drop 0.000285 straight apart_nm 47334 speed_apart_ums 368
+rel_def arm pose1 drop 0.000285 folded apart_nm 18073 speed_apart_ums 141
+rel_def arm pose2 rest 0.00114 straight apart_nm 8353 speed_apart_ums 3
+rel_def arm pose2 rest 0.00114 folded apart_nm 2830 speed_apart_ums 1
+rel_def creep pose2 0.00114 native mean_speed_ums -13
+rel_def creep pose2 0.00114 straight mean_speed_ums -10
+rel_def creep pose2 0.00114 folded mean_speed_ums -14
+rel_def arm pose2 rest 0.000285 straight apart_nm 8357 speed_apart_ums 3
+rel_def arm pose2 rest 0.000285 folded apart_nm 2828 speed_apart_ums 1
+rel_def creep pose2 0.000285 native mean_speed_ums -13
+rel_def creep pose2 0.000285 straight mean_speed_ums -10
+rel_def creep pose2 0.000285 folded mean_speed_ums -14
+rel_def arm pose2 drop 0.00114 straight apart_nm 8600 speed_apart_ums 28
+rel_def arm pose2 drop 0.00114 folded apart_nm 2926 speed_apart_ums 12
+rel_def arm pose2 drop 0.000285 straight apart_nm 8602 speed_apart_ums 28
+rel_def arm pose2 drop 0.000285 folded apart_nm 2917 speed_apart_ums 10
+rel_def swing pose1 0.00114 straight apart_nm 47294 speed_apart_ums 1432
+rel_def swing pose1 0.00114 folded apart_nm 40857 speed_apart_ums 1160
+rel_def swing pose1 0.000285 straight apart_nm 39589 speed_apart_ums 1461
+rel_def swing pose1 0.000285 folded apart_nm 28414 speed_apart_ums 1205
+rel_def swing pose2 0.00114 straight apart_nm 181515 speed_apart_ums 3238
+rel_def swing pose2 0.00114 folded apart_nm 89028 speed_apart_ums 1454
+rel_def swing pose2 0.000285 straight apart_nm 180461 speed_apart_ums 3618
+rel_def swing pose2 0.000285 folded apart_nm 91362 speed_apart_ums 1814
+rel_def hold pose1 0.00114 straight apart_nm 20963248 speed_apart_ums 12487
+rel_def hold pose1 0.00114 folded apart_nm 527163 speed_apart_ums 2182
+rel_def holdcreep pose1 0.00114 native mean_speed_ums -30403
+rel_def holdcreep pose1 0.00114 straight mean_speed_ums -44941
+rel_def holdcreep pose1 0.00114 folded mean_speed_ums -27386
+rel_def hold pose1 0.000285 straight apart_nm 20962838 speed_apart_ums 12487
+rel_def hold pose1 0.000285 folded apart_nm 526465 speed_apart_ums 2183
+rel_def holdcreep pose1 0.000285 native mean_speed_ums -30404
+rel_def holdcreep pose1 0.000285 straight mean_speed_ums -44945
+rel_def holdcreep pose1 0.000285 folded mean_speed_ums -27386
+rel_def hold pose2 0.00114 straight apart_nm 20812137 speed_apart_ums 12569
+rel_def hold pose2 0.00114 folded apart_nm 5575316 speed_apart_ums 2741
+rel_def holdcreep pose2 0.00114 native mean_speed_ums -24461
+rel_def holdcreep pose2 0.00114 straight mean_speed_ums -39074
+rel_def holdcreep pose2 0.00114 folded mean_speed_ums -25557
+rel_def hold pose2 0.000285 straight apart_nm 20811223 speed_apart_ums 12569
+rel_def hold pose2 0.000285 folded apart_nm 5574559 speed_apart_ums 2741
+rel_def holdcreep pose2 0.000285 native mean_speed_ums -24463
+rel_def holdcreep pose2 0.000285 straight mean_speed_ums -39078
+rel_def holdcreep pose2 0.000285 folded mean_speed_ums -25557
+rel_def connect pose1 0.00114 straight apart_nm 85384 speed_apart_ums 0
+rel_def connect pose1 0.00114 folded apart_nm 15988 speed_apart_ums 0
+rel_def connect pose1 0.000285 straight apart_nm 85384 speed_apart_ums 0
+rel_def connect pose1 0.000285 folded apart_nm 15988 speed_apart_ums 0
+rel_def connect pose2 0.00114 straight apart_nm 98041 speed_apart_ums 0
+rel_def connect pose2 0.00114 folded apart_nm 29168 speed_apart_ums 0
+rel_def connect pose2 0.000285 straight apart_nm 98041 speed_apart_ums 0
+rel_def connect pose2 0.000285 folded apart_nm 29168 speed_apart_ums 0
+rel_def weld pose1 0.00114 straight apart_nm 66205 speed_apart_ums 0
+rel_def weld pose1 0.00114 folded apart_nm 12499 speed_apart_ums 0
+rel_def weld pose1 0.000285 straight apart_nm 66205 speed_apart_ums 0
+rel_def weld pose1 0.000285 folded apart_nm 12499 speed_apart_ums 0
+rel_def weld pose2 0.00114 straight apart_nm 84984 speed_apart_ums 0
+rel_def weld pose2 0.00114 folded apart_nm 25210 speed_apart_ums 0
+rel_def weld pose2 0.000285 straight apart_nm 84984 speed_apart_ums 0
+rel_def weld pose2 0.000285 folded apart_nm 25210 speed_apart_ums 0
+rel_def tumble 0.01 energy_end_ppm 5027 energy_largest_ppm 5027 momentum_end_ppm 2421 momentum_largest_ppm 2421
+rel_def tumble 0.0025 energy_end_ppm 1254 energy_largest_ppm 1254 momentum_end_ppm 604 momentum_largest_ppm 604
+rel_def tumble 0.000625 energy_end_ppm 313 energy_largest_ppm 313 momentum_end_ppm 150 momentum_largest_ppm 150
+rel_def tumble 0.00015625 energy_end_ppm 78 energy_largest_ppm 78 momentum_end_ppm 37 momentum_largest_ppm 37
+rel_def solver most_iterations 7 at_iteration_limit 0 warnings 0
+rel_def solvercubes most_iterations 4
+rel_rec hold 0 0.5 0.00114 creep_ums 0
+rel_rec hold 0 0.75 0.00114 creep_ums 0
+rel_rec hold 0 0.95 0.00114 creep_ums 0
+rel_rec slide 0 0.00114 slid_um 133055 side_um 0
+rel_rec hold 22.5 0.5 0.00114 creep_ums 0
+rel_rec hold 22.5 0.75 0.00114 creep_ums 0
+rel_rec hold 22.5 0.95 0.00114 creep_ums 0
+rel_rec slide 22.5 0.00114 slid_um 133055 side_um 0
+rel_rec hold 45 0.5 0.00114 creep_ums 0
+rel_rec hold 45 0.75 0.00114 creep_ums 0
+rel_rec hold 45 0.95 0.00114 creep_ums 0
+rel_rec slide 45 0.00114 slid_um 133055 side_um 0
+rel_rec hold 0 0.5 0.000285 creep_ums 0
+rel_rec hold 0 0.75 0.000285 creep_ums 0
+rel_rec hold 0 0.95 0.000285 creep_ums 0
+rel_rec slide 0 0.000285 slid_um 133493 side_um 0
+rel_rec hold 22.5 0.5 0.000285 creep_ums 0
+rel_rec hold 22.5 0.75 0.000285 creep_ums 0
+rel_rec hold 22.5 0.95 0.000285 creep_ums 0
+rel_rec slide 22.5 0.000285 slid_um 133493 side_um 0
+rel_rec hold 45 0.5 0.000285 creep_ums 0
+rel_rec hold 45 0.75 0.000285 creep_ums 0
+rel_rec hold 45 0.95 0.000285 creep_ums 0
+rel_rec slide 45 0.000285 slid_um 133493 side_um 0
+rel_rec free 0 slid_um 133058 side_um 0
+rel_rec free 22.5 slid_um 136058 side_um -231
+rel_rec free 45 slid_um 133286 side_um 0
+rel_rec grip box 0 creep_ums 1 turned_urad 51 turning_urads 26
+rel_rec grip mesh 0 creep_ums 0 turned_urad 109 turning_urads 55
+rel_rec grip box 0.0093 creep_ums 1 turned_urad 36 turning_urads 18
+rel_rec grip mesh 0.0093 creep_ums 0 turned_urad 42 turning_urads 21
+rel_rec suite1 passed 10 t06_failed 0
+rel_rec arm pose1 rest 0.00114 straight apart_nm 100699 speed_apart_ums 252
+rel_rec arm pose1 rest 0.00114 folded apart_nm 36748 speed_apart_ums 93
+rel_rec creep pose1 0.00114 native mean_speed_ums -714
+rel_rec creep pose1 0.00114 straight mean_speed_ums -464
+rel_rec creep pose1 0.00114 folded mean_speed_ums -622
+rel_rec arm pose1 rest 0.000285 straight apart_nm 100697 speed_apart_ums 253
+rel_rec arm pose1 rest 0.000285 folded apart_nm 36746 speed_apart_ums 94
+rel_rec creep pose1 0.000285 native mean_speed_ums -714
+rel_rec creep pose1 0.000285 straight mean_speed_ums -464
+rel_rec creep pose1 0.000285 folded mean_speed_ums -622
+rel_rec arm pose1 drop 0.00114 straight apart_nm 101286 speed_apart_ums 203
+rel_rec arm pose1 drop 0.00114 folded apart_nm 36942 speed_apart_ums 74
+rel_rec arm pose1 drop 0.000285 straight apart_nm 101298 speed_apart_ums 203
+rel_rec arm pose1 drop 0.000285 folded apart_nm 36947 speed_apart_ums 75
+rel_rec arm pose2 rest 0.00114 straight apart_nm 20985 speed_apart_ums 2
+rel_rec arm pose2 rest 0.00114 folded apart_nm 7046 speed_apart_ums 0
+rel_rec creep pose2 0.00114 native mean_speed_ums -9
+rel_rec creep pose2 0.00114 straight mean_speed_ums -7
+rel_rec creep pose2 0.00114 folded mean_speed_ums -9
+rel_rec arm pose2 rest 0.000285 straight apart_nm 20978 speed_apart_ums 2
+rel_rec arm pose2 rest 0.000285 folded apart_nm 7054 speed_apart_ums 1
+rel_rec creep pose2 0.000285 native mean_speed_ums -9
+rel_rec creep pose2 0.000285 straight mean_speed_ums -7
+rel_rec creep pose2 0.000285 folded mean_speed_ums -10
+rel_rec arm pose2 drop 0.00114 straight apart_nm 21594 speed_apart_ums 20
+rel_rec arm pose2 drop 0.00114 folded apart_nm 7225 speed_apart_ums 5
+rel_rec arm pose2 drop 0.000285 straight apart_nm 21574 speed_apart_ums 19
+rel_rec arm pose2 drop 0.000285 folded apart_nm 7247 speed_apart_ums 6
+rel_rec swing pose1 0.00114 straight apart_nm 47294 speed_apart_ums 1432
+rel_rec swing pose1 0.00114 folded apart_nm 40857 speed_apart_ums 1160
+rel_rec swing pose1 0.000285 straight apart_nm 39589 speed_apart_ums 1461
+rel_rec swing pose1 0.000285 folded apart_nm 28414 speed_apart_ums 1205
+rel_rec swing pose2 0.00114 straight apart_nm 181515 speed_apart_ums 3238
+rel_rec swing pose2 0.00114 folded apart_nm 89028 speed_apart_ums 1454
+rel_rec swing pose2 0.000285 straight apart_nm 180461 speed_apart_ums 3618
+rel_rec swing pose2 0.000285 folded apart_nm 91362 speed_apart_ums 1814
+rel_rec hold pose1 0.00114 straight apart_nm 71286 speed_apart_ums 36
+rel_rec hold pose1 0.00114 folded apart_nm 8538 speed_apart_ums 4
+rel_rec holdcreep pose1 0.00114 native mean_speed_ums -93
+rel_rec holdcreep pose1 0.00114 straight mean_speed_ums -121
+rel_rec holdcreep pose1 0.00114 folded mean_speed_ums -90
+rel_rec hold pose1 0.000285 straight apart_nm 71275 speed_apart_ums 36
+rel_rec hold pose1 0.000285 folded apart_nm 8538 speed_apart_ums 4
+rel_rec holdcreep pose1 0.000285 native mean_speed_ums -93
+rel_rec holdcreep pose1 0.000285 straight mean_speed_ums -121
+rel_rec holdcreep pose1 0.000285 folded mean_speed_ums -90
+rel_rec hold pose2 0.00114 straight apart_nm 21445 speed_apart_ums 11
+rel_rec hold pose2 0.00114 folded apart_nm 3739 speed_apart_ums 2
+rel_rec holdcreep pose2 0.00114 native mean_speed_ums -25
+rel_rec holdcreep pose2 0.00114 straight mean_speed_ums -34
+rel_rec holdcreep pose2 0.00114 folded mean_speed_ums -26
+rel_rec hold pose2 0.000285 straight apart_nm 21442 speed_apart_ums 11
+rel_rec hold pose2 0.000285 folded apart_nm 3738 speed_apart_ums 2
+rel_rec holdcreep pose2 0.000285 native mean_speed_ums -25
+rel_rec holdcreep pose2 0.000285 straight mean_speed_ums -34
+rel_rec holdcreep pose2 0.000285 folded mean_speed_ums -26
+rel_rec connect pose1 0.00114 straight apart_nm 85384 speed_apart_ums 0
+rel_rec connect pose1 0.00114 folded apart_nm 15988 speed_apart_ums 0
+rel_rec connect pose1 0.000285 straight apart_nm 85384 speed_apart_ums 0
+rel_rec connect pose1 0.000285 folded apart_nm 15988 speed_apart_ums 0
+rel_rec connect pose2 0.00114 straight apart_nm 98041 speed_apart_ums 0
+rel_rec connect pose2 0.00114 folded apart_nm 29168 speed_apart_ums 0
+rel_rec connect pose2 0.000285 straight apart_nm 98041 speed_apart_ums 0
+rel_rec connect pose2 0.000285 folded apart_nm 29168 speed_apart_ums 0
+rel_rec weld pose1 0.00114 straight apart_nm 66205 speed_apart_ums 0
+rel_rec weld pose1 0.00114 folded apart_nm 12499 speed_apart_ums 0
+rel_rec weld pose1 0.000285 straight apart_nm 66205 speed_apart_ums 0
+rel_rec weld pose1 0.000285 folded apart_nm 12499 speed_apart_ums 0
+rel_rec weld pose2 0.00114 straight apart_nm 84984 speed_apart_ums 0
+rel_rec weld pose2 0.00114 folded apart_nm 25210 speed_apart_ums 0
+rel_rec weld pose2 0.000285 straight apart_nm 84984 speed_apart_ums 0
+rel_rec weld pose2 0.000285 folded apart_nm 25210 speed_apart_ums 0
+rel_rec tumble 0.01 energy_end_ppm 5027 energy_largest_ppm 5027 momentum_end_ppm 2421 momentum_largest_ppm 2421
+rel_rec tumble 0.0025 energy_end_ppm 1254 energy_largest_ppm 1254 momentum_end_ppm 604 momentum_largest_ppm 604
+rel_rec tumble 0.000625 energy_end_ppm 313 energy_largest_ppm 313 momentum_end_ppm 150 momentum_largest_ppm 150
+rel_rec tumble 0.00015625 energy_end_ppm 78 energy_largest_ppm 78 momentum_end_ppm 37 momentum_largest_ppm 37
+rel_rec solver most_iterations 12 at_iteration_limit 0 warnings 0
+rel_rec solvercubes most_iterations 5
+off_def hold 0 0.5 0.00114 creep_ums 581
+off_def hold 0 0.75 0.00114 creep_ums 1452
+off_def hold 0 0.95 0.00114 creep_ums 2150
+off_def slide 0 0.00114 slid_um 133048 side_um 0
+off_def hold 22.5 0.5 0.00114 creep_ums 581
+off_def hold 22.5 0.75 0.00114 creep_ums 1286
+off_def hold 22.5 0.95 0.00114 creep_ums 490220
+off_def slide 22.5 0.00114 slid_um 159246 side_um 35448
+off_def hold 45 0.5 0.00114 creep_ums 581
+off_def hold 45 0.75 0.00114 creep_ums 131274
+off_def hold 45 0.95 0.00114 creep_ums 743398
+off_def slide 45 0.00114 slid_um 188284 side_um 0
+off_def hold 0 0.5 0.000285 creep_ums 581
+off_def hold 0 0.75 0.000285 creep_ums 1452
+off_def hold 0 0.95 0.000285 creep_ums 2150
+off_def slide 0 0.000285 slid_um 133494 side_um 0
+off_def hold 22.5 0.5 0.000285 creep_ums 581
+off_def hold 22.5 0.75 0.000285 creep_ums 1286
+off_def hold 22.5 0.95 0.000285 creep_ums 489709
+off_def slide 22.5 0.000285 slid_um 159685 side_um 35416
+off_def hold 45 0.5 0.000285 creep_ums 581
+off_def hold 45 0.75 0.000285 creep_ums 131151
+off_def hold 45 0.95 0.000285 creep_ums 742663
+off_def slide 45 0.000285 slid_um 188713 side_um 0
+off_def free 0 slid_um 133066 side_um 0
+off_def free 22.5 slid_um 159544 side_um 34808
+off_def free 45 slid_um 188307 side_um 0
+off_def grip box 0 creep_ums 6398 turned_urad 0 turning_urads 0
+off_def grip mesh 0 creep_ums 6398 turned_urad 0 turning_urads 0
+off_def grip box 0.0093 creep_ums 6054 turned_urad 179019 turning_urads 95660
+off_def grip mesh 0.0093 creep_ums 8083 turned_urad 192238 turning_urads 105485
+off_def suite1 passed 9 t06_failed 1
+off_def arm pose1 rest 0.00114 straight apart_nm 46885 speed_apart_ums 462
+off_def arm pose1 rest 0.00114 folded apart_nm 17898 speed_apart_ums 178
+off_def creep pose1 0.00114 native mean_speed_ums -1188
+off_def creep pose1 0.00114 straight mean_speed_ums -733
+off_def creep pose1 0.00114 folded mean_speed_ums -1013
+off_def arm pose1 rest 0.000285 straight apart_nm 46884 speed_apart_ums 462
+off_def arm pose1 rest 0.000285 folded apart_nm 17897 speed_apart_ums 178
+off_def creep pose1 0.000285 native mean_speed_ums -1188
+off_def creep pose1 0.000285 straight mean_speed_ums -733
+off_def creep pose1 0.000285 folded mean_speed_ums -1013
+off_def arm pose1 drop 0.00114 straight apart_nm 47326 speed_apart_ums 368
+off_def arm pose1 drop 0.00114 folded apart_nm 18071 speed_apart_ums 141
+off_def arm pose1 drop 0.000285 straight apart_nm 47334 speed_apart_ums 368
+off_def arm pose1 drop 0.000285 folded apart_nm 18073 speed_apart_ums 141
+off_def arm pose2 rest 0.00114 straight apart_nm 8353 speed_apart_ums 3
+off_def arm pose2 rest 0.00114 folded apart_nm 2830 speed_apart_ums 1
+off_def creep pose2 0.00114 native mean_speed_ums -13
+off_def creep pose2 0.00114 straight mean_speed_ums -10
+off_def creep pose2 0.00114 folded mean_speed_ums -14
+off_def arm pose2 rest 0.000285 straight apart_nm 8357 speed_apart_ums 3
+off_def arm pose2 rest 0.000285 folded apart_nm 2828 speed_apart_ums 1
+off_def creep pose2 0.000285 native mean_speed_ums -13
+off_def creep pose2 0.000285 straight mean_speed_ums -10
+off_def creep pose2 0.000285 folded mean_speed_ums -14
+off_def arm pose2 drop 0.00114 straight apart_nm 8600 speed_apart_ums 28
+off_def arm pose2 drop 0.00114 folded apart_nm 2926 speed_apart_ums 12
+off_def arm pose2 drop 0.000285 straight apart_nm 8602 speed_apart_ums 28
+off_def arm pose2 drop 0.000285 folded apart_nm 2917 speed_apart_ums 10
+off_def swing pose1 0.00114 straight apart_nm 47294 speed_apart_ums 1432
+off_def swing pose1 0.00114 folded apart_nm 40857 speed_apart_ums 1160
+off_def swing pose1 0.000285 straight apart_nm 39589 speed_apart_ums 1461
+off_def swing pose1 0.000285 folded apart_nm 28414 speed_apart_ums 1205
+off_def swing pose2 0.00114 straight apart_nm 181515 speed_apart_ums 3238
+off_def swing pose2 0.00114 folded apart_nm 89028 speed_apart_ums 1454
+off_def swing pose2 0.000285 straight apart_nm 180461 speed_apart_ums 3618
+off_def swing pose2 0.000285 folded apart_nm 91362 speed_apart_ums 1814
+off_def hold pose1 0.00114 straight apart_nm 20963248 speed_apart_ums 12487
+off_def hold pose1 0.00114 folded apart_nm 527163 speed_apart_ums 2182
+off_def holdcreep pose1 0.00114 native mean_speed_ums -30403
+off_def holdcreep pose1 0.00114 straight mean_speed_ums -44941
+off_def holdcreep pose1 0.00114 folded mean_speed_ums -27386
+off_def hold pose1 0.000285 straight apart_nm 20962838 speed_apart_ums 12487
+off_def hold pose1 0.000285 folded apart_nm 526465 speed_apart_ums 2183
+off_def holdcreep pose1 0.000285 native mean_speed_ums -30404
+off_def holdcreep pose1 0.000285 straight mean_speed_ums -44945
+off_def holdcreep pose1 0.000285 folded mean_speed_ums -27386
+off_def hold pose2 0.00114 straight apart_nm 20812137 speed_apart_ums 12569
+off_def hold pose2 0.00114 folded apart_nm 5575316 speed_apart_ums 2741
+off_def holdcreep pose2 0.00114 native mean_speed_ums -24461
+off_def holdcreep pose2 0.00114 straight mean_speed_ums -39074
+off_def holdcreep pose2 0.00114 folded mean_speed_ums -25557
+off_def hold pose2 0.000285 straight apart_nm 20811223 speed_apart_ums 12569
+off_def hold pose2 0.000285 folded apart_nm 5574559 speed_apart_ums 2741
+off_def holdcreep pose2 0.000285 native mean_speed_ums -24463
+off_def holdcreep pose2 0.000285 straight mean_speed_ums -39078
+off_def holdcreep pose2 0.000285 folded mean_speed_ums -25557
+off_def connect pose1 0.00114 straight apart_nm 85384 speed_apart_ums 0
+off_def connect pose1 0.00114 folded apart_nm 15988 speed_apart_ums 0
+off_def connect pose1 0.000285 straight apart_nm 85384 speed_apart_ums 0
+off_def connect pose1 0.000285 folded apart_nm 15988 speed_apart_ums 0
+off_def connect pose2 0.00114 straight apart_nm 98041 speed_apart_ums 0
+off_def connect pose2 0.00114 folded apart_nm 29168 speed_apart_ums 0
+off_def connect pose2 0.000285 straight apart_nm 98041 speed_apart_ums 0
+off_def connect pose2 0.000285 folded apart_nm 29168 speed_apart_ums 0
+off_def weld pose1 0.00114 straight apart_nm 66205 speed_apart_ums 0
+off_def weld pose1 0.00114 folded apart_nm 12499 speed_apart_ums 0
+off_def weld pose1 0.000285 straight apart_nm 66205 speed_apart_ums 0
+off_def weld pose1 0.000285 folded apart_nm 12499 speed_apart_ums 0
+off_def weld pose2 0.00114 straight apart_nm 84984 speed_apart_ums 0
+off_def weld pose2 0.00114 folded apart_nm 25210 speed_apart_ums 0
+off_def weld pose2 0.000285 straight apart_nm 84984 speed_apart_ums 0
+off_def weld pose2 0.000285 folded apart_nm 25210 speed_apart_ums 0
+off_def tumble 0.01 energy_end_ppm 5027 energy_largest_ppm 5027 momentum_end_ppm 2421 momentum_largest_ppm 2421
+off_def tumble 0.0025 energy_end_ppm 1254 energy_largest_ppm 1254 momentum_end_ppm 604 momentum_largest_ppm 604
+off_def tumble 0.000625 energy_end_ppm 313 energy_largest_ppm 313 momentum_end_ppm 150 momentum_largest_ppm 150
+off_def tumble 0.00015625 energy_end_ppm 78 energy_largest_ppm 78 momentum_end_ppm 37 momentum_largest_ppm 37
+off_def solver most_iterations 7 at_iteration_limit 0 warnings 0
+off_def solvercubes most_iterations 4
+off_rec hold 0 0.5 0.00114 creep_ums 0
+off_rec hold 0 0.75 0.00114 creep_ums 0
+off_rec hold 0 0.95 0.00114 creep_ums 0
+off_rec slide 0 0.00114 slid_um 133055 side_um 0
+off_rec hold 22.5 0.5 0.00114 creep_ums 0
+off_rec hold 22.5 0.75 0.00114 creep_ums 0
+off_rec hold 22.5 0.95 0.00114 creep_ums 0
+off_rec slide 22.5 0.00114 slid_um 133055 side_um 0
+off_rec hold 45 0.5 0.00114 creep_ums 0
+off_rec hold 45 0.75 0.00114 creep_ums 0
+off_rec hold 45 0.95 0.00114 creep_ums 0
+off_rec slide 45 0.00114 slid_um 133055 side_um 0
+off_rec hold 0 0.5 0.000285 creep_ums 0
+off_rec hold 0 0.75 0.000285 creep_ums 0
+off_rec hold 0 0.95 0.000285 creep_ums 0
+off_rec slide 0 0.000285 slid_um 133493 side_um 0
+off_rec hold 22.5 0.5 0.000285 creep_ums 0
+off_rec hold 22.5 0.75 0.000285 creep_ums 0
+off_rec hold 22.5 0.95 0.000285 creep_ums 0
+off_rec slide 22.5 0.000285 slid_um 133493 side_um 0
+off_rec hold 45 0.5 0.000285 creep_ums 0
+off_rec hold 45 0.75 0.000285 creep_ums 0
+off_rec hold 45 0.95 0.000285 creep_ums 0
+off_rec slide 45 0.000285 slid_um 133493 side_um 0
+off_rec free 0 slid_um 133058 side_um 0
+off_rec free 22.5 slid_um 136058 side_um -231
+off_rec free 45 slid_um 133286 side_um 0
+off_rec grip box 0 creep_ums 1 turned_urad 51 turning_urads 26
+off_rec grip mesh 0 creep_ums 0 turned_urad 109 turning_urads 55
+off_rec grip box 0.0093 creep_ums 1 turned_urad 36 turning_urads 18
+off_rec grip mesh 0.0093 creep_ums 0 turned_urad 42 turning_urads 21
+off_rec suite1 passed 10 t06_failed 0
+off_rec arm pose1 rest 0.00114 straight apart_nm 100699 speed_apart_ums 252
+off_rec arm pose1 rest 0.00114 folded apart_nm 36748 speed_apart_ums 93
+off_rec creep pose1 0.00114 native mean_speed_ums -714
+off_rec creep pose1 0.00114 straight mean_speed_ums -464
+off_rec creep pose1 0.00114 folded mean_speed_ums -622
+off_rec arm pose1 rest 0.000285 straight apart_nm 100697 speed_apart_ums 253
+off_rec arm pose1 rest 0.000285 folded apart_nm 36746 speed_apart_ums 94
+off_rec creep pose1 0.000285 native mean_speed_ums -714
+off_rec creep pose1 0.000285 straight mean_speed_ums -464
+off_rec creep pose1 0.000285 folded mean_speed_ums -622
+off_rec arm pose1 drop 0.00114 straight apart_nm 101286 speed_apart_ums 203
+off_rec arm pose1 drop 0.00114 folded apart_nm 36942 speed_apart_ums 74
+off_rec arm pose1 drop 0.000285 straight apart_nm 101298 speed_apart_ums 203
+off_rec arm pose1 drop 0.000285 folded apart_nm 36947 speed_apart_ums 75
+off_rec arm pose2 rest 0.00114 straight apart_nm 20985 speed_apart_ums 2
+off_rec arm pose2 rest 0.00114 folded apart_nm 7046 speed_apart_ums 0
+off_rec creep pose2 0.00114 native mean_speed_ums -9
+off_rec creep pose2 0.00114 straight mean_speed_ums -7
+off_rec creep pose2 0.00114 folded mean_speed_ums -9
+off_rec arm pose2 rest 0.000285 straight apart_nm 20978 speed_apart_ums 2
+off_rec arm pose2 rest 0.000285 folded apart_nm 7054 speed_apart_ums 1
+off_rec creep pose2 0.000285 native mean_speed_ums -9
+off_rec creep pose2 0.000285 straight mean_speed_ums -7
+off_rec creep pose2 0.000285 folded mean_speed_ums -10
+off_rec arm pose2 drop 0.00114 straight apart_nm 21594 speed_apart_ums 20
+off_rec arm pose2 drop 0.00114 folded apart_nm 7225 speed_apart_ums 5
+off_rec arm pose2 drop 0.000285 straight apart_nm 21574 speed_apart_ums 19
+off_rec arm pose2 drop 0.000285 folded apart_nm 7247 speed_apart_ums 6
+off_rec swing pose1 0.00114 straight apart_nm 47294 speed_apart_ums 1432
+off_rec swing pose1 0.00114 folded apart_nm 40857 speed_apart_ums 1160
+off_rec swing pose1 0.000285 straight apart_nm 39589 speed_apart_ums 1461
+off_rec swing pose1 0.000285 folded apart_nm 28414 speed_apart_ums 1205
+off_rec swing pose2 0.00114 straight apart_nm 181515 speed_apart_ums 3238
+off_rec swing pose2 0.00114 folded apart_nm 89028 speed_apart_ums 1454
+off_rec swing pose2 0.000285 straight apart_nm 180461 speed_apart_ums 3618
+off_rec swing pose2 0.000285 folded apart_nm 91362 speed_apart_ums 1814
+off_rec hold pose1 0.00114 straight apart_nm 71286 speed_apart_ums 36
+off_rec hold pose1 0.00114 folded apart_nm 8538 speed_apart_ums 4
+off_rec holdcreep pose1 0.00114 native mean_speed_ums -93
+off_rec holdcreep pose1 0.00114 straight mean_speed_ums -121
+off_rec holdcreep pose1 0.00114 folded mean_speed_ums -90
+off_rec hold pose1 0.000285 straight apart_nm 71275 speed_apart_ums 36
+off_rec hold pose1 0.000285 folded apart_nm 8538 speed_apart_ums 4
+off_rec holdcreep pose1 0.000285 native mean_speed_ums -93
+off_rec holdcreep pose1 0.000285 straight mean_speed_ums -121
+off_rec holdcreep pose1 0.000285 folded mean_speed_ums -90
+off_rec hold pose2 0.00114 straight apart_nm 21445 speed_apart_ums 11
+off_rec hold pose2 0.00114 folded apart_nm 3739 speed_apart_ums 2
+off_rec holdcreep pose2 0.00114 native mean_speed_ums -25
+off_rec holdcreep pose2 0.00114 straight mean_speed_ums -34
+off_rec holdcreep pose2 0.00114 folded mean_speed_ums -26
+off_rec hold pose2 0.000285 straight apart_nm 21442 speed_apart_ums 11
+off_rec hold pose2 0.000285 folded apart_nm 3738 speed_apart_ums 2
+off_rec holdcreep pose2 0.000285 native mean_speed_ums -25
+off_rec holdcreep pose2 0.000285 straight mean_speed_ums -34
+off_rec holdcreep pose2 0.000285 folded mean_speed_ums -26
+off_rec connect pose1 0.00114 straight apart_nm 85384 speed_apart_ums 0
+off_rec connect pose1 0.00114 folded apart_nm 15988 speed_apart_ums 0
+off_rec connect pose1 0.000285 straight apart_nm 85384 speed_apart_ums 0
+off_rec connect pose1 0.000285 folded apart_nm 15988 speed_apart_ums 0
+off_rec connect pose2 0.00114 straight apart_nm 98041 speed_apart_ums 0
+off_rec connect pose2 0.00114 folded apart_nm 29168 speed_apart_ums 0
+off_rec connect pose2 0.000285 straight apart_nm 98041 speed_apart_ums 0
+off_rec connect pose2 0.000285 folded apart_nm 29168 speed_apart_ums 0
+off_rec weld pose1 0.00114 straight apart_nm 66205 speed_apart_ums 0
+off_rec weld pose1 0.00114 folded apart_nm 12499 speed_apart_ums 0
+off_rec weld pose1 0.000285 straight apart_nm 66205 speed_apart_ums 0
+off_rec weld pose1 0.000285 folded apart_nm 12499 speed_apart_ums 0
+off_rec weld pose2 0.00114 straight apart_nm 84984 speed_apart_ums 0
+off_rec weld pose2 0.00114 folded apart_nm 25210 speed_apart_ums 0
+off_rec weld pose2 0.000285 straight apart_nm 84984 speed_apart_ums 0
+off_rec weld pose2 0.000285 folded apart_nm 25210 speed_apart_ums 0
+off_rec tumble 0.01 energy_end_ppm 5027 energy_largest_ppm 5027 momentum_end_ppm 2421 momentum_largest_ppm 2421
+off_rec tumble 0.0025 energy_end_ppm 1254 energy_largest_ppm 1254 momentum_end_ppm 604 momentum_largest_ppm 604
+off_rec tumble 0.000625 energy_end_ppm 313 energy_largest_ppm 313 momentum_end_ppm 150 momentum_largest_ppm 150
+off_rec tumble 0.00015625 energy_end_ppm 78 energy_largest_ppm 78 momentum_end_ppm 37 momentum_largest_ppm 37
+off_rec solver most_iterations 12 at_iteration_limit 0 warnings 0
+off_rec solvercubes most_iterations 5
+config hold 0 0.5 0.00114 creep_ums 0
+config hold 0 0.75 0.00114 creep_ums 0
+config hold 0 0.95 0.00114 creep_ums 0
+config slide 0 0.00114 slid_um 133055 side_um 0
+config hold 22.5 0.5 0.00114 creep_ums 0
+config hold 22.5 0.75 0.00114 creep_ums 0
+config hold 22.5 0.95 0.00114 creep_ums 0
+config slide 22.5 0.00114 slid_um 133055 side_um 0
+config hold 45 0.5 0.00114 creep_ums 0
+config hold 45 0.75 0.00114 creep_ums 0
+config hold 45 0.95 0.00114 creep_ums 0
+config slide 45 0.00114 slid_um 133055 side_um 0
+config hold 0 0.5 0.000285 creep_ums 0
+config hold 0 0.75 0.000285 creep_ums 0
+config hold 0 0.95 0.000285 creep_ums 0
+config slide 0 0.000285 slid_um 133493 side_um 0
+config hold 22.5 0.5 0.000285 creep_ums 0
+config hold 22.5 0.75 0.000285 creep_ums 0
+config hold 22.5 0.95 0.000285 creep_ums 0
+config slide 22.5 0.000285 slid_um 133493 side_um 0
+config hold 45 0.5 0.000285 creep_ums 0
+config hold 45 0.75 0.000285 creep_ums 0
+config hold 45 0.95 0.000285 creep_ums 0
+config slide 45 0.000285 slid_um 133493 side_um 0
+config free 0 slid_um 133058 side_um 0
+config free 22.5 slid_um 136058 side_um -231
+config free 45 slid_um 133286 side_um 0
+config grip box 0 creep_ums 1 turned_urad 51 turning_urads 26
+config grip mesh 0 creep_ums 0 turned_urad 109 turning_urads 55
+config grip box 0.0093 creep_ums 1 turned_urad 36 turning_urads 18
+config grip mesh 0.0093 creep_ums 0 turned_urad 42 turning_urads 21
+config suite1 passed 10 t06_failed 0
+config arm pose1 rest 0.00114 straight apart_nm 0 speed_apart_ums 0
+config arm pose1 rest 0.00114 folded apart_nm 0 speed_apart_ums 0
+config creep pose1 0.00114 native mean_speed_ums -713
+config creep pose1 0.00114 straight mean_speed_ums -713
+config creep pose1 0.00114 folded mean_speed_ums -713
+config arm pose1 rest 0.000285 straight apart_nm 0 speed_apart_ums 0
+config arm pose1 rest 0.000285 folded apart_nm 0 speed_apart_ums 0
+config creep pose1 0.000285 native mean_speed_ums -714
+config creep pose1 0.000285 straight mean_speed_ums -714
+config creep pose1 0.000285 folded mean_speed_ums -714
+config arm pose1 drop 0.00114 straight apart_nm 0 speed_apart_ums 0
+config arm pose1 drop 0.00114 folded apart_nm 0 speed_apart_ums 0
+config arm pose1 drop 0.000285 straight apart_nm 0 speed_apart_ums 0
+config arm pose1 drop 0.000285 folded apart_nm 0 speed_apart_ums 0
+config arm pose2 rest 0.00114 straight apart_nm 0 speed_apart_ums 0
+config arm pose2 rest 0.00114 folded apart_nm 0 speed_apart_ums 0
+config creep pose2 0.00114 native mean_speed_ums -11
+config creep pose2 0.00114 straight mean_speed_ums -11
+config creep pose2 0.00114 folded mean_speed_ums -11
+config arm pose2 rest 0.000285 straight apart_nm 0 speed_apart_ums 0
+config arm pose2 rest 0.000285 folded apart_nm 0 speed_apart_ums 0
+config creep pose2 0.000285 native mean_speed_ums -12
+config creep pose2 0.000285 straight mean_speed_ums -12
+config creep pose2 0.000285 folded mean_speed_ums -12
+config arm pose2 drop 0.00114 straight apart_nm 0 speed_apart_ums 0
+config arm pose2 drop 0.00114 folded apart_nm 0 speed_apart_ums 0
+config arm pose2 drop 0.000285 straight apart_nm 0 speed_apart_ums 0
+config arm pose2 drop 0.000285 folded apart_nm 0 speed_apart_ums 0
+config swing pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config swing pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config swing pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config swing pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config swing pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config swing pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config swing pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config swing pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config hold pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config hold pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config holdcreep pose1 0.00114 native mean_speed_ums -93
+config holdcreep pose1 0.00114 straight mean_speed_ums -93
+config holdcreep pose1 0.00114 folded mean_speed_ums -93
+config hold pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config hold pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config holdcreep pose1 0.000285 native mean_speed_ums -93
+config holdcreep pose1 0.000285 straight mean_speed_ums -93
+config holdcreep pose1 0.000285 folded mean_speed_ums -93
+config hold pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config hold pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config holdcreep pose2 0.00114 native mean_speed_ums -25
+config holdcreep pose2 0.00114 straight mean_speed_ums -25
+config holdcreep pose2 0.00114 folded mean_speed_ums -25
+config hold pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config hold pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config holdcreep pose2 0.000285 native mean_speed_ums -25
+config holdcreep pose2 0.000285 straight mean_speed_ums -25
+config holdcreep pose2 0.000285 folded mean_speed_ums -25
+config connect pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config connect pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config connect pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config connect pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config connect pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config connect pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config connect pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config connect pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config weld pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config weld pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config weld pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config weld pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config weld pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config weld pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config weld pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config weld pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config tumble 0.01 energy_end_ppm 5027 energy_largest_ppm 5027 momentum_end_ppm 2421 momentum_largest_ppm 2421
+config tumble 0.0025 energy_end_ppm 1254 energy_largest_ppm 1254 momentum_end_ppm 604 momentum_largest_ppm 604
+config tumble 0.000625 energy_end_ppm 313 energy_largest_ppm 313 momentum_end_ppm 150 momentum_largest_ppm 150
+config tumble 0.00015625 energy_end_ppm 78 energy_largest_ppm 78 momentum_end_ppm 37 momentum_largest_ppm 37
+config solver most_iterations 12 at_iteration_limit 0 warnings 0
+config solvercubes most_iterations 5
+config_rk4 hold 0 0.5 0.00114 creep_ums 0
+config_rk4 hold 0 0.75 0.00114 creep_ums 0
+config_rk4 hold 0 0.95 0.00114 creep_ums 0
+config_rk4 slide 0 0.00114 slid_um 133056 side_um 0
+config_rk4 hold 22.5 0.5 0.00114 creep_ums 0
+config_rk4 hold 22.5 0.75 0.00114 creep_ums 0
+config_rk4 hold 22.5 0.95 0.00114 creep_ums 0
+config_rk4 slide 22.5 0.00114 slid_um 133056 side_um 0
+config_rk4 hold 45 0.5 0.00114 creep_ums 0
+config_rk4 hold 45 0.75 0.00114 creep_ums 0
+config_rk4 hold 45 0.95 0.00114 creep_ums 0
+config_rk4 slide 45 0.00114 slid_um 133056 side_um 0
+config_rk4 hold 0 0.5 0.000285 creep_ums 0
+config_rk4 hold 0 0.75 0.000285 creep_ums 0
+config_rk4 hold 0 0.95 0.000285 creep_ums 0
+config_rk4 slide 0 0.000285 slid_um 133482 side_um 0
+config_rk4 hold 22.5 0.5 0.000285 creep_ums 0
+config_rk4 hold 22.5 0.75 0.000285 creep_ums 0
+config_rk4 hold 22.5 0.95 0.000285 creep_ums 0
+config_rk4 slide 22.5 0.000285 slid_um 133482 side_um 0
+config_rk4 hold 45 0.5 0.000285 creep_ums 0
+config_rk4 hold 45 0.75 0.000285 creep_ums 0
+config_rk4 hold 45 0.95 0.000285 creep_ums 0
+config_rk4 slide 45 0.000285 slid_um 133482 side_um 0
+config_rk4 free 0 slid_um 133068 side_um 0
+config_rk4 free 22.5 slid_um 134914 side_um 590
+config_rk4 free 45 slid_um 133092 side_um 0
+config_rk4 grip box 0 creep_ums 1 turned_urad 51 turning_urads 26
+config_rk4 grip mesh 0 creep_ums 0 turned_urad 109 turning_urads 55
+config_rk4 grip box 0.0093 creep_ums 1 turned_urad 36 turning_urads 18
+config_rk4 grip mesh 0.0093 creep_ums 0 turned_urad 42 turning_urads 21
+config_rk4 suite1 passed 9 t06_failed 0
+config_rk4 arm pose1 rest 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose1 rest 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 creep pose1 0.00114 native mean_speed_ums -713
+config_rk4 creep pose1 0.00114 straight mean_speed_ums -713
+config_rk4 creep pose1 0.00114 folded mean_speed_ums -713
+config_rk4 arm pose1 rest 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose1 rest 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 creep pose1 0.000285 native mean_speed_ums -714
+config_rk4 creep pose1 0.000285 straight mean_speed_ums -714
+config_rk4 creep pose1 0.000285 folded mean_speed_ums -714
+config_rk4 arm pose1 drop 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose1 drop 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose1 drop 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose1 drop 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 rest 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 rest 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 creep pose2 0.00114 native mean_speed_ums -11
+config_rk4 creep pose2 0.00114 straight mean_speed_ums -11
+config_rk4 creep pose2 0.00114 folded mean_speed_ums -11
+config_rk4 arm pose2 rest 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 rest 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 creep pose2 0.000285 native mean_speed_ums -12
+config_rk4 creep pose2 0.000285 straight mean_speed_ums -12
+config_rk4 creep pose2 0.000285 folded mean_speed_ums -12
+config_rk4 arm pose2 drop 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 drop 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 drop 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 arm pose2 drop 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 swing pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 hold pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 hold pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 holdcreep pose1 0.00114 native mean_speed_ums -93
+config_rk4 holdcreep pose1 0.00114 straight mean_speed_ums -93
+config_rk4 holdcreep pose1 0.00114 folded mean_speed_ums -93
+config_rk4 hold pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 hold pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 holdcreep pose1 0.000285 native mean_speed_ums -93
+config_rk4 holdcreep pose1 0.000285 straight mean_speed_ums -93
+config_rk4 holdcreep pose1 0.000285 folded mean_speed_ums -93
+config_rk4 hold pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 hold pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 holdcreep pose2 0.00114 native mean_speed_ums -25
+config_rk4 holdcreep pose2 0.00114 straight mean_speed_ums -25
+config_rk4 holdcreep pose2 0.00114 folded mean_speed_ums -25
+config_rk4 hold pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 hold pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 holdcreep pose2 0.000285 native mean_speed_ums -25
+config_rk4 holdcreep pose2 0.000285 straight mean_speed_ums -25
+config_rk4 holdcreep pose2 0.000285 folded mean_speed_ums -25
+config_rk4 connect pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 connect pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose1 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose1 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose1 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose1 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose2 0.00114 straight apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose2 0.00114 folded apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose2 0.000285 straight apart_nm 0 speed_apart_ums 0
+config_rk4 weld pose2 0.000285 folded apart_nm 0 speed_apart_ums 0
+config_rk4 tumble 0.01 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+config_rk4 tumble 0.0025 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+config_rk4 tumble 0.000625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+config_rk4 tumble 0.00015625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+config_rk4 solver most_iterations 15 at_iteration_limit 0 warnings 0
+config_rk4 solvercubes most_iterations 5

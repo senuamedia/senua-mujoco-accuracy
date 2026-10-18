@@ -1,0 +1,16 @@
+scene_rel along x: moved 195001712 nm; speed at steps 50, 100, 150, 200: 54 -76978 3830 54 um/s
+scene_rel along z: moved -1644 nm; speed at the end 194 um/s
+scene_v4 along x: moved 188158883 nm; speed at steps 50, 100, 150, 200: 3854 55 -76903 3854 um/s
+scene_v4 along z: moved -25101 nm; speed at the end 7381 um/s
+scene_condim3_rel along x: moved 195008353 nm; speed at steps 50, 100, 150, 200: 0 0 0 0 um/s
+scene_condim3_rel along z: moved -1093 nm; speed at the end 0 um/s
+scene_condim3_v4 along x: moved 188206350 nm; speed at steps 50, 100, 150, 200: 0 0 0 0 um/s
+scene_condim3_v4 along z: moved -1093 nm; speed at the end 0 um/s
+scene_nonoslip_rel along x: moved 195008659 nm; speed at steps 50, 100, 150, 200: 0 0 0 0 um/s
+scene_nonoslip_rel along z: moved -1093 nm; speed at the end 0 um/s
+scene_nonoslip_v4 along x: moved 188213868 nm; speed at steps 50, 100, 150, 200: 0 0 0 0 um/s
+scene_nonoslip_v4 along z: moved -1093 nm; speed at the end 0 um/s
+scene_euler_rel along x: moved -67479757795 nm; speed at steps 50, 100, 150, 200: -21203442 -21203442 -21203442 -21203442 um/s
+scene_euler_rel along z: moved 23401421945 nm; speed at the end -8188558 um/s
+scene_euler_v4 along x: moved 35907858281 nm; speed at steps 50, 100, 150, 200: -11200948 -11200948 -11200948 124290862 um/s
+scene_euler_v4 along z: moved 487191137564 nm; speed at the end 920516630 um/s

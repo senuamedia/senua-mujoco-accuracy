@@ -1,0 +1,97 @@
+--- a/src/engine/engine_solver.c	2026-10-16 23:42:47
++++ b/src/engine/engine_solver.c	2026-10-16 23:43:24
+@@ -16,6 +16,7 @@
+ 
+ #include <stddef.h>
+ #include <stdint.h>
++#include <stdlib.h>
+ #include <string.h>
+ 
+ #include <mujoco/mjdata.h>
+@@ -398,14 +399,86 @@
+       friction[j] *= scl;
+     }
+   }
++}
++
++
++// Senua AI patch, in design (off unless MUJOCO_QCQP_REDUCED=1): a contact's friction solved only in the directions in
++// which its bodies can move. mju_QCQP2, mju_QCQP3 and mju_QCQP reject the friction block as not positive definite by an
++// absolute threshold (1e-10) on its determinant or pivots, after scaling by the friction coefficients. When one friction
++// direction cannot move (its entry in A is negligible, as across the plane of a planar arm) the block is singular in
++// that direction and is rejected in some poses: the solve returns zero friction, and noslip puts the old friction back.
++// Friction in a direction that cannot move does nothing to the motion; this sets it to zero and solves the other
++// directions with MuJoCo's own solvers, in the same ellipsoid. A direction is dropped when its entry is at most 1e-10 of
++// the block's largest, or at the floor of 1e-10 noslip clamps it to; when none is, it returns 0 and the solve is MuJoCo's as released.
++static int qcqpReducedOn(void) {
++  const char* s = getenv("MUJOCO_QCQP_REDUCED");
++  return s && s[0] == '1' && s[1] == 0;
+ }
+ 
++static int solveQCQPReduced(mjtNum* force, int i, int dim, const mjtNum* Ac, const mjtNum* bc, const mjtNum* mu) {
++  int n = dim-1, k = 0, keep[5];
++  mjtNum amax = 0;
++  for (int j=0; j < n; j++) {
++    amax = mju_max(amax, Ac[j*n+j]);
++  }
++  for (int j=0; j < n; j++) {
++    if (Ac[j*n+j] > mju_max(1e-10*amax, 1e-10)) {
++      keep[k++] = j;
++    }
++  }
++  if (k == n) {
++    return 0;
++  }
+ 
++  // the block, the residual and the friction coefficients of the directions that can move
++  mjtNum A[25], b[5], d[5], v[5];
++  for (int p=0; p < k; p++) {
++    b[p] = bc[keep[p]];
++    d[p] = mu[keep[p]];
++    for (int q=0; q < k; q++) {
++      A[p*k+q] = Ac[keep[p]*n+keep[q]];
++    }
++  }
++  int flg_active = 0;
++  if (k == 1) {
++    // one direction: the minimum of 0.5*A*x^2 + b*x on |x| <= d*normal
++    mjtNum lim = d[0]*force[i];
++    v[0] = -b[0]/A[0];
++    if (v[0] > lim) {
++      v[0] = lim;
++    } else if (v[0] < -lim) {
++      v[0] = -lim;
++    }
++  } else if (k == 2) {
++    flg_active = mju_QCQP2(v, A, b, d, force[i]);
++  } else if (k == 3) {
++    flg_active = mju_QCQP3(v, A, b, d, force[i]);
++  } else if (k == 4) {
++    flg_active = mju_QCQP(v, A, b, d, force[i], k);
++  }
++  if (flg_active) {
++    projectEllipsoid(v, force[i], d, k+1, /*feasible=*/0);
++  }
++
++  // friction in the directions that cannot move: zero
++  mju_zero(force+i+1, n);
++  for (int p=0; p < k; p++) {
++    force[i+1+keep[p]] = v[p];
++  }
++  return 1;
++}
++
++
+ // solve QCQP and project onto friction ellipsoid, write to force[i+1..i+dim-1]
+ static void solveQCQP(mjtNum* force, int i, int dim,
+                       mjtNum* Ac, mjtNum* bc, const mjtNum* mu) {
+   int flg_active;
+   mjtNum v[6];
++
++  // Senua AI patch, in design: the friction solved only in the directions that can move (solveQCQPReduced)
++  if (qcqpReducedOn() && solveQCQPReduced(force, i, dim, Ac, bc, mu)) {
++    return;
++  }
+ 
+   // solve
+   if (dim == 3) {

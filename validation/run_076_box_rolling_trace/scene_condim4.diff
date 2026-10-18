@@ -1,0 +1,4 @@
+10c10
+<         <geom type="box" size=".05 .05 .05" mass="1" solref="0.002 1" condim="6"/>
+---
+>         <geom type="box" size=".05 .05 .05" mass="1" solref="0.002 1" condim="4"/>

@@ -1,0 +1,13 @@
+hold_elliptic_0_ns10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_0_ns0 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_0_ns10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_0_ns100 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_30_ns0 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1024 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_30_ns10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 782 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_off_30_ns100 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 782 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_0_ns0 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_0_ns10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_0_ns100 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_30_ns0 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_30_ns10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 782 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold_on_30_ns100 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 782 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000

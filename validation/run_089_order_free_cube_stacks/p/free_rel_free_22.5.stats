@@ -1,0 +1,1 @@
+STATS contact dt 0.001277 h0 0 vx0 0 mu 0.734 lock 0 mass 0.819 radius 0.0316 steps 1253 most_iterations 10 at_iteration_limit 0 iteration_limit 100 warnings 0 side_um -43 most_side_ums 1180 yaw_end_urad -2031 most_yaw_urad 2031 most_tilt_urad 4499 steps_under_4_contacts 918 engine mujoco 3.16.0 extra dir=22.5 cone=elliptic noslip=100

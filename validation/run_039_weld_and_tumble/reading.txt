@@ -1,0 +1,114 @@
+weld release defaults pose1 0.0016 native | FINAL angle_urad 999751463 speed_urads 0
+weld release defaults pose1 0.0016 straight | FINAL angle_urad 999808459 speed_urads 0
+weld release defaults pose1 0.0016 folded | FINAL angle_urad 999752140 speed_urads 0
+weld release defaults pose1 0.0016 native against straight | ENDS place_apart_nm 56996 speed_apart_ums 0
+weld release defaults pose1 0.0016 native against folded | ENDS place_apart_nm 677 speed_apart_ums 0
+weld release defaults pose1 0.0004 native | FINAL angle_urad 999751463 speed_urads 0
+weld release defaults pose1 0.0004 straight | FINAL angle_urad 999808459 speed_urads 0
+weld release defaults pose1 0.0004 folded | FINAL angle_urad 999752140 speed_urads 0
+weld release defaults pose1 0.0004 native against straight | ENDS place_apart_nm 56996 speed_apart_ums 0
+weld release defaults pose1 0.0004 native against folded | ENDS place_apart_nm 677 speed_apart_ums 0
+weld release defaults pose2 0.0016 native | FINAL angle_urad 999711535 speed_urads 0
+weld release defaults pose2 0.0016 straight | FINAL angle_urad 999796419 speed_urads 0
+weld release defaults pose2 0.0016 folded | FINAL angle_urad 999730614 speed_urads 0
+weld release defaults pose2 0.0016 native against straight | ENDS place_apart_nm 84884 speed_apart_ums 0
+weld release defaults pose2 0.0016 native against folded | ENDS place_apart_nm 19079 speed_apart_ums 0
+weld release defaults pose2 0.0004 native | FINAL angle_urad 999711535 speed_urads 0
+weld release defaults pose2 0.0004 straight | FINAL angle_urad 999796419 speed_urads 0
+weld release defaults pose2 0.0004 folded | FINAL angle_urad 999730614 speed_urads 0
+weld release defaults pose2 0.0004 native against straight | ENDS place_apart_nm 84884 speed_apart_ums 0
+weld release defaults pose2 0.0004 native against folded | ENDS place_apart_nm 19079 speed_apart_ums 0
+weld release diagexact pose1 0.0016 native | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0016 straight | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0016 folded | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0016 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose1 0.0016 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose1 0.0004 native | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0004 straight | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0004 folded | FINAL angle_urad 999597103 speed_urads 0
+weld release diagexact pose1 0.0004 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose1 0.0004 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose2 0.0016 native | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0016 straight | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0016 folded | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0016 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose2 0.0016 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose2 0.0004 native | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0004 straight | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0004 folded | FINAL angle_urad 999653098 speed_urads 0
+weld release diagexact pose2 0.0004 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld release diagexact pose2 0.0004 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld off defaults pose1 0.0016 native | FINAL angle_urad 999751463 speed_urads 0
+weld off defaults pose1 0.0016 straight | FINAL angle_urad 999808459 speed_urads 0
+weld off defaults pose1 0.0016 folded | FINAL angle_urad 999752140 speed_urads 0
+weld off defaults pose1 0.0016 native against straight | ENDS place_apart_nm 56996 speed_apart_ums 0
+weld off defaults pose1 0.0016 native against folded | ENDS place_apart_nm 677 speed_apart_ums 0
+weld off defaults pose1 0.0004 native | FINAL angle_urad 999751463 speed_urads 0
+weld off defaults pose1 0.0004 straight | FINAL angle_urad 999808459 speed_urads 0
+weld off defaults pose1 0.0004 folded | FINAL angle_urad 999752140 speed_urads 0
+weld off defaults pose1 0.0004 native against straight | ENDS place_apart_nm 56996 speed_apart_ums 0
+weld off defaults pose1 0.0004 native against folded | ENDS place_apart_nm 677 speed_apart_ums 0
+weld off defaults pose2 0.0016 native | FINAL angle_urad 999711535 speed_urads 0
+weld off defaults pose2 0.0016 straight | FINAL angle_urad 999796419 speed_urads 0
+weld off defaults pose2 0.0016 folded | FINAL angle_urad 999730614 speed_urads 0
+weld off defaults pose2 0.0016 native against straight | ENDS place_apart_nm 84884 speed_apart_ums 0
+weld off defaults pose2 0.0016 native against folded | ENDS place_apart_nm 19079 speed_apart_ums 0
+weld off defaults pose2 0.0004 native | FINAL angle_urad 999711535 speed_urads 0
+weld off defaults pose2 0.0004 straight | FINAL angle_urad 999796419 speed_urads 0
+weld off defaults pose2 0.0004 folded | FINAL angle_urad 999730614 speed_urads 0
+weld off defaults pose2 0.0004 native against straight | ENDS place_apart_nm 84884 speed_apart_ums 0
+weld off defaults pose2 0.0004 native against folded | ENDS place_apart_nm 19079 speed_apart_ums 0
+weld on defaults pose1 0.0016 native | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0016 straight | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0016 folded | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0016 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose1 0.0016 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose1 0.0004 native | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0004 straight | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0004 folded | FINAL angle_urad 999751627 speed_urads 0
+weld on defaults pose1 0.0004 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose1 0.0004 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose2 0.0016 native | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0016 straight | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0016 folded | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0016 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose2 0.0016 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose2 0.0004 native | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0004 straight | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0004 folded | FINAL angle_urad 999711632 speed_urads 0
+weld on defaults pose2 0.0004 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0
+weld on defaults pose2 0.0004 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0
+tumble release tumble_Euler_0.00015625 | TUMBLE steps 12800 energy_start_nj 66476500 energy_end_ppm 507 energy_largest_ppm 507 momentum_start_ukgm2s 34350 momentum_end_ppm 188 momentum_largest_ppm 188
+tumble release tumble_Euler_0.000625 | TUMBLE steps 3200 energy_start_nj 66476500 energy_end_ppm 2034 energy_largest_ppm 2034 momentum_start_ukgm2s 34350 momentum_end_ppm 758 momentum_largest_ppm 758
+tumble release tumble_Euler_0.0025 | TUMBLE steps 800 energy_start_nj 66476500 energy_end_ppm 8215 energy_largest_ppm 8215 momentum_start_ukgm2s 34350 momentum_end_ppm 3062 momentum_largest_ppm 3062
+tumble release tumble_Euler_0.01 | TUMBLE steps 200 energy_start_nj 66476500 energy_end_ppm 34145 energy_largest_ppm 34145 momentum_start_ukgm2s 34350 momentum_end_ppm 12677 momentum_largest_ppm 12677
+tumble release tumble_RK4_0.00015625 | TUMBLE steps 12800 energy_start_nj 66476500 energy_end_ppm 0 energy_largest_ppm 0 momentum_start_ukgm2s 34350 momentum_end_ppm 0 momentum_largest_ppm 0
+tumble release tumble_RK4_0.000625 | TUMBLE steps 3200 energy_start_nj 66476500 energy_end_ppm 0 energy_largest_ppm 0 momentum_start_ukgm2s 34350 momentum_end_ppm 0 momentum_largest_ppm 0
+tumble release tumble_RK4_0.0025 | TUMBLE steps 800 energy_start_nj 66476500 energy_end_ppm 0 energy_largest_ppm 0 momentum_start_ukgm2s 34350 momentum_end_ppm 0 momentum_largest_ppm 0
+tumble release tumble_RK4_0.01 | TUMBLE steps 200 energy_start_nj 66476500 energy_end_ppm 0 energy_largest_ppm 0 momentum_start_ukgm2s 34350 momentum_end_ppm 0 momentum_largest_ppm 0
+tumble release tumble_implicit_0.00015625 | TUMBLE steps 12800 energy_start_nj 66476500 energy_end_ppm -506 energy_largest_ppm 506 momentum_start_ukgm2s 34350 momentum_end_ppm -190 momentum_largest_ppm 190
+tumble release tumble_implicit_0.000625 | TUMBLE steps 3200 energy_start_nj 66476500 energy_end_ppm -2021 energy_largest_ppm 2021 momentum_start_ukgm2s 34350 momentum_end_ppm -755 momentum_largest_ppm 755
+tumble release tumble_implicit_0.0025 | TUMBLE steps 800 energy_start_nj 66476500 energy_end_ppm -8010 energy_largest_ppm 8010 momentum_start_ukgm2s 34350 momentum_end_ppm -2995 momentum_largest_ppm 2995
+tumble release tumble_implicit_0.01 | TUMBLE steps 200 energy_start_nj 66476500 energy_end_ppm -30868 energy_largest_ppm 30868 momentum_start_ukgm2s 34350 momentum_end_ppm -11585 momentum_largest_ppm 11585
+tumble release tumble_implicitfast_0.00015625 | TUMBLE steps 12800 energy_start_nj 66476500 energy_end_ppm -506 energy_largest_ppm 506 momentum_start_ukgm2s 34350 momentum_end_ppm -190 momentum_largest_ppm 190
+tumble release tumble_implicitfast_0.000625 | TUMBLE steps 3200 energy_start_nj 66476500 energy_end_ppm -2021 energy_largest_ppm 2021 momentum_start_ukgm2s 34350 momentum_end_ppm -755 momentum_largest_ppm 755
+tumble release tumble_implicitfast_0.0025 | TUMBLE steps 800 energy_start_nj 66476500 energy_end_ppm -8010 energy_largest_ppm 8010 momentum_start_ukgm2s 34350 momentum_end_ppm -2995 momentum_largest_ppm 2995
+tumble release tumble_implicitfast_0.01 | TUMBLE steps 200 energy_start_nj 66476500 energy_end_ppm -30868 energy_largest_ppm 30868 momentum_start_ukgm2s 34350 momentum_end_ppm -11585 momentum_largest_ppm 11585
+tumble off tumble_Euler_0.00015625 against release tumble_Euler_0.00015625 | SAME
+tumble off tumble_Euler_0.000625 against release tumble_Euler_0.000625 | SAME
+tumble off tumble_Euler_0.0025 against release tumble_Euler_0.0025 | SAME
+tumble off tumble_Euler_0.01 against release tumble_Euler_0.01 | SAME
+tumble on tumble_Euler_0.00015625 against release tumble_Euler_0.00015625 | SAME
+tumble on tumble_Euler_0.00015625_elliptic_noslip against release tumble_Euler_0.00015625 | SAME
+tumble on tumble_Euler_0.000625 against release tumble_Euler_0.000625 | SAME
+tumble on tumble_Euler_0.000625_elliptic_noslip against release tumble_Euler_0.000625 | SAME
+tumble on tumble_Euler_0.0025 against release tumble_Euler_0.0025 | SAME
+tumble on tumble_Euler_0.0025_elliptic_noslip against release tumble_Euler_0.0025 | SAME
+tumble on tumble_Euler_0.01 against release tumble_Euler_0.01 | SAME
+tumble on tumble_Euler_0.01_elliptic_noslip against release tumble_Euler_0.01 | SAME
+solver release weld most_iterations 1 at_iteration_limit 0 warnings 0
+solver release tumble warnings 0 local_frame_check_largest 1.2e-14
+solver off weld most_iterations 1 at_iteration_limit 0 warnings 0
+solver off tumble warnings 0 local_frame_check_largest 5.77e-15
+solver on weld most_iterations 1 at_iteration_limit 0 warnings 0
+solver on tumble warnings 0 local_frame_check_largest 5.77e-15

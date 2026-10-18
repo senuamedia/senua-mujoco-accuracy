@@ -1,0 +1,4 @@
+aarch64
+CPU part	: 0xd40
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Ubuntu 24.04.5 LTS

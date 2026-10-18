@@ -1,0 +1,12 @@
+12:33:20 run_057_damper cleared
+12:33:20 run_058_study_13 cleared
+12:33:20 run_059_resting_arm_impratio cleared
+12:33:20 run_060_resting_arm_mirror cleared
+12:33:20 run_061_impratio_configuration cleared
+12:33:22 run 057 played, exit 0
+12:33:28 run 058 played, exit 0
+12:33:29 run 059 played, exit 0
+12:33:30 run 060 played, exit 0
+12:37:31 run 061 played, exit 0
+12:37:32 home folder written as ~ in the re-made outputs
+12:37:45 compared: 3188 same, 13 differ, 0 missing, 0 new

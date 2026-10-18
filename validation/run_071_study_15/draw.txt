@@ -1,0 +1,46 @@
+dt_coarse 0.00171
+dt_fine 0.0004275
+len1 0.279
+  (len2 drawn again: 0.269)
+len2 0.286
+mass1 1.116
+mass2 0.436
+rb 0.0284
+mb 0.199
+arm_mu 0.686
+contact1_q1 0.555
+contact1_q2 0.905
+contact2_q1 1.157
+contact2_q2 -0.378
+contact3_q1 0.57
+contact3_q2 1.123
+contact4_q1 1.296
+contact4_q2 -0.403
+  (rest_h0 drawn again: 0.00050)
+  (rest_h0 drawn again: 0.00040)
+rest_h0 0.00043
+drop_h0 0.0129
+held1_q1 0.312
+held1_q2 0.811
+held2_q1 0.277
+held2_q2 0.796
+joint_friction 5.15
+cube_mass 1.56
+cube_half 0.041
+cube_mu 0.462
+cube_v 0.94
+s1_mass 1.704
+s1_half 0.0314
+s1_h0 0.083
+s1_vx 3.51
+  (s1_vxchain drawn again: 1.47)
+  (s1_vxchain drawn again: 1.47)
+s1_vxchain 1.28
+s1_mu 0.416
+s1_vslide 3.62
+s1_muhold 0.436
+grip_mass 0.21
+grip_half 0.0334
+grip_mu 0.69
+grip_squeeze 2.61
+grip_offset 0.0092

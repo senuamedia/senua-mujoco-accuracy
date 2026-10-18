@@ -1,0 +1,13 @@
+dt_coarse 0.00122
+dt_fine 0.000305
+dt_finer 0.0001525
+stack_mass 0.596
+stack_half 0.0405
+stack_mu 0.528
+cube_mass 1.561
+  (cube_half drawn again: 0.0500)
+cube_half 0.0489
+cube_mu 0.438
+  (cube_v drawn again: 0.95)
+  (cube_v drawn again: 0.85)
+cube_v 1.09

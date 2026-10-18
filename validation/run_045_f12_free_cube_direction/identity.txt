@@ -1,0 +1,6 @@
+rel_def 0 without trace same with trace same
+rel_def 22.5 without trace same with trace same
+rel_def 45 without trace same with trace same
+rel_rec 0 without trace same with trace same
+rel_rec 22.5 without trace same with trace same
+rel_rec 45 without trace same with trace same

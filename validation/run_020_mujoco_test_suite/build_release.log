@@ -1,0 +1,506 @@
+-- mujoco::FindOrFetch: checking for targets in package `lodepng`
+-- mujoco::FindOrFetch: checking for targets in package `lodepng` - target `lodepng` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for lodepng: https://github.com/lvandeve/lodepng.git
+-- Populating lodepng
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/lodepng-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/third_party_deps/lodepng.cmake:23 (fetchpackage)
+  cmake/MujocoDependencies.cmake:86 (include)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for qhull: https://github.com/qhull/qhull.git
+-- Populating qhull
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/qhull-subbuild
+ninja: no work to do.
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     /usr/local
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:108 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyxml2: https://github.com/leethomason/tinyxml2.git
+-- Populating tinyxml2
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/tinyxml2-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:133 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyobjloader: https://github.com/tinyobjloader/tinyobjloader.git
+-- Populating tinyobjloader
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/tinyobjloader-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:156 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for ccd: https://github.com/danfis/libccd.git
+-- Populating ccd
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/ccd-subbuild
+ninja: no work to do.
+CMake Deprecation Warning at ~/work/t20-release/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at ~/work/t20-release/_deps/ccd-src/CMakeLists.txt:9 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:194 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for miniz: https://github.com/richgel999/miniz.git
+-- Populating miniz
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/miniz-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/MujocoDependencies.cmake:235 (fetchpackage)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `absl`
+-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for abseil-cpp: https://github.com/abseil/abseil-cpp.git
+-- Populating abseil-cpp
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/abseil-cpp-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:263 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `GTest`
+-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for googletest: https://github.com/google/googletest.git
+-- Populating googletest
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/googletest-subbuild
+ninja: no work to do.
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:295 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `benchmark`
+-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for benchmark: https://github.com/google/benchmark.git
+-- Populating benchmark
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/t20-release/_deps/benchmark-subbuild
+ninja: no work to do.
+-- Failed to find LLVM FileCheck
+-- Google Benchmark version: v1.9.4, normalized to 1.9.4
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:327 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (1.2s)
+-- Generating done (0.6s)
+-- Build files have been written to: ~/work/t20-release
+[0/2] Re-checking globbed directories...
+[1/146] Building CXX object test/benchmark/CMakeFiles/iszero_benchmark_test.dir/iszero_benchmark_test.cc.o
+[2/146] Building CXX object test/benchmark/CMakeFiles/lu_benchmark_test.dir/lu_benchmark_test.cc.o
+[3/146] Linking CXX executable bin/mjspecmacro_test
+[4/146] Linking CXX executable bin/header_test
+[5/146] Building CXX object test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/engine_util_spatial_benchmark_test.cc.o
+[6/146] Building CXX object test/benchmark/CMakeFiles/solveLD_benchmark_test.dir/solveLD_benchmark_test.cc.o
+[7/146] Building CXX object test/benchmark/CMakeFiles/step_benchmark_test.dir/step_benchmark_test.cc.o
+[8/146] Building CXX object test/benchmark/CMakeFiles/cone_benchmark_test.dir/cone_benchmark_test.cc.o
+[9/146] Building CXX object test/benchmark/CMakeFiles/crb_benchmark_test.dir/crb_benchmark_test.cc.o
+[10/146] Building CXX object test/benchmark/CMakeFiles/factorI_benchmark_test.dir/factorI_benchmark_test.cc.o
+[11/146] Building CXX object test/benchmark/CMakeFiles/inertia_benchmark_test.dir/inertia_benchmark_test.cc.o
+[12/146] Linking CXX executable bin/lu_benchmark_test
+[13/146] Building CXX object test/benchmark/CMakeFiles/spec_benchmark_test.dir/spec_benchmark_test.cc.o
+[14/146] Building C object test/engine/CMakeFiles/boxbox_legacy.dir/boxbox_legacy.c.o
+[15/146] Building CXX object test/benchmark/CMakeFiles/thread_performance_test.dir/thread_performance_test.cc.o
+[16/146] Building CXX object test/benchmark/CMakeFiles/parse_benchmark_test.dir/parse_benchmark_test.cc.o
+[17/146] Linking C static library lib/libboxbox_legacy.a
+[18/146] Building CXX object test/benchmark/CMakeFiles/ccd_benchmark_test.dir/ccd_benchmark_test.cc.o
+[19/146] Building CXX object test/CMakeFiles/pipeline_test.dir/pipeline_test.cc.o
+[20/146] Linking CXX executable bin/iszero_benchmark_test
+[21/146] Linking CXX executable bin/engine_util_spatial_benchmark_test
+[22/146] Linking CXX executable bin/step_benchmark_test
+[23/146] Linking CXX executable bin/factorI_benchmark_test
+[24/146] Linking CXX executable bin/crb_benchmark_test
+[25/146] Building CXX object test/benchmark/CMakeFiles/engine_util_sparse_benchmark_test.dir/engine_util_sparse_benchmark_test.cc.o
+[26/146] Linking CXX executable bin/cone_benchmark_test
+[27/146] Linking CXX executable bin/solveLD_benchmark_test
+[28/146] Linking CXX executable bin/pipeline_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[29/146] Linking CXX executable bin/inertia_benchmark_test
+[30/146] Linking CXX executable bin/spec_benchmark_test
+[31/146] Building CXX object test/engine/CMakeFiles/engine_collision_box_fuzz_test.dir/engine_collision_box_fuzz_test.cc.o
+[32/146] Linking CXX executable bin/thread_performance_test
+[33/146] Linking CXX executable bin/ccd_benchmark_test
+[34/146] Linking CXX executable bin/parse_benchmark_test
+[35/146] Building CXX object test/benchmark/CMakeFiles/chol_benchmark_test.dir/chol_benchmark_test.cc.o
+[36/146] Building CXX object test/engine/CMakeFiles/engine_collision_box_test.dir/engine_collision_box_test.cc.o
+[37/146] Linking CXX executable bin/engine_util_sparse_benchmark_test
+[38/146] Linking CXX executable bin/engine_collision_box_fuzz_test
+[39/146] Linking CXX executable bin/chol_benchmark_test
+[40/146] Building CXX object test/engine/CMakeFiles/engine_collision_convex_test.dir/engine_collision_convex_test.cc.o
+[41/146] Building CXX object test/engine/CMakeFiles/engine_collision_continuous_test.dir/engine_collision_continuous_test.cc.o
+[42/146] Building CXX object test/engine/CMakeFiles/engine_inverse_test.dir/engine_inverse_test.cc.o
+[43/146] Building CXX object test/engine/CMakeFiles/engine_core_util_test.dir/engine_core_util_test.cc.o
+[44/146] Building CXX object test/engine/CMakeFiles/engine_collision_driver_test.dir/engine_collision_driver_test.cc.o
+[45/146] Linking CXX executable bin/engine_collision_box_test
+[46/146] Building CXX object test/engine/CMakeFiles/engine_collision_gjk_test.dir/engine_collision_gjk_test.cc.o
+[47/146] Linking CXX executable bin/engine_collision_convex_test
+[48/146] Building CXX object test/engine/CMakeFiles/engine_io_test.dir/engine_io_test.cc.o
+[49/146] Building CXX object test/engine/CMakeFiles/engine_core_constraint_test.dir/engine_core_constraint_test.cc.o
+[50/146] Building CXX object test/engine/CMakeFiles/engine_core_smooth_test.dir/engine_core_smooth_test.cc.o
+[51/146] Linking CXX executable bin/engine_collision_continuous_test
+[52/146] Linking CXX executable bin/engine_inverse_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[53/146] Linking CXX executable bin/engine_core_util_test
+[54/146] Linking CXX executable bin/engine_collision_driver_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551586 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[55/146] Building CXX object test/engine/CMakeFiles/engine_island_test.dir/engine_island_test.cc.o
+[56/146] Linking CXX executable bin/engine_collision_gjk_test
+[57/146] Building CXX object test/engine/CMakeFiles/engine_derivative_test.dir/engine_derivative_test.cc.o
+[58/146] Building CXX object test/engine/CMakeFiles/engine_plugin_test.dir/engine_plugin_test.cc.o
+[59/146] Linking CXX executable bin/engine_core_constraint_test
+[60/146] Building CXX object test/engine/CMakeFiles/engine_passive_test.dir/engine_passive_test.cc.o
+[61/146] Linking CXX executable bin/engine_core_smooth_test
+[62/146] Building CXX object test/engine/CMakeFiles/engine_ipc_test.dir/engine_ipc_test.cc.o
+[63/146] Building CXX object test/engine/CMakeFiles/engine_print_test.dir/engine_print_test.cc.o
+[64/146] Linking CXX executable bin/engine_island_test
+[65/146] Building CXX object test/engine/CMakeFiles/engine_forward_test.dir/engine_forward_test.cc.o
+[66/146] Building CXX object test/engine/CMakeFiles/engine_ray_test.dir/engine_ray_test.cc.o
+[67/146] Linking CXX executable bin/engine_passive_test
+~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc: In member function ‘TestBody’:
+~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11: warning: ‘__builtin_memcpy’ writing 18446744073709551577 bytes into a region of size 16 [-Wstringop-overflow=]
+   53 |     memcpy(out, x.data(), x.size());
+      |           ^
+~/work/mujoco-src/test/engine/engine_passive_test.cc:364:21: note: at offset 16 into destination object ‘xml_path’ of size 32
+  364 |   const std::string xml_path =
+      |                     ^
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:92:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath’ at ~/work/mujoco-src/test/fixture.cc:179:35,
+    inlined from ‘TestBody’ at ~/work/mujoco-src/test/engine/engine_passive_test.cc:365:68:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ writing 39 bytes into a region of size 0 overflows the destination [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+~/work/mujoco-src/test/engine/engine_passive_test.cc: In member function ‘TestBody’:
+~/work/mujoco-src/test/engine/engine_passive_test.cc:364:21: note: at offset -23 into destination object ‘xml_path’ of size 32
+  364 |   const std::string xml_path =
+      |                     ^
+[68/146] Building CXX object test/engine/CMakeFiles/engine_solver_test.dir/engine_solver_test.cc.o
+[69/146] Linking CXX executable bin/engine_derivative_test
+[70/146] Linking CXX executable bin/engine_ipc_test
+[71/146] Building CXX object test/engine/CMakeFiles/engine_sort_test.dir/engine_sort_test.cc.o
+[72/146] Linking CXX executable bin/engine_plugin_test
+[73/146] Linking CXX executable bin/engine_print_test
+[74/146] Building CXX object test/engine/CMakeFiles/engine_setconst_test.dir/engine_setconst_test.cc.o
+[75/146] Building CXX object test/engine/CMakeFiles/engine_sleep_test.dir/engine_sleep_test.cc.o
+[76/146] Linking CXX executable bin/engine_forward_test
+[77/146] Building CXX object test/engine/CMakeFiles/engine_util_errmem_test.dir/engine_util_errmem_test.cc.o
+[78/146] Building CXX object test/engine/CMakeFiles/engine_sensor_test.dir/engine_sensor_test.cc.o
+[79/146] Linking CXX executable bin/engine_ray_test
+[80/146] Linking CXX executable bin/engine_solver_test
+[81/146] Building CXX object test/engine/CMakeFiles/engine_thread_test.dir/engine_thread_test.cc.o
+[82/146] Linking CXX executable bin/engine_sort_test
+[83/146] Linking CXX executable bin/engine_setconst_test
+[84/146] Building CXX object test/engine/CMakeFiles/engine_util_blas_test.dir/engine_util_blas_test.cc.o
+[85/146] Building CXX object test/engine/CMakeFiles/engine_support_test.dir/engine_support_test.cc.o
+[86/146] Linking CXX executable bin/engine_sleep_test
+[87/146] Linking CXX executable bin/engine_io_test
+[88/146] Linking CXX executable bin/engine_util_errmem_test
+[89/146] Linking CXX executable bin/engine_thread_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetModelPath.constprop’ at ~/work/mujoco-src/test/fixture.cc:187:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551591 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[90/146] Linking CXX executable bin/engine_sensor_test
+[91/146] Linking CXX executable bin/engine_util_blas_test
+[92/146] Building CXX object test/engine/CMakeFiles/engine_util_spatial_test.dir/engine_util_spatial_test.cc.o
+[93/146] Building CXX object test/engine/CMakeFiles/engine_vis_visualize_test.dir/engine_vis_visualize_test.cc.o
+[94/146] Building CXX object test/engine/CMakeFiles/engine_util_solve_test.dir/engine_util_solve_test.cc.o
+[95/146] Linking CXX executable bin/engine_support_test
+[96/146] Building CXX object test/engine/CMakeFiles/engine_util_misc_test.dir/engine_util_misc_test.cc.o
+[97/146] Building CXX object test/user/CMakeFiles/user_recompile_test.dir/user_recompile_test.cc.o
+[98/146] Linking CXX executable bin/engine_util_spatial_test
+[99/146] Linking CXX executable bin/engine_vis_visualize_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[100/146] Building CXX object test/user/CMakeFiles/user_objects_test.dir/user_objects_test.cc.o
+[101/146] Building CXX object test/engine/CMakeFiles/engine_util_sparse_test.dir/engine_util_sparse_test.cc.o
+[102/146] Building CXX object test/user/CMakeFiles/user_composite_test.dir/user_composite_test.cc.o
+[103/146] Linking CXX executable bin/engine_util_solve_test
+[104/146] Building CXX object test/user/CMakeFiles/user_resource_test.dir/user_resource_test.cc.o
+[105/146] Linking CXX executable bin/engine_util_misc_test
+[106/146] Building CXX object test/user/CMakeFiles/user_vfs_test.dir/user_vfs_test.cc.o
+[107/146] Building CXX object test/user/CMakeFiles/user_mesh_test.dir/user_mesh_test.cc.o
+[108/146] Building CXX object test/user/CMakeFiles/user_util_test.dir/user_util_test.cc.o
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorFloat_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:157:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  157 |   std::vector<float> v = StringToVector<float>(" 1.2 3.2     5.3 6 ");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorEmpty_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:163:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  163 |   std::vector<float> v = StringToVector<float>("   ");
+      |                                                ^~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorError_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:169:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  169 |   std::vector<float> v = StringToVector<float>("2.1 3ABCD. /123/122/113");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInt_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:175:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  175 |   std::vector<int> v = StringToVector<int>("  -1 3  5 6  ");
+      |                                            ^~~~~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorString_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:181:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  181 |   auto v = StringToVector<std::string>(" abc  def ");
+      |                                        ^~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInvalidNumber_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:186:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  186 |   auto v = StringToVector<double>("1 0.1.2.3");
+      |                                   ^~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorNan_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:194:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  194 |   auto v = StringToVector<double>("1 2 nan 3.21");
+      |                                   ^~~~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorRange_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_util_test.cc:201:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  201 |   auto v = StringToVector<unsigned char>("-10");
+      |                                          ^~~~~
+[109/146] Linking CXX executable bin/user_composite_test
+[110/146] Building CXX object test/xml/CMakeFiles/xml_api_test.dir/xml_api_test.cc.o
+[111/146] Linking CXX executable bin/engine_util_sparse_test
+[112/146] Linking CXX executable bin/user_objects_test
+[113/146] Building CXX object test/xml/CMakeFiles/xml_urdf_test.dir/xml_urdf_test.cc.o
+[114/146] Linking CXX executable bin/user_resource_test
+~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc: In member function ‘TestBody’:
+~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11: warning: ‘__builtin_memcpy’ writing 18446744073709551571 bytes into a region of size 16 [-Wstringop-overflow=]
+   53 |     memcpy(out, x.data(), x.size());
+      |           ^
+~/work/mujoco-src/test/user/user_resource_test.cc:416:21: note: at offset 16 into destination object ‘xml_path’ of size 32
+  416 |   const std::string xml_path = GetTestDataFilePath(file);
+      |                     ^
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:92:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath’ at ~/work/mujoco-src/test/fixture.cc:179:35,
+    inlined from ‘TestBody’ at ~/work/mujoco-src/test/user/user_resource_test.cc:416:56:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ writing 45 bytes into a region of size 0 overflows the destination [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+~/work/mujoco-src/test/user/user_resource_test.cc: In member function ‘TestBody’:
+~/work/mujoco-src/test/user/user_resource_test.cc:416:21: note: at offset -29 into destination object ‘xml_path’ of size 32
+  416 |   const std::string xml_path = GetTestDataFilePath(file);
+      |                     ^
+[115/146] Building CXX object test/xml/CMakeFiles/schema_defaults_test.dir/schema_defaults_test.cc.o
+[116/146] Building CXX object test/user/CMakeFiles/user_model_test.dir/user_model_test.cc.o
+[117/146] Linking CXX executable bin/user_vfs_test
+[118/146] Building CXX object test/user/CMakeFiles/user_flex_test.dir/user_flex_test.cc.o
+~/work/mujoco-src/test/user/user_flex_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserFlexTest_LoadMSHEndMarkerAtEOF_Success_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_flex_test.cc:1123:8: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1123 |   fread(msh.data(), 1, msh_size, f);
+      |   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-src/test/user/user_flex_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserFlexTest_FlexcompMeshLoadsFromVFS_Test::TestBody()’:
+~/work/mujoco-src/test/user/user_flex_test.cc:1266:8: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1266 |   fread(stl_data.data(), 1, stl_size, f);
+      |   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[119/146] Linking CXX executable bin/user_util_test
+[120/146] Linking CXX executable bin/user_mesh_test
+[121/146] Linking CXX executable bin/xml_api_test
+[122/146] Linking CXX executable bin/xml_urdf_test
+[123/146] Linking CXX executable bin/schema_defaults_test
+[124/146] Building CXX object test/xml/CMakeFiles/xml_utils_test.dir/xml_utils_test.cc.o
+[125/146] Linking CXX executable bin/user_flex_test
+[126/146] Building CXX object test/user/CMakeFiles/user_api_test.dir/user_api_test.cc.o
+[127/146] Building CXX object test/xml/CMakeFiles/xml_write_read_test.dir/xml_write_read_test.cc.o
+[128/146] Building CXX object test/xml/mjz/CMakeFiles/mjz_decoder_test.dir/mjz_decoder_test.cc.o
+[129/146] Building CXX object test/xml/mjz/CMakeFiles/mjz_archive_provider_test.dir/mjz_archive_provider_test.cc.o
+[130/146] Linking CXX executable bin/xml_utils_test
+[131/146] Building CXX object test/plugin/elasticity/CMakeFiles/elasticity_test.dir/elasticity_test.cc.o
+[132/146] Building CXX object test/plugin/actuator/CMakeFiles/pid_test.dir/pid_test.cc.o
+[133/146] Linking CXX executable bin/mjz_archive_provider_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[134/146] Building CXX object test/xml/CMakeFiles/xml_native_reader_test.dir/xml_native_reader_test.cc.o
+[135/146] Linking CXX executable bin/mjz_decoder_test
+[136/146] Building CXX object test/xml/mjz/CMakeFiles/mjz_encoder_test.dir/mjz_encoder_test.cc.o
+[137/146] Linking CXX executable bin/elasticity_test
+[138/146] Building CXX object test/xml/CMakeFiles/xml_native_writer_test.dir/xml_native_writer_test.cc.o
+[139/146] Linking CXX executable bin/pid_test
+[140/146] Linking CXX executable bin/user_recompile_test
+[141/146] Linking CXX executable bin/user_model_test
+In function ‘copy’,
+    inlined from ‘__ct ’ at /usr/include/c++/13/bits/basic_string.h:683:23,
+    inlined from ‘operator+’ at /usr/include/c++/13/bits/basic_string.h:3690:43,
+    inlined from ‘operator()’ at ~/work/mujoco-src/test/user/user_model_test.cc:2856:20,
+    inlined from ‘TestBody’ at ~/work/mujoco-src/test/user/user_model_test.cc:2871:42:
+/usr/include/c++/13/bits/char_traits.h:435:56: warning: ‘__builtin_memcpy’ writing 256 bytes into a region of size 16 overflows the destination [-Wstringop-overflow=]
+  435 |         return static_cast<char_type*>(__builtin_memcpy(__s1, __s2, __n));
+      |                                                        ^
+~/work/mujoco-src/test/user/user_model_test.cc: In member function ‘TestBody’:
+~/work/mujoco-src/test/user/user_model_test.cc:2871:46: note: at offset 16 into destination object ‘<anonymous>’ of size 32
+ 2871 |   MjModelPtr fresh2 = LoadModelFromString(xml("2"));
+      |                                              ^
+[142/146] Linking CXX executable bin/xml_write_read_test
+[143/146] Linking CXX executable bin/xml_native_reader_test
+[144/146] Linking CXX executable bin/user_api_test
+[145/146] Linking CXX executable bin/mjz_encoder_test
+[146/146] Linking CXX executable bin/xml_native_writer_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/t20-release/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551582 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^

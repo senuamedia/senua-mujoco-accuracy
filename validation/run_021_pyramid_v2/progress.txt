@@ -1,0 +1,8 @@
+build lib exit 0 warnings in patched files 0
+build tests exit 0 warnings in patched files 0
+arm release played 2026-10-15T05:04:22Z
+arm off played 2026-10-15T05:04:23Z
+arm on played 2026-10-15T05:04:25Z
+suite release exit 0 100% tests passed, 0 tests failed out of 3492
+suite off exit 8 99% tests passed, 1 tests failed out of 3492
+suite on exit 8 99% tests passed, 3 tests failed out of 3492

@@ -1,0 +1,12 @@
+11:58:11 run_052_joint_friction_and_tolerance cleared
+11:58:11 run_053_releases cleared
+11:58:11 run_054_noslip_converged cleared
+11:58:11 run_055_actuators_and_box cleared
+11:58:11 run_056_resting_arm cleared
+12:02:41 run 052 played, exit 0
+12:03:21 run 053 played, exit 0
+12:08:32 run 054 played, exit 0
+12:08:40 run 055 played, exit 0
+12:08:45 run 056 played, exit 0
+12:08:46 home folder written as ~ in the re-made outputs
+12:09:00 compared: 7431 same, 17 differ, 0 missing, 0 new

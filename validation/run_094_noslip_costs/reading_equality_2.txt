@@ -1,0 +1,10 @@
+with the friction holding and the equality kept, neither body moves
+B 10 kg noslip off | B moved 10244506 nm, A moved 10244506 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 510 largest_um 8 summed_speed_difference_mm_s 7
+B 10 kg noslip n1 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370494 largest_um 386 summed_speed_difference_mm_s 315
+B 10 kg noslip n5 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370494 largest_um 386 summed_speed_difference_mm_s 315
+B 100 kg noslip off | B moved 10245488 nm, A moved 10245489 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 471 largest_um 8 summed_speed_difference_mm_s 8
+B 100 kg noslip n1 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370495 largest_um 386 summed_speed_difference_mm_s 315
+B 100 kg noslip n5 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370495 largest_um 386 summed_speed_difference_mm_s 315
+B 1000 kg noslip off | B moved 10245587 nm, A moved 10245589 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 468 largest_um 7 summed_speed_difference_mm_s 8
+B 1000 kg noslip n1 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370497 largest_um 386 summed_speed_difference_mm_s 315
+B 1000 kg noslip n5 | B moved 0 nm, A moved 386666 nm | GAP base_ns 1000000 dt_ns 1000000 against dt_ns 1000000 instants 1000 summed_height_difference_um 370497 largest_um 386 summed_speed_difference_mm_s 315

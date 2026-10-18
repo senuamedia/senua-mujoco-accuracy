@@ -1,0 +1,74 @@
+--- a/src/engine/engine_solver.c
++++ b/src/engine/engine_solver.c
+@@ -881,6 +881,17 @@
+ 
+ 
+ //---------------------------- NoSlip solver -------------------------------------------------------
++
++// Senua AI patch, in design (off unless MUJOCO_NOSLIP_EQUALITY=1): noslip's pass also re-solves the equality rows, each
++// as MuJoCo's PGS solves it (with its own regularization, no bound), given the friction forces the pass sets. Noslip
++// re-solves the friction rows only and keeps every other force as the main solver left it. An equality that couples a
++// joint whose friction noslip holds keeps the force it had while the main solver let that joint creep, so the joint it
++// couples moves and the held one does not (MuJoCo's issue #2430, run 094). Kept regularized, the equality rows make no
++// problem the main solver did not already solve. With no equality rows, nothing changes.
++static int noslipEqualityOn(void) {
++  const char* s = getenv("MUJOCO_NOSLIP_EQUALITY");
++  return s && s[0] == '1' && s[1] == 0;
++}
+ 
+ // core NoSlip solver: iterates over constraints specified by efclist
+ //   island: island index for stats (use -1 for monolithic, mapped to 0)
+@@ -905,6 +916,14 @@
+   // precompute inverse diagonal of A
+   ARdiaginv(m, d, ARinv, nefc, efclist, 1);
+ 
++  // Senua AI patch: the equality rows' inverse diagonal with their regularization, as MuJoCo's PGS uses it
++  int eqOn = ne > 0 && noslipEqualityOn();
++  mjtNum* ARinvEq = NULL;
++  if (eqOn) {
++    ARinvEq = mjSTACKALLOC(d, ne, mjtNum);
++    ARdiaginv(m, d, ARinvEq, ne, efclist, 0);
++  }
++
+   // initial constraint state
+   dualState(d, d->efc_state, ne, nf, nefc, efclist);
+ 
+@@ -913,9 +932,10 @@
+     // clear improvement
+     improvement = 0;
+ 
+-    // correct for cost change at iter 0
++    // correct for cost change at iter 0 (Senua AI patch: with its switch set the equality rows keep their
++    // regularization, so their part of the cost does not change)
+     if (iter == 0) {
+-      for (int c=0; c < nefc; c++) {
++      for (int c=(eqOn ? ne : 0); c < nefc; c++) {
+         int i = efclist ? efclist[c] : c;
+         improvement += 0.5*force[i]*force[i]*d->efc_R[i];
+       }
+@@ -1049,6 +1069,25 @@
+       }
+     }
+ 
++    // Senua AI patch: one sweep over the equality rows, each as MuJoCo's PGS solves it, given the friction forces this
++    // iteration has just set (after them, so that one iteration already re-solves the equality against them)
++    if (eqOn) {
++      for (int c=0; c < ne; c++) {
++        int i = efclist ? efclist[c] : c;
++
++        // compute residual with the row's regularization, save old
++        residual(m, d, res, i, 1, 0);
++        oldforce[0] = force[i];
++
++        // unconstrained minimum
++        force[i] -= res[0]*ARinvEq[c];
++
++        // add to improvement
++        delta[0] = force[i] - oldforce[0];
++        improvement -= 0.5*delta[0]*delta[0]/ARinvEq[c] + delta[0]*res[0];
++      }
++    }
++
+     // update constraint state
+     int nchange;
+     int nactive = dualStateChange(d, d->efc_state, oldstate, ne, nf, nefc, efclist, &nchange);

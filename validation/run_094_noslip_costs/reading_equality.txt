@@ -1,0 +1,16 @@
+with the equality kept, A and B move the same: (9.8 - F) / 2 m/s2 while F is under 9.8 N, and not at all at 20 N
+F 0.5 N noslip off | A moved 2329840163 nm, B moved 2329459837 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 184285 largest_um 381 summed_speed_difference_mm_s 194
+F 0.5 N noslip n5 | A moved 2329840163 nm, B moved 2329459837 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 184285 largest_um 381 summed_speed_difference_mm_s 194
+F 0.5 N noslip n100 | A moved 2329840163 nm, B moved 2329459837 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 184285 largest_um 381 summed_speed_difference_mm_s 194
+F 2 N noslip off | A moved 1954108880 nm, B moved 1953691120 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 202669 largest_um 419 summed_speed_difference_mm_s 224
+F 2 N noslip n5 | A moved 1954108880 nm, B moved 1953691120 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 202669 largest_um 419 summed_speed_difference_mm_s 224
+F 2 N noslip n100 | A moved 1954108880 nm, B moved 1953691120 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 202669 largest_um 419 summed_speed_difference_mm_s 224
+F 5 N noslip off | A moved 1202640765 nm, B moved 1202159235 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 234335 largest_um 486 summed_speed_difference_mm_s 255
+F 5 N noslip n5 | A moved 1202640765 nm, B moved 1202159235 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 234335 largest_um 486 summed_speed_difference_mm_s 255
+F 5 N noslip n100 | A moved 1202640765 nm, B moved 1202159235 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 234335 largest_um 486 summed_speed_difference_mm_s 255
+F 9 N noslip off | A moved 208741350 nm, B moved 208190499 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 268752 largest_um 560 summed_speed_difference_mm_s 293
+F 9 N noslip n5 | A moved 205080003 nm, B moved 204529152 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 270389 largest_um 566 summed_speed_difference_mm_s 287
+F 9 N noslip n100 | A moved 205080003 nm, B moved 204529152 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 270389 largest_um 566 summed_speed_difference_mm_s 287
+F 20 N noslip off | A moved 10808668 nm, B moved 10245023 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 275029 largest_um 577 summed_speed_difference_mm_s 296
+F 20 N noslip n5 | A moved 800675 nm, B moved 0 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 390476 largest_um 817 summed_speed_difference_mm_s 388
+F 20 N noslip n100 | A moved 800675 nm, B moved 0 nm | GAP base_ns 2000000 dt_ns 2000000 against dt_ns 2000000 instants 500 summed_height_difference_um 390476 largest_um 817 summed_speed_difference_mm_s 388

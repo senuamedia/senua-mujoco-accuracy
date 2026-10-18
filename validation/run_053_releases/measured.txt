@@ -1,0 +1,684 @@
+3.11.0 def hold_0_0.5_0.00114 creep_ums 581
+3.11.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.11.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.11.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.11.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.11.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.11.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.11.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.11.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.11.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.11.0 def hold_45_0.5_0.00114 creep_ums 581
+3.11.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.11.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.11.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.11.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.11.0 def stack5_0.00114 most_tilt_urad 15 end_speed_ums 5
+3.11.0 def stack9_0.00114 most_tilt_urad 19 end_speed_ums 20
+3.11.0 def offset3_0.00114 most_tilt_urad 2222 end_speed_ums 35
+3.11.0 def slide_box_0.00114 slid_um 130834
+3.11.0 def grip_box_off0_0.00114 creep_ums 6778
+3.11.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.11.0 def grip_box_off0.0093_0.00114 creep_ums 6255
+3.11.0 def grip_mesh_off0.0093_0.00114 creep_ums 8851
+3.11.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.11.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.11.0 def hold_0_0.5_0.000285 creep_ums 581
+3.11.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.11.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.11.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.11.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.11.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.11.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.11.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.11.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.11.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.11.0 def hold_45_0.5_0.000285 creep_ums 581
+3.11.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.11.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.11.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.11.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.11.0 def stack5_0.000285 most_tilt_urad 8 end_speed_ums 5
+3.11.0 def stack9_0.000285 most_tilt_urad 1113 end_speed_ums 1254
+3.11.0 def offset3_0.000285 most_tilt_urad 2114 end_speed_ums 26
+3.11.0 def slide_box_0.000285 slid_um 131513
+3.11.0 def grip_box_off0_0.000285 creep_ums 6758
+3.11.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.11.0 def grip_box_off0.0093_0.000285 creep_ums 6252
+3.11.0 def grip_mesh_off0.0093_0.000285 creep_ums 8792
+3.11.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.11.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.11.0 def suite1 passed 9
+3.11.0 def solver most_iterations 8 at_iteration_limit 0 warnings 0
+3.11.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.11.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.11.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.11.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.11.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.11.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.11.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.11.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.11.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.11.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.11.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.11.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.11.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.11.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.11.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.11.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.11.0 rec stack9_0.00114 most_tilt_urad 12834 end_speed_ums 19817
+3.11.0 rec offset3_0.00114 most_tilt_urad 10437 end_speed_ums 84
+3.11.0 rec slide_box_0.00114 slid_um 130658
+3.11.0 rec grip_box_off0_0.00114 creep_ums 0
+3.11.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.11.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.11.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.11.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.11.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.11.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.11.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.11.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.11.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.11.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.11.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.11.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.11.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.11.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.11.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.11.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.11.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.11.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.11.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.11.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.11.0 rec stack5_0.000285 most_tilt_urad 5749 end_speed_ums 289
+3.11.0 rec stack9_0.000285 most_tilt_urad 5976 end_speed_ums 9246
+3.11.0 rec offset3_0.000285 most_tilt_urad 6215 end_speed_ums 42
+3.11.0 rec slide_box_0.000285 slid_um 131383
+3.11.0 rec grip_box_off0_0.000285 creep_ums 0
+3.11.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.11.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.11.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.11.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.11.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.11.0 rec suite1 passed 10
+3.11.0 rec solver most_iterations 18 at_iteration_limit 0 warnings 0
+3.12.0 def hold_0_0.5_0.00114 creep_ums 581
+3.12.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.12.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.12.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.12.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.12.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.12.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.12.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.12.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.12.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.12.0 def hold_45_0.5_0.00114 creep_ums 581
+3.12.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.12.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.12.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.12.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.12.0 def stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.12.0 def stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.12.0 def offset3_0.00114 most_tilt_urad 1943 end_speed_ums 35
+3.12.0 def slide_box_0.00114 slid_um 130714
+3.12.0 def grip_box_off0_0.00114 creep_ums 6398
+3.12.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.12.0 def grip_box_off0.0093_0.00114 creep_ums 6054
+3.12.0 def grip_mesh_off0.0093_0.00114 creep_ums 7878
+3.12.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.12.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.12.0 def hold_0_0.5_0.000285 creep_ums 581
+3.12.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.12.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.12.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.12.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.12.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.12.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.12.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.12.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.12.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.12.0 def hold_45_0.5_0.000285 creep_ums 581
+3.12.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.12.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.12.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.12.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.12.0 def stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.12.0 def stack9_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.12.0 def offset3_0.000285 most_tilt_urad 1943 end_speed_ums 35
+3.12.0 def slide_box_0.000285 slid_um 131467
+3.12.0 def grip_box_off0_0.000285 creep_ums 6398
+3.12.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.12.0 def grip_box_off0.0093_0.000285 creep_ums 6061
+3.12.0 def grip_mesh_off0.0093_0.000285 creep_ums 7902
+3.12.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.12.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.12.0 def suite1 passed 9
+3.12.0 def solver most_iterations 7 at_iteration_limit 0 warnings 0
+3.12.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.12.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.12.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.12.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.12.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.12.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.12.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.12.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.12.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.12.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.12.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.12.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.12.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.12.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.12.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.12.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.12.0 rec stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.12.0 rec offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+3.12.0 rec slide_box_0.00114 slid_um 130843
+3.12.0 rec grip_box_off0_0.00114 creep_ums 1
+3.12.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.12.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.12.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.12.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.12.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.12.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.12.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.12.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.12.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.12.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.12.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.12.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.12.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.12.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.12.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.12.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.12.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.12.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.12.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.12.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.12.0 rec stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+3.12.0 rec stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+3.12.0 rec offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+3.12.0 rec slide_box_0.000285 slid_um 131393
+3.12.0 rec grip_box_off0_0.000285 creep_ums 1
+3.12.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.12.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.12.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.12.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.12.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.12.0 rec suite1 passed 10
+3.12.0 rec solver most_iterations 9 at_iteration_limit 0 warnings 0
+3.13.0 def hold_0_0.5_0.00114 creep_ums 581
+3.13.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.13.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.13.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.13.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.13.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.13.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.13.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.13.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.13.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.13.0 def hold_45_0.5_0.00114 creep_ums 581
+3.13.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.13.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.13.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.13.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.13.0 def stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.13.0 def stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.13.0 def offset3_0.00114 most_tilt_urad 1943 end_speed_ums 35
+3.13.0 def slide_box_0.00114 slid_um 130714
+3.13.0 def grip_box_off0_0.00114 creep_ums 6398
+3.13.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.13.0 def grip_box_off0.0093_0.00114 creep_ums 6054
+3.13.0 def grip_mesh_off0.0093_0.00114 creep_ums 8083
+3.13.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.13.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.13.0 def hold_0_0.5_0.000285 creep_ums 581
+3.13.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.13.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.13.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.13.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.13.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.13.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.13.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.13.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.13.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.13.0 def hold_45_0.5_0.000285 creep_ums 581
+3.13.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.13.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.13.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.13.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.13.0 def stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.13.0 def stack9_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.13.0 def offset3_0.000285 most_tilt_urad 1943 end_speed_ums 35
+3.13.0 def slide_box_0.000285 slid_um 131467
+3.13.0 def grip_box_off0_0.000285 creep_ums 6398
+3.13.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.13.0 def grip_box_off0.0093_0.000285 creep_ums 6061
+3.13.0 def grip_mesh_off0.0093_0.000285 creep_ums 8073
+3.13.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.13.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.13.0 def suite1 passed 9
+3.13.0 def solver most_iterations 7 at_iteration_limit 0 warnings 0
+3.13.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.13.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.13.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.13.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.13.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.13.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.13.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.13.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.13.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.13.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.13.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.13.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.13.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.13.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.13.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.13.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.13.0 rec stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.13.0 rec offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+3.13.0 rec slide_box_0.00114 slid_um 130843
+3.13.0 rec grip_box_off0_0.00114 creep_ums 1
+3.13.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.13.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.13.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.13.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.13.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.13.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.13.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.13.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.13.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.13.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.13.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.13.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.13.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.13.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.13.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.13.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.13.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.13.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.13.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.13.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.13.0 rec stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+3.13.0 rec stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+3.13.0 rec offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+3.13.0 rec slide_box_0.000285 slid_um 131393
+3.13.0 rec grip_box_off0_0.000285 creep_ums 1
+3.13.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.13.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.13.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.13.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.13.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.13.0 rec suite1 passed 10
+3.13.0 rec solver most_iterations 9 at_iteration_limit 0 warnings 0
+3.14.0 def hold_0_0.5_0.00114 creep_ums 581
+3.14.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.14.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.14.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.14.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.14.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.14.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.14.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.14.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.14.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.14.0 def hold_45_0.5_0.00114 creep_ums 581
+3.14.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.14.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.14.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.14.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.14.0 def stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.14.0 def stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.14.0 def offset3_0.00114 most_tilt_urad 1943 end_speed_ums 35
+3.14.0 def slide_box_0.00114 slid_um 130714
+3.14.0 def grip_box_off0_0.00114 creep_ums 6398
+3.14.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.14.0 def grip_box_off0.0093_0.00114 creep_ums 6054
+3.14.0 def grip_mesh_off0.0093_0.00114 creep_ums 8083
+3.14.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.14.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.14.0 def hold_0_0.5_0.000285 creep_ums 581
+3.14.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.14.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.14.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.14.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.14.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.14.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.14.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.14.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.14.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.14.0 def hold_45_0.5_0.000285 creep_ums 581
+3.14.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.14.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.14.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.14.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.14.0 def stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.14.0 def stack9_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.14.0 def offset3_0.000285 most_tilt_urad 1943 end_speed_ums 35
+3.14.0 def slide_box_0.000285 slid_um 131467
+3.14.0 def grip_box_off0_0.000285 creep_ums 6398
+3.14.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.14.0 def grip_box_off0.0093_0.000285 creep_ums 6061
+3.14.0 def grip_mesh_off0.0093_0.000285 creep_ums 8073
+3.14.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.14.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.14.0 def suite1 passed 9
+3.14.0 def solver most_iterations 7 at_iteration_limit 0 warnings 0
+3.14.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.14.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.14.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.14.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.14.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.14.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.14.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.14.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.14.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.14.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.14.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.14.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.14.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.14.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.14.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.14.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.14.0 rec stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.14.0 rec offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+3.14.0 rec slide_box_0.00114 slid_um 130843
+3.14.0 rec grip_box_off0_0.00114 creep_ums 1
+3.14.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.14.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.14.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.14.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.14.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.14.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.14.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.14.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.14.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.14.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.14.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.14.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.14.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.14.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.14.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.14.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.14.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.14.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.14.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.14.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.14.0 rec stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+3.14.0 rec stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+3.14.0 rec offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+3.14.0 rec slide_box_0.000285 slid_um 131393
+3.14.0 rec grip_box_off0_0.000285 creep_ums 1
+3.14.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.14.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.14.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.14.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.14.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.14.0 rec suite1 passed 10
+3.14.0 rec solver most_iterations 9 at_iteration_limit 0 warnings 0
+3.15.0 def hold_0_0.5_0.00114 creep_ums 581
+3.15.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.15.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.15.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.15.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.15.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.15.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.15.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.15.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.15.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.15.0 def hold_45_0.5_0.00114 creep_ums 581
+3.15.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.15.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.15.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.15.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.15.0 def stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.15.0 def stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.15.0 def offset3_0.00114 most_tilt_urad 1943 end_speed_ums 35
+3.15.0 def slide_box_0.00114 slid_um 130714
+3.15.0 def grip_box_off0_0.00114 creep_ums 6398
+3.15.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.15.0 def grip_box_off0.0093_0.00114 creep_ums 6054
+3.15.0 def grip_mesh_off0.0093_0.00114 creep_ums 8083
+3.15.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.15.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.15.0 def hold_0_0.5_0.000285 creep_ums 581
+3.15.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.15.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.15.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.15.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.15.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.15.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.15.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.15.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.15.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.15.0 def hold_45_0.5_0.000285 creep_ums 581
+3.15.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.15.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.15.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.15.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.15.0 def stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.15.0 def stack9_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.15.0 def offset3_0.000285 most_tilt_urad 1943 end_speed_ums 35
+3.15.0 def slide_box_0.000285 slid_um 131467
+3.15.0 def grip_box_off0_0.000285 creep_ums 6398
+3.15.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.15.0 def grip_box_off0.0093_0.000285 creep_ums 6061
+3.15.0 def grip_mesh_off0.0093_0.000285 creep_ums 8073
+3.15.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.15.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.15.0 def suite1 passed 9
+3.15.0 def solver most_iterations 7 at_iteration_limit 0 warnings 0
+3.15.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.15.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.15.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.15.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.15.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.15.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.15.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.15.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.15.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.15.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.15.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.15.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.15.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.15.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.15.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.15.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.15.0 rec stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.15.0 rec offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+3.15.0 rec slide_box_0.00114 slid_um 130843
+3.15.0 rec grip_box_off0_0.00114 creep_ums 1
+3.15.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.15.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.15.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.15.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.15.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.15.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.15.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.15.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.15.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.15.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.15.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.15.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.15.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.15.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.15.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.15.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.15.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.15.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.15.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.15.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.15.0 rec stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+3.15.0 rec stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+3.15.0 rec offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+3.15.0 rec slide_box_0.000285 slid_um 131393
+3.15.0 rec grip_box_off0_0.000285 creep_ums 1
+3.15.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.15.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.15.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.15.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.15.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.15.0 rec suite1 passed 10
+3.15.0 rec solver most_iterations 9 at_iteration_limit 0 warnings 0
+3.16.0 def hold_0_0.5_0.00114 creep_ums 581
+3.16.0 def hold_0_0.75_0.00114 creep_ums 1452
+3.16.0 def hold_0_0.95_0.00114 creep_ums 2150
+3.16.0 def slide_0_0.00114 slid_um 133031 highest_um 228
+3.16.0 def free_0_0.00114 slid_um 133051 side_um 0
+3.16.0 def hold_22.5_0.5_0.00114 creep_ums 581
+3.16.0 def hold_22.5_0.75_0.00114 creep_ums 1286
+3.16.0 def hold_22.5_0.95_0.00114 creep_ums 490220
+3.16.0 def slide_22.5_0.00114 slid_um 159224 highest_um 166
+3.16.0 def free_22.5_0.00114 slid_um 159521 side_um 34808
+3.16.0 def hold_45_0.5_0.00114 creep_ums 581
+3.16.0 def hold_45_0.75_0.00114 creep_ums 131274
+3.16.0 def hold_45_0.95_0.00114 creep_ums 743398
+3.16.0 def slide_45_0.00114 slid_um 188261 highest_um 199
+3.16.0 def free_45_0.00114 slid_um 188282 side_um 0
+3.16.0 def stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.16.0 def stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.16.0 def offset3_0.00114 most_tilt_urad 1943 end_speed_ums 35
+3.16.0 def slide_box_0.00114 slid_um 130714
+3.16.0 def grip_box_off0_0.00114 creep_ums 6398
+3.16.0 def grip_mesh_off0_0.00114 creep_ums 6398
+3.16.0 def grip_box_off0.0093_0.00114 creep_ums 6054
+3.16.0 def grip_mesh_off0.0093_0.00114 creep_ums 8083
+3.16.0 def arm_pose1_rest_0.00114 creep_ums -1188
+3.16.0 def arm_pose2_rest_0.00114 creep_ums -13
+3.16.0 def hold_0_0.5_0.000285 creep_ums 581
+3.16.0 def hold_0_0.75_0.000285 creep_ums 1452
+3.16.0 def hold_0_0.95_0.000285 creep_ums 2150
+3.16.0 def slide_0_0.000285 slid_um 133471 highest_um 66
+3.16.0 def free_0_0.000285 slid_um 133472 side_um 0
+3.16.0 def hold_22.5_0.5_0.000285 creep_ums 581
+3.16.0 def hold_22.5_0.75_0.000285 creep_ums 1286
+3.16.0 def hold_22.5_0.95_0.000285 creep_ums 489709
+3.16.0 def slide_22.5_0.000285 slid_um 159658 highest_um 23
+3.16.0 def free_22.5_0.000285 slid_um 160910 side_um 32453
+3.16.0 def hold_45_0.5_0.000285 creep_ums 581
+3.16.0 def hold_45_0.75_0.000285 creep_ums 131151
+3.16.0 def hold_45_0.95_0.000285 creep_ums 742663
+3.16.0 def slide_45_0.000285 slid_um 188683 highest_um 28
+3.16.0 def free_45_0.000285 slid_um 188697 side_um 0
+3.16.0 def stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.16.0 def stack9_0.000285 most_tilt_urad 0 end_speed_ums 0
+3.16.0 def offset3_0.000285 most_tilt_urad 1943 end_speed_ums 35
+3.16.0 def slide_box_0.000285 slid_um 131467
+3.16.0 def grip_box_off0_0.000285 creep_ums 6398
+3.16.0 def grip_mesh_off0_0.000285 creep_ums 6398
+3.16.0 def grip_box_off0.0093_0.000285 creep_ums 6061
+3.16.0 def grip_mesh_off0.0093_0.000285 creep_ums 8073
+3.16.0 def arm_pose1_rest_0.000285 creep_ums -1188
+3.16.0 def arm_pose2_rest_0.000285 creep_ums -13
+3.16.0 def suite1 passed 9
+3.16.0 def solver most_iterations 7 at_iteration_limit 0 warnings 0
+3.16.0 rec hold_0_0.5_0.00114 creep_ums 0
+3.16.0 rec hold_0_0.75_0.00114 creep_ums 0
+3.16.0 rec hold_0_0.95_0.00114 creep_ums 0
+3.16.0 rec slide_0_0.00114 slid_um 133036 highest_um 97
+3.16.0 rec free_0_0.00114 slid_um 133042 side_um 0
+3.16.0 rec hold_22.5_0.5_0.00114 creep_ums 0
+3.16.0 rec hold_22.5_0.75_0.00114 creep_ums 0
+3.16.0 rec hold_22.5_0.95_0.00114 creep_ums 0
+3.16.0 rec slide_22.5_0.00114 slid_um 133036 highest_um 97
+3.16.0 rec free_22.5_0.00114 slid_um 136043 side_um -231
+3.16.0 rec hold_45_0.5_0.00114 creep_ums 0
+3.16.0 rec hold_45_0.75_0.00114 creep_ums 0
+3.16.0 rec hold_45_0.95_0.00114 creep_ums 0
+3.16.0 rec slide_45_0.00114 slid_um 133036 highest_um 97
+3.16.0 rec free_45_0.00114 slid_um 133266 side_um 0
+3.16.0 rec stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.16.0 rec stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+3.16.0 rec offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+3.16.0 rec slide_box_0.00114 slid_um 130843
+3.16.0 rec grip_box_off0_0.00114 creep_ums 1
+3.16.0 rec grip_mesh_off0_0.00114 creep_ums 0
+3.16.0 rec grip_box_off0.0093_0.00114 creep_ums 1
+3.16.0 rec grip_mesh_off0.0093_0.00114 creep_ums 0
+3.16.0 rec arm_pose1_rest_0.00114 creep_ums -714
+3.16.0 rec arm_pose2_rest_0.00114 creep_ums -9
+3.16.0 rec hold_0_0.5_0.000285 creep_ums 0
+3.16.0 rec hold_0_0.75_0.000285 creep_ums 0
+3.16.0 rec hold_0_0.95_0.000285 creep_ums 0
+3.16.0 rec slide_0_0.000285 slid_um 133471 highest_um 32
+3.16.0 rec free_0_0.000285 slid_um 133491 side_um 0
+3.16.0 rec hold_22.5_0.5_0.000285 creep_ums 0
+3.16.0 rec hold_22.5_0.75_0.000285 creep_ums 0
+3.16.0 rec hold_22.5_0.95_0.000285 creep_ums 0
+3.16.0 rec slide_22.5_0.000285 slid_um 133471 highest_um 32
+3.16.0 rec free_22.5_0.000285 slid_um 135734 side_um 83
+3.16.0 rec hold_45_0.5_0.000285 creep_ums 0
+3.16.0 rec hold_45_0.75_0.000285 creep_ums 0
+3.16.0 rec hold_45_0.95_0.000285 creep_ums 0
+3.16.0 rec slide_45_0.000285 slid_um 133471 highest_um 32
+3.16.0 rec free_45_0.000285 slid_um 133605 side_um 0
+3.16.0 rec stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+3.16.0 rec stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+3.16.0 rec offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+3.16.0 rec slide_box_0.000285 slid_um 131393
+3.16.0 rec grip_box_off0_0.000285 creep_ums 1
+3.16.0 rec grip_mesh_off0_0.000285 creep_ums 0
+3.16.0 rec grip_box_off0.0093_0.000285 creep_ums 1
+3.16.0 rec grip_mesh_off0.0093_0.000285 creep_ums 0
+3.16.0 rec arm_pose1_rest_0.000285 creep_ums -714
+3.16.0 rec arm_pose2_rest_0.000285 creep_ums -9
+3.16.0 rec suite1 passed 10
+3.16.0 rec solver most_iterations 9 at_iteration_limit 0 warnings 0
+files 3.11.0 against 3.16.0, hold: 36 of 36 the same
+files 3.11.0 against 3.16.0, slide_0: 4 of 4 the same
+files 3.11.0 against 3.16.0, slide_2: 4 of 4 the same
+files 3.11.0 against 3.16.0, slide_4: 4 of 4 the same
+files 3.11.0 against 3.16.0, free: 12 of 12 the same
+files 3.11.0 against 3.16.0, stack: 10 of 112 the same
+files 3.11.0 against 3.16.0, offset3: 0 of 24 the same
+files 3.11.0 against 3.16.0, slide_box: 0 of 8 the same
+files 3.11.0 against 3.16.0, grip_box: 0 of 16 the same
+files 3.11.0 against 3.16.0, grip_mesh: 4 of 16 the same
+files 3.11.0 against 3.16.0, arm: 16 of 16 the same
+files 3.11.0 against 3.16.0, suites: 80 of 80 the same
+files 3.12.0 against 3.16.0, hold: 36 of 36 the same
+files 3.12.0 against 3.16.0, slide_0: 4 of 4 the same
+files 3.12.0 against 3.16.0, slide_2: 4 of 4 the same
+files 3.12.0 against 3.16.0, slide_4: 4 of 4 the same
+files 3.12.0 against 3.16.0, free: 12 of 12 the same
+files 3.12.0 against 3.16.0, stack: 112 of 112 the same
+files 3.12.0 against 3.16.0, offset3: 24 of 24 the same
+files 3.12.0 against 3.16.0, slide_box: 8 of 8 the same
+files 3.12.0 against 3.16.0, grip_box: 16 of 16 the same
+files 3.12.0 against 3.16.0, grip_mesh: 12 of 16 the same
+files 3.12.0 against 3.16.0, arm: 16 of 16 the same
+files 3.12.0 against 3.16.0, suites: 80 of 80 the same
+files 3.13.0 against 3.16.0, hold: 36 of 36 the same
+files 3.13.0 against 3.16.0, slide_0: 4 of 4 the same
+files 3.13.0 against 3.16.0, slide_2: 4 of 4 the same
+files 3.13.0 against 3.16.0, slide_4: 4 of 4 the same
+files 3.13.0 against 3.16.0, free: 12 of 12 the same
+files 3.13.0 against 3.16.0, stack: 112 of 112 the same
+files 3.13.0 against 3.16.0, offset3: 24 of 24 the same
+files 3.13.0 against 3.16.0, slide_box: 8 of 8 the same
+files 3.13.0 against 3.16.0, grip_box: 16 of 16 the same
+files 3.13.0 against 3.16.0, grip_mesh: 16 of 16 the same
+files 3.13.0 against 3.16.0, arm: 16 of 16 the same
+files 3.13.0 against 3.16.0, suites: 80 of 80 the same
+files 3.14.0 against 3.16.0, hold: 36 of 36 the same
+files 3.14.0 against 3.16.0, slide_0: 4 of 4 the same
+files 3.14.0 against 3.16.0, slide_2: 4 of 4 the same
+files 3.14.0 against 3.16.0, slide_4: 4 of 4 the same
+files 3.14.0 against 3.16.0, free: 12 of 12 the same
+files 3.14.0 against 3.16.0, stack: 112 of 112 the same
+files 3.14.0 against 3.16.0, offset3: 24 of 24 the same
+files 3.14.0 against 3.16.0, slide_box: 8 of 8 the same
+files 3.14.0 against 3.16.0, grip_box: 16 of 16 the same
+files 3.14.0 against 3.16.0, grip_mesh: 16 of 16 the same
+files 3.14.0 against 3.16.0, arm: 16 of 16 the same
+files 3.14.0 against 3.16.0, suites: 80 of 80 the same
+files 3.15.0 against 3.16.0, hold: 36 of 36 the same
+files 3.15.0 against 3.16.0, slide_0: 4 of 4 the same
+files 3.15.0 against 3.16.0, slide_2: 4 of 4 the same
+files 3.15.0 against 3.16.0, slide_4: 4 of 4 the same
+files 3.15.0 against 3.16.0, free: 12 of 12 the same
+files 3.15.0 against 3.16.0, stack: 112 of 112 the same
+files 3.15.0 against 3.16.0, offset3: 24 of 24 the same
+files 3.15.0 against 3.16.0, slide_box: 8 of 8 the same
+files 3.15.0 against 3.16.0, grip_box: 16 of 16 the same
+files 3.15.0 against 3.16.0, grip_mesh: 16 of 16 the same
+files 3.15.0 against 3.16.0, arm: 16 of 16 the same
+files 3.15.0 against 3.16.0, suites: 80 of 80 the same

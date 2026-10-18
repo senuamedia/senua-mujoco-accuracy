@@ -1,0 +1,43 @@
+safe when off: 90 of 90 files byte for byte as released; traced byte for byte as untraced: 90 of 90; the trace build's stderr with the switch unset: 0 lines
+stack5_0.000285_def most_tilt_urad 2302 CHANGES 297
+  PAIR 1-2 first_change_s 0.789735 until_then most_corner_outside_m 8.25008e-12 most_yaw_sin 5.50209e-11 most_tilt 2.78691e-08
+  PAIR 2-3 first_change_s 0.789735 until_then most_corner_outside_m 2.1081e-11 most_yaw_sin 1.35705e-10 most_tilt 3.82286e-08
+  PAIR 3-4 first_change_s 0.78945 until_then most_corner_outside_m 2.77556e-17 most_yaw_sin 2.46453e-16 most_tilt 4.1959e-14
+  PAIR 4-5 first_change_s 0.79401 until_then most_corner_outside_m 8.05548e-11 most_yaw_sin 1.74585e-10 most_tilt 6.78124e-07
+stack9_0.000285_def most_tilt_urad 2523 CHANGES 394
+  PAIR 1-2 first_change_s 0.68856 until_then most_corner_outside_m 1.38778e-17 most_yaw_sin 8.23483e-17 most_tilt 1.47246e-14
+  PAIR 2-3 first_change_s 1.34377 until_then most_corner_outside_m 2.73701e-11 most_yaw_sin 9.48244e-11 most_tilt 6.02842e-08
+  PAIR 3-4 first_change_s 1.34377 until_then most_corner_outside_m 2.74348e-11 most_yaw_sin 5.95186e-11 most_tilt 9.34549e-08
+  PAIR 4-5 first_change_s 1.33295 until_then most_corner_outside_m 4.85723e-17 most_yaw_sin 2.36434e-16 most_tilt 3.02034e-14
+  PAIR 5-6 first_change_s 1.34406 until_then most_corner_outside_m 4.80819e-11 most_yaw_sin 8.22423e-11 most_tilt 2.34079e-07
+  PAIR 6-7 first_change_s 1.34377 until_then most_corner_outside_m 1.35974e-11 most_yaw_sin 6.86472e-11 most_tilt 6.75512e-08
+  PAIR 7-8 first_change_s 1.34377 until_then most_corner_outside_m 1.08958e-11 most_yaw_sin 1.31589e-10 most_tilt 3.3134e-08
+  PAIR 8-9 first_change_s 1.34492 until_then most_corner_outside_m 1.41352e-11 most_yaw_sin 1.40233e-10 most_tilt 1.00917e-07
+stack5_0.000285_1e-12 most_tilt_urad 0 CHANGES 5
+  PAIR 1-2 first_change_s 0.834195 until_then most_corner_outside_m 1.38778e-17 most_yaw_sin 9.75039e-17 most_tilt 1.01717e-14
+  PAIR 2-3 first_change_s 0.809115 until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 8.19959e-17 most_tilt 1.52988e-14
+  PAIR 3-4 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 7.36907e-17 most_tilt 1.71001e-14
+  PAIR 4-5 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 1.54012e-17 most_tilt 1.45417e-14
+stack9_0.000285_1e-12 most_tilt_urad 0 CHANGES 7
+  PAIR 1-2 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 7.64533e-17 most_tilt 1.35626e-14
+  PAIR 2-3 first_change_s none until_then most_corner_outside_m 6.93889e-17 most_yaw_sin 5.65655e-17 most_tilt 2.25555e-14
+  PAIR 3-4 first_change_s 1.28392 until_then most_corner_outside_m 4.16334e-17 most_yaw_sin 1.95324e-16 most_tilt 2.55185e-14
+  PAIR 4-5 first_change_s 1.03398 until_then most_corner_outside_m 4.16334e-17 most_yaw_sin 8.22699e-17 most_tilt 2.21526e-14
+  PAIR 5-6 first_change_s none until_then most_corner_outside_m 4.16334e-17 most_yaw_sin 6.00325e-17 most_tilt 1.91141e-14
+  PAIR 6-7 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 1.75384e-17 most_tilt 1.37429e-14
+  PAIR 7-8 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 3.00824e-17 most_tilt 9.24838e-15
+  PAIR 8-9 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 1.06813e-17 most_tilt 5.51295e-15
+stack5_0.00114_def most_tilt_urad 0 CHANGES 0
+  PAIR 1-2 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+  PAIR 2-3 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+  PAIR 3-4 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+  PAIR 4-5 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+stack9_0.00114_def most_tilt_urad 0 CHANGES 4
+  PAIR 1-2 first_change_s 0.71022 until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 8.32488e-17 most_tilt 7.38556e-15
+  PAIR 2-3 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 1.54793e-16 most_tilt 7.43816e-14
+  PAIR 3-4 first_change_s 1.47972 until_then most_corner_outside_m 2.77556e-17 most_yaw_sin 1.88197e-16 most_tilt 7.58257e-14
+  PAIR 4-5 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 2.56658e-16 most_tilt 6.71213e-14
+  PAIR 5-6 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 7.53443e-17 most_tilt 4.83293e-14
+  PAIR 6-7 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 4.72101e-17 most_tilt 3.11655e-14
+  PAIR 7-8 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 2.12053e-17 most_tilt 1.85156e-14
+  PAIR 8-9 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 8.33885e-18 most_tilt 9.77512e-15

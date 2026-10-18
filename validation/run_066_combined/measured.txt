@@ -1,0 +1,566 @@
+files rel against off: 249 of 249 the same
+files rel against q: 207 of 249 the same
+files rel against d: 133 of 249 the same
+files rel against dq: 115 of 249 the same
+differ rel against q: arms/s10_pose1_as_rest_0.000285.txt
+differ rel against q: arms/s10_pose1_as_rest_0.00114.txt
+differ rel against q: arms/s10_pose1_drop_0.000285.txt
+differ rel against q: arms/s10_pose1_drop_0.00114.txt
+differ rel against q: arms/s10_pose1_mirror_rest_0.000285.txt
+differ rel against q: arms/s10_pose1_mirror_rest_0.00114.txt
+differ rel against q: arms/s10_pose2_as_rest_0.000285.txt
+differ rel against q: arms/s10_pose2_as_rest_0.00114.txt
+differ rel against q: arms/s10_pose2_drop_0.000285.txt
+differ rel against q: arms/s10_pose2_drop_0.00114.txt
+differ rel against q: arms/s10_pose2_mirror_rest_0.000285.txt
+differ rel against q: arms/s10_pose2_mirror_rest_0.00114.txt
+differ rel against q: arms/s13_pose2_as_rest_0.000285.txt
+differ rel against q: arms/s13_pose2_as_rest_0.00114.txt
+differ rel against q: arms/s13_pose2_drop_0.000285.txt
+differ rel against q: arms/s13_pose2_drop_0.00114.txt
+differ rel against q: arms/s13_pose2_mirror_rest_0.000285.txt
+differ rel against q: arms/s13_pose2_mirror_rest_0.00114.txt
+differ rel against q: arms/s14_pose1_as_rest_0.0002975.txt
+differ rel against q: arms/s14_pose1_as_rest_0.00119.txt
+differ rel against q: arms/s14_pose1_drop_0.0002975.txt
+differ rel against q: arms/s14_pose1_drop_0.00119.txt
+differ rel against q: arms/s14_pose1_mirror_rest_0.0002975.txt
+differ rel against q: arms/s14_pose1_mirror_rest_0.00119.txt
+differ rel against q: arms/s14_pose2_as_rest_0.0002975.txt
+differ rel against q: arms/s14_pose2_as_rest_0.00119.txt
+differ rel against q: arms/s14_pose2_drop_0.0002975.txt
+differ rel against q: arms/s14_pose2_drop_0.00119.txt
+differ rel against q: arms/s14_pose2_mirror_rest_0.0002975.txt
+differ rel against q: arms/s14_pose2_mirror_rest_0.00119.txt
+differ rel against q: arms/s14_pose3_as_rest_0.0002975.txt
+differ rel against q: arms/s14_pose3_as_rest_0.00119.txt
+differ rel against q: arms/s14_pose3_drop_0.0002975.txt
+differ rel against q: arms/s14_pose3_drop_0.00119.txt
+differ rel against q: arms/s14_pose3_mirror_rest_0.0002975.txt
+differ rel against q: arms/s14_pose3_mirror_rest_0.00119.txt
+differ rel against q: arms/s14_pose4_as_rest_0.0002975.txt
+differ rel against q: arms/s14_pose4_as_rest_0.00119.txt
+differ rel against q: arms/s14_pose4_drop_0.0002975.txt
+differ rel against q: arms/s14_pose4_drop_0.00119.txt
+differ rel against q: arms/s14_pose4_mirror_rest_0.0002975.txt
+differ rel against q: arms/s14_pose4_mirror_rest_0.00119.txt
+differ rel against d: arms/s10_pose2_as_rest_0.000285.txt
+differ rel against d: arms/s10_pose2_as_rest_0.00114.txt
+differ rel against d: arms/s10_pose2_drop_0.000285.txt
+differ rel against d: arms/s10_pose2_drop_0.00114.txt
+differ rel against d: arms/s10_pose2_mirror_rest_0.000285.txt
+differ rel against d: arms/s10_pose2_mirror_rest_0.00114.txt
+differ rel against d: arms/s13_pose2_as_rest_0.000285.txt
+differ rel against d: arms/s13_pose2_as_rest_0.00114.txt
+differ rel against d: arms/s13_pose2_drop_0.000285.txt
+differ rel against d: arms/s13_pose2_drop_0.00114.txt
+differ rel against d: arms/s13_pose2_mirror_rest_0.000285.txt
+differ rel against d: arms/s13_pose2_mirror_rest_0.00114.txt
+differ rel against d: arms/s14_pose2_as_rest_0.0002975.txt
+differ rel against d: arms/s14_pose2_as_rest_0.00119.txt
+differ rel against d: arms/s14_pose2_drop_0.0002975.txt
+differ rel against d: arms/s14_pose2_drop_0.00119.txt
+differ rel against d: arms/s14_pose2_mirror_rest_0.0002975.txt
+differ rel against d: arms/s14_pose2_mirror_rest_0.00119.txt
+differ rel against d: arms/s14_pose4_as_rest_0.0002975.txt
+differ rel against d: arms/s14_pose4_as_rest_0.00119.txt
+differ rel against d: arms/s14_pose4_drop_0.0002975.txt
+differ rel against d: arms/s14_pose4_drop_0.00119.txt
+differ rel against d: arms/s14_pose4_mirror_rest_0.0002975.txt
+differ rel against d: arms/s14_pose4_mirror_rest_0.00119.txt
+differ rel against d: p/box.txt
+differ rel against d: p/free_0_0.000285.txt
+differ rel against d: p/free_0_0.00114.txt
+differ rel against d: p/free_22.5_0.000285.txt
+differ rel against d: p/free_22.5_0.00114.txt
+differ rel against d: p/free_45_0.000285.txt
+differ rel against d: p/free_45_0.00114.txt
+differ rel against d: p/offset3_0.000285_3.txt
+differ rel against d: p/offset3_0.000285_3_tilt.txt
+differ rel against d: p/slide_0_0.000285.txt
+differ rel against d: p/slide_0_0.00114.txt
+differ rel against d: p/slide_22.5_0.000285.txt
+differ rel against d: p/slide_22.5_0.00114.txt
+differ rel against d: p/slide_45_0.000285.txt
+differ rel against d: p/slide_45_0.00114.txt
+differ rel against d: p/slide_box_0.000285_1.txt
+differ rel against d: p/slide_box_0.000285_1_tilt.txt
+differ rel against d: p/slide_box_0.00114_1.txt
+differ rel against d: p/slide_box_0.00114_1_tilt.txt
+differ rel against d: p/stack5_0.000285_1.txt
+differ rel against d: p/stack5_0.000285_1_tilt.txt
+differ rel against d: p/stack5_0.000285_2.txt
+differ rel against d: p/stack5_0.000285_2_tilt.txt
+differ rel against d: p/stack5_0.000285_3.txt
+differ rel against d: p/stack5_0.000285_3_tilt.txt
+differ rel against d: p/stack5_0.000285_4.txt
+differ rel against d: p/stack5_0.000285_4_tilt.txt
+differ rel against d: p/stack5_0.000285_5.txt
+differ rel against d: p/stack5_0.000285_5_tilt.txt
+differ rel against d: p/stack9_0.000285_1.txt
+differ rel against d: p/stack9_0.000285_1_tilt.txt
+differ rel against d: p/stack9_0.000285_2.txt
+differ rel against d: p/stack9_0.000285_2_tilt.txt
+differ rel against d: p/stack9_0.000285_3.txt
+differ rel against d: p/stack9_0.000285_3_tilt.txt
+differ rel against d: p/stack9_0.000285_4.txt
+differ rel against d: p/stack9_0.000285_4_tilt.txt
+differ rel against d: p/stack9_0.000285_5.txt
+differ rel against d: p/stack9_0.000285_5_tilt.txt
+differ rel against d: p/stack9_0.000285_6.txt
+differ rel against d: p/stack9_0.000285_6_tilt.txt
+differ rel against d: p/stack9_0.000285_7.txt
+differ rel against d: p/stack9_0.000285_7_tilt.txt
+differ rel against d: p/stack9_0.000285_8.txt
+differ rel against d: p/stack9_0.000285_8_tilt.txt
+differ rel against d: p/stack9_0.000285_9.txt
+differ rel against d: p/stack9_0.000285_9_tilt.txt
+differ rel against d: p/stack9_0.00114_1.txt
+differ rel against d: p/stack9_0.00114_2.txt
+differ rel against d: p/stack9_0.00114_3.txt
+differ rel against d: p/stack9_0.00114_4.txt
+differ rel against d: p/stack9_0.00114_5.txt
+differ rel against d: p/stack9_0.00114_6.txt
+differ rel against d: p/stack9_0.00114_7.txt
+differ rel against d: p/stack9_0.00114_8.txt
+differ rel against d: p/stack9_0.00114_9.txt
+differ rel against d: suites/1/fresh/chain_1.txt
+differ rel against d: suites/1/fresh/chain_16.txt
+differ rel against d: suites/1/fresh/chain_2.txt
+differ rel against d: suites/1/fresh/chain_32.txt
+differ rel against d: suites/1/fresh/chain_4.txt
+differ rel against d: suites/1/fresh/chain_64.txt
+differ rel against d: suites/1/fresh/chain_8.txt
+differ rel against d: suites/1/fresh/oblique_1.txt
+differ rel against d: suites/1/fresh/oblique_16.txt
+differ rel against d: suites/1/fresh/oblique_2.txt
+differ rel against d: suites/1/fresh/oblique_32.txt
+differ rel against d: suites/1/fresh/oblique_4.txt
+differ rel against d: suites/1/fresh/oblique_64.txt
+differ rel against d: suites/1/fresh/oblique_8.txt
+differ rel against d: suites/1/fresh/slide_1.txt
+differ rel against d: suites/1/fresh/slide_16.txt
+differ rel against d: suites/1/fresh/slip_1.txt
+differ rel against d: suites/1/fresh/slip_16.txt
+differ rel against d: suites/1/fresh14/chain_1.txt
+differ rel against d: suites/1/fresh14/chain_16.txt
+differ rel against d: suites/1/fresh14/chain_2.txt
+differ rel against d: suites/1/fresh14/chain_32.txt
+differ rel against d: suites/1/fresh14/chain_4.txt
+differ rel against d: suites/1/fresh14/chain_64.txt
+differ rel against d: suites/1/fresh14/chain_8.txt
+differ rel against d: suites/1/fresh14/oblique_1.txt
+differ rel against d: suites/1/fresh14/oblique_16.txt
+differ rel against d: suites/1/fresh14/oblique_2.txt
+differ rel against d: suites/1/fresh14/oblique_32.txt
+differ rel against d: suites/1/fresh14/oblique_4.txt
+differ rel against d: suites/1/fresh14/oblique_64.txt
+differ rel against d: suites/1/fresh14/oblique_8.txt
+differ rel against d: suites/1/fresh14/slide_1.txt
+differ rel against d: suites/1/fresh14/slide_16.txt
+differ rel against d: suites/1/fresh14/slip_1.txt
+differ rel against d: suites/1/fresh14/slip_16.txt
+differ rel against dq: arms/s10_pose1_as_rest_0.000285.txt
+differ rel against dq: arms/s10_pose1_as_rest_0.00114.txt
+differ rel against dq: arms/s10_pose1_drop_0.000285.txt
+differ rel against dq: arms/s10_pose1_drop_0.00114.txt
+differ rel against dq: arms/s10_pose1_mirror_rest_0.000285.txt
+differ rel against dq: arms/s10_pose1_mirror_rest_0.00114.txt
+differ rel against dq: arms/s10_pose2_as_rest_0.000285.txt
+differ rel against dq: arms/s10_pose2_as_rest_0.00114.txt
+differ rel against dq: arms/s10_pose2_drop_0.000285.txt
+differ rel against dq: arms/s10_pose2_drop_0.00114.txt
+differ rel against dq: arms/s10_pose2_mirror_rest_0.000285.txt
+differ rel against dq: arms/s10_pose2_mirror_rest_0.00114.txt
+differ rel against dq: arms/s13_pose2_as_rest_0.000285.txt
+differ rel against dq: arms/s13_pose2_as_rest_0.00114.txt
+differ rel against dq: arms/s13_pose2_drop_0.000285.txt
+differ rel against dq: arms/s13_pose2_drop_0.00114.txt
+differ rel against dq: arms/s13_pose2_mirror_rest_0.000285.txt
+differ rel against dq: arms/s13_pose2_mirror_rest_0.00114.txt
+differ rel against dq: arms/s14_pose1_as_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose1_as_rest_0.00119.txt
+differ rel against dq: arms/s14_pose1_drop_0.0002975.txt
+differ rel against dq: arms/s14_pose1_drop_0.00119.txt
+differ rel against dq: arms/s14_pose1_mirror_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose1_mirror_rest_0.00119.txt
+differ rel against dq: arms/s14_pose2_as_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose2_as_rest_0.00119.txt
+differ rel against dq: arms/s14_pose2_drop_0.0002975.txt
+differ rel against dq: arms/s14_pose2_drop_0.00119.txt
+differ rel against dq: arms/s14_pose2_mirror_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose2_mirror_rest_0.00119.txt
+differ rel against dq: arms/s14_pose3_as_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose3_as_rest_0.00119.txt
+differ rel against dq: arms/s14_pose3_drop_0.0002975.txt
+differ rel against dq: arms/s14_pose3_drop_0.00119.txt
+differ rel against dq: arms/s14_pose3_mirror_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose3_mirror_rest_0.00119.txt
+differ rel against dq: arms/s14_pose4_as_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose4_as_rest_0.00119.txt
+differ rel against dq: arms/s14_pose4_drop_0.0002975.txt
+differ rel against dq: arms/s14_pose4_drop_0.00119.txt
+differ rel against dq: arms/s14_pose4_mirror_rest_0.0002975.txt
+differ rel against dq: arms/s14_pose4_mirror_rest_0.00119.txt
+differ rel against dq: p/box.txt
+differ rel against dq: p/free_0_0.000285.txt
+differ rel against dq: p/free_0_0.00114.txt
+differ rel against dq: p/free_22.5_0.000285.txt
+differ rel against dq: p/free_22.5_0.00114.txt
+differ rel against dq: p/free_45_0.000285.txt
+differ rel against dq: p/free_45_0.00114.txt
+differ rel against dq: p/offset3_0.000285_3.txt
+differ rel against dq: p/offset3_0.000285_3_tilt.txt
+differ rel against dq: p/slide_0_0.000285.txt
+differ rel against dq: p/slide_0_0.00114.txt
+differ rel against dq: p/slide_22.5_0.000285.txt
+differ rel against dq: p/slide_22.5_0.00114.txt
+differ rel against dq: p/slide_45_0.000285.txt
+differ rel against dq: p/slide_45_0.00114.txt
+differ rel against dq: p/slide_box_0.000285_1.txt
+differ rel against dq: p/slide_box_0.000285_1_tilt.txt
+differ rel against dq: p/slide_box_0.00114_1.txt
+differ rel against dq: p/slide_box_0.00114_1_tilt.txt
+differ rel against dq: p/stack5_0.000285_1.txt
+differ rel against dq: p/stack5_0.000285_1_tilt.txt
+differ rel against dq: p/stack5_0.000285_2.txt
+differ rel against dq: p/stack5_0.000285_2_tilt.txt
+differ rel against dq: p/stack5_0.000285_3.txt
+differ rel against dq: p/stack5_0.000285_3_tilt.txt
+differ rel against dq: p/stack5_0.000285_4.txt
+differ rel against dq: p/stack5_0.000285_4_tilt.txt
+differ rel against dq: p/stack5_0.000285_5.txt
+differ rel against dq: p/stack5_0.000285_5_tilt.txt
+differ rel against dq: p/stack9_0.000285_1.txt
+differ rel against dq: p/stack9_0.000285_1_tilt.txt
+differ rel against dq: p/stack9_0.000285_2.txt
+differ rel against dq: p/stack9_0.000285_2_tilt.txt
+differ rel against dq: p/stack9_0.000285_3.txt
+differ rel against dq: p/stack9_0.000285_3_tilt.txt
+differ rel against dq: p/stack9_0.000285_4.txt
+differ rel against dq: p/stack9_0.000285_4_tilt.txt
+differ rel against dq: p/stack9_0.000285_5.txt
+differ rel against dq: p/stack9_0.000285_5_tilt.txt
+differ rel against dq: p/stack9_0.000285_6.txt
+differ rel against dq: p/stack9_0.000285_6_tilt.txt
+differ rel against dq: p/stack9_0.000285_7.txt
+differ rel against dq: p/stack9_0.000285_7_tilt.txt
+differ rel against dq: p/stack9_0.000285_8.txt
+differ rel against dq: p/stack9_0.000285_8_tilt.txt
+differ rel against dq: p/stack9_0.000285_9.txt
+differ rel against dq: p/stack9_0.000285_9_tilt.txt
+differ rel against dq: p/stack9_0.00114_1.txt
+differ rel against dq: p/stack9_0.00114_2.txt
+differ rel against dq: p/stack9_0.00114_3.txt
+differ rel against dq: p/stack9_0.00114_4.txt
+differ rel against dq: p/stack9_0.00114_5.txt
+differ rel against dq: p/stack9_0.00114_6.txt
+differ rel against dq: p/stack9_0.00114_7.txt
+differ rel against dq: p/stack9_0.00114_8.txt
+differ rel against dq: p/stack9_0.00114_9.txt
+differ rel against dq: suites/1/fresh/chain_1.txt
+differ rel against dq: suites/1/fresh/chain_16.txt
+differ rel against dq: suites/1/fresh/chain_2.txt
+differ rel against dq: suites/1/fresh/chain_32.txt
+differ rel against dq: suites/1/fresh/chain_4.txt
+differ rel against dq: suites/1/fresh/chain_64.txt
+differ rel against dq: suites/1/fresh/chain_8.txt
+differ rel against dq: suites/1/fresh/oblique_1.txt
+differ rel against dq: suites/1/fresh/oblique_16.txt
+differ rel against dq: suites/1/fresh/oblique_2.txt
+differ rel against dq: suites/1/fresh/oblique_32.txt
+differ rel against dq: suites/1/fresh/oblique_4.txt
+differ rel against dq: suites/1/fresh/oblique_64.txt
+differ rel against dq: suites/1/fresh/oblique_8.txt
+differ rel against dq: suites/1/fresh/slide_1.txt
+differ rel against dq: suites/1/fresh/slide_16.txt
+differ rel against dq: suites/1/fresh/slip_1.txt
+differ rel against dq: suites/1/fresh/slip_16.txt
+differ rel against dq: suites/1/fresh14/chain_1.txt
+differ rel against dq: suites/1/fresh14/chain_16.txt
+differ rel against dq: suites/1/fresh14/chain_2.txt
+differ rel against dq: suites/1/fresh14/chain_32.txt
+differ rel against dq: suites/1/fresh14/chain_4.txt
+differ rel against dq: suites/1/fresh14/chain_64.txt
+differ rel against dq: suites/1/fresh14/chain_8.txt
+differ rel against dq: suites/1/fresh14/oblique_1.txt
+differ rel against dq: suites/1/fresh14/oblique_16.txt
+differ rel against dq: suites/1/fresh14/oblique_2.txt
+differ rel against dq: suites/1/fresh14/oblique_32.txt
+differ rel against dq: suites/1/fresh14/oblique_4.txt
+differ rel against dq: suites/1/fresh14/oblique_64.txt
+differ rel against dq: suites/1/fresh14/oblique_8.txt
+differ rel against dq: suites/1/fresh14/slide_1.txt
+differ rel against dq: suites/1/fresh14/slide_16.txt
+differ rel against dq: suites/1/fresh14/slip_1.txt
+differ rel against dq: suites/1/fresh14/slip_16.txt
+rel holds 0.00114 0 0 0 0 0 0 0 0 0 
+rel slides 0.00114 slid_um 133036 133036 133036  free slid_um 133042 136043 133266 
+rel grips 0.00114 1 0 1 0 
+rel s10_pose1_as_rest_0.00114 creep_ums -714
+rel s10_pose1_mirror_rest_0.00114 creep_ums 714
+rel s10_pose1_drop_0.00114 creep_ums -591 last_moving_s 3.0005
+rel s10_pose2_as_rest_0.00114 creep_ums -9
+rel s10_pose2_mirror_rest_0.00114 creep_ums 9
+rel s10_pose2_drop_0.00114 creep_ums 84 last_moving_s 3.0005
+rel s13_pose1_as_rest_0.00114 creep_ums 0
+rel s13_pose1_mirror_rest_0.00114 creep_ums 0
+rel s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2839
+rel s13_pose2_as_rest_0.00114 creep_ums -192
+rel s13_pose2_mirror_rest_0.00114 creep_ums 192
+rel s13_pose2_drop_0.00114 creep_ums -79 last_moving_s 3.0005
+rel jf_pose1_0.00114 creep_ums -2
+rel jf_pose2_0.00114 creep_ums -2
+rel stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+rel holds 0.000285 0 0 0 0 0 0 0 0 0 
+rel slides 0.000285 slid_um 133471 133471 133471  free slid_um 133491 135734 133605 
+rel grips 0.000285 1 0 1 0 
+rel s10_pose1_as_rest_0.000285 creep_ums -714
+rel s10_pose1_mirror_rest_0.000285 creep_ums 714
+rel s10_pose1_drop_0.000285 creep_ums -590 last_moving_s 2.9999
+rel s10_pose2_as_rest_0.000285 creep_ums -9
+rel s10_pose2_mirror_rest_0.000285 creep_ums 9
+rel s10_pose2_drop_0.000285 creep_ums 84 last_moving_s 2.9999
+rel s13_pose1_as_rest_0.000285 creep_ums 0
+rel s13_pose1_mirror_rest_0.000285 creep_ums 0
+rel s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+rel s13_pose2_as_rest_0.000285 creep_ums -192
+rel s13_pose2_mirror_rest_0.000285 creep_ums 192
+rel s13_pose2_drop_0.000285 creep_ums -79 last_moving_s 2.9999
+rel jf_pose1_0.000285 creep_ums -2
+rel jf_pose2_0.000285 creep_ums -2
+rel stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+rel stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+rel offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+rel s14_pose1_as_rest_0.00119 creep_ums -497
+rel s14_pose1_mirror_rest_0.00119 creep_ums 497
+rel s14_pose1_drop_0.00119 creep_ums -331 last_moving_s 3.0000
+rel s14_pose2_as_rest_0.00119 creep_ums -31
+rel s14_pose2_mirror_rest_0.00119 creep_ums 31
+rel s14_pose2_drop_0.00119 creep_ums 87 last_moving_s 3.0000
+rel s14_pose3_as_rest_0.00119 creep_ums 102
+rel s14_pose3_mirror_rest_0.00119 creep_ums -102
+rel s14_pose3_drop_0.00119 creep_ums 319 last_moving_s 3.0000
+rel s14_pose4_as_rest_0.00119 creep_ums -21
+rel s14_pose4_mirror_rest_0.00119 creep_ums 21
+rel s14_pose4_drop_0.00119 creep_ums 114 last_moving_s 3.0000
+rel s14_pose1_as_rest_0.0002975 creep_ums -497
+rel s14_pose1_mirror_rest_0.0002975 creep_ums 497
+rel s14_pose1_drop_0.0002975 creep_ums -329 last_moving_s 3.0000
+rel s14_pose2_as_rest_0.0002975 creep_ums -32
+rel s14_pose2_mirror_rest_0.0002975 creep_ums 32
+rel s14_pose2_drop_0.0002975 creep_ums 87 last_moving_s 3.0000
+rel s14_pose3_as_rest_0.0002975 creep_ums 102
+rel s14_pose3_mirror_rest_0.0002975 creep_ums -102
+rel s14_pose3_drop_0.0002975 creep_ums 321 last_moving_s 3.0000
+rel s14_pose4_as_rest_0.0002975 creep_ums -22
+rel s14_pose4_mirror_rest_0.0002975 creep_ums 22
+rel s14_pose4_drop_0.0002975 creep_ums 115 last_moving_s 3.0000
+rel box 999 194612255 -76978 0 0 0
+rel suite1 passed 10 | suite1 on Study 14's cube passed 9 T08 the refinement chain falls at every step: 83213 25898 11754 6154 2928 3469 : FAIL
+rel solver most_iterations 18 at_iteration_limit 0 warnings 0
+q holds 0.00114 0 0 0 0 0 0 0 0 0 
+q slides 0.00114 slid_um 133036 133036 133036  free slid_um 133042 136043 133266 
+q grips 0.00114 1 0 1 0 
+q s10_pose1_as_rest_0.00114 creep_ums 0
+q s10_pose1_mirror_rest_0.00114 creep_ums 0
+q s10_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2782
+q s10_pose2_as_rest_0.00114 creep_ums 0
+q s10_pose2_mirror_rest_0.00114 creep_ums 0
+q s10_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6259
+q s13_pose1_as_rest_0.00114 creep_ums 0
+q s13_pose1_mirror_rest_0.00114 creep_ums 0
+q s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2839
+q s13_pose2_as_rest_0.00114 creep_ums 0
+q s13_pose2_mirror_rest_0.00114 creep_ums 0
+q s13_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.5381
+q jf_pose1_0.00114 creep_ums -2
+q jf_pose2_0.00114 creep_ums -2
+q stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+q stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+q offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+q holds 0.000285 0 0 0 0 0 0 0 0 0 
+q slides 0.000285 slid_um 133471 133471 133471  free slid_um 133491 135734 133605 
+q grips 0.000285 1 0 1 0 
+q s10_pose1_as_rest_0.000285 creep_ums 0
+q s10_pose1_mirror_rest_0.000285 creep_ums 0
+q s10_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2907
+q s10_pose2_as_rest_0.000285 creep_ums 0
+q s10_pose2_mirror_rest_0.000285 creep_ums 0
+q s10_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6467
+q s13_pose1_as_rest_0.000285 creep_ums 0
+q s13_pose1_mirror_rest_0.000285 creep_ums 0
+q s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+q s13_pose2_as_rest_0.000285 creep_ums 0
+q s13_pose2_mirror_rest_0.000285 creep_ums 0
+q s13_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6472
+q jf_pose1_0.000285 creep_ums -2
+q jf_pose2_0.000285 creep_ums -2
+q stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+q stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+q offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+q s14_pose1_as_rest_0.00119 creep_ums 0
+q s14_pose1_mirror_rest_0.00119 creep_ums 0
+q s14_pose1_drop_0.00119 creep_ums 0 last_moving_s 0.2880
+q s14_pose2_as_rest_0.00119 creep_ums 0
+q s14_pose2_mirror_rest_0.00119 creep_ums 0
+q s14_pose2_drop_0.00119 creep_ums 0 last_moving_s 0.6676
+q s14_pose3_as_rest_0.00119 creep_ums 0
+q s14_pose3_mirror_rest_0.00119 creep_ums 0
+q s14_pose3_drop_0.00119 creep_ums 0 last_moving_s 0.2904
+q s14_pose4_as_rest_0.00119 creep_ums 0
+q s14_pose4_mirror_rest_0.00119 creep_ums 0
+q s14_pose4_drop_0.00119 creep_ums 0 last_moving_s 0.6581
+q s14_pose1_as_rest_0.0002975 creep_ums 0
+q s14_pose1_mirror_rest_0.0002975 creep_ums 0
+q s14_pose1_drop_0.0002975 creep_ums 0 last_moving_s 0.2984
+q s14_pose2_as_rest_0.0002975 creep_ums 0
+q s14_pose2_mirror_rest_0.0002975 creep_ums 0
+q s14_pose2_drop_0.0002975 creep_ums 0 last_moving_s 0.6643
+q s14_pose3_as_rest_0.0002975 creep_ums 0
+q s14_pose3_mirror_rest_0.0002975 creep_ums 0
+q s14_pose3_drop_0.0002975 creep_ums 0 last_moving_s 0.2993
+q s14_pose4_as_rest_0.0002975 creep_ums 0
+q s14_pose4_mirror_rest_0.0002975 creep_ums 0
+q s14_pose4_drop_0.0002975 creep_ums 0 last_moving_s 0.6512
+q box 999 194612255 -76978 0 0 0
+q suite1 passed 10 | suite1 on Study 14's cube passed 9 T08 the refinement chain falls at every step: 83213 25898 11754 6154 2928 3469 : FAIL
+q solver most_iterations 18 at_iteration_limit 0 warnings 0
+d holds 0.00114 0 0 0 0 0 0 0 0 0 
+d slides 0.00114 slid_um 133052 133052 133052  free slid_um 133036 133036 133036 
+d grips 0.00114 1 0 1 0 
+d s10_pose1_as_rest_0.00114 creep_ums -714
+d s10_pose1_mirror_rest_0.00114 creep_ums 714
+d s10_pose1_drop_0.00114 creep_ums -591 last_moving_s 3.0005
+d s10_pose2_as_rest_0.00114 creep_ums -8
+d s10_pose2_mirror_rest_0.00114 creep_ums 8
+d s10_pose2_drop_0.00114 creep_ums 86 last_moving_s 3.0005
+d s13_pose1_as_rest_0.00114 creep_ums 0
+d s13_pose1_mirror_rest_0.00114 creep_ums 0
+d s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2839
+d s13_pose2_as_rest_0.00114 creep_ums -190
+d s13_pose2_mirror_rest_0.00114 creep_ums 190
+d s13_pose2_drop_0.00114 creep_ums -76 last_moving_s 3.0005
+d jf_pose1_0.00114 creep_ums -2
+d jf_pose2_0.00114 creep_ums -2
+d stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+d stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+d offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+d holds 0.000285 0 0 0 0 0 0 0 0 0 
+d slides 0.000285 slid_um 133494 133494 133494  free slid_um 133478 133478 133478 
+d grips 0.000285 1 0 1 0 
+d s10_pose1_as_rest_0.000285 creep_ums -714
+d s10_pose1_mirror_rest_0.000285 creep_ums 714
+d s10_pose1_drop_0.000285 creep_ums -590 last_moving_s 2.9999
+d s10_pose2_as_rest_0.000285 creep_ums -8
+d s10_pose2_mirror_rest_0.000285 creep_ums 8
+d s10_pose2_drop_0.000285 creep_ums 87 last_moving_s 2.9999
+d s13_pose1_as_rest_0.000285 creep_ums 0
+d s13_pose1_mirror_rest_0.000285 creep_ums 0
+d s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+d s13_pose2_as_rest_0.000285 creep_ums -190
+d s13_pose2_mirror_rest_0.000285 creep_ums 190
+d s13_pose2_drop_0.000285 creep_ums -76 last_moving_s 2.9999
+d jf_pose1_0.000285 creep_ums -2
+d jf_pose2_0.000285 creep_ums -2
+d stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+d stack9_0.000285 most_tilt_urad 3181 end_speed_ums 6136
+d offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+d s14_pose1_as_rest_0.00119 creep_ums -497
+d s14_pose1_mirror_rest_0.00119 creep_ums 497
+d s14_pose1_drop_0.00119 creep_ums -331 last_moving_s 3.0000
+d s14_pose2_as_rest_0.00119 creep_ums -31
+d s14_pose2_mirror_rest_0.00119 creep_ums 31
+d s14_pose2_drop_0.00119 creep_ums 90 last_moving_s 3.0000
+d s14_pose3_as_rest_0.00119 creep_ums 102
+d s14_pose3_mirror_rest_0.00119 creep_ums -102
+d s14_pose3_drop_0.00119 creep_ums 319 last_moving_s 3.0000
+d s14_pose4_as_rest_0.00119 creep_ums -21
+d s14_pose4_mirror_rest_0.00119 creep_ums 21
+d s14_pose4_drop_0.00119 creep_ums 118 last_moving_s 3.0000
+d s14_pose1_as_rest_0.0002975 creep_ums -497
+d s14_pose1_mirror_rest_0.0002975 creep_ums 497
+d s14_pose1_drop_0.0002975 creep_ums -329 last_moving_s 3.0000
+d s14_pose2_as_rest_0.0002975 creep_ums -31
+d s14_pose2_mirror_rest_0.0002975 creep_ums 31
+d s14_pose2_drop_0.0002975 creep_ums 90 last_moving_s 3.0000
+d s14_pose3_as_rest_0.0002975 creep_ums 102
+d s14_pose3_mirror_rest_0.0002975 creep_ums -102
+d s14_pose3_drop_0.0002975 creep_ums 321 last_moving_s 3.0000
+d s14_pose4_as_rest_0.0002975 creep_ums -21
+d s14_pose4_mirror_rest_0.0002975 creep_ums 21
+d s14_pose4_drop_0.0002975 creep_ums 118 last_moving_s 3.0000
+d box 999 188019916 55 0 0 0
+d suite1 passed 10 | suite1 on Study 14's cube passed 10 T08 the refinement chain falls at every step: 34526 16517 8197 3811 2013 1737 : PASS
+d solver most_iterations 57 at_iteration_limit 0 warnings 0
+dq holds 0.00114 0 0 0 0 0 0 0 0 0 
+dq slides 0.00114 slid_um 133052 133052 133052  free slid_um 133036 133036 133036 
+dq grips 0.00114 1 0 1 0 
+dq s10_pose1_as_rest_0.00114 creep_ums 0
+dq s10_pose1_mirror_rest_0.00114 creep_ums 0
+dq s10_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2782
+dq s10_pose2_as_rest_0.00114 creep_ums 0
+dq s10_pose2_mirror_rest_0.00114 creep_ums 0
+dq s10_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6384
+dq s13_pose1_as_rest_0.00114 creep_ums 0
+dq s13_pose1_mirror_rest_0.00114 creep_ums 0
+dq s13_pose1_drop_0.00114 creep_ums 0 last_moving_s 0.2839
+dq s13_pose2_as_rest_0.00114 creep_ums 0
+dq s13_pose2_mirror_rest_0.00114 creep_ums 0
+dq s13_pose2_drop_0.00114 creep_ums 0 last_moving_s 0.6361
+dq jf_pose1_0.00114 creep_ums -2
+dq jf_pose2_0.00114 creep_ums -2
+dq stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+dq stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+dq offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+dq holds 0.000285 0 0 0 0 0 0 0 0 0 
+dq slides 0.000285 slid_um 133494 133494 133494  free slid_um 133478 133478 133478 
+dq grips 0.000285 1 0 1 0 
+dq s10_pose1_as_rest_0.000285 creep_ums 0
+dq s10_pose1_mirror_rest_0.000285 creep_ums 0
+dq s10_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2907
+dq s10_pose2_as_rest_0.000285 creep_ums 0
+dq s10_pose2_mirror_rest_0.000285 creep_ums 0
+dq s10_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6367
+dq s13_pose1_as_rest_0.000285 creep_ums 0
+dq s13_pose1_mirror_rest_0.000285 creep_ums 0
+dq s13_pose1_drop_0.000285 creep_ums 0 last_moving_s 0.2927
+dq s13_pose2_as_rest_0.000285 creep_ums 0
+dq s13_pose2_mirror_rest_0.000285 creep_ums 0
+dq s13_pose2_drop_0.000285 creep_ums 0 last_moving_s 0.6341
+dq jf_pose1_0.000285 creep_ums -2
+dq jf_pose2_0.000285 creep_ums -2
+dq stack5_0.000285 most_tilt_urad 0 end_speed_ums 0
+dq stack9_0.000285 most_tilt_urad 3181 end_speed_ums 6136
+dq offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+dq s14_pose1_as_rest_0.00119 creep_ums 0
+dq s14_pose1_mirror_rest_0.00119 creep_ums 0
+dq s14_pose1_drop_0.00119 creep_ums 0 last_moving_s 0.2880
+dq s14_pose2_as_rest_0.00119 creep_ums 0
+dq s14_pose2_mirror_rest_0.00119 creep_ums 0
+dq s14_pose2_drop_0.00119 creep_ums 0 last_moving_s 0.6545
+dq s14_pose3_as_rest_0.00119 creep_ums 0
+dq s14_pose3_mirror_rest_0.00119 creep_ums 0
+dq s14_pose3_drop_0.00119 creep_ums 0 last_moving_s 0.2904
+dq s14_pose4_as_rest_0.00119 creep_ums 0
+dq s14_pose4_mirror_rest_0.00119 creep_ums 0
+dq s14_pose4_drop_0.00119 creep_ums 0 last_moving_s 0.6438
+dq s14_pose1_as_rest_0.0002975 creep_ums 0
+dq s14_pose1_mirror_rest_0.0002975 creep_ums 0
+dq s14_pose1_drop_0.0002975 creep_ums 0 last_moving_s 0.2984
+dq s14_pose2_as_rest_0.0002975 creep_ums 0
+dq s14_pose2_mirror_rest_0.0002975 creep_ums 0
+dq s14_pose2_drop_0.0002975 creep_ums 0 last_moving_s 0.6533
+dq s14_pose3_as_rest_0.0002975 creep_ums 0
+dq s14_pose3_mirror_rest_0.0002975 creep_ums 0
+dq s14_pose3_drop_0.0002975 creep_ums 0 last_moving_s 0.2993
+dq s14_pose4_as_rest_0.0002975 creep_ums 0
+dq s14_pose4_mirror_rest_0.0002975 creep_ums 0
+dq s14_pose4_drop_0.0002975 creep_ums 0 last_moving_s 0.6417
+dq box 999 188019916 55 0 0 0
+dq suite1 passed 10 | suite1 on Study 14's cube passed 10 T08 the refinement chain falls at every step: 34526 16517 8197 3811 2013 1737 : PASS
+dq solver most_iterations 57 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with q set: 0; with d set: 2; with both: 2
+MuJoCo suite, the switches unset against the release (run 064's suite_results_release.txt): 0 tests read differently

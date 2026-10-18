@@ -1,0 +1,18 @@
+RULE R1_safe_when_off eq 109 109 : HELD
+RULE R2_stock_direction_30 share 93035 121062 100 115 : HELD
+RULE R2_stock_direction_60 share 93035 121062 100 115 : HELD
+RULE R3_no_direction_0.001 all_within 93035 10000 93035 93035 93035 93035 : HELD
+RULE R4_no_drift_0.001 all_le 10 0 0 0 0 0 : HELD
+RULE R3_no_direction_0.00025 all_within 93343 10000 93343 93343 93343 93343 : HELD
+RULE R4_no_drift_0.00025 all_le 10 0 0 0 0 0 : HELD
+RULE R5_coulomb all_within 93295 100 93343 93343 93343 93343 93343 : HELD
+RULE R6_no_direction_hold_0.65 all_within 965 100 965 965 : HELD
+RULE R6_no_direction_hold_0.85 all_within 1575 100 1575 1575 : HELD
+RULE R7_stock_hold_lets_go share 1575 303791 1 10 : HELD
+RULE R8_free_cube all_within 93048 100 93170 93170 : HELD
+RULE R8_free_cube_drift all_le 1000 130 130 : HELD
+RULE R9_nothing_else eq 71 71 : HELD
+RULE R10_iteration_limit eq 0 0 : HELD
+RULE R10_warnings eq 0 0 : HELD
+RULE R10_most_iterations le_plus 7 6 2 : HELD
+rules: 17, held: 17

@@ -1,0 +1,9 @@
+Test project ~/work/t44pr
+    Start 1229: XMLReaderTest.LargeTextureTest
+1/2 Test #1229: XMLReaderTest.LargeTextureTest ..........   Passed    6.59 sec
+    Start 1230: XMLReaderTest.LargeTextureAddressTest
+2/2 Test #1230: XMLReaderTest.LargeTextureAddressTest ...   Passed    6.54 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  13.16 sec

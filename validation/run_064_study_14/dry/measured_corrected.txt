@@ -1,0 +1,408 @@
+rel_def rest 1 as 0.00114 creep_ums -1188 slip_x_ums -1290.1 sideways_over_normal 0.1130
+rel_def rest 1 mirror 0.00114 creep_ums 1188 slip_x_ums 1290.1 sideways_over_normal -0.1130
+rel_def drop 1 0.00114 creep_ums -963
+rel_def rest 2 as 0.00114 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0037
+rel_def rest 2 mirror 0.00114 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0037
+rel_def drop 2 0.00114 creep_ums 118
+rel_def rest 3 as 0.00114 creep_ums 1072 slip_x_ums 1186.5 sideways_over_normal -0.0980
+rel_def rest 3 mirror 0.00114 creep_ums -1072 slip_x_ums -1186.5 sideways_over_normal 0.0980
+rel_def drop 3 0.00114 creep_ums 1356
+rel_def rest 4 as 0.00114 creep_ums -54 slip_x_ums -54.4 sideways_over_normal 0.0163
+rel_def rest 4 mirror 0.00114 creep_ums 54 slip_x_ums 54.4 sideways_over_normal -0.0163
+rel_def drop 4 0.00114 creep_ums 107
+rel_def jf 1 0.00114 creep_ums -30403
+rel_def jf 2 0.00114 creep_ums -24461
+rel_def hold 0 0.5 0.00114 creep_ums 581
+rel_def hold 0 0.75 0.00114 creep_ums 1452
+rel_def hold 0 0.95 0.00114 creep_ums 2150
+rel_def slide 0 0.00114 slid_um 133048
+rel_def free 0 0.00114 slid_um 133066
+rel_def hold 22.5 0.5 0.00114 creep_ums 581
+rel_def hold 22.5 0.75 0.00114 creep_ums 1286
+rel_def hold 22.5 0.95 0.00114 creep_ums 490220
+rel_def slide 22.5 0.00114 slid_um 159246
+rel_def free 22.5 0.00114 slid_um 159544
+rel_def hold 45 0.5 0.00114 creep_ums 581
+rel_def hold 45 0.75 0.00114 creep_ums 131274
+rel_def hold 45 0.95 0.00114 creep_ums 743398
+rel_def slide 45 0.00114 slid_um 188284
+rel_def free 45 0.00114 slid_um 188307
+rel_def grip box 0 0.00114 creep_ums 6398
+rel_def grip mesh 0 0.00114 creep_ums 6398
+rel_def grip box 0.0093 0.00114 creep_ums 6054
+rel_def grip mesh 0.0093 0.00114 creep_ums 8083
+rel_def rest 1 as 0.000285 creep_ums -1188 slip_x_ums -1290.3 sideways_over_normal 0.1130
+rel_def rest 1 mirror 0.000285 creep_ums 1188 slip_x_ums 1290.3 sideways_over_normal -0.1130
+rel_def drop 1 0.000285 creep_ums -961
+rel_def rest 2 as 0.000285 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0035
+rel_def rest 2 mirror 0.000285 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0035
+rel_def drop 2 0.000285 creep_ums 115
+rel_def rest 3 as 0.000285 creep_ums 1072 slip_x_ums 1186.7 sideways_over_normal -0.0980
+rel_def rest 3 mirror 0.000285 creep_ums -1072 slip_x_ums -1186.7 sideways_over_normal 0.0980
+rel_def drop 3 0.000285 creep_ums 1358
+rel_def rest 4 as 0.000285 creep_ums -54 slip_x_ums -54.8 sideways_over_normal 0.0166
+rel_def rest 4 mirror 0.000285 creep_ums 54 slip_x_ums 54.8 sideways_over_normal -0.0166
+rel_def drop 4 0.000285 creep_ums 105
+rel_def jf 1 0.000285 creep_ums -30404
+rel_def jf 2 0.000285 creep_ums -24463
+rel_def hold 0 0.5 0.000285 creep_ums 581
+rel_def hold 0 0.75 0.000285 creep_ums 1452
+rel_def hold 0 0.95 0.000285 creep_ums 2150
+rel_def slide 0 0.000285 slid_um 133494
+rel_def free 0 0.000285 slid_um 133492
+rel_def hold 22.5 0.5 0.000285 creep_ums 581
+rel_def hold 22.5 0.75 0.000285 creep_ums 1286
+rel_def hold 22.5 0.95 0.000285 creep_ums 489709
+rel_def slide 22.5 0.000285 slid_um 159685
+rel_def free 22.5 0.000285 slid_um 160938
+rel_def hold 45 0.5 0.000285 creep_ums 581
+rel_def hold 45 0.75 0.000285 creep_ums 131151
+rel_def hold 45 0.95 0.000285 creep_ums 742663
+rel_def slide 45 0.000285 slid_um 188713
+rel_def free 45 0.000285 slid_um 188726
+rel_def grip box 0 0.000285 creep_ums 6398
+rel_def grip mesh 0 0.000285 creep_ums 6398
+rel_def grip box 0.0093 0.000285 creep_ums 6061
+rel_def grip mesh 0.0093 0.000285 creep_ums 8073
+rel_def suite1 passed 9
+rel_def solver most_iterations 7 at_iteration_limit 0 warnings 0
+rel_rec rest 1 as 0.00114 creep_ums -714 slip_x_ums -775.6 sideways_over_normal 0.1112
+rel_rec rest 1 mirror 0.00114 creep_ums 714 slip_x_ums 775.6 sideways_over_normal -0.1112
+rel_rec drop 1 0.00114 creep_ums -581
+rel_rec rest 2 as 0.00114 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0037
+rel_rec rest 2 mirror 0.00114 creep_ums 9 slip_x_ums 9.0 sideways_over_normal -0.0037
+rel_rec drop 2 0.00114 creep_ums 72
+rel_rec rest 3 as 0.00114 creep_ums 637 slip_x_ums 704.8 sideways_over_normal -0.0960
+rel_rec rest 3 mirror 0.00114 creep_ums -637 slip_x_ums -704.8 sideways_over_normal 0.0960
+rel_rec drop 3 0.00114 creep_ums 810
+rel_rec rest 4 as 0.00114 creep_ums -37 slip_x_ums -37.0 sideways_over_normal 0.0170
+rel_rec rest 4 mirror 0.00114 creep_ums 37 slip_x_ums 37.0 sideways_over_normal -0.0170
+rel_rec drop 4 0.00114 creep_ums 72
+rel_rec jf 1 0.00114 creep_ums -2
+rel_rec jf 2 0.00114 creep_ums -2
+rel_rec hold 0 0.5 0.00114 creep_ums 0
+rel_rec hold 0 0.75 0.00114 creep_ums 0
+rel_rec hold 0 0.95 0.00114 creep_ums 0
+rel_rec slide 0 0.00114 slid_um 133055
+rel_rec free 0 0.00114 slid_um 133058
+rel_rec hold 22.5 0.5 0.00114 creep_ums 0
+rel_rec hold 22.5 0.75 0.00114 creep_ums 0
+rel_rec hold 22.5 0.95 0.00114 creep_ums 0
+rel_rec slide 22.5 0.00114 slid_um 133055
+rel_rec free 22.5 0.00114 slid_um 136058
+rel_rec hold 45 0.5 0.00114 creep_ums 0
+rel_rec hold 45 0.75 0.00114 creep_ums 0
+rel_rec hold 45 0.95 0.00114 creep_ums 0
+rel_rec slide 45 0.00114 slid_um 133055
+rel_rec free 45 0.00114 slid_um 133286
+rel_rec grip box 0 0.00114 creep_ums 1
+rel_rec grip mesh 0 0.00114 creep_ums 0
+rel_rec grip box 0.0093 0.00114 creep_ums 1
+rel_rec grip mesh 0.0093 0.00114 creep_ums 0
+rel_rec rest 1 as 0.000285 creep_ums -714 slip_x_ums -775.8 sideways_over_normal 0.1112
+rel_rec rest 1 mirror 0.000285 creep_ums 714 slip_x_ums 775.8 sideways_over_normal -0.1112
+rel_rec drop 1 0.000285 creep_ums -580
+rel_rec rest 2 as 0.000285 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0040
+rel_rec rest 2 mirror 0.000285 creep_ums 9 slip_x_ums 9.0 sideways_over_normal -0.0040
+rel_rec drop 2 0.000285 creep_ums 78
+rel_rec rest 3 as 0.000285 creep_ums 637 slip_x_ums 705.0 sideways_over_normal -0.0961
+rel_rec rest 3 mirror 0.000285 creep_ums -637 slip_x_ums -705.0 sideways_over_normal 0.0961
+rel_rec drop 3 0.000285 creep_ums 811
+rel_rec rest 4 as 0.000285 creep_ums -37 slip_x_ums -37.0 sideways_over_normal 0.0173
+rel_rec rest 4 mirror 0.000285 creep_ums 37 slip_x_ums 37.0 sideways_over_normal -0.0173
+rel_rec drop 4 0.000285 creep_ums 74
+rel_rec jf 1 0.000285 creep_ums -2
+rel_rec jf 2 0.000285 creep_ums -2
+rel_rec hold 0 0.5 0.000285 creep_ums 0
+rel_rec hold 0 0.75 0.000285 creep_ums 0
+rel_rec hold 0 0.95 0.000285 creep_ums 0
+rel_rec slide 0 0.000285 slid_um 133493
+rel_rec free 0 0.000285 slid_um 133513
+rel_rec hold 22.5 0.5 0.000285 creep_ums 0
+rel_rec hold 22.5 0.75 0.000285 creep_ums 0
+rel_rec hold 22.5 0.95 0.000285 creep_ums 0
+rel_rec slide 22.5 0.000285 slid_um 133493
+rel_rec free 22.5 0.000285 slid_um 135753
+rel_rec hold 45 0.5 0.000285 creep_ums 0
+rel_rec hold 45 0.75 0.000285 creep_ums 0
+rel_rec hold 45 0.95 0.000285 creep_ums 0
+rel_rec slide 45 0.000285 slid_um 133493
+rel_rec free 45 0.000285 slid_um 133625
+rel_rec grip box 0 0.000285 creep_ums 1
+rel_rec grip mesh 0 0.000285 creep_ums 0
+rel_rec grip box 0.0093 0.000285 creep_ums 1
+rel_rec grip mesh 0.0093 0.000285 creep_ums 0
+rel_rec suite1 passed 10
+rel_rec solver most_iterations 18 at_iteration_limit 0 warnings 0
+off_def rest 1 as 0.00114 creep_ums -1188 slip_x_ums -1290.1 sideways_over_normal 0.1130
+off_def rest 1 mirror 0.00114 creep_ums 1188 slip_x_ums 1290.1 sideways_over_normal -0.1130
+off_def drop 1 0.00114 creep_ums -963
+off_def rest 2 as 0.00114 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0037
+off_def rest 2 mirror 0.00114 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0037
+off_def drop 2 0.00114 creep_ums 118
+off_def rest 3 as 0.00114 creep_ums 1072 slip_x_ums 1186.5 sideways_over_normal -0.0980
+off_def rest 3 mirror 0.00114 creep_ums -1072 slip_x_ums -1186.5 sideways_over_normal 0.0980
+off_def drop 3 0.00114 creep_ums 1356
+off_def rest 4 as 0.00114 creep_ums -54 slip_x_ums -54.4 sideways_over_normal 0.0163
+off_def rest 4 mirror 0.00114 creep_ums 54 slip_x_ums 54.4 sideways_over_normal -0.0163
+off_def drop 4 0.00114 creep_ums 107
+off_def jf 1 0.00114 creep_ums -30403
+off_def jf 2 0.00114 creep_ums -24461
+off_def hold 0 0.5 0.00114 creep_ums 581
+off_def hold 0 0.75 0.00114 creep_ums 1452
+off_def hold 0 0.95 0.00114 creep_ums 2150
+off_def slide 0 0.00114 slid_um 133048
+off_def free 0 0.00114 slid_um 133066
+off_def hold 22.5 0.5 0.00114 creep_ums 581
+off_def hold 22.5 0.75 0.00114 creep_ums 1286
+off_def hold 22.5 0.95 0.00114 creep_ums 490220
+off_def slide 22.5 0.00114 slid_um 159246
+off_def free 22.5 0.00114 slid_um 159544
+off_def hold 45 0.5 0.00114 creep_ums 581
+off_def hold 45 0.75 0.00114 creep_ums 131274
+off_def hold 45 0.95 0.00114 creep_ums 743398
+off_def slide 45 0.00114 slid_um 188284
+off_def free 45 0.00114 slid_um 188307
+off_def grip box 0 0.00114 creep_ums 6398
+off_def grip mesh 0 0.00114 creep_ums 6398
+off_def grip box 0.0093 0.00114 creep_ums 6054
+off_def grip mesh 0.0093 0.00114 creep_ums 8083
+off_def rest 1 as 0.000285 creep_ums -1188 slip_x_ums -1290.3 sideways_over_normal 0.1130
+off_def rest 1 mirror 0.000285 creep_ums 1188 slip_x_ums 1290.3 sideways_over_normal -0.1130
+off_def drop 1 0.000285 creep_ums -961
+off_def rest 2 as 0.000285 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0035
+off_def rest 2 mirror 0.000285 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0035
+off_def drop 2 0.000285 creep_ums 115
+off_def rest 3 as 0.000285 creep_ums 1072 slip_x_ums 1186.7 sideways_over_normal -0.0980
+off_def rest 3 mirror 0.000285 creep_ums -1072 slip_x_ums -1186.7 sideways_over_normal 0.0980
+off_def drop 3 0.000285 creep_ums 1358
+off_def rest 4 as 0.000285 creep_ums -54 slip_x_ums -54.8 sideways_over_normal 0.0166
+off_def rest 4 mirror 0.000285 creep_ums 54 slip_x_ums 54.8 sideways_over_normal -0.0166
+off_def drop 4 0.000285 creep_ums 105
+off_def jf 1 0.000285 creep_ums -30404
+off_def jf 2 0.000285 creep_ums -24463
+off_def hold 0 0.5 0.000285 creep_ums 581
+off_def hold 0 0.75 0.000285 creep_ums 1452
+off_def hold 0 0.95 0.000285 creep_ums 2150
+off_def slide 0 0.000285 slid_um 133494
+off_def free 0 0.000285 slid_um 133492
+off_def hold 22.5 0.5 0.000285 creep_ums 581
+off_def hold 22.5 0.75 0.000285 creep_ums 1286
+off_def hold 22.5 0.95 0.000285 creep_ums 489709
+off_def slide 22.5 0.000285 slid_um 159685
+off_def free 22.5 0.000285 slid_um 160938
+off_def hold 45 0.5 0.000285 creep_ums 581
+off_def hold 45 0.75 0.000285 creep_ums 131151
+off_def hold 45 0.95 0.000285 creep_ums 742663
+off_def slide 45 0.000285 slid_um 188713
+off_def free 45 0.000285 slid_um 188726
+off_def grip box 0 0.000285 creep_ums 6398
+off_def grip mesh 0 0.000285 creep_ums 6398
+off_def grip box 0.0093 0.000285 creep_ums 6061
+off_def grip mesh 0.0093 0.000285 creep_ums 8073
+off_def suite1 passed 9
+off_def solver most_iterations 7 at_iteration_limit 0 warnings 0
+off_rec rest 1 as 0.00114 creep_ums -714 slip_x_ums -775.6 sideways_over_normal 0.1112
+off_rec rest 1 mirror 0.00114 creep_ums 714 slip_x_ums 775.6 sideways_over_normal -0.1112
+off_rec drop 1 0.00114 creep_ums -581
+off_rec rest 2 as 0.00114 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0037
+off_rec rest 2 mirror 0.00114 creep_ums 9 slip_x_ums 9.0 sideways_over_normal -0.0037
+off_rec drop 2 0.00114 creep_ums 72
+off_rec rest 3 as 0.00114 creep_ums 637 slip_x_ums 704.8 sideways_over_normal -0.0960
+off_rec rest 3 mirror 0.00114 creep_ums -637 slip_x_ums -704.8 sideways_over_normal 0.0960
+off_rec drop 3 0.00114 creep_ums 810
+off_rec rest 4 as 0.00114 creep_ums -37 slip_x_ums -37.0 sideways_over_normal 0.0170
+off_rec rest 4 mirror 0.00114 creep_ums 37 slip_x_ums 37.0 sideways_over_normal -0.0170
+off_rec drop 4 0.00114 creep_ums 72
+off_rec jf 1 0.00114 creep_ums -2
+off_rec jf 2 0.00114 creep_ums -2
+off_rec hold 0 0.5 0.00114 creep_ums 0
+off_rec hold 0 0.75 0.00114 creep_ums 0
+off_rec hold 0 0.95 0.00114 creep_ums 0
+off_rec slide 0 0.00114 slid_um 133055
+off_rec free 0 0.00114 slid_um 133058
+off_rec hold 22.5 0.5 0.00114 creep_ums 0
+off_rec hold 22.5 0.75 0.00114 creep_ums 0
+off_rec hold 22.5 0.95 0.00114 creep_ums 0
+off_rec slide 22.5 0.00114 slid_um 133055
+off_rec free 22.5 0.00114 slid_um 136058
+off_rec hold 45 0.5 0.00114 creep_ums 0
+off_rec hold 45 0.75 0.00114 creep_ums 0
+off_rec hold 45 0.95 0.00114 creep_ums 0
+off_rec slide 45 0.00114 slid_um 133055
+off_rec free 45 0.00114 slid_um 133286
+off_rec grip box 0 0.00114 creep_ums 1
+off_rec grip mesh 0 0.00114 creep_ums 0
+off_rec grip box 0.0093 0.00114 creep_ums 1
+off_rec grip mesh 0.0093 0.00114 creep_ums 0
+off_rec rest 1 as 0.000285 creep_ums -714 slip_x_ums -775.8 sideways_over_normal 0.1112
+off_rec rest 1 mirror 0.000285 creep_ums 714 slip_x_ums 775.8 sideways_over_normal -0.1112
+off_rec drop 1 0.000285 creep_ums -580
+off_rec rest 2 as 0.000285 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0040
+off_rec rest 2 mirror 0.000285 creep_ums 9 slip_x_ums 9.0 sideways_over_normal -0.0040
+off_rec drop 2 0.000285 creep_ums 78
+off_rec rest 3 as 0.000285 creep_ums 637 slip_x_ums 705.0 sideways_over_normal -0.0961
+off_rec rest 3 mirror 0.000285 creep_ums -637 slip_x_ums -705.0 sideways_over_normal 0.0961
+off_rec drop 3 0.000285 creep_ums 811
+off_rec rest 4 as 0.000285 creep_ums -37 slip_x_ums -37.0 sideways_over_normal 0.0173
+off_rec rest 4 mirror 0.000285 creep_ums 37 slip_x_ums 37.0 sideways_over_normal -0.0173
+off_rec drop 4 0.000285 creep_ums 74
+off_rec jf 1 0.000285 creep_ums -2
+off_rec jf 2 0.000285 creep_ums -2
+off_rec hold 0 0.5 0.000285 creep_ums 0
+off_rec hold 0 0.75 0.000285 creep_ums 0
+off_rec hold 0 0.95 0.000285 creep_ums 0
+off_rec slide 0 0.000285 slid_um 133493
+off_rec free 0 0.000285 slid_um 133513
+off_rec hold 22.5 0.5 0.000285 creep_ums 0
+off_rec hold 22.5 0.75 0.000285 creep_ums 0
+off_rec hold 22.5 0.95 0.000285 creep_ums 0
+off_rec slide 22.5 0.000285 slid_um 133493
+off_rec free 22.5 0.000285 slid_um 135753
+off_rec hold 45 0.5 0.000285 creep_ums 0
+off_rec hold 45 0.75 0.000285 creep_ums 0
+off_rec hold 45 0.95 0.000285 creep_ums 0
+off_rec slide 45 0.000285 slid_um 133493
+off_rec free 45 0.000285 slid_um 133625
+off_rec grip box 0 0.000285 creep_ums 1
+off_rec grip mesh 0 0.000285 creep_ums 0
+off_rec grip box 0.0093 0.000285 creep_ums 1
+off_rec grip mesh 0.0093 0.000285 creep_ums 0
+off_rec suite1 passed 10
+off_rec solver most_iterations 18 at_iteration_limit 0 warnings 0
+on_def rest 1 as 0.00114 creep_ums -1188 slip_x_ums -1290.1 sideways_over_normal 0.1130
+on_def rest 1 mirror 0.00114 creep_ums 1188 slip_x_ums 1290.1 sideways_over_normal -0.1130
+on_def drop 1 0.00114 creep_ums -963
+on_def rest 2 as 0.00114 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0037
+on_def rest 2 mirror 0.00114 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0037
+on_def drop 2 0.00114 creep_ums 118
+on_def rest 3 as 0.00114 creep_ums 1072 slip_x_ums 1186.5 sideways_over_normal -0.0980
+on_def rest 3 mirror 0.00114 creep_ums -1072 slip_x_ums -1186.5 sideways_over_normal 0.0980
+on_def drop 3 0.00114 creep_ums 1356
+on_def rest 4 as 0.00114 creep_ums -54 slip_x_ums -54.4 sideways_over_normal 0.0163
+on_def rest 4 mirror 0.00114 creep_ums 54 slip_x_ums 54.4 sideways_over_normal -0.0163
+on_def drop 4 0.00114 creep_ums 107
+on_def jf 1 0.00114 creep_ums -30403
+on_def jf 2 0.00114 creep_ums -24461
+on_def hold 0 0.5 0.00114 creep_ums 581
+on_def hold 0 0.75 0.00114 creep_ums 1452
+on_def hold 0 0.95 0.00114 creep_ums 2150
+on_def slide 0 0.00114 slid_um 133048
+on_def free 0 0.00114 slid_um 133066
+on_def hold 22.5 0.5 0.00114 creep_ums 581
+on_def hold 22.5 0.75 0.00114 creep_ums 1286
+on_def hold 22.5 0.95 0.00114 creep_ums 490220
+on_def slide 22.5 0.00114 slid_um 159246
+on_def free 22.5 0.00114 slid_um 159544
+on_def hold 45 0.5 0.00114 creep_ums 581
+on_def hold 45 0.75 0.00114 creep_ums 131274
+on_def hold 45 0.95 0.00114 creep_ums 743398
+on_def slide 45 0.00114 slid_um 188284
+on_def free 45 0.00114 slid_um 188307
+on_def grip box 0 0.00114 creep_ums 6398
+on_def grip mesh 0 0.00114 creep_ums 6398
+on_def grip box 0.0093 0.00114 creep_ums 6054
+on_def grip mesh 0.0093 0.00114 creep_ums 8083
+on_def rest 1 as 0.000285 creep_ums -1188 slip_x_ums -1290.3 sideways_over_normal 0.1130
+on_def rest 1 mirror 0.000285 creep_ums 1188 slip_x_ums 1290.3 sideways_over_normal -0.1130
+on_def drop 1 0.000285 creep_ums -961
+on_def rest 2 as 0.000285 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0035
+on_def rest 2 mirror 0.000285 creep_ums 13 slip_x_ums 13.0 sideways_over_normal -0.0035
+on_def drop 2 0.000285 creep_ums 115
+on_def rest 3 as 0.000285 creep_ums 1072 slip_x_ums 1186.7 sideways_over_normal -0.0980
+on_def rest 3 mirror 0.000285 creep_ums -1072 slip_x_ums -1186.7 sideways_over_normal 0.0980
+on_def drop 3 0.000285 creep_ums 1358
+on_def rest 4 as 0.000285 creep_ums -54 slip_x_ums -54.8 sideways_over_normal 0.0166
+on_def rest 4 mirror 0.000285 creep_ums 54 slip_x_ums 54.8 sideways_over_normal -0.0166
+on_def drop 4 0.000285 creep_ums 105
+on_def jf 1 0.000285 creep_ums -30404
+on_def jf 2 0.000285 creep_ums -24463
+on_def hold 0 0.5 0.000285 creep_ums 581
+on_def hold 0 0.75 0.000285 creep_ums 1452
+on_def hold 0 0.95 0.000285 creep_ums 2150
+on_def slide 0 0.000285 slid_um 133494
+on_def free 0 0.000285 slid_um 133492
+on_def hold 22.5 0.5 0.000285 creep_ums 581
+on_def hold 22.5 0.75 0.000285 creep_ums 1286
+on_def hold 22.5 0.95 0.000285 creep_ums 489709
+on_def slide 22.5 0.000285 slid_um 159685
+on_def free 22.5 0.000285 slid_um 160938
+on_def hold 45 0.5 0.000285 creep_ums 581
+on_def hold 45 0.75 0.000285 creep_ums 131151
+on_def hold 45 0.95 0.000285 creep_ums 742663
+on_def slide 45 0.000285 slid_um 188713
+on_def free 45 0.000285 slid_um 188726
+on_def grip box 0 0.000285 creep_ums 6398
+on_def grip mesh 0 0.000285 creep_ums 6398
+on_def grip box 0.0093 0.000285 creep_ums 6061
+on_def grip mesh 0.0093 0.000285 creep_ums 8073
+on_def suite1 passed 9
+on_def solver most_iterations 7 at_iteration_limit 0 warnings 0
+on_rec rest 1 as 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.1086
+on_rec rest 1 mirror 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.1086
+on_rec drop 1 0.00114 creep_ums 0
+on_rec rest 2 as 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0040
+on_rec rest 2 mirror 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0040
+on_rec drop 2 0.00114 creep_ums -8
+on_rec rest 3 as 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0928
+on_rec rest 3 mirror 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0928
+on_rec drop 3 0.00114 creep_ums 0
+on_rec rest 4 as 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0175
+on_rec rest 4 mirror 0.00114 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0175
+on_rec drop 4 0.00114 creep_ums 4
+on_rec jf 1 0.00114 creep_ums -2
+on_rec jf 2 0.00114 creep_ums -2
+on_rec hold 0 0.5 0.00114 creep_ums 0
+on_rec hold 0 0.75 0.00114 creep_ums 0
+on_rec hold 0 0.95 0.00114 creep_ums 0
+on_rec slide 0 0.00114 slid_um 133055
+on_rec free 0 0.00114 slid_um 133058
+on_rec hold 22.5 0.5 0.00114 creep_ums 0
+on_rec hold 22.5 0.75 0.00114 creep_ums 0
+on_rec hold 22.5 0.95 0.00114 creep_ums 0
+on_rec slide 22.5 0.00114 slid_um 133055
+on_rec free 22.5 0.00114 slid_um 136058
+on_rec hold 45 0.5 0.00114 creep_ums 0
+on_rec hold 45 0.75 0.00114 creep_ums 0
+on_rec hold 45 0.95 0.00114 creep_ums 0
+on_rec slide 45 0.00114 slid_um 133055
+on_rec free 45 0.00114 slid_um 133286
+on_rec grip box 0 0.00114 creep_ums 1
+on_rec grip mesh 0 0.00114 creep_ums 0
+on_rec grip box 0.0093 0.00114 creep_ums 1
+on_rec grip mesh 0.0093 0.00114 creep_ums 0
+on_rec rest 1 as 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.1087
+on_rec rest 1 mirror 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.1087
+on_rec drop 1 0.000285 creep_ums 0
+on_rec rest 2 as 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0042
+on_rec rest 2 mirror 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0042
+on_rec drop 2 0.000285 creep_ums -2
+on_rec rest 3 as 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0928
+on_rec rest 3 mirror 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0928
+on_rec drop 3 0.000285 creep_ums 0
+on_rec rest 4 as 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal 0.0178
+on_rec rest 4 mirror 0.000285 creep_ums 0 slip_x_ums 0.0 sideways_over_normal -0.0178
+on_rec drop 4 0.000285 creep_ums 6
+on_rec jf 1 0.000285 creep_ums -2
+on_rec jf 2 0.000285 creep_ums -2
+on_rec hold 0 0.5 0.000285 creep_ums 0
+on_rec hold 0 0.75 0.000285 creep_ums 0
+on_rec hold 0 0.95 0.000285 creep_ums 0
+on_rec slide 0 0.000285 slid_um 133493
+on_rec free 0 0.000285 slid_um 133513
+on_rec hold 22.5 0.5 0.000285 creep_ums 0
+on_rec hold 22.5 0.75 0.000285 creep_ums 0
+on_rec hold 22.5 0.95 0.000285 creep_ums 0
+on_rec slide 22.5 0.000285 slid_um 133493
+on_rec free 22.5 0.000285 slid_um 135753
+on_rec hold 45 0.5 0.000285 creep_ums 0
+on_rec hold 45 0.75 0.000285 creep_ums 0
+on_rec hold 45 0.95 0.000285 creep_ums 0
+on_rec slide 45 0.000285 slid_um 133493
+on_rec free 45 0.000285 slid_um 133625
+on_rec grip box 0 0.000285 creep_ums 1
+on_rec grip mesh 0 0.000285 creep_ums 0
+on_rec grip box 0.0093 0.000285 creep_ums 1
+on_rec grip mesh 0.0093 0.000285 creep_ums 0
+on_rec suite1 passed 10
+on_rec solver most_iterations 18 at_iteration_limit 0 warnings 0

@@ -1,0 +1,34 @@
+--- a/src/engine/engine_core_constraint.c	2026-10-15 14:57:14
++++ b/src/engine/engine_core_constraint.c	2026-10-15 14:57:30
+@@ -16,6 +16,7 @@
+ 
+ #include <stdio.h>
+ #include <stddef.h>
++#include <stdlib.h>
+ 
+ #include <mujoco/mjdata.h>
+ #include <mujoco/mjmacro.h>
+@@ -1778,6 +1779,23 @@
+   int metric = mj_isMetric(m);
+   if (!mjDISABLED(mjDSBL_REFSAFE) && solref[0] > 0 && !metric) {
+     solref[0] = mju_max(solref[0], 2*m->opt.timestep);
++  }
++
++  // Senua AI patch, in design (off unless MUJOCO_REFSAFE_DAMPRATIO=1, read once): the guard above holds the time
++  // constant to at least two steps so the constraint is not too stiff for the integrator (XML reference, flag
++  // refsafe). In the standard format the stiffness is K = 1 / (d_width^2 * timeconst^2 * dampratio^2), so with a
++  // damping ratio under 1 the spring's own time constant is timeconst * dampratio, and the guard does not see it.
++  // Under the discrete integrator MuJoCo already treats a row whose timeconst * dampratio is under the step as one
++  // the step cannot resolve. Hold timeconst * dampratio to the guard's two steps, keeping the authored damping ratio.
++  if (!mjDISABLED(mjDSBL_REFSAFE) && solref[0] > 0 && solref[1] > 0 && solref[1] < 1 && !metric) {
++    static int refsafe_dampratio = -1;  // the switch, read on first use; every thread reads the same value
++    if (refsafe_dampratio < 0) {
++      const char* sw = getenv("MUJOCO_REFSAFE_DAMPRATIO");
++      refsafe_dampratio = (sw && sw[0] == '1' && sw[1] == 0) ? 1 : 0;
++    }
++    if (refsafe_dampratio) {
++      solref[0] = mju_max(solref[0], 2*m->opt.timestep / solref[1]);
++    }
+   }
+ 
+   // check reference format: standard or direct, cannot be mixed

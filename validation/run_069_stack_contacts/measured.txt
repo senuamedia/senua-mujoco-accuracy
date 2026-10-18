@@ -1,0 +1,66 @@
+the rig before and the rig now without contacts=: 22 of 22 files byte for byte
+with contacts= and without: 11 of 11 files byte for byte
+stack5_rec_0.000285 most_tilt_urad 2302 first_step_any_cube_past_100_urad 2829 CHANGES after step 30: 297 first_change_step 2770 most_contacts 32
+stack5_rec_0.000285 depth at step 1000, pair 0-1: 4 contacts, -428.225 um
+stack5_rec_0.000285 depth at step 1000, pair 1-2: 4 contacts, -563.650 um
+stack5_rec_0.000285 depth at step 1000, pair 2-3: 4 contacts, -479.622 um
+stack5_rec_0.000285 depth at step 1000, pair 3-4: 4 contacts, -366.918 um
+stack5_rec_0.000285 depth at step 1000, pair 4-5: 4 contacts, -207.048 um
+stack9_rec_0.000285 most_tilt_urad 2523 first_step_any_cube_past_100_urad 4862 CHANGES after step 30: 394 first_change_step 2416 most_contacts 54
+stack9_rec_0.000285 depth at step 1000, pair 0-1: 4 contacts, -601.402 um
+stack9_rec_0.000285 depth at step 1000, pair 1-2: 4 contacts, -833.196 um
+stack9_rec_0.000285 depth at step 1000, pair 2-3: 4 contacts, -768.657 um
+stack9_rec_0.000285 depth at step 1000, pair 3-4: 4 contacts, -704.271 um
+stack9_rec_0.000285 depth at step 1000, pair 4-5: 4 contacts, -637.088 um
+stack9_rec_0.000285 depth at step 1000, pair 5-6: 4 contacts, -563.911 um
+stack9_rec_0.000285 depth at step 1000, pair 6-7: 4 contacts, -479.930 um
+stack9_rec_0.000285 depth at step 1000, pair 7-8: 4 contacts, -367.292 um
+stack9_rec_0.000285 depth at step 1000, pair 8-9: 4 contacts, -207.273 um
+stack5_ell_0.000285 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 0 first_change_step none most_contacts 20
+stack5_ell_0.000285 depth at step 1000, pair 0-1: 4 contacts, -428.225 um
+stack5_ell_0.000285 depth at step 1000, pair 1-2: 4 contacts, -563.650 um
+stack5_ell_0.000285 depth at step 1000, pair 2-3: 4 contacts, -479.622 um
+stack5_ell_0.000285 depth at step 1000, pair 3-4: 4 contacts, -366.918 um
+stack5_ell_0.000285 depth at step 1000, pair 4-5: 4 contacts, -207.048 um
+stack9_ell_0.000285 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 0 first_change_step none most_contacts 36
+stack9_ell_0.000285 depth at step 1000, pair 0-1: 4 contacts, -601.402 um
+stack9_ell_0.000285 depth at step 1000, pair 1-2: 4 contacts, -833.196 um
+stack9_ell_0.000285 depth at step 1000, pair 2-3: 4 contacts, -768.657 um
+stack9_ell_0.000285 depth at step 1000, pair 3-4: 4 contacts, -704.271 um
+stack9_ell_0.000285 depth at step 1000, pair 4-5: 4 contacts, -637.088 um
+stack9_ell_0.000285 depth at step 1000, pair 5-6: 4 contacts, -563.911 um
+stack9_ell_0.000285 depth at step 1000, pair 6-7: 4 contacts, -479.930 um
+stack9_ell_0.000285 depth at step 1000, pair 7-8: 4 contacts, -367.292 um
+stack9_ell_0.000285 depth at step 1000, pair 8-9: 4 contacts, -207.273 um
+stack5_def_0.000285 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 2 first_change_step 5467 most_contacts 22
+stack5_def_0.000285 depth at step 1000, pair 0-1: 4 contacts, -94.492 um
+stack5_def_0.000285 depth at step 1000, pair 1-2: 4 contacts, -148.740 um
+stack5_def_0.000285 depth at step 1000, pair 2-3: 4 contacts, -112.859 um
+stack5_def_0.000285 depth at step 1000, pair 3-4: 4 contacts, -75.888 um
+stack5_def_0.000285 depth at step 1000, pair 4-5: 4 contacts, -38.144 um
+stack9_def_0.000285 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 0 first_change_step none most_contacts 36
+stack9_def_0.000285 depth at step 1000, pair 0-1: 4 contacts, -166.189 um
+stack9_def_0.000285 depth at step 1000, pair 1-2: 4 contacts, -277.412 um
+stack9_def_0.000285 depth at step 1000, pair 2-3: 4 contacts, -247.692 um
+stack9_def_0.000285 depth at step 1000, pair 3-4: 4 contacts, -216.297 um
+stack9_def_0.000285 depth at step 1000, pair 4-5: 4 contacts, -183.278 um
+stack9_def_0.000285 depth at step 1000, pair 5-6: 4 contacts, -148.739 um
+stack9_def_0.000285 depth at step 1000, pair 6-7: 4 contacts, -112.860 um
+stack9_def_0.000285 depth at step 1000, pair 7-8: 4 contacts, -75.889 um
+stack9_def_0.000285 depth at step 1000, pair 8-9: 4 contacts, -38.145 um
+stack5_rec_0.00114 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 0 first_change_step none most_contacts 20
+stack5_rec_0.00114 depth at step 1000, pair 0-1: 4 contacts, -428.217 um
+stack5_rec_0.00114 depth at step 1000, pair 1-2: 4 contacts, -563.645 um
+stack5_rec_0.00114 depth at step 1000, pair 2-3: 4 contacts, -479.614 um
+stack5_rec_0.00114 depth at step 1000, pair 3-4: 4 contacts, -366.909 um
+stack5_rec_0.00114 depth at step 1000, pair 4-5: 4 contacts, -207.044 um
+stack9_rec_0.00114 most_tilt_urad 0 first_step_any_cube_past_100_urad none CHANGES after step 30: 4 first_change_step 623 most_contacts 38
+stack9_rec_0.00114 depth at step 1000, pair 0-1: 4 contacts, -601.220 um
+stack9_rec_0.00114 depth at step 1000, pair 1-2: 4 contacts, -832.754 um
+stack9_rec_0.00114 depth at step 1000, pair 2-3: 4 contacts, -768.308 um
+stack9_rec_0.00114 depth at step 1000, pair 3-4: 4 contacts, -703.978 um
+stack9_rec_0.00114 depth at step 1000, pair 4-5: 4 contacts, -636.821 um
+stack9_rec_0.00114 depth at step 1000, pair 5-6: 4 contacts, -563.645 um
+stack9_rec_0.00114 depth at step 1000, pair 6-7: 4 contacts, -479.613 um
+stack9_rec_0.00114 depth at step 1000, pair 7-8: 4 contacts, -366.907 um
+stack9_rec_0.00114 depth at step 1000, pair 8-9: 4 contacts, -207.043 um

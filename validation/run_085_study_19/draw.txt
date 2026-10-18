@@ -1,0 +1,11 @@
+dt_box 0.01411
+box1_half 0.0509
+box1_mass 0.978
+box1_v 1.21
+box2_half 0.0416
+box2_mass 1.565
+box2_v 2.05
+box3_half 0.0491
+box3_mass 1.342
+  (box3_v drawn again: 2.40)
+box3_v 2.58

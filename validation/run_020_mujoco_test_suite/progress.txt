@@ -1,0 +1,5 @@
+build release exit 0 seconds 90 warnings 22
+build patched exit 0 seconds 121 warnings 99
+suite release exit 0 seconds 17 100% tests passed, 0 tests failed out of 3492
+suite off exit 0 seconds 17 100% tests passed, 0 tests failed out of 3492
+suite on exit 8 seconds 17 99% tests passed, 6 tests failed out of 3492

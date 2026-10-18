@@ -1,0 +1,97 @@
+== A: cone=elliptic noslip=10
+T01 nothing touches the cube: each gap in parts of 10,000 of the one before (right answer 5,000): 5000 5000 5000 5001 5001 : PASS
+T02 steady sliding, friction over normal force per 10,000 (right answer 4000): 4000 3999 : PASS
+T03 at rest, the ground carries the weight: its mean force in mN (allowed 1 in 100; right answer 19600): 19600 19600 : PASS
+T04 the bounce does not depend on the step: rebound per 10,000 of the drop height, step 1 to 1/64: 0 0 0 0 0 0 0 ; spread 0 (allowed 500) : PASS
+T05 Coulomb at impact: friction impulse over normal impulse per 10,000, step 1 to 1/64 (right answer 4000): 4000 3999 3999 3999 3999 4000 3999 ; still sliding 1 : PASS
+T06 held below the friction limit: mean speed in um/s (right answer 0, allowed 10): 0 0 : PASS
+T07 pushed above the friction limit: mean speed in um/s over the second half (right answer 980000, allowed 3 in 100): 979900 980000 : PASS
+T08 the refinement chain falls at every step: 100036 30827 12546 8708 6954 2149 : PASS
+T09 the ground never pulls: lowest ground force in mN, lifted (two steps) and on a fast rebound (right answer 0 or more): 0 0 0 : PASS
+T10 friction over the impact and the 0.1 s after it, per 10,000 of the normal impulse, step 1 to 1/64 (right answer 4000; never more than 1 in 100 above it, and within 1 in 100 at the three finest steps): 4000 3999 4000 3999 3999 3999 4000 : PASS
+SUITE passed 10 of 10
+slide 0 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 0 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 0 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 22.5 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 22.5 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 22.5 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 45 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 45 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 45 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+free chain 1/1 | CHAIN dt_ns 10000000 gravity 0 steps 200 kinetic_start_nj 1277211185 kinetic_end_nj 1401307471 kinetic_most_nj 1405378023 kinetic_end_per_million_of_start 1097162 energy_drift_ppm_of_most_kinetic 88301 energy_largest_drift_ppm 91197 energy_lost_ppm_of_most_kinetic -88301 momentum_start_u 906687804 momentum_end_u 966545491 momentum_drift_ppm 66018 momentum_largest_drift_ppm 70443 angle1_urad 5211517 speed1_urads 939867 angle2_urad 9332 speed2_urads 7300968
+swinging chain 1/1 | CHAIN dt_ns 10000000 gravity 1 steps 200 kinetic_start_nj 0 kinetic_end_nj 2277806687 kinetic_most_nj 9513689950 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic 44459 energy_largest_drift_ppm 121751 energy_lost_ppm_of_most_kinetic -44459 momentum_start_u 0 momentum_end_u -1014931831 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -185959 speed1_urads -4512391 angle2_urad -4575733 speed2_urads 2644800
+free chain 1/4 | CHAIN dt_ns 2500000 gravity 0 steps 800 kinetic_start_nj 1277211185 kinetic_end_nj 1308825552 kinetic_most_nj 1308825552 kinetic_end_per_million_of_start 1024752 energy_drift_ppm_of_most_kinetic 24154 energy_largest_drift_ppm 24154 energy_lost_ppm_of_most_kinetic -24154 momentum_start_u 906687804 momentum_end_u 923108761 momentum_drift_ppm 18110 momentum_largest_drift_ppm 18110 angle1_urad 5252528 speed1_urads 1518295 angle2_urad -536637 speed2_urads 5059366
+swinging chain 1/4 | CHAIN dt_ns 2500000 gravity 1 steps 800 kinetic_start_nj 0 kinetic_end_nj 4463312961 kinetic_most_nj 8912485342 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -170243 energy_largest_drift_ppm 170243 energy_lost_ppm_of_most_kinetic 170243 momentum_start_u 0 momentum_end_u -986027197 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2054217 speed1_urads -4732996 angle2_urad 3507313 speed2_urads 10474659
+free chain 1/16 | CHAIN dt_ns 625000 gravity 0 steps 3200 kinetic_start_nj 1277211185 kinetic_end_nj 1284941038 kinetic_most_nj 1284941038 kinetic_end_per_million_of_start 1006052 energy_drift_ppm_of_most_kinetic 6015 energy_largest_drift_ppm 6015 energy_lost_ppm_of_most_kinetic -6015 momentum_start_u 906687804 momentum_end_u 910726768 momentum_drift_ppm 4454 momentum_largest_drift_ppm 4454 angle1_urad 5255994 speed1_urads 1728583 angle2_urad -649456 speed2_urads 4305027
+swinging chain 1/16 | CHAIN dt_ns 625000 gravity 1 steps 3200 kinetic_start_nj 0 kinetic_end_nj 4799199171 kinetic_most_nj 8818920510 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -61894 energy_largest_drift_ppm 61894 energy_lost_ppm_of_most_kinetic 61894 momentum_start_u 0 momentum_end_u -954409733 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2277772 speed1_urads -3826612 angle2_urad 3416556 speed2_urads 13175199
+solver over cfg_A/stats.txt: most iterations 5, at the limit 0, warnings 0
+solver over cfg_A/stats.txt: most iterations 5, at the limit 0, warnings 0
+solver over runs_A/stats.txt: most iterations 5, at the limit 0, warnings 0
+== B: cone=elliptic noslip=10 integ=RK4
+T01 nothing touches the cube: each gap in parts of 10,000 of the one before (right answer 5,000): -1 -1 -1 -1 -1 : FAIL
+T02 steady sliding, friction over normal force per 10,000 (right answer 4000): 4000 3999 : PASS
+T03 at rest, the ground carries the weight: its mean force in mN (allowed 1 in 100; right answer 19600): 19600 19600 : PASS
+T04 the bounce does not depend on the step: rebound per 10,000 of the drop height, step 1 to 1/64: 0 0 0 0 0 0 0 ; spread 0 (allowed 500) : PASS
+T05 Coulomb at impact: friction impulse over normal impulse per 10,000, step 1 to 1/64 (right answer 4000): 3999 3999 3999 4000 3999 3999 4000 ; still sliding 1 : PASS
+T06 held below the friction limit: mean speed in um/s (right answer 0, allowed 10): 0 0 : PASS
+T07 pushed above the friction limit: mean speed in um/s over the second half (right answer 980000, allowed 3 in 100): 981000 980200 : PASS
+T08 the refinement chain falls at every step: 9329 13740 4119 1640 1923 566 : FAIL
+T09 the ground never pulls: lowest ground force in mN, lifted (two steps) and on a fast rebound (right answer 0 or more): 0 0 0 : PASS
+T10 friction over the impact and the 0.1 s after it, per 10,000 of the normal impulse, step 1 to 1/64 (right answer 4000; never more than 1 in 100 above it, and within 1 in 100 at the three finest steps): 4000 3999 3999 3999 4000 3999 3999 : PASS
+SUITE passed 8 of 10
+slide 0 | STOP dt_ns 2000000 first_stopped_at_step 176 largest_speed_last_third_ums 0 slid_um 126751 came_back_um 0
+hold 0 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 0 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 22.5 | STOP dt_ns 2000000 first_stopped_at_step 176 largest_speed_last_third_ums 0 slid_um 126751 came_back_um 0
+hold 22.5 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 22.5 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 45 | STOP dt_ns 2000000 first_stopped_at_step 176 largest_speed_last_third_ums 0 slid_um 126751 came_back_um 0
+hold 45 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 45 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+free chain 1/1 | the chain file is missing or not whole
+swinging chain 1/1 | the chain file is missing or not whole
+free chain 1/4 | the chain file is missing or not whole
+swinging chain 1/4 | the chain file is missing or not whole
+free chain 1/16 | the chain file is missing or not whole
+swinging chain 1/16 | the chain file is missing or not whole
+solver over cfg_B/stats.txt: most iterations 4, at the limit 0, warnings 0
+solver over cfg_B/stats.txt: most iterations 5, at the limit 0, warnings 0
+solver over runs_B/stats.txt: most iterations 5, at the limit 0, warnings 0
+== C: cone=elliptic noslip=10 integ=implicitfast
+T01 nothing touches the cube: each gap in parts of 10,000 of the one before (right answer 5,000): 5000 5000 5000 5001 5001 : PASS
+T02 steady sliding, friction over normal force per 10,000 (right answer 4000): 4000 3999 : PASS
+T03 at rest, the ground carries the weight: its mean force in mN (allowed 1 in 100; right answer 19600): 19600 19600 : PASS
+T04 the bounce does not depend on the step: rebound per 10,000 of the drop height, step 1 to 1/64: 0 0 0 0 0 0 0 ; spread 0 (allowed 500) : PASS
+T05 Coulomb at impact: friction impulse over normal impulse per 10,000, step 1 to 1/64 (right answer 4000): 4000 3999 3999 3999 3999 4000 3999 ; still sliding 1 : PASS
+T06 held below the friction limit: mean speed in um/s (right answer 0, allowed 10): 0 0 : PASS
+T07 pushed above the friction limit: mean speed in um/s over the second half (right answer 980000, allowed 3 in 100): 979900 980000 : PASS
+T08 the refinement chain falls at every step: 100036 30827 12546 8708 6954 2149 : PASS
+T09 the ground never pulls: lowest ground force in mN, lifted (two steps) and on a fast rebound (right answer 0 or more): 0 0 0 : PASS
+T10 friction over the impact and the 0.1 s after it, per 10,000 of the normal impulse, step 1 to 1/64 (right answer 4000; never more than 1 in 100 above it, and within 1 in 100 at the three finest steps): 4000 3999 4000 3999 3999 3999 4000 : PASS
+SUITE passed 10 of 10
+slide 0 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 0 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 0 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 22.5 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 22.5 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 22.5 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+slide 45 | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126701 came_back_um 0
+hold 45 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+hold 45 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+free chain 1/1 | CHAIN dt_ns 10000000 gravity 0 steps 200 kinetic_start_nj 1277211185 kinetic_end_nj 1401307471 kinetic_most_nj 1405378023 kinetic_end_per_million_of_start 1097162 energy_drift_ppm_of_most_kinetic 88301 energy_largest_drift_ppm 91197 energy_lost_ppm_of_most_kinetic -88301 momentum_start_u 906687804 momentum_end_u 966545491 momentum_drift_ppm 66018 momentum_largest_drift_ppm 70443 angle1_urad 5211517 speed1_urads 939867 angle2_urad 9332 speed2_urads 7300968
+swinging chain 1/1 | CHAIN dt_ns 10000000 gravity 1 steps 200 kinetic_start_nj 0 kinetic_end_nj 2277806687 kinetic_most_nj 9513689950 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic 44459 energy_largest_drift_ppm 121751 energy_lost_ppm_of_most_kinetic -44459 momentum_start_u 0 momentum_end_u -1014931831 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -185959 speed1_urads -4512391 angle2_urad -4575733 speed2_urads 2644800
+free chain 1/4 | CHAIN dt_ns 2500000 gravity 0 steps 800 kinetic_start_nj 1277211185 kinetic_end_nj 1308825552 kinetic_most_nj 1308825552 kinetic_end_per_million_of_start 1024752 energy_drift_ppm_of_most_kinetic 24154 energy_largest_drift_ppm 24154 energy_lost_ppm_of_most_kinetic -24154 momentum_start_u 906687804 momentum_end_u 923108761 momentum_drift_ppm 18110 momentum_largest_drift_ppm 18110 angle1_urad 5252528 speed1_urads 1518295 angle2_urad -536637 speed2_urads 5059366
+swinging chain 1/4 | CHAIN dt_ns 2500000 gravity 1 steps 800 kinetic_start_nj 0 kinetic_end_nj 4463312961 kinetic_most_nj 8912485342 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -170243 energy_largest_drift_ppm 170243 energy_lost_ppm_of_most_kinetic 170243 momentum_start_u 0 momentum_end_u -986027197 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2054217 speed1_urads -4732996 angle2_urad 3507313 speed2_urads 10474659
+free chain 1/16 | CHAIN dt_ns 625000 gravity 0 steps 3200 kinetic_start_nj 1277211185 kinetic_end_nj 1284941038 kinetic_most_nj 1284941038 kinetic_end_per_million_of_start 1006052 energy_drift_ppm_of_most_kinetic 6015 energy_largest_drift_ppm 6015 energy_lost_ppm_of_most_kinetic -6015 momentum_start_u 906687804 momentum_end_u 910726768 momentum_drift_ppm 4454 momentum_largest_drift_ppm 4454 angle1_urad 5255994 speed1_urads 1728583 angle2_urad -649456 speed2_urads 4305027
+swinging chain 1/16 | CHAIN dt_ns 625000 gravity 1 steps 3200 kinetic_start_nj 0 kinetic_end_nj 4799199171 kinetic_most_nj 8818920510 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -61894 energy_largest_drift_ppm 61894 energy_lost_ppm_of_most_kinetic 61894 momentum_start_u 0 momentum_end_u -954409733 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2277772 speed1_urads -3826612 angle2_urad 3416556 speed2_urads 13175199
+solver over cfg_C/stats.txt: most iterations 5, at the limit 0, warnings 0
+solver over cfg_C/stats.txt: most iterations 5, at the limit 0, warnings 0
+solver over runs_C/stats.txt: most iterations 5, at the limit 0, warnings 0
+== B, the chain played again with integ=RK4
+free chain 1/1 | CHAIN dt_ns 10000000 gravity 0 steps 200 kinetic_start_nj 1277211185 kinetic_end_nj 1277210557 kinetic_most_nj 1277212079 kinetic_end_per_million_of_start 999999 energy_drift_ppm_of_most_kinetic 0 energy_largest_drift_ppm 1 energy_lost_ppm_of_most_kinetic 0 momentum_start_u 906687804 momentum_end_u 906687825 momentum_drift_ppm 0 momentum_largest_drift_ppm 1 angle1_urad 5256344 speed1_urads 1796123 angle2_urad -684401 speed2_urads 4063228
+swinging chain 1/1 | CHAIN dt_ns 10000000 gravity 1 steps 200 kinetic_start_nj 0 kinetic_end_nj 5365793834 kinetic_most_nj 8977814170 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -10739 energy_largest_drift_ppm 11270 energy_lost_ppm_of_most_kinetic 10739 momentum_start_u 0 momentum_end_u -959905084 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2406278 speed1_urads -3459068 angle2_urad 2775552 speed2_urads 15279371
+free chain 1/4 | CHAIN dt_ns 2500000 gravity 0 steps 800 kinetic_start_nj 1277211185 kinetic_end_nj 1277211073 kinetic_most_nj 1277212023 kinetic_end_per_million_of_start 1000000 energy_drift_ppm_of_most_kinetic 0 energy_largest_drift_ppm 1 energy_lost_ppm_of_most_kinetic 0 momentum_start_u 906687804 momentum_end_u 906688151 momentum_drift_ppm 0 momentum_largest_drift_ppm 1 angle1_urad 5256345 speed1_urads 1796125 angle2_urad -684403 speed2_urads 4063229
+swinging chain 1/4 | CHAIN dt_ns 2500000 gravity 1 steps 800 kinetic_start_nj 0 kinetic_end_nj 5449275478 kinetic_most_nj 8996363873 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic -8 energy_largest_drift_ppm 12 energy_lost_ppm_of_most_kinetic 8 momentum_start_u 0 momentum_end_u -963857308 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2407372 speed1_urads -3426554 angle2_urad 2784028 speed2_urads 15499554
+free chain 1/16 | CHAIN dt_ns 625000 gravity 0 steps 3200 kinetic_start_nj 1277211185 kinetic_end_nj 1277211073 kinetic_most_nj 1277212105 kinetic_end_per_million_of_start 1000000 energy_drift_ppm_of_most_kinetic 0 energy_largest_drift_ppm 1 energy_lost_ppm_of_most_kinetic 0 momentum_start_u 906687804 momentum_end_u 906688151 momentum_drift_ppm 0 momentum_largest_drift_ppm 1 angle1_urad 5256345 speed1_urads 1796125 angle2_urad -684403 speed2_urads 4063229
+swinging chain 1/16 | CHAIN dt_ns 625000 gravity 1 steps 3200 kinetic_start_nj 0 kinetic_end_nj 5449350475 kinetic_most_nj 8997352373 kinetic_end_per_million_of_start 999999999 energy_drift_ppm_of_most_kinetic 0 energy_largest_drift_ppm 1 energy_lost_ppm_of_most_kinetic 0 momentum_start_u 0 momentum_end_u -963859832 momentum_drift_ppm 999999999 momentum_largest_drift_ppm 999999999 angle1_urad -2407376 speed1_urads -3426558 angle2_urad 2784016 speed2_urads 15499723

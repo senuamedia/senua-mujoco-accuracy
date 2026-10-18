@@ -1,0 +1,20 @@
+stock slide 0 0.001 slid_um 127241 side_um 0
+stock slide 15 0.001 slid_um 139585 side_um 28207
+stock slide 30 0.001 slid_um 165625 side_um 30814
+stock slide 60 0.001 slid_um 165625 side_um -30814
+stock slide 75 0.001 slid_um 139585 side_um -28207
+stock slide 0 0.00025 slid_um 127616 side_um 0
+stock slide 15 0.00025 slid_um 139969 side_um 28193
+stock slide 30 0.00025 slid_um 166005 side_um 30772
+stock slide 60 0.00025 slid_um 166005 side_um -30772
+stock slide 75 0.00025 slid_um 139969 side_um -28193
+stock hold 0 0.65 creep_ums 1725
+stock hold 0 0.85 creep_ums 196148
+stock free 0 0.001 slid_um 127260 side_um 0
+stock hold 30 0.65 creep_ums 237129
+stock hold 30 0.85 creep_ums 975194
+stock free 30 0.001 slid_um 165563 side_um 30996
+stock hold 60 0.65 creep_ums 237129
+stock hold 60 0.85 creep_ums 975194
+stock free 60 0.001 slid_um 165563 side_um -30996
+stock solver most_iterations 6 at_iteration_limit 0 warnings 0

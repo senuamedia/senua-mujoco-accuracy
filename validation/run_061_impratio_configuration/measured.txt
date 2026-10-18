@@ -1,0 +1,585 @@
+identity run 052's plays made again: 208 of 208 byte for byte
+rel n100_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+rel n100_slide_0_0.00114 slid_um 133036 side_um 0 highest_um 97
+rel n100_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+rel n100_slide_22.5_0.00114 slid_um 133036 side_um 0 highest_um 97
+rel n100_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+rel n100_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+rel n100_slide_45_0.00114 slid_um 133036 side_um 0 highest_um 97
+rel n100_free_0_0.00114 slid_um 133042 side_um 0 most_yaw_urad 0 steps_under_4_contacts 68
+rel n100_free_11.25_0.00114 slid_um 135526 side_um 62 most_yaw_urad 26865 steps_under_4_contacts 157
+rel n100_free_22.5_0.00114 slid_um 136043 side_um -231 most_yaw_urad 24463 steps_under_4_contacts 170
+rel n100_free_33.75_0.00114 slid_um 135039 side_um -74 most_yaw_urad 3987 steps_under_4_contacts 143
+rel n100_free_45_0.00114 slid_um 133266 side_um 0 most_yaw_urad 21 steps_under_4_contacts 110
+rel n100_grip_box_off0_0.00114 creep_ums 1
+rel n100_grip_mesh_off0_0.00114 creep_ums 0
+rel n100_grip_box_off0.0093_0.00114 creep_ums 1
+rel n100_grip_mesh_off0.0093_0.00114 creep_ums 0
+rel n100_slide_box_0.00114 slid_um 130843
+rel n100_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+rel n100_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+rel n100_arm_pose1_rest_0.00114 creep_ums -714
+rel n100_arm_pose2_rest_0.00114 creep_ums -9
+rel n100_arm13_pose1_rest_0.00114 creep_ums 0
+rel n100_arm13_pose2_rest_0.00114 creep_ums -192
+rel n100_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+rel n100_slide_0_0.000285 slid_um 133471 side_um 0 highest_um 32
+rel n100_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+rel n100_slide_22.5_0.000285 slid_um 133471 side_um 0 highest_um 32
+rel n100_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+rel n100_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+rel n100_slide_45_0.000285 slid_um 133471 side_um 0 highest_um 32
+rel n100_free_0_0.000285 slid_um 133491 side_um 0 most_yaw_urad 0 steps_under_4_contacts 430
+rel n100_free_11.25_0.000285 slid_um 135636 side_um -27 most_yaw_urad 13517 steps_under_4_contacts 697
+rel n100_free_22.5_0.000285 slid_um 135734 side_um 83 most_yaw_urad 21880 steps_under_4_contacts 633
+rel n100_free_33.75_0.000285 slid_um 135143 side_um 1026 most_yaw_urad 52544 steps_under_4_contacts 707
+rel n100_free_45_0.000285 slid_um 133605 side_um 0 most_yaw_urad 11 steps_under_4_contacts 466
+rel n100_grip_box_off0_0.000285 creep_ums 1
+rel n100_grip_mesh_off0_0.000285 creep_ums 0
+rel n100_grip_box_off0.0093_0.000285 creep_ums 1
+rel n100_grip_mesh_off0.0093_0.000285 creep_ums 0
+rel n100_slide_box_0.000285 slid_um 131393
+rel n100_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+rel n100_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+rel n100_arm_pose1_rest_0.000285 creep_ums -714
+rel n100_arm_pose2_rest_0.000285 creep_ums -9
+rel n100_arm13_pose1_rest_0.000285 creep_ums 0
+rel n100_arm13_pose2_rest_0.000285 creep_ums -192
+rel n100_stack5_0.0001425 most_tilt_urad 4450 end_speed_ums 262 most_iterations 4
+rel n100_stack9_0.0001425 most_tilt_urad 0 end_speed_ums 64 most_iterations 4
+rel n100_offset3_0.0001425 most_tilt_urad 10153 end_speed_ums 1 most_iterations 23
+rel n100_stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064 most_iterations 4
+rel n100_stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801 most_iterations 4
+rel n100_offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19 most_iterations 5
+rel n100_stack5_0.00057 most_tilt_urad 0 end_speed_ums 37 most_iterations 4
+rel n100_stack9_0.00057 most_tilt_urad 0 end_speed_ums 566 most_iterations 5
+rel n100_offset3_0.00057 most_tilt_urad 9566 end_speed_ums 20 most_iterations 5
+rel n100_stack5_0.000855 most_tilt_urad 0 end_speed_ums 0 most_iterations 5
+rel n100_stack9_0.000855 most_tilt_urad 270 end_speed_ums 12863 most_iterations 5
+rel n100_offset3_0.000855 most_tilt_urad 9364 end_speed_ums 24 most_iterations 5
+rel n100_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+rel n100_stack9_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 4
+rel n100_offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22 most_iterations 5
+rel n100_suite1 passed 10
+rel n100_solver most_iterations 23 at_iteration_limit 0 warnings 0
+rel i10_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i10_slide_0_0.00114 slid_um 133031 side_um 0 highest_um 139
+rel i10_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i10_slide_22.5_0.00114 slid_um 133031 side_um 0 highest_um 139
+rel i10_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i10_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i10_slide_45_0.00114 slid_um 133031 side_um 0 highest_um 139
+rel i10_free_0_0.00114 slid_um 133077 side_um 0 most_yaw_urad 0 steps_under_4_contacts 96
+rel i10_free_11.25_0.00114 slid_um 135317 side_um 188 most_yaw_urad 30779 steps_under_4_contacts 141
+rel i10_free_22.5_0.00114 slid_um 134588 side_um 199 most_yaw_urad 10368 steps_under_4_contacts 143
+rel i10_free_33.75_0.00114 slid_um 134596 side_um 220 most_yaw_urad 18820 steps_under_4_contacts 163
+rel i10_free_45_0.00114 slid_um 133143 side_um 0 most_yaw_urad 10 steps_under_4_contacts 113
+rel i10_grip_box_off0_0.00114 creep_ums 1
+rel i10_grip_mesh_off0_0.00114 creep_ums 0
+rel i10_grip_box_off0.0093_0.00114 creep_ums 3
+rel i10_grip_mesh_off0.0093_0.00114 creep_ums 0
+rel i10_slide_box_0.00114 slid_um 130565
+rel i10_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+rel i10_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+rel i10_arm_pose1_rest_0.00114 creep_ums -70
+rel i10_arm_pose2_rest_0.00114 creep_ums -1
+rel i10_arm13_pose1_rest_0.00114 creep_ums 0
+rel i10_arm13_pose2_rest_0.00114 creep_ums -19
+rel i10_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i10_slide_0_0.000285 slid_um 133458 side_um 0 highest_um 37
+rel i10_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i10_slide_22.5_0.000285 slid_um 133458 side_um 0 highest_um 37
+rel i10_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i10_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i10_slide_45_0.000285 slid_um 133458 side_um 0 highest_um 37
+rel i10_free_0_0.000285 slid_um 133472 side_um 0 most_yaw_urad 0 steps_under_4_contacts 439
+rel i10_free_11.25_0.000285 slid_um 136186 side_um -326 most_yaw_urad 9967 steps_under_4_contacts 603
+rel i10_free_22.5_0.000285 slid_um 135789 side_um 140 most_yaw_urad 9847 steps_under_4_contacts 640
+rel i10_free_33.75_0.000285 slid_um 135258 side_um -39 most_yaw_urad 28680 steps_under_4_contacts 590
+rel i10_free_45_0.000285 slid_um 133431 side_um 0 most_yaw_urad 28 steps_under_4_contacts 454
+rel i10_grip_box_off0_0.000285 creep_ums 1
+rel i10_grip_mesh_off0_0.000285 creep_ums 0
+rel i10_grip_box_off0.0093_0.000285 creep_ums 3
+rel i10_grip_mesh_off0.0093_0.000285 creep_ums 0
+rel i10_slide_box_0.000285 slid_um 131369
+rel i10_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+rel i10_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+rel i10_arm_pose1_rest_0.000285 creep_ums -70
+rel i10_arm_pose2_rest_0.000285 creep_ums -1
+rel i10_arm13_pose1_rest_0.000285 creep_ums 0
+rel i10_arm13_pose2_rest_0.000285 creep_ums -19
+rel i10_stack5_0.0001425 most_tilt_urad 3765 end_speed_ums 50 most_iterations 4
+rel i10_stack9_0.0001425 most_tilt_urad 3619 end_speed_ums 9991 most_iterations 4
+rel i10_offset3_0.0001425 most_tilt_urad 8531 end_speed_ums 0 most_iterations 15
+rel i10_stack5_0.000285 most_tilt_urad 4513 end_speed_ums 2740 most_iterations 4
+rel i10_stack9_0.000285 most_tilt_urad 12156 end_speed_ums 18942 most_iterations 4
+rel i10_offset3_0.000285 most_tilt_urad 8749 end_speed_ums 41 most_iterations 6
+rel i10_stack5_0.00057 most_tilt_urad 4387 end_speed_ums 2402 most_iterations 4
+rel i10_stack9_0.00057 most_tilt_urad 13862 end_speed_ums 898 most_iterations 5
+rel i10_offset3_0.00057 most_tilt_urad 8713 end_speed_ums 74 most_iterations 6
+rel i10_stack5_0.000855 most_tilt_urad 0 end_speed_ums 89 most_iterations 5
+rel i10_stack9_0.000855 most_tilt_urad 10029 end_speed_ums 1109 most_iterations 5
+rel i10_offset3_0.000855 most_tilt_urad 8664 end_speed_ums 37 most_iterations 7
+rel i10_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+rel i10_stack9_0.00114 most_tilt_urad 11278 end_speed_ums 1490 most_iterations 4
+rel i10_offset3_0.00114 most_tilt_urad 8639 end_speed_ums 0 most_iterations 6
+rel i10_suite1 passed 10
+rel i10_solver most_iterations 18 at_iteration_limit 0 warnings 0
+rel i30_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i30_slide_0_0.00114 slid_um 133025 side_um 0 highest_um 214
+rel i30_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i30_slide_22.5_0.00114 slid_um 133025 side_um 0 highest_um 214
+rel i30_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i30_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i30_slide_45_0.00114 slid_um 133025 side_um 0 highest_um 214
+rel i30_free_0_0.00114 slid_um 133038 side_um 0 most_yaw_urad 0 steps_under_4_contacts 107
+rel i30_free_11.25_0.00114 slid_um 135383 side_um 768 most_yaw_urad 17610 steps_under_4_contacts 145
+rel i30_free_22.5_0.00114 slid_um 134638 side_um 35 most_yaw_urad 10011 steps_under_4_contacts 153
+rel i30_free_33.75_0.00114 slid_um 135207 side_um 43 most_yaw_urad 42435 steps_under_4_contacts 153
+rel i30_free_45_0.00114 slid_um 133092 side_um 0 most_yaw_urad 10 steps_under_4_contacts 116
+rel i30_grip_box_off0_0.00114 creep_ums 3
+rel i30_grip_mesh_off0_0.00114 creep_ums 0
+rel i30_grip_box_off0.0093_0.00114 creep_ums 1
+rel i30_grip_mesh_off0.0093_0.00114 creep_ums 0
+rel i30_slide_box_0.00114 slid_um 130592
+rel i30_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+rel i30_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+rel i30_arm_pose1_rest_0.00114 creep_ums -23
+rel i30_arm_pose2_rest_0.00114 creep_ums 0
+rel i30_arm13_pose1_rest_0.00114 creep_ums 0
+rel i30_arm13_pose2_rest_0.00114 creep_ums -7
+rel i30_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i30_slide_0_0.000285 slid_um 133459 side_um 0 highest_um 38
+rel i30_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i30_slide_22.5_0.000285 slid_um 133459 side_um 0 highest_um 38
+rel i30_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i30_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i30_slide_45_0.000285 slid_um 133459 side_um 0 highest_um 38
+rel i30_free_0_0.000285 slid_um 133477 side_um 0 most_yaw_urad 0 steps_under_4_contacts 477
+rel i30_free_11.25_0.000285 slid_um 135743 side_um 207 most_yaw_urad 20693 steps_under_4_contacts 590
+rel i30_free_22.5_0.000285 slid_um 135584 side_um 489 most_yaw_urad 9119 steps_under_4_contacts 663
+rel i30_free_33.75_0.000285 slid_um 135203 side_um 276 most_yaw_urad 12809 steps_under_4_contacts 584
+rel i30_free_45_0.000285 slid_um 133599 side_um 0 most_yaw_urad 20 steps_under_4_contacts 484
+rel i30_grip_box_off0_0.000285 creep_ums 3
+rel i30_grip_mesh_off0_0.000285 creep_ums 0
+rel i30_grip_box_off0.0093_0.000285 creep_ums 1
+rel i30_grip_mesh_off0.0093_0.000285 creep_ums 0
+rel i30_slide_box_0.000285 slid_um 131279
+rel i30_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+rel i30_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+rel i30_arm_pose1_rest_0.000285 creep_ums -23
+rel i30_arm_pose2_rest_0.000285 creep_ums 0
+rel i30_arm13_pose1_rest_0.000285 creep_ums 0
+rel i30_arm13_pose2_rest_0.000285 creep_ums -7
+rel i30_stack5_0.0001425 most_tilt_urad 1527 end_speed_ums 47 most_iterations 4
+rel i30_stack9_0.0001425 most_tilt_urad 10226 end_speed_ums 1404 most_iterations 4
+rel i30_offset3_0.0001425 most_tilt_urad 9346 end_speed_ums 0 most_iterations 10
+rel i30_stack5_0.000285 most_tilt_urad 5121 end_speed_ums 1661 most_iterations 4
+rel i30_stack9_0.000285 most_tilt_urad 14421 end_speed_ums 9324 most_iterations 4
+rel i30_offset3_0.000285 most_tilt_urad 8920 end_speed_ums 23 most_iterations 6
+rel i30_stack5_0.00057 most_tilt_urad 5030 end_speed_ums 1833 most_iterations 4
+rel i30_stack9_0.00057 most_tilt_urad 11298 end_speed_ums 24880 most_iterations 5
+rel i30_offset3_0.00057 most_tilt_urad 8933 end_speed_ums 0 most_iterations 6
+rel i30_stack5_0.000855 most_tilt_urad 7126 end_speed_ums 359 most_iterations 5
+rel i30_stack9_0.000855 most_tilt_urad 11983 end_speed_ums 28964 most_iterations 5
+rel i30_offset3_0.000855 most_tilt_urad 8927 end_speed_ums 49 most_iterations 7
+rel i30_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+rel i30_stack9_0.00114 most_tilt_urad 17322 end_speed_ums 16367 most_iterations 4
+rel i30_offset3_0.00114 most_tilt_urad 8850 end_speed_ums 0 most_iterations 6
+rel i30_suite1 passed 10
+rel i30_solver most_iterations 102 at_iteration_limit 58 warnings 0
+rel i100_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i100_slide_0_0.00114 slid_um 133026 side_um 0 highest_um 215
+rel i100_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i100_slide_22.5_0.00114 slid_um 133026 side_um 0 highest_um 215
+rel i100_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+rel i100_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+rel i100_slide_45_0.00114 slid_um 133026 side_um 0 highest_um 215
+rel i100_free_0_0.00114 slid_um 133038 side_um 0 most_yaw_urad 0 steps_under_4_contacts 107
+rel i100_free_11.25_0.00114 slid_um 135599 side_um 920 most_yaw_urad 12075 steps_under_4_contacts 152
+rel i100_free_22.5_0.00114 slid_um 134937 side_um 155 most_yaw_urad 15190 steps_under_4_contacts 130
+rel i100_free_33.75_0.00114 slid_um 134457 side_um 733 most_yaw_urad 38263 steps_under_4_contacts 161
+rel i100_free_45_0.00114 slid_um 133090 side_um 0 most_yaw_urad 10 steps_under_4_contacts 116
+rel i100_grip_box_off0_0.00114 creep_ums 1
+rel i100_grip_mesh_off0_0.00114 creep_ums 0
+rel i100_grip_box_off0.0093_0.00114 creep_ums 2
+rel i100_grip_mesh_off0.0093_0.00114 creep_ums 0
+rel i100_slide_box_0.00114 slid_um 130573
+rel i100_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+rel i100_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+rel i100_arm_pose1_rest_0.00114 creep_ums -7
+rel i100_arm_pose2_rest_0.00114 creep_ums 0
+rel i100_arm13_pose1_rest_0.00114 creep_ums 0
+rel i100_arm13_pose2_rest_0.00114 creep_ums -2
+rel i100_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i100_slide_0_0.000285 slid_um 133466 side_um 0 highest_um 29
+rel i100_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i100_slide_22.5_0.000285 slid_um 133466 side_um 0 highest_um 29
+rel i100_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+rel i100_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+rel i100_slide_45_0.000285 slid_um 133466 side_um 0 highest_um 29
+rel i100_free_0_0.000285 slid_um 133473 side_um 0 most_yaw_urad 0 steps_under_4_contacts 426
+rel i100_free_11.25_0.000285 slid_um 135535 side_um 318 most_yaw_urad 3479 steps_under_4_contacts 598
+rel i100_free_22.5_0.000285 slid_um 135596 side_um -91 most_yaw_urad 18321 steps_under_4_contacts 610
+rel i100_free_33.75_0.000285 slid_um 135489 side_um 111 most_yaw_urad 31309 steps_under_4_contacts 642
+rel i100_free_45_0.000285 slid_um 133514 side_um 0 most_yaw_urad 18 steps_under_4_contacts 475
+rel i100_grip_box_off0_0.000285 creep_ums 1
+rel i100_grip_mesh_off0_0.000285 creep_ums 0
+rel i100_grip_box_off0.0093_0.000285 creep_ums 2
+rel i100_grip_mesh_off0.0093_0.000285 creep_ums 0
+rel i100_slide_box_0.000285 slid_um 131236
+rel i100_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+rel i100_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+rel i100_arm_pose1_rest_0.000285 creep_ums -7
+rel i100_arm_pose2_rest_0.000285 creep_ums 0
+rel i100_arm13_pose1_rest_0.000285 creep_ums 0
+rel i100_arm13_pose2_rest_0.000285 creep_ums -2
+rel i100_stack5_0.0001425 most_tilt_urad 6098 end_speed_ums 25 most_iterations 4
+rel i100_stack9_0.0001425 most_tilt_urad 12455 end_speed_ums 1300 most_iterations 4
+rel i100_offset3_0.0001425 most_tilt_urad 9378 end_speed_ums 32 most_iterations 14
+rel i100_stack5_0.000285 most_tilt_urad 4339 end_speed_ums 1 most_iterations 4
+rel i100_stack9_0.000285 most_tilt_urad 8662 end_speed_ums 14191 most_iterations 4
+rel i100_offset3_0.000285 most_tilt_urad 7742 end_speed_ums 0 most_iterations 6
+rel i100_stack5_0.00057 most_tilt_urad 2633 end_speed_ums 1 most_iterations 4
+rel i100_stack9_0.00057 most_tilt_urad 15951 end_speed_ums 11348 most_iterations 5
+rel i100_offset3_0.00057 most_tilt_urad 9152 end_speed_ums 0 most_iterations 6
+rel i100_stack5_0.000855 most_tilt_urad 3973 end_speed_ums 281 most_iterations 5
+rel i100_stack9_0.000855 most_tilt_urad 8123 end_speed_ums 2696 most_iterations 5
+rel i100_offset3_0.000855 most_tilt_urad 9143 end_speed_ums 0 most_iterations 10
+rel i100_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+rel i100_stack9_0.00114 most_tilt_urad 12928 end_speed_ums 10998 most_iterations 4
+rel i100_offset3_0.00114 most_tilt_urad 9028 end_speed_ums 0 most_iterations 6
+rel i100_suite1 passed 10
+rel i100_solver most_iterations 18 at_iteration_limit 0 warnings 0
+on n100_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+on n100_slide_0_0.00114 slid_um 133052 side_um 0 highest_um 0
+on n100_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+on n100_slide_22.5_0.00114 slid_um 133052 side_um 0 highest_um 0
+on n100_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+on n100_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+on n100_slide_45_0.00114 slid_um 133052 side_um 0 highest_um 0
+on n100_free_0_0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_11.25_0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_22.5_0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_33.75_0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_45_0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_grip_box_off0_0.00114 creep_ums 1
+on n100_grip_mesh_off0_0.00114 creep_ums 0
+on n100_grip_box_off0.0093_0.00114 creep_ums 1
+on n100_grip_mesh_off0.0093_0.00114 creep_ums 0
+on n100_slide_box_0.00114 slid_um 130579
+on n100_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+on n100_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+on n100_arm_pose1_rest_0.00114 creep_ums -714
+on n100_arm_pose2_rest_0.00114 creep_ums -8
+on n100_arm13_pose1_rest_0.00114 creep_ums 0
+on n100_arm13_pose2_rest_0.00114 creep_ums -190
+on n100_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+on n100_slide_0_0.000285 slid_um 133494 side_um 0 highest_um 0
+on n100_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+on n100_slide_22.5_0.000285 slid_um 133494 side_um 0 highest_um 0
+on n100_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+on n100_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+on n100_slide_45_0.000285 slid_um 133494 side_um 0 highest_um 0
+on n100_free_0_0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_11.25_0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_22.5_0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_33.75_0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_free_45_0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on n100_grip_box_off0_0.000285 creep_ums 1
+on n100_grip_mesh_off0_0.000285 creep_ums 0
+on n100_grip_box_off0.0093_0.000285 creep_ums 1
+on n100_grip_mesh_off0.0093_0.000285 creep_ums 0
+on n100_slide_box_0.000285 slid_um 131090
+on n100_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+on n100_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+on n100_arm_pose1_rest_0.000285 creep_ums -714
+on n100_arm_pose2_rest_0.000285 creep_ums -8
+on n100_arm13_pose1_rest_0.000285 creep_ums 0
+on n100_arm13_pose2_rest_0.000285 creep_ums -190
+on n100_stack5_0.0001425 most_tilt_urad 3489 end_speed_ums 3931 most_iterations 4
+on n100_stack9_0.0001425 most_tilt_urad 3094 end_speed_ums 2588 most_iterations 4
+on n100_offset3_0.0001425 most_tilt_urad 9738 end_speed_ums 4 most_iterations 45
+on n100_stack5_0.000285 most_tilt_urad 0 end_speed_ums 0 most_iterations 4
+on n100_stack9_0.000285 most_tilt_urad 3181 end_speed_ums 6136 most_iterations 4
+on n100_offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19 most_iterations 5
+on n100_stack5_0.00057 most_tilt_urad 0 end_speed_ums 38 most_iterations 4
+on n100_stack9_0.00057 most_tilt_urad 1073 end_speed_ums 6386 most_iterations 5
+on n100_offset3_0.00057 most_tilt_urad 9566 end_speed_ums 20 most_iterations 5
+on n100_stack5_0.000855 most_tilt_urad 0 end_speed_ums 0 most_iterations 5
+on n100_stack9_0.000855 most_tilt_urad 9791 end_speed_ums 2320 most_iterations 5
+on n100_offset3_0.000855 most_tilt_urad 9364 end_speed_ums 24 most_iterations 9
+on n100_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+on n100_stack9_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 4
+on n100_offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22 most_iterations 5
+on n100_suite1 passed 10
+on n100_solver most_iterations 45 at_iteration_limit 0 warnings 0
+on i10_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+on i10_slide_0_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i10_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+on i10_slide_22.5_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i10_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+on i10_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+on i10_slide_45_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i10_free_0_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_11.25_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_22.5_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_33.75_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_45_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_grip_box_off0_0.00114 creep_ums 1
+on i10_grip_mesh_off0_0.00114 creep_ums 0
+on i10_grip_box_off0.0093_0.00114 creep_ums 3
+on i10_grip_mesh_off0.0093_0.00114 creep_ums 0
+on i10_slide_box_0.00114 slid_um 130574
+on i10_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+on i10_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+on i10_arm_pose1_rest_0.00114 creep_ums -70
+on i10_arm_pose2_rest_0.00114 creep_ums -1
+on i10_arm13_pose1_rest_0.00114 creep_ums 0
+on i10_arm13_pose2_rest_0.00114 creep_ums -19
+on i10_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+on i10_slide_0_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i10_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+on i10_slide_22.5_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i10_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+on i10_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+on i10_slide_45_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i10_free_0_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_11.25_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_22.5_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_33.75_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_free_45_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i10_grip_box_off0_0.000285 creep_ums 1
+on i10_grip_mesh_off0_0.000285 creep_ums 0
+on i10_grip_box_off0.0093_0.000285 creep_ums 3
+on i10_grip_mesh_off0.0093_0.000285 creep_ums 0
+on i10_slide_box_0.000285 slid_um 131086
+on i10_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+on i10_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+on i10_arm_pose1_rest_0.000285 creep_ums -70
+on i10_arm_pose2_rest_0.000285 creep_ums -1
+on i10_arm13_pose1_rest_0.000285 creep_ums 0
+on i10_arm13_pose2_rest_0.000285 creep_ums -19
+on i10_stack5_0.0001425 most_tilt_urad 0 end_speed_ums 0 most_iterations 4
+on i10_stack9_0.0001425 most_tilt_urad 25241 end_speed_ums 34995 most_iterations 4
+on i10_offset3_0.0001425 most_tilt_urad 8285 end_speed_ums 0 most_iterations 38
+on i10_stack5_0.000285 most_tilt_urad 1894 end_speed_ums 2921 most_iterations 4
+on i10_stack9_0.000285 most_tilt_urad 8636 end_speed_ums 2319 most_iterations 4
+on i10_offset3_0.000285 most_tilt_urad 8749 end_speed_ums 84 most_iterations 6
+on i10_stack5_0.00057 most_tilt_urad 4437 end_speed_ums 400 most_iterations 4
+on i10_stack9_0.00057 most_tilt_urad 13012 end_speed_ums 2770 most_iterations 5
+on i10_offset3_0.00057 most_tilt_urad 8713 end_speed_ums 0 most_iterations 6
+on i10_stack5_0.000855 most_tilt_urad 0 end_speed_ums 63 most_iterations 5
+on i10_stack9_0.000855 most_tilt_urad 10342 end_speed_ums 2202 most_iterations 5
+on i10_offset3_0.000855 most_tilt_urad 8706 end_speed_ums 44 most_iterations 10
+on i10_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+on i10_stack9_0.00114 most_tilt_urad 9763 end_speed_ums 7070 most_iterations 4
+on i10_offset3_0.00114 most_tilt_urad 8639 end_speed_ums 0 most_iterations 6
+on i10_suite1 passed 10
+on i10_solver most_iterations 38 at_iteration_limit 0 warnings 0
+on i30_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+on i30_slide_0_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i30_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+on i30_slide_22.5_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i30_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+on i30_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+on i30_slide_45_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i30_free_0_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_11.25_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_22.5_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_33.75_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_45_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_grip_box_off0_0.00114 creep_ums 3
+on i30_grip_mesh_off0_0.00114 creep_ums 0
+on i30_grip_box_off0.0093_0.00114 creep_ums 1
+on i30_grip_mesh_off0.0093_0.00114 creep_ums 0
+on i30_slide_box_0.00114 slid_um 130574
+on i30_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+on i30_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+on i30_arm_pose1_rest_0.00114 creep_ums -23
+on i30_arm_pose2_rest_0.00114 creep_ums 0
+on i30_arm13_pose1_rest_0.00114 creep_ums 0
+on i30_arm13_pose2_rest_0.00114 creep_ums -6
+on i30_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+on i30_slide_0_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i30_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+on i30_slide_22.5_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i30_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+on i30_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+on i30_slide_45_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i30_free_0_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_11.25_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_22.5_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_33.75_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_free_45_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i30_grip_box_off0_0.000285 creep_ums 3
+on i30_grip_mesh_off0_0.000285 creep_ums 0
+on i30_grip_box_off0.0093_0.000285 creep_ums 1
+on i30_grip_mesh_off0.0093_0.000285 creep_ums 0
+on i30_slide_box_0.000285 slid_um 131085
+on i30_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+on i30_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+on i30_arm_pose1_rest_0.000285 creep_ums -23
+on i30_arm_pose2_rest_0.000285 creep_ums 0
+on i30_arm13_pose1_rest_0.000285 creep_ums 0
+on i30_arm13_pose2_rest_0.000285 creep_ums -6
+on i30_stack5_0.0001425 most_tilt_urad 2811 end_speed_ums 2515 most_iterations 4
+on i30_stack9_0.0001425 most_tilt_urad 8811 end_speed_ums 545 most_iterations 4
+on i30_offset3_0.0001425 most_tilt_urad 9365 end_speed_ums 0 most_iterations 33
+on i30_stack5_0.000285 most_tilt_urad 4375 end_speed_ums 4979 most_iterations 4
+on i30_stack9_0.000285 most_tilt_urad 18515 end_speed_ums 11786 most_iterations 4
+on i30_offset3_0.000285 most_tilt_urad 8920 end_speed_ums 23 most_iterations 6
+on i30_stack5_0.00057 most_tilt_urad 4179 end_speed_ums 60 most_iterations 4
+on i30_stack9_0.00057 most_tilt_urad 13049 end_speed_ums 2125 most_iterations 5
+on i30_offset3_0.00057 most_tilt_urad 8933 end_speed_ums 0 most_iterations 6
+on i30_stack5_0.000855 most_tilt_urad 3473 end_speed_ums 9 most_iterations 5
+on i30_stack9_0.000855 most_tilt_urad 9024 end_speed_ums 3669 most_iterations 5
+on i30_offset3_0.000855 most_tilt_urad 8919 end_speed_ums 0 most_iterations 9
+on i30_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+on i30_stack9_0.00114 most_tilt_urad 5498 end_speed_ums 243 most_iterations 4
+on i30_offset3_0.00114 most_tilt_urad 8850 end_speed_ums 0 most_iterations 6
+on i30_suite1 passed 10
+on i30_solver most_iterations 33 at_iteration_limit 0 warnings 0
+on i100_hold_0_0.5_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_0_0.75_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_0_0.95_0.00114 creep_ums 0 most_iterations 3
+on i100_slide_0_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i100_hold_22.5_0.5_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_22.5_0.75_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_22.5_0.95_0.00114 creep_ums 0 most_iterations 3
+on i100_slide_22.5_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i100_hold_45_0.5_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_45_0.75_0.00114 creep_ums 0 most_iterations 3
+on i100_hold_45_0.95_0.00114 creep_ums 0 most_iterations 3
+on i100_slide_45_0.00114 slid_um 133052 side_um 0 highest_um 0
+on i100_free_0_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_11.25_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_22.5_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_33.75_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_45_0.00114 slid_um 133033 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_grip_box_off0_0.00114 creep_ums 1
+on i100_grip_mesh_off0_0.00114 creep_ums 0
+on i100_grip_box_off0.0093_0.00114 creep_ums 2
+on i100_grip_mesh_off0.0093_0.00114 creep_ums 0
+on i100_slide_box_0.00114 slid_um 130574
+on i100_jf_pose1_0.00114 creep_ums -2 most_iterations 18
+on i100_jf_pose2_0.00114 creep_ums -2 most_iterations 15
+on i100_arm_pose1_rest_0.00114 creep_ums -7
+on i100_arm_pose2_rest_0.00114 creep_ums 0
+on i100_arm13_pose1_rest_0.00114 creep_ums 0
+on i100_arm13_pose2_rest_0.00114 creep_ums -2
+on i100_hold_0_0.5_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_0_0.75_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_0_0.95_0.000285 creep_ums 0 most_iterations 3
+on i100_slide_0_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i100_hold_22.5_0.5_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_22.5_0.75_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_22.5_0.95_0.000285 creep_ums 0 most_iterations 3
+on i100_slide_22.5_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i100_hold_45_0.5_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_45_0.75_0.000285 creep_ums 0 most_iterations 3
+on i100_hold_45_0.95_0.000285 creep_ums 0 most_iterations 3
+on i100_slide_45_0.000285 slid_um 133494 side_um 0 highest_um 0
+on i100_free_0_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_11.25_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_22.5_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_33.75_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_free_45_0.000285 slid_um 133474 side_um 0 most_yaw_urad 0 steps_under_4_contacts 0
+on i100_grip_box_off0_0.000285 creep_ums 1
+on i100_grip_mesh_off0_0.000285 creep_ums 0
+on i100_grip_box_off0.0093_0.000285 creep_ums 2
+on i100_grip_mesh_off0.0093_0.000285 creep_ums 0
+on i100_slide_box_0.000285 slid_um 131085
+on i100_jf_pose1_0.000285 creep_ums -2 most_iterations 18
+on i100_jf_pose2_0.000285 creep_ums -2 most_iterations 15
+on i100_arm_pose1_rest_0.000285 creep_ums -7
+on i100_arm_pose2_rest_0.000285 creep_ums 0
+on i100_arm13_pose1_rest_0.000285 creep_ums 0
+on i100_arm13_pose2_rest_0.000285 creep_ums -2
+on i100_stack5_0.0001425 most_tilt_urad 5305 end_speed_ums 3514 most_iterations 4
+on i100_stack9_0.0001425 most_tilt_urad 17200 end_speed_ums 29 most_iterations 4
+on i100_offset3_0.0001425 most_tilt_urad 9383 end_speed_ums 28 most_iterations 37
+on i100_stack5_0.000285 most_tilt_urad 6808 end_speed_ums 2720 most_iterations 4
+on i100_stack9_0.000285 most_tilt_urad 9874 end_speed_ums 709 most_iterations 4
+on i100_offset3_0.000285 most_tilt_urad 7742 end_speed_ums 0 most_iterations 6
+on i100_stack5_0.00057 most_tilt_urad 2560 end_speed_ums 112 most_iterations 4
+on i100_stack9_0.00057 most_tilt_urad 11936 end_speed_ums 1881 most_iterations 5
+on i100_offset3_0.00057 most_tilt_urad 9152 end_speed_ums 0 most_iterations 6
+on i100_stack5_0.000855 most_tilt_urad 2041 end_speed_ums 120 most_iterations 5
+on i100_stack9_0.000855 most_tilt_urad 7726 end_speed_ums 26631 most_iterations 5
+on i100_offset3_0.000855 most_tilt_urad 9145 end_speed_ums 0 most_iterations 12
+on i100_stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 most_iterations 3
+on i100_stack9_0.00114 most_tilt_urad 2224 end_speed_ums 1670 most_iterations 4
+on i100_offset3_0.00114 most_tilt_urad 9028 end_speed_ums 0 most_iterations 6
+on i100_suite1 passed 10
+on i100_solver most_iterations 37 at_iteration_limit 0 warnings 0

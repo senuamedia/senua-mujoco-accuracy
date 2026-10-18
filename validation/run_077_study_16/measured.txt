@@ -1,0 +1,280 @@
+rel_def stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def offset1 0.000305 most_tilt_urad 96 end_speed_ums 2 changes 0
+rel_def offset17 0.000305 most_tilt_urad 2208 end_speed_ums 40 changes 0
+rel_def onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_def solver most_iterations 5 at_iteration_limit 0 warnings 0
+rel_rec stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 9 def 0.00122 most_tilt_urad 942 end_speed_ums 3389 changes 131
+rel_rec stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 4023 changes 38
+rel_rec stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 10 changes 8
+rel_rec stack 12 1e-10 0.00122 most_tilt_urad 7368 end_speed_ums 14154 changes 612
+rel_rec stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 8
+rel_rec stack 9 1e-12 0.00122 most_tilt_urad 5215 end_speed_ums 2652 changes 305
+rel_rec stack 12 1e-12 0.00122 most_tilt_urad 8538 end_speed_ums 9166 changes 425
+rel_rec stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 7
+rel_rec stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 13 changes 16
+rel_rec stack 12 def 0.000305 most_tilt_urad 6346 end_speed_ums 2842 changes 560
+rel_rec stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 3
+rel_rec stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 4842 changes 6
+rel_rec stack 12 1e-10 0.000305 most_tilt_urad 3617 end_speed_ums 12570 changes 998
+rel_rec stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 1
+rel_rec stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 4
+rel_rec stack 9 1e-12 0.000305 most_tilt_urad 6542 end_speed_ums 324 changes 512
+rel_rec stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 838 changes 17
+rel_rec stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 1150 changes 15
+rel_rec stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 12
+rel_rec stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 9 1e-10 0.0001525 most_tilt_urad 10919 end_speed_ums 1030 changes 749
+rel_rec stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 2231 changes 34
+rel_rec stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+rel_rec stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 2199 changes 4
+rel_rec stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 1 changes 6
+rel_rec offset1 0.000305 most_tilt_urad 2386 end_speed_ums 27 changes 438
+rel_rec offset17 0.000305 most_tilt_urad 10682 end_speed_ums 21 changes 69
+rel_rec onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 4
+rel_rec solver most_iterations 6 at_iteration_limit 0 warnings 0
+off_def stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def offset1 0.000305 most_tilt_urad 96 end_speed_ums 2 changes 0
+off_def offset17 0.000305 most_tilt_urad 2208 end_speed_ums 40 changes 0
+off_def onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_def solver most_iterations 5 at_iteration_limit 0 warnings 0
+off_rec stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 9 def 0.00122 most_tilt_urad 942 end_speed_ums 3389 changes 131
+off_rec stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 4023 changes 38
+off_rec stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 10 changes 8
+off_rec stack 12 1e-10 0.00122 most_tilt_urad 7368 end_speed_ums 14154 changes 612
+off_rec stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 8
+off_rec stack 9 1e-12 0.00122 most_tilt_urad 5215 end_speed_ums 2652 changes 305
+off_rec stack 12 1e-12 0.00122 most_tilt_urad 8538 end_speed_ums 9166 changes 425
+off_rec stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 7
+off_rec stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 13 changes 16
+off_rec stack 12 def 0.000305 most_tilt_urad 6346 end_speed_ums 2842 changes 560
+off_rec stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 3
+off_rec stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 4842 changes 6
+off_rec stack 12 1e-10 0.000305 most_tilt_urad 3617 end_speed_ums 12570 changes 998
+off_rec stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 1
+off_rec stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 4
+off_rec stack 9 1e-12 0.000305 most_tilt_urad 6542 end_speed_ums 324 changes 512
+off_rec stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 838 changes 17
+off_rec stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 1150 changes 15
+off_rec stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 12
+off_rec stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 9 1e-10 0.0001525 most_tilt_urad 10919 end_speed_ums 1030 changes 749
+off_rec stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 2231 changes 34
+off_rec stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+off_rec stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 2199 changes 4
+off_rec stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 1 changes 6
+off_rec offset1 0.000305 most_tilt_urad 2386 end_speed_ums 27 changes 438
+off_rec offset17 0.000305 most_tilt_urad 10682 end_speed_ums 21 changes 69
+off_rec onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 4
+off_rec solver most_iterations 6 at_iteration_limit 0 warnings 0
+set_rec stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 9 def 0.00122 most_tilt_urad 259 end_speed_ums 2896 changes 60
+set_rec stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 788 changes 22
+set_rec stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 6
+set_rec stack 12 1e-10 0.00122 most_tilt_urad 3193 end_speed_ums 3687 changes 477
+set_rec stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 1e-12 0.00122 most_tilt_urad 3616 end_speed_ums 3581 changes 90
+set_rec stack 9 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 109 changes 27
+set_rec stack 12 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 3076 changes 35
+set_rec stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 8
+set_rec stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 3891 changes 21
+set_rec stack 12 def 0.000305 most_tilt_urad 5789 end_speed_ums 9259 changes 781
+set_rec stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 2
+set_rec stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 81 changes 18
+set_rec stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 1326 changes 23
+set_rec stack 12 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 6
+set_rec stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 51 changes 6
+set_rec stack 9 1e-12 0.000305 most_tilt_urad 8436 end_speed_ums 16881 changes 267
+set_rec stack 12 1e-12 0.000305 most_tilt_urad 1575 end_speed_ums 4606 changes 334
+set_rec stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 9 def 0.0001525 most_tilt_urad 9022 end_speed_ums 10633 changes 651
+set_rec stack 12 def 0.0001525 most_tilt_urad 3277 end_speed_ums 3409 changes 495
+set_rec stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 9 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 1 changes 19
+set_rec stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 3134 changes 30
+set_rec stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set_rec stack 9 1e-12 0.0001525 most_tilt_urad 5074 end_speed_ums 12538 changes 450
+set_rec stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 2249 changes 36
+set_rec offset1 0.000305 most_tilt_urad 2375 end_speed_ums 26 changes 376
+set_rec offset17 0.000305 most_tilt_urad 10682 end_speed_ums 21 changes 69
+set_rec onbox5 0.000305 most_tilt_urad 0 end_speed_ums 60 changes 7
+set_rec solver most_iterations 25 at_iteration_limit 0 warnings 0
+set4_rec stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec offset1 0.000305 most_tilt_urad 2313 end_speed_ums 66 changes 291
+set4_rec offset17 0.000305 most_tilt_urad 10592 end_speed_ums 22 changes 71
+set4_rec onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+set4_rec solver most_iterations 25 at_iteration_limit 0 warnings 0
+col_def stack 3 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 def 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-10 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-12 0.00122 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 def 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-10 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-12 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 def 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-10 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 3 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 5 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 9 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def stack 12 1e-12 0.0001525 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def offset1 0.000305 most_tilt_urad 96 end_speed_ums 2 changes 0
+col_def offset17 0.000305 most_tilt_urad 2208 end_speed_ums 40 changes 0
+col_def onbox5 0.000305 most_tilt_urad 0 end_speed_ums 0 changes 0
+col_def solver most_iterations 5 at_iteration_limit 0 warnings 0

@@ -1,0 +1,65 @@
+--- a/src/engine/engine_solver.c
++++ b/src/engine/engine_solver.c
+@@ -882,6 +882,17 @@
+ 
+ //---------------------------- NoSlip solver -------------------------------------------------------
+ 
++// Senua AI patch, in design (off unless MUJOCO_NOSLIP_NORMAL=1): noslip's pass also re-solves each elliptic contact's
++// normal row, as MuJoCo's PGS solves a scalar row (its regularization kept, held at zero or above), given the friction
++// as it stands, before solving that contact's friction in the cone its new normal force gives. Noslip re-solves the
++// friction with every normal force held as the main solver left it; a body's balance in pitch rests on both, and a free
++// cube pushed near its limit rocks on its front edge under noslip and not without it (run 096), as do offset stacks
++// (run 093). Pyramidal contacts are unchanged.
++static int noslipNormalOn(void) {
++  const char* s = getenv("MUJOCO_NOSLIP_NORMAL");
++  return s && s[0] == '1' && s[1] == 0;
++}
++
+ // core NoSlip solver: iterates over constraints specified by efclist
+ //   island: island index for stats (use -1 for monolithic, mapped to 0)
+ //   ne, nf, nefc: constraint type counts
+@@ -905,6 +916,14 @@
+   // precompute inverse diagonal of A
+   ARdiaginv(m, d, ARinv, nefc, efclist, 1);
+ 
++  // Senua AI patch: the inverse diagonal with the regularization, as MuJoCo's PGS uses it, for the normal rows
++  int nrmOn = noslipNormalOn();
++  mjtNum* ARinvN = NULL;
++  if (nrmOn) {
++    ARinvN = mjSTACKALLOC(d, nefc, mjtNum);
++    ARdiaginv(m, d, ARinvN, nefc, efclist, 0);
++  }
++
+   // initial constraint state
+   dualState(d, d->efc_state, ne, nf, nefc, efclist);
+ 
+@@ -917,6 +936,10 @@
+     if (iter == 0) {
+       for (int c=0; c < nefc; c++) {
+         int i = efclist ? efclist[c] : c;
++        // (Senua AI patch: with its switch set an elliptic contact's normal row keeps its regularization)
++        if (nrmOn && d->efc_type[i] == mjCNSTR_CONTACT_ELLIPTIC && d->contact[d->efc_id[i]].efc_address == i) {
++          continue;
++        }
+         improvement += 0.5*force[i]*force[i]*d->efc_R[i];
+       }
+     }
+@@ -1016,6 +1039,18 @@
+         dim = con->dim;
+         mu = con->friction;
+ 
++        // Senua AI patch: the normal row first, as MuJoCo's PGS solves a scalar row, given the friction as it stands
++        if (nrmOn) {
++          residual(m, d, res, i, 1, 0);
++          oldforce[0] = force[i];
++          force[i] -= res[0]*ARinvN[c];
++          if (force[i] < 0) {
++            force[i] = 0;
++          }
++          delta[0] = force[i] - oldforce[0];
++          improvement -= 0.5*delta[0]*delta[0]/ARinvN[c] + delta[0]*res[0];
++        }
++
+         // compute residual, save old
+         residual(m, d, res, i+1, dim-1, 1);
+         mju_copy(oldforce, force+i+1, dim-1);

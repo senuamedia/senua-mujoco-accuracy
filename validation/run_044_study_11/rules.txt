@@ -1,0 +1,70 @@
+RULE A_defaults_H_every_hold_holds all_le 10 542 1355 2006 542 1200 463781 542 124375 704321 542 1355 2006 542 1200 462680 542 124094 702724 : FAILED
+RULE A_defaults_G_every_grip_holds all_le 10 7103 7103 6991 7737 : FAILED
+RULE A_defaults_V_iteration_limit eq 0 0 : HELD
+RULE A_defaults_V_warnings eq 0 0 : HELD
+RULE A_impratio10_H_every_hold_holds all_le 10 54 136 201 54 120 463224 54 124382 704371 54 136 201 54 120 462100 54 124093 702717 : FAILED
+RULE A_impratio10_G_every_grip_holds all_le 10 738 738 813 813 : FAILED
+RULE A_impratio10_V_iteration_limit eq 0 0 : HELD
+RULE A_impratio10_V_warnings eq 0 0 : HELD
+RULE A_impratio100_H_every_hold_holds all_le 10 5 14 20 5 12 463115 5 124389 704353 5 14 20 5 12 462048 5 124092 702723 : FAILED
+RULE A_impratio100_G_every_grip_holds all_le 10 74 74 81 81 : FAILED
+RULE A_impratio100_V_iteration_limit eq 0 0 : HELD
+RULE A_impratio100_V_warnings eq 0 0 : HELD
+RULE A_elliptic_H_every_hold_holds all_le 10 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 : FAILED
+RULE A_elliptic_G_every_grip_holds all_le 10 3541 3541 3806 3806 : FAILED
+RULE A_elliptic_V_iteration_limit eq 0 0 : HELD
+RULE A_elliptic_V_warnings eq 0 0 : HELD
+RULE A_elliptic_impratio10_H_every_hold_holds all_le 10 47 71 89 47 71 89 47 71 89 47 71 89 47 71 89 47 71 89 : FAILED
+RULE A_elliptic_impratio10_G_every_grip_holds all_le 10 354 354 382 382 : FAILED
+RULE A_elliptic_impratio10_V_iteration_limit eq 0 0 : HELD
+RULE A_elliptic_impratio10_V_warnings eq 0 0 : HELD
+RULE A_noslip_pyramidal_H_every_hold_holds all_le 10 0 1355 2006 0 1081 463781 0 124375 704321 0 1355 2006 0 1081 462680 0 124094 702724 : FAILED
+RULE A_noslip_pyramidal_G_every_grip_holds all_le 10 7103 7103 7198 7191 : FAILED
+RULE A_noslip_pyramidal_V_iteration_limit eq 0 0 : HELD
+RULE A_noslip_pyramidal_V_warnings eq 0 0 : HELD
+RULE A_configuration_H_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE A_configuration_G_every_grip_holds all_le 10 1 0 1 0 : HELD
+RULE A_configuration_V_iteration_limit eq 0 0 : HELD
+RULE A_configuration_V_warnings eq 0 0 : HELD
+RULE B_june_H_every_hold_holds all_le 10 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 : FAILED
+RULE B_june_T_moved_from_outside_stays all_le 10 565 565 : FAILED
+RULE B_june_S_restored_state_replays_0.00165 eq 1 1 : HELD
+RULE B_june_S_restored_state_replays_0.0004125 eq 1 1 : HELD
+RULE B_june_D_the_pull_requests_demos_hold all_le 10 8020 17276 : FAILED
+RULE B_june_V_iteration_limit eq 0 0 : HELD
+RULE B_june_V_warnings eq 0 0 : HELD
+RULE B_off_H_every_hold_holds all_le 10 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 471 707 895 : FAILED
+RULE B_off_T_moved_from_outside_stays all_le 10 565 565 : FAILED
+RULE B_off_S_restored_state_replays_0.00165 eq 1 1 : HELD
+RULE B_off_S_restored_state_replays_0.0004125 eq 1 1 : HELD
+RULE B_off_D_the_pull_requests_demos_hold all_le 10 8020 17276 : FAILED
+RULE B_off_V_iteration_limit eq 0 0 : HELD
+RULE B_off_V_warnings eq 0 0 : HELD
+RULE B_on_H_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE B_on_T_moved_from_outside_stays all_le 10 29 29 : FAILED
+RULE B_on_S_restored_state_replays_0.00165 eq 0 1 : FAILED
+RULE B_on_S_restored_state_replays_0.0004125 eq 0 1 : FAILED
+RULE B_on_D_the_pull_requests_demos_hold all_le 10 0 0 : HELD
+RULE B_on_V_iteration_limit eq 0 0 : HELD
+RULE B_on_V_warnings eq 0 0 : HELD
+RULE B_cfg_H_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE B_cfg_T_moved_from_outside_stays all_le 10 0 0 : HELD
+RULE B_cfg_S_restored_state_replays_0.00165 eq 1 1 : HELD
+RULE B_cfg_S_restored_state_replays_0.0004125 eq 1 1 : HELD
+RULE B_cfg_D_the_pull_requests_demos_hold all_le 10 0 0 : HELD
+RULE B_cfg_V_iteration_limit eq 0 0 : HELD
+RULE B_cfg_V_warnings eq 0 0 : HELD
+RULE E1_pull_request_off_as_june eq 20 20 : HELD
+RULE E2_pull_request_suite_as_june eq 0 0 : HELD
+rules: 58, held: 37
+A_defaults: 4, held 2
+A_impratio10: 4, held 2
+A_impratio100: 4, held 2
+A_elliptic: 4, held 2
+A_elliptic_impratio10: 4, held 2
+A_noslip_pyramidal: 4, held 2
+A_configuration: 4, held 4
+B_june: 7, held 4
+B_off: 7, held 4
+B_on: 7, held 4
+B_cfg: 7, held 7

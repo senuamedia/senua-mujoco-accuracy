@@ -1,0 +1,1 @@
+STATS scene ~/work/rec073/validation/run_049_desaxce_v4/step2/scene.xml body box dt 0.016 steps 1000 most_iterations 7 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra key=0 noslip=100

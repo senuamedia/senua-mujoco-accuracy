@@ -1,0 +1,18 @@
+11:35:53 run_091_study_21 cleared
+11:35:53 run_095_noslip_equality cleared
+11:35:53 run_096_free_cube_directions cleared
+11:35:53 run_097_noslip_equality_v2 cleared
+11:35:54 run_098_noslip_normal cleared
+11:35:54 run_099_study_22 cleared
+11:35:54 run_100_noslip_normal_tolerance cleared
+11:49:23 run_091_study_21 play.sh played, exit 0
+12:00:56 run_095_noslip_equality probe.sh played, exit 0
+12:00:57 run_096_free_cube_directions probe.sh played, exit 0
+12:00:58 run_096_free_cube_directions probe_2.sh played, exit 0
+12:12:29 run_097_noslip_equality_v2 probe.sh played, exit 0
+12:26:28 run_098_noslip_normal probe.sh played, exit 0
+12:34:28 run_098_noslip_normal probe_2.sh played, exit 0
+12:46:08 run_099_study_22 play.sh played, exit 0
+12:50:33 run_100_noslip_normal_tolerance probe.sh played, exit 0
+12:50:36 home folder written as ~; compressed as the record keeps them
+12:50:42 compared: 2541 same, 139 differ, 4 missing, 3 new

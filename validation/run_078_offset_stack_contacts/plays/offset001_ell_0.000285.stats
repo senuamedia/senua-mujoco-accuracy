@@ -1,0 +1,1 @@
+STATS stack dt 0.000285 n 3 mass 0.442 radius 0.0424 mu 0.524 shift 0.001 base 0 vx 0 lock 0 steps 7018 most_iterations 1 at_iteration_limit 0 iteration_limit 100 most_contacts 12 warnings 0 engine mujoco 3.16.0 extra n=3 shift=0.001 secs=2 mass=0.442 radius=0.0424 mu=0.524 cone=elliptic

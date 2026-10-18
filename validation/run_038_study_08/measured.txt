@@ -1,0 +1,279 @@
+release arm defaults pose1 rest 0.0016 straight apart_nm 44166 speed_apart_ums 60
+release arm defaults pose1 rest 0.0016 folded apart_nm 9316 speed_apart_ums 13
+release creep defaults pose1 0.0016 native mean_speed_ums -167
+release creep defaults pose1 0.0016 straight mean_speed_ums -108
+release creep defaults pose1 0.0016 folded mean_speed_ums -154
+release arm defaults pose1 rest 0.0004 straight apart_nm 44168 speed_apart_ums 60
+release arm defaults pose1 rest 0.0004 folded apart_nm 9316 speed_apart_ums 12
+release creep defaults pose1 0.0004 native mean_speed_ums -166
+release creep defaults pose1 0.0004 straight mean_speed_ums -107
+release creep defaults pose1 0.0004 folded mean_speed_ums -153
+release arm defaults pose1 drop 0.0016 straight apart_nm 44961 speed_apart_ums 31
+release arm defaults pose1 drop 0.0016 folded apart_nm 9481 speed_apart_ums 6
+release arm defaults pose1 drop 0.0004 straight apart_nm 44959 speed_apart_ums 31
+release arm defaults pose1 drop 0.0004 folded apart_nm 9480 speed_apart_ums 7
+release arm defaults pose2 rest 0.0016 straight apart_nm 6174 speed_apart_ums 44
+release arm defaults pose2 rest 0.0016 folded apart_nm 5999 speed_apart_ums 44
+release creep defaults pose2 0.0016 native mean_speed_ums -259
+release creep defaults pose2 0.0016 straight mean_speed_ums -213
+release creep defaults pose2 0.0016 folded mean_speed_ums -303
+release arm defaults pose2 rest 0.0004 straight apart_nm 6173 speed_apart_ums 45
+release arm defaults pose2 rest 0.0004 folded apart_nm 6006 speed_apart_ums 42
+release creep defaults pose2 0.0004 native mean_speed_ums -260
+release creep defaults pose2 0.0004 straight mean_speed_ums -214
+release creep defaults pose2 0.0004 folded mean_speed_ums -304
+release arm defaults pose2 drop 0.0016 straight apart_nm 6464 speed_apart_ums 17
+release arm defaults pose2 drop 0.0016 folded apart_nm 6293 speed_apart_ums 15
+release arm defaults pose2 drop 0.0004 straight apart_nm 6470 speed_apart_ums 16
+release arm defaults pose2 drop 0.0004 folded apart_nm 6287 speed_apart_ums 16
+release arm recommended pose1 rest 0.0016 straight apart_nm 93068 speed_apart_ums 31
+release arm recommended pose1 rest 0.0016 folded apart_nm 18589 speed_apart_ums 6
+release creep recommended pose1 0.0016 native mean_speed_ums -98
+release creep recommended pose1 0.0016 straight mean_speed_ums -67
+release creep recommended pose1 0.0016 folded mean_speed_ums -92
+release arm recommended pose1 rest 0.0004 straight apart_nm 93071 speed_apart_ums 32
+release arm recommended pose1 rest 0.0004 folded apart_nm 18589 speed_apart_ums 7
+release creep recommended pose1 0.0004 native mean_speed_ums -98
+release creep recommended pose1 0.0004 straight mean_speed_ums -67
+release creep recommended pose1 0.0004 folded mean_speed_ums -91
+release arm recommended pose1 drop 0.0016 straight apart_nm 94163 speed_apart_ums 18
+release arm recommended pose1 drop 0.0016 folded apart_nm 18774 speed_apart_ums 3
+release arm recommended pose1 drop 0.0004 straight apart_nm 94161 speed_apart_ums 18
+release arm recommended pose1 drop 0.0004 folded apart_nm 18774 speed_apart_ums 4
+release arm recommended pose2 rest 0.0016 straight apart_nm 15318 speed_apart_ums 30
+release arm recommended pose2 rest 0.0016 folded apart_nm 14826 speed_apart_ums 28
+release creep recommended pose2 0.0016 native mean_speed_ums -172
+release creep recommended pose2 0.0016 straight mean_speed_ums -141
+release creep recommended pose2 0.0016 folded mean_speed_ums -201
+release arm recommended pose2 rest 0.0004 straight apart_nm 15346 speed_apart_ums 30
+release arm recommended pose2 rest 0.0004 folded apart_nm 14804 speed_apart_ums 29
+release creep recommended pose2 0.0004 native mean_speed_ums -172
+release creep recommended pose2 0.0004 straight mean_speed_ums -142
+release creep recommended pose2 0.0004 folded mean_speed_ums -201
+release arm recommended pose2 drop 0.0016 straight apart_nm 16062 speed_apart_ums 12
+release arm recommended pose2 drop 0.0016 folded apart_nm 15429 speed_apart_ums 11
+release arm recommended pose2 drop 0.0004 straight apart_nm 16075 speed_apart_ums 11
+release arm recommended pose2 drop 0.0004 folded apart_nm 15454 speed_apart_ums 11
+release swing pose1 0.0016 straight apart_nm 45368 speed_apart_ums 1687
+release swing pose1 0.0016 folded apart_nm 68790 speed_apart_ums 1364
+release swing pose1 0.0004 straight apart_nm 35698 speed_apart_ums 1737
+release swing pose1 0.0004 folded apart_nm 35583 speed_apart_ums 1706
+release swing pose2 0.0016 straight apart_nm 110649 speed_apart_ums 5815
+release swing pose2 0.0016 folded apart_nm 52496 speed_apart_ums 3087
+release swing pose2 0.0004 straight apart_nm 113090 speed_apart_ums 6282
+release swing pose2 0.0004 folded apart_nm 52806 speed_apart_ums 2955
+release hold pose1 0.0016 straight apart_nm 25643794 speed_apart_ums 13391
+release hold pose1 0.0016 folded apart_nm 7530940 speed_apart_ums 6674
+release holdcreep pose1 0.0016 native mean_speed_ums -32415
+release holdcreep pose1 0.0016 straight mean_speed_ums -47506
+release holdcreep pose1 0.0016 folded mean_speed_ums -24881
+release hold pose1 0.0004 straight apart_nm 25638218 speed_apart_ums 13394
+release hold pose1 0.0004 folded apart_nm 7530833 speed_apart_ums 6677
+release holdcreep pose1 0.0004 native mean_speed_ums -32416
+release holdcreep pose1 0.0004 straight mean_speed_ums -47513
+release holdcreep pose1 0.0004 folded mean_speed_ums -24880
+release hold pose2 0.0016 straight apart_nm 18712307 speed_apart_ums 11512
+release hold pose2 0.0016 folded apart_nm 4245026 speed_apart_ums 2032
+release holdcreep pose2 0.0016 native mean_speed_ums -21745
+release holdcreep pose2 0.0016 straight mean_speed_ums -35036
+release holdcreep pose2 0.0016 folded mean_speed_ums -22814
+release hold pose2 0.0004 straight apart_nm 18705973 speed_apart_ums 11515
+release hold pose2 0.0004 folded apart_nm 4242645 speed_apart_ums 2032
+release holdcreep pose2 0.0004 native mean_speed_ums -21747
+release holdcreep pose2 0.0004 straight mean_speed_ums -35044
+release holdcreep pose2 0.0004 folded mean_speed_ums -22815
+release connect pose1 0.0016 straight apart_nm 75552 speed_apart_ums 0
+release connect pose1 0.0016 folded apart_nm 857 speed_apart_ums 0
+release connect pose1 0.0004 straight apart_nm 75552 speed_apart_ums 0
+release connect pose1 0.0004 folded apart_nm 857 speed_apart_ums 0
+release connect pose2 0.0016 straight apart_nm 99950 speed_apart_ums 0
+release connect pose2 0.0016 folded apart_nm 22662 speed_apart_ums 0
+release connect pose2 0.0004 straight apart_nm 99950 speed_apart_ums 0
+release connect pose2 0.0004 folded apart_nm 22662 speed_apart_ums 0
+release solver at_iteration_limit 0 warnings 0
+off arm defaults pose1 rest 0.0016 straight apart_nm 44166 speed_apart_ums 60
+off arm defaults pose1 rest 0.0016 folded apart_nm 9316 speed_apart_ums 13
+off creep defaults pose1 0.0016 native mean_speed_ums -167
+off creep defaults pose1 0.0016 straight mean_speed_ums -108
+off creep defaults pose1 0.0016 folded mean_speed_ums -154
+off arm defaults pose1 rest 0.0004 straight apart_nm 44168 speed_apart_ums 60
+off arm defaults pose1 rest 0.0004 folded apart_nm 9316 speed_apart_ums 12
+off creep defaults pose1 0.0004 native mean_speed_ums -166
+off creep defaults pose1 0.0004 straight mean_speed_ums -107
+off creep defaults pose1 0.0004 folded mean_speed_ums -153
+off arm defaults pose1 drop 0.0016 straight apart_nm 44961 speed_apart_ums 31
+off arm defaults pose1 drop 0.0016 folded apart_nm 9481 speed_apart_ums 6
+off arm defaults pose1 drop 0.0004 straight apart_nm 44959 speed_apart_ums 31
+off arm defaults pose1 drop 0.0004 folded apart_nm 9480 speed_apart_ums 7
+off arm defaults pose2 rest 0.0016 straight apart_nm 6174 speed_apart_ums 44
+off arm defaults pose2 rest 0.0016 folded apart_nm 5999 speed_apart_ums 44
+off creep defaults pose2 0.0016 native mean_speed_ums -259
+off creep defaults pose2 0.0016 straight mean_speed_ums -213
+off creep defaults pose2 0.0016 folded mean_speed_ums -303
+off arm defaults pose2 rest 0.0004 straight apart_nm 6173 speed_apart_ums 45
+off arm defaults pose2 rest 0.0004 folded apart_nm 6006 speed_apart_ums 42
+off creep defaults pose2 0.0004 native mean_speed_ums -260
+off creep defaults pose2 0.0004 straight mean_speed_ums -214
+off creep defaults pose2 0.0004 folded mean_speed_ums -304
+off arm defaults pose2 drop 0.0016 straight apart_nm 6464 speed_apart_ums 17
+off arm defaults pose2 drop 0.0016 folded apart_nm 6293 speed_apart_ums 15
+off arm defaults pose2 drop 0.0004 straight apart_nm 6470 speed_apart_ums 16
+off arm defaults pose2 drop 0.0004 folded apart_nm 6287 speed_apart_ums 16
+off arm recommended pose1 rest 0.0016 straight apart_nm 93068 speed_apart_ums 31
+off arm recommended pose1 rest 0.0016 folded apart_nm 18589 speed_apart_ums 6
+off creep recommended pose1 0.0016 native mean_speed_ums -98
+off creep recommended pose1 0.0016 straight mean_speed_ums -67
+off creep recommended pose1 0.0016 folded mean_speed_ums -92
+off arm recommended pose1 rest 0.0004 straight apart_nm 93071 speed_apart_ums 32
+off arm recommended pose1 rest 0.0004 folded apart_nm 18589 speed_apart_ums 7
+off creep recommended pose1 0.0004 native mean_speed_ums -98
+off creep recommended pose1 0.0004 straight mean_speed_ums -67
+off creep recommended pose1 0.0004 folded mean_speed_ums -91
+off arm recommended pose1 drop 0.0016 straight apart_nm 94163 speed_apart_ums 18
+off arm recommended pose1 drop 0.0016 folded apart_nm 18774 speed_apart_ums 3
+off arm recommended pose1 drop 0.0004 straight apart_nm 94161 speed_apart_ums 18
+off arm recommended pose1 drop 0.0004 folded apart_nm 18774 speed_apart_ums 4
+off arm recommended pose2 rest 0.0016 straight apart_nm 15318 speed_apart_ums 30
+off arm recommended pose2 rest 0.0016 folded apart_nm 14826 speed_apart_ums 28
+off creep recommended pose2 0.0016 native mean_speed_ums -172
+off creep recommended pose2 0.0016 straight mean_speed_ums -141
+off creep recommended pose2 0.0016 folded mean_speed_ums -201
+off arm recommended pose2 rest 0.0004 straight apart_nm 15346 speed_apart_ums 30
+off arm recommended pose2 rest 0.0004 folded apart_nm 14804 speed_apart_ums 29
+off creep recommended pose2 0.0004 native mean_speed_ums -172
+off creep recommended pose2 0.0004 straight mean_speed_ums -142
+off creep recommended pose2 0.0004 folded mean_speed_ums -201
+off arm recommended pose2 drop 0.0016 straight apart_nm 16062 speed_apart_ums 12
+off arm recommended pose2 drop 0.0016 folded apart_nm 15429 speed_apart_ums 11
+off arm recommended pose2 drop 0.0004 straight apart_nm 16075 speed_apart_ums 11
+off arm recommended pose2 drop 0.0004 folded apart_nm 15454 speed_apart_ums 11
+off swing pose1 0.0016 straight apart_nm 45368 speed_apart_ums 1687
+off swing pose1 0.0016 folded apart_nm 68790 speed_apart_ums 1364
+off swing pose1 0.0004 straight apart_nm 35698 speed_apart_ums 1737
+off swing pose1 0.0004 folded apart_nm 35583 speed_apart_ums 1706
+off swing pose2 0.0016 straight apart_nm 110649 speed_apart_ums 5815
+off swing pose2 0.0016 folded apart_nm 52496 speed_apart_ums 3087
+off swing pose2 0.0004 straight apart_nm 113090 speed_apart_ums 6282
+off swing pose2 0.0004 folded apart_nm 52806 speed_apart_ums 2955
+off hold pose1 0.0016 straight apart_nm 25643794 speed_apart_ums 13391
+off hold pose1 0.0016 folded apart_nm 7530940 speed_apart_ums 6674
+off holdcreep pose1 0.0016 native mean_speed_ums -32415
+off holdcreep pose1 0.0016 straight mean_speed_ums -47506
+off holdcreep pose1 0.0016 folded mean_speed_ums -24881
+off hold pose1 0.0004 straight apart_nm 25638218 speed_apart_ums 13394
+off hold pose1 0.0004 folded apart_nm 7530833 speed_apart_ums 6677
+off holdcreep pose1 0.0004 native mean_speed_ums -32416
+off holdcreep pose1 0.0004 straight mean_speed_ums -47513
+off holdcreep pose1 0.0004 folded mean_speed_ums -24880
+off hold pose2 0.0016 straight apart_nm 18712307 speed_apart_ums 11512
+off hold pose2 0.0016 folded apart_nm 4245026 speed_apart_ums 2032
+off holdcreep pose2 0.0016 native mean_speed_ums -21745
+off holdcreep pose2 0.0016 straight mean_speed_ums -35036
+off holdcreep pose2 0.0016 folded mean_speed_ums -22814
+off hold pose2 0.0004 straight apart_nm 18705973 speed_apart_ums 11515
+off hold pose2 0.0004 folded apart_nm 4242645 speed_apart_ums 2032
+off holdcreep pose2 0.0004 native mean_speed_ums -21747
+off holdcreep pose2 0.0004 straight mean_speed_ums -35044
+off holdcreep pose2 0.0004 folded mean_speed_ums -22815
+off connect pose1 0.0016 straight apart_nm 75552 speed_apart_ums 0
+off connect pose1 0.0016 folded apart_nm 857 speed_apart_ums 0
+off connect pose1 0.0004 straight apart_nm 75552 speed_apart_ums 0
+off connect pose1 0.0004 folded apart_nm 857 speed_apart_ums 0
+off connect pose2 0.0016 straight apart_nm 99950 speed_apart_ums 0
+off connect pose2 0.0016 folded apart_nm 22662 speed_apart_ums 0
+off connect pose2 0.0004 straight apart_nm 99950 speed_apart_ums 0
+off connect pose2 0.0004 folded apart_nm 22662 speed_apart_ums 0
+off solver at_iteration_limit 0 warnings 0
+on arm defaults pose1 rest 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose1 rest 0.0016 folded apart_nm 0 speed_apart_ums 0
+on creep defaults pose1 0.0016 native mean_speed_ums -166
+on creep defaults pose1 0.0016 straight mean_speed_ums -166
+on creep defaults pose1 0.0016 folded mean_speed_ums -166
+on arm defaults pose1 rest 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose1 rest 0.0004 folded apart_nm 0 speed_apart_ums 0
+on creep defaults pose1 0.0004 native mean_speed_ums -166
+on creep defaults pose1 0.0004 straight mean_speed_ums -166
+on creep defaults pose1 0.0004 folded mean_speed_ums -166
+on arm defaults pose1 drop 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose1 drop 0.0016 folded apart_nm 0 speed_apart_ums 0
+on arm defaults pose1 drop 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose1 drop 0.0004 folded apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 rest 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 rest 0.0016 folded apart_nm 0 speed_apart_ums 0
+on creep defaults pose2 0.0016 native mean_speed_ums -313
+on creep defaults pose2 0.0016 straight mean_speed_ums -313
+on creep defaults pose2 0.0016 folded mean_speed_ums -313
+on arm defaults pose2 rest 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 rest 0.0004 folded apart_nm 0 speed_apart_ums 0
+on creep defaults pose2 0.0004 native mean_speed_ums -312
+on creep defaults pose2 0.0004 straight mean_speed_ums -312
+on creep defaults pose2 0.0004 folded mean_speed_ums -312
+on arm defaults pose2 drop 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 drop 0.0016 folded apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 drop 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm defaults pose2 drop 0.0004 folded apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 rest 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 rest 0.0016 folded apart_nm 0 speed_apart_ums 0
+on creep recommended pose1 0.0016 native mean_speed_ums -98
+on creep recommended pose1 0.0016 straight mean_speed_ums -98
+on creep recommended pose1 0.0016 folded mean_speed_ums -98
+on arm recommended pose1 rest 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 rest 0.0004 folded apart_nm 0 speed_apart_ums 0
+on creep recommended pose1 0.0004 native mean_speed_ums -97
+on creep recommended pose1 0.0004 straight mean_speed_ums -97
+on creep recommended pose1 0.0004 folded mean_speed_ums -97
+on arm recommended pose1 drop 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 drop 0.0016 folded apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 drop 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose1 drop 0.0004 folded apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 rest 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 rest 0.0016 folded apart_nm 0 speed_apart_ums 0
+on creep recommended pose2 0.0016 native mean_speed_ums -206
+on creep recommended pose2 0.0016 straight mean_speed_ums -206
+on creep recommended pose2 0.0016 folded mean_speed_ums -206
+on arm recommended pose2 rest 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 rest 0.0004 folded apart_nm 0 speed_apart_ums 0
+on creep recommended pose2 0.0004 native mean_speed_ums -207
+on creep recommended pose2 0.0004 straight mean_speed_ums -207
+on creep recommended pose2 0.0004 folded mean_speed_ums -207
+on arm recommended pose2 drop 0.0016 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 drop 0.0016 folded apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 drop 0.0004 straight apart_nm 0 speed_apart_ums 0
+on arm recommended pose2 drop 0.0004 folded apart_nm 0 speed_apart_ums 0
+on swing pose1 0.0016 straight apart_nm 0 speed_apart_ums 0
+on swing pose1 0.0016 folded apart_nm 0 speed_apart_ums 0
+on swing pose1 0.0004 straight apart_nm 0 speed_apart_ums 0
+on swing pose1 0.0004 folded apart_nm 0 speed_apart_ums 0
+on swing pose2 0.0016 straight apart_nm 0 speed_apart_ums 0
+on swing pose2 0.0016 folded apart_nm 0 speed_apart_ums 0
+on swing pose2 0.0004 straight apart_nm 0 speed_apart_ums 0
+on swing pose2 0.0004 folded apart_nm 0 speed_apart_ums 0
+on hold pose1 0.0016 straight apart_nm 0 speed_apart_ums 0
+on hold pose1 0.0016 folded apart_nm 0 speed_apart_ums 0
+on holdcreep pose1 0.0016 native mean_speed_ums -30311
+on holdcreep pose1 0.0016 straight mean_speed_ums -30311
+on holdcreep pose1 0.0016 folded mean_speed_ums -30311
+on hold pose1 0.0004 straight apart_nm 0 speed_apart_ums 0
+on hold pose1 0.0004 folded apart_nm 0 speed_apart_ums 0
+on holdcreep pose1 0.0004 native mean_speed_ums -30314
+on holdcreep pose1 0.0004 straight mean_speed_ums -30314
+on holdcreep pose1 0.0004 folded mean_speed_ums -30314
+on hold pose2 0.0016 straight apart_nm 0 speed_apart_ums 0
+on hold pose2 0.0016 folded apart_nm 0 speed_apart_ums 0
+on holdcreep pose2 0.0016 native mean_speed_ums -21399
+on holdcreep pose2 0.0016 straight mean_speed_ums -21399
+on holdcreep pose2 0.0016 folded mean_speed_ums -21399
+on hold pose2 0.0004 straight apart_nm 0 speed_apart_ums 0
+on hold pose2 0.0004 folded apart_nm 0 speed_apart_ums 0
+on holdcreep pose2 0.0004 native mean_speed_ums -21402
+on holdcreep pose2 0.0004 straight mean_speed_ums -21402
+on holdcreep pose2 0.0004 folded mean_speed_ums -21402
+on connect pose1 0.0016 straight apart_nm 0 speed_apart_ums 0
+on connect pose1 0.0016 folded apart_nm 0 speed_apart_ums 0
+on connect pose1 0.0004 straight apart_nm 0 speed_apart_ums 0
+on connect pose1 0.0004 folded apart_nm 0 speed_apart_ums 0
+on connect pose2 0.0016 straight apart_nm 0 speed_apart_ums 0
+on connect pose2 0.0016 folded apart_nm 0 speed_apart_ums 0
+on connect pose2 0.0004 straight apart_nm 0 speed_apart_ums 0
+on connect pose2 0.0004 folded apart_nm 0 speed_apart_ums 0
+on solver at_iteration_limit 0 warnings 0

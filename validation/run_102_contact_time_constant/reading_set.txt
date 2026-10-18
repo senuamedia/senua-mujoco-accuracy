@@ -1,0 +1,36 @@
+arm rest 1 0.00171 time constant default | mean_speed_ums 0
+arm drop 1 0.00171 time constant default | mean_speed_ums 0
+arm rest 2 0.00171 time constant default | mean_speed_ums 0
+arm drop 2 0.00171 time constant default | mean_speed_ums 0
+hold 0.5 0.00171 time constant default | mean_speed_ums 0
+hold 0.95 0.00171 time constant default | mean_speed_ums 0
+grip box 0.00171 time constant default | mean_speed_ums 1
+grip mesh 0.00171 time constant default | mean_speed_ums 0
+arm rest 1 0.00171 time constant 2 | mean_speed_ums 0
+arm drop 1 0.00171 time constant 2 | mean_speed_ums 0
+arm rest 2 0.00171 time constant 2 | mean_speed_ums 0
+arm drop 2 0.00171 time constant 2 | mean_speed_ums 0
+hold 0.5 0.00171 time constant 2 | mean_speed_ums 0
+hold 0.95 0.00171 time constant 2 | mean_speed_ums 0
+grip box 0.00171 time constant 2 | mean_speed_ums 0
+grip mesh 0.00171 time constant 2 | mean_speed_ums 0
+arm rest 1 0.0004275 time constant default | mean_speed_ums 0
+arm drop 1 0.0004275 time constant default | mean_speed_ums 0
+arm rest 2 0.0004275 time constant default | mean_speed_ums 0
+arm drop 2 0.0004275 time constant default | mean_speed_ums 0
+hold 0.5 0.0004275 time constant default | mean_speed_ums 0
+hold 0.95 0.0004275 time constant default | mean_speed_ums 0
+grip box 0.0004275 time constant default | mean_speed_ums 1
+grip mesh 0.0004275 time constant default | mean_speed_ums 0
+arm rest 1 0.0004275 time constant 2 | mean_speed_ums 0
+arm drop 1 0.0004275 time constant 2 | mean_speed_ums 0
+arm rest 2 0.0004275 time constant 2 | mean_speed_ums 0
+arm drop 2 0.0004275 time constant 2 | mean_speed_ums 0
+hold 0.5 0.0004275 time constant 2 | mean_speed_ums 0
+hold 0.95 0.0004275 time constant 2 | mean_speed_ums 0
+grip box 0.0004275 time constant 2 | mean_speed_ums 0
+grip mesh 0.0004275 time constant 2 | mean_speed_ums 0
+box step2_scene time constant default | fastest_ums 0
+box step2_scene time constant 2 | fastest_ums 0
+box scenes_box1_0.016 time constant default | fastest_ums 0
+box scenes_box1_0.016 time constant 2 | fastest_ums 0

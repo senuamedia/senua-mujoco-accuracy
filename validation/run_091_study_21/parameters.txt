@@ -1,0 +1,12 @@
+group 1: the holds' steps 0.001791 and 0.00044775
+cube a: 1.881 kg, half-size 0.0377 m, friction 0.663
+cube b: 0.836 kg, half-size 0.0355 m, friction 0.777
+group 7: the steps 0.002411 0.00060275 0.0001506875 3.7671875e-05
+slide 1: 1.987 kg, half-size 0.0446 m, friction 0.255, given 1.67 m/s
+slide 2: 1.051 kg, half-size 0.0532 m, friction 0.357, given 1.32 m/s
+group 8, setting 1: time constant 0.019549 s, 2.562 kg, half-size 0.0563 m
+group 8, setting 2: time constant 0.024531 s, 0.977 kg, half-size 0.0234 m
+group 10: the coarse step 0.009131
+group 10, setting 1: time constant 0.016946 s, damping ratio 0.184, 1.495 kg, half-size 0.0423 m, dropped from 0.0761 m
+group 10, setting 2: time constant 0.020116 s, damping ratio 0.251, 1.432 kg, half-size 0.0302 m, dropped from 0.1109 m
+group 10, setting 3: time constant 0.04765 s, damping ratio 0.407, 2.039 kg, half-size 0.0411 m, dropped from 0.0812 m

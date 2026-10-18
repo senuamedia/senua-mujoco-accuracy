@@ -1,0 +1,18 @@
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+
+mjc_chain: XML Error: invalid keyword: 'RK'
+Element 'option', line 1
+

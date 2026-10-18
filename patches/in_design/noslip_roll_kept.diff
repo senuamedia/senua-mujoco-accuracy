@@ -1,0 +1,74 @@
+--- a/src/engine/engine_solver.c	2026-10-17 13:21:40
++++ b/src/engine/engine_solver.c	2026-10-17 13:22:00
+@@ -16,6 +16,7 @@
+ 
+ #include <stddef.h>
+ #include <stdint.h>
++#include <stdlib.h>
+ #include <string.h>
+ 
+ #include <mujoco/mjdata.h>
+@@ -425,7 +426,53 @@
+   mju_copy(force+i+1, v, dim-1);
+ }
+ 
++
++// Senua AI patch, in design (off unless MUJOCO_NOSLIP_ROLL_KEPT=1): noslip leaves a contact's rolling friction (condim
++// 6) as it was before the sweep, MuJoCo's main solve's on the first, and solves the sliding and torsional friction in what
++// the elliptic cone has left. MuJoCo's elliptic cone is one ellipsoid over all of a contact's friction components, each
++// over its own coefficient; noslip, solving with the normal forces fixed, drives a resting box's rolling torques to the
++// cone's edge, and with a small rolling coefficient that leaves the sliding friction no room (run 076). Noslip removes
++// slip, and rolling is not slip. Returns 0, and the solve is MuJoCo's as released, when the rolling part alone fills the
++// cone.
++static int noslipRollKeptOn(void) {
++  const char* s = getenv("MUJOCO_NOSLIP_ROLL_KEPT");
++  return s && s[0] == '1' && s[1] == 0;
++}
+ 
++static int solveQCQPRollKept(mjtNum* force, int i, const mjtNum* Ac, const mjtNum* bc, const mjtNum* mu,
++                             const mjtNum* oldforce) {
++  // friction components: 0 and 1 sliding, 2 torsional, 3 and 4 rolling
++  mjtNum roll = 0;
++  for (int j=3; j < 5; j++) {
++    mjtNum q = oldforce[j] / mu[j];
++    roll += q*q;
++  }
++  mjtNum r2 = force[i]*force[i] - roll;
++  if (r2 <= 0) {
++    return 0;
++  }
++  mjtNum r = mju_sqrt(r2), A3[9], b3[3], v[3];
++  for (int j=0; j < 3; j++) {
++    b3[j] = bc[j];
++    for (int k=3; k < 5; k++) {
++      b3[j] += Ac[j*5+k]*oldforce[k];
++    }
++    for (int k=0; k < 3; k++) {
++      A3[j*3+k] = Ac[j*5+k];
++    }
++  }
++  if (mju_QCQP3(v, A3, b3, mu, r)) {
++    projectEllipsoid(v, r, mu, 4, /*feasible=*/0);
++  }
++  for (int j=0; j < 3; j++) {
++    force[i+1+j] = v[j];
++  }
++  force[i+4] = oldforce[3];
++  force[i+5] = oldforce[4];
++  return 1;
++}
++
++
+ // project contact force block onto friction cone (pyramidal or elliptic)
+ static void projectCone(mjtNum* force, const mjtNum* mu, int dim, int type) {
+   // elliptic cone: project onto friction ellipsoid
+@@ -917,7 +964,9 @@
+ 
+         // QCQP
+         else {
++          if (!(noslipRollKeptOn() && dim == 6 && solveQCQPRollKept(force, i, Ac, bc, mu, oldforce))) {
+           solveQCQP(force, i, dim, Ac, bc, mu);
++          }
+         }
+ 
+         // accumulate improvement

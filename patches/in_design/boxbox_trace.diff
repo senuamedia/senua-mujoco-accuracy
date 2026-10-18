@@ -1,0 +1,45 @@
+--- a/src/engine/engine_collision_box.c	2026-10-17 11:55:57
++++ b/src/engine/engine_collision_box.c	2026-10-17 11:56:21
+@@ -13,6 +13,8 @@
+ // limitations under the License.
+ 
+ #include <math.h>
++#include <stdio.h>
++#include <stdlib.h>
+ 
+ #include "engine/engine_collision_primitive.h"
+ #include "engine/engine_inline.h"
+@@ -1003,6 +1005,22 @@
+     poly[0][k][0] = cx[0] + su*du[0] + sv*dv[0];
+     poly[0][k][1] = cx[1] + su*du[1] + sv*dv[1];
+     poly[0][k][2] = cx[2] + su*du[2] + sv*dv[2];
++  }
++
++  // Senua AI instrumentation, in design (off unless MUJOCO_BOXBOX_TRACE is set): for each face contact, how far the
++  // incident face's corners lie outside the reference face's extent (the least and the most of the four, m; negative
++  // inside), the sine of its turn in the reference face's plane, the largest component of its in-face axes out of that
++  // plane, and the vertices the clip leaves and the contacts accepted
++  int trace_on = getenv("MUJOCO_BOXBOX_TRACE") != NULL;
++  mjtNum trace_emin = 0, trace_emax = 0, trace_yaw = 0, trace_tilt = 0;
++  if (trace_on) {
++    for (int k = 0; k < 4; k++) {
++      mjtNum e = mju_max(mju_abs(poly[0][k][0]) - sizeref[ax], mju_abs(poly[0][k][1]) - sizeref[ay]);
++      if (k == 0 || e < trace_emin) trace_emin = e;
++      if (k == 0 || e > trace_emax) trace_emax = e;
++    }
++    trace_yaw = mju_min(mju_abs(rinc[3*ax+bu]), mju_abs(rinc[3*ay+bu]));
++    trace_tilt = mju_max(mju_abs(rinc[3*a+bu]), mju_abs(rinc[3*a+bv]));
+   }
+ 
+   // clip against the four side planes of the reference face; the buffers swap only on
+@@ -1037,6 +1055,10 @@
+       mji_copy3(accepted[naccept++], cur[k]);
+     }
+   }
++  if (trace_on) {
++    fprintf(stderr, "BOXBOX time %.9g geoms %d %d corners_outside %.6g %.6g yaw_sin %.6g tilt %.6g clipped %d contacts %d\n",
++            d->time, g1, g2, trace_emin, trace_emax, trace_yaw, trace_tilt, nvert, naccept);
++  }
+   if (naccept == 0) {
+     return 0;
+   }

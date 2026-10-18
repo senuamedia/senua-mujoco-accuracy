@@ -1,0 +1,1 @@
+STATS contact dt 0.001 h0 0 vx0 0 mu 0.35 lock 1 mass 1.4 radius 0.04 steps 1600 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 side_um 0 most_side_ums 0 engine mujoco 3.16.0 extra dir=0

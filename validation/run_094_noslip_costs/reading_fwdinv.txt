@@ -1,0 +1,9 @@
+defaults hold50 | most_fwdinv_constraint 3.33955e-13 most_fwdinv_applied 0.00626815 | mean_speed_ums 675
+defaults hold95 | most_fwdinv_constraint 3.33955e-13 most_fwdinv_applied 4.67513e-08 | mean_speed_ums 2498
+defaults slide | most_fwdinv_constraint 1.22647e-12 most_fwdinv_applied 4.66855e-08 | mean_speed_ums 0
+elliptic hold50 | most_fwdinv_constraint 3.90799e-14 most_fwdinv_applied 4.67194e-08 | mean_speed_ums 559
+elliptic hold95 | most_fwdinv_constraint 3.90799e-14 most_fwdinv_applied 4.67704e-08 | mean_speed_ums 1062
+elliptic slide | most_fwdinv_constraint 4.19882e-13 most_fwdinv_applied 4.67557e-08 | mean_speed_ums 0
+config hold50 | most_fwdinv_constraint 3.35022 most_fwdinv_applied 3.35022 | mean_speed_ums 0
+config hold95 | most_fwdinv_constraint 6.36541 most_fwdinv_applied 6.36541 | mean_speed_ums 0
+config slide | most_fwdinv_constraint 6.29603 most_fwdinv_applied 6.29603 | mean_speed_ums 0

@@ -1,0 +1,272 @@
+RULE Q1_released_creeps ge 700 100 : HELD
+RULE Q2_released_direction share 136499 193272 100 115 : HELD
+RULE Q3_released_hold_fails eq 1 1 : HELD
+RULE cfg_euler_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE cfg_euler_G1_grip_holds all_le 10 1 0 1 0 : HELD
+RULE cfg_euler_S1_no_direction_0.0016 all_within 136484 10000 136484 136484 : HELD
+RULE cfg_euler_S2_no_drift_0.0016 all_le 10 0 0 0 : HELD
+RULE cfg_euler_S1_no_direction_0.0004 all_within 137159 10000 137159 137159 : HELD
+RULE cfg_euler_S2_no_drift_0.0004 all_le 10 0 0 0 : HELD
+RULE cfg_euler_S3_coulomb all_within 137188 100 137159 137159 137159 : HELD
+RULE cfg_euler_S4_free_cube all_within 136610 100 138959 136469 : FAILED
+RULE cfg_euler_S4_free_cube_drift all_le 1000 996 0 : HELD
+RULE cfg_euler_K1_ten_tests eq 10 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_rest_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_rest_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_rest_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_rest_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_rest_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_rest_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_rest_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_rest_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_drop_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_drop_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_drop_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_drop_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_drop_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_drop_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose1_drop_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose1_drop_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_rest_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_rest_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_rest_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_rest_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_rest_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_rest_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_rest_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_rest_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_drop_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_drop_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_drop_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_drop_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_drop_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_drop_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_arm_pose2_drop_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_arm_pose2_drop_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_swing_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_swing_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_hold_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_hold_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_connect_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_connect_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_euler_A4_place_weld_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_euler_A5_speed_weld_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_euler_A6_creep_pose1_0.0016_straight near -98 -98 1 : HELD
+RULE cfg_euler_A6_creep_pose1_0.0016_folded near -98 -98 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose1_0.0016_straight near -117 -117 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose1_0.0016_folded near -117 -117 1 : HELD
+RULE cfg_euler_A6_creep_pose1_0.0004_straight near -97 -97 1 : HELD
+RULE cfg_euler_A6_creep_pose1_0.0004_folded near -97 -97 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose1_0.0004_straight near -117 -117 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose1_0.0004_folded near -117 -117 1 : HELD
+RULE cfg_euler_A6_creep_pose2_0.0016_straight near -206 -206 1 : HELD
+RULE cfg_euler_A6_creep_pose2_0.0016_folded near -206 -206 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose2_0.0016_straight near -16 -16 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose2_0.0016_folded near -16 -16 1 : HELD
+RULE cfg_euler_A6_creep_pose2_0.0004_straight near -207 -207 1 : HELD
+RULE cfg_euler_A6_creep_pose2_0.0004_folded near -207 -207 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose2_0.0004_straight near -16 -16 1 : HELD
+RULE cfg_euler_A6_holdcreep_pose2_0.0004_folded near -16 -16 1 : HELD
+RULE cfg_euler_V1_iteration_limit eq 0 0 : HELD
+RULE cfg_euler_V1_warnings eq 0 0 : HELD
+RULE cfg_euler_V2_most_iterations le_plus 11 6 3 : FAILED
+RULE cfg_euler_T1_energy_0.01 le 34145 5000 : FAILED
+RULE cfg_euler_T2_momentum_0.01 le 12677 100 : FAILED
+RULE cfg_euler_T1_energy_0.0025 le 8215 1000 : FAILED
+RULE cfg_euler_T2_momentum_0.0025 le 3062 100 : FAILED
+RULE cfg_euler_T1_energy_0.000625 le 2034 500 : FAILED
+RULE cfg_euler_T2_momentum_0.000625 le 758 100 : FAILED
+RULE cfg_euler_T1_energy_0.00015625 le 507 500 : FAILED
+RULE cfg_euler_T2_momentum_0.00015625 le 188 100 : FAILED
+RULE cfg_rk4_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE cfg_rk4_G1_grip_holds all_le 10 1 0 1 0 : HELD
+RULE cfg_rk4_S1_no_direction_0.0016 all_within 136500 10000 136500 136500 : HELD
+RULE cfg_rk4_S2_no_drift_0.0016 all_le 10 0 0 0 : HELD
+RULE cfg_rk4_S1_no_direction_0.0004 all_within 137173 10000 137173 137173 : HELD
+RULE cfg_rk4_S2_no_drift_0.0004 all_le 10 0 0 0 : HELD
+RULE cfg_rk4_S3_coulomb all_within 137188 100 137173 137173 137173 : HELD
+RULE cfg_rk4_S4_free_cube all_within 136529 100 139773 136697 : FAILED
+RULE cfg_rk4_S4_free_cube_drift all_le 1000 970 0 : HELD
+RULE cfg_rk4_K1_ten_tests eq 7 10 : FAILED
+RULE cfg_rk4_A4_place_arm_pose1_rest_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_rest_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_rest_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_rest_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_rest_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_rest_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_rest_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_rest_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_drop_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_drop_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_drop_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_drop_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_drop_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_drop_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose1_drop_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose1_drop_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_rest_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_rest_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_rest_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_rest_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_rest_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_rest_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_rest_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_rest_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_drop_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_drop_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_drop_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_drop_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_drop_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_drop_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_arm_pose2_drop_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_arm_pose2_drop_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_swing_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_swing_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_hold_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_hold_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_connect_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_connect_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose1_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose1_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose1_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose1_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose1_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose1_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose1_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose1_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose2_0.0016_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose2_0.0016_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose2_0.0016_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose2_0.0016_folded le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose2_0.0004_straight le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose2_0.0004_straight le 0 10 : HELD
+RULE cfg_rk4_A4_place_weld_pose2_0.0004_folded le 0 100 : HELD
+RULE cfg_rk4_A5_speed_weld_pose2_0.0004_folded le 0 10 : HELD
+RULE cfg_rk4_A6_creep_pose1_0.0016_straight near -97 -97 1 : HELD
+RULE cfg_rk4_A6_creep_pose1_0.0016_folded near -97 -97 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose1_0.0016_straight near -117 -117 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose1_0.0016_folded near -117 -117 1 : HELD
+RULE cfg_rk4_A6_creep_pose1_0.0004_straight near -97 -97 1 : HELD
+RULE cfg_rk4_A6_creep_pose1_0.0004_folded near -97 -97 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose1_0.0004_straight near -117 -117 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose1_0.0004_folded near -117 -117 1 : HELD
+RULE cfg_rk4_A6_creep_pose2_0.0016_straight near -206 -206 1 : HELD
+RULE cfg_rk4_A6_creep_pose2_0.0016_folded near -206 -206 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose2_0.0016_straight near -16 -16 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose2_0.0016_folded near -16 -16 1 : HELD
+RULE cfg_rk4_A6_creep_pose2_0.0004_straight near -207 -207 1 : HELD
+RULE cfg_rk4_A6_creep_pose2_0.0004_folded near -207 -207 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose2_0.0004_straight near -16 -16 1 : HELD
+RULE cfg_rk4_A6_holdcreep_pose2_0.0004_folded near -16 -16 1 : HELD
+RULE cfg_rk4_V1_iteration_limit eq 0 0 : HELD
+RULE cfg_rk4_V1_warnings eq 0 0 : HELD
+RULE cfg_rk4_V2_most_iterations le_plus 14 6 3 : FAILED
+RULE cfg_rk4_T1_energy_0.01 le 0 5000 : HELD
+RULE cfg_rk4_T2_momentum_0.01 le 0 100 : HELD
+RULE cfg_rk4_T1_energy_0.0025 le 0 1000 : HELD
+RULE cfg_rk4_T2_momentum_0.0025 le 0 100 : HELD
+RULE cfg_rk4_T1_energy_0.000625 le 0 500 : HELD
+RULE cfg_rk4_T2_momentum_0.000625 le 0 100 : HELD
+RULE cfg_rk4_T1_energy_0.00015625 le 0 500 : HELD
+RULE cfg_rk4_T2_momentum_0.00015625 le 0 100 : HELD
+reported: cfg_euler against rel_rec, cubes suites tumble, files the same and of how many: 188 188
+cfg_euler rule lines: 133, held: 123
+cfg_rk4 rule lines: 133, held: 130

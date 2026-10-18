@@ -1,0 +1,37 @@
+RULE Q1_released_arm_creeps ge 497 11 : HELD
+RULE Q2_released_lifts ge 10006 100 : HELD
+RULE Q3_released_corners ge 3622 1 : HELD
+RULE E1_safe_when_off_def eq 131 131 : HELD
+RULE E1_safe_when_off_rec eq 131 131 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE M1_mujoco_suite_named_only eq 1 0 : FAILED
+RULE on_rec_R1_every_resting_pose_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_R2_every_dropped_arm_holds all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_J1_joint_holds all_le 10 2 2 2 2 : HELD
+RULE on_rec_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_G1_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE on_rec_V1_iteration_limit eq 0 0 : HELD
+RULE on_rec_V1_warnings eq 0 0 : HELD
+RULE on_rk4_R1_every_resting_pose_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rk4_R2_every_dropped_arm_holds all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rk4_J1_joint_holds all_le 10 2 2 2 2 : HELD
+RULE on_rk4_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rk4_G1_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE on_rk4_V1_iteration_limit eq 0 0 : HELD
+RULE on_rk4_V1_warnings eq 0 0 : HELD
+RULE on_rec_L1_no_lift all_le 1 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_L2_four_corners eq 0 0 : HELD
+RULE on_rec_D1_no_direction_free_0.00119 all_within 163655 10000 163655 163655 163655 163655 : HELD
+RULE on_rec_D1_no_direction_kept_0.00119 all_within 163672 10000 163672 163672 : HELD
+RULE on_rec_D2_no_drift_0.00119 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_D3_no_turn_0.00119 all_le 1000 0 0 0 0 0 : HELD
+RULE on_rec_D1_no_direction_free_0.0002975 all_within 163903 10000 163903 163903 163903 163903 : HELD
+RULE on_rec_D1_no_direction_kept_0.0002975 all_within 163920 10000 163920 163920 : HELD
+RULE on_rec_D2_no_drift_0.0002975 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_D3_no_turn_0.0002975 all_le 1000 0 0 0 0 0 : HELD
+RULE on_rec_C1_coulomb all_within 164172 100 163920 163920 163920 163903 163903 163903 163903 163903 : HELD
+RULE on_rec_K1_ten_tests eq 10 10 : HELD
+reported: changed with every switch set: CoreConstraintTest.RestPenetration
+reported: changed with every switch set: ForwardTest.DiscreteImplicitRowNoslip
+reported: changed with every switch set: SolverTest.ZeroToleranceDisablesTermination
+rules: 33, held: 32

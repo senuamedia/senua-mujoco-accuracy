@@ -1,0 +1,87 @@
+RULE R1_safe_when_off_plays eq 192 192 : HELD
+RULE R2_safe_when_off_suite eq 0 0 : HELD
+RULE R3_defect_pose1_rest_0.001 ge 42835 1000 : HELD
+RULE R3_defect_pose1_rest_0.00025 ge 42836 1000 : HELD
+RULE R3_defect_pose1_drop_0.001 ge 43648 1000 : HELD
+RULE R3_defect_pose1_drop_0.00025 ge 43647 1000 : HELD
+RULE R3_defect_pose2_rest_0.001 ge 6030 1000 : HELD
+RULE R3_defect_pose2_rest_0.00025 ge 6024 1000 : HELD
+RULE R3_defect_pose2_drop_0.001 ge 6372 1000 : HELD
+RULE R3_defect_pose2_drop_0.00025 ge 6385 1000 : HELD
+RULE R4_place_defaults_pose1_rest_0.001_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose1_rest_0.001_straight le 0 10 : HELD
+RULE R4_place_defaults_pose1_rest_0.001_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose1_rest_0.001_folded le 0 10 : HELD
+RULE R4_place_defaults_pose1_rest_0.00025_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose1_rest_0.00025_straight le 0 10 : HELD
+RULE R4_place_defaults_pose1_rest_0.00025_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose1_rest_0.00025_folded le 0 10 : HELD
+RULE R4_place_defaults_pose1_drop_0.001_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose1_drop_0.001_straight le 0 10 : HELD
+RULE R4_place_defaults_pose1_drop_0.001_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose1_drop_0.001_folded le 0 10 : HELD
+RULE R4_place_defaults_pose1_drop_0.00025_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose1_drop_0.00025_straight le 0 10 : HELD
+RULE R4_place_defaults_pose1_drop_0.00025_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose1_drop_0.00025_folded le 0 10 : HELD
+RULE R4_place_defaults_pose2_rest_0.001_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose2_rest_0.001_straight le 0 10 : HELD
+RULE R4_place_defaults_pose2_rest_0.001_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose2_rest_0.001_folded le 0 10 : HELD
+RULE R4_place_defaults_pose2_rest_0.00025_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose2_rest_0.00025_straight le 0 10 : HELD
+RULE R4_place_defaults_pose2_rest_0.00025_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose2_rest_0.00025_folded le 0 10 : HELD
+RULE R4_place_defaults_pose2_drop_0.001_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose2_drop_0.001_straight le 0 10 : HELD
+RULE R4_place_defaults_pose2_drop_0.001_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose2_drop_0.001_folded le 0 10 : HELD
+RULE R4_place_defaults_pose2_drop_0.00025_straight le 0 100 : HELD
+RULE R5_speed_defaults_pose2_drop_0.00025_straight le 0 10 : HELD
+RULE R4_place_defaults_pose2_drop_0.00025_folded le 0 100 : HELD
+RULE R5_speed_defaults_pose2_drop_0.00025_folded le 0 10 : HELD
+RULE R4_place_recommended_pose1_rest_0.001_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose1_rest_0.001_straight le 0 10 : HELD
+RULE R4_place_recommended_pose1_rest_0.001_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose1_rest_0.001_folded le 0 10 : HELD
+RULE R4_place_recommended_pose1_rest_0.00025_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose1_rest_0.00025_straight le 0 10 : HELD
+RULE R4_place_recommended_pose1_rest_0.00025_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose1_rest_0.00025_folded le 0 10 : HELD
+RULE R4_place_recommended_pose1_drop_0.001_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose1_drop_0.001_straight le 0 10 : HELD
+RULE R4_place_recommended_pose1_drop_0.001_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose1_drop_0.001_folded le 0 10 : HELD
+RULE R4_place_recommended_pose1_drop_0.00025_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose1_drop_0.00025_straight le 0 10 : HELD
+RULE R4_place_recommended_pose1_drop_0.00025_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose1_drop_0.00025_folded le 0 10 : HELD
+RULE R4_place_recommended_pose2_rest_0.001_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose2_rest_0.001_straight le 0 10 : HELD
+RULE R4_place_recommended_pose2_rest_0.001_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose2_rest_0.001_folded le 0 10 : HELD
+RULE R4_place_recommended_pose2_rest_0.00025_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose2_rest_0.00025_straight le 0 10 : HELD
+RULE R4_place_recommended_pose2_rest_0.00025_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose2_rest_0.00025_folded le 0 10 : HELD
+RULE R4_place_recommended_pose2_drop_0.001_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose2_drop_0.001_straight le 0 10 : HELD
+RULE R4_place_recommended_pose2_drop_0.001_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose2_drop_0.001_folded le 0 10 : HELD
+RULE R4_place_recommended_pose2_drop_0.00025_straight le 0 100 : HELD
+RULE R5_speed_recommended_pose2_drop_0.00025_straight le 0 10 : HELD
+RULE R4_place_recommended_pose2_drop_0.00025_folded le 0 100 : HELD
+RULE R5_speed_recommended_pose2_drop_0.00025_folded le 0 10 : HELD
+RULE R6_creep_pose1_0.001_straight near -175 -175 1 : HELD
+RULE R6_creep_pose1_0.001_folded near -175 -175 1 : HELD
+RULE R6_creep_pose1_0.00025_straight near -174 -174 1 : HELD
+RULE R6_creep_pose1_0.00025_folded near -174 -174 1 : HELD
+RULE R6_creep_pose2_0.001_straight near -521 -521 1 : HELD
+RULE R6_creep_pose2_0.001_folded near -521 -521 1 : HELD
+RULE R6_creep_pose2_0.00025_straight near -521 -521 1 : HELD
+RULE R6_creep_pose2_0.00025_folded near -521 -521 1 : HELD
+RULE R7_cubes_and_suites_on_as_released eq 143 143 : HELD
+RULE R8_mujoco_suite_on_as_off eq 0 0 : HELD
+RULE R9_iteration_limit eq 0 0 : HELD
+RULE R9_warnings eq 0 0 : HELD
+rules: 86, held: 86

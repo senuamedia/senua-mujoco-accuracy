@@ -1,0 +1,25 @@
+released hold 0 0.5 0.002 creep_ums 808
+released hold 0 0.75 0.002 creep_ums 2020
+released hold 0 0.95 0.002 creep_ums 2990
+released slide 0 0.002 slid_um 101281
+released hold 30 0.5 0.002 creep_ums 808
+released hold 30 0.75 0.002 creep_ums 66685
+released hold 30 0.95 0.002 creep_ums 806318
+released slide 30 0.002 slid_um 132152
+released hold 60 0.5 0.002 creep_ums 808
+released hold 60 0.75 0.002 creep_ums 66685
+released hold 60 0.95 0.002 creep_ums 806318
+released slide 60 0.002 slid_um 132152
+released hold 0 0.5 0.0005 creep_ums 808
+released hold 0 0.75 0.0005 creep_ums 2020
+released hold 0 0.95 0.0005 creep_ums 2990
+released slide 0 0.0005 slid_um 102051
+released hold 30 0.5 0.0005 creep_ums 808
+released hold 30 0.75 0.0005 creep_ums 66565
+released hold 30 0.95 0.0005 creep_ums 806010
+released slide 30 0.0005 slid_um 132957
+released hold 60 0.5 0.0005 creep_ums 808
+released hold 60 0.75 0.0005 creep_ums 66565
+released hold 60 0.95 0.0005 creep_ums 806010
+released slide 60 0.0005 slid_um 132957
+released suite passed 5 t06_failed 1 most_iterations 4 at_iteration_limit 0 warnings 0

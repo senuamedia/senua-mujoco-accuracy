@@ -1,0 +1,15 @@
+RULE rel_def_Q1_least_friction_slows all_ge 98 196 196 181 181 139 139 196 196 181 181 139 139 : HELD
+RULE rel_def_F1_keeps_its_speed all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_def_F2_keeps_its_line all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_def_F3_stays_on_the_ground all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_def_V1_iteration_limit eq 0 0 : HELD
+RULE rel_def_V1_warnings eq 0 0 : HELD
+RULE rel_rec_Q1_least_friction_slows all_ge 98 196 196 196 196 196 196 196 196 196 196 196 196 : HELD
+RULE rel_rec_F1_keeps_its_speed all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_rec_F2_keeps_its_line all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_rec_F3_stays_on_the_ground all_le 1 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE rel_rec_V1_iteration_limit eq 0 0 : HELD
+RULE rel_rec_V1_warnings eq 0 0 : HELD
+rules: 12, held: 12
+with one condim-1 slide's lost speed changed by hand to 5 um/s:
+RULE rel_def_F1_keeps_its_speed all_le 1 0 0 5 0 0 0 0 0 0 0 0 0 : FAILED

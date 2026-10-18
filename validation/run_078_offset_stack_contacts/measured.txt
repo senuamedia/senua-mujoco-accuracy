@@ -1,0 +1,49 @@
+the option sets: rec, the configuration (cone=elliptic noslip=100); ell, the elliptic cone alone; def, MuJoCo's defaults
+offset001_rec_0.000285 most_tilt_urad 2262 first_step_past_100_urad 33 CHANGES after step 30: 346 first_change_step 80
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -293.596
+  DEPTH step 1000 pair 1-2 contacts 6 mean_distance_um -299.569
+  DEPTH step 1000 pair 2-3 contacts 6 mean_distance_um -142.989
+offset017_rec_0.000285 most_tilt_urad 9657 first_step_past_100_urad 19 CHANGES after step 30: 103 first_change_step 342
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -283.503
+  DEPTH step 1000 pair 1-2 contacts 6 mean_distance_um -244.578
+  DEPTH step 1000 pair 2-3 contacts 6 mean_distance_um -141.962
+offset001_rec_0.00114 most_tilt_urad 2180 first_step_past_100_urad 10 CHANGES after step 30: 125 first_change_step 69
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -293.637
+  DEPTH step 1000 pair 1-2 contacts 6 mean_distance_um -266.087
+  DEPTH step 1000 pair 2-3 contacts 6 mean_distance_um -140.856
+offset017_rec_0.00114 most_tilt_urad 9363 first_step_past_100_urad 5 CHANGES after step 30: 51 first_change_step 83
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -283.325
+  DEPTH step 1000 pair 1-2 contacts 6 mean_distance_um -246.827
+  DEPTH step 1000 pair 2-3 contacts 6 mean_distance_um -141.591
+offset001_ell_0.000285 most_tilt_urad 404 first_step_past_100_urad 90 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -293.632
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -366.851
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -207.040
+offset017_ell_0.000285 most_tilt_urad 9267 first_step_past_100_urad 19 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -283.578
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -341.882
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -205.289
+offset001_ell_0.00114 most_tilt_urad 393 first_step_past_100_urad 22 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -293.633
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -366.851
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -207.041
+offset017_ell_0.00114 most_tilt_urad 9061 first_step_past_100_urad 5 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -283.355
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -341.385
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -205.259
+offset001_def_0.000285 most_tilt_urad 86 first_step_past_100_urad none CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -57.091
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -75.887
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -38.143
+offset017_def_0.000285 most_tilt_urad 1943 first_step_past_100_urad 29 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -56.982
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -75.493
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -38.130
+offset001_def_0.00114 most_tilt_urad 86 first_step_past_100_urad none CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -57.092
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -75.889
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -38.145
+offset017_def_0.00114 most_tilt_urad 1943 first_step_past_100_urad 7 CHANGES after step 30: 0 first_change_step 
+  DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -56.983
+  DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -75.493
+  DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -38.133

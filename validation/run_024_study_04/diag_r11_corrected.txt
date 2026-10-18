@@ -1,0 +1,5 @@
+elliptic free cube along 0 | STOP dt_ns 1500000 first_stopped_at_step 106 largest_speed_last_third_ums 0 slid_um 59618 came_back_um 114 | side_um 0
+elliptic free cube along 25 | STOP dt_ns 1500000 first_stopped_at_step 280 largest_speed_last_third_ums 0 slid_um 60605 came_back_um 0 | side_um 506
+elliptic free cube along 50 | STOP dt_ns 1500000 first_stopped_at_step 117 largest_speed_last_third_ums 0 slid_um 60063 came_back_um 18 | side_um -5
+elliptic free cube along 70 | STOP dt_ns 1500000 first_stopped_at_step 115 largest_speed_last_third_ums 0 slid_um 61405 came_back_um 57 | side_um -917
+elliptic free cube along 85 | STOP dt_ns 1500000 first_stopped_at_step 121 largest_speed_last_third_ums 0 slid_um 61838 came_back_um 12 | side_um 31

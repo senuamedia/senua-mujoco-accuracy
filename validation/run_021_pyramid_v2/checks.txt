@@ -1,0 +1,31 @@
+RULE 1_required_slide_22.5_0.002 share 126717 151762 100 101 : HELD
+RULE 1_required_slide_45_0.002 share 126717 179492 100 101 : HELD
+RULE 1_required_slide_22.5_0.000125 share 127655 152708 100 101 : HELD
+RULE 1_required_slide_45_0.000125 share 127655 180420 100 101 : HELD
+RULE 1_required_belt45_0.002 ge 296 227 : HELD
+RULE 1_required_belt30_0.002 ge 242 193 : HELD
+RULE 1_required_belt45_0.0005 ge 1202 918 : HELD
+RULE 1_required_belt30_0.0005 ge 987 786 : HELD
+RULE 2_C1_no_direction_0.002 all_within 126717 10000 126717 126717 : HELD
+RULE 2_C2_no_drift_0.002 all_le 10 0 0 : HELD
+RULE 2_C1_no_direction_0.000125 all_within 127655 10000 127655 127655 : HELD
+RULE 2_C2_no_drift_0.000125 all_le 10 0 0 : HELD
+RULE 2_C3_hold_0.72 all_within 1875 100 1875 1875 : HELD
+RULE 2_C3_hold_0.8 all_within 2263 100 2263 2263 : HELD
+RULE 2_C3_hold_0.9 all_within 2748 100 2748 2748 : HELD
+RULE 2_C4_belt45_0.002 near 223 225 1 : FAILED
+RULE 2_C4_belt30_0.002 near 190 191 1 : HELD
+RULE 2_C4_belt45_0.0005 near 910 916 1 : FAILED
+RULE 2_C4_belt30_0.0005 near 781 784 1 : FAILED
+RULE 2_C5_SensorTest.ContactStage eq 1 1 : HELD
+RULE 2_C5_SensorTest.ContactVelocity eq 1 1 : HELD
+RULE 2_C6_SleepTest.SleepingUnaffectedByWaking eq 1 1 : HELD
+RULE 2_C6_IpcTest.FoldDenseBlocksSolveMatches eq 1 1 : HELD
+RULE 2_C6_ForwardTest.DiscreteStiffLegPress eq 0 1 : FAILED
+RULE 3_suites_and_lift_slides_on_as_released eq 75 75 : HELD
+RULE 0_rig_unchanged_lift_slides_as_run_016 eq 3 3 : HELD
+3 MuJoCo's suite, switch set against unset: 2 tests differ (examined in the README)
+RULE 4_off_as_released_files eq 108 108 : HELD
+RULE 4_off_suite_as_released eq 1 0 : FAILED
+RULE 5_iteration_limit eq 0 0 : HELD
+RULE 5_warnings eq 0 0 : HELD

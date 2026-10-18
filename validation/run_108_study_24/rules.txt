@@ -1,0 +1,23 @@
+RULE E0_both_machines_played_the_same_numbers eq 1 1 : HELD
+RULE P0_every_play_made all_eq 114 114 114 114 114 114 114 114 114 114 114 114 : HELD
+RULE D1_relA_the_same_twice eq 114 114 : HELD
+RULE D1_srcA_the_same_twice eq 114 114 : HELD
+RULE D1_clangAnc_the_same_twice eq 114 114 : HELD
+RULE D1_setA_the_same_twice eq 114 114 : HELD
+RULE D1_relX_the_same_twice eq 114 114 : HELD
+RULE D1_setX_the_same_twice eq 114 114 : HELD
+RULE X1_gcc_on_arm64_makes_the_intel_release eq 114 114 : HELD
+RULE X2_clang_without_fma_on_arm64_makes_the_intel_release eq 114 114 : HELD
+RULE X3_the_set_on_arm64_makes_the_set_on_intel eq 114 114 : HELD
+RULE Q1_the_arm64_release_departs_somewhere le 64 113 : HELD
+reported: arm/relA against arm/relA_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/srcA against arm/srcA_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/clangAnc against arm/clangAnc_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/setA against arm/setA_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: x86/relX against x86/relX_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: x86/setX against x86/setX_2: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/srcA against x86/relX: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/clangAnc against x86/relX: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/setA against x86/setX: 114 of 114 play files the same; the solver's statistics the same;
+reported: arm/relA against x86/relX: 64 of 114 play files the same; the solver's statistics different; differ, at their first differing step: c_box_box1_0.016(line 839) c_box_box2_0.016(line 988) c_box_box3_0.01411(line 1028) c_box_box3_0.016(line 38) c_offset_1(line 667) c_offset_1_tilt(line 550) c_offset_2(line 147) c_offset_2_tilt(line 310) c_offset_3(line 453) c_offset_3_tilt(line 110) c_stack10_1(line 646) c_stack10_10(line 646) c_stack10_10_tilt(line 1449) c_stack10_1_tilt(line 1449) c_stack10_2(line 646) c_stack10_2_tilt(line 1449) c_stack10_3(line 646) c_stack10_3_tilt(line 1449) c_stack10_4(line 646) c_stack10_4_tilt(line 1449) c_stack10_5(line 646) c_stack10_5_tilt(line 1449) c_stack10_6(line 646) c_stack10_6_tilt(line 1449) c_stack10_7(line 646) c_stack10_7_tilt(line 1449) c_stack10_8(line 646) c_stack10_8_tilt(line 1449) c_stack10_9(line 646) c_stack10_9_tilt(line 1449) h_stack10_1(line 86) h_stack10_10(line 86) h_stack10_10_tilt(line 86) h_stack10_1_tilt(line 86) h_stack10_2(line 86) h_stack10_2_tilt(line 86) h_stack10_3(line 86) h_stack10_3_tilt(line 86) h_stack10_4(line 86) h_stack10_4_tilt(line 86) h_stack10_5(line 86) h_stack10_5_tilt(line 86) h_stack10_6(line 86) h_stack10_6_tilt(line 86) h_stack10_7(line 86) h_stack10_7_tilt(line 86) h_stack10_8(line 86) h_stack10_8_tilt(line 86) h_stack10_9(line 86) h_stack10_9_tilt(line 86)
+rules: 12, held: 12

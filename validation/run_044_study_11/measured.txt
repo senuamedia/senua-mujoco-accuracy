@@ -1,0 +1,262 @@
+A/configuration hold 0 0.5 0.00165 creep_ums 0
+A/configuration hold 0 0.75 0.00165 creep_ums 0
+A/configuration hold 0 0.95 0.00165 creep_ums 0
+A/configuration hold 22.5 0.5 0.00165 creep_ums 0
+A/configuration hold 22.5 0.75 0.00165 creep_ums 0
+A/configuration hold 22.5 0.95 0.00165 creep_ums 0
+A/configuration hold 45 0.5 0.00165 creep_ums 0
+A/configuration hold 45 0.75 0.00165 creep_ums 0
+A/configuration hold 45 0.95 0.00165 creep_ums 0
+A/configuration hold 0 0.5 0.0004125 creep_ums 0
+A/configuration hold 0 0.75 0.0004125 creep_ums 0
+A/configuration hold 0 0.95 0.0004125 creep_ums 0
+A/configuration hold 22.5 0.5 0.0004125 creep_ums 0
+A/configuration hold 22.5 0.75 0.0004125 creep_ums 0
+A/configuration hold 22.5 0.95 0.0004125 creep_ums 0
+A/configuration hold 45 0.5 0.0004125 creep_ums 0
+A/configuration hold 45 0.75 0.0004125 creep_ums 0
+A/configuration hold 45 0.95 0.0004125 creep_ums 0
+A/configuration grip grip_box_off0.0079 creep_ums 1
+A/configuration grip grip_box_off0 creep_ums 1
+A/configuration grip grip_mesh_off0.0079 creep_ums 0
+A/configuration grip grip_mesh_off0 creep_ums 0
+A/configuration solver most_iterations 6 at_iteration_limit 0 warnings 0
+A/defaults hold 0 0.5 0.00165 creep_ums 542
+A/defaults hold 0 0.75 0.00165 creep_ums 1355
+A/defaults hold 0 0.95 0.00165 creep_ums 2006
+A/defaults hold 22.5 0.5 0.00165 creep_ums 542
+A/defaults hold 22.5 0.75 0.00165 creep_ums 1200
+A/defaults hold 22.5 0.95 0.00165 creep_ums 463781
+A/defaults hold 45 0.5 0.00165 creep_ums 542
+A/defaults hold 45 0.75 0.00165 creep_ums 124375
+A/defaults hold 45 0.95 0.00165 creep_ums 704321
+A/defaults hold 0 0.5 0.0004125 creep_ums 542
+A/defaults hold 0 0.75 0.0004125 creep_ums 1355
+A/defaults hold 0 0.95 0.0004125 creep_ums 2006
+A/defaults hold 22.5 0.5 0.0004125 creep_ums 542
+A/defaults hold 22.5 0.75 0.0004125 creep_ums 1200
+A/defaults hold 22.5 0.95 0.0004125 creep_ums 462680
+A/defaults hold 45 0.5 0.0004125 creep_ums 542
+A/defaults hold 45 0.75 0.0004125 creep_ums 124094
+A/defaults hold 45 0.95 0.0004125 creep_ums 702724
+A/defaults grip grip_box_off0.0079 creep_ums 6991
+A/defaults grip grip_box_off0 creep_ums 7103
+A/defaults grip grip_mesh_off0.0079 creep_ums 7737
+A/defaults grip grip_mesh_off0 creep_ums 7103
+A/defaults solver most_iterations 3 at_iteration_limit 0 warnings 0
+A/elliptic hold 0 0.5 0.00165 creep_ums 471
+A/elliptic hold 0 0.75 0.00165 creep_ums 707
+A/elliptic hold 0 0.95 0.00165 creep_ums 895
+A/elliptic hold 22.5 0.5 0.00165 creep_ums 471
+A/elliptic hold 22.5 0.75 0.00165 creep_ums 707
+A/elliptic hold 22.5 0.95 0.00165 creep_ums 895
+A/elliptic hold 45 0.5 0.00165 creep_ums 471
+A/elliptic hold 45 0.75 0.00165 creep_ums 707
+A/elliptic hold 45 0.95 0.00165 creep_ums 895
+A/elliptic hold 0 0.5 0.0004125 creep_ums 471
+A/elliptic hold 0 0.75 0.0004125 creep_ums 707
+A/elliptic hold 0 0.95 0.0004125 creep_ums 895
+A/elliptic hold 22.5 0.5 0.0004125 creep_ums 471
+A/elliptic hold 22.5 0.75 0.0004125 creep_ums 707
+A/elliptic hold 22.5 0.95 0.0004125 creep_ums 895
+A/elliptic hold 45 0.5 0.0004125 creep_ums 471
+A/elliptic hold 45 0.75 0.0004125 creep_ums 707
+A/elliptic hold 45 0.95 0.0004125 creep_ums 895
+A/elliptic grip grip_box_off0.0079 creep_ums 3806
+A/elliptic grip grip_box_off0 creep_ums 3541
+A/elliptic grip grip_mesh_off0.0079 creep_ums 3806
+A/elliptic grip grip_mesh_off0 creep_ums 3541
+A/elliptic solver most_iterations 2 at_iteration_limit 0 warnings 0
+A/elliptic_impratio10 hold 0 0.5 0.00165 creep_ums 47
+A/elliptic_impratio10 hold 0 0.75 0.00165 creep_ums 71
+A/elliptic_impratio10 hold 0 0.95 0.00165 creep_ums 89
+A/elliptic_impratio10 hold 22.5 0.5 0.00165 creep_ums 47
+A/elliptic_impratio10 hold 22.5 0.75 0.00165 creep_ums 71
+A/elliptic_impratio10 hold 22.5 0.95 0.00165 creep_ums 89
+A/elliptic_impratio10 hold 45 0.5 0.00165 creep_ums 47
+A/elliptic_impratio10 hold 45 0.75 0.00165 creep_ums 71
+A/elliptic_impratio10 hold 45 0.95 0.00165 creep_ums 89
+A/elliptic_impratio10 hold 0 0.5 0.0004125 creep_ums 47
+A/elliptic_impratio10 hold 0 0.75 0.0004125 creep_ums 71
+A/elliptic_impratio10 hold 0 0.95 0.0004125 creep_ums 89
+A/elliptic_impratio10 hold 22.5 0.5 0.0004125 creep_ums 47
+A/elliptic_impratio10 hold 22.5 0.75 0.0004125 creep_ums 71
+A/elliptic_impratio10 hold 22.5 0.95 0.0004125 creep_ums 89
+A/elliptic_impratio10 hold 45 0.5 0.0004125 creep_ums 47
+A/elliptic_impratio10 hold 45 0.75 0.0004125 creep_ums 71
+A/elliptic_impratio10 hold 45 0.95 0.0004125 creep_ums 89
+A/elliptic_impratio10 grip grip_box_off0.0079 creep_ums 382
+A/elliptic_impratio10 grip grip_box_off0 creep_ums 354
+A/elliptic_impratio10 grip grip_mesh_off0.0079 creep_ums 382
+A/elliptic_impratio10 grip grip_mesh_off0 creep_ums 354
+A/elliptic_impratio10 solver most_iterations 3 at_iteration_limit 0 warnings 0
+A/impratio10 hold 0 0.5 0.00165 creep_ums 54
+A/impratio10 hold 0 0.75 0.00165 creep_ums 136
+A/impratio10 hold 0 0.95 0.00165 creep_ums 201
+A/impratio10 hold 22.5 0.5 0.00165 creep_ums 54
+A/impratio10 hold 22.5 0.75 0.00165 creep_ums 120
+A/impratio10 hold 22.5 0.95 0.00165 creep_ums 463224
+A/impratio10 hold 45 0.5 0.00165 creep_ums 54
+A/impratio10 hold 45 0.75 0.00165 creep_ums 124382
+A/impratio10 hold 45 0.95 0.00165 creep_ums 704371
+A/impratio10 hold 0 0.5 0.0004125 creep_ums 54
+A/impratio10 hold 0 0.75 0.0004125 creep_ums 136
+A/impratio10 hold 0 0.95 0.0004125 creep_ums 201
+A/impratio10 hold 22.5 0.5 0.0004125 creep_ums 54
+A/impratio10 hold 22.5 0.75 0.0004125 creep_ums 120
+A/impratio10 hold 22.5 0.95 0.0004125 creep_ums 462100
+A/impratio10 hold 45 0.5 0.0004125 creep_ums 54
+A/impratio10 hold 45 0.75 0.0004125 creep_ums 124093
+A/impratio10 hold 45 0.95 0.0004125 creep_ums 702717
+A/impratio10 grip grip_box_off0.0079 creep_ums 813
+A/impratio10 grip grip_box_off0 creep_ums 738
+A/impratio10 grip grip_mesh_off0.0079 creep_ums 813
+A/impratio10 grip grip_mesh_off0 creep_ums 738
+A/impratio10 solver most_iterations 4 at_iteration_limit 0 warnings 0
+A/impratio100 hold 0 0.5 0.00165 creep_ums 5
+A/impratio100 hold 0 0.75 0.00165 creep_ums 14
+A/impratio100 hold 0 0.95 0.00165 creep_ums 20
+A/impratio100 hold 22.5 0.5 0.00165 creep_ums 5
+A/impratio100 hold 22.5 0.75 0.00165 creep_ums 12
+A/impratio100 hold 22.5 0.95 0.00165 creep_ums 463115
+A/impratio100 hold 45 0.5 0.00165 creep_ums 5
+A/impratio100 hold 45 0.75 0.00165 creep_ums 124389
+A/impratio100 hold 45 0.95 0.00165 creep_ums 704353
+A/impratio100 hold 0 0.5 0.0004125 creep_ums 5
+A/impratio100 hold 0 0.75 0.0004125 creep_ums 14
+A/impratio100 hold 0 0.95 0.0004125 creep_ums 20
+A/impratio100 hold 22.5 0.5 0.0004125 creep_ums 5
+A/impratio100 hold 22.5 0.75 0.0004125 creep_ums 12
+A/impratio100 hold 22.5 0.95 0.0004125 creep_ums 462048
+A/impratio100 hold 45 0.5 0.0004125 creep_ums 5
+A/impratio100 hold 45 0.75 0.0004125 creep_ums 124092
+A/impratio100 hold 45 0.95 0.0004125 creep_ums 702723
+A/impratio100 grip grip_box_off0.0079 creep_ums 81
+A/impratio100 grip grip_box_off0 creep_ums 74
+A/impratio100 grip grip_mesh_off0.0079 creep_ums 81
+A/impratio100 grip grip_mesh_off0 creep_ums 74
+A/impratio100 solver most_iterations 4 at_iteration_limit 0 warnings 0
+A/noslip_pyramidal hold 0 0.5 0.00165 creep_ums 0
+A/noslip_pyramidal hold 0 0.75 0.00165 creep_ums 1355
+A/noslip_pyramidal hold 0 0.95 0.00165 creep_ums 2006
+A/noslip_pyramidal hold 22.5 0.5 0.00165 creep_ums 0
+A/noslip_pyramidal hold 22.5 0.75 0.00165 creep_ums 1081
+A/noslip_pyramidal hold 22.5 0.95 0.00165 creep_ums 463781
+A/noslip_pyramidal hold 45 0.5 0.00165 creep_ums 0
+A/noslip_pyramidal hold 45 0.75 0.00165 creep_ums 124375
+A/noslip_pyramidal hold 45 0.95 0.00165 creep_ums 704321
+A/noslip_pyramidal hold 0 0.5 0.0004125 creep_ums 0
+A/noslip_pyramidal hold 0 0.75 0.0004125 creep_ums 1355
+A/noslip_pyramidal hold 0 0.95 0.0004125 creep_ums 2006
+A/noslip_pyramidal hold 22.5 0.5 0.0004125 creep_ums 0
+A/noslip_pyramidal hold 22.5 0.75 0.0004125 creep_ums 1081
+A/noslip_pyramidal hold 22.5 0.95 0.0004125 creep_ums 462680
+A/noslip_pyramidal hold 45 0.5 0.0004125 creep_ums 0
+A/noslip_pyramidal hold 45 0.75 0.0004125 creep_ums 124094
+A/noslip_pyramidal hold 45 0.95 0.0004125 creep_ums 702724
+A/noslip_pyramidal grip grip_box_off0.0079 creep_ums 7198
+A/noslip_pyramidal grip grip_box_off0 creep_ums 7103
+A/noslip_pyramidal grip grip_mesh_off0.0079 creep_ums 7191
+A/noslip_pyramidal grip grip_mesh_off0 creep_ums 7103
+A/noslip_pyramidal solver most_iterations 10 at_iteration_limit 0 warnings 0
+B/cfg hold 0 0.5 0.00165 creep_ums 0
+B/cfg hold 0 0.75 0.00165 creep_ums 0
+B/cfg hold 0 0.95 0.00165 creep_ums 0
+B/cfg hold 22.5 0.5 0.00165 creep_ums 0
+B/cfg hold 22.5 0.75 0.00165 creep_ums 0
+B/cfg hold 22.5 0.95 0.00165 creep_ums 0
+B/cfg hold 45 0.5 0.00165 creep_ums 0
+B/cfg hold 45 0.75 0.00165 creep_ums 0
+B/cfg hold 45 0.95 0.00165 creep_ums 0
+B/cfg hold 0 0.5 0.0004125 creep_ums 0
+B/cfg hold 0 0.75 0.0004125 creep_ums 0
+B/cfg hold 0 0.95 0.0004125 creep_ums 0
+B/cfg hold 22.5 0.5 0.0004125 creep_ums 0
+B/cfg hold 22.5 0.75 0.0004125 creep_ums 0
+B/cfg hold 22.5 0.95 0.0004125 creep_ums 0
+B/cfg hold 45 0.5 0.0004125 creep_ums 0
+B/cfg hold 45 0.75 0.0004125 creep_ums 0
+B/cfg hold 45 0.95 0.0004125 creep_ums 0
+B/cfg teleport 0.00165 creep_after_ums 0
+B/cfg restore 0.00165 identical 1 GAP base_ns 1650000 dt_ns 1650000 against dt_ns 1650000 instants 970 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/cfg teleport 0.0004125 creep_after_ums 0
+B/cfg restore 0.0004125 identical 1 GAP base_ns 412500 dt_ns 412500 against dt_ns 412500 instants 3879 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/cfg demo ramp creep_ums 0 moved_at_end_nm 145910
+B/cfg demo gripper creep_ums 0 moved_at_end_nm 1566077
+B/cfg solver most_iterations 8 at_iteration_limit 0 warnings 0
+B/june hold 0 0.5 0.00165 creep_ums 471
+B/june hold 0 0.75 0.00165 creep_ums 707
+B/june hold 0 0.95 0.00165 creep_ums 895
+B/june hold 22.5 0.5 0.00165 creep_ums 471
+B/june hold 22.5 0.75 0.00165 creep_ums 707
+B/june hold 22.5 0.95 0.00165 creep_ums 895
+B/june hold 45 0.5 0.00165 creep_ums 471
+B/june hold 45 0.75 0.00165 creep_ums 707
+B/june hold 45 0.95 0.00165 creep_ums 895
+B/june hold 0 0.5 0.0004125 creep_ums 471
+B/june hold 0 0.75 0.0004125 creep_ums 707
+B/june hold 0 0.95 0.0004125 creep_ums 895
+B/june hold 22.5 0.5 0.0004125 creep_ums 471
+B/june hold 22.5 0.75 0.0004125 creep_ums 707
+B/june hold 22.5 0.95 0.0004125 creep_ums 895
+B/june hold 45 0.5 0.0004125 creep_ums 471
+B/june hold 45 0.75 0.0004125 creep_ums 707
+B/june hold 45 0.95 0.0004125 creep_ums 895
+B/june teleport 0.00165 creep_after_ums 565
+B/june restore 0.00165 identical 1 GAP base_ns 1650000 dt_ns 1650000 against dt_ns 1650000 instants 970 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/june teleport 0.0004125 creep_after_ums 565
+B/june restore 0.0004125 identical 1 GAP base_ns 412500 dt_ns 412500 against dt_ns 412500 instants 3879 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/june demo ramp creep_ums 8020 moved_at_end_nm 47829714
+B/june demo gripper creep_ums 17276 moved_at_end_nm 104284631
+B/june solver most_iterations 4 at_iteration_limit 0 warnings 0
+B/off hold 0 0.5 0.00165 creep_ums 471
+B/off hold 0 0.75 0.00165 creep_ums 707
+B/off hold 0 0.95 0.00165 creep_ums 895
+B/off hold 22.5 0.5 0.00165 creep_ums 471
+B/off hold 22.5 0.75 0.00165 creep_ums 707
+B/off hold 22.5 0.95 0.00165 creep_ums 895
+B/off hold 45 0.5 0.00165 creep_ums 471
+B/off hold 45 0.75 0.00165 creep_ums 707
+B/off hold 45 0.95 0.00165 creep_ums 895
+B/off hold 0 0.5 0.0004125 creep_ums 471
+B/off hold 0 0.75 0.0004125 creep_ums 707
+B/off hold 0 0.95 0.0004125 creep_ums 895
+B/off hold 22.5 0.5 0.0004125 creep_ums 471
+B/off hold 22.5 0.75 0.0004125 creep_ums 707
+B/off hold 22.5 0.95 0.0004125 creep_ums 895
+B/off hold 45 0.5 0.0004125 creep_ums 471
+B/off hold 45 0.75 0.0004125 creep_ums 707
+B/off hold 45 0.95 0.0004125 creep_ums 895
+B/off teleport 0.00165 creep_after_ums 565
+B/off restore 0.00165 identical 1 GAP base_ns 1650000 dt_ns 1650000 against dt_ns 1650000 instants 970 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/off teleport 0.0004125 creep_after_ums 565
+B/off restore 0.0004125 identical 1 GAP base_ns 412500 dt_ns 412500 against dt_ns 412500 instants 3879 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0 | end 0 nm 0 um/s
+B/off demo ramp creep_ums 8020 moved_at_end_nm 47829714
+B/off demo gripper creep_ums 17276 moved_at_end_nm 104284631
+B/off solver most_iterations 4 at_iteration_limit 0 warnings 0
+B/on hold 0 0.5 0.00165 creep_ums 0
+B/on hold 0 0.75 0.00165 creep_ums 0
+B/on hold 0 0.95 0.00165 creep_ums 0
+B/on hold 22.5 0.5 0.00165 creep_ums 0
+B/on hold 22.5 0.75 0.00165 creep_ums 0
+B/on hold 22.5 0.95 0.00165 creep_ums 0
+B/on hold 45 0.5 0.00165 creep_ums 0
+B/on hold 45 0.75 0.00165 creep_ums 0
+B/on hold 45 0.95 0.00165 creep_ums 0
+B/on hold 0 0.5 0.0004125 creep_ums 0
+B/on hold 0 0.75 0.0004125 creep_ums 0
+B/on hold 0 0.95 0.0004125 creep_ums 0
+B/on hold 22.5 0.5 0.0004125 creep_ums 0
+B/on hold 22.5 0.75 0.0004125 creep_ums 0
+B/on hold 22.5 0.95 0.0004125 creep_ums 0
+B/on hold 45 0.5 0.0004125 creep_ums 0
+B/on hold 45 0.75 0.0004125 creep_ums 0
+B/on hold 45 0.95 0.0004125 creep_ums 0
+B/on teleport 0.00165 creep_after_ums 29
+B/on restore 0.00165 identical 0 GAP base_ns 1650000 dt_ns 1650000 against dt_ns 1650000 instants 970 summed_height_difference_um 8222 largest_um 120 summed_speed_difference_mm_s 604 | end 0 nm 0 um/s
+B/on teleport 0.0004125 creep_after_ums 29
+B/on restore 0.0004125 identical 0 GAP base_ns 412500 dt_ns 412500 against dt_ns 412500 instants 3879 summed_height_difference_um 7542 largest_um 38 summed_speed_difference_mm_s 734 | end 0 nm 0 um/s
+B/on demo ramp creep_ums 0 moved_at_end_nm 398883
+B/on demo gripper creep_ums 0 moved_at_end_nm 1370310
+B/on solver most_iterations 4 at_iteration_limit 0 warnings 0
+safe_when_off files_same 20 of 20

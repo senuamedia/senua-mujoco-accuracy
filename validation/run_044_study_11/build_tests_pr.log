@@ -1,0 +1,877 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CAN_BUILD_AVX
+-- Performing Test CAN_BUILD_AVX - Success
+-- Performing Test SUPPORTS_LLD
+-- Performing Test SUPPORTS_LLD - Failed
+-- Performing Test SUPPORTS_GOLD
+-- Performing Test SUPPORTS_GOLD - Success
+-- Performing Test SUPPORTS_GC_SECTIONS
+-- Performing Test SUPPORTS_GC_SECTIONS - Success
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull`
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Check size of off_t
+-- Check size of off_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for ftello
+-- Looking for ftello - found
+-- Looking for PRIdMAX
+-- Looking for PRIdMAX - found
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     /usr/local
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull` - Done
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2`
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2` - Done
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader`
+CMake Deprecation Warning at ~/work/t44pr/_deps/tinyobjloader-src/CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader` - Done
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd`
+CMake Deprecation Warning at ~/work/t44pr/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at ~/work/t44pr/_deps/ccd-src/CMakeLists.txt:9 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd` - Done
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `miniz`
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `miniz` - Done
+-- mujoco::FindOrFetch: checking for targets in package `absl`
+-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp`
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp` - Done
+-- mujoco::FindOrFetch: checking for targets in package `GTest`
+-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest`
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest` - Done
+-- mujoco::FindOrFetch: checking for targets in package `benchmark`
+-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark`
+-- Failed to find LLVM FileCheck
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- Google Benchmark version: v1.9.4-100-g834a61fc, normalized to 1.9.4.100
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2 - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Performing Test STD_REGEX -- success
+-- Performing Test STEADY_CLOCK -- success
+-- Performing Test PTHREAD_AFFINITY -- success
+-- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark` - Done
+-- Configuring done (11.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: ~/work/t44pr
+[0/2] Re-checking globbed directories...
+[1/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o
+[2/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o
+[3/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o
+[4/418] Building CXX object CMakeFiles/mujoco.dir/plugin/stl_decoder/stl_decoder.cc.o
+[5/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_driver.c.o
+[6/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_primitive.c.o
+[7/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_gjk.c.o
+[8/418] Building CXX object CMakeFiles/lodepng.dir/_deps/lodepng-src/lodepng.cpp.o
+[9/418] Linking CXX static library lib/liblodepng.a
+[10/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_sdf.c.o
+[11/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_util.c.o
+[12/418] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_crossplatform.cc.o
+[13/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_constraint.c.o
+[14/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_smooth.c.o
+[15/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative_fd.c.o
+[16/418] Building CXX object CMakeFiles/mujoco.dir/plugin/obj_decoder/obj_decoder.cc.o
+[17/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_init.c.o
+[18/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative.c.o
+[19/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_inverse.c.o
+[20/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_memory.c.o
+[21/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_name.c.o
+[22/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_forward.c.o
+[23/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_island.c.o
+[24/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_passive.c.o
+[25/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o
+[26/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o
+[27/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o
+[28/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sleep.c.o
+[29/418] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o
+[30/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o
+[31/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o
+[32/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o
+[33/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_errmem.c.o
+[34/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o
+[35/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_io.c.o
+[36/418] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_thread.cc.o
+[37/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o
+[38/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_init.c.o
+[39/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_spatial.c.o
+[40/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_interact.c.o
+[41/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_visualize.c.o
+[42/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_sparse.c.o
+[43/418] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_solve.c.o
+[44/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_cache.cc.o
+[45/418] Building C object CMakeFiles/mujoco.dir/src/user/user_init.c.o
+[46/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_composite.cc.o
+[47/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_api.cc.o
+[48/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_flexcomp.cc.o
+[49/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_resource.cc.o
+[50/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_threadpool.cc.o
+[51/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_util.cc.o
+[52/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_mesh.cc.o
+[53/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_vfs.cc.o
+[54/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_base.cc.o
+[55/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_api.cc.o
+[56/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_objects.cc.o
+[57/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_global.cc.o
+[58/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_numeric_format.cc.o
+[59/418] Building CXX object CMakeFiles/mujoco.dir/src/user/user_model.cc.o
+[60/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml.cc.o
+[61/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_urdf.cc.o
+[62/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_reader.cc.o
+[63/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_writer.cc.o
+[64/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_util.cc.o
+[65/418] Building C object CMakeFiles/mujoco.dir/src/render/classic/glad/glad.c.o
+[66/418] Building CXX object CMakeFiles/mujoco.dir/src/render/classic/glad/loader.cc.o
+[67/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_decoder.cc.o
+[68/418] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl2.c.o
+[69/418] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_util.c.o
+[70/418] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl3.c.o
+[71/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/global_r.c.o
+[72/418] Building C object CMakeFiles/mujoco.dir/src/ui/ui_main.c.o
+[73/418] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_context.c.o
+[74/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom2_r.c.o
+[75/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/stat_r.c.o
+[76/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/libqhull_r.c.o
+[77/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly2_r.c.o
+[78/418] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_encoder.cc.o
+[79/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom_r.c.o
+[80/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly_r.c.o
+[81/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/qset_r.c.o
+[82/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/mem_r.c.o
+[83/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/random_r.c.o
+[84/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/usermem_r.c.o
+[85/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/merge_r.c.o
+[86/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_r.c.o
+[87/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/accessors_r.c.o
+[88/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/user_r.c.o
+[89/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_rbox_r.c.o
+[90/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/rboxlib_r.c.o
+[91/418] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o
+[92/418] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o
+[93/418] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/io_r.c.o
+[94/418] Linking C static library lib/libqhullstatic_r.a
+[95/418] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o
+[96/418] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o
+[97/418] Building CXX object _deps/tinyxml2-build/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
+[98/418] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o
+[99/418] Linking CXX static library lib/libtinyxml2.a
+[100/418] Linking C static library lib/libccd.a
+[101/418] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz.c.o
+In file included from ~/work/t44pr/_deps/miniz-src/miniz.c:27:
+~/work/t44pr/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[102/418] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tinfl.c.o
+In file included from ~/work/t44pr/_deps/miniz-src/miniz_tinfl.c:27:
+~/work/t44pr/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[103/418] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tdef.c.o
+In file included from ~/work/t44pr/_deps/miniz-src/miniz_tdef.c:27:
+~/work/t44pr/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[104/418] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_zip.c.o
+In file included from ~/work/t44pr/_deps/miniz-src/miniz_zip.c:27:
+~/work/t44pr/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/t44pr/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[105/418] Linking C static library lib/libminiz.a
+[106/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+[107/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+[108/418] Linking CXX static library lib/libabsl_log_severity.a
+[109/418] Linking CXX static library lib/libabsl_spinlock_wait.a
+[110/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+[111/418] Linking CXX static library lib/libabsl_raw_logging_internal.a
+[112/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/casts.cc.o
+[113/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[114/418] Building CXX object _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o
+[115/418] Linking CXX static library lib/libtinyobjloader.a
+[116/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[117/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[118/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[119/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[120/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o
+[121/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[122/418] Linking CXX static library lib/libabsl_base.a
+[123/418] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
+[124/418] Linking CXX static library lib/libabsl_malloc_internal.a
+[125/418] Linking CXX static library lib/libabsl_throw_delegate.a
+[126/418] Linking CXX static library lib/libabsl_tracing_internal.a
+[127/418] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+[128/418] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+[129/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o
+[130/418] Linking CXX static library lib/libabsl_crc_cpu_detect.a
+[131/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o
+[132/418] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+[133/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+[134/418] Linking CXX static library lib/libabsl_crc_internal.a
+[135/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o
+[136/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o
+[137/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o
+[138/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o
+[139/418] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+[140/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+[141/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_borrowed_fixup_buffer.dir/internal/borrowed_fixup_buffer.cc.o
+[142/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+[143/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+[144/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+[145/418] Linking CXX static library lib/libabsl_debugging_internal.a
+[146/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[147/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
+[148/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
+[149/418] Linking CXX static library lib/libabsl_utf8_for_code_point.a
+[150/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[151/418] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
+[152/418] Linking CXX static library lib/libabsl_decode_rust_punycode.a
+[153/418] Linking CXX static library lib/libabsl_demangle_rust.a
+[154/418] Linking CXX static library lib/libabsl_demangle_internal.a
+[155/418] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[156/418] Linking CXX static library lib/libabsl_city.a
+[157/418] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[158/418] Building CXX object _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+[159/418] Linking CXX static library lib/libabsl_int128.a
+[160/418] Building CXX object _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+[161/418] Linking CXX static library lib/libabsl_exponential_biased.a
+[162/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+[163/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[164/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[165/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[166/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o
+[167/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[168/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[169/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o
+[170/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[171/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[172/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[173/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[174/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[175/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[176/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[177/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[178/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[179/418] Linking CXX static library lib/libabsl_strings_internal.a
+[180/418] Linking CXX static library lib/libabsl_strings.a
+[181/418] Linking CXX static library lib/libabsl_symbolize.a
+[182/418] Linking CXX static library lib/libabsl_hash.a
+[183/418] Linking CXX static library lib/libabsl_borrowed_fixup_buffer.a
+[184/418] Linking CXX static library lib/libabsl_stacktrace.a
+[185/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[186/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[187/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[188/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[189/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[190/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[191/418] Linking CXX static library lib/libabsl_str_format_internal.a
+[192/418] Linking CXX static library lib/libabsl_crc32c.a
+[193/418] Linking CXX static library lib/libabsl_crc_cord_state.a
+[194/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[195/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[196/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[197/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[198/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[199/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[200/418] Linking CXX static library lib/libabsl_cord_internal.a
+[201/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+[202/418] Linking CXX static library lib/libabsl_cordz_functions.a
+[203/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+[204/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+[205/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[206/418] Linking CXX static library lib/libabsl_graphcycles_internal.a
+[207/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+[208/418] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+[209/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+[210/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+[211/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+[212/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+[213/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+[214/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+[215/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+[216/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+[217/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+[218/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+[219/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+[220/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+[221/418] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+[222/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[223/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[224/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+[225/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[226/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[227/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+[228/418] Linking CXX static library lib/libabsl_civil_time.a
+[229/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+[230/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+[231/418] Linking CXX shared library lib/libmujoco.so.3.10.0
+[232/418] Creating library symlink lib/libmujoco.so
+[233/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+[234/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+[235/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+[236/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+[237/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+[238/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+[239/418] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+[240/418] Linking CXX static library lib/libabsl_time_zone.a
+[241/418] Linking CXX static library lib/libabsl_time.a
+[242/418] Linking CXX static library lib/libabsl_kernel_timeout_internal.a
+[243/418] Linking CXX static library lib/libabsl_synchronization.a
+[244/418] Linking CXX static library lib/libabsl_hashtablez_sampler.a
+[245/418] Linking CXX static library lib/libabsl_cordz_handle.a
+[246/418] Linking CXX static library lib/libabsl_cordz_info.a
+[247/418] Linking CXX static library lib/libabsl_cord.a
+[248/418] Linking CXX static library lib/libabsl_raw_hash_set.a
+[249/418] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[250/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[251/418] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[252/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[253/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[254/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[255/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[256/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[257/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[258/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[259/418] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[260/418] Linking CXX static library lib/libgtest.a
+[261/418] Linking CXX static library lib/libgmock.a
+[262/418] Linking CXX static library lib/libgtest_main.a
+[263/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[264/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[265/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[266/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[267/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[268/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[269/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[270/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[271/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[272/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[273/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[274/418] Linking CXX static library lib/libbenchmark.a
+[275/418] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[276/418] Linking CXX static library lib/libbenchmark_main.a
+[277/418] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/register.cc.o
+[278/418] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/cable.cc.o
+[279/418] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/elasticity.cc.o
+[280/418] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/register.cc.o
+[281/418] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/pid.cc.o
+[282/418] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/register.cc.o
+[283/418] Linking CXX shared library lib/libelasticity.so
+[284/418] Linking CXX shared library lib/libactuator.so
+[285/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/sdf.cc.o
+[286/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bolt.cc.o
+[287/418] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/touch_grid.cc.o
+[288/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bowl.cc.o
+[289/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/register.cc.o
+[290/418] Linking CXX shared library lib/libsensor.so
+[291/418] Building C object src/render/noop/CMakeFiles/render_noop.dir/render_noop.c.o
+[292/418] Linking C static library lib/librender_noop.a
+[293/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/gear.cc.o
+[294/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/nut.cc.o
+[295/418] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/torus.cc.o
+[296/418] Linking CXX shared library lib/libsdf_plugin.so
+[297/418] Building CXX object test/CMakeFiles/compare_model.dir/compare_model.cc.o
+[298/418] Linking CXX static library lib/libcompare_model.a
+[299/418] Building CXX object test/CMakeFiles/mjspecmacro_test.dir/mjspecmacro_test.cc.o
+[300/418] Building CXX object test/CMakeFiles/fixture_test.dir/fixture_test.cc.o
+[301/418] Building CXX object test/CMakeFiles/fixture.dir/fixture.cc.o
+[302/418] Linking CXX static library lib/libfixture.a
+[303/418] Building CXX object test/CMakeFiles/header_test.dir/header_test.cc.o
+[304/418] Linking CXX executable bin/fixture_test
+[305/418] Building CXX object test/benchmark/CMakeFiles/ccd_benchmark_test.dir/ccd_benchmark_test.cc.o
+[306/418] Building CXX object test/CMakeFiles/pipeline_test.dir/pipeline_test.cc.o
+[307/418] Linking CXX executable bin/header_test
+[308/418] Linking CXX executable bin/mjspecmacro_test
+[309/418] Linking CXX executable bin/ccd_benchmark_test
+[310/418] Linking CXX executable bin/pipeline_test
+[311/418] Building CXX object test/benchmark/CMakeFiles/step_benchmark_test.dir/step_benchmark_test.cc.o
+[312/418] Building CXX object test/benchmark/CMakeFiles/thread_performance_test.dir/thread_performance_test.cc.o
+[313/418] Building CXX object test/benchmark/CMakeFiles/parse_benchmark_test.dir/parse_benchmark_test.cc.o
+[314/418] Building CXX object test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/engine_util_spatial_benchmark_test.cc.o
+[315/418] Linking CXX executable bin/step_benchmark_test
+[316/418] Linking CXX executable bin/thread_performance_test
+[317/418] Linking CXX executable bin/engine_util_spatial_benchmark_test
+[318/418] Linking CXX executable bin/parse_benchmark_test
+[319/418] Building CXX object test/benchmark/CMakeFiles/iszero_benchmark_test.dir/iszero_benchmark_test.cc.o
+[320/418] Building CXX object test/benchmark/CMakeFiles/factorI_benchmark_test.dir/factorI_benchmark_test.cc.o
+[321/418] Building CXX object test/benchmark/CMakeFiles/inertia_benchmark_test.dir/inertia_benchmark_test.cc.o
+[322/418] Linking CXX executable bin/iszero_benchmark_test
+[323/418] Linking CXX executable bin/factorI_benchmark_test
+[324/418] Building CXX object test/benchmark/CMakeFiles/solveLD_benchmark_test.dir/solveLD_benchmark_test.cc.o
+[325/418] Linking CXX executable bin/inertia_benchmark_test
+[326/418] Building CXX object test/benchmark/CMakeFiles/crb_benchmark_test.dir/crb_benchmark_test.cc.o
+[327/418] Linking CXX executable bin/solveLD_benchmark_test
+[328/418] Building CXX object test/benchmark/CMakeFiles/engine_util_sparse_benchmark_test.dir/engine_util_sparse_benchmark_test.cc.o
+[329/418] Building CXX object test/engine/CMakeFiles/engine_collision_box_test.dir/engine_collision_box_test.cc.o
+[330/418] Linking CXX executable bin/crb_benchmark_test
+[331/418] Linking CXX executable bin/engine_collision_box_test
+[332/418] Building CXX object test/engine/CMakeFiles/engine_collision_convex_test.dir/engine_collision_convex_test.cc.o
+[333/418] Linking CXX executable bin/engine_util_sparse_benchmark_test
+[334/418] Linking CXX executable bin/engine_collision_convex_test
+[335/418] Building CXX object test/engine/CMakeFiles/engine_collision_driver_test.dir/engine_collision_driver_test.cc.o
+[336/418] Building CXX object test/engine/CMakeFiles/engine_collision_gjk_test.dir/engine_collision_gjk_test.cc.o
+[337/418] Building CXX object test/engine/CMakeFiles/engine_core_constraint_test.dir/engine_core_constraint_test.cc.o
+[338/418] Linking CXX executable bin/engine_collision_driver_test
+[339/418] Building CXX object test/engine/CMakeFiles/engine_core_smooth_test.dir/engine_core_smooth_test.cc.o
+[340/418] Linking CXX executable bin/engine_collision_gjk_test
+[341/418] Linking CXX executable bin/engine_core_constraint_test
+[342/418] Building CXX object test/engine/CMakeFiles/engine_derivative_test.dir/engine_derivative_test.cc.o
+[343/418] Linking CXX executable bin/engine_core_smooth_test
+[344/418] Building CXX object test/engine/CMakeFiles/engine_inverse_test.dir/engine_inverse_test.cc.o
+[345/418] Building CXX object test/engine/CMakeFiles/engine_forward_test.dir/engine_forward_test.cc.o
+[346/418] Linking CXX executable bin/engine_derivative_test
+[347/418] Linking CXX executable bin/engine_inverse_test
+[348/418] Building CXX object test/engine/CMakeFiles/engine_island_test.dir/engine_island_test.cc.o
+[349/418] Linking CXX executable bin/engine_forward_test
+[350/418] Building CXX object test/engine/CMakeFiles/engine_io_test.dir/engine_io_test.cc.o
+[351/418] Linking CXX executable bin/engine_island_test
+[352/418] Building CXX object test/engine/CMakeFiles/engine_plugin_test.dir/engine_plugin_test.cc.o
+[353/418] Building CXX object test/engine/CMakeFiles/engine_passive_test.dir/engine_passive_test.cc.o
+[354/418] Linking CXX executable bin/engine_io_test
+[355/418] Building CXX object test/engine/CMakeFiles/engine_print_test.dir/engine_print_test.cc.o
+[356/418] Linking CXX executable bin/engine_plugin_test
+[357/418] Linking CXX executable bin/engine_passive_test
+[358/418] Linking CXX executable bin/engine_print_test
+[359/418] Building CXX object test/engine/CMakeFiles/engine_ray_test.dir/engine_ray_test.cc.o
+[360/418] Building CXX object test/engine/CMakeFiles/engine_setconst_test.dir/engine_setconst_test.cc.o
+[361/418] Building CXX object test/engine/CMakeFiles/engine_sensor_test.dir/engine_sensor_test.cc.o
+[362/418] Linking CXX executable bin/engine_ray_test
+[363/418] Building CXX object test/engine/CMakeFiles/engine_sleep_test.dir/engine_sleep_test.cc.o
+[364/418] Linking CXX executable bin/engine_setconst_test
+[365/418] Linking CXX executable bin/engine_sensor_test
+[366/418] Building CXX object test/engine/CMakeFiles/engine_solver_test.dir/engine_solver_test.cc.o
+[367/418] Linking CXX executable bin/engine_sleep_test
+[368/418] Building CXX object test/engine/CMakeFiles/engine_sort_test.dir/engine_sort_test.cc.o
+[369/418] Linking CXX executable bin/engine_solver_test
+[370/418] Building CXX object test/engine/CMakeFiles/engine_thread_test.dir/engine_thread_test.cc.o
+[371/418] Linking CXX executable bin/engine_sort_test
+[372/418] Building CXX object test/engine/CMakeFiles/engine_support_test.dir/engine_support_test.cc.o
+[373/418] Building CXX object test/engine/CMakeFiles/engine_util_blas_test.dir/engine_util_blas_test.cc.o
+[374/418] Building CXX object test/engine/CMakeFiles/engine_util_errmem_test.dir/engine_util_errmem_test.cc.o
+[375/418] Linking CXX executable bin/engine_thread_test
+[376/418] Linking CXX executable bin/engine_util_blas_test
+[377/418] Linking CXX executable bin/engine_support_test
+[378/418] Linking CXX executable bin/engine_util_errmem_test
+[379/418] Building CXX object test/engine/CMakeFiles/engine_util_solve_test.dir/engine_util_solve_test.cc.o
+[380/418] Building CXX object test/engine/CMakeFiles/engine_vis_visualize_test.dir/engine_vis_visualize_test.cc.o
+[381/418] Building CXX object test/engine/CMakeFiles/engine_util_spatial_test.dir/engine_util_spatial_test.cc.o
+[382/418] Building CXX object test/user/CMakeFiles/user_model_test.dir/user_model_test.cc.o
+[383/418] Linking CXX executable bin/engine_vis_visualize_test
+[384/418] Linking CXX executable bin/engine_util_solve_test
+[385/418] Linking CXX executable bin/engine_util_spatial_test
+[386/418] Building CXX object test/user/CMakeFiles/user_recompile_test.dir/user_recompile_test.cc.o
+[387/418] Building CXX object test/user/CMakeFiles/user_objects_test.dir/user_objects_test.cc.o
+[388/418] Building CXX object test/user/CMakeFiles/user_api_test.dir/user_api_test.cc.o
+[389/418] Linking CXX executable bin/user_objects_test
+[390/418] Linking CXX executable bin/user_model_test
+[391/418] Building CXX object test/user/CMakeFiles/user_flex_test.dir/user_flex_test.cc.o
+~/work/mujoco-p44pr-src/test/user/user_flex_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserFlexTest_FlexcompMeshLoadsFromVFS_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_flex_test.cc:918:8: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  918 |   fread(stl_data.data(), 1, stl_size, f);
+      |   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[392/418] Linking CXX executable bin/user_flex_test
+[393/418] Building CXX object test/user/CMakeFiles/user_mesh_test.dir/user_mesh_test.cc.o
+[394/418] Linking CXX executable bin/user_recompile_test
+[395/418] Building CXX object test/user/CMakeFiles/user_composite_test.dir/user_composite_test.cc.o
+[396/418] Building CXX object test/user/CMakeFiles/user_resource_test.dir/user_resource_test.cc.o
+[397/418] Linking CXX executable bin/user_mesh_test
+[398/418] Linking CXX executable bin/user_api_test
+[399/418] Linking CXX executable bin/user_composite_test
+[400/418] Linking CXX executable bin/user_resource_test
+[401/418] Building CXX object test/user/CMakeFiles/user_vfs_test.dir/user_vfs_test.cc.o
+[402/418] Building CXX object test/xml/CMakeFiles/xml_api_test.dir/xml_api_test.cc.o
+[403/418] Building CXX object test/user/CMakeFiles/user_util_test.dir/user_util_test.cc.o
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorFloat_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:128:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  128 |   std::vector<float> v = StringToVector<float>(" 1.2 3.2     5.3 6 ");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorEmpty_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:134:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  134 |   std::vector<float> v = StringToVector<float>("   ");
+      |                                                ^~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorError_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:140:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  140 |   std::vector<float> v = StringToVector<float>("2.1 3ABCD. /123/122/113");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInt_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:146:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  146 |   std::vector<int> v = StringToVector<int>("  -1 3  5 6  ");
+      |                                            ^~~~~~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorString_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:152:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  152 |   auto v = StringToVector<std::string>(" abc  def ");
+      |                                        ^~~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInvalidNumber_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:157:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  157 |   auto v = StringToVector<double>("1 0.1.2.3");
+      |                                   ^~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorNan_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:164:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  164 |   auto v = StringToVector<double>("1 2 nan 3.21");
+      |                                   ^~~~~~~~~~~~~~
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorRange_Test::TestBody()’:
+~/work/mujoco-p44pr-src/test/user/user_util_test.cc:171:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  171 |   auto v = StringToVector<unsigned char>("-10");
+      |                                          ^~~~~
+[404/418] Linking CXX executable bin/user_vfs_test
+[405/418] Linking CXX executable bin/xml_api_test
+[406/418] Linking CXX executable bin/user_util_test
+[407/418] Building CXX object test/xml/CMakeFiles/xml_native_reader_test.dir/xml_native_reader_test.cc.o
+[408/418] Building CXX object test/xml/CMakeFiles/xml_utils_test.dir/xml_utils_test.cc.o
+[409/418] Building CXX object test/xml/CMakeFiles/xml_write_read_test.dir/xml_write_read_test.cc.o
+[410/418] Building CXX object test/xml/CMakeFiles/xml_native_writer_test.dir/xml_native_writer_test.cc.o
+[411/418] Linking CXX executable bin/xml_utils_test
+[412/418] Linking CXX executable bin/xml_native_writer_test
+[413/418] Building CXX object test/plugin/elasticity/CMakeFiles/elasticity_test.dir/elasticity_test.cc.o
+[414/418] Linking CXX executable bin/elasticity_test
+[415/418] Building CXX object test/plugin/actuator/CMakeFiles/pid_test.dir/pid_test.cc.o
+[416/418] Linking CXX executable bin/pid_test
+[417/418] Linking CXX executable bin/xml_native_reader_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/str_cat.cc:51:11,
+    inlined from ‘operator()’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/str_cat.cc:70:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:138:32,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:162:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:183:49,
+    inlined from ‘StrCat’ at ~/work/t44pr/_deps/abseil-cpp-src/absl/strings/str_cat.cc:66:33,
+    inlined from ‘__ct_base ’ at ~/work/mujoco-p44pr-src/test/fixture.cc:194:25:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551609 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[418/418] Linking CXX executable bin/xml_write_read_test

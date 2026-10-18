@@ -1,0 +1,197 @@
+MAPCLASH validation/run_051_study_12 133036
+MAPCLASH validation/run_051_study_12 88261
+MAPCLASH validation/run_051_study_12 88386
+MAPCLASH validation/run_051_study_12 88036
+MAPCLASH validation/run_071_study_15 163902
+MAPCLASH validation/run_064_study_14 133471
+MAPCLASH validation/run_064_study_14 163902
+MAPCLASH validation/run_051_study_12 133471
+MAPCLASH validation/run_071_study_15 163910
+MAPCLASH validation/run_051_study_12 133483
+MAPCLASH validation/run_042_study_10 133471
+MAPCLASH validation/run_042_study_10 133051
+MAPCLASH validation/run_058_study_13 133471
+RULE validation/run_012_study_01 rules.txt: R3_no_direction_0.001 HELD -> HELD
+  before: 93035 10000 93035 93035 93035 93035
+  after:  93049 10000 93049 93049 93049 93049
+RULE validation/run_012_study_01 rules.txt: R3_no_direction_0.00025 HELD -> HELD
+  before: 93343 10000 93343 93343 93343 93343
+  after:  93362 10000 93362 93362 93362 93362
+RULE validation/run_012_study_01 rules.txt: R5_coulomb HELD -> HELD
+  before: 93295 100 93343 93343 93343 93343 93343
+  after:  93295 100 93362 93362 93362 93362 93362
+RULE validation/run_012_study_01 rules.txt: R8_free_cube HELD -> HELD
+  before: 93048 100 93170 93170
+  after:  93063 100 93184 93184
+RULE validation/run_015_study_02 rules.txt: R3_no_direction_0.002 HELD -> HELD
+  before: 136256 10000 136256 136256
+  after:  136273 10000 136273 136273
+RULE validation/run_015_study_02 rules.txt: R3_no_direction_0.0005 HELD -> HELD
+  before: 137100 10000 137100 137100
+  after:  137117 10000 137117 137117
+RULE validation/run_015_study_02 rules.txt: R4_coulomb HELD -> HELD
+  before: 137188 100 137100 137100 137100
+  after:  137188 100 137117 137117 137117
+RULE validation/run_023_study_03 rules.txt: R4_no_direction_0.0015 HELD -> HELD
+  before: 74747 10000 74747 74747 74747 74747
+  after:  74756 10000 74756 74756 74756 74756
+RULE validation/run_023_study_03 rules.txt: R4_no_direction_0.000375 HELD -> HELD
+  before: 75243 10000 75243 75243 75243 75243
+  after:  75258 10000 75258 75258 75258 75258
+RULE validation/run_023_study_03 rules.txt: R6_coulomb HELD -> HELD
+  before: 75139 100 75243 75243 75243 75243 75243
+  after:  75139 100 75258 75258 75258 75258 75258
+RULE validation/run_023_study_03 rules.txt: R11_free_cube HELD -> HELD
+  before: 74880 100 75583 75421 75042 74998
+  after:  74892 100 75598 75430 75053 75006
+RULE validation/run_024_study_04 rules.txt: R4_no_direction_0.0015 HELD -> HELD
+  before: 59065 10000 59065 59065 59065 59065
+  after:  59075 10000 59075 59075 59075 59075
+RULE validation/run_024_study_04 rules.txt: R4_no_direction_0.000375 HELD -> HELD
+  before: 59586 10000 59586 59586 59586 59586
+  after:  59598 10000 59598 59598 59598 59598
+RULE validation/run_024_study_04 rules.txt: R6_coulomb HELD -> HELD
+  before: 59455 100 59586 59586 59586 59586 59586
+  after:  59455 100 59598 59598 59598 59598 59598
+RULE validation/run_024_study_04 rules.txt: R11_free_cube FAILED -> FAILED
+  before: 59437 100 59615 60167 59449 59562
+  after:  59445 100 59623 60174 59462 59570
+RULE validation/run_031_study_06 rules.txt: R4_no_direction_0.0012 HELD -> HELD
+  before: 95567 10000 95567 95567 95567 95567
+  after:  95579 10000 95579 95579 95579 95579
+RULE validation/run_031_study_06 rules.txt: R4_no_direction_0.0003 HELD -> HELD
+  before: 96021 10000 96021 96021 96021 96021
+  after:  96034 10000 96034 96034 96034 96034
+RULE validation/run_031_study_06 rules.txt: R6_coulomb HELD -> HELD
+  before: 95929 100 96021 96021 96021 96021 96021
+  after:  95929 100 96034 96034 96034 96034 96034
+RULE validation/run_041_integrator_probe rules.txt: cfg_euler_S1_no_direction_0.0016 HELD -> HELD
+  before: 136484 10000 136484 136484
+  after:  136500 10000 136500 136500
+RULE validation/run_041_integrator_probe rules.txt: cfg_euler_S1_no_direction_0.0004 HELD -> HELD
+  before: 137159 10000 137159 137159
+  after:  137174 10000 137174 137174
+RULE validation/run_041_integrator_probe rules.txt: cfg_euler_S3_coulomb HELD -> HELD
+  before: 137188 100 137159 137159 137159
+  after:  137188 100 137174 137174 137174
+RULE validation/run_041_integrator_probe rules.txt: cfg_euler_S4_free_cube FAILED -> FAILED
+  before: 136610 100 138959 136469
+  after:  136623 100 138972 136489
+RULE validation/run_041_integrator_probe rules.txt: cfg_rk4_S1_no_direction_0.0016 HELD -> HELD
+  before: 136500 10000 136500 136500
+  after:  136515 10000 136515 136515
+RULE validation/run_041_integrator_probe rules.txt: cfg_rk4_S1_no_direction_0.0004 HELD -> HELD
+  before: 137173 10000 137173 137173
+  after:  137189 10000 137189 137189
+RULE validation/run_041_integrator_probe rules.txt: cfg_rk4_S3_coulomb HELD -> HELD
+  before: 137188 100 137173 137173 137173
+  after:  137188 100 137189 137189 137189
+RULE validation/run_041_integrator_probe rules.txt: cfg_rk4_S4_free_cube FAILED -> FAILED
+  before: 136529 100 139773 136697
+  after:  136544 100 139787 136711
+RULE validation/run_042_study_10 rules.txt: config_S1_no_direction_0.00114 HELD -> HELD
+  before: 133036 10000 133036 133036
+  after:  133055 10000 133055 133055
+RULE CLASH validation/run_042_study_10 rules.txt: config_S1_no_direction_0.000285 has values with two corrections: 133471 133471 133471
+RULE CLASH validation/run_042_study_10 rules.txt: config_S3_coulomb has values with two corrections: 133471 133471 133471
+RULE validation/run_042_study_10 rules.txt: config_S4_free_cube FAILED -> FAILED
+  before: 133042 100 136043 133266
+  after:  133058 100 136058 133286
+RULE validation/run_042_study_10 rules.txt: config_rk4_S1_no_direction_0.00114 HELD -> HELD
+  before: 133039 10000 133039 133039
+  after:  133056 10000 133056 133056
+RULE validation/run_042_study_10 rules.txt: config_rk4_S1_no_direction_0.000285 HELD -> HELD
+  before: 133461 10000 133461 133461
+  after:  133482 10000 133482 133482
+RULE validation/run_042_study_10 rules.txt: config_rk4_S3_coulomb HELD -> HELD
+  before: 133451 100 133461 133461 133461
+  after:  133451 100 133482 133482 133482
+RULE CLASH validation/run_042_study_10 rules.txt: config_rk4_S4_free_cube has values with two corrections: 133051
+RULE validation/run_042_study_10 rules.txt: config_rk4_S4_free_cube FAILED -> FAILED
+  before: 133051 100 134897 133076
+  after:  133051 100 134914 133092
+RULE validation/run_051_study_12 rules.txt: on_rec_D1_no_direction_free_0.00116 HELD -> HELD
+  before: 88012 10000 88012 88012 88012 88012
+  after:  88024 10000 88024 88024 88024 88024
+RULE validation/run_051_study_12 rules.txt: on_rec_D1_no_direction_kept_0.00116 HELD -> HELD
+  before: 88027 10000 88027 88027
+  after:  88041 10000 88041 88041
+RULE validation/run_051_study_12 rules.txt: on_rec_D1_no_direction_free_0.00029 HELD -> HELD
+  before: 88374 10000 88374 88374 88374 88374
+  after:  88390 10000 88390 88390 88390 88390
+RULE validation/run_051_study_12 rules.txt: on_rec_D1_no_direction_kept_0.00029 HELD -> HELD
+  before: 88390 10000 88390 88390
+  after:  88409 10000 88409 88409
+RULE validation/run_051_study_12 rules.txt: on_rec_C1_coulomb HELD -> HELD
+  before: 88323 100 88390 88390 88390 88374 88374 88374 88374 88374
+  after:  88323 100 88409 88409 88409 88390 88390 88390 88390 88390
+RULE validation/run_051_study_12 rules.txt: on_ell_D1_no_direction_free_0.00116 HELD -> HELD
+  before: 88017 10000 88017 88017 88017 88017
+  after:  88029 10000 88029 88029 88029 88029
+RULE CLASH validation/run_051_study_12 rules.txt: on_ell_D1_no_direction_kept_0.00116 has values with two corrections: 88036 88036 88036
+RULE validation/run_051_study_12 rules.txt: on_ell_D1_no_direction_free_0.00029 HELD -> HELD
+  before: 88380 10000 88380 88380 88380 88380
+  after:  88395 10000 88395 88395 88395 88395
+RULE validation/run_051_study_12 rules.txt: on_ell_D1_no_direction_kept_0.00029 HELD -> HELD
+  before: 88399 10000 88399 88399
+  after:  88418 10000 88418 88418
+RULE validation/run_051_study_12 rules.txt: on_ell_C1_coulomb HELD -> HELD
+  before: 88323 100 88399 88399 88399 88380 88380 88380 88380 88380
+  after:  88323 100 88418 88418 88418 88395 88395 88395 88395 88395
+RULE CLASH validation/run_051_study_12 dry/rules_plumbing.txt: on_rec_D1_no_direction_free_0.00114 has values with two corrections: 133036 133036 133036 133036 133036
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_rec_D1_no_direction_kept_0.00114 HELD -> HELD
+  before: 133052 10000 133052 133052
+  after:  133069 10000 133069 133069
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_rec_D1_no_direction_free_0.000285 HELD -> HELD
+  before: 133478 10000 133478 133478 133478 133478
+  after:  133497 10000 133497 133497 133497 133497
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_rec_D1_no_direction_kept_0.000285 HELD -> HELD
+  before: 133494 10000 133494 133494
+  after:  133516 10000 133516 133516
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_rec_C1_coulomb HELD -> HELD
+  before: 133451 100 133494 133494 133494 133478 133478 133478 133478 133478
+  after:  133451 100 133516 133516 133516 133497 133497 133497 133497 133497
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_D1_no_direction_free_0.00114 HELD -> HELD
+  before: 133041 10000 133041 133041 133041 133041
+  after:  133056 10000 133056 133056 133056 133056
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_D1_no_direction_kept_0.00114 HELD -> HELD
+  before: 133061 10000 133061 133061
+  after:  133078 10000 133078 133078
+RULE CLASH validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_D1_no_direction_free_0.000285 has values with two corrections: 133483 133483 133483 133483 133483
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_D1_no_direction_kept_0.000285 HELD -> HELD
+  before: 133504 10000 133504 133504
+  after:  133525 10000 133525 133525
+RULE CLASH validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_C1_coulomb has values with two corrections: 133483 133483 133483 133483 133483
+RULE validation/run_051_study_12 dry/rules_plumbing.txt: on_ell_C1_coulomb HELD -> HELD
+  before: 133451 100 133504 133504 133504 133483 133483 133483 133483 133483
+  after:  133451 100 133525 133525 133525 133483 133483 133483 133483 133483
+RULE validation/run_071_study_15 rules.txt: on_rec_D1_no_direction_free_0.00171 HELD -> HELD
+  before: 96962 10000 96962 96962 96962 96962
+  after:  96973 10000 96973 96973 96973 96973
+RULE validation/run_071_study_15 rules.txt: on_rec_D1_no_direction_kept_0.00171 HELD -> HELD
+  before: 96979 10000 96979 96979
+  after:  96993 10000 96993 96993
+RULE validation/run_071_study_15 rules.txt: on_rec_D1_no_direction_free_0.0004275 HELD -> HELD
+  before: 97472 10000 97472 97472 97472 97472
+  after:  97600 10000 97600 97600 97600 97600
+RULE validation/run_071_study_15 rules.txt: on_rec_D1_no_direction_kept_0.0004275 HELD -> HELD
+  before: 97493 10000 97493 97493
+  after:  97623 10000 97623 97623
+RULE validation/run_071_study_15 rules.txt: on_rec_C1_coulomb HELD -> HELD
+  before: 97579 100 97493 97493 97493 97472 97472 97472 97472 97472
+  after:  97579 100 97623 97623 97623 97600 97600 97600 97600 97600
+RULE validation/run_071_study_15 dry/rules_plumbing.txt: on_rec_D1_no_direction_free_0.00119 HELD -> HELD
+  before: 163655 10000 163655 163655 163655 163655
+  after:  163672 10000 163672 163672 163672 163672
+RULE validation/run_071_study_15 dry/rules_plumbing.txt: on_rec_D1_no_direction_kept_0.00119 HELD -> HELD
+  before: 163672 10000 163672 163672
+  after:  163690 10000 163690 163690
+RULE validation/run_071_study_15 dry/rules_plumbing.txt: on_rec_D1_no_direction_free_0.0002975 HELD -> HELD
+  before: 163903 10000 163903 163903 163903 163903
+  after:  164200 10000 164200 164200 164200 164200
+RULE validation/run_071_study_15 dry/rules_plumbing.txt: on_rec_D1_no_direction_kept_0.0002975 HELD -> HELD
+  before: 163920 10000 163920 163920
+  after:  164220 10000 164220 164220
+RULE validation/run_071_study_15 dry/rules_plumbing.txt: on_rec_C1_coulomb HELD -> HELD
+  before: 164172 100 163920 163920 163920 163903 163903 163903 163903 163903
+  after:  164172 100 164220 164220 164220 164200 164200 164200 164200 164200

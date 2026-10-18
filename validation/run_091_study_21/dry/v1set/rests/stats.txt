@@ -1,0 +1,10 @@
+STATS run rest_1_k16 contact dt 0.000625 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 3200 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_1_k4 contact dt 0.0025 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 800 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_1_k3 contact dt 0.00333333 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 600 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_1_k2 contact dt 0.005 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 400 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_1_k1 contact dt 0.01 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 200 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_2_k16 contact dt 0.000625 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 3200 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_2_k4 contact dt 0.0025 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 800 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_2_k3 contact dt 0.00333333 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 600 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_2_k2 contact dt 0.005 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 400 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1
+STATS run rest_2_k1 contact dt 0.01 h0 0.02 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 200 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra solref=0.01,1

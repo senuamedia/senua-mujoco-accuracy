@@ -1,0 +1,9 @@
+dt_hold 0.001277
+  (cubea_mass drawn again: 1.100)
+cubea_mass 1.572
+cubea_half 0.0474
+  (cubea_mu drawn again: 0.762)
+cubea_mu 0.61
+cubeb_mass 0.819
+cubeb_half 0.0316
+cubeb_mu 0.734

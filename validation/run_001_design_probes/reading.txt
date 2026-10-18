@@ -1,0 +1,21 @@
+DETERMINISM hold played twice: byte-identical
+hold 0.002 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+rest 0.002 | REST dt_ns 2000000 mean_ground_force_mN 9800 weight_mN 9800
+bounce 0.002 | BOUNCE dt_ns 2000000 speed_in_ums 1391600 steps_to_turn 10 rebound_nm 0 drop_nm 100000000 rebound_per_10000 0
+oblique 0.002 | IMPACT dt_ns 2000000 steps 5 horizontal_lost_ums 351209 vertical_given_ums 1170695 ratio_per_10000 3000 friction_per_10000 3000 still_sliding_ums 1648791
+slide 0.002 | STOP dt_ns 2000000 first_stopped_at_step 172 largest_speed_last_third_ums 0 slid_um 126717 came_back_um 0
+hold 0.0005 | CREEP dt_ns 500000 steps 2000 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+rest 0.0005 | REST dt_ns 500000 mean_ground_force_mN 9800 weight_mN 9800
+bounce 0.0005 | BOUNCE dt_ns 500000 speed_in_ums 1401400 steps_to_turn 38 rebound_nm 0 drop_nm 100000000 rebound_per_10000 0
+oblique 0.0005 | IMPACT dt_ns 500000 steps 20 horizontal_lost_ums 330116 vertical_given_ums 1100388 ratio_per_10000 3000 friction_per_10000 3000 still_sliding_ums 1669884
+slide 0.0005 | STOP dt_ns 500000 first_stopped_at_step 705 largest_speed_last_third_ums 0 slid_um 127467 came_back_um 0
+hold 0.000125 | CREEP dt_ns 125000 steps 8000 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+rest 0.000125 | REST dt_ns 125000 mean_ground_force_mN 9800 weight_mN 9800
+bounce 0.000125 | BOUNCE dt_ns 125000 speed_in_ums 1400175 steps_to_turn 154 rebound_nm 0 drop_nm 100000000 rebound_per_10000 0
+oblique 0.000125 | IMPACT dt_ns 125000 steps 80 horizontal_lost_ums 326836 vertical_given_ums 1089455 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1673164
+slide 0.000125 | STOP dt_ns 125000 first_stopped_at_step 2840 largest_speed_last_third_ums 0 slid_um 127655 came_back_um 0
+hold 0.00003125 | CREEP dt_ns 31250 steps 32000 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+rest 0.00003125 | REST dt_ns 31250 mean_ground_force_mN 9800 weight_mN 9800
+bounce 0.00003125 | BOUNCE dt_ns 31250 speed_in_ums 1399869 steps_to_turn 619 rebound_nm 0 drop_nm 100000000 rebound_per_10000 0
+oblique 0.00003125 | IMPACT dt_ns 31250 steps 321 horizontal_lost_ums 326668 vertical_given_ums 1088893 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1673332
+slide 0.00003125 | STOP dt_ns 31250 first_stopped_at_step 11378 largest_speed_last_third_ums 0 slid_um 126641 came_back_um 0

@@ -1,0 +1,8 @@
+pyramidal still floor along x, 1.0986841134678098 m/s, 0.0015 | STOP dt_ns 1500000 first_stopped_at_step 200 largest_speed_last_third_ums 0 slid_um 111404 came_back_um 0
+elliptic still floor along x, 1.0986841134678098 m/s, 0.0015 | STOP dt_ns 1500000 first_stopped_at_step 198 largest_speed_last_third_ums 0 slid_um 111398 came_back_um 0
+pyramidal still floor along x, 1.5690838789861106 m/s, 0.0015 | STOP dt_ns 1500000 first_stopped_at_step 257 largest_speed_last_third_ums 0 slid_um 227436 came_back_um 0
+elliptic still floor along x, 1.5690838789861106 m/s, 0.0015 | STOP dt_ns 1500000 first_stopped_at_step 256 largest_speed_last_third_ums 0 slid_um 227458 came_back_um 0
+pyramidal still floor along x, 1.0986841134678098 m/s, 0.000375 | STOP dt_ns 375000 first_stopped_at_step 815 largest_speed_last_third_ums 0 slid_um 112041 came_back_um 0
+elliptic still floor along x, 1.0986841134678098 m/s, 0.000375 | STOP dt_ns 375000 first_stopped_at_step 813 largest_speed_last_third_ums 0 slid_um 112032 came_back_um 0
+pyramidal still floor along x, 1.5690838789861106 m/s, 0.000375 | STOP dt_ns 375000 first_stopped_at_step 1048 largest_speed_last_third_ums 0 slid_um 228359 came_back_um 0
+elliptic still floor along x, 1.5690838789861106 m/s, 0.000375 | STOP dt_ns 375000 first_stopped_at_step 1045 largest_speed_last_third_ums 0 slid_um 228358 came_back_um 0

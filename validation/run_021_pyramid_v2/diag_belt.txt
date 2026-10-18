@@ -1,0 +1,8 @@
+elliptic release belt45 0.002 | STOP dt_ns 2000000 first_stopped_at_step 223 largest_speed_last_third_ums 0 slid_um 179512 came_back_um 0
+elliptic release ref45 0.002 | STOP dt_ns 2000000 first_stopped_at_step 224 largest_speed_last_third_ums 0 slid_um 253875 came_back_um 0
+elliptic release belt30 0.002 | STOP dt_ns 2000000 first_stopped_at_step 190 largest_speed_last_third_ums 0 slid_um 146416 came_back_um 0
+elliptic release ref30 0.002 | STOP dt_ns 2000000 first_stopped_at_step 191 largest_speed_last_third_ums 0 slid_um 169074 came_back_um 0
+elliptic release belt45 0.0005 | STOP dt_ns 500000 first_stopped_at_step 909 largest_speed_last_third_ums 0 slid_um 180251 came_back_um 0
+elliptic release ref45 0.0005 | STOP dt_ns 500000 first_stopped_at_step 916 largest_speed_last_third_ums 0 slid_um 254922 came_back_um 0
+elliptic release belt30 0.0005 | STOP dt_ns 500000 first_stopped_at_step 780 largest_speed_last_third_ums 0 slid_um 147176 came_back_um 0
+elliptic release ref30 0.0005 | STOP dt_ns 500000 first_stopped_at_step 783 largest_speed_last_third_ums 0 slid_um 169946 came_back_um 0

@@ -1,0 +1,2 @@
+release source commit a892750516336d8358949f4518fcc4fbbd85beae, UPSTREAM_COMMIT a892750516336d8358949f4518fcc4fbbd85beae
+SAME the patched source is the release source with patches/slip_aligned_pyramid.diff applied

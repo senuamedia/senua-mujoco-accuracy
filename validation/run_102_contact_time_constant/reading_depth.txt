@@ -1,0 +1,16 @@
+cube config 0.00114 time constant default () | height_nm speed_ums -107649 0
+cube config 0.00114 time constant 8 (gsolref=0.00912,1) | height_nm speed_ums -22691 0
+cube config 0.00114 time constant 4 (gsolref=0.00456,1) | height_nm speed_ums -5676 0
+cube config 0.00114 time constant 2 (gsolref=0.00228,1) | height_nm speed_ums -1419 0
+cube config 0.000285 time constant default () | height_nm speed_ums -107649 0
+cube config 0.000285 time constant 8 (gsolref=0.00228,1) | height_nm speed_ums -1419 0
+cube config 0.000285 time constant 4 (gsolref=0.00114,1) | height_nm speed_ums -355 0
+cube config 0.000285 time constant 2 (gsolref=0.00057,1) | height_nm speed_ums -89 0
+cube defaults 0.00114 time constant default () | height_nm speed_ums -17055 0
+cube defaults 0.00114 time constant 8 (gsolref=0.00912,1) | height_nm speed_ums -3548 0
+cube defaults 0.00114 time constant 4 (gsolref=0.00456,1) | height_nm speed_ums -887 0
+cube defaults 0.00114 time constant 2 (gsolref=0.00228,1) | height_nm speed_ums -222 0
+cube defaults 0.000285 time constant default () | height_nm speed_ums -17055 0
+cube defaults 0.000285 time constant 8 (gsolref=0.00228,1) | height_nm speed_ums -222 0
+cube defaults 0.000285 time constant 4 (gsolref=0.00114,1) | height_nm speed_ums -55 0
+cube defaults 0.000285 time constant 2 (gsolref=0.00057,1) | height_nm speed_ums -14 0

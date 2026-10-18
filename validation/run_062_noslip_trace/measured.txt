@@ -1,0 +1,6 @@
+safe when off: 4 of 4 plays byte for byte as released; the trace build's stderr with the switch unset: 0 lines
+traced plays byte for byte as untraced: same same same same 
+s10_pose1 sweeps 858 steps_traced 429 last_step: normal 11.4447 friction_old -0 -1.24988 friction_new 0 0 change 1.25 res 0 0.08075 A 1e-10 0 3.218 mu 0.717
+s13_pose1 sweeps 860 steps_traced 430 last_step: normal 13.5527 friction_old -0 1.19352 friction_new -0 1.21516 change 0.0216 res 0 -0.06674 A 1e-10 0 3.083 mu 0.778
+s13_pose2 sweeps 482 steps_traced 241 last_step: normal 4.32565 friction_old -0 -0.478415 friction_new 0 0 change 0.478 res 0 0.02383 A 1e-10 0 1.497 mu 0.778
+cube_hold sweeps 876 steps_traced 1752 last_step: normal 4.55945 friction_old -0 0.865364 friction_new -0 0.865364 change 0 res 0 -1.943e-16 A 0.5373 0 0.5373 mu 0.39

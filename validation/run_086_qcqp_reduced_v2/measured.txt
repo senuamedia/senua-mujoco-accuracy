@@ -1,0 +1,44 @@
+files v1 against v2: 80 of 88 the same
+differ v1 against v2: p/hold_c4_lock1_0.5_0.000285.txt
+differ v1 against v2: p/hold_c4_lock1_0.5_0.00114.txt
+differ v1 against v2: p/hold_c4_lock1_0.95_0.000285.txt
+differ v1 against v2: p/hold_c4_lock1_0.95_0.00114.txt
+differ v1 against v2: p/hold_c6_lock1_0.5_0.000285.txt
+differ v1 against v2: p/hold_c6_lock1_0.5_0.00114.txt
+differ v1 against v2: p/hold_c6_lock1_0.95_0.000285.txt
+differ v1 against v2: p/hold_c6_lock1_0.95_0.00114.txt
+v1 arms creep_ums 0 at most, over 48 plays
+v1 hold condim 3 lock 1 0.00114 creep_ums 0 0 
+v1 hold condim 3 lock 0 0.00114 creep_ums 0 0 
+v1 hold condim 4 lock 1 0.00114 creep_ums 498 946 
+v1 hold condim 4 lock 0 0.00114 creep_ums 0 0 
+v1 hold condim 6 lock 1 0.00114 creep_ums 498 946 
+v1 hold condim 6 lock 0 0.00114 creep_ums 0 0 
+v1 grips 0.00114 creep_ums 1 0 1 0 
+v1 hold condim 3 lock 1 0.000285 creep_ums 0 0 
+v1 hold condim 3 lock 0 0.000285 creep_ums 0 0 
+v1 hold condim 4 lock 1 0.000285 creep_ums 498 946 
+v1 hold condim 4 lock 0 0.000285 creep_ums 0 0 
+v1 hold condim 6 lock 1 0.000285 creep_ums 498 946 
+v1 hold condim 6 lock 0 0.000285 creep_ums 0 0 
+v1 grips 0.000285 creep_ums 1 0 1 0 
+v1 solver most_iterations 30 at_iteration_limit 0 warnings 0
+v2 arms creep_ums 0 at most, over 48 plays
+v2 hold condim 3 lock 1 0.00114 creep_ums 0 0 
+v2 hold condim 3 lock 0 0.00114 creep_ums 0 0 
+v2 hold condim 4 lock 1 0.00114 creep_ums 0 0 
+v2 hold condim 4 lock 0 0.00114 creep_ums 0 0 
+v2 hold condim 6 lock 1 0.00114 creep_ums 0 0 
+v2 hold condim 6 lock 0 0.00114 creep_ums 0 0 
+v2 grips 0.00114 creep_ums 1 0 1 0 
+v2 hold condim 3 lock 1 0.000285 creep_ums 0 0 
+v2 hold condim 3 lock 0 0.000285 creep_ums 0 0 
+v2 hold condim 4 lock 1 0.000285 creep_ums 0 0 
+v2 hold condim 4 lock 0 0.000285 creep_ums 0 0 
+v2 hold condim 6 lock 1 0.000285 creep_ums 0 0 
+v2 hold condim 6 lock 0 0.000285 creep_ums 0 0 
+v2 grips 0.000285 creep_ums 1 0 1 0 
+v2 solver most_iterations 30 at_iteration_limit 0 warnings 0
+MuJoCo suite on v2: 3492 tests; changed with every switch set: 1
+changed with every switch set: 837 SolverTest.ZeroToleranceDisablesTermination Failed
+MuJoCo suite, v2 with every switch unset against the release (run 064's suite_results_release.txt): 0 tests read differently

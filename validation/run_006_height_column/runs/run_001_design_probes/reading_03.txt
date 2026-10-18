@@ -1,0 +1,25 @@
+slide 0.002, deceleration 50 to 200 ms | ACCEL dt_ns 2000000 from_ms 50 to_ms 200 mean_acceleration_mm_s2 -3880 final_speed_ums 0
+slide 0.002, deceleration 0 to 50 ms | 
+slide 0.0005, deceleration 50 to 200 ms | ACCEL dt_ns 500000 from_ms 50 to_ms 200 mean_acceleration_mm_s2 -3898 final_speed_ums 0
+slide 0.0005, deceleration 0 to 50 ms | 
+slide 0.000125, deceleration 50 to 200 ms | ACCEL dt_ns 125000 from_ms 50 to_ms 200 mean_acceleration_mm_s2 -3920 final_speed_ums 0
+slide 0.000125, deceleration 0 to 50 ms | 
+slide 0.00003125, deceleration 50 to 200 ms | ACCEL dt_ns 31250 from_ms 50 to_ms 200 mean_acceleration_mm_s2 -3957 final_speed_ums 0
+slide 0.00003125, deceleration 0 to 50 ms | 
+elliptic+noslip 0.002 hold | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+elliptic+noslip 0.002 oblique | IMPACT dt_ns 2000000 steps 5 horizontal_lost_ums 349077 vertical_given_ums 1163590 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1650923
+elliptic+noslip 0.002 slide | STOP dt_ns 2000000 first_stopped_at_step 170 largest_speed_last_third_ums 0 slid_um 126686 came_back_um 0
+elliptic+noslip 0.002 bounce | BOUNCE dt_ns 2000000 speed_in_ums 1391600 steps_to_turn 10 rebound_nm -107649 drop_nm 100000000 rebound_per_10000 0
+elliptic+noslip 0.0005 hold | CREEP dt_ns 500000 steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+elliptic+noslip 0.0005 oblique | IMPACT dt_ns 500000 steps 20 horizontal_lost_ums 328079 vertical_given_ums 1093598 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1671921
+elliptic+noslip 0.0005 slide | STOP dt_ns 500000 first_stopped_at_step 698 largest_speed_last_third_ums 0 slid_um 127476 came_back_um 0
+elliptic+noslip 0.0005 bounce | BOUNCE dt_ns 500000 speed_in_ums 1401400 steps_to_turn 39 rebound_nm -107649 drop_nm 100000000 rebound_per_10000 0
+elliptic+noslip 0.000125 hold | CREEP dt_ns 125000 steps 8000 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+elliptic+noslip 0.000125 oblique | IMPACT dt_ns 125000 steps 81 horizontal_lost_ums 327354 vertical_given_ums 1091181 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1672646
+elliptic+noslip 0.000125 slide | STOP dt_ns 125000 first_stopped_at_step 2811 largest_speed_last_third_ums 0 slid_um 127639 came_back_um 0
+elliptic+noslip 0.000125 bounce | BOUNCE dt_ns 125000 speed_in_ums 1400175 steps_to_turn 156 rebound_nm -107649 drop_nm 100000000 rebound_per_10000 0
+elliptic+noslip 0.00003125 hold | CREEP dt_ns 31250 steps 32000 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+elliptic+noslip 0.00003125 oblique | IMPACT dt_ns 31250 steps 325 horizontal_lost_ums 327189 vertical_given_ums 1090629 ratio_per_10000 2999 friction_per_10000 3000 still_sliding_ums 1672811
+elliptic+noslip 0.00003125 slide | STOP dt_ns 31250 first_stopped_at_step 11265 largest_speed_last_third_ums 0 slid_um 126629 came_back_um 0
+elliptic+noslip 0.00003125 bounce | BOUNCE dt_ns 31250 speed_in_ums 1399869 steps_to_turn 625 rebound_nm -107649 drop_nm 100000000 rebound_per_10000 0
+RK4 hold | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000

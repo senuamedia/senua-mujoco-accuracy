@@ -1,0 +1,10 @@
+RULE Q1_euler_chain_drifts ge 91197 1000 : HELD
+RULE Q2_euler_tumble_drifts ge 34145 1000 : HELD
+RULE R1_rk4_chain_energy all_le 100 1 1 1 1 : HELD
+RULE R2_rk4_chain_momentum all_le 100 1 1 1 1 : HELD
+RULE R3_rk4_tumble_energy all_le 100 0 0 0 0 : HELD
+RULE R4_rk4_tumble_momentum all_le 100 0 0 0 0 : HELD
+RULE V1_warnings eq 0 0 : HELD
+rules: 7, held: 7
+with the RK4 free chain's energy at 0.0025 changed by hand to 500 ppm:
+RULE R1_rk4_chain_energy all_le 100 1 500 1 1 : FAILED

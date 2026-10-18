@@ -1,0 +1,94 @@
+files rel against off: 202 of 202 the same
+files rel against on: 172 of 202 the same
+differ rel against on: arms/s10_pose1_as_rest_0.000285.trace
+differ rel against on: arms/s10_pose1_as_rest_0.000285.txt
+differ rel against on: arms/s10_pose1_as_rest_0.00114.trace
+differ rel against on: arms/s10_pose1_as_rest_0.00114.txt
+differ rel against on: arms/s10_pose1_drop_0.000285.txt
+differ rel against on: arms/s10_pose1_drop_0.00114.txt
+differ rel against on: arms/s10_pose1_mirror_rest_0.000285.trace
+differ rel against on: arms/s10_pose1_mirror_rest_0.000285.txt
+differ rel against on: arms/s10_pose1_mirror_rest_0.00114.trace
+differ rel against on: arms/s10_pose1_mirror_rest_0.00114.txt
+differ rel against on: arms/s10_pose2_as_rest_0.000285.trace
+differ rel against on: arms/s10_pose2_as_rest_0.000285.txt
+differ rel against on: arms/s10_pose2_as_rest_0.00114.trace
+differ rel against on: arms/s10_pose2_as_rest_0.00114.txt
+differ rel against on: arms/s10_pose2_drop_0.000285.txt
+differ rel against on: arms/s10_pose2_drop_0.00114.txt
+differ rel against on: arms/s10_pose2_mirror_rest_0.000285.trace
+differ rel against on: arms/s10_pose2_mirror_rest_0.000285.txt
+differ rel against on: arms/s10_pose2_mirror_rest_0.00114.trace
+differ rel against on: arms/s10_pose2_mirror_rest_0.00114.txt
+differ rel against on: arms/s13_pose2_as_rest_0.000285.trace
+differ rel against on: arms/s13_pose2_as_rest_0.000285.txt
+differ rel against on: arms/s13_pose2_as_rest_0.00114.trace
+differ rel against on: arms/s13_pose2_as_rest_0.00114.txt
+differ rel against on: arms/s13_pose2_drop_0.000285.txt
+differ rel against on: arms/s13_pose2_drop_0.00114.txt
+differ rel against on: arms/s13_pose2_mirror_rest_0.000285.trace
+differ rel against on: arms/s13_pose2_mirror_rest_0.000285.txt
+differ rel against on: arms/s13_pose2_mirror_rest_0.00114.trace
+differ rel against on: arms/s13_pose2_mirror_rest_0.00114.txt
+rel holds 0.00114 0 0 0 0 0 0 0 0 0 
+rel s10_pose1_as_rest_0.00114 creep_ums -714 slip_x_ums -775.6
+rel s10_pose1_mirror_rest_0.00114 creep_ums 714 slip_x_ums 775.6
+rel s10_pose2_as_rest_0.00114 creep_ums -9 slip_x_ums -9.0
+rel s10_pose2_mirror_rest_0.00114 creep_ums 9 slip_x_ums 9.0
+rel s13_pose1_as_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+rel s13_pose1_mirror_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+rel s13_pose2_as_rest_0.00114 creep_ums -192 slip_x_ums -191.0
+rel s13_pose2_mirror_rest_0.00114 creep_ums 192 slip_x_ums 191.0
+rel jf_pose1_0.00114 creep_ums -2
+rel jf_pose2_0.00114 creep_ums -2
+rel stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+rel offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+rel holds 0.000285 0 0 0 0 0 0 0 0 0 
+rel s10_pose1_as_rest_0.000285 creep_ums -714 slip_x_ums -775.8
+rel s10_pose1_mirror_rest_0.000285 creep_ums 714 slip_x_ums 775.8
+rel s10_pose2_as_rest_0.000285 creep_ums -9 slip_x_ums -9.0
+rel s10_pose2_mirror_rest_0.000285 creep_ums 9 slip_x_ums 9.0
+rel s13_pose1_as_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+rel s13_pose1_mirror_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+rel s13_pose2_as_rest_0.000285 creep_ums -192 slip_x_ums -190.9
+rel s13_pose2_mirror_rest_0.000285 creep_ums 192 slip_x_ums 190.9
+rel jf_pose1_0.000285 creep_ums -2
+rel jf_pose2_0.000285 creep_ums -2
+rel stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+rel stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+rel offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+rel suite1 passed 10
+rel solver most_iterations 18 at_iteration_limit 0 warnings 0
+on holds 0.00114 0 0 0 0 0 0 0 0 0 
+on s10_pose1_as_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s10_pose1_mirror_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s10_pose2_as_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s10_pose2_mirror_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s13_pose1_as_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s13_pose1_mirror_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s13_pose2_as_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on s13_pose2_mirror_rest_0.00114 creep_ums 0 slip_x_ums 0.0
+on jf_pose1_0.00114 creep_ums -2
+on jf_pose2_0.00114 creep_ums -2
+on stack5_0.00114 most_tilt_urad 0 end_speed_ums 0
+on stack9_0.00114 most_tilt_urad 0 end_speed_ums 0
+on offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22
+on holds 0.000285 0 0 0 0 0 0 0 0 0 
+on s10_pose1_as_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s10_pose1_mirror_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s10_pose2_as_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s10_pose2_mirror_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s13_pose1_as_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s13_pose1_mirror_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s13_pose2_as_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on s13_pose2_mirror_rest_0.000285 creep_ums 0 slip_x_ums 0.0
+on jf_pose1_0.000285 creep_ums -2
+on jf_pose2_0.000285 creep_ums -2
+on stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064
+on stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801
+on offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19
+on suite1 passed 10
+on solver most_iterations 18 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with the switch set: 0
+MuJoCo suite, the switch unset against the release (run 051's suite_results_release.txt): 0 tests read differently

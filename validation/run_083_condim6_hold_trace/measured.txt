@@ -1,0 +1,32 @@
+safe when off: 6 of 6 files byte for byte as released; traced byte for byte as untraced: 6 of 6; the trace build's stderr with the switch unset: 0 lines
+hold_c6: the cube's speed at the last step 498 um/s; passes traced 525
+  over all passes: kept_from_zero 1400
+  over all passes: restored_from_zero 700
+    522 contact 0 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    522 contact 1 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    522 contact 2 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    522 contact 3 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    523 contact 0 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    523 contact 1 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    523 contact 2 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    523 contact 3 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    524 contact 0 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    524 contact 1 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    524 contact 2 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+    524 contact 3 dim 6 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 -0 -0 solve 0 0 0 0 0
+hold_c4: the cube's speed at the last step 498 um/s; passes traced 525
+  over all passes: kept_from_zero 1400
+  over all passes: restored_from_zero 700
+    522 contact 0 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    522 contact 1 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    522 contact 2 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    522 contact 3 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    523 contact 0 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    523 contact 1 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    523 contact 2 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    523 contact 3 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    524 contact 0 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    524 contact 1 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    524 contact 2 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+    524 contact 3 dim 4 normal 4.55945 restored_from_zero cone 0.500000 friction -0 0.889093 -0 solve 0 0 0
+hold_c3: the cube's speed at the last step 0 um/s; passes traced 0

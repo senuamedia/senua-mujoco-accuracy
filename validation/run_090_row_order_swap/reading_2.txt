@@ -1,0 +1,5 @@
+sleep_tolerance default | LEGPRESS switch 1 sleep_tolerance 0.001 err_coarse 0.0133007779 err_fine 0.0098609365 ratio 0.741380 passes 0 | contact-steps of the two discrete plays: 240 turned_180 238 turned_other 0
+sleep_tolerance 1e-4 | LEGPRESS switch 1 sleep_tolerance 0.0001 err_coarse 0.0133007779 err_fine 0.0098609365 ratio 0.741380 passes 0 | contact-steps of the two discrete plays: 240 turned_180 238 turned_other 0
+sleep_tolerance 1e-3 | LEGPRESS switch 1 sleep_tolerance 0.001 err_coarse 0.0133007779 err_fine 0.0098609365 ratio 0.741380 passes 0 | contact-steps of the two discrete plays: 240 turned_180 238 turned_other 0
+sleep_tolerance 1e-2 | LEGPRESS switch 1 sleep_tolerance 0.01 err_coarse 0.0106619343 err_fine 0.0087629946 ratio 0.821895 passes 0 | contact-steps of the two discrete plays: 240 turned_180 64 turned_other 0
+sleep_tolerance 1e-1 | LEGPRESS switch 1 sleep_tolerance 0.1 err_coarse 0.0100148723 err_fine 0.0051985791 ratio 0.519086 passes 1 | contact-steps of the two discrete plays: 240 turned_180 0 turned_other 0

@@ -1,0 +1,11 @@
+13:30:47 run_062_noslip_trace cleared
+13:30:47 run_063_qcqp_reduced cleared
+13:30:47 run_064_study_14 cleared
+13:30:47 run_065_suite_t08 cleared
+13:31:49 run 062 played, exit 0
+13:42:11 run 063 played, exit 0
+13:53:34 run 064 played, exit 0
+13:53:36 run 065 played, exit 0
+13:53:37 run 065 step 2 played, exit 0
+13:53:39 home folder written as ~ in the re-made outputs
+13:53:42 compared: 1722 same, 31 differ, 0 missing, 0 new

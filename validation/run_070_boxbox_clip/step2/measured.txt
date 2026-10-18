@@ -1,0 +1,81 @@
+files rel against off: 93 of 93 the same
+files rel against on: 40 of 93 the same
+differ rel against on: p/changes.txt
+differ rel against on: p/offset3_0.000285_1.txt
+differ rel against on: p/offset3_0.000285_1_tilt.txt
+differ rel against on: p/offset3_0.000285_2.txt
+differ rel against on: p/offset3_0.000285_2_tilt.txt
+differ rel against on: p/offset3_0.000285_3.txt
+differ rel against on: p/offset3_0.000285_3_tilt.txt
+differ rel against on: p/stack5_0.000285_1.txt
+differ rel against on: p/stack5_0.000285_1_tilt.txt
+differ rel against on: p/stack5_0.000285_2.txt
+differ rel against on: p/stack5_0.000285_2_tilt.txt
+differ rel against on: p/stack5_0.000285_3.txt
+differ rel against on: p/stack5_0.000285_3_tilt.txt
+differ rel against on: p/stack5_0.000285_4.txt
+differ rel against on: p/stack5_0.000285_4_tilt.txt
+differ rel against on: p/stack5_0.000285_5.txt
+differ rel against on: p/stack5_0.000285_5_tilt.txt
+differ rel against on: p/stack9_0.000285_1.txt
+differ rel against on: p/stack9_0.000285_1_tilt.txt
+differ rel against on: p/stack9_0.000285_2.txt
+differ rel against on: p/stack9_0.000285_2_tilt.txt
+differ rel against on: p/stack9_0.000285_3.txt
+differ rel against on: p/stack9_0.000285_3_tilt.txt
+differ rel against on: p/stack9_0.000285_4.txt
+differ rel against on: p/stack9_0.000285_4_tilt.txt
+differ rel against on: p/stack9_0.000285_5.txt
+differ rel against on: p/stack9_0.000285_5_tilt.txt
+differ rel against on: p/stack9_0.000285_6.txt
+differ rel against on: p/stack9_0.000285_6_tilt.txt
+differ rel against on: p/stack9_0.000285_7.txt
+differ rel against on: p/stack9_0.000285_7_tilt.txt
+differ rel against on: p/stack9_0.000285_8.txt
+differ rel against on: p/stack9_0.000285_8_tilt.txt
+differ rel against on: p/stack9_0.000285_9.txt
+differ rel against on: p/stack9_0.000285_9_tilt.txt
+differ rel against on: p/stack9_0.00114_1.txt
+differ rel against on: p/stack9_0.00114_1_tilt.txt
+differ rel against on: p/stack9_0.00114_2.txt
+differ rel against on: p/stack9_0.00114_2_tilt.txt
+differ rel against on: p/stack9_0.00114_3.txt
+differ rel against on: p/stack9_0.00114_3_tilt.txt
+differ rel against on: p/stack9_0.00114_4.txt
+differ rel against on: p/stack9_0.00114_4_tilt.txt
+differ rel against on: p/stack9_0.00114_5.txt
+differ rel against on: p/stack9_0.00114_5_tilt.txt
+differ rel against on: p/stack9_0.00114_6.txt
+differ rel against on: p/stack9_0.00114_6_tilt.txt
+differ rel against on: p/stack9_0.00114_7.txt
+differ rel against on: p/stack9_0.00114_7_tilt.txt
+differ rel against on: p/stack9_0.00114_8.txt
+differ rel against on: p/stack9_0.00114_8_tilt.txt
+differ rel against on: p/stack9_0.00114_9.txt
+differ rel against on: p/stack9_0.00114_9_tilt.txt
+rel stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+rel stack9_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 4
+rel offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22 contact_count_changes 51
+rel slide_box_0.00114 slid_um 130843 most_tilt_urad 11883 end_speed_ums 0
+rel holds_0.00114 creep_ums 0 0 
+rel grips_0.00114 creep_ums 1 0 1 0 
+rel stack5_0.000285 most_tilt_urad 2302 end_speed_ums 2064 contact_count_changes 297
+rel stack9_0.000285 most_tilt_urad 2523 end_speed_ums 6801 contact_count_changes 394
+rel offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19 contact_count_changes 103
+rel slide_box_0.000285 slid_um 131393 most_tilt_urad 9731 end_speed_ums 0
+rel holds_0.000285 creep_ums 0 0 
+rel grips_0.000285 creep_ums 1 0 1 0 
+rel solver most_iterations 7 at_iteration_limit 0 warnings 0
+on stack5_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on stack9_0.00114 most_tilt_urad 5873 end_speed_ums 2671 contact_count_changes 322
+on offset3_0.00114 most_tilt_urad 9363 end_speed_ums 22 contact_count_changes 51
+on slide_box_0.00114 slid_um 130843 most_tilt_urad 11883 end_speed_ums 0
+on holds_0.00114 creep_ums 0 0 
+on grips_0.00114 creep_ums 1 0 1 0 
+on stack5_0.000285 most_tilt_urad 1937 end_speed_ums 6484 contact_count_changes 103
+on stack9_0.000285 most_tilt_urad 6130 end_speed_ums 2497 contact_count_changes 339
+on offset3_0.000285 most_tilt_urad 9657 end_speed_ums 19 contact_count_changes 104
+on slide_box_0.000285 slid_um 131393 most_tilt_urad 9731 end_speed_ums 0
+on holds_0.000285 creep_ums 0 0 
+on grips_0.000285 creep_ums 1 0 1 0 
+on solver most_iterations 7 at_iteration_limit 0 warnings 0

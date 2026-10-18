@@ -1,0 +1,2 @@
+SAME suite 1 drop_1 made again
+SAME solref 0.02,1 given against suite 1 drop_1

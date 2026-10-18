@@ -1,0 +1,150 @@
+def joint 0.00114 creep_urads -25670
+def arm 1 0.00114 creep_ums -30403
+def arm 2 0.00114 creep_ums -24461
+def hold 0 0.5 0.00114 creep_ums 581
+def hold 0 0.75 0.00114 creep_ums 1452
+def hold 0 0.95 0.00114 creep_ums 2150
+def slide 0 0.00114 slid_um 133048
+def free 0 0.00114 slid_um 133066 side_um 0
+def hold 22.5 0.5 0.00114 creep_ums 581
+def hold 22.5 0.75 0.00114 creep_ums 1286
+def hold 22.5 0.95 0.00114 creep_ums 490220
+def slide 22.5 0.00114 slid_um 159246
+def free 22.5 0.00114 slid_um 159544 side_um 34808
+def hold 45 0.5 0.00114 creep_ums 581
+def hold 45 0.75 0.00114 creep_ums 131274
+def hold 45 0.95 0.00114 creep_ums 743398
+def slide 45 0.00114 slid_um 188284
+def free 45 0.00114 slid_um 188307 side_um 0
+def grip box 0 0.00114 creep_ums 6398
+def grip mesh 0 0.00114 creep_ums 6398
+def grip box 0.0093 0.00114 creep_ums 6054
+def grip mesh 0.0093 0.00114 creep_ums 8083
+def rest 1 0.00114 creep_ums -1188 slip_x_ums -1290.1 sideways_over_normal 0.1130
+def rest 2 0.00114 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0037
+def joint 0.000285 creep_urads -25670
+def arm 1 0.000285 creep_ums -30404
+def arm 2 0.000285 creep_ums -24463
+def hold 0 0.5 0.000285 creep_ums 581
+def hold 0 0.75 0.000285 creep_ums 1452
+def hold 0 0.95 0.000285 creep_ums 2150
+def slide 0 0.000285 slid_um 133494
+def free 0 0.000285 slid_um 133492 side_um 0
+def hold 22.5 0.5 0.000285 creep_ums 581
+def hold 22.5 0.75 0.000285 creep_ums 1286
+def hold 22.5 0.95 0.000285 creep_ums 489709
+def slide 22.5 0.000285 slid_um 159685
+def free 22.5 0.000285 slid_um 160938 side_um 32453
+def hold 45 0.5 0.000285 creep_ums 581
+def hold 45 0.75 0.000285 creep_ums 131151
+def hold 45 0.95 0.000285 creep_ums 742663
+def slide 45 0.000285 slid_um 188713
+def free 45 0.000285 slid_um 188726 side_um 0
+def grip box 0 0.000285 creep_ums 6398
+def grip mesh 0 0.000285 creep_ums 6398
+def grip box 0.0093 0.000285 creep_ums 6061
+def grip mesh 0.0093 0.000285 creep_ums 8073
+def rest 1 0.000285 creep_ums -1188 slip_x_ums -1290.3 sideways_over_normal 0.1130
+def rest 2 0.000285 creep_ums -13 slip_x_ums -13.0 sideways_over_normal 0.0035
+def suite1 passed 9
+def solver most_iterations 7 at_iteration_limit 0 warnings 0
+n10 joint 0.00114 creep_urads 0
+n10 arm 1 0.00114 creep_ums -93
+n10 arm 2 0.00114 creep_ums -25
+n10 hold 0 0.5 0.00114 creep_ums 0
+n10 hold 0 0.75 0.00114 creep_ums 0
+n10 hold 0 0.95 0.00114 creep_ums 0
+n10 slide 0 0.00114 slid_um 133055
+n10 free 0 0.00114 slid_um 133058 side_um 0
+n10 hold 22.5 0.5 0.00114 creep_ums 0
+n10 hold 22.5 0.75 0.00114 creep_ums 0
+n10 hold 22.5 0.95 0.00114 creep_ums 0
+n10 slide 22.5 0.00114 slid_um 133055
+n10 free 22.5 0.00114 slid_um 136058 side_um -231
+n10 hold 45 0.5 0.00114 creep_ums 0
+n10 hold 45 0.75 0.00114 creep_ums 0
+n10 hold 45 0.95 0.00114 creep_ums 0
+n10 slide 45 0.00114 slid_um 133055
+n10 free 45 0.00114 slid_um 133286 side_um 0
+n10 grip box 0 0.00114 creep_ums 1
+n10 grip mesh 0 0.00114 creep_ums 0
+n10 grip box 0.0093 0.00114 creep_ums 1
+n10 grip mesh 0.0093 0.00114 creep_ums 0
+n10 rest 1 0.00114 creep_ums -714 slip_x_ums -775.6 sideways_over_normal 0.1112
+n10 rest 2 0.00114 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0037
+n10 joint 0.000285 creep_urads 0
+n10 arm 1 0.000285 creep_ums -93
+n10 arm 2 0.000285 creep_ums -25
+n10 hold 0 0.5 0.000285 creep_ums 0
+n10 hold 0 0.75 0.000285 creep_ums 0
+n10 hold 0 0.95 0.000285 creep_ums 0
+n10 slide 0 0.000285 slid_um 133493
+n10 free 0 0.000285 slid_um 133513 side_um 0
+n10 hold 22.5 0.5 0.000285 creep_ums 0
+n10 hold 22.5 0.75 0.000285 creep_ums 0
+n10 hold 22.5 0.95 0.000285 creep_ums 0
+n10 slide 22.5 0.000285 slid_um 133493
+n10 free 22.5 0.000285 slid_um 135753 side_um 83
+n10 hold 45 0.5 0.000285 creep_ums 0
+n10 hold 45 0.75 0.000285 creep_ums 0
+n10 hold 45 0.95 0.000285 creep_ums 0
+n10 slide 45 0.000285 slid_um 133493
+n10 free 45 0.000285 slid_um 133625 side_um 0
+n10 grip box 0 0.000285 creep_ums 1
+n10 grip mesh 0 0.000285 creep_ums 0
+n10 grip box 0.0093 0.000285 creep_ums 1
+n10 grip mesh 0.0093 0.000285 creep_ums 0
+n10 rest 1 0.000285 creep_ums -714 slip_x_ums -775.8 sideways_over_normal 0.1112
+n10 rest 2 0.000285 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0040
+n10 suite1 passed 10
+n10 solver most_iterations 11 at_iteration_limit 0 warnings 0
+n100 joint 0.00114 creep_urads 0
+n100 arm 1 0.00114 creep_ums -2
+n100 arm 2 0.00114 creep_ums -2
+n100 hold 0 0.5 0.00114 creep_ums 0
+n100 hold 0 0.75 0.00114 creep_ums 0
+n100 hold 0 0.95 0.00114 creep_ums 0
+n100 slide 0 0.00114 slid_um 133055
+n100 free 0 0.00114 slid_um 133058 side_um 0
+n100 hold 22.5 0.5 0.00114 creep_ums 0
+n100 hold 22.5 0.75 0.00114 creep_ums 0
+n100 hold 22.5 0.95 0.00114 creep_ums 0
+n100 slide 22.5 0.00114 slid_um 133055
+n100 free 22.5 0.00114 slid_um 136058 side_um -231
+n100 hold 45 0.5 0.00114 creep_ums 0
+n100 hold 45 0.75 0.00114 creep_ums 0
+n100 hold 45 0.95 0.00114 creep_ums 0
+n100 slide 45 0.00114 slid_um 133055
+n100 free 45 0.00114 slid_um 133286 side_um 0
+n100 grip box 0 0.00114 creep_ums 1
+n100 grip mesh 0 0.00114 creep_ums 0
+n100 grip box 0.0093 0.00114 creep_ums 1
+n100 grip mesh 0.0093 0.00114 creep_ums 0
+n100 rest 1 0.00114 creep_ums -714 slip_x_ums -775.6 sideways_over_normal 0.1112
+n100 rest 2 0.00114 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0037
+n100 joint 0.000285 creep_urads 0
+n100 arm 1 0.000285 creep_ums -2
+n100 arm 2 0.000285 creep_ums -2
+n100 hold 0 0.5 0.000285 creep_ums 0
+n100 hold 0 0.75 0.000285 creep_ums 0
+n100 hold 0 0.95 0.000285 creep_ums 0
+n100 slide 0 0.000285 slid_um 133493
+n100 free 0 0.000285 slid_um 133513 side_um 0
+n100 hold 22.5 0.5 0.000285 creep_ums 0
+n100 hold 22.5 0.75 0.000285 creep_ums 0
+n100 hold 22.5 0.95 0.000285 creep_ums 0
+n100 slide 22.5 0.000285 slid_um 133493
+n100 free 22.5 0.000285 slid_um 135753 side_um 83
+n100 hold 45 0.5 0.000285 creep_ums 0
+n100 hold 45 0.75 0.000285 creep_ums 0
+n100 hold 45 0.95 0.000285 creep_ums 0
+n100 slide 45 0.000285 slid_um 133493
+n100 free 45 0.000285 slid_um 133625 side_um 0
+n100 grip box 0 0.000285 creep_ums 1
+n100 grip mesh 0 0.000285 creep_ums 0
+n100 grip box 0.0093 0.000285 creep_ums 1
+n100 grip mesh 0.0093 0.000285 creep_ums 0
+n100 rest 1 0.000285 creep_ums -714 slip_x_ums -775.8 sideways_over_normal 0.1112
+n100 rest 2 0.000285 creep_ums -9 slip_x_ums -9.0 sideways_over_normal 0.0040
+n100 suite1 passed 10
+n100 solver most_iterations 18 at_iteration_limit 0 warnings 0

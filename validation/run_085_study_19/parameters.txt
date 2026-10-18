@@ -1,0 +1,10 @@
+MuJoCo's own box: ~/work/rec085/validation/run_049_desaxce_v4/step2/scene.xml; the fresh boxes' step 0.01411
+box 1: half-size 0.0509 m, mass 0.978 kg, slid at 1.21 m/s
+box 2: half-size 0.0416 m, mass 1.565 kg, slid at 2.05 m/s
+box 3: half-size 0.0491 m, mass 1.342 kg, slid at 2.58 m/s
+box1_0.01411.xml: 4 lines changed from MuJoCo's scene
+box1_0.016.xml: 3 lines changed from MuJoCo's scene
+box2_0.01411.xml: 4 lines changed from MuJoCo's scene
+box2_0.016.xml: 3 lines changed from MuJoCo's scene
+box3_0.01411.xml: 4 lines changed from MuJoCo's scene
+box3_0.016.xml: 3 lines changed from MuJoCo's scene

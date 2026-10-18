@@ -1,0 +1,28 @@
+bounce 0.012 | BOUNCE dt_ns 12000000 speed_in_ums 1411200 steps_to_turn 1 rebound_nm 0 drop_nm 100000000 rebound_per_10000 0
+rest 0.012 | REST dt_ns 12000000 mean_ground_force_mN 9800 weight_mN 9800 | last line of the rig: 82 -24550 0 0 9800 0
+bounce 0.015 | BOUNCE dt_ns 15000000 speed_in_ums 1470000 steps_to_turn 1 rebound_nm -4 drop_nm 100000000 rebound_per_10000 0
+rest 0.015 | REST dt_ns 15000000 mean_ground_force_mN 9800 weight_mN 9800 | last line of the rig: 66 -38319 0 0 9800 0
+bounce 0.02 | BOUNCE dt_ns 20000000 speed_in_ums 1372000 steps_to_turn 1 rebound_nm -72 drop_nm 100000000 rebound_per_10000 0
+rest 0.02 | REST dt_ns 20000000 mean_ground_force_mN 9799 weight_mN 9800 | last line of the rig: 49 -67868 0 0 9800 0
+bounce 0.03 | BOUNCE dt_ns 30000000 speed_in_ums 1470000 steps_to_turn 1 rebound_nm -13146 drop_nm 100000000 rebound_per_10000 0
+rest 0.03 | REST dt_ns 30000000 mean_ground_force_mN 9798 weight_mN 9800 | last line of the rig: 32 -149983 0 7 9800 0
+bounce 0.04 | BOUNCE dt_ns 40000000 speed_in_ums 1568000 steps_to_turn 1 rebound_nm -146326 drop_nm 100000000 rebound_per_10000 0
+rest 0.04 | REST dt_ns 40000000 mean_ground_force_mN 9777 weight_mN 9800 | last line of the rig: 24 -269269 0 163 9798 0
+hold pyramidal 22.5 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1132 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000 | side_um -100 most_side_ums 67
+hold pyramidal 22.5 0.69 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1526 friction_over_normal_per_10000 3450 friction_limit_per_10000 5000 | side_um -253 most_side_ums 170
+hold pyramidal 22.5 0.72 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1657 friction_over_normal_per_10000 3600 friction_limit_per_10000 5000 | side_um -304 most_side_ums 204
+hold pyramidal 22.5 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 148461 friction_over_normal_per_10000 3848 friction_limit_per_10000 5000 | side_um 57931 most_side_ums 78104
+hold pyramidal 22.5 0.85 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 362471 friction_over_normal_per_10000 3880 friction_limit_per_10000 5000 | side_um 142259 most_side_ums 190213
+hold pyramidal 22.5 0.9 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 577163 friction_over_normal_per_10000 3911 friction_limit_per_10000 5000 | side_um 225362 most_side_ums 300868
+slide free pyramidal 0 | STOP dt_ns 2000000 first_stopped_at_step 236 largest_speed_last_third_ums 0 slid_um 126772 came_back_um 0 | side_um 0 most_side_ums 0
+slide free pyramidal 22.5 | STOP dt_ns 2000000 first_stopped_at_step 287 largest_speed_last_third_ums 0 slid_um 152658 came_back_um 0 | side_um 31874 most_side_ums 172108
+slide free pyramidal 45 | STOP dt_ns 2000000 first_stopped_at_step 202 largest_speed_last_third_ums 0 slid_um 179485 came_back_um 0 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 766 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.69 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 881 friction_over_normal_per_10000 3450 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.72 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 919 friction_over_normal_per_10000 3600 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.8 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1021 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.85 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1085 friction_over_normal_per_10000 4250 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+hold elliptic 22.5 0.9 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1149 friction_over_normal_per_10000 4500 friction_limit_per_10000 5000 | side_um 0 most_side_ums 0
+slide free elliptic 0 | STOP dt_ns 2000000 first_stopped_at_step 135 largest_speed_last_third_ums 0 slid_um 126719 came_back_um 89 | side_um 0 most_side_ums 0
+slide free elliptic 22.5 | STOP dt_ns 2000000 first_stopped_at_step 149 largest_speed_last_third_ums 0 slid_um 129091 came_back_um 0 | side_um 1086 most_side_ums 14610
+slide free elliptic 45 | STOP dt_ns 2000000 first_stopped_at_step 164 largest_speed_last_third_ums 0 slid_um 126789 came_back_um 0 | side_um 0 most_side_ums 0

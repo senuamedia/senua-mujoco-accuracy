@@ -1,0 +1,2 @@
+ramp same
+gripper same

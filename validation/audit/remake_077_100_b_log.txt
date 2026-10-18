@@ -1,0 +1,20 @@
+11:36:21 run_077_study_16 cleared
+11:36:21 run_084_set_condim_holds cleared
+11:36:21 run_085_study_19 cleared
+11:36:21 run_086_qcqp_reduced_v2 cleared
+11:36:21 run_087_study_20 cleared
+11:36:21 run_088_step_dependence cleared
+11:36:21 run_089_order_free_cube_stacks cleared
+11:36:21 run_093_stacks_converged cleared
+11:53:39 run_077_study_16 play.sh played, exit 0
+12:00:15 run_084_set_condim_holds probe.sh played, exit 0
+12:07:25 run_085_study_19 play.sh played, exit 0
+12:14:01 run_086_qcqp_reduced_v2 probe.sh played, exit 0
+12:23:10 run_087_study_20 play.sh played, exit 0
+12:23:15 run_088_step_dependence probe.sh played, exit 0
+12:23:18 run_088_step_dependence probe_2.sh played, exit 0
+12:23:26 run_089_order_free_cube_stacks probe.sh played, exit 0
+12:23:33 run_089_order_free_cube_stacks probe_2.sh played, exit 0
+12:31:21 run_093_stacks_converged probe.sh played, exit 0
+12:31:38 home folder written as ~; compressed as the record keeps them
+12:31:44 compared: 6119 same, 77 differ, 26 missing, 23 new

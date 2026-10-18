@@ -1,0 +1,6 @@
+.DS_Store
+# local play output and scratch
+work/
+# the rigs, built from tools/*.c by tools/build_rig.sh
+tools/mjc_*
+!tools/mjc_*.c

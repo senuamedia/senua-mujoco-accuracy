@@ -1,0 +1,116 @@
+files rel against off: 185 of 185 the same
+files rel against on: 136 of 185 the same
+differ rel against on: p/changes.txt
+differ rel against on: p/offset3_rec_0.000285_1.txt
+differ rel against on: p/offset3_rec_0.000285_1_tilt.txt
+differ rel against on: p/offset3_rec_0.000285_2.txt
+differ rel against on: p/offset3_rec_0.000285_2_tilt.txt
+differ rel against on: p/offset3_rec_0.000285_3.txt
+differ rel against on: p/offset3_rec_0.000285_3_tilt.txt
+differ rel against on: p/stack5_def_0.000285_1.txt
+differ rel against on: p/stack5_def_0.000285_2.txt
+differ rel against on: p/stack5_def_0.000285_3.txt
+differ rel against on: p/stack5_def_0.000285_4.txt
+differ rel against on: p/stack5_def_0.000285_5.txt
+differ rel against on: p/stack5_rec_0.000285_1.txt
+differ rel against on: p/stack5_rec_0.000285_1_tilt.txt
+differ rel against on: p/stack5_rec_0.000285_2.txt
+differ rel against on: p/stack5_rec_0.000285_2_tilt.txt
+differ rel against on: p/stack5_rec_0.000285_3.txt
+differ rel against on: p/stack5_rec_0.000285_3_tilt.txt
+differ rel against on: p/stack5_rec_0.000285_4.txt
+differ rel against on: p/stack5_rec_0.000285_4_tilt.txt
+differ rel against on: p/stack5_rec_0.000285_5.txt
+differ rel against on: p/stack5_rec_0.000285_5_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_1.txt
+differ rel against on: p/stack9_rec_0.000285_1_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_2.txt
+differ rel against on: p/stack9_rec_0.000285_2_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_3.txt
+differ rel against on: p/stack9_rec_0.000285_3_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_4.txt
+differ rel against on: p/stack9_rec_0.000285_4_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_5.txt
+differ rel against on: p/stack9_rec_0.000285_5_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_6.txt
+differ rel against on: p/stack9_rec_0.000285_6_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_7.txt
+differ rel against on: p/stack9_rec_0.000285_7_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_8.txt
+differ rel against on: p/stack9_rec_0.000285_8_tilt.txt
+differ rel against on: p/stack9_rec_0.000285_9.txt
+differ rel against on: p/stack9_rec_0.000285_9_tilt.txt
+differ rel against on: p/stack9_rec_0.00114_1.txt
+differ rel against on: p/stack9_rec_0.00114_2.txt
+differ rel against on: p/stack9_rec_0.00114_3.txt
+differ rel against on: p/stack9_rec_0.00114_4.txt
+differ rel against on: p/stack9_rec_0.00114_5.txt
+differ rel against on: p/stack9_rec_0.00114_6.txt
+differ rel against on: p/stack9_rec_0.00114_7.txt
+differ rel against on: p/stack9_rec_0.00114_8.txt
+differ rel against on: p/stack9_rec_0.00114_9.txt
+rel stack5_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+rel stack9_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 4
+rel offset3_rec_0.00114 most_tilt_urad 9363 end_speed_ums 22 contact_count_changes 51
+rel slide_box_rec_0.00114 slid_um 130843 most_tilt_urad 11883 end_speed_ums 0
+rel holds_rec_0.00114 creep_ums 0 0 
+rel grips_rec_0.00114 creep_ums 1 0 1 0 
+rel stack5_rec_0.000285 most_tilt_urad 2302 end_speed_ums 2064 contact_count_changes 297
+rel stack9_rec_0.000285 most_tilt_urad 2523 end_speed_ums 6801 contact_count_changes 394
+rel offset3_rec_0.000285 most_tilt_urad 9657 end_speed_ums 19 contact_count_changes 103
+rel slide_box_rec_0.000285 slid_um 131393 most_tilt_urad 9731 end_speed_ums 0
+rel holds_rec_0.000285 creep_ums 0 0 
+rel grips_rec_0.000285 creep_ums 1 0 1 0 
+rel stack5_def_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+rel stack9_def_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+rel offset3_def_0.00114 most_tilt_urad 1943 end_speed_ums 35 contact_count_changes 0
+rel slide_box_def_0.00114 slid_um 130714 most_tilt_urad 5781 end_speed_ums 0
+rel holds_def_0.00114 creep_ums 581 2150 
+rel grips_def_0.00114 creep_ums 6398 6398 6054 8083 
+rel stack5_def_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 2
+rel stack9_def_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+rel offset3_def_0.000285 most_tilt_urad 1943 end_speed_ums 35 contact_count_changes 0
+rel slide_box_def_0.000285 slid_um 131467 most_tilt_urad 9687 end_speed_ums 0
+rel holds_def_0.000285 creep_ums 581 2150 
+rel grips_def_0.000285 creep_ums 6398 6398 6061 8073 
+rel solver most_iterations 7 at_iteration_limit 0 warnings 0
+on stack5_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on stack9_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on offset3_rec_0.00114 most_tilt_urad 9363 end_speed_ums 22 contact_count_changes 51
+on slide_box_rec_0.00114 slid_um 130843 most_tilt_urad 11883 end_speed_ums 0
+on holds_rec_0.00114 creep_ums 0 0 
+on grips_rec_0.00114 creep_ums 1 0 1 0 
+on stack5_rec_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on stack9_rec_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on offset3_rec_0.000285 most_tilt_urad 9528 end_speed_ums 21 contact_count_changes 101
+on slide_box_rec_0.000285 slid_um 131393 most_tilt_urad 9731 end_speed_ums 0
+on holds_rec_0.000285 creep_ums 0 0 
+on grips_rec_0.000285 creep_ums 1 0 1 0 
+on stack5_def_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on stack9_def_0.00114 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on offset3_def_0.00114 most_tilt_urad 1943 end_speed_ums 35 contact_count_changes 0
+on slide_box_def_0.00114 slid_um 130714 most_tilt_urad 5781 end_speed_ums 0
+on holds_def_0.00114 creep_ums 581 2150 
+on grips_def_0.00114 creep_ums 6398 6398 6054 8083 
+on stack5_def_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on stack9_def_0.000285 most_tilt_urad 0 end_speed_ums 0 contact_count_changes 0
+on offset3_def_0.000285 most_tilt_urad 1943 end_speed_ums 35 contact_count_changes 0
+on slide_box_def_0.000285 slid_um 131467 most_tilt_urad 9687 end_speed_ums 0
+on holds_def_0.000285 creep_ums 581 2150 
+on grips_def_0.000285 creep_ums 6398 6398 6061 8073 
+on solver most_iterations 7 at_iteration_limit 0 warnings 0
+the grid under the configuration, the most tilt of any cube (urad) and the contact count changes, rel then on:
+stack5 0.0001425 | def 4450/419 0/0 | 1e-9 2322/611 0/0 | 1e-10 2528/438 0/0 | 1e-11 0/4 0/0 | 1e-12 0/2 0/0 | 1e-14 0/0 0/0
+stack5 0.000285 | def 2302/297 0/0 | 1e-9 2375/137 0/0 | 1e-10 0/4 0/0 | 1e-11 2738/58 0/0 | 1e-12 0/5 0/0 | 1e-14 0/0 0/0
+stack5 0.00057 | def 0/5 0/0 | 1e-9 0/6 0/0 | 1e-10 1828/186 0/0 | 1e-11 0/4 0/0 | 1e-12 0/4 0/0 | 1e-14 0/0 0/0
+stack5 0.000855 | def 0/2 0/0 | 1e-9 0/4 0/0 | 1e-10 0/6 0/0 | 1e-11 0/10 0/0 | 1e-12 0/5 0/0 | 1e-14 0/0 0/0
+stack5 0.00114 | def 0/0 0/0 | 1e-9 0/0 0/0 | 1e-10 0/4 0/0 | 1e-11 2754/138 0/0 | 1e-12 3696/218 0/0 | 1e-14 0/7 0/0
+stack9 0.0001425 | def 0/7 0/0 | 1e-9 0/6 0/0 | 1e-10 817/118 0/0 | 1e-11 0/6 0/0 | 1e-12 0/4 0/0 | 1e-14 0/0 0/0
+stack9 0.000285 | def 2523/394 0/0 | 1e-9 0/6 0/0 | 1e-10 0/4 0/0 | 1e-11 0/6 0/0 | 1e-12 0/7 0/0 | 1e-14 0/0 0/0
+stack9 0.00057 | def 0/8 0/0 | 1e-9 0/10 0/0 | 1e-10 4241/453 0/0 | 1e-11 1146/64 0/0 | 1e-12 0/8 0/0 | 1e-14 0/0 0/0
+stack9 0.000855 | def 270/54 0/0 | 1e-9 2687/147 0/0 | 1e-10 8562/351 0/0 | 1e-11 0/6 0/0 | 1e-12 3052/383 0/0 | 1e-14 0/0 0/0
+stack9 0.00114 | def 0/4 0/0 | 1e-9 0/10 0/0 | 1e-10 2272/431 0/0 | 1e-11 1527/95 0/0 | 1e-12 3302/503 0/0 | 1e-14 0/4 0/0
+rel grid solver most_iterations 5 at_iteration_limit 0 warnings 0
+on grid solver most_iterations 5 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with the switch set: 0
+MuJoCo suite, the switch unset against the release (run 064's suite_results_release.txt): 0 tests read differently

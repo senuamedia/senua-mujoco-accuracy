@@ -1,0 +1,43 @@
+RULE E1_safe_when_off eq 152 152 : HELD
+RULE M0_every_suite_read all_eq 3492 3492 3492 3492 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE M1_mujoco_suite_named_only eq 0 0 : HELD
+RULE P0_every_play_measured all_eq 159 159 159 159 159 : HELD
+RULE G14_Q1_released_coupling_breaks all_ge 100 386 386 386 650156 1639316 : HELD
+RULE G14_C1_coupling_kept all_le 10 0 0 0 0 0 : HELD
+RULE G14_C2_held_body_holds all_le 10000 0 0 0 0 0 : HELD
+RULE G14_C3_load_as_without_noslip_1 all_within 581 100 581 : HELD
+RULE G14_C3_load_as_without_noslip_2 all_within 581 100 581 : HELD
+RULE G14_R1_held_arm_rests all_le 10 0 0 0 0 : HELD
+RULE G14_N1_nothing_else_changes eq 106 106 : HELD
+RULE G14_R2_every_arm_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G14_G2_every_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE G14_B2_every_box_rests all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G14_H2_every_hold_holds all_le 10 0 0 0 0 : HELD
+RULE G14_V1_iteration_limit eq 0 0 : HELD
+RULE G14_V1_warnings eq 0 0 : HELD
+RULE G15_Q1_one_mesh_on_the_hull_1_defaults near 10366909 10000000 1000000 : HELD
+RULE G15_C0_primitives_on_the_floor_1_defaults near 50466909 50100000 1000000 : HELD
+RULE G15_C2_set_primitives_on_the_floor_1_defaults near 50466909 50100000 1000000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_rel_1_defaults near 50466909 50466909 1000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_set6_1_defaults near 50466909 50466909 1000 : HELD
+RULE G15_Q1_one_mesh_on_the_hull_1_config near 10366909 10000000 1000000 : HELD
+RULE G15_C0_primitives_on_the_floor_1_config near 50466909 50100000 1000000 : HELD
+RULE G15_C2_set_primitives_on_the_floor_1_config near 50466909 50100000 1000000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_rel_1_config near 50466909 50466909 1000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_set6_1_config near 50466909 50466909 1000 : HELD
+RULE G15_Q1_one_mesh_on_the_hull_2_defaults near 10366910 10000000 1000000 : HELD
+RULE G15_C0_primitives_on_the_floor_2_defaults near 45966909 45600000 1000000 : HELD
+RULE G15_C2_set_primitives_on_the_floor_2_defaults near 45966909 45600000 1000000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_rel_2_defaults near 45966909 45966909 1000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_set6_2_defaults near 45966909 45966909 1000 : HELD
+RULE G15_Q1_one_mesh_on_the_hull_2_config near 10366910 10000000 1000000 : HELD
+RULE G15_C0_primitives_on_the_floor_2_config near 45966909 45600000 1000000 : HELD
+RULE G15_C2_set_primitives_on_the_floor_2_config near 45966909 45600000 1000000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_rel_2_config near 45966909 45966909 1000 : HELD
+RULE G15_C1_convex_meshes_as_primitives_set6_2_config near 45966909 45966909 1000 : HELD
+RULE G15_S1_every_cup_at_rest all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+reported: changed with the six switches set: SolverTest.ZeroToleranceDisablesTermination
+reported: rel solver_eq most_iterations 18 at_iteration_limit 0 warnings 0
+reported: set6 solver_eq most_iterations 101 at_iteration_limit 1423 warnings 0
+rules: 39, held: 39

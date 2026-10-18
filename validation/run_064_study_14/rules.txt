@@ -1,0 +1,16 @@
+RULE Q1_released_arm_creeps ge 497 11 : HELD
+RULE E1_safe_when_off_def eq 129 129 : HELD
+RULE E1_safe_when_off_rec eq 129 129 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE P1_defaults_untouched eq 129 129 : HELD
+RULE M1_mujoco_suite_as_off eq 0 0 : HELD
+RULE on_rec_R1_every_resting_pose_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_R2_every_dropped_arm_holds all_le 10 0 50 0 7 0 66 0 2 : FAILED
+RULE on_rec_N1_nothing_else_changes eq 89 89 : HELD
+RULE on_rec_J1_joint_holds all_le 10 2 2 2 2 : HELD
+RULE on_rec_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_G1_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE on_rec_K1_ten_tests eq 9 10 : FAILED
+RULE on_rec_V1_iteration_limit eq 0 0 : HELD
+RULE on_rec_V1_warnings eq 0 0 : HELD
+rules: 15, held: 13

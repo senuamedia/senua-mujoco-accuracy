@@ -1,0 +1,46 @@
+--- a/src/engine/engine_solver.c	2026-10-17 12:27:25
++++ b/src/engine/engine_solver.c	2026-10-17 12:28:03
+@@ -16,6 +16,8 @@
+ 
+ #include <stddef.h>
+ #include <stdint.h>
++#include <stdio.h>
++#include <stdlib.h>
+ #include <string.h>
+ 
+ #include <mujoco/mjdata.h>
+@@ -918,11 +920,34 @@
+         // QCQP
+         else {
+           solveQCQP(force, i, dim, Ac, bc, mu);
++        }
++
++        // Senua AI instrumentation, in design (off unless MUJOCO_NOSLIP_TRACE_ALL is set): for each elliptic contact with
++        // torsional or rolling friction (dim 4 or 6), at each noslip sweep, every friction component before the sweep,
++        // as the friction solve returns it, and as kept after MuJoCo's cost check, with the residual and coefficients
++        int trace_all = getenv("MUJOCO_NOSLIP_TRACE_ALL") != NULL && dim >= 4;
++        mjtNum trace_new[6];
++        if (trace_all) {
++          mju_copy(trace_new, force+i+1, dim-1);
+         }
+ 
+         // accumulate improvement
+         improvement -= costChange(Ac, force+i+1, oldforce, res, dim-1);
+ 
++        if (trace_all) {
++          fprintf(stderr, "NOSLIPF iter %d contact %d dim %d normal %.9g old", iter, d->efc_id[i], dim, force[i]);
++          for (int j=0; j < dim-1; j++) fprintf(stderr, " %.9g", oldforce[j]);
++          fprintf(stderr, " new");
++          for (int j=0; j < dim-1; j++) fprintf(stderr, " %.9g", trace_new[j]);
++          fprintf(stderr, " kept");
++          for (int j=0; j < dim-1; j++) fprintf(stderr, " %.9g", force[i+1+j]);
++          fprintf(stderr, " res");
++          for (int j=0; j < dim-1; j++) fprintf(stderr, " %.9g", res[j]);
++          fprintf(stderr, " mu");
++          for (int j=0; j < dim-1; j++) fprintf(stderr, " %.9g", mu[j]);
++          fprintf(stderr, "\n");
++        }
++
+         // skip the rest of this contact
+         c += (dim-1);
+       }

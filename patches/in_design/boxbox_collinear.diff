@@ -1,0 +1,52 @@
+--- a/src/engine/engine_collision_box.c	2026-10-17 12:05:46
++++ b/src/engine/engine_collision_box.c	2026-10-17 12:06:09
+@@ -13,6 +13,7 @@
+ // limitations under the License.
+ 
+ #include <math.h>
++#include <stdlib.h>
+ 
+ #include "engine/engine_collision_primitive.h"
+ #include "engine/engine_inline.h"
+@@ -1035,6 +1036,41 @@
+     }
+     if (!dupe) {
+       mji_copy3(accepted[naccept++], cur[k]);
++    }
++  }
++
++  // Senua AI patch, in design (off unless MUJOCO_BOXBOX_COLLINEAR=1): the clipped polygon without the vertices that
++  // lie on a straight line with their two neighbours. Two boxes face to face whose faces have the same extent along an
++  // axis (a straight stack of equal cubes) put the incident face's edges on the reference face's side planes; a turn or
++  // shift of the incident face by rounding or by a small real drift makes the clip emit an intersection part way along
++  // each such edge. It lies on the polygon's edge, adds nothing to the support polygon, and becomes one more contact at
++  // the corners' depth, so the face's contacts go from 4 to 6 or 8 and back from step to step, and with them the force
++  // the face carries. A vertex is dropped when the sine of the turn of the polygon's boundary at it is below the noise
++  // level the separation test already uses for parallel edges (sin^2 below mjBOXBOX_PAREPS); the polygon is kept whole
++  // when fewer than 3 vertices would remain.
++  {
++    const char* s = getenv("MUJOCO_BOXBOX_COLLINEAR");
++    if (s && s[0] == '1' && s[1] == 0 && naccept > 3) {
++      mjtNum kept[mjBOXBOX_MAXVERT][3];
++      int nkept = 0;
++      for (int k = 0; k < naccept; k++) {
++        const mjtNum* p0 = accepted[(k + naccept - 1) % naccept];
++        const mjtNum* p1 = accepted[k];
++        const mjtNum* p2 = accepted[(k + 1) % naccept];
++        mjtNum ux = p1[0] - p0[0], uy = p1[1] - p0[1], wx = p2[0] - p1[0], wy = p2[1] - p1[1];
++        mjtNum cross = ux*wy - uy*wx;
++        mjtNum norm2 = (ux*ux + uy*uy) * (wx*wx + wy*wy);
++        if (cross*cross < mjBOXBOX_PAREPS*norm2) {
++          continue;
++        }
++        mji_copy3(kept[nkept++], p1);
++      }
++      if (nkept >= 3) {
++        for (int k = 0; k < nkept; k++) {
++          mji_copy3(accepted[k], kept[k]);
++        }
++        naccept = nkept;
++      }
+     }
+   }
+   if (naccept == 0) {

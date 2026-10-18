@@ -1,0 +1,35 @@
+g1_dt 0.001729
+g1a_mass 1.369
+g1a_half 0.0387
+g1a_mu 0.567
+g1b_mass 1.059
+  (g1b_half drawn again: 0.0455)
+g1b_half 0.0382
+g1b_mu 0.873
+g9_dt 0.000741
+g9_mass 0.677
+  (g9_half drawn again: 0.0509)
+g9_half 0.054
+g9_mu 0.646
+g9_off1 0.057
+g9_off2 0.123
+g9_off3 0.395
+g14_dt 0.001819
+g14h1_mass 131.88
+g14h1_k 1.975
+g14h2_mass 48.302
+g14h2_k 1.5
+g14h3_mass 497.338
+g14h3_k 2.821
+g14i1_f 58361
+g14i1_phi 0.558
+g14i2_f 88578
+g14i2_phi 0.392
+g14l1_k 2.355
+g14l2_k 2.42
+g14_jf 4.315
+gs_dt 0.000619
+gs_mass 1.646
+gs_half 0.0258
+gs_mu 0.522
+gs_v 0.537

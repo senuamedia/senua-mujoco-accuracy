@@ -1,0 +1,36 @@
+RULE R1_safe_when_off_plays eq 101 102 : FAILED
+RULE R2_safe_when_off_suite eq 0 0 : HELD
+RULE R3_release_direction_40 share 74747 104804 100 115 : HELD
+RULE R3_release_direction_65 share 74747 92392 100 115 : HELD
+RULE R4_no_direction_0.0015 all_within 74747 10000 74747 74747 74747 74747 : HELD
+RULE R5_no_drift_0.0015 all_le 10 0 0 0 0 0 : HELD
+RULE R4_no_direction_0.000375 all_within 75243 10000 75243 75243 75243 75243 : HELD
+RULE R5_no_drift_0.000375 all_le 10 0 0 0 0 0 : HELD
+RULE R6_coulomb all_within 75139 100 75243 75243 75243 75243 75243 : HELD
+RULE R7_no_direction_hold_0.78 all_within 2482 100 2482 2482 2482 2482 : HELD
+RULE R7_no_direction_hold_0.88 all_within 3038 100 3038 3038 3038 3038 : HELD
+RULE R8_release_hold_lets_go share 3038 638509 1 10 : HELD
+RULE R9_moving_floor_on_belt35_0.0015 near 198 197 1 : HELD
+RULE R10_moving_floor_release_belt35_0.0015 ge 51 2 : HELD
+RULE R9_moving_floor_on_belt55_0.0015 near 253 253 1 : HELD
+RULE R10_moving_floor_release_belt55_0.0015 ge 76 2 : HELD
+RULE R9_moving_floor_on_belt35_0.000375 near 810 808 1 : FAILED
+RULE R10_moving_floor_release_belt35_0.000375 ge 204 2 : HELD
+RULE R9_moving_floor_on_belt55_0.000375 near 1034 1032 1 : FAILED
+RULE R10_moving_floor_release_belt55_0.000375 ge 303 2 : HELD
+RULE R11_free_cube all_within 74880 100 75583 75421 75042 74998 : HELD
+RULE R11_free_cube_drift all_le 1000 0 575 595 521 14 : HELD
+RULE R12_SensorTest.ContactStage eq 1 1 : HELD
+RULE R12_SensorTest.ContactVelocity eq 1 1 : HELD
+RULE R12_SleepTest.SleepingUnaffectedByWaking eq 1 1 : HELD
+RULE R12_IpcTest.FoldDenseBlocksSolveMatches eq 1 1 : HELD
+RULE R12_ForwardTest.DiscreteStiffLegPress eq 1 1 : HELD
+RULE R13_suites_on_as_released eq 72 72 : HELD
+RULE R13_mujoco_suite_beside_the_lift eq 0 0 : HELD
+RULE R14_iteration_limit eq 0 0 : HELD
+RULE R14_warnings eq 0 0 : HELD
+RULE R14_most_iterations le_plus 7 5 2 : HELD
+reported: changed with the switch set: 571 InverseTest.DiscreteInverseFreeBody Failed
+reported: lift 0.0015, release 390 298 311 154 363 / on 390 390 390 390 390 
+reported: lift 0.000375, release 54 31 34 34 55 / on 54 54 54 54 54 
+rules: 32, held: 29

@@ -1,0 +1,51 @@
+22:21:50 rigs built against the release
+22:21:50 run 019 cleared
+22:21:51 run 019 played, exit 0
+22:21:52 run 020 cleared
+22:24:39 run 020 played, exit 0
+22:24:40 run 021 cleared
+22:34:52 run 021 played, exit 0
+22:34:53 run 022 cleared
+22:45:04 run 022 played, exit 0
+22:45:05 run 023 cleared
+22:55:13 run 023 played, exit 0
+22:55:14 run 024 cleared
+23:05:24 run 024 played, exit 0
+23:05:25 run 025 cleared
+23:05:27 run 025 played, exit 0
+23:05:28 run 026 cleared
+23:05:31 run 026 played, exit 0
+23:05:32 run 027 cleared
+23:05:33 run 027 played, exit 0
+23:05:34 run 028 cleared
+23:05:40 run 028 played, exit 0
+23:05:41 run 029 cleared
+23:13:58 run 029 played, exit 0
+23:13:59 run 030 cleared
+23:22:17 run 030 played, exit 0
+23:22:18 run 031 cleared
+23:33:13 run 031 played, exit 0
+23:33:14 run 032 cleared
+23:33:15 run 032 played, exit 0
+23:33:16 run 033 cleared
+23:44:16 run 033 played, exit 0
+23:44:17 run 034 cleared
+23:44:18 run 034 played, exit 0
+23:44:19 run 035 cleared
+23:55:20 run 035 played, exit 0
+23:55:21 run 036 cleared
+23:55:22 run 036 played, exit 0
+23:55:23 run 037 cleared
+00:06:22 run 037 played, exit 0
+00:06:23 run 038 cleared
+00:17:25 run 038 played, exit 0
+00:17:26 run 039 cleared
+00:18:05 run 039 played, exit 0
+00:18:06 run 040 cleared
+00:26:23 run 040 played, exit 0
+00:26:24 run 041 cleared
+00:26:52 run 041 played, exit 0
+00:26:53 run 042 cleared
+00:35:50 run 042 played, exit 0
+00:35:59 home folder written as ~ in the re-made outputs
+00:36:17 compared: 7769 same, 137 differ, 36 missing, 1860 new

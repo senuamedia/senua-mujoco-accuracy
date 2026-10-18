@@ -1,0 +1,50 @@
+released hold 0 0.5 0.002 creep_ums 700
+released hold 0 0.75 0.002 creep_ums 1749
+released hold 0 0.95 0.002 creep_ums 2589
+released slide 0 0.002 slid_um 136312
+released hold 30 0.5 0.002 creep_ums 700
+released hold 30 0.75 0.002 creep_ums 59883
+released hold 30 0.95 0.002 creep_ums 724702
+released slide 30 0.002 slid_um 177648
+released hold 60 0.5 0.002 creep_ums 700
+released hold 60 0.75 0.002 creep_ums 59883
+released hold 60 0.95 0.002 creep_ums 724702
+released slide 60 0.002 slid_um 177648
+released hold 0 0.5 0.0005 creep_ums 700
+released hold 0 0.75 0.0005 creep_ums 1749
+released hold 0 0.95 0.0005 creep_ums 2589
+released slide 0 0.0005 slid_um 137132
+released hold 30 0.5 0.0005 creep_ums 700
+released hold 30 0.75 0.0005 creep_ums 59793
+released hold 30 0.95 0.0005 creep_ums 724162
+released slide 30 0.0005 slid_um 178524
+released hold 60 0.5 0.0005 creep_ums 700
+released hold 60 0.75 0.0005 creep_ums 59793
+released hold 60 0.95 0.0005 creep_ums 724162
+released slide 60 0.0005 slid_um 178524
+released suite passed 9 t06_failed 1 most_iterations 4 at_iteration_limit 0 warnings 0
+recommended hold 0 0.5 0.002 creep_ums 0
+recommended hold 0 0.75 0.002 creep_ums 0
+recommended hold 0 0.95 0.002 creep_ums 0
+recommended slide 0 0.002 slid_um 136273
+recommended hold 30 0.5 0.002 creep_ums 0
+recommended hold 30 0.75 0.002 creep_ums 0
+recommended hold 30 0.95 0.002 creep_ums 0
+recommended slide 30 0.002 slid_um 136273
+recommended hold 60 0.5 0.002 creep_ums 0
+recommended hold 60 0.75 0.002 creep_ums 0
+recommended hold 60 0.95 0.002 creep_ums 0
+recommended slide 60 0.002 slid_um 136273
+recommended hold 0 0.5 0.0005 creep_ums 0
+recommended hold 0 0.75 0.0005 creep_ums 0
+recommended hold 0 0.95 0.0005 creep_ums 0
+recommended slide 0 0.0005 slid_um 137117
+recommended hold 30 0.5 0.0005 creep_ums 0
+recommended hold 30 0.75 0.0005 creep_ums 0
+recommended hold 30 0.95 0.0005 creep_ums 0
+recommended slide 30 0.0005 slid_um 137117
+recommended hold 60 0.5 0.0005 creep_ums 0
+recommended hold 60 0.75 0.0005 creep_ums 0
+recommended hold 60 0.95 0.0005 creep_ums 0
+recommended slide 60 0.0005 slid_um 137117
+recommended suite passed 10 t06_failed 0 most_iterations 5 at_iteration_limit 0 warnings 0

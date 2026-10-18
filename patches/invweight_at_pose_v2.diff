@@ -1,0 +1,125 @@
+diff -ru a/src/engine/engine_core_constraint.c b/src/engine/engine_core_constraint.c
+--- a/src/engine/engine_core_constraint.c	2026-10-14 06:52:33.000000000 +0000
++++ b/src/engine/engine_core_constraint.c	2026-10-15 10:07:18.582662965 +0000
+@@ -16,6 +16,7 @@
+ 
+ #include <stdio.h>
+ #include <stddef.h>
++#include <stdlib.h>
+ 
+ #include <mujoco/mjdata.h>
+ #include <mujoco/mjmacro.h>
+@@ -1502,6 +1503,79 @@
+ //------------------------ compute constraint parameters -------------------------------------------
+ 
+ // compute diagApprox
++// Senua AI patch, in design: MUJOCO_INVWEIGHT_AT_POSE=1 takes each body's inverse weight, which sets the
++// regularisation of a contact, in the pose the bodies are in, by the formula mj_setConst uses for body_invweight0 in
++// the pose a model is written in (qpos0); read once, so every thread reads the same value
++static int mj_invweightAtPose(void) {
++  static int on = -1;
++  if (on < 0) {
++    const char* sw = getenv("MUJOCO_INVWEIGHT_AT_POSE");
++    on = (sw && sw[0] == '1' && sw[1] == 0) ? 1 : 0;
++  }
++  return on;
++}
++
++// Senua AI patch, in design: body b's translational and rotational inverse weight in the current pose, computed as
++// engine_setconst.c computes body_invweight0 in qpos0
++static void mj_bodyInvweightAtPose(const mjModel* m, mjData* d, int b, mjtNum res[2]) {
++  int nv = m->nv;
++  if (m->body_dofnum[m->body_weldid[b]] == 0) {
++    res[0] = res[1] = 0;
++  } else if (m->body_simple[b] == 2) {
++    res[0] = 1/mju_max(mjMINVAL, m->body_mass[b]);
++    res[1] = 0;
++  } else {
++    mj_markStack(d);
++    mjtNum* jac = mjSTACKALLOC(d, 6*nv, mjtNum);
++    mjtNum* tmp = mjSTACKALLOC(d, 6*nv, mjtNum);
++    mjtNum A[36];
++    mj_jacBodyCom(m, d, jac, jac+3*nv, b);
++    mj_solveM(m, d, tmp, jac, 6);
++    mju_mulMatMatT(A, jac, tmp, 6, nv, 6);
++    res[0] = (A[0] + A[7] + A[14])/3;
++    res[1] = (A[21] + A[28] + A[35])/3;
++    mj_freeStack(d);
++  }
++}
++
++
++// Senua AI patch, in design: the inverse weight of the joint that owns dof `dof`, in the current pose, computed as
++// engine_setconst.c computes dof_invweight0 in qpos0
++static mjtNum mj_dofInvweightAtPose(const mjModel* m, mjData* d, int dof) {
++  int nv = m->nv, j = m->dof_jntid[dof], id = m->jnt_dofadr[j], dnum;
++  if (m->body_simple[m->jnt_bodyid[j]] == 2) {
++    return 1/mju_max(mjMINVAL, m->body_mass[m->jnt_bodyid[j]]);
++  }
++  if (m->jnt_type[j] == mjJNT_FREE) {
++    dnum = 6;
++  } else if (m->jnt_type[j] == mjJNT_BALL) {
++    dnum = 3;
++  } else {
++    dnum = 1;
++  }
++  mj_markStack(d);
++  mjtNum* jac = mjSTACKALLOC(d, dnum*nv, mjtNum);
++  mjtNum* tmp = mjSTACKALLOC(d, dnum*nv, mjtNum);
++  mjtNum A[36];
++  mju_zero(jac, dnum*nv);
++  for (int k=0; k < dnum; k++) {
++    jac[k*(nv+1) + id] = 1;
++  }
++  mj_solveM(m, d, tmp, jac, dnum);
++  mju_mulMatMatT(A, jac, tmp, dnum, nv, dnum);
++  mjtNum res;
++  if (dnum == 6) {
++    res = (dof - id < 3) ? (A[0] + A[7] + A[14])/3 : (A[21] + A[28] + A[35])/3;
++  } else if (dnum == 3) {
++    res = (A[0] + A[4] + A[8])/3;
++  } else {
++    res = A[0];
++  }
++  mj_freeStack(d);
++  return res;
++}
++
++
+ void mj_diagApprox(const mjModel* m, mjData* d) {
+   int id, dim, b1, b2, f, weldcnt = 0;
+   int nefc = d->nefc;
+@@ -1659,10 +1733,18 @@
+ 
+     case mjCNSTR_FRICTION_DOF:
+       dA[i] = m->dof_invweight0[id];
++      // Senua AI patch, in design: with MUJOCO_INVWEIGHT_AT_POSE=1, the joint's weight in the current pose
++      if (mj_invweightAtPose()) {
++        dA[i] = mj_dofInvweightAtPose(m, d, id);
++      }
+       break;
+ 
+     case mjCNSTR_LIMIT_JOINT:
+       dA[i] = m->dof_invweight0[m->jnt_dofadr[id]];
++      // Senua AI patch, in design: with MUJOCO_INVWEIGHT_AT_POSE=1, the joint's weight in the current pose
++      if (mj_invweightAtPose()) {
++        dA[i] = mj_dofInvweightAtPose(m, d, m->jnt_dofadr[id]);
++      }
+       break;
+ 
+     case mjCNSTR_FRICTION_TENDON:
+@@ -1687,6 +1769,14 @@
+ 
+         // add weighted average over bodies
+         for (int k=0; k < nb; k++) {
++          // Senua AI patch, in design: with MUJOCO_INVWEIGHT_AT_POSE=1, the weight in the current pose
++          if (mj_invweightAtPose()) {
++            mjtNum w[2];
++            mj_bodyInvweightAtPose(m, d, bid[k], w);
++            tran += w[0] * bweight[k];
++            rot += w[1] * bweight[k];
++            continue;
++          }
+           tran += m->body_invweight0[2*bid[k]] * bweight[k];
+           rot += m->body_invweight0[2*bid[k]+1] * bweight[k];
+         }

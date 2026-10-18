@@ -1,0 +1,22 @@
+11:36:00 run_078_offset_stack_contacts cleared
+11:36:00 run_079_noslip_roll_kept cleared
+11:36:00 run_080_study_17 cleared
+11:36:00 run_081_study_18 cleared
+11:36:00 run_082_noslip_roll_cone cleared
+11:36:00 run_083_condim6_hold_trace cleared
+11:36:00 run_090_row_order_swap cleared
+11:36:00 run_092_mesh_hull_cup cleared
+11:36:00 run_094_noslip_costs cleared
+11:36:12 run_078_offset_stack_contacts probe.sh played, exit 0
+11:47:22 run_079_noslip_roll_kept probe.sh played, exit 0
+11:47:24 run_080_study_17 play.sh played, exit 0
+11:47:27 run_081_study_18 play.sh played, exit 0
+11:58:45 run_082_noslip_roll_cone probe.sh played, exit 0
+11:59:50 run_083_condim6_hold_trace probe.sh played, exit 0
+12:00:56 run_090_row_order_swap probe.sh played, exit 0
+12:00:56 run_090_row_order_swap probe_2.sh played, exit 0
+12:00:56 run_092_mesh_hull_cup probe.sh played, exit 0
+12:00:57 run_094_noslip_costs probe.sh played, exit 0
+12:00:58 run_094_noslip_costs probe_2.sh played, exit 0
+12:00:58 home folder written as ~; compressed as the record keeps them
+12:01:00 compared: 553 same, 52 differ, 0 missing, 0 new

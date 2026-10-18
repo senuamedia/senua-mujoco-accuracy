@@ -1,0 +1,64 @@
+RULE E1_safe_when_off eq 341 341 : HELD
+RULE M0_every_suite_read all_eq 3492 3492 3492 3492 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE M1_mujoco_suite_named_only eq 1 0 : FAILED
+RULE P0_every_play_measured all_eq 341 340 341 341 341 : FAILED
+RULE G1_Q1_released_cube_creeps ge 946 11 : HELD
+RULE G1_Q2_version1_cube_creeps ge 946 11 : HELD
+RULE G1_H1_every_held_cube_holds all_le 10 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : FAILED
+RULE G1_N1_nothing_else_changes eq 269 269 : HELD
+RULE G1_R1_every_arm_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G1_G1_every_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE G1_B1_every_box_rests all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G1_V1_iteration_limit eq 0 0 : HELD
+RULE G1_V1_warnings eq 0 0 : HELD
+RULE G7_Q1_released_slide_hops ge 357 1 : HELD
+RULE G7_S1_no_hop all_le 0 0 0 0 0 0 0 0 0 : HELD
+RULE G7_S2_coulomb_deceleration_1 all_within 3920 100 4000 3920 3920 3920 : FAILED
+RULE G7_S3_coulomb_distance_1 all_within 127551 100 126691 127468 127663 127711 : HELD
+RULE G7_S2_coulomb_deceleration_2 all_within 3920 100 3920 3920 3920 3920 : HELD
+RULE G7_S3_coulomb_distance_2 all_within 127551 100 126691 127468 127663 127711 : HELD
+RULE G7_V1_iteration_limit eq 0 0 : HELD
+RULE G8_Q1_past_the_guard_deeper_1 share 4265 17055 100 101 : HELD
+RULE G8_R1_within_the_guard_the_same_1 all_within 4265 10000 4300 4265 4265 : FAILED
+RULE G8_Q1_past_the_guard_deeper_2 share 4265 17055 100 101 : HELD
+RULE G8_R1_within_the_guard_the_same_2 all_within 4265 10000 4265 4265 4265 : HELD
+RULE G10_Q1_released_creates_energy ge 240498 10001 : HELD
+RULE G10_P1_resolved_steps_1 ge 4 3 : HELD
+RULE G10_R1_same_bounce_1_k8_k16 near 2763 2826 500 : HELD
+RULE G10_R1_same_bounce_1_k8_k32 near 2763 3057 500 : HELD
+RULE G10_R1_same_bounce_1_k8_k64 near 2763 3068 500 : HELD
+RULE G10_R1_same_bounce_1_k16_k32 near 2826 3057 500 : HELD
+RULE G10_R1_same_bounce_1_k16_k64 near 2826 3068 500 : HELD
+RULE G10_R1_same_bounce_1_k32_k64 near 3057 3068 500 : HELD
+RULE G10_P1_resolved_steps_2 ge 5 3 : HELD
+RULE G10_R1_same_bounce_2_k4_k8 near 2737 2796 500 : HELD
+RULE G10_R1_same_bounce_2_k4_k16 near 2737 2817 500 : HELD
+RULE G10_R1_same_bounce_2_k4_k32 near 2737 2942 500 : HELD
+RULE G10_R1_same_bounce_2_k4_k64 near 2737 2948 500 : HELD
+RULE G10_R1_same_bounce_2_k8_k16 near 2796 2817 500 : HELD
+RULE G10_R1_same_bounce_2_k8_k32 near 2796 2942 500 : HELD
+RULE G10_R1_same_bounce_2_k8_k64 near 2796 2948 500 : HELD
+RULE G10_R1_same_bounce_2_k16_k32 near 2817 2942 500 : HELD
+RULE G10_R1_same_bounce_2_k16_k64 near 2817 2948 500 : HELD
+RULE G10_R1_same_bounce_2_k32_k64 near 2942 2948 500 : HELD
+RULE G10_P1_resolved_steps_3 ge 6 3 : HELD
+RULE G10_R1_same_bounce_3_k2_k4 near 756 340 500 : HELD
+RULE G10_R1_same_bounce_3_k2_k8 near 756 377 500 : HELD
+RULE G10_R1_same_bounce_3_k2_k16 near 756 398 500 : HELD
+RULE G10_R1_same_bounce_3_k2_k32 near 756 451 500 : HELD
+RULE G10_R1_same_bounce_3_k2_k64 near 756 1100 500 : HELD
+RULE G10_R1_same_bounce_3_k4_k8 near 340 377 500 : HELD
+RULE G10_R1_same_bounce_3_k4_k16 near 340 398 500 : HELD
+RULE G10_R1_same_bounce_3_k4_k32 near 340 451 500 : HELD
+RULE G10_R1_same_bounce_3_k4_k64 near 340 1100 500 : FAILED
+RULE G10_R1_same_bounce_3_k8_k16 near 377 398 500 : HELD
+RULE G10_R1_same_bounce_3_k8_k32 near 377 451 500 : HELD
+RULE G10_R1_same_bounce_3_k8_k64 near 377 1100 500 : FAILED
+RULE G10_R1_same_bounce_3_k16_k32 near 398 451 500 : HELD
+RULE G10_R1_same_bounce_3_k16_k64 near 398 1100 500 : FAILED
+RULE G10_R1_same_bounce_3_k32_k64 near 451 1100 500 : FAILED
+RULE G10_R2_never_above_the_drop all_le 10000 2763 2826 3057 3068 2737 2796 2817 2942 2948 756 340 377 398 451 1100 : HELD
+reported: changed with the five switches set: CoreConstraintTest.RestPenetration
+reported: changed with the five switches set: SolverTest.ZeroToleranceDisablesTermination
+rules: 61, held: 52

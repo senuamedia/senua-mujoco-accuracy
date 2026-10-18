@@ -1,0 +1,8 @@
+build lib exit 0
+build tests exit 0
+arm release played 2026-10-15T05:27:44Z
+arm off played 2026-10-15T05:27:45Z
+arm on played 2026-10-15T05:27:46Z
+suite release exit 0 100% tests passed, 0 tests failed out of 3492
+suite off exit 0 100% tests passed, 0 tests failed out of 3492
+suite on exit 8 99% tests passed, 1 tests failed out of 3492

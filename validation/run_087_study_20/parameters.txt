@@ -1,0 +1,3 @@
+the holds' steps 0.001277 and 0.00031925
+cube a: 1.572 kg, half-size 0.0474 m, friction 0.61, limit 9.397416 N
+cube b: 0.819 kg, half-size 0.0316 m, friction 0.734, limit 5.891231 N

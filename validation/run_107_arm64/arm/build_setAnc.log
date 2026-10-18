@@ -1,0 +1,962 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CAN_BUILD_AVX
+-- Performing Test CAN_BUILD_AVX - Failed
+-- Performing Test SUPPORTS_LLD
+-- Performing Test SUPPORTS_LLD - Failed
+-- Performing Test SUPPORTS_GOLD
+-- Performing Test SUPPORTS_GOLD - Success
+-- Performing Test SUPPORTS_GC_SECTIONS
+-- Performing Test SUPPORTS_GC_SECTIONS - Success
+-- mujoco::FindOrFetch: checking for targets in package `lodepng`
+-- mujoco::FindOrFetch: checking for targets in package `lodepng` - target `lodepng` not defined.
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- mujoco::FindOrFetch: Using FetchContent for lodepng: https://github.com/lvandeve/lodepng.git
+-- Populating lodepng
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/lodepng-subbuild
+[1/9] Creating directories for 'lodepng-populate'
+[1/9] Performing download step for 'lodepng-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/lodepng-src/.git/
+From https://github.com/lvandeve/lodepng
+ * branch            22561883dd63fd1850f18e1f6adac321e4f609b0 -> FETCH_HEAD
+HEAD is now at 2256188 Merge pull request #216 from polluks/master
+[2/9] No update_disconnected step for 'lodepng-populate'
+[3/9] No patch_disconnected step for 'lodepng-populate'
+[5/9] No configure step for 'lodepng-populate'
+[6/9] No build step for 'lodepng-populate'
+[7/9] No install step for 'lodepng-populate'
+[8/9] No test step for 'lodepng-populate'
+[9/9] Completed 'lodepng-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/third_party_deps/lodepng.cmake:23 (fetchpackage)
+  cmake/MujocoDependencies.cmake:86 (include)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for qhull: https://github.com/qhull/qhull.git
+-- Populating qhull
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/qhull-subbuild
+[1/9] Creating directories for 'qhull-populate'
+[1/9] Performing download step for 'qhull-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/qhull-src/.git/
+From https://github.com/qhull/qhull
+ * branch            d1c2fc0caa5f644f3a0f220290d4a868c68ed4f6 -> FETCH_HEAD
+HEAD is now at d1c2fc0 poly2.c, poly2_r.c: fixed missing 'getid_(previousvertex)' for #143
+[2/9] No update_disconnected step for 'qhull-populate'
+[3/9] Performing patch_disconnected step for 'qhull-populate'
+~/work/mujoco-setAnc-src/cmake/qhull-support-emscripten.patch:10: trailing whitespace.
+add_library(${qhull_SHAREDR} SHARED 
+Checking patch CMakeLists.txt...
+Applied patch CMakeLists.txt cleanly.
+warning: 1 line adds whitespace errors.
+[5/9] No configure step for 'qhull-populate'
+[6/9] No build step for 'qhull-populate'
+[7/9] No install step for 'qhull-populate'
+[8/9] No test step for 'qhull-populate'
+[9/9] Completed 'qhull-populate'
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Check size of off_t
+-- Check size of off_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for ftello
+-- Looking for ftello - found
+-- Looking for PRIdMAX
+-- Looking for PRIdMAX - found
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     ~/work/mujoco-setAnc-build
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:108 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyxml2: https://github.com/leethomason/tinyxml2.git
+-- Populating tinyxml2
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/tinyxml2-subbuild
+[1/9] Creating directories for 'tinyxml2-populate'
+[1/9] Performing download step for 'tinyxml2-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/tinyxml2-src/.git/
+From https://github.com/leethomason/tinyxml2
+ * branch            e6caeae85799003f4ca74ff26ee16a789bc2af48 -> FETCH_HEAD
+HEAD is now at e6caeae Fix the build actions by increasing the ubuntu test version
+[2/9] No update_disconnected step for 'tinyxml2-populate'
+[3/9] No patch_disconnected step for 'tinyxml2-populate'
+[5/9] No configure step for 'tinyxml2-populate'
+[6/9] No build step for 'tinyxml2-populate'
+[7/9] No install step for 'tinyxml2-populate'
+[8/9] No test step for 'tinyxml2-populate'
+[9/9] Completed 'tinyxml2-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:133 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyobjloader: https://github.com/tinyobjloader/tinyobjloader.git
+-- Populating tinyobjloader
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/tinyobjloader-subbuild
+[1/9] Creating directories for 'tinyobjloader-populate'
+[1/9] Performing download step for 'tinyobjloader-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/tinyobjloader-src/.git/
+From https://github.com/tinyobjloader/tinyobjloader
+ * branch            2945a967c5303b2c8c14174117c45f3302591150 -> FETCH_HEAD
+HEAD is now at 2945a96 apply python formatter.
+[2/9] No update_disconnected step for 'tinyobjloader-populate'
+[3/9] No patch_disconnected step for 'tinyobjloader-populate'
+[5/9] No configure step for 'tinyobjloader-populate'
+[6/9] No build step for 'tinyobjloader-populate'
+[7/9] No install step for 'tinyobjloader-populate'
+[8/9] No test step for 'tinyobjloader-populate'
+[9/9] Completed 'tinyobjloader-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:156 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for ccd: https://github.com/danfis/libccd.git
+-- Populating ccd
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/ccd-subbuild
+[1/9] Creating directories for 'ccd-populate'
+[1/9] Performing download step for 'ccd-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/ccd-src/.git/
+From https://github.com/danfis/libccd
+ * branch            7931e764a19ef6b21b443376c699bbc9c6d4fba8 -> FETCH_HEAD
+HEAD is now at 7931e76 Fixed divison by zero in the computation of a direction vector in ccdMPRPenetration. (fixes #49)
+[2/9] No update_disconnected step for 'ccd-populate'
+[3/9] Performing patch_disconnected step for 'ccd-populate'
+Checking patch src/CMakeLists.txt...
+Applied patch src/CMakeLists.txt cleanly.
+[5/9] No configure step for 'ccd-populate'
+[6/9] No build step for 'ccd-populate'
+[7/9] No install step for 'ccd-populate'
+[8/9] No test step for 'ccd-populate'
+[9/9] Completed 'ccd-populate'
+CMake Deprecation Warning at ~/work/setAnc-lib/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at ~/work/setAnc-lib/_deps/ccd-src/CMakeLists.txt:9 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:194 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for miniz: https://github.com/richgel999/miniz.git
+-- Populating miniz
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib/_deps/miniz-subbuild
+[1/9] Creating directories for 'miniz-populate'
+[1/9] Performing download step for 'miniz-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/setAnc-lib/_deps/miniz-src/.git/
+From https://github.com/richgel999/miniz
+ * branch            77d0dce8627735138c51770d1799a1ef48f2117d -> FETCH_HEAD
+HEAD is now at 77d0dce Increment version and update changelog
+[2/9] No update_disconnected step for 'miniz-populate'
+[3/9] No patch_disconnected step for 'miniz-populate'
+[5/9] No configure step for 'miniz-populate'
+[6/9] No build step for 'miniz-populate'
+[7/9] No install step for 'miniz-populate'
+[8/9] No test step for 'miniz-populate'
+[9/9] Completed 'miniz-populate'
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/MujocoDependencies.cmake:235 (fetchpackage)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (4.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/setAnc-lib
+[0/2] Re-checking globbed directories...
+[1/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o
+[2/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o
+[3/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_continuous.c.o
+[4/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o
+[5/135] Building CXX object CMakeFiles/mujoco.dir/plugin/stl_decoder/stl_decoder.cc.o
+[6/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_flex.c.o
+[7/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_driver.c.o
+[8/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_primitive.c.o
+[9/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_gjk.c.o
+[10/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_sdf.c.o
+[11/135] Building CXX object CMakeFiles/mujoco.dir/plugin/gmsh_decoder/gmsh_decoder.cc.o
+[12/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_util.c.o
+[13/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_constraint.c.o
+[14/135] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_crossplatform.cc.o
+[15/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative_fd.c.o
+[16/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_smooth.c.o
+[17/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_inverse.c.o
+[18/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative.c.o
+[19/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_forward.c.o
+[20/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_init.c.o
+[21/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_island.c.o
+[22/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_memory.c.o
+[23/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ipc.c.o
+[24/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_name.c.o
+[25/135] Building CXX object CMakeFiles/mujoco.dir/plugin/obj_decoder/obj_decoder.cc.o
+[26/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_passive.c.o
+[27/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_metric.c.o
+[28/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o
+[29/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o
+[30/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o
+[31/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sleep.c.o
+[32/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o
+[33/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o
+[34/135] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o
+[35/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o
+[36/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_errmem.c.o
+[37/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o
+[38/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_solve.c.o
+[39/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o
+[40/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_spatial.c.o
+[41/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_sparse.c.o
+[42/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_init.c.o
+[43/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_interact.c.o
+[44/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_io.c.o
+[45/135] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_thread.cc.o
+[46/135] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_visualize.c.o
+[47/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_cache.cc.o
+[48/135] Building C object CMakeFiles/mujoco.dir/src/user/user_init.c.o
+[49/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_composite.cc.o
+[50/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_api.cc.o
+[51/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_flexcomp.cc.o
+[52/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_resolver.cc.o
+[53/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_resource.cc.o
+[54/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_mesh.cc.o
+In file included from /usr/include/c++/13/bits/stl_algobase.h:64,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ~/work/mujoco-setAnc-src/src/user/user_mesh.cc:15:
+/usr/include/c++/13/bits/stl_pair.h: In instantiation of ‘constexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = double&; _T2 = double&; typename __strip_reference_wrapper<typename decay<_Tp>::type>::__type = double; typename decay<_Tp>::type = double; typename __strip_reference_wrapper<typename decay<_Tp2>::type>::__type = double; typename decay<_Tp2>::type = double]’:
+~/work/mujoco-setAnc-src/src/user/user_mesh.cc:3208:28:   required from here
+/usr/include/c++/13/bits/stl_pair.h:922:5: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  922 |     make_pair(_T1&& __x, _T2&& __y)
+      |     ^~~~~~~~~
+[55/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_threadpool.cc.o
+[56/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_util.cc.o
+[57/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_vfs.cc.o
+[58/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_objects.cc.o
+[59/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_api.cc.o
+[60/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_global.cc.o
+[61/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_base.cc.o
+[62/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_numeric_format.cc.o
+[63/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml.cc.o
+[64/135] Building CXX object CMakeFiles/mujoco.dir/src/user/user_model.cc.o
+[65/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_reader.cc.o
+[66/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_urdf.cc.o
+[67/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_writer.cc.o
+[68/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_archive_provider.cc.o
+[69/135] Building C object CMakeFiles/mujoco.dir/src/render/classic/glad/glad.c.o
+[70/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_decoder.cc.o
+[71/135] Building CXX object CMakeFiles/mujoco.dir/src/render/classic/glad/loader.cc.o
+[72/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_util.cc.o
+[73/135] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl2.c.o
+[74/135] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl3.c.o
+[75/135] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_util.c.o
+[76/135] Building C object CMakeFiles/mujoco.dir/src/ui/ui_main.c.o
+[77/135] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_context.c.o
+[78/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/global_r.c.o
+[79/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/stat_r.c.o
+[80/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom2_r.c.o
+[81/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly2_r.c.o
+[82/135] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_encoder.cc.o
+[83/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/merge_r.c.o
+[84/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/libqhull_r.c.o
+[85/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom_r.c.o
+[86/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly_r.c.o
+[87/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/mem_r.c.o
+[88/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/qset_r.c.o
+[89/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/random_r.c.o
+[90/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/usermem_r.c.o
+[91/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_r.c.o
+[92/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/accessors_r.c.o
+[93/135] Building CXX object _deps/lodepng-build/CMakeFiles/lodepng.dir/lodepng.cpp.o
+[94/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/user_r.c.o
+[95/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_rbox_r.c.o
+[96/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/rboxlib_r.c.o
+[97/135] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o
+[98/135] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/io_r.c.o
+[99/135] Linking C static library lib/libqhullstatic_r.a
+[100/135] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o
+[101/135] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o
+[102/135] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o
+[103/135] Building CXX object _deps/tinyxml2-build/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
+[104/135] Linking CXX static library lib/libtinyxml2.a
+[105/135] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o
+[106/135] Linking C static library lib/libccd.a
+[107/135] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz.c.o
+In file included from ~/work/setAnc-lib/_deps/miniz-src/miniz.c:27:
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[108/135] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tinfl.c.o
+In file included from ~/work/setAnc-lib/_deps/miniz-src/miniz_tinfl.c:27:
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[109/135] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tdef.c.o
+In file included from ~/work/setAnc-lib/_deps/miniz-src/miniz_tdef.c:27:
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[110/135] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_zip.c.o
+In file included from ~/work/setAnc-lib/_deps/miniz-src/miniz_zip.c:27:
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/setAnc-lib/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[111/135] Linking C static library lib/libminiz.a
+[112/135] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/register.cc.o
+[113/135] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/cable.cc.o
+[114/135] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/elasticity.cc.o
+[115/135] Building CXX object _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o
+[116/135] Linking CXX static library lib/libtinyobjloader.a
+[117/135] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/register.cc.o
+[118/135] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/register.cc.o
+[119/135] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/pid.cc.o
+[120/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/sdf.cc.o
+[121/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bolt.cc.o
+[122/135] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/touch_grid.cc.o
+[123/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/register.cc.o
+[124/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bowl.cc.o
+[125/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/gear.cc.o
+[126/135] Building C object src/render/noop/CMakeFiles/render_noop.dir/render_noop.c.o
+[127/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/torus.cc.o
+[128/135] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/nut.cc.o
+[129/135] Linking CXX shared library lib/libmujoco.so.3.16.0
+[130/135] Creating library symlink lib/libmujoco.so
+[131/135] Linking CXX shared library lib/libactuator.so
+[132/135] Linking C static library lib/librender_noop.a
+[133/135] Linking CXX shared library lib/libelasticity.so
+[134/135] Linking CXX shared library lib/libsensor.so
+[135/135] Linking CXX shared library lib/libsdf_plugin.so
+-- Install configuration: "Release"
+-- Installing: ~/work/mujoco-setAnc-build/lib/libmujoco.so.3.16.0
+-- Installing: ~/work/mujoco-setAnc-build/lib/libmujoco.so
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjassert.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjdata.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjexport.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjmacro.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjmodel.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjplugin.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjrender.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjrfilament.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjsan.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjspec.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjspecmacro.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjtype.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjui.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjvisualize.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mjxmacro.h
+-- Installing: ~/work/mujoco-setAnc-build/include/mujoco/mujoco.h
+-- Installing: ~/work/mujoco-setAnc-build/lib/cmake/mujoco/mujocoTargets.cmake
+-- Installing: ~/work/mujoco-setAnc-build/lib/cmake/mujoco/mujocoTargets-release.cmake
+-- Installing: ~/work/mujoco-setAnc-build/lib/cmake/mujoco/mujocoConfig.cmake
+-- Installing: ~/work/mujoco-setAnc-build/lib/cmake/mujoco/mujocoConfigVersion.cmake
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bunny_with_uv.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/sphere_trilinear.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bunny_quadratic.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/pulley.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/poncho_edgeequality.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bunny_shell.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/softbox.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bunny.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/plate.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/sphere_radial.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/hollow_vs_solid.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/floppy.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/drape.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/pinch.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/quadratic.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/strain.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/gripper_trilinear.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bunny_multicell.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/poncho.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/sphere_full.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/cloth_sdf.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/asset
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/asset/cap.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/asset/bunny.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/asset/bunny_with_uv.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/asset/sponge.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/press.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/scene.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/jelly.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/trilinear.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/trampoline.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/gripper_2d.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/gripper.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/basket.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/bag.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms/cantilever.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms/slidercrank.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms/scene.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mechanisms/dipper.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/flag.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/mannequin.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/flex/pancake.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/slider_crank
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/slider_crank/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/slider_crank/slider_crank.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/orange_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/orange_red.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_red_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_orange_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_orange.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_orange_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_red_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_orange_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_red.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_orange_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_red.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_orange.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/orange_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_red_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/orange.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/red_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/red_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_red_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/red.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/green_white.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/assets/blue_yellow.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/cube_3x3x3.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cube/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/welcome
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/welcome/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/welcome/welcome.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/sleep
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/sleep/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/sleep/dominos.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/sleep/humanoid.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/sleep/100_humanoids.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion/sand_castle.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion/active_adhesion.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/adhesion/fridge_door.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/car
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/car/car.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/humanoid.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/22_humanoids.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/humanoid.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/100_humanoids.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/humanoid/humanoid100.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tendon_arm
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tendon_arm/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tendon_arm/arm26.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tactile
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tactile/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/tactile/tactile.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/actuator
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/actuator/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/actuator/pid.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/mesh.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/primitives.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/gear.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/cow.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/asset
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/asset/spot.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/asset/spot.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/asset/die.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/asset/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/nutbolt.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/torus.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/scene.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/bowl.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sdf/mug.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sensor
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sensor/touch_grid.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/sensor/a.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/elasticity
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/elasticity/coil.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/elasticity/cable.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/elasticity/scene.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/plugin/elasticity/belt.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/mug
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/mug/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/mug/mug.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/mug/mug.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/mug/mug.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/balloons
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/balloons/balloons.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/9_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/ace_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/king_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/ace_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/4_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/4_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/2_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/queen_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/9_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/10_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/2_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/8_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/jack_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/card.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/4_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/10_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/king_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/4_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/7_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/9_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/5_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/jack_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/ace_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/5_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/10_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/6_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/6_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/9_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/3_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/king_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/8_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/2_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/7_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/2_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/black_joker.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/7_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/red_joker.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/6_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/6_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/3_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/5_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/8_of_hearts.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/jack_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/jack_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/10_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/3_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/queen_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/king_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/8_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/5_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/3_of_diamonds.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/ace_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/7_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/queen_of_clubs.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/assets/queen_of_spades.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/house_of_cards.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/cards/cards.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/newton_cradle.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/bunnies.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/particle.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/bunny.obj
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/container.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/particle_free2d.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/cylinder.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/leaves.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/particle_free.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/asset
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/asset/marble.png
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/scene.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/tendon.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/stonehenge.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/helix.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/replicate/bowl.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/arch
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/arch/gothic.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/arch/roman.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/arch/README.md
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/arch/hyperbolic.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/surfacevel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/surfacevel/carousel.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/surfacevel/treadmill.xml
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/hammock
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/hammock/BUILD.bazel
+-- Installing: ~/work/mujoco-setAnc-build/share/mujoco/model/hammock/hammock.xml

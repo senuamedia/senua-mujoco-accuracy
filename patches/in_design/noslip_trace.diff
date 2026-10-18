@@ -1,0 +1,37 @@
+--- a/src/engine/engine_solver.c	2026-10-16 23:34:03
++++ b/src/engine/engine_solver.c	2026-10-16 23:34:24
+@@ -16,6 +16,8 @@
+ 
+ #include <stddef.h>
+ #include <stdint.h>
++#include <stdio.h>
++#include <stdlib.h>
+ #include <string.h>
+ 
+ #include <mujoco/mjdata.h>
+@@ -918,6 +920,15 @@
+         // QCQP
+         else {
+           solveQCQP(force, i, dim, Ac, bc, mu);
++        }
++
++        // Senua AI instrumentation, in design (off unless MUJOCO_NOSLIP_TRACE is set): one line per elliptic contact per
++        // noslip sweep, its normal force, its friction before and after the sweep, the friction rows' residual without
++        // regularisation, and the rows' block of A (the first two friction directions)
++        if (getenv("MUJOCO_NOSLIP_TRACE") && dim >= 3) {
++          fprintf(stderr, "NOSLIP iter %d contact %d dim %d normal %.9g old %.9g %.9g new %.9g %.9g res %.9g %.9g "
++                  "A %.9g %.9g %.9g %.9g mu %.9g\n", iter, d->efc_id[i], dim, force[i], oldforce[0], oldforce[1],
++                  force[i+1], force[i+2], res[0], res[1], Ac[0], Ac[1], Ac[dim-1], Ac[dim], mu[0]);
+         }
+ 
+         // accumulate improvement
+@@ -934,6 +945,9 @@
+ 
+     // scale improvement, save stats
+     improvement *= scale;
++    if (getenv("MUJOCO_NOSLIP_TRACE")) {
++      fprintf(stderr, "NOSLIP_SWEEP iter %d improvement %.9g tolerance %.9g\n", iter, improvement, m->opt.noslip_tolerance);
++    }
+ 
+     // save noslip stats after all the entries from regular solver
+     if (island_stat < mjNISLAND) {

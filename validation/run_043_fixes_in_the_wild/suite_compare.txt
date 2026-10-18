@@ -1,0 +1,19 @@
+june: 1681 tests; the pull request's head: 1694 tests
+shared: 1681; read differently: 2
+  differs: XMLReaderTest.LargeTextureAddressTest~1 june unknown, pull request Passed
+  differs: XMLReaderTest.LargeTextureTest~1 june Passed, pull request unknown
+only on the pull request: 13
+  AllModels/RecompileCompareTest.RecompileCompare/gripper_xml~2 Passed
+  AllModels/RecompileCompareTest.RecompileCompare/ramp_xml~1 Passed
+  AllModels/WriteReadCompareTest.WriteReadCompare/gripper_xml~2 Passed
+  AllModels/WriteReadCompareTest.WriteReadCompare/ramp_xml~1 Passed
+  StictionTest.Deterministic~1 Passed
+  StictionTest.FlagParsesAndWrites~1 Passed
+  StictionTest.FlexContactsSafe~1 Passed
+  StictionTest.ForwardInverseConsistent~1 Passed
+  StictionTest.HoldsUnderStaticLoad~1 Passed
+  StictionTest.PyramidalIsNoOp~1 Passed
+  StictionTest.ReSticksAfterSlide~1 Passed
+  StictionTest.ResetClearsAnchors~1 Passed
+  StictionTest.RollingNotBraked~1 Passed
+only on june: 0

@@ -1,0 +1,80 @@
+identity arm_pose1_rest_0.00114 def same
+identity arm_pose1_drop_0.00114 def same
+identity arm_pose2_rest_0.00114 def same
+identity arm_pose2_drop_0.00114 def same
+identity arm_pose1_rest_0.000285 def same
+identity arm_pose1_drop_0.000285 def same
+identity arm_pose2_rest_0.000285 def same
+identity arm_pose2_drop_0.000285 def same
+identity arm_pose1_rest_0.00114 rec same
+identity arm_pose1_drop_0.00114 rec same
+identity arm_pose2_rest_0.00114 rec same
+identity arm_pose2_drop_0.00114 rec same
+identity arm_pose1_rest_0.000285 rec same
+identity arm_pose1_drop_0.000285 rec same
+identity arm_pose2_rest_0.000285 rec same
+identity arm_pose2_drop_0.000285 rec same
+rel def_pose1_0.00114 creep_ums -1188 contacts 1.00 slip_x_ums -1290.1 slip_z_ums 0.0 spin_urads 3873.1 shoulder_urads 923.8 elbow_urads 2949.3 Fz_mN 11415 Fx_mN 1290 ratio 0.1130 most_iterations 2
+rel def_pose2_0.00114 creep_ums -13 contacts 1.00 slip_x_ums -13.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 49.2 elbow_urads -49.3 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 3
+rel def_pose1_0.000285 creep_ums -1188 contacts 1.00 slip_x_ums -1290.3 slip_z_ums 0.0 spin_urads 3873.8 shoulder_urads 924.2 elbow_urads 2949.6 Fz_mN 11415 Fx_mN 1290 ratio 0.1130 most_iterations 1
+rel def_pose2_0.000285 creep_ums -13 contacts 1.00 slip_x_ums -13.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 46.7 elbow_urads -46.8 Fz_mN 4282 Fx_mN 15 ratio 0.0035 most_iterations 3
+rel ell_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 2
+rel ell_pose2_0.00114 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 32.0 elbow_urads -32.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 2
+rel ell_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 1
+rel ell_pose2_0.000285 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 34.0 elbow_urads -34.1 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 2
+rel rec_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+rel rec_pose2_0.00114 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 32.0 elbow_urads -32.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 4
+rel rec_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+rel rec_pose2_0.000285 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 34.0 elbow_urads -34.1 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 4
+rel n100_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+rel n100_pose2_0.00114 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 32.0 elbow_urads -32.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 4
+rel n100_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+rel n100_pose2_0.000285 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 34.0 elbow_urads -34.1 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 4
+rel n1000t_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+rel n1000t_pose2_0.00114 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 32.0 elbow_urads -32.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 4
+rel n1000t_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+rel n1000t_pose2_0.000285 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 34.0 elbow_urads -34.1 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 4
+rel pyr10_pose1_0.00114 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 11449 Fx_mN 1245 ratio 0.1087 most_iterations 4
+rel pyr10_pose2_0.00114 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 5
+rel pyr10_pose1_0.000285 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 11449 Fx_mN 1246 ratio 0.1088 most_iterations 3
+rel pyr10_pose2_0.000285 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 5
+rel diag_pose1_0.00114 creep_ums -960 contacts 1.00 slip_x_ums -1042.6 slip_z_ums -1.0 spin_urads 3131.0 shoulder_urads 744.9 elbow_urads 2386.1 Fz_mN 11422 Fx_mN 1279 ratio 0.1120 most_iterations 3
+rel diag_pose2_0.00114 creep_ums -42 contacts 1.00 slip_x_ums -42.1 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 155.5 elbow_urads -155.8 Fz_mN 4280 Fx_mN 19 ratio 0.0044 most_iterations 3
+rel diag_pose1_0.000285 creep_ums -960 contacts 1.00 slip_x_ums -1042.8 slip_z_ums -1.0 spin_urads 3131.7 shoulder_urads 745.2 elbow_urads 2386.5 Fz_mN 11421 Fx_mN 1279 ratio 0.1120 most_iterations 3
+rel diag_pose2_0.000285 creep_ums -43 contacts 1.00 slip_x_ums -43.1 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 159.4 elbow_urads -159.7 Fz_mN 4279 Fx_mN 20 ratio 0.0047 most_iterations 3
+rel tight_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+rel tight_pose2_0.00114 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 32.0 elbow_urads -32.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 4
+rel tight_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+rel tight_pose2_0.000285 creep_ums -9 contacts 1.00 slip_x_ums -9.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 34.0 elbow_urads -34.1 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 4
+on def_pose1_0.00114 creep_ums -1188 contacts 1.00 slip_x_ums -1290.1 slip_z_ums 0.0 spin_urads 3873.1 shoulder_urads 923.8 elbow_urads 2949.3 Fz_mN 11415 Fx_mN 1290 ratio 0.1130 most_iterations 2
+on def_pose2_0.00114 creep_ums -13 contacts 1.00 slip_x_ums -13.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 49.2 elbow_urads -49.3 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 3
+on def_pose1_0.000285 creep_ums -1188 contacts 1.00 slip_x_ums -1290.3 slip_z_ums 0.0 spin_urads 3873.8 shoulder_urads 924.2 elbow_urads 2949.6 Fz_mN 11415 Fx_mN 1290 ratio 0.1130 most_iterations 1
+on def_pose2_0.000285 creep_ums -13 contacts 1.00 slip_x_ums -13.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 46.7 elbow_urads -46.8 Fz_mN 4282 Fx_mN 15 ratio 0.0035 most_iterations 3
+on ell_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 2
+on ell_pose2_0.00114 creep_ums -8 contacts 1.00 slip_x_ums -8.2 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.1 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 18
+on ell_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 1
+on ell_pose2_0.000285 creep_ums -8 contacts 1.00 slip_x_ums -8.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 18
+on rec_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+on rec_pose2_0.00114 creep_ums -8 contacts 1.00 slip_x_ums -8.2 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.1 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on rec_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+on rec_pose2_0.000285 creep_ums -8 contacts 1.00 slip_x_ums -8.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on n100_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+on n100_pose2_0.00114 creep_ums -8 contacts 1.00 slip_x_ums -8.2 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.1 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on n100_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+on n100_pose2_0.000285 creep_ums -8 contacts 1.00 slip_x_ums -8.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on n1000t_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+on n1000t_pose2_0.00114 creep_ums -8 contacts 1.00 slip_x_ums -8.2 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.1 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on n1000t_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+on n1000t_pose2_0.000285 creep_ums -8 contacts 1.00 slip_x_ums -8.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 20
+on pyr10_pose1_0.00114 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 11449 Fx_mN 1245 ratio 0.1087 most_iterations 4
+on pyr10_pose2_0.00114 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 4281 Fx_mN 17 ratio 0.0040 most_iterations 5
+on pyr10_pose1_0.000285 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 11449 Fx_mN 1246 ratio 0.1088 most_iterations 3
+on pyr10_pose2_0.000285 creep_ums 0 contacts 1.00 slip_x_ums 0.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 0.0 elbow_urads 0.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 5
+on diag_pose1_0.00114 creep_ums -960 contacts 1.00 slip_x_ums -1042.6 slip_z_ums -1.0 spin_urads 3131.0 shoulder_urads 744.9 elbow_urads 2386.1 Fz_mN 11422 Fx_mN 1279 ratio 0.1120 most_iterations 3
+on diag_pose2_0.00114 creep_ums -29 contacts 1.00 slip_x_ums -29.3 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 108.0 elbow_urads -108.0 Fz_mN 4284 Fx_mN 13 ratio 0.0030 most_iterations 20
+on diag_pose1_0.000285 creep_ums -960 contacts 1.00 slip_x_ums -1042.8 slip_z_ums -1.0 spin_urads 3131.7 shoulder_urads 745.2 elbow_urads 2386.5 Fz_mN 11421 Fx_mN 1279 ratio 0.1120 most_iterations 3
+on diag_pose2_0.000285 creep_ums -28 contacts 1.00 slip_x_ums -28.5 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 105.1 elbow_urads -105.2 Fz_mN 4284 Fx_mN 13 ratio 0.0030 most_iterations 20
+on tight_pose1_0.00114 creep_ums -714 contacts 1.00 slip_x_ums -775.6 slip_z_ums 0.0 spin_urads 2331.8 shoulder_urads 548.5 elbow_urads 1783.3 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 4
+on tight_pose2_0.00114 creep_ums -8 contacts 1.00 slip_x_ums -8.2 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.1 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 29
+on tight_pose1_0.000285 creep_ums -714 contacts 1.00 slip_x_ums -775.8 slip_z_ums 0.0 spin_urads 2332.2 shoulder_urads 548.7 elbow_urads 1783.5 Fz_mN 11429 Fx_mN 1271 ratio 0.1112 most_iterations 3
+on tight_pose2_0.000285 creep_ums -8 contacts 1.00 slip_x_ums -8.0 slip_z_ums 0.0 spin_urads 0.0 shoulder_urads 31.0 elbow_urads -31.0 Fz_mN 4282 Fx_mN 16 ratio 0.0037 most_iterations 29

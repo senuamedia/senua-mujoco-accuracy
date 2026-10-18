@@ -1,0 +1,80 @@
+set5 tol 1e-8 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 111 turn_urad_s 298 | cube 2 tilt_urad 418 turn_urad_s 1131 | cube 3 tilt_urad 1565 turn_urad_s 1066 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 684 turn_urad_s 2 | cube 2 tilt_urad 1532 turn_urad_s 6 | cube 3 tilt_urad 516 turn_urad_s 6 | most_iterations 5 at_iteration_limit 0
+set5 tol 1e-8 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 127 turn_urad_s 500 | cube 2 tilt_urad 559 turn_urad_s 1805 | cube 3 tilt_urad 1703 turn_urad_s 1709 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 678 turn_urad_s 2 | cube 2 tilt_urad 905 turn_urad_s 204 | cube 3 tilt_urad 111 turn_urad_s 204 | most_iterations 5 at_iteration_limit 0
+set5 tol 1e-8 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 144 turn_urad_s 929 | cube 2 tilt_urad 412 turn_urad_s 3074 | cube 3 tilt_urad 1595 turn_urad_s 2885 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 753 turn_urad_s 2 | cube 2 tilt_urad 1978 turn_urad_s 145 | cube 3 tilt_urad 946 turn_urad_s 152 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 132 turn_urad_s 546 | cube 2 tilt_urad 525 turn_urad_s 2552 | cube 3 tilt_urad 1723 turn_urad_s 2433 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 751 turn_urad_s 2 | cube 2 tilt_urad 1690 turn_urad_s 9 | cube 3 tilt_urad 639 turn_urad_s 9 | most_iterations 4 at_iteration_limit 0
+set5 tol 1e-8 free cube b 0.001277 at 0.95 | mean_speed_ums 1098 | most_iterations 18 at_iteration_limit 0
+set5 tol 1e-8 free cube b 0.00031925 at 0.95 | mean_speed_ums 483 | most_iterations 18 at_iteration_limit 0
+set5 tol 1e-10 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 146 turn_urad_s 1280 | cube 2 tilt_urad 1259 turn_urad_s 3289 | cube 3 tilt_urad 110 turn_urad_s 2903 | most_iterations 101 at_iteration_limit 3683
+set5 tol 1e-10 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 692 turn_urad_s 698 | cube 2 tilt_urad 2230 turn_urad_s 2117 | cube 3 tilt_urad 1212 turn_urad_s 1900 | most_iterations 101 at_iteration_limit 4837
+set5 tol 1e-10 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 146 turn_urad_s 97 | cube 2 tilt_urad 1041 turn_urad_s 244 | cube 3 tilt_urad 1014 turn_urad_s 468 | most_iterations 101 at_iteration_limit 19944
+set5 tol 1e-10 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 691 turn_urad_s 313 | cube 2 tilt_urad 1931 turn_urad_s 881 | cube 3 tilt_urad 2227 turn_urad_s 769 | most_iterations 101 at_iteration_limit 16554
+set5 tol 1e-10 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 161 turn_urad_s 1254 | cube 2 tilt_urad 1343 turn_urad_s 3233 | cube 3 tilt_urad 147 turn_urad_s 2858 | most_iterations 101 at_iteration_limit 3738
+set5 tol 1e-10 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 761 turn_urad_s 40 | cube 2 tilt_urad 2392 turn_urad_s 23 | cube 3 tilt_urad 1375 turn_urad_s 2 | most_iterations 101 at_iteration_limit 4840
+set5 tol 1e-10 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 157 turn_urad_s 465 | cube 2 tilt_urad 1001 turn_urad_s 1232 | cube 3 tilt_urad 200 turn_urad_s 1098 | most_iterations 101 at_iteration_limit 11125
+set5 tol 1e-10 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 758 turn_urad_s 288 | cube 2 tilt_urad 2195 turn_urad_s 782 | cube 3 tilt_urad 1147 turn_urad_s 684 | most_iterations 101 at_iteration_limit 19115
+set5 tol 1e-10 free cube b 0.001277 at 0.95 | mean_speed_ums 1098 | most_iterations 110 at_iteration_limit 19
+set5 tol 1e-10 free cube b 0.00031925 at 0.95 | mean_speed_ums 497 | most_iterations 112 at_iteration_limit 111
+set5 tol 1e-12 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 130 turn_urad_s 417 | cube 2 tilt_urad 199 turn_urad_s 1417 | cube 3 tilt_urad 144 turn_urad_s 1270 | most_iterations 101 at_iteration_limit 5019
+set5 tol 1e-12 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 689 turn_urad_s 398 | cube 2 tilt_urad 1700 turn_urad_s 1191 | cube 3 tilt_urad 1998 turn_urad_s 1033 | most_iterations 101 at_iteration_limit 4913
+set5 tol 1e-12 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 92 turn_urad_s 1664 | cube 2 tilt_urad 1546 turn_urad_s 8568 | cube 3 tilt_urad 1508 turn_urad_s 9091 | most_iterations 101 at_iteration_limit 18134
+set5 tol 1e-12 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 688 turn_urad_s 8 | cube 2 tilt_urad 1628 turn_urad_s 10 | cube 3 tilt_urad 1927 turn_urad_s 6 | most_iterations 101 at_iteration_limit 19516
+set5 tol 1e-12 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 144 turn_urad_s 1780 | cube 2 tilt_urad 285 turn_urad_s 4568 | cube 3 tilt_urad 224 turn_urad_s 3933 | most_iterations 101 at_iteration_limit 5037
+set5 tol 1e-12 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 755 turn_urad_s 15 | cube 2 tilt_urad 1850 turn_urad_s 223 | cube 3 tilt_urad 2179 turn_urad_s 224 | most_iterations 101 at_iteration_limit 4951
+set5 tol 1e-12 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 86 turn_urad_s 981 | cube 2 tilt_urad 1697 turn_urad_s 5350 | cube 3 tilt_urad 1659 turn_urad_s 5677 | most_iterations 101 at_iteration_limit 18243
+set5 tol 1e-12 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 756 turn_urad_s 126 | cube 2 tilt_urad 1781 turn_urad_s 384 | cube 3 tilt_urad 2110 turn_urad_s 334 | most_iterations 101 at_iteration_limit 19483
+set5 tol 1e-12 free cube b 0.001277 at 0.95 | mean_speed_ums 1098 | most_iterations 112 at_iteration_limit 911
+set5 tol 1e-12 free cube b 0.00031925 at 0.95 | mean_speed_ums 497 | most_iterations 114 at_iteration_limit 3693
+set5 tol 1e-15 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 123 turn_urad_s 888 | cube 2 tilt_urad 1408 turn_urad_s 2250 | cube 3 tilt_urad 1360 turn_urad_s 1950 | most_iterations 101 at_iteration_limit 2519
+set5 tol 1e-15 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 688 turn_urad_s 385 | cube 2 tilt_urad 1482 turn_urad_s 1278 | cube 3 tilt_urad 1783 turn_urad_s 1137 | most_iterations 101 at_iteration_limit 5259
+set5 tol 1e-15 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 123 turn_urad_s 328 | cube 2 tilt_urad 1365 turn_urad_s 915 | cube 3 tilt_urad 1316 turn_urad_s 807 | most_iterations 101 at_iteration_limit 10067
+set5 tol 1e-15 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 687 turn_urad_s 72 | cube 2 tilt_urad 1545 turn_urad_s 177 | cube 3 tilt_urad 1844 turn_urad_s 153 | most_iterations 101 at_iteration_limit 21044
+set5 tol 1e-15 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 135 turn_urad_s 46 | cube 2 tilt_urad 1460 turn_urad_s 115 | cube 3 tilt_urad 1407 turn_urad_s 98 | most_iterations 101 at_iteration_limit 2437
+set5 tol 1e-15 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 735 turn_urad_s 712 | cube 2 tilt_urad 341 turn_urad_s 1753 | cube 3 tilt_urad 18 turn_urad_s 1479 | most_iterations 101 at_iteration_limit 5260
+set5 tol 1e-15 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 135 turn_urad_s 288 | cube 2 tilt_urad 1420 turn_urad_s 785 | cube 3 tilt_urad 1366 turn_urad_s 688 | most_iterations 101 at_iteration_limit 9749
+set5 tol 1e-15 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 738 turn_urad_s 51 | cube 2 tilt_urad 199 turn_urad_s 99 | cube 3 tilt_urad 528 turn_urad_s 79 | most_iterations 101 at_iteration_limit 21044
+set5 tol 1e-15 free cube b 0.001277 at 0.95 | mean_speed_ums 1098 | most_iterations 112 at_iteration_limit 915
+set5 tol 1e-15 free cube b 0.00031925 at 0.95 | mean_speed_ums 497 | most_iterations 114 at_iteration_limit 3709
+setn tol 1e-8 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 144 turn_urad_s 231 | cube 2 tilt_urad 1080 turn_urad_s 551 | cube 3 tilt_urad 1138 turn_urad_s 438 | most_iterations 89 at_iteration_limit 0
+setn tol 1e-8 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 689 turn_urad_s 45 | cube 2 tilt_urad 2346 turn_urad_s 307 | cube 3 tilt_urad 1337 turn_urad_s 294 | most_iterations 98 at_iteration_limit 0
+setn tol 1e-8 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 141 turn_urad_s 140 | cube 2 tilt_urad 914 turn_urad_s 618 | cube 3 tilt_urad 1119 turn_urad_s 250 | most_iterations 83 at_iteration_limit 0
+setn tol 1e-8 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 686 turn_urad_s 2116 | cube 2 tilt_urad 324 turn_urad_s 6223 | cube 3 tilt_urad 687 turn_urad_s 5573 | most_iterations 98 at_iteration_limit 0
+setn tol 1e-8 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 154 turn_urad_s 1034 | cube 2 tilt_urad 1156 turn_urad_s 2820 | cube 3 tilt_urad 32 turn_urad_s 2385 | most_iterations 69 at_iteration_limit 0
+setn tol 1e-8 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 754 turn_urad_s 410 | cube 2 tilt_urad 2546 turn_urad_s 1419 | cube 3 tilt_urad 1511 turn_urad_s 1242 | most_iterations 100 at_iteration_limit 1
+setn tol 1e-8 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 152 turn_urad_s 46 | cube 2 tilt_urad 887 turn_urad_s 700 | cube 3 tilt_urad 615 turn_urad_s 683 | most_iterations 70 at_iteration_limit 0
+setn tol 1e-8 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 754 turn_urad_s 432 | cube 2 tilt_urad 2537 turn_urad_s 1375 | cube 3 tilt_urad 1493 turn_urad_s 1178 | most_iterations 100 at_iteration_limit 3
+setn tol 1e-8 free cube b 0.001277 at 0.95 | mean_speed_ums 1 | most_iterations 53 at_iteration_limit 0
+setn tol 1e-8 free cube b 0.00031925 at 0.95 | mean_speed_ums 1 | most_iterations 53 at_iteration_limit 0
+setn tol 1e-10 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 137 turn_urad_s 523 | cube 2 tilt_urad 473 turn_urad_s 1743 | cube 3 tilt_urad 672 turn_urad_s 1534 | most_iterations 102 at_iteration_limit 375
+setn tol 1e-10 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 682 turn_urad_s 0 | cube 2 tilt_urad 1543 turn_urad_s 0 | cube 3 tilt_urad 530 turn_urad_s 0 | most_iterations 104 at_iteration_limit 130
+setn tol 1e-10 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 136 turn_urad_s 70 | cube 2 tilt_urad 473 turn_urad_s 321 | cube 3 tilt_urad 673 turn_urad_s 296 | most_iterations 101 at_iteration_limit 1539
+setn tol 1e-10 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 682 turn_urad_s 0 | cube 2 tilt_urad 1543 turn_urad_s 0 | cube 3 tilt_urad 530 turn_urad_s 0 | most_iterations 103 at_iteration_limit 531
+setn tol 1e-10 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 149 turn_urad_s 168 | cube 2 tilt_urad 319 turn_urad_s 434 | cube 3 tilt_urad 137 turn_urad_s 2640 | most_iterations 101 at_iteration_limit 135
+setn tol 1e-10 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 751 turn_urad_s 0 | cube 2 tilt_urad 1707 turn_urad_s 0 | cube 3 tilt_urad 2041 turn_urad_s 0 | most_iterations 101 at_iteration_limit 131
+setn tol 1e-10 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 149 turn_urad_s 114 | cube 2 tilt_urad 508 turn_urad_s 382 | cube 3 tilt_urad 691 turn_urad_s 336 | most_iterations 101 at_iteration_limit 2040
+setn tol 1e-10 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 752 turn_urad_s 0 | cube 2 tilt_urad 1707 turn_urad_s 0 | cube 3 tilt_urad 2041 turn_urad_s 0 | most_iterations 101 at_iteration_limit 536
+setn tol 1e-10 free cube b 0.001277 at 0.95 | mean_speed_ums 0 | most_iterations 94 at_iteration_limit 0
+setn tol 1e-10 free cube b 0.00031925 at 0.95 | mean_speed_ums 0 | most_iterations 94 at_iteration_limit 0
+setn tol 1e-12 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 134 turn_urad_s 0 | cube 2 tilt_urad 287 turn_urad_s 0 | cube 3 tilt_urad 860 turn_urad_s 0 | most_iterations 102 at_iteration_limit 196
+setn tol 1e-12 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 685 turn_urad_s 0 | cube 2 tilt_urad 1550 turn_urad_s 0 | cube 3 tilt_urad 1852 turn_urad_s 0 | most_iterations 104 at_iteration_limit 5214
+setn tol 1e-12 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 134 turn_urad_s 0 | cube 2 tilt_urad 287 turn_urad_s 0 | cube 3 tilt_urad 860 turn_urad_s 0 | most_iterations 103 at_iteration_limit 793
+setn tol 1e-12 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 685 turn_urad_s 0 | cube 2 tilt_urad 1550 turn_urad_s 0 | cube 3 tilt_urad 1852 turn_urad_s 0 | most_iterations 103 at_iteration_limit 20934
+setn tol 1e-12 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 150 turn_urad_s 0 | cube 2 tilt_urad 322 turn_urad_s 0 | cube 3 tilt_urad 382 turn_urad_s 0 | most_iterations 101 at_iteration_limit 102
+setn tol 1e-12 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 751 turn_urad_s 50 | cube 2 tilt_urad 1707 turn_urad_s 131 | cube 3 tilt_urad 1981 turn_urad_s 859 | most_iterations 102 at_iteration_limit 5237
+setn tol 1e-12 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 150 turn_urad_s 0 | cube 2 tilt_urad 322 turn_urad_s 0 | cube 3 tilt_urad 382 turn_urad_s 0 | most_iterations 101 at_iteration_limit 415
+setn tol 1e-12 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 750 turn_urad_s 5 | cube 2 tilt_urad 1704 turn_urad_s 14 | cube 3 tilt_urad 1601 turn_urad_s 81 | most_iterations 101 at_iteration_limit 20936
+setn tol 1e-12 free cube b 0.001277 at 0.95 | mean_speed_ums 0 | most_iterations 109 at_iteration_limit 940
+setn tol 1e-12 free cube b 0.00031925 at 0.95 | mean_speed_ums 0 | most_iterations 109 at_iteration_limit 3759
+setn tol 1e-15 stack k078 shift 0.001 0.00114 6s | cube 1 tilt_urad 137 turn_urad_s 0 | cube 2 tilt_urad 293 turn_urad_s 0 | cube 3 tilt_urad 348 turn_urad_s 0 | most_iterations 102 at_iteration_limit 5261
+setn tol 1e-15 stack k078 shift 0.005 0.00114 6s | cube 1 tilt_urad 685 turn_urad_s 0 | cube 2 tilt_urad 1550 turn_urad_s 0 | cube 3 tilt_urad 1852 turn_urad_s 0 | most_iterations 104 at_iteration_limit 5261
+setn tol 1e-15 stack k078 shift 0.001 0.000285 6s | cube 1 tilt_urad 137 turn_urad_s 0 | cube 2 tilt_urad 293 turn_urad_s 0 | cube 3 tilt_urad 348 turn_urad_s 0 | most_iterations 103 at_iteration_limit 21024
+setn tol 1e-15 stack k078 shift 0.005 0.000285 6s | cube 1 tilt_urad 685 turn_urad_s 0 | cube 2 tilt_urad 1550 turn_urad_s 0 | cube 3 tilt_urad 1852 turn_urad_s 0 | most_iterations 103 at_iteration_limit 21051
+setn tol 1e-15 stack k016 shift 0.001 0.00114 6s | cube 1 tilt_urad 150 turn_urad_s 0 | cube 2 tilt_urad 322 turn_urad_s 0 | cube 3 tilt_urad 382 turn_urad_s 0 | most_iterations 101 at_iteration_limit 5262
+setn tol 1e-15 stack k016 shift 0.005 0.00114 6s | cube 1 tilt_urad 751 turn_urad_s 52 | cube 2 tilt_urad 1706 turn_urad_s 137 | cube 3 tilt_urad 1984 turn_urad_s 839 | most_iterations 102 at_iteration_limit 5262
+setn tol 1e-15 stack k016 shift 0.001 0.000285 6s | cube 1 tilt_urad 150 turn_urad_s 0 | cube 2 tilt_urad 322 turn_urad_s 0 | cube 3 tilt_urad 382 turn_urad_s 0 | most_iterations 101 at_iteration_limit 21052
+setn tol 1e-15 stack k016 shift 0.005 0.000285 6s | cube 1 tilt_urad 751 turn_urad_s 9 | cube 2 tilt_urad 1706 turn_urad_s 26 | cube 3 tilt_urad 1887 turn_urad_s 145 | most_iterations 101 at_iteration_limit 21052
+setn tol 1e-15 free cube b 0.001277 at 0.95 | mean_speed_ums 0 | most_iterations 109 at_iteration_limit 940
+setn tol 1e-15 free cube b 0.00031925 at 0.95 | mean_speed_ums 0 | most_iterations 109 at_iteration_limit 3759

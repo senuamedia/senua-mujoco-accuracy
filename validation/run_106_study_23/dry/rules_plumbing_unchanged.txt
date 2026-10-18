@@ -1,0 +1,86 @@
+RULE E1_rigs_as_before eq 81 81 : HELD
+RULE P0_every_play_measured all_eq 339 339 339 339 : HELD
+RULE G1_Q1_the_free_cube_creeps_in_the_set ge 1503 10 : HELD
+RULE G1_C1_hold_every_free_cube_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G1_C2_inverse_every_free_cube_holds all_le 10 0 1 1 0 0 1 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G9_Q1_the_set_sinks all_ge 100000 636821 901106 832755 768309 703979 636821 563645 479614 366909 207044 636821 901106 832755 768309 703979 636821 563645 479614 366909 207044 : HELD
+RULE G9_Q2_the_set_leans all_ge 2000 10088 9633 10054 9585 : HELD
+RULE G9_D_hold_every_contact_within_100_um all_le 100000 7370 9826 4913 12282 19645 14737 9826 4913 24550 44117 39235 34346 29450 24550 19645 14737 9826 4913 461 614 307 768 1228 921 614 307 1535 2764 2457 2150 1843 1535 1228 921 614 307 : HELD
+RULE G9_L_hold_every_lean_within_1_mrad all_le 1000 15 36 41 37 94 109 98 303 355 1 2 3 2 6 7 6 19 22 : HELD
+RULE G9_T_hold_every_offset_stack_at_rest all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G9_D_inverse_every_contact_within_100_um all_le 100000 7370 9826 4913 12282 19645 14737 9826 4913 24550 44117 39235 34346 29450 24550 19645 14737 9826 4913 461 614 307 768 1228 921 614 307 1535 2764 2457 2150 1843 1535 1228 921 614 307 : HELD
+RULE G9_L_inverse_every_lean_within_1_mrad all_le 1000 15 36 41 37 94 109 98 303 355 1 2 3 2 6 7 6 19 22 : HELD
+RULE G9_T_inverse_every_offset_stack_at_rest all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G14_I1_inverse_dynamics_agrees all_le 1000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE G14_L1_soft_friction_law_held_1 all_within 1960 100 1960 : HELD
+RULE G14_L1_soft_friction_law_held_2 all_within 1960 100 1960 : HELD
+RULE G14_L1_soft_friction_law_held_3 all_within 1960 100 1960 : HELD
+RULE G14_L1_soft_friction_law_i2430_1 all_within 18000000 100 17999996 : HELD
+RULE G14_L1_soft_friction_law_i2430_2 all_within 1200000 100 1200000 : HELD
+RULE G14_C1_inverse_coupling_kept all_le 10 0 0 0 : HELD
+RULE G14_C2_inverse_held_body_held all_le 10000 1960 1960 1960 : HELD
+RULE G14_C3_inverse_load_as_the_set_1 all_within 578 100 578 : HELD
+RULE G14_C3_inverse_load_as_the_set_2 all_within 578 100 578 : HELD
+RULE G14_R1_inverse_held_arms_rest all_le 10 3 3 5 6 4 1 7 2 : HELD
+RULE G14_N1_hold_nothing_without_a_contact_changes eq 22 22 : HELD
+RULE G14_V1_inverse_iteration_limit eq 0 0 : HELD
+RULE G14_V1_inverse_warnings eq 0 0 : HELD
+RULE S_R_hold_every_arm_rests all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE S_G_hold_every_grip_holds all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE S_H_hold_every_hold_holds all_le 10 0 0 0 0 : HELD
+RULE S_B_hold_every_box_rests all_le 10 0 0 0 0 0 0 0 : HELD
+RULE S_K_hold_slide_0_0.002 near 381154 381153 10 : HELD
+RULE S_K_hold_slide_22.5_0.002 near 381154 381153 10 : HELD
+RULE S_K_hold_slide_45_0.002 near 381154 381153 10 : HELD
+RULE S_K_hold_slide_0_0.0005 near 382278 382278 10 : HELD
+RULE S_K_hold_slide_22.5_0.0005 near 382278 382278 10 : HELD
+RULE S_K_hold_slide_45_0.0005 near 382278 382278 10 : HELD
+RULE S_R_inverse_every_arm_rests all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE S_G_inverse_every_grip_holds all_le 10 1 1 1 1 0 0 0 0 : HELD
+RULE S_H_inverse_every_hold_holds all_le 10 0 0 0 0 : HELD
+RULE S_B_inverse_every_box_rests all_le 10 0 0 0 0 0 0 0 : HELD
+RULE S_K_inverse_slide_0_0.002 near 381154 381153 10 : HELD
+RULE S_K_inverse_slide_22.5_0.002 near 381154 381153 10 : HELD
+RULE S_K_inverse_slide_45_0.002 near 381154 381153 10 : HELD
+RULE S_K_inverse_slide_0_0.0005 near 382278 382278 10 : HELD
+RULE S_K_inverse_slide_22.5_0.0005 near 382278 382278 10 : HELD
+RULE S_K_inverse_slide_45_0.0005 near 382278 382278 10 : HELD
+RULE V2_hold_iteration_limit_without_an_equality eq 0 0 : HELD
+RULE V2_hold_warnings eq 0 0 : HELD
+reported: set, the largest forward-inverse difference, nN: 5664100000 (free cubes), 90000000000000 (group 14)
+reported: hold, the largest forward-inverse difference, nN: 5631710000 (free cubes), 90000000000000 (group 14)
+reported: set g14 i2430 1 held_nm 0 coupled_nm 387 gap_um 0 fwdinv_nn 90000000000000
+reported: set g14 i2430 2 held_nm 0 coupled_nm 283 gap_um 0 fwdinv_nn 6000000000000
+reported: inverse g14 i2430 1 held_nm 17999996 coupled_nm 17999996 gap_um 27 fwdinv_nn 0
+reported: inverse g14 i2430 2 held_nm 1200000 coupled_nm 1200000 gap_um 2 fwdinv_nn 0
+reported: set g9 offset 1 0.0015 1 lean_urad 492 turn_urads 1
+reported: set g9 offset 1 0.0015 2 lean_urad 876 turn_urads 15
+reported: set g9 offset 1 0.0015 3 lean_urad 668 turn_urads 13
+reported: set g9 offset 2 0.0015 1 lean_urad 1248 turn_urads 4
+reported: set g9 offset 2 0.0015 2 lean_urad 3073 turn_urads 19
+reported: set g9 offset 2 0.0015 3 lean_urad 1726 turn_urads 21
+reported: set g9 offset 3 0.0015 1 lean_urad 3366 turn_urads 12
+reported: set g9 offset 3 0.0015 2 lean_urad 10088 turn_urads 40
+reported: set g9 offset 3 0.0015 3 lean_urad 9633 turn_urads 44
+reported: set g9 offset 1 0.000375 1 lean_urad 491 turn_urads 1
+reported: set g9 offset 1 0.000375 2 lean_urad 776 turn_urads 28
+reported: set g9 offset 1 0.000375 3 lean_urad 778 turn_urads 27
+reported: set g9 offset 2 0.000375 1 lean_urad 1247 turn_urads 4
+reported: set g9 offset 2 0.000375 2 lean_urad 2945 turn_urads 9
+reported: set g9 offset 2 0.000375 3 lean_urad 1589 turn_urads 9
+reported: set g9 offset 3 0.000375 1 lean_urad 3367 turn_urads 12
+reported: set g9 offset 3 0.000375 2 lean_urad 10054 turn_urads 37
+reported: set g9 offset 3 0.000375 3 lean_urad 9585 turn_urads 39
+reported: set slide 0 0.002 slid_um 381278 expected_um 381153
+reported: set slide 22.5 0.002 slid_um 381278 expected_um 381153
+reported: set slide 45 0.002 slid_um 381278 expected_um 381153
+reported: set slide 0 0.0005 slid_um 382421 expected_um 382278
+reported: set slide 22.5 0.0005 slid_um 382421 expected_um 382278
+reported: set slide 45 0.0005 slid_um 382421 expected_um 382278
+reported: set solver_eq most_iterations 101 at_iteration_limit 1423 warnings 0
+reported: set solver_other most_iterations 64 at_iteration_limit 0 warnings 0
+reported: hold solver_eq most_iterations 101 at_iteration_limit 1423 warnings 0
+reported: hold solver_other most_iterations 60 at_iteration_limit 0 warnings 0
+reported: inverse solver_eq most_iterations 2 at_iteration_limit 0 warnings 0
+reported: inverse solver_other most_iterations 58 at_iteration_limit 0 warnings 0
+rules: 49, held: 49

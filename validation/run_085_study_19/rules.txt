@@ -1,0 +1,11 @@
+RULE Q1_released_box_keeps_moving ge 106 10 : HELD
+RULE E1_safe_when_off eq 46 46 : HELD
+RULE M0_every_suite_read all_eq 3492 3492 3492 3492 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE M1_mujoco_suite_named_only eq 0 0 : HELD
+RULE set5_R1_every_box_rests all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE set5_N1_nothing_else_changes eq 32 32 : HELD
+RULE set5_V1_iteration_limit eq 0 0 : HELD
+RULE set5_V1_warnings eq 0 0 : HELD
+reported: changed with the five switches set: SolverTest.ZeroToleranceDisablesTermination
+rules: 9, held: 9

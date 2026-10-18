@@ -1,0 +1,14 @@
+group 1: the step 0.002 and 0.0005
+cube a: 0.3 kg, half-size 0.025 m, friction 0.9
+cube b: 2 kg, half-size 0.06 m, friction 0.3
+group 9: the step 0.0015 and 0.000375; the cube 2 kg, half-size 0.03 m, friction 0.3; offsets 0.06, 0.15 and 0.4 of the half-size
+group 14: the step 0.002
+held body 1: 5 kg, its friction 1.2 times its weight
+held body 2: 500 kg, its friction 3 times its weight
+held body 3: 50 kg, its friction 2.5 times its weight
+after issue 2430, 1: joint friction 100000 N, pushed by 0.9 of it
+after issue 2430, 2: joint friction 20000 N, pushed by 0.3 of it
+load 1: the friction 1.2 times the weight of the falling body
+load 2: the friction 3 times the weight of the falling body
+the joint friction of the arm 8 N m
+the slides: the step 0.002 and 0.0005; the cube 0.3 kg, half-size 0.06 m, friction 0.3, set sliding at 1.5 m/s

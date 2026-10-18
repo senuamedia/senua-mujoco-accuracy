@@ -1,0 +1,48 @@
+RULE Q1_released_lifts_rec ge 7285 100 : HELD
+RULE Q2_released_direction_rec ge 1026 10 : HELD
+RULE Q3_released_corners_rec ge 3581 1 : HELD
+RULE Q1_released_lifts_ell ge 7285 100 : HELD
+RULE Q2_released_direction_ell ge 532 10 : HELD
+RULE Q3_released_corners_ell ge 3491 1 : HELD
+RULE E1_safe_when_off_def eq 164 164 : HELD
+RULE E1_safe_when_off_rec eq 164 164 : HELD
+RULE E1_safe_when_off_ell eq 164 164 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE P1_pyramidal_untouched eq 164 164 : HELD
+RULE M1_mujoco_suite_named_only eq 0 0 : HELD
+RULE on_rec_L1_no_lift all_le 1 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_L2_four_corners eq 0 0 : HELD
+RULE on_rec_D1_no_direction_free_0.00114 all_within 133036 10000 133036 133036 133036 133036 : HELD
+RULE on_rec_D1_no_direction_kept_0.00114 all_within 133052 10000 133052 133052 : HELD
+RULE on_rec_D2_no_drift_0.00114 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_D3_no_turn_0.00114 all_le 1000 0 0 0 0 0 : HELD
+RULE on_rec_D1_no_direction_free_0.000285 all_within 133478 10000 133478 133478 133478 133478 : HELD
+RULE on_rec_D1_no_direction_kept_0.000285 all_within 133494 10000 133494 133494 : HELD
+RULE on_rec_D2_no_drift_0.000285 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_D3_no_turn_0.000285 all_le 1000 0 0 0 0 0 : HELD
+RULE on_rec_C1_coulomb all_within 133451 100 133494 133494 133494 133478 133478 133478 133478 133478 : HELD
+RULE on_rec_V1_iteration_limit eq 0 0 : HELD
+RULE on_rec_V1_warnings eq 0 0 : HELD
+RULE on_ell_L1_no_lift all_le 1 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_ell_L2_four_corners eq 0 0 : HELD
+RULE on_ell_D1_no_direction_free_0.00114 all_within 133041 10000 133041 133041 133041 133041 : HELD
+RULE on_ell_D1_no_direction_kept_0.00114 all_within 133061 10000 133061 133061 : HELD
+RULE on_ell_D2_no_drift_0.00114 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_ell_D3_no_turn_0.00114 all_le 1000 0 0 0 0 0 : HELD
+RULE on_ell_D1_no_direction_free_0.000285 all_within 133483 10000 133483 133483 133483 133483 : HELD
+RULE on_ell_D1_no_direction_kept_0.000285 all_within 133504 10000 133504 133504 : HELD
+RULE on_ell_D2_no_drift_0.000285 all_le 10 0 0 0 0 0 0 0 0 : HELD
+RULE on_ell_D3_no_turn_0.000285 all_le 1000 0 0 0 0 0 : HELD
+RULE on_ell_C1_coulomb all_within 133451 100 133504 133504 133504 133483 133483 133483 133483 133483 : HELD
+RULE on_ell_V1_iteration_limit eq 0 0 : HELD
+RULE on_ell_V1_warnings eq 0 0 : HELD
+RULE on_rec_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE on_rec_G1_grip_holds all_le 10 1 0 1 0 1 0 1 0 : HELD
+RULE on_rec_K1_ten_tests eq 10 10 : HELD
+RULE on_rec_N1_held_untouched eq 35 35 : HELD
+RULE on_ell_H2_held_as_released le 0 1 : HELD
+reported: changed with the switch set: SolverTest.ZeroToleranceDisablesTermination
+rules: 43, held: 43
+shared (Q, E, P, M): 12, held: 12
+on_rec: 17, held: 17
+on_ell: 14, held: 14

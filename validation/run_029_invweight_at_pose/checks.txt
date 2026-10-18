@@ -1,0 +1,59 @@
+RULE 1_required_A_rest_0.002 ge 64834 1000 : HELD
+RULE 2_correct_place_A_rest_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_A_rest_0.002_folded le 2 100 : HELD
+RULE 2_correct_speed_A_rest_0.002_folded le 1 10 : HELD
+RULE 1_required_A_rest_0.0005 ge 64835 1000 : HELD
+RULE 2_correct_place_A_rest_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_A_rest_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.0005_folded le 0 10 : HELD
+RULE 1_required_A_drop_0.002 ge 65149 1000 : HELD
+RULE 2_correct_place_A_drop_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_A_drop_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.002_folded le 0 10 : HELD
+RULE 1_required_A_drop_0.0005 ge 65156 1000 : HELD
+RULE 2_correct_place_A_drop_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_A_drop_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.0005_folded le 0 10 : HELD
+RULE 1_required_B_rest_0.002 ge 13338 1000 : HELD
+RULE 2_correct_place_B_rest_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_B_rest_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.002_folded le 0 10 : HELD
+RULE 1_required_B_rest_0.0005 ge 13344 1000 : HELD
+RULE 2_correct_place_B_rest_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_B_rest_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.0005_folded le 0 10 : HELD
+RULE 1_required_B_drop_0.002 ge 13494 1000 : HELD
+RULE 2_correct_place_B_drop_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_B_drop_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.002_folded le 0 10 : HELD
+RULE 1_required_B_drop_0.0005 ge 13494 1000 : HELD
+RULE 2_correct_place_B_drop_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_B_drop_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.0005_folded le 0 10 : HELD
+RULE 2_correct_creep_A_0.002 all_within -852 1000 -852 -851 : FAILED
+RULE 2_correct_creep_A_0.0005 all_within -852 1000 -852 -852 : HELD
+RULE 2_correct_creep_B_0.002 all_within -607 1000 -607 -607 : HELD
+RULE 2_correct_creep_B_0.0005 all_within -606 1000 -606 -606 : HELD
+RULE 3_cubes_and_suites_on_as_released eq 171 171 : HELD
+RULE 3_mujoco_suite_on_as_off eq 0 0 : HELD
+RULE 4_off_as_released_files eq 220 220 : HELD
+RULE 4_off_suite_as_released eq 0 0 : HELD
+RULE 5_iteration_limit eq 0 0 : HELD
+RULE 5_warnings eq 0 0 : HELD
+reported: recommended, A rest 0.002 straight: release apart 106549 nm, on apart 0 nm
+reported: recommended, A rest 0.002 folded: release apart 42952 nm, on apart 2 nm
+reported: recommended, A rest 0.0005 straight: release apart 106549 nm, on apart 0 nm
+reported: recommended, A rest 0.0005 folded: release apart 42955 nm, on apart 1 nm
+reported: recommended, B rest 0.002 straight: release apart 24881 nm, on apart 0 nm
+reported: recommended, B rest 0.002 folded: release apart 2239 nm, on apart 0 nm
+reported: recommended, B rest 0.0005 straight: release apart 24887 nm, on apart 0 nm
+reported: recommended, B rest 0.0005 folded: release apart 2212 nm, on apart 0 nm
+checks: 50, held: 49

@@ -1,0 +1,4 @@
+STATS run damper_def_0.002 act scene damper dt 0.002 steps 1000 most_iterations 0 at_iteration_limit 0 iteration_limit 100 warnings 0 nu 1 ntendon 0 engine mujoco 3.11.0 extra scene=damper secs=2
+STATS run damper_def_0.0005 act scene damper dt 0.0005 steps 4000 most_iterations 0 at_iteration_limit 0 iteration_limit 100 warnings 0 nu 1 ntendon 0 engine mujoco 3.11.0 extra scene=damper secs=2
+STATS run damper_implicitfast_0.002 act scene damper dt 0.002 steps 1000 most_iterations 0 at_iteration_limit 0 iteration_limit 100 warnings 0 nu 1 ntendon 0 engine mujoco 3.11.0 extra scene=damper secs=2 integ=implicitfast
+STATS run damper_implicitfast_0.0005 act scene damper dt 0.0005 steps 4000 most_iterations 0 at_iteration_limit 0 iteration_limit 100 warnings 0 nu 1 ntendon 0 engine mujoco 3.11.0 extra scene=damper secs=2 integ=implicitfast

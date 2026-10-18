@@ -1,0 +1,16 @@
+  <mujoco>
+    <option timestep="0.016" integrator="discrete" cone="elliptic" impratio="10"
+            noslip_iterations="2">
+      <flag refsafe="disable"/>
+    </option>
+    <worldbody>
+      <geom type="plane" size="2 2 .1" solref="0.002 1"/>
+      <body name="box" pos="0 0 0.0416">
+        <freejoint/>
+        <geom type="box" size="0.0416 0.0416 0.0416" mass="1.565" solref="0.002 1" condim="6"/>
+      </body>
+    </worldbody>
+    <keyframe>
+      <key name="slide" qvel="2.05 0 0 0 0 0"/>
+    </keyframe>
+  </mujoco>

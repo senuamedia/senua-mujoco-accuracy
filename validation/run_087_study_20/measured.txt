@@ -1,0 +1,572 @@
+rel hold a 0.001277 3 1 0 creep_ums 0 0 0 
+rel hold a 0.001277 3 1 22.5 creep_ums 0 0 0 
+rel hold a 0.001277 3 1 45 creep_ums 0 0 0 
+rel hold a 0.001277 3 0 0 creep_ums 0 0 1458 
+rel hold a 0.001277 3 0 22.5 creep_ums 0 0 0 
+rel hold a 0.001277 3 0 45 creep_ums 0 0 0 
+rel hold a 0.001277 4 1 0 creep_ums 779 1168 1479 
+rel hold a 0.001277 4 1 22.5 creep_ums 779 1168 1479 
+rel hold a 0.001277 4 1 45 creep_ums 779 1168 1479 
+rel hold a 0.001277 4 0 0 creep_ums 0 0 1458 
+rel hold a 0.001277 4 0 22.5 creep_ums 0 0 0 
+rel hold a 0.001277 4 0 45 creep_ums 0 0 0 
+rel hold a 0.001277 6 1 0 creep_ums 779 1168 1479 
+rel hold a 0.001277 6 1 22.5 creep_ums 779 1168 1479 
+rel hold a 0.001277 6 1 45 creep_ums 779 1168 1479 
+rel hold a 0.001277 6 0 0 creep_ums 0 0 1448 
+rel hold a 0.001277 6 0 22.5 creep_ums 0 0 2 
+rel hold a 0.001277 6 0 45 creep_ums 0 0 1 
+rel hold a 0.00031925 3 1 0 creep_ums 0 0 0 
+rel hold a 0.00031925 3 1 22.5 creep_ums 0 0 0 
+rel hold a 0.00031925 3 1 45 creep_ums 0 0 0 
+rel hold a 0.00031925 3 0 0 creep_ums 0 0 598 
+rel hold a 0.00031925 3 0 22.5 creep_ums 0 0 0 
+rel hold a 0.00031925 3 0 45 creep_ums 0 0 0 
+rel hold a 0.00031925 4 1 0 creep_ums 779 1168 1479 
+rel hold a 0.00031925 4 1 22.5 creep_ums 779 1168 1479 
+rel hold a 0.00031925 4 1 45 creep_ums 779 1168 1479 
+rel hold a 0.00031925 4 0 0 creep_ums 0 0 1024 
+rel hold a 0.00031925 4 0 22.5 creep_ums 0 0 0 
+rel hold a 0.00031925 4 0 45 creep_ums 0 0 0 
+rel hold a 0.00031925 6 1 0 creep_ums 779 1168 1479 
+rel hold a 0.00031925 6 1 22.5 creep_ums 779 1168 1479 
+rel hold a 0.00031925 6 1 45 creep_ums 779 1168 1479 
+rel hold a 0.00031925 6 0 0 creep_ums 0 0 558 
+rel hold a 0.00031925 6 0 22.5 creep_ums 0 0 2 
+rel hold a 0.00031925 6 0 45 creep_ums 0 0 0 
+rel hold b 0.001277 3 1 0 creep_ums 0 0 0 
+rel hold b 0.001277 3 1 22.5 creep_ums 0 0 0 
+rel hold b 0.001277 3 1 45 creep_ums 0 0 0 
+rel hold b 0.001277 3 0 0 creep_ums 0 601 2368 
+rel hold b 0.001277 3 0 22.5 creep_ums 0 0 548 
+rel hold b 0.001277 3 0 45 creep_ums 0 0 0 
+rel hold b 0.001277 4 1 0 creep_ums 937 1405 1780 
+rel hold b 0.001277 4 1 22.5 creep_ums 937 1405 1780 
+rel hold b 0.001277 4 1 45 creep_ums 937 1405 1780 
+rel hold b 0.001277 4 0 0 creep_ums 0 601 2367 
+rel hold b 0.001277 4 0 22.5 creep_ums 0 0 547 
+rel hold b 0.001277 4 0 45 creep_ums 0 0 0 
+rel hold b 0.001277 6 1 0 creep_ums 937 1405 1780 
+rel hold b 0.001277 6 1 22.5 creep_ums 937 1405 1780 
+rel hold b 0.001277 6 1 45 creep_ums 937 1405 1780 
+rel hold b 0.001277 6 0 0 creep_ums 0 547 2318 
+rel hold b 0.001277 6 0 22.5 creep_ums 0 1 504 
+rel hold b 0.001277 6 0 45 creep_ums 0 0 0 
+rel hold b 0.00031925 3 1 0 creep_ums 0 0 0 
+rel hold b 0.00031925 3 1 22.5 creep_ums 0 0 0 
+rel hold b 0.00031925 3 1 45 creep_ums 0 0 0 
+rel hold b 0.00031925 3 0 0 creep_ums 0 391 2087 
+rel hold b 0.00031925 3 0 22.5 creep_ums 0 0 232 
+rel hold b 0.00031925 3 0 45 creep_ums 0 0 0 
+rel hold b 0.00031925 4 1 0 creep_ums 937 1405 1780 
+rel hold b 0.00031925 4 1 22.5 creep_ums 937 1405 1780 
+rel hold b 0.00031925 4 1 45 creep_ums 937 1405 1780 
+rel hold b 0.00031925 4 0 0 creep_ums 0 391 2226 
+rel hold b 0.00031925 4 0 22.5 creep_ums 0 0 228 
+rel hold b 0.00031925 4 0 45 creep_ums 0 0 0 
+rel hold b 0.00031925 6 1 0 creep_ums 937 1405 1780 
+rel hold b 0.00031925 6 1 22.5 creep_ums 937 1405 1780 
+rel hold b 0.00031925 6 1 45 creep_ums 937 1405 1780 
+rel hold b 0.00031925 6 0 0 creep_ums 0 174 2040 
+rel hold b 0.00031925 6 0 22.5 creep_ums 0 1 196 
+rel hold b 0.00031925 6 0 45 creep_ums 0 0 0 
+rel arm s10_drop1_0.000285 creep_ums 590
+rel arm s10_drop1_0.00114 creep_ums 591
+rel arm s10_drop2_0.000285 creep_ums 84
+rel arm s10_drop2_0.00114 creep_ums 84
+rel arm s10_rest1_0.000285 creep_ums 714
+rel arm s10_rest1_0.00114 creep_ums 714
+rel arm s10_rest2_0.000285 creep_ums 9
+rel arm s10_rest2_0.00114 creep_ums 9
+rel arm s13_drop1_0.00042 creep_ums 0
+rel arm s13_drop1_0.00168 creep_ums 0
+rel arm s13_drop2_0.00042 creep_ums 79
+rel arm s13_drop2_0.00168 creep_ums 80
+rel arm s13_rest1_0.00042 creep_ums 0
+rel arm s13_rest1_0.00168 creep_ums 0
+rel arm s13_rest2_0.00042 creep_ums 191
+rel arm s13_rest2_0.00168 creep_ums 192
+rel arm s14_drop1_0.0002975 creep_ums 329
+rel arm s14_drop1_0.00119 creep_ums 331
+rel arm s14_drop2_0.0002975 creep_ums 87
+rel arm s14_drop2_0.00119 creep_ums 87
+rel arm s14_drop3_0.0002975 creep_ums 321
+rel arm s14_drop3_0.00119 creep_ums 319
+rel arm s14_drop4_0.0002975 creep_ums 115
+rel arm s14_drop4_0.00119 creep_ums 114
+rel arm s14_rest1_0.0002975 creep_ums 497
+rel arm s14_rest1_0.00119 creep_ums 497
+rel arm s14_rest2_0.0002975 creep_ums 32
+rel arm s14_rest2_0.00119 creep_ums 31
+rel arm s14_rest3_0.0002975 creep_ums 102
+rel arm s14_rest3_0.00119 creep_ums 102
+rel arm s14_rest4_0.0002975 creep_ums 22
+rel arm s14_rest4_0.00119 creep_ums 21
+rel arm s15_drop1_0.0004275 creep_ums 688
+rel arm s15_drop1_0.00171 creep_ums 686
+rel arm s15_drop2_0.0004275 creep_ums 294
+rel arm s15_drop2_0.00171 creep_ums 295
+rel arm s15_drop3_0.0004275 creep_ums 348
+rel arm s15_drop3_0.00171 creep_ums 348
+rel arm s15_drop4_0.0004275 creep_ums 9
+rel arm s15_drop4_0.00171 creep_ums 8
+rel arm s15_rest1_0.0004275 creep_ums 482
+rel arm s15_rest1_0.00171 creep_ums 482
+rel arm s15_rest2_0.0004275 creep_ums 205
+rel arm s15_rest2_0.00171 creep_ums 205
+rel arm s15_rest3_0.0004275 creep_ums 480
+rel arm s15_rest3_0.00171 creep_ums 481
+rel arm s15_rest4_0.0004275 creep_ums 134
+rel arm s15_rest4_0.00171 creep_ums 134
+rel grip box 0 0.00171 creep_ums 1
+rel grip mesh 0 0.00171 creep_ums 0
+rel grip box 0.0092 0.00171 creep_ums 1
+rel grip mesh 0.0092 0.00171 creep_ums 0
+rel grip box 0 0.0004275 creep_ums 1
+rel grip mesh 0 0.0004275 creep_ums 0
+rel grip box 0.0092 0.0004275 creep_ums 1
+rel grip mesh 0.0092 0.0004275 creep_ums 0
+rel box box1_0.01411_n100 fast_steps 108 fastest_ums 67142
+rel box box1_0.01411_written fast_steps 108 fastest_ums 67142
+rel box box1_0.016_n100 fast_steps 107 fastest_ums 77000
+rel box box1_0.016_written fast_steps 107 fastest_ums 77000
+rel box box2_0.01411_n100 fast_steps 106 fastest_ums 66951
+rel box box2_0.01411_written fast_steps 106 fastest_ums 66951
+rel box box2_0.016_n100 fast_steps 128 fastest_ums 76441
+rel box box2_0.016_written fast_steps 128 fastest_ums 76441
+rel box box3_0.01411_n100 fast_steps 106 fastest_ums 67113
+rel box box3_0.01411_written fast_steps 106 fastest_ums 67113
+rel box box3_0.016_n100 fast_steps 106 fastest_ums 76955
+rel box box3_0.016_written fast_steps 106 fastest_ums 76955
+rel box mujoco_n100 fast_steps 106 fastest_ums 76978
+rel box mujoco_written fast_steps 106 fastest_ums 76978
+rel solver most_iterations 92 at_iteration_limit 0 warnings 0
+off hold a 0.001277 3 1 0 creep_ums 0 0 0 
+off hold a 0.001277 3 1 22.5 creep_ums 0 0 0 
+off hold a 0.001277 3 1 45 creep_ums 0 0 0 
+off hold a 0.001277 3 0 0 creep_ums 0 0 1458 
+off hold a 0.001277 3 0 22.5 creep_ums 0 0 0 
+off hold a 0.001277 3 0 45 creep_ums 0 0 0 
+off hold a 0.001277 4 1 0 creep_ums 779 1168 1479 
+off hold a 0.001277 4 1 22.5 creep_ums 779 1168 1479 
+off hold a 0.001277 4 1 45 creep_ums 779 1168 1479 
+off hold a 0.001277 4 0 0 creep_ums 0 0 1458 
+off hold a 0.001277 4 0 22.5 creep_ums 0 0 0 
+off hold a 0.001277 4 0 45 creep_ums 0 0 0 
+off hold a 0.001277 6 1 0 creep_ums 779 1168 1479 
+off hold a 0.001277 6 1 22.5 creep_ums 779 1168 1479 
+off hold a 0.001277 6 1 45 creep_ums 779 1168 1479 
+off hold a 0.001277 6 0 0 creep_ums 0 0 1448 
+off hold a 0.001277 6 0 22.5 creep_ums 0 0 2 
+off hold a 0.001277 6 0 45 creep_ums 0 0 1 
+off hold a 0.00031925 3 1 0 creep_ums 0 0 0 
+off hold a 0.00031925 3 1 22.5 creep_ums 0 0 0 
+off hold a 0.00031925 3 1 45 creep_ums 0 0 0 
+off hold a 0.00031925 3 0 0 creep_ums 0 0 598 
+off hold a 0.00031925 3 0 22.5 creep_ums 0 0 0 
+off hold a 0.00031925 3 0 45 creep_ums 0 0 0 
+off hold a 0.00031925 4 1 0 creep_ums 779 1168 1479 
+off hold a 0.00031925 4 1 22.5 creep_ums 779 1168 1479 
+off hold a 0.00031925 4 1 45 creep_ums 779 1168 1479 
+off hold a 0.00031925 4 0 0 creep_ums 0 0 1024 
+off hold a 0.00031925 4 0 22.5 creep_ums 0 0 0 
+off hold a 0.00031925 4 0 45 creep_ums 0 0 0 
+off hold a 0.00031925 6 1 0 creep_ums 779 1168 1479 
+off hold a 0.00031925 6 1 22.5 creep_ums 779 1168 1479 
+off hold a 0.00031925 6 1 45 creep_ums 779 1168 1479 
+off hold a 0.00031925 6 0 0 creep_ums 0 0 558 
+off hold a 0.00031925 6 0 22.5 creep_ums 0 0 2 
+off hold a 0.00031925 6 0 45 creep_ums 0 0 0 
+off hold b 0.001277 3 1 0 creep_ums 0 0 0 
+off hold b 0.001277 3 1 22.5 creep_ums 0 0 0 
+off hold b 0.001277 3 1 45 creep_ums 0 0 0 
+off hold b 0.001277 3 0 0 creep_ums 0 601 2368 
+off hold b 0.001277 3 0 22.5 creep_ums 0 0 548 
+off hold b 0.001277 3 0 45 creep_ums 0 0 0 
+off hold b 0.001277 4 1 0 creep_ums 937 1405 1780 
+off hold b 0.001277 4 1 22.5 creep_ums 937 1405 1780 
+off hold b 0.001277 4 1 45 creep_ums 937 1405 1780 
+off hold b 0.001277 4 0 0 creep_ums 0 601 2367 
+off hold b 0.001277 4 0 22.5 creep_ums 0 0 547 
+off hold b 0.001277 4 0 45 creep_ums 0 0 0 
+off hold b 0.001277 6 1 0 creep_ums 937 1405 1780 
+off hold b 0.001277 6 1 22.5 creep_ums 937 1405 1780 
+off hold b 0.001277 6 1 45 creep_ums 937 1405 1780 
+off hold b 0.001277 6 0 0 creep_ums 0 547 2318 
+off hold b 0.001277 6 0 22.5 creep_ums 0 1 504 
+off hold b 0.001277 6 0 45 creep_ums 0 0 0 
+off hold b 0.00031925 3 1 0 creep_ums 0 0 0 
+off hold b 0.00031925 3 1 22.5 creep_ums 0 0 0 
+off hold b 0.00031925 3 1 45 creep_ums 0 0 0 
+off hold b 0.00031925 3 0 0 creep_ums 0 391 2087 
+off hold b 0.00031925 3 0 22.5 creep_ums 0 0 232 
+off hold b 0.00031925 3 0 45 creep_ums 0 0 0 
+off hold b 0.00031925 4 1 0 creep_ums 937 1405 1780 
+off hold b 0.00031925 4 1 22.5 creep_ums 937 1405 1780 
+off hold b 0.00031925 4 1 45 creep_ums 937 1405 1780 
+off hold b 0.00031925 4 0 0 creep_ums 0 391 2226 
+off hold b 0.00031925 4 0 22.5 creep_ums 0 0 228 
+off hold b 0.00031925 4 0 45 creep_ums 0 0 0 
+off hold b 0.00031925 6 1 0 creep_ums 937 1405 1780 
+off hold b 0.00031925 6 1 22.5 creep_ums 937 1405 1780 
+off hold b 0.00031925 6 1 45 creep_ums 937 1405 1780 
+off hold b 0.00031925 6 0 0 creep_ums 0 174 2040 
+off hold b 0.00031925 6 0 22.5 creep_ums 0 1 196 
+off hold b 0.00031925 6 0 45 creep_ums 0 0 0 
+off arm s10_drop1_0.000285 creep_ums 590
+off arm s10_drop1_0.00114 creep_ums 591
+off arm s10_drop2_0.000285 creep_ums 84
+off arm s10_drop2_0.00114 creep_ums 84
+off arm s10_rest1_0.000285 creep_ums 714
+off arm s10_rest1_0.00114 creep_ums 714
+off arm s10_rest2_0.000285 creep_ums 9
+off arm s10_rest2_0.00114 creep_ums 9
+off arm s13_drop1_0.00042 creep_ums 0
+off arm s13_drop1_0.00168 creep_ums 0
+off arm s13_drop2_0.00042 creep_ums 79
+off arm s13_drop2_0.00168 creep_ums 80
+off arm s13_rest1_0.00042 creep_ums 0
+off arm s13_rest1_0.00168 creep_ums 0
+off arm s13_rest2_0.00042 creep_ums 191
+off arm s13_rest2_0.00168 creep_ums 192
+off arm s14_drop1_0.0002975 creep_ums 329
+off arm s14_drop1_0.00119 creep_ums 331
+off arm s14_drop2_0.0002975 creep_ums 87
+off arm s14_drop2_0.00119 creep_ums 87
+off arm s14_drop3_0.0002975 creep_ums 321
+off arm s14_drop3_0.00119 creep_ums 319
+off arm s14_drop4_0.0002975 creep_ums 115
+off arm s14_drop4_0.00119 creep_ums 114
+off arm s14_rest1_0.0002975 creep_ums 497
+off arm s14_rest1_0.00119 creep_ums 497
+off arm s14_rest2_0.0002975 creep_ums 32
+off arm s14_rest2_0.00119 creep_ums 31
+off arm s14_rest3_0.0002975 creep_ums 102
+off arm s14_rest3_0.00119 creep_ums 102
+off arm s14_rest4_0.0002975 creep_ums 22
+off arm s14_rest4_0.00119 creep_ums 21
+off arm s15_drop1_0.0004275 creep_ums 688
+off arm s15_drop1_0.00171 creep_ums 686
+off arm s15_drop2_0.0004275 creep_ums 294
+off arm s15_drop2_0.00171 creep_ums 295
+off arm s15_drop3_0.0004275 creep_ums 348
+off arm s15_drop3_0.00171 creep_ums 348
+off arm s15_drop4_0.0004275 creep_ums 9
+off arm s15_drop4_0.00171 creep_ums 8
+off arm s15_rest1_0.0004275 creep_ums 482
+off arm s15_rest1_0.00171 creep_ums 482
+off arm s15_rest2_0.0004275 creep_ums 205
+off arm s15_rest2_0.00171 creep_ums 205
+off arm s15_rest3_0.0004275 creep_ums 480
+off arm s15_rest3_0.00171 creep_ums 481
+off arm s15_rest4_0.0004275 creep_ums 134
+off arm s15_rest4_0.00171 creep_ums 134
+off grip box 0 0.00171 creep_ums 1
+off grip mesh 0 0.00171 creep_ums 0
+off grip box 0.0092 0.00171 creep_ums 1
+off grip mesh 0.0092 0.00171 creep_ums 0
+off grip box 0 0.0004275 creep_ums 1
+off grip mesh 0 0.0004275 creep_ums 0
+off grip box 0.0092 0.0004275 creep_ums 1
+off grip mesh 0.0092 0.0004275 creep_ums 0
+off box box1_0.01411_n100 fast_steps 108 fastest_ums 67142
+off box box1_0.01411_written fast_steps 108 fastest_ums 67142
+off box box1_0.016_n100 fast_steps 107 fastest_ums 77000
+off box box1_0.016_written fast_steps 107 fastest_ums 77000
+off box box2_0.01411_n100 fast_steps 106 fastest_ums 66951
+off box box2_0.01411_written fast_steps 106 fastest_ums 66951
+off box box2_0.016_n100 fast_steps 128 fastest_ums 76441
+off box box2_0.016_written fast_steps 128 fastest_ums 76441
+off box box3_0.01411_n100 fast_steps 106 fastest_ums 67113
+off box box3_0.01411_written fast_steps 106 fastest_ums 67113
+off box box3_0.016_n100 fast_steps 106 fastest_ums 76955
+off box box3_0.016_written fast_steps 106 fastest_ums 76955
+off box mujoco_n100 fast_steps 106 fastest_ums 76978
+off box mujoco_written fast_steps 106 fastest_ums 76978
+off solver most_iterations 92 at_iteration_limit 0 warnings 0
+v1set hold a 0.001277 3 1 0 creep_ums 0 0 0 
+v1set hold a 0.001277 3 1 22.5 creep_ums 0 0 0 
+v1set hold a 0.001277 3 1 45 creep_ums 0 0 0 
+v1set hold a 0.001277 3 0 0 creep_ums 0 0 613 
+v1set hold a 0.001277 3 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.001277 3 0 45 creep_ums 0 0 0 
+v1set hold a 0.001277 4 1 0 creep_ums 779 1168 1479 
+v1set hold a 0.001277 4 1 22.5 creep_ums 779 1168 1479 
+v1set hold a 0.001277 4 1 45 creep_ums 779 1168 1479 
+v1set hold a 0.001277 4 0 0 creep_ums 0 0 698 
+v1set hold a 0.001277 4 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.001277 4 0 45 creep_ums 0 0 0 
+v1set hold a 0.001277 6 1 0 creep_ums 779 1168 1479 
+v1set hold a 0.001277 6 1 22.5 creep_ums 779 1168 1479 
+v1set hold a 0.001277 6 1 45 creep_ums 779 1168 1479 
+v1set hold a 0.001277 6 0 0 creep_ums 0 0 699 
+v1set hold a 0.001277 6 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.001277 6 0 45 creep_ums 0 0 0 
+v1set hold a 0.00031925 3 1 0 creep_ums 0 0 0 
+v1set hold a 0.00031925 3 1 22.5 creep_ums 0 0 0 
+v1set hold a 0.00031925 3 1 45 creep_ums 0 0 0 
+v1set hold a 0.00031925 3 0 0 creep_ums 0 0 173 
+v1set hold a 0.00031925 3 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.00031925 3 0 45 creep_ums 0 0 0 
+v1set hold a 0.00031925 4 1 0 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 4 1 22.5 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 4 1 45 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 4 0 0 creep_ums 0 0 299 
+v1set hold a 0.00031925 4 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.00031925 4 0 45 creep_ums 0 0 0 
+v1set hold a 0.00031925 6 1 0 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 6 1 22.5 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 6 1 45 creep_ums 779 1168 1479 
+v1set hold a 0.00031925 6 0 0 creep_ums 0 0 299 
+v1set hold a 0.00031925 6 0 22.5 creep_ums 0 0 0 
+v1set hold a 0.00031925 6 0 45 creep_ums 0 0 0 
+v1set hold b 0.001277 3 1 0 creep_ums 0 0 0 
+v1set hold b 0.001277 3 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 3 1 45 creep_ums 0 0 0 
+v1set hold b 0.001277 3 0 0 creep_ums 0 0 1098 
+v1set hold b 0.001277 3 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 3 0 45 creep_ums 0 0 0 
+v1set hold b 0.001277 4 1 0 creep_ums 0 0 0 
+v1set hold b 0.001277 4 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 4 1 45 creep_ums 0 0 0 
+v1set hold b 0.001277 4 0 0 creep_ums 0 0 1124 
+v1set hold b 0.001277 4 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 4 0 45 creep_ums 0 0 0 
+v1set hold b 0.001277 6 1 0 creep_ums 0 0 0 
+v1set hold b 0.001277 6 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 6 1 45 creep_ums 0 0 0 
+v1set hold b 0.001277 6 0 0 creep_ums 0 0 1124 
+v1set hold b 0.001277 6 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.001277 6 0 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 3 1 0 creep_ums 0 0 0 
+v1set hold b 0.00031925 3 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 3 1 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 3 0 0 creep_ums 0 0 482 
+v1set hold b 0.00031925 3 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 3 0 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 4 1 0 creep_ums 0 0 0 
+v1set hold b 0.00031925 4 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 4 1 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 4 0 0 creep_ums 0 0 763 
+v1set hold b 0.00031925 4 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 4 0 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 6 1 0 creep_ums 0 0 0 
+v1set hold b 0.00031925 6 1 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 6 1 45 creep_ums 0 0 0 
+v1set hold b 0.00031925 6 0 0 creep_ums 0 0 763 
+v1set hold b 0.00031925 6 0 22.5 creep_ums 0 0 0 
+v1set hold b 0.00031925 6 0 45 creep_ums 0 0 0 
+v1set arm s10_drop1_0.000285 creep_ums 0
+v1set arm s10_drop1_0.00114 creep_ums 0
+v1set arm s10_drop2_0.000285 creep_ums 0
+v1set arm s10_drop2_0.00114 creep_ums 0
+v1set arm s10_rest1_0.000285 creep_ums 0
+v1set arm s10_rest1_0.00114 creep_ums 0
+v1set arm s10_rest2_0.000285 creep_ums 0
+v1set arm s10_rest2_0.00114 creep_ums 0
+v1set arm s13_drop1_0.00042 creep_ums 0
+v1set arm s13_drop1_0.00168 creep_ums 0
+v1set arm s13_drop2_0.00042 creep_ums 0
+v1set arm s13_drop2_0.00168 creep_ums 0
+v1set arm s13_rest1_0.00042 creep_ums 0
+v1set arm s13_rest1_0.00168 creep_ums 0
+v1set arm s13_rest2_0.00042 creep_ums 0
+v1set arm s13_rest2_0.00168 creep_ums 0
+v1set arm s14_drop1_0.0002975 creep_ums 0
+v1set arm s14_drop1_0.00119 creep_ums 0
+v1set arm s14_drop2_0.0002975 creep_ums 0
+v1set arm s14_drop2_0.00119 creep_ums 0
+v1set arm s14_drop3_0.0002975 creep_ums 0
+v1set arm s14_drop3_0.00119 creep_ums 0
+v1set arm s14_drop4_0.0002975 creep_ums 0
+v1set arm s14_drop4_0.00119 creep_ums 0
+v1set arm s14_rest1_0.0002975 creep_ums 0
+v1set arm s14_rest1_0.00119 creep_ums 0
+v1set arm s14_rest2_0.0002975 creep_ums 0
+v1set arm s14_rest2_0.00119 creep_ums 0
+v1set arm s14_rest3_0.0002975 creep_ums 0
+v1set arm s14_rest3_0.00119 creep_ums 0
+v1set arm s14_rest4_0.0002975 creep_ums 0
+v1set arm s14_rest4_0.00119 creep_ums 0
+v1set arm s15_drop1_0.0004275 creep_ums 0
+v1set arm s15_drop1_0.00171 creep_ums 0
+v1set arm s15_drop2_0.0004275 creep_ums 0
+v1set arm s15_drop2_0.00171 creep_ums 0
+v1set arm s15_drop3_0.0004275 creep_ums 0
+v1set arm s15_drop3_0.00171 creep_ums 0
+v1set arm s15_drop4_0.0004275 creep_ums 0
+v1set arm s15_drop4_0.00171 creep_ums 0
+v1set arm s15_rest1_0.0004275 creep_ums 0
+v1set arm s15_rest1_0.00171 creep_ums 0
+v1set arm s15_rest2_0.0004275 creep_ums 0
+v1set arm s15_rest2_0.00171 creep_ums 0
+v1set arm s15_rest3_0.0004275 creep_ums 0
+v1set arm s15_rest3_0.00171 creep_ums 0
+v1set arm s15_rest4_0.0004275 creep_ums 0
+v1set arm s15_rest4_0.00171 creep_ums 0
+v1set grip box 0 0.00171 creep_ums 1
+v1set grip mesh 0 0.00171 creep_ums 0
+v1set grip box 0.0092 0.00171 creep_ums 1
+v1set grip mesh 0.0092 0.00171 creep_ums 0
+v1set grip box 0 0.0004275 creep_ums 1
+v1set grip mesh 0 0.0004275 creep_ums 0
+v1set grip box 0.0092 0.0004275 creep_ums 1
+v1set grip mesh 0.0092 0.0004275 creep_ums 0
+v1set box box1_0.01411_n100 fast_steps 0 fastest_ums 0
+v1set box box1_0.01411_written fast_steps 0 fastest_ums 0
+v1set box box1_0.016_n100 fast_steps 0 fastest_ums 0
+v1set box box1_0.016_written fast_steps 0 fastest_ums 0
+v1set box box2_0.01411_n100 fast_steps 0 fastest_ums 0
+v1set box box2_0.01411_written fast_steps 0 fastest_ums 0
+v1set box box2_0.016_n100 fast_steps 0 fastest_ums 0
+v1set box box2_0.016_written fast_steps 0 fastest_ums 0
+v1set box box3_0.01411_n100 fast_steps 0 fastest_ums 0
+v1set box box3_0.01411_written fast_steps 0 fastest_ums 0
+v1set box box3_0.016_n100 fast_steps 0 fastest_ums 0
+v1set box box3_0.016_written fast_steps 0 fastest_ums 0
+v1set box mujoco_n100 fast_steps 0 fastest_ums 0
+v1set box mujoco_written fast_steps 0 fastest_ums 0
+v1set solver most_iterations 64 at_iteration_limit 0 warnings 0
+v2set hold a 0.001277 3 1 0 creep_ums 0 0 0 
+v2set hold a 0.001277 3 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 3 1 45 creep_ums 0 0 0 
+v2set hold a 0.001277 3 0 0 creep_ums 0 0 613 
+v2set hold a 0.001277 3 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 3 0 45 creep_ums 0 0 0 
+v2set hold a 0.001277 4 1 0 creep_ums 0 0 0 
+v2set hold a 0.001277 4 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 4 1 45 creep_ums 0 0 0 
+v2set hold a 0.001277 4 0 0 creep_ums 0 0 698 
+v2set hold a 0.001277 4 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 4 0 45 creep_ums 0 0 0 
+v2set hold a 0.001277 6 1 0 creep_ums 0 0 0 
+v2set hold a 0.001277 6 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 6 1 45 creep_ums 0 0 0 
+v2set hold a 0.001277 6 0 0 creep_ums 0 0 699 
+v2set hold a 0.001277 6 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.001277 6 0 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 3 1 0 creep_ums 0 0 0 
+v2set hold a 0.00031925 3 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 3 1 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 3 0 0 creep_ums 0 0 173 
+v2set hold a 0.00031925 3 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 3 0 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 4 1 0 creep_ums 0 0 0 
+v2set hold a 0.00031925 4 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 4 1 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 4 0 0 creep_ums 0 0 299 
+v2set hold a 0.00031925 4 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 4 0 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 6 1 0 creep_ums 0 0 0 
+v2set hold a 0.00031925 6 1 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 6 1 45 creep_ums 0 0 0 
+v2set hold a 0.00031925 6 0 0 creep_ums 0 0 299 
+v2set hold a 0.00031925 6 0 22.5 creep_ums 0 0 0 
+v2set hold a 0.00031925 6 0 45 creep_ums 0 0 0 
+v2set hold b 0.001277 3 1 0 creep_ums 0 0 0 
+v2set hold b 0.001277 3 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 3 1 45 creep_ums 0 0 0 
+v2set hold b 0.001277 3 0 0 creep_ums 0 0 1098 
+v2set hold b 0.001277 3 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 3 0 45 creep_ums 0 0 0 
+v2set hold b 0.001277 4 1 0 creep_ums 0 0 0 
+v2set hold b 0.001277 4 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 4 1 45 creep_ums 0 0 0 
+v2set hold b 0.001277 4 0 0 creep_ums 0 0 1124 
+v2set hold b 0.001277 4 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 4 0 45 creep_ums 0 0 0 
+v2set hold b 0.001277 6 1 0 creep_ums 0 0 0 
+v2set hold b 0.001277 6 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 6 1 45 creep_ums 0 0 0 
+v2set hold b 0.001277 6 0 0 creep_ums 0 0 1124 
+v2set hold b 0.001277 6 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.001277 6 0 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 3 1 0 creep_ums 0 0 0 
+v2set hold b 0.00031925 3 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 3 1 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 3 0 0 creep_ums 0 0 482 
+v2set hold b 0.00031925 3 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 3 0 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 4 1 0 creep_ums 0 0 0 
+v2set hold b 0.00031925 4 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 4 1 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 4 0 0 creep_ums 0 0 763 
+v2set hold b 0.00031925 4 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 4 0 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 6 1 0 creep_ums 0 0 0 
+v2set hold b 0.00031925 6 1 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 6 1 45 creep_ums 0 0 0 
+v2set hold b 0.00031925 6 0 0 creep_ums 0 0 763 
+v2set hold b 0.00031925 6 0 22.5 creep_ums 0 0 0 
+v2set hold b 0.00031925 6 0 45 creep_ums 0 0 0 
+v2set arm s10_drop1_0.000285 creep_ums 0
+v2set arm s10_drop1_0.00114 creep_ums 0
+v2set arm s10_drop2_0.000285 creep_ums 0
+v2set arm s10_drop2_0.00114 creep_ums 0
+v2set arm s10_rest1_0.000285 creep_ums 0
+v2set arm s10_rest1_0.00114 creep_ums 0
+v2set arm s10_rest2_0.000285 creep_ums 0
+v2set arm s10_rest2_0.00114 creep_ums 0
+v2set arm s13_drop1_0.00042 creep_ums 0
+v2set arm s13_drop1_0.00168 creep_ums 0
+v2set arm s13_drop2_0.00042 creep_ums 0
+v2set arm s13_drop2_0.00168 creep_ums 0
+v2set arm s13_rest1_0.00042 creep_ums 0
+v2set arm s13_rest1_0.00168 creep_ums 0
+v2set arm s13_rest2_0.00042 creep_ums 0
+v2set arm s13_rest2_0.00168 creep_ums 0
+v2set arm s14_drop1_0.0002975 creep_ums 0
+v2set arm s14_drop1_0.00119 creep_ums 0
+v2set arm s14_drop2_0.0002975 creep_ums 0
+v2set arm s14_drop2_0.00119 creep_ums 0
+v2set arm s14_drop3_0.0002975 creep_ums 0
+v2set arm s14_drop3_0.00119 creep_ums 0
+v2set arm s14_drop4_0.0002975 creep_ums 0
+v2set arm s14_drop4_0.00119 creep_ums 0
+v2set arm s14_rest1_0.0002975 creep_ums 0
+v2set arm s14_rest1_0.00119 creep_ums 0
+v2set arm s14_rest2_0.0002975 creep_ums 0
+v2set arm s14_rest2_0.00119 creep_ums 0
+v2set arm s14_rest3_0.0002975 creep_ums 0
+v2set arm s14_rest3_0.00119 creep_ums 0
+v2set arm s14_rest4_0.0002975 creep_ums 0
+v2set arm s14_rest4_0.00119 creep_ums 0
+v2set arm s15_drop1_0.0004275 creep_ums 0
+v2set arm s15_drop1_0.00171 creep_ums 0
+v2set arm s15_drop2_0.0004275 creep_ums 0
+v2set arm s15_drop2_0.00171 creep_ums 0
+v2set arm s15_drop3_0.0004275 creep_ums 0
+v2set arm s15_drop3_0.00171 creep_ums 0
+v2set arm s15_drop4_0.0004275 creep_ums 0
+v2set arm s15_drop4_0.00171 creep_ums 0
+v2set arm s15_rest1_0.0004275 creep_ums 0
+v2set arm s15_rest1_0.00171 creep_ums 0
+v2set arm s15_rest2_0.0004275 creep_ums 0
+v2set arm s15_rest2_0.00171 creep_ums 0
+v2set arm s15_rest3_0.0004275 creep_ums 0
+v2set arm s15_rest3_0.00171 creep_ums 0
+v2set arm s15_rest4_0.0004275 creep_ums 0
+v2set arm s15_rest4_0.00171 creep_ums 0
+v2set grip box 0 0.00171 creep_ums 1
+v2set grip mesh 0 0.00171 creep_ums 0
+v2set grip box 0.0092 0.00171 creep_ums 1
+v2set grip mesh 0.0092 0.00171 creep_ums 0
+v2set grip box 0 0.0004275 creep_ums 1
+v2set grip mesh 0 0.0004275 creep_ums 0
+v2set grip box 0.0092 0.0004275 creep_ums 1
+v2set grip mesh 0.0092 0.0004275 creep_ums 0
+v2set box box1_0.01411_n100 fast_steps 0 fastest_ums 0
+v2set box box1_0.01411_written fast_steps 0 fastest_ums 0
+v2set box box1_0.016_n100 fast_steps 0 fastest_ums 0
+v2set box box1_0.016_written fast_steps 0 fastest_ums 0
+v2set box box2_0.01411_n100 fast_steps 0 fastest_ums 0
+v2set box box2_0.01411_written fast_steps 0 fastest_ums 0
+v2set box box2_0.016_n100 fast_steps 0 fastest_ums 0
+v2set box box2_0.016_written fast_steps 0 fastest_ums 0
+v2set box box3_0.01411_n100 fast_steps 0 fastest_ums 0
+v2set box box3_0.01411_written fast_steps 0 fastest_ums 0
+v2set box box3_0.016_n100 fast_steps 0 fastest_ums 0
+v2set box box3_0.016_written fast_steps 0 fastest_ums 0
+v2set box mujoco_n100 fast_steps 0 fastest_ums 0
+v2set box mujoco_written fast_steps 0 fastest_ums 0
+v2set solver most_iterations 64 at_iteration_limit 0 warnings 0

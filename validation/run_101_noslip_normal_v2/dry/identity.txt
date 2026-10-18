@@ -1,0 +1,2 @@
+play files 12: the same bytes in p101 set6 12
+solver statistics, p101 set6: the same bytes

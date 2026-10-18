@@ -1,0 +1,15 @@
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 0.2 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 5 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra noslip=10
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra noslip=100
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra cone=elliptic
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra cone=elliptic noslip=10
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra integ=implicitfast
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra integ=implicit
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra impratio=10
+STATS contact dt 0.002 h0 0 vx0 0 mu 0.5 lock 1 mass 1 radius 0.05 steps 1000 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra cone=elliptic impratio=10

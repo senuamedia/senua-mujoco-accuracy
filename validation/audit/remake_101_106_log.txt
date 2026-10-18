@@ -1,0 +1,14 @@
+22:53:29 run_101_noslip_normal_v2 cleared
+22:53:29 run_102_contact_time_constant cleared
+22:53:29 run_103_impratio_without_noslip cleared
+22:53:29 run_104_impratio_and_time_constant cleared
+22:53:29 run_105_no_noslip cleared
+22:53:29 run_106_study_23 cleared
+23:09:38 run_101_noslip_normal_v2 probe.sh played, exit 0
+23:11:39 run_102_contact_time_constant probe.sh played, exit 0
+23:11:56 run_103_impratio_without_noslip probe.sh played, exit 0
+23:13:23 run_104_impratio_and_time_constant probe.sh played, exit 0
+23:14:44 run_105_no_noslip probe.sh played, exit 0
+23:18:35 run_106_study_23 play.sh played, exit 0
+23:18:36 home folder written as ~; compressed as the record keeps them
+23:18:39 compared: 1077 same, 41 differ, 0 missing, 0 new

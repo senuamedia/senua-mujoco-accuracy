@@ -1,0 +1,65 @@
+files rel against off: 375 of 375 the same
+files rel against set: 78 of 375 the same
+files rel against set4: 116 of 375 the same
+files set against set4: 124 of 374 the same
+differ set against set4: p/offset17_0.000285
+differ set against set4: p/offset1_0.000285
+differ set against set4: p/offset1_0.00114
+differ set against set4: p/onbox5_0.000285
+differ set against set4: p/onbox5_0.00114
+differ set against set4: p/stack12_0.0001425
+differ set against set4: p/stack12_0.000285
+differ set against set4: p/stack12_0.00057
+differ set against set4: p/stack12_0.00114
+differ set against set4: p/stack12_0.00171
+differ set against set4: p/stack3_0.00171
+differ set against set4: p/stack5_0.0001425
+differ set against set4: p/stack5_0.000285
+differ set against set4: p/stack5_0.00057
+differ set against set4: p/stack5_0.00171
+differ set against set4: p/stack9_0.0001425
+differ set against set4: p/stack9_0.000285
+differ set against set4: p/stack9_0.00057
+differ set against set4: p/stack9_0.00114
+differ set against set4: p/stack9_0.00171
+the straight stacks, the most tilt of any cube (urad) / the contact count changes, rel | set | set4:
+  stack3_0.0001425 | 0/0 | 0/0 | 0/0
+  stack3_0.000285 | 0/0 | 0/0 | 0/0
+  stack3_0.00057 | 0/0 | 0/0 | 0/0
+  stack3_0.00114 | 0/1 | 0/0 | 0/0
+  stack3_0.00171 | 0/0 | 0/1 | 0/0
+  stack5_0.0001425 | 4450/419 | 3489/307 | 0/0
+  stack5_0.000285 | 2302/297 | 0/4 | 0/0
+  stack5_0.00057 | 0/5 | 0/6 | 0/0
+  stack5_0.00114 | 0/0 | 0/0 | 0/0
+  stack5_0.00171 | 2698/205 | 0/12 | 0/0
+  stack9_0.0001425 | 0/7 | 3094/383 | 0/0
+  stack9_0.000285 | 2523/394 | 3181/281 | 0/0
+  stack9_0.00057 | 0/8 | 1073/349 | 0/0
+  stack9_0.00114 | 0/4 | 0/6 | 0/0
+  stack9_0.00171 | 0/17 | 3055/272 | 0/0
+  stack12_0.0001425 | 2336/276 | 1430/272 | 0/0
+  stack12_0.000285 | 4236/749 | 0/6 | 0/0
+  stack12_0.00057 | 0/12 | 2837/212 | 0/0
+  stack12_0.00114 | 11710/419 | 345/54 | 0/0
+  stack12_0.00171 | 5474/519 | 12162/354 | 0/0
+  offset17_0.000285 | 9657/103 | 9657/103 | 9528/101
+  offset1_0.000285 | 2262/346 | 2248/302 | 2202/279
+  onbox5_0.000285 | 3391/141 | 2557/170 | 0/0
+  offset17_0.00114 | 9363/51 | 9363/51 | 9363/51
+  offset1_0.00114 | 2180/125 | 2115/121 | 2126/107
+  onbox5_0.00114 | 2600/248 | 0/4 | 0/0
+rel slide_box_0.000285 slid_um 131393 holds 0 0 grips 1 0 1 0 
+rel slide_box_0.00114 slid_um 130843 holds 0 0 grips 1 0 1 0 
+rel arms rest 482 205 -481 -134 482 205 -480 -134 drop 686 295 -348 8 688 294 -348 9 
+rel solver most_iterations 7 at_iteration_limit 0 warnings 0
+set slide_box_0.000285 slid_um 131090 holds 0 0 grips 1 0 1 0 
+set slide_box_0.00114 slid_um 130579 holds 0 0 grips 1 0 1 0 
+set arms rest 0 0 0 0 0 0 0 0 drop 0 0 0 0 0 0 0 0 
+set solver most_iterations 30 at_iteration_limit 0 warnings 0
+set4 slide_box_0.000285 slid_um 131090 holds 0 0 grips 1 0 1 0 
+set4 slide_box_0.00114 slid_um 130579 holds 0 0 grips 1 0 1 0 
+set4 arms rest 0 0 0 0 0 0 0 0 drop 0 0 0 0 0 0 0 0 
+set4 solver most_iterations 30 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with the four switches set: 2
+MuJoCo suite, every switch unset against the release (run 064's suite_results_release.txt): 0 tests read differently

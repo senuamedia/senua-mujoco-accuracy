@@ -1,0 +1,141 @@
+--- a/src/engine/engine_forward.c
++++ b/src/engine/engine_forward.c
+@@ -16,6 +16,7 @@
+ 
+ #include <stddef.h>
+ #include <stdio.h>
++#include <stdlib.h>
+ 
+ #include <mujoco/mjdata.h>
+ #include <mujoco/mjmacro.h>
+@@ -1207,6 +1208,110 @@
+ }
+ 
+ 
++// Senua AI patch, in design (off unless MUJOCO_DESAXCE=1): in the elliptic cone's primal cost a contact transmits
++// force while its normal residual jar_n is below the scaled norm T of its tangential residual (T = |jar_t .* friction|),
++// so a sliding contact keeps pushing while it separates: the convex relaxation of Coulomb's law, under which a sliding
++// contact leaves the surface at about friction times its slip (Anitescu 2006). De Saxce and Feng (1991): exact Coulomb
++// friction is the same cone complementarity in the velocity shifted along the normal by friction times the slip. This
++// lowers each elliptic contact's normal reference by friction times its slip, the scaled norm of the part of its
++// tangential residual the soft friction's own regularisation does not account for (jar + R*f, zero for a contact whose
++// force is inside the cone, where f = -jar/R), at the current solution, and solves again from that solution, until no
++// shift moves by more than the solver's own tolerance, at most opt.iterations passes: a fixed point on the shift
++// (Acary, Cadoux, Lemarechal and Malick 2011). A contact that sticks has no slip and no shift. Islands are solved as
++// MuJoCo solves them. Nothing is kept between steps; the pyramidal cone and every other constraint are untouched.
++static int desaxceOn(void) {
++  const char* s = getenv("MUJOCO_DESAXCE");
++  return s && s[0] == '1' && s[1] == 0;
++}
++
++// set each elliptic contact's shift from the current solution; return the largest change of any shift, and the
++// largest shift in *size
++static mjtNum desaxceShift(const mjModel* m, mjData* d, const mjtNum* aref0, mjtNum* jar, mjtNum* size) {
++  int nefc = d->nefc;
++  mjtNum change = 0;
++  *size = 0;
++
++  // jar = J*qacc - aref, with the current shift: the residual the solver saw
++  mj_mulJacVec(m, d, jar, d->qacc);
++  mju_subFrom(jar, d->efc_aref, nefc);
++  for (int i=0; i < nefc; i++) {
++    if (d->efc_type[i] != mjCNSTR_CONTACT_ELLIPTIC) {
++      continue;
++    }
++    const mjContact* con = d->contact + d->efc_id[i];
++    int dim = con->dim;
++    mjtNum S2 = 0;
++    for (int j=1; j < dim; j++) {
++      mjtNum u = (jar[i+j] + d->efc_R[i+j]*d->efc_force[i+j]) * con->friction[j-1];
++      S2 += u*u;
++    }
++    mjtNum s = mju_sqrt(S2);
++    change = mju_max(change, mju_abs(s - (aref0[i] - d->efc_aref[i])));
++    *size = mju_max(*size, s);
++    d->efc_aref[i] = aref0[i] - s;
++    i += dim-1;
++  }
++  return change;
++}
++
++static void desaxce(const mjModel* m, mjData* d, mjtSolver solver, int islands) {
++  int nefc = d->nefc, any = 0;
++  for (int i=0; i < nefc && desaxceOn(); i++) {
++    if (d->efc_type[i] == mjCNSTR_CONTACT_ELLIPTIC) {
++      any = 1;
++      break;
++    }
++  }
++  if (!any) {
++    return;
++  }
++  mj_markStack(d);
++  mjtNum* aref0 = mjSTACKALLOC(d, nefc, mjtNum);
++  mjtNum* jar = mjSTACKALLOC(d, nefc, mjtNum);
++  mju_copy(aref0, d->efc_aref, nefc);
++  for (int k=0; k < m->opt.iterations; k++) {
++    // the dual solver leaves qacc to mj_dualFinish
++    if (solver == mjSOL_PGS) {
++      mj_dualFinish(m, d);
++    }
++    mjtNum size;
++    if (desaxceShift(m, d, aref0, jar, &size) <= m->opt.tolerance * size) {
++      break;
++    }
++    mj_mulJacVec(m, d, d->efc_b, d->qacc_smooth);
++    mju_subFrom(d->efc_b, d->efc_aref, nefc);
++
++    // solve again from the current solution, as the solve above was made
++    if (islands && solver != mjSOL_PGS) {
++      int nidof = d->nidof;
++      mju_gather(d->ifrc_constraint, d->qfrc_constraint, d->map_idof2dof, nidof);
++      mju_gather(d->iacc,            d->qacc,            d->map_idof2dof, nidof);
++      mju_gather(d->iefc_force,      d->efc_force,       d->map_iefc2efc, nefc);
++      mju_gather(d->iefc_aref,       d->efc_aref,        d->map_iefc2efc, nefc);
++      mju_dispatch(m, d, solveIslandTask, NULL, d->nisland);
++      mju_scatter(d->qacc,            d->iacc,            d->map_idof2dof, nidof);
++      mju_scatter(d->qfrc_constraint, d->ifrc_constraint, d->map_idof2dof, nidof);
++      mju_gather(d->efc_force, d->iefc_force, d->map_efc2iefc, nefc);
++    } else if (islands) {
++      mju_dispatch(m, d, solveIslandTask, NULL, d->nisland);
++    } else {
++      switch (solver) {
++      case mjSOL_PGS:
++        mj_solPGS(m, d, m->opt.iterations);
++        break;
++      case mjSOL_CG:
++        mj_solCG(m, d, m->opt.iterations);
++        break;
++      case mjSOL_NEWTON:
++        mj_solNewton(m, d, m->opt.iterations);
++        break;
++      }
++    }
++  }
++  mj_freeStack(d);
++}
++
++
+ // compute efc_b, efc_force, qfrc_constraint; update qacc
+ static void fwdConstraint(const mjModel* m, mjData* d, mjtSolver solver, int flg_island) {
+   TM_START;
+@@ -1270,6 +1375,9 @@
+       break;
+     }
+ 
++    // Senua AI patch, in design: the de Saxce fixed point (off unless MUJOCO_DESAXCE=1)
++    desaxce(m, d, solver, 1);
++
+     // run noslip solver per island if enabled
+     if (m->opt.noslip_iterations > 0) {
+       for (int island=0; island < nisland; island++) {
+@@ -1294,6 +1402,9 @@
+       break;
+     }
+ 
++    // Senua AI patch, in design: the de Saxce fixed point (off unless MUJOCO_DESAXCE=1)
++    desaxce(m, d, solver, 0);
++
+     // run noslip solver if enabled
+     if (m->opt.noslip_iterations > 0) {
+       mj_solNoSlip(m, d, m->opt.noslip_iterations);

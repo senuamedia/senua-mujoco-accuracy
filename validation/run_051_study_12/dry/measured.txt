@@ -1,0 +1,468 @@
+rel_def hold 0 0.5 0.00114 creep_ums 581
+rel_def hold 0 0.75 0.00114 creep_ums 1452
+rel_def hold 0 0.95 0.00114 creep_ums 2150
+rel_def slide 0 0.00114 slid_um 133031 side_um 0 highest_um 228
+rel_def hold 22.5 0.5 0.00114 creep_ums 581
+rel_def hold 22.5 0.75 0.00114 creep_ums 1286
+rel_def hold 22.5 0.95 0.00114 creep_ums 490220
+rel_def slide 22.5 0.00114 slid_um 159224 side_um 35448 highest_um 166
+rel_def hold 45 0.5 0.00114 creep_ums 581
+rel_def hold 45 0.75 0.00114 creep_ums 131274
+rel_def hold 45 0.95 0.00114 creep_ums 743398
+rel_def slide 45 0.00114 slid_um 188261 side_um 0 highest_um 199
+rel_def free 0 0.00114 slid_um 133051 side_um 0 most_yaw_urad 0 most_tilt_urad 2743 steps_under_4_contacts 104
+rel_def free 11.25 0.00114 slid_um 140764 side_um 23575 most_yaw_urad 5353 most_tilt_urad 4255 steps_under_4_contacts 185
+rel_def free 22.5 0.00114 slid_um 159521 side_um 34808 most_yaw_urad 30138 most_tilt_urad 4085 steps_under_4_contacts 207
+rel_def free 33.75 0.00114 slid_um 180129 side_um 22812 most_yaw_urad 78606 most_tilt_urad 4374 steps_under_4_contacts 223
+rel_def free 45 0.00114 slid_um 188282 side_um 0 most_yaw_urad 2 most_tilt_urad 2624 steps_under_4_contacts 129
+rel_def grip box 0 0.00114 creep_ums 6398
+rel_def grip mesh 0 0.00114 creep_ums 6398
+rel_def grip box 0.0093 0.00114 creep_ums 6054
+rel_def grip mesh 0.0093 0.00114 creep_ums 8083
+rel_def stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_def stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_def hold 0 0.5 0.000285 creep_ums 581
+rel_def hold 0 0.75 0.000285 creep_ums 1452
+rel_def hold 0 0.95 0.000285 creep_ums 2150
+rel_def slide 0 0.000285 slid_um 133471 side_um 0 highest_um 66
+rel_def hold 22.5 0.5 0.000285 creep_ums 581
+rel_def hold 22.5 0.75 0.000285 creep_ums 1286
+rel_def hold 22.5 0.95 0.000285 creep_ums 489709
+rel_def slide 22.5 0.000285 slid_um 159658 side_um 35416 highest_um 23
+rel_def hold 45 0.5 0.000285 creep_ums 581
+rel_def hold 45 0.75 0.000285 creep_ums 131151
+rel_def hold 45 0.95 0.000285 creep_ums 742663
+rel_def slide 45 0.000285 slid_um 188683 side_um 0 highest_um 28
+rel_def free 0 0.000285 slid_um 133472 side_um 0 most_yaw_urad 0 most_tilt_urad 1204 steps_under_4_contacts 373
+rel_def free 11.25 0.000285 slid_um 141436 side_um 23209 most_yaw_urad 1649 most_tilt_urad 2809 steps_under_4_contacts 642
+rel_def free 22.5 0.000285 slid_um 160910 side_um 32453 most_yaw_urad 49267 most_tilt_urad 1261 steps_under_4_contacts 804
+rel_def free 33.75 0.000285 slid_um 180522 side_um 22971 most_yaw_urad 52722 most_tilt_urad 1587 steps_under_4_contacts 982
+rel_def free 45 0.000285 slid_um 188697 side_um 0 most_yaw_urad 4 most_tilt_urad 4032 steps_under_4_contacts 645
+rel_def grip box 0 0.000285 creep_ums 6398
+rel_def grip mesh 0 0.000285 creep_ums 6398
+rel_def grip box 0.0093 0.000285 creep_ums 6061
+rel_def grip mesh 0.0093 0.000285 creep_ums 8073
+rel_def stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_def stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_def lift 0.01 highest_um 7486 slid_um 128607
+rel_def lift 0.0025 highest_um 846 slid_um 132340
+rel_def lift 0.000625 highest_um 76 slid_um 133318
+rel_def lift 0.00015625 highest_um 11 slid_um 133323
+rel_def suite1 passed 9
+rel_def solver most_iterations 8 at_iteration_limit 0 warnings 0
+rel_rec hold 0 0.5 0.00114 creep_ums 0
+rel_rec hold 0 0.75 0.00114 creep_ums 0
+rel_rec hold 0 0.95 0.00114 creep_ums 0
+rel_rec slide 0 0.00114 slid_um 133036 side_um 0 highest_um 97
+rel_rec hold 22.5 0.5 0.00114 creep_ums 0
+rel_rec hold 22.5 0.75 0.00114 creep_ums 0
+rel_rec hold 22.5 0.95 0.00114 creep_ums 0
+rel_rec slide 22.5 0.00114 slid_um 133036 side_um 0 highest_um 97
+rel_rec hold 45 0.5 0.00114 creep_ums 0
+rel_rec hold 45 0.75 0.00114 creep_ums 0
+rel_rec hold 45 0.95 0.00114 creep_ums 0
+rel_rec slide 45 0.00114 slid_um 133036 side_um 0 highest_um 97
+rel_rec free 0 0.00114 slid_um 133042 side_um 0 most_yaw_urad 0 most_tilt_urad 3216 steps_under_4_contacts 68
+rel_rec free 11.25 0.00114 slid_um 135526 side_um 62 most_yaw_urad 26865 most_tilt_urad 4073 steps_under_4_contacts 157
+rel_rec free 22.5 0.00114 slid_um 136043 side_um -231 most_yaw_urad 24463 most_tilt_urad 3981 steps_under_4_contacts 170
+rel_rec free 33.75 0.00114 slid_um 135039 side_um -74 most_yaw_urad 3987 most_tilt_urad 4403 steps_under_4_contacts 143
+rel_rec free 45 0.00114 slid_um 133266 side_um 0 most_yaw_urad 21 most_tilt_urad 9188 steps_under_4_contacts 110
+rel_rec grip box 0 0.00114 creep_ums 1
+rel_rec grip mesh 0 0.00114 creep_ums 0
+rel_rec grip box 0.0093 0.00114 creep_ums 1
+rel_rec grip mesh 0.0093 0.00114 creep_ums 0
+rel_rec stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_rec stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_rec hold 0 0.5 0.000285 creep_ums 0
+rel_rec hold 0 0.75 0.000285 creep_ums 0
+rel_rec hold 0 0.95 0.000285 creep_ums 0
+rel_rec slide 0 0.000285 slid_um 133471 side_um 0 highest_um 32
+rel_rec hold 22.5 0.5 0.000285 creep_ums 0
+rel_rec hold 22.5 0.75 0.000285 creep_ums 0
+rel_rec hold 22.5 0.95 0.000285 creep_ums 0
+rel_rec slide 22.5 0.000285 slid_um 133471 side_um 0 highest_um 32
+rel_rec hold 45 0.5 0.000285 creep_ums 0
+rel_rec hold 45 0.75 0.000285 creep_ums 0
+rel_rec hold 45 0.95 0.000285 creep_ums 0
+rel_rec slide 45 0.000285 slid_um 133471 side_um 0 highest_um 32
+rel_rec free 0 0.000285 slid_um 133491 side_um 0 most_yaw_urad 0 most_tilt_urad 1523 steps_under_4_contacts 430
+rel_rec free 11.25 0.000285 slid_um 135636 side_um -27 most_yaw_urad 13517 most_tilt_urad 1429 steps_under_4_contacts 697
+rel_rec free 22.5 0.000285 slid_um 135734 side_um 83 most_yaw_urad 21880 most_tilt_urad 1249 steps_under_4_contacts 633
+rel_rec free 33.75 0.000285 slid_um 135143 side_um 1026 most_yaw_urad 52544 most_tilt_urad 1394 steps_under_4_contacts 707
+rel_rec free 45 0.000285 slid_um 133605 side_um 0 most_yaw_urad 11 most_tilt_urad 6487 steps_under_4_contacts 466
+rel_rec grip box 0 0.000285 creep_ums 1
+rel_rec grip mesh 0 0.000285 creep_ums 0
+rel_rec grip box 0.0093 0.000285 creep_ums 1
+rel_rec grip mesh 0.0093 0.000285 creep_ums 0
+rel_rec stack 5 0.000285 most_tilt_urad 2302 end_speed_ums 2064 end_spin_urads 26304
+rel_rec stack 9 0.000285 most_tilt_urad 2523 end_speed_ums 6801 end_spin_urads 45795
+rel_rec lift 0.01 highest_um 7285 slid_um 128575
+rel_rec lift 0.0025 highest_um 564 slid_um 132297
+rel_rec lift 0.000625 highest_um 104 slid_um 133292
+rel_rec lift 0.00015625 highest_um 24 slid_um 133307
+rel_rec suite1 passed 10
+rel_rec solver most_iterations 10 at_iteration_limit 0 warnings 0
+rel_ell hold 0 0.5 0.00114 creep_ums 498
+rel_ell hold 0 0.75 0.00114 creep_ums 747
+rel_ell hold 0 0.95 0.00114 creep_ums 946
+rel_ell slide 0 0.00114 slid_um 133045 side_um 0 highest_um 97
+rel_ell hold 22.5 0.5 0.00114 creep_ums 498
+rel_ell hold 22.5 0.75 0.00114 creep_ums 747
+rel_ell hold 22.5 0.95 0.00114 creep_ums 946
+rel_ell slide 22.5 0.00114 slid_um 133045 side_um 0 highest_um 97
+rel_ell hold 45 0.5 0.00114 creep_ums 498
+rel_ell hold 45 0.75 0.00114 creep_ums 747
+rel_ell hold 45 0.95 0.00114 creep_ums 946
+rel_ell slide 45 0.00114 slid_um 133045 side_um 0 highest_um 97
+rel_ell free 0 0.00114 slid_um 133047 side_um 0 most_yaw_urad 0 most_tilt_urad 3216 steps_under_4_contacts 68
+rel_ell free 11.25 0.00114 slid_um 135535 side_um 62 most_yaw_urad 26867 most_tilt_urad 4072 steps_under_4_contacts 157
+rel_ell free 22.5 0.00114 slid_um 136051 side_um -231 most_yaw_urad 24468 most_tilt_urad 3981 steps_under_4_contacts 170
+rel_ell free 33.75 0.00114 slid_um 135050 side_um -75 most_yaw_urad 3987 most_tilt_urad 4403 steps_under_4_contacts 143
+rel_ell free 45 0.00114 slid_um 133279 side_um 0 most_yaw_urad 21 most_tilt_urad 9188 steps_under_4_contacts 110
+rel_ell grip box 0 0.00114 creep_ums 3374
+rel_ell grip mesh 0 0.00114 creep_ums 3374
+rel_ell grip box 0.0093 0.00114 creep_ums 3725
+rel_ell grip mesh 0.0093 0.00114 creep_ums 3725
+rel_ell stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_ell stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_ell hold 0 0.5 0.000285 creep_ums 498
+rel_ell hold 0 0.75 0.000285 creep_ums 747
+rel_ell hold 0 0.95 0.000285 creep_ums 946
+rel_ell slide 0 0.000285 slid_um 133480 side_um 0 highest_um 32
+rel_ell hold 22.5 0.5 0.000285 creep_ums 498
+rel_ell hold 22.5 0.75 0.000285 creep_ums 747
+rel_ell hold 22.5 0.95 0.000285 creep_ums 946
+rel_ell slide 22.5 0.000285 slid_um 133480 side_um 0 highest_um 32
+rel_ell hold 45 0.5 0.000285 creep_ums 498
+rel_ell hold 45 0.75 0.000285 creep_ums 747
+rel_ell hold 45 0.95 0.000285 creep_ums 946
+rel_ell slide 45 0.000285 slid_um 133480 side_um 0 highest_um 32
+rel_ell free 0 0.000285 slid_um 133500 side_um 0 most_yaw_urad 0 most_tilt_urad 1523 steps_under_4_contacts 430
+rel_ell free 11.25 0.000285 slid_um 135646 side_um -27 most_yaw_urad 13501 most_tilt_urad 1429 steps_under_4_contacts 697
+rel_ell free 22.5 0.000285 slid_um 135741 side_um 82 most_yaw_urad 21880 most_tilt_urad 1249 steps_under_4_contacts 633
+rel_ell free 33.75 0.000285 slid_um 135516 side_um 532 most_yaw_urad 16065 most_tilt_urad 1031 steps_under_4_contacts 616
+rel_ell free 45 0.000285 slid_um 133620 side_um 0 most_yaw_urad 11 most_tilt_urad 6487 steps_under_4_contacts 467
+rel_ell grip box 0 0.000285 creep_ums 3374
+rel_ell grip mesh 0 0.000285 creep_ums 3374
+rel_ell grip box 0.0093 0.000285 creep_ums 3726
+rel_ell grip mesh 0.0093 0.000285 creep_ums 3726
+rel_ell stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_ell stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+rel_ell lift 0.01 highest_um 7285 slid_um 128575
+rel_ell lift 0.0025 highest_um 564 slid_um 132306
+rel_ell lift 0.000625 highest_um 104 slid_um 133301
+rel_ell lift 0.00015625 highest_um 24 slid_um 133316
+rel_ell suite1 passed 9
+rel_ell solver most_iterations 7 at_iteration_limit 0 warnings 0
+off_def hold 0 0.5 0.00114 creep_ums 581
+off_def hold 0 0.75 0.00114 creep_ums 1452
+off_def hold 0 0.95 0.00114 creep_ums 2150
+off_def slide 0 0.00114 slid_um 133031 side_um 0 highest_um 228
+off_def hold 22.5 0.5 0.00114 creep_ums 581
+off_def hold 22.5 0.75 0.00114 creep_ums 1286
+off_def hold 22.5 0.95 0.00114 creep_ums 490220
+off_def slide 22.5 0.00114 slid_um 159224 side_um 35448 highest_um 166
+off_def hold 45 0.5 0.00114 creep_ums 581
+off_def hold 45 0.75 0.00114 creep_ums 131274
+off_def hold 45 0.95 0.00114 creep_ums 743398
+off_def slide 45 0.00114 slid_um 188261 side_um 0 highest_um 199
+off_def free 0 0.00114 slid_um 133051 side_um 0 most_yaw_urad 0 most_tilt_urad 2743 steps_under_4_contacts 104
+off_def free 11.25 0.00114 slid_um 140764 side_um 23575 most_yaw_urad 5353 most_tilt_urad 4255 steps_under_4_contacts 185
+off_def free 22.5 0.00114 slid_um 159521 side_um 34808 most_yaw_urad 30138 most_tilt_urad 4085 steps_under_4_contacts 207
+off_def free 33.75 0.00114 slid_um 180129 side_um 22812 most_yaw_urad 78606 most_tilt_urad 4374 steps_under_4_contacts 223
+off_def free 45 0.00114 slid_um 188282 side_um 0 most_yaw_urad 2 most_tilt_urad 2624 steps_under_4_contacts 129
+off_def grip box 0 0.00114 creep_ums 6398
+off_def grip mesh 0 0.00114 creep_ums 6398
+off_def grip box 0.0093 0.00114 creep_ums 6054
+off_def grip mesh 0.0093 0.00114 creep_ums 8083
+off_def stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_def stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_def hold 0 0.5 0.000285 creep_ums 581
+off_def hold 0 0.75 0.000285 creep_ums 1452
+off_def hold 0 0.95 0.000285 creep_ums 2150
+off_def slide 0 0.000285 slid_um 133471 side_um 0 highest_um 66
+off_def hold 22.5 0.5 0.000285 creep_ums 581
+off_def hold 22.5 0.75 0.000285 creep_ums 1286
+off_def hold 22.5 0.95 0.000285 creep_ums 489709
+off_def slide 22.5 0.000285 slid_um 159658 side_um 35416 highest_um 23
+off_def hold 45 0.5 0.000285 creep_ums 581
+off_def hold 45 0.75 0.000285 creep_ums 131151
+off_def hold 45 0.95 0.000285 creep_ums 742663
+off_def slide 45 0.000285 slid_um 188683 side_um 0 highest_um 28
+off_def free 0 0.000285 slid_um 133472 side_um 0 most_yaw_urad 0 most_tilt_urad 1204 steps_under_4_contacts 373
+off_def free 11.25 0.000285 slid_um 141436 side_um 23209 most_yaw_urad 1649 most_tilt_urad 2809 steps_under_4_contacts 642
+off_def free 22.5 0.000285 slid_um 160910 side_um 32453 most_yaw_urad 49267 most_tilt_urad 1261 steps_under_4_contacts 804
+off_def free 33.75 0.000285 slid_um 180522 side_um 22971 most_yaw_urad 52722 most_tilt_urad 1587 steps_under_4_contacts 982
+off_def free 45 0.000285 slid_um 188697 side_um 0 most_yaw_urad 4 most_tilt_urad 4032 steps_under_4_contacts 645
+off_def grip box 0 0.000285 creep_ums 6398
+off_def grip mesh 0 0.000285 creep_ums 6398
+off_def grip box 0.0093 0.000285 creep_ums 6061
+off_def grip mesh 0.0093 0.000285 creep_ums 8073
+off_def stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_def stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_def lift 0.01 highest_um 7486 slid_um 128607
+off_def lift 0.0025 highest_um 846 slid_um 132340
+off_def lift 0.000625 highest_um 76 slid_um 133318
+off_def lift 0.00015625 highest_um 11 slid_um 133323
+off_def suite1 passed 9
+off_def solver most_iterations 8 at_iteration_limit 0 warnings 0
+off_rec hold 0 0.5 0.00114 creep_ums 0
+off_rec hold 0 0.75 0.00114 creep_ums 0
+off_rec hold 0 0.95 0.00114 creep_ums 0
+off_rec slide 0 0.00114 slid_um 133036 side_um 0 highest_um 97
+off_rec hold 22.5 0.5 0.00114 creep_ums 0
+off_rec hold 22.5 0.75 0.00114 creep_ums 0
+off_rec hold 22.5 0.95 0.00114 creep_ums 0
+off_rec slide 22.5 0.00114 slid_um 133036 side_um 0 highest_um 97
+off_rec hold 45 0.5 0.00114 creep_ums 0
+off_rec hold 45 0.75 0.00114 creep_ums 0
+off_rec hold 45 0.95 0.00114 creep_ums 0
+off_rec slide 45 0.00114 slid_um 133036 side_um 0 highest_um 97
+off_rec free 0 0.00114 slid_um 133042 side_um 0 most_yaw_urad 0 most_tilt_urad 3216 steps_under_4_contacts 68
+off_rec free 11.25 0.00114 slid_um 135526 side_um 62 most_yaw_urad 26865 most_tilt_urad 4073 steps_under_4_contacts 157
+off_rec free 22.5 0.00114 slid_um 136043 side_um -231 most_yaw_urad 24463 most_tilt_urad 3981 steps_under_4_contacts 170
+off_rec free 33.75 0.00114 slid_um 135039 side_um -74 most_yaw_urad 3987 most_tilt_urad 4403 steps_under_4_contacts 143
+off_rec free 45 0.00114 slid_um 133266 side_um 0 most_yaw_urad 21 most_tilt_urad 9188 steps_under_4_contacts 110
+off_rec grip box 0 0.00114 creep_ums 1
+off_rec grip mesh 0 0.00114 creep_ums 0
+off_rec grip box 0.0093 0.00114 creep_ums 1
+off_rec grip mesh 0.0093 0.00114 creep_ums 0
+off_rec stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_rec stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_rec hold 0 0.5 0.000285 creep_ums 0
+off_rec hold 0 0.75 0.000285 creep_ums 0
+off_rec hold 0 0.95 0.000285 creep_ums 0
+off_rec slide 0 0.000285 slid_um 133471 side_um 0 highest_um 32
+off_rec hold 22.5 0.5 0.000285 creep_ums 0
+off_rec hold 22.5 0.75 0.000285 creep_ums 0
+off_rec hold 22.5 0.95 0.000285 creep_ums 0
+off_rec slide 22.5 0.000285 slid_um 133471 side_um 0 highest_um 32
+off_rec hold 45 0.5 0.000285 creep_ums 0
+off_rec hold 45 0.75 0.000285 creep_ums 0
+off_rec hold 45 0.95 0.000285 creep_ums 0
+off_rec slide 45 0.000285 slid_um 133471 side_um 0 highest_um 32
+off_rec free 0 0.000285 slid_um 133491 side_um 0 most_yaw_urad 0 most_tilt_urad 1523 steps_under_4_contacts 430
+off_rec free 11.25 0.000285 slid_um 135636 side_um -27 most_yaw_urad 13517 most_tilt_urad 1429 steps_under_4_contacts 697
+off_rec free 22.5 0.000285 slid_um 135734 side_um 83 most_yaw_urad 21880 most_tilt_urad 1249 steps_under_4_contacts 633
+off_rec free 33.75 0.000285 slid_um 135143 side_um 1026 most_yaw_urad 52544 most_tilt_urad 1394 steps_under_4_contacts 707
+off_rec free 45 0.000285 slid_um 133605 side_um 0 most_yaw_urad 11 most_tilt_urad 6487 steps_under_4_contacts 466
+off_rec grip box 0 0.000285 creep_ums 1
+off_rec grip mesh 0 0.000285 creep_ums 0
+off_rec grip box 0.0093 0.000285 creep_ums 1
+off_rec grip mesh 0.0093 0.000285 creep_ums 0
+off_rec stack 5 0.000285 most_tilt_urad 2302 end_speed_ums 2064 end_spin_urads 26304
+off_rec stack 9 0.000285 most_tilt_urad 2523 end_speed_ums 6801 end_spin_urads 45795
+off_rec lift 0.01 highest_um 7285 slid_um 128575
+off_rec lift 0.0025 highest_um 564 slid_um 132297
+off_rec lift 0.000625 highest_um 104 slid_um 133292
+off_rec lift 0.00015625 highest_um 24 slid_um 133307
+off_rec suite1 passed 10
+off_rec solver most_iterations 10 at_iteration_limit 0 warnings 0
+off_ell hold 0 0.5 0.00114 creep_ums 498
+off_ell hold 0 0.75 0.00114 creep_ums 747
+off_ell hold 0 0.95 0.00114 creep_ums 946
+off_ell slide 0 0.00114 slid_um 133045 side_um 0 highest_um 97
+off_ell hold 22.5 0.5 0.00114 creep_ums 498
+off_ell hold 22.5 0.75 0.00114 creep_ums 747
+off_ell hold 22.5 0.95 0.00114 creep_ums 946
+off_ell slide 22.5 0.00114 slid_um 133045 side_um 0 highest_um 97
+off_ell hold 45 0.5 0.00114 creep_ums 498
+off_ell hold 45 0.75 0.00114 creep_ums 747
+off_ell hold 45 0.95 0.00114 creep_ums 946
+off_ell slide 45 0.00114 slid_um 133045 side_um 0 highest_um 97
+off_ell free 0 0.00114 slid_um 133047 side_um 0 most_yaw_urad 0 most_tilt_urad 3216 steps_under_4_contacts 68
+off_ell free 11.25 0.00114 slid_um 135535 side_um 62 most_yaw_urad 26867 most_tilt_urad 4072 steps_under_4_contacts 157
+off_ell free 22.5 0.00114 slid_um 136051 side_um -231 most_yaw_urad 24468 most_tilt_urad 3981 steps_under_4_contacts 170
+off_ell free 33.75 0.00114 slid_um 135050 side_um -75 most_yaw_urad 3987 most_tilt_urad 4403 steps_under_4_contacts 143
+off_ell free 45 0.00114 slid_um 133279 side_um 0 most_yaw_urad 21 most_tilt_urad 9188 steps_under_4_contacts 110
+off_ell grip box 0 0.00114 creep_ums 3374
+off_ell grip mesh 0 0.00114 creep_ums 3374
+off_ell grip box 0.0093 0.00114 creep_ums 3725
+off_ell grip mesh 0.0093 0.00114 creep_ums 3725
+off_ell stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_ell stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_ell hold 0 0.5 0.000285 creep_ums 498
+off_ell hold 0 0.75 0.000285 creep_ums 747
+off_ell hold 0 0.95 0.000285 creep_ums 946
+off_ell slide 0 0.000285 slid_um 133480 side_um 0 highest_um 32
+off_ell hold 22.5 0.5 0.000285 creep_ums 498
+off_ell hold 22.5 0.75 0.000285 creep_ums 747
+off_ell hold 22.5 0.95 0.000285 creep_ums 946
+off_ell slide 22.5 0.000285 slid_um 133480 side_um 0 highest_um 32
+off_ell hold 45 0.5 0.000285 creep_ums 498
+off_ell hold 45 0.75 0.000285 creep_ums 747
+off_ell hold 45 0.95 0.000285 creep_ums 946
+off_ell slide 45 0.000285 slid_um 133480 side_um 0 highest_um 32
+off_ell free 0 0.000285 slid_um 133500 side_um 0 most_yaw_urad 0 most_tilt_urad 1523 steps_under_4_contacts 430
+off_ell free 11.25 0.000285 slid_um 135646 side_um -27 most_yaw_urad 13501 most_tilt_urad 1429 steps_under_4_contacts 697
+off_ell free 22.5 0.000285 slid_um 135741 side_um 82 most_yaw_urad 21880 most_tilt_urad 1249 steps_under_4_contacts 633
+off_ell free 33.75 0.000285 slid_um 135516 side_um 532 most_yaw_urad 16065 most_tilt_urad 1031 steps_under_4_contacts 616
+off_ell free 45 0.000285 slid_um 133620 side_um 0 most_yaw_urad 11 most_tilt_urad 6487 steps_under_4_contacts 467
+off_ell grip box 0 0.000285 creep_ums 3374
+off_ell grip mesh 0 0.000285 creep_ums 3374
+off_ell grip box 0.0093 0.000285 creep_ums 3726
+off_ell grip mesh 0.0093 0.000285 creep_ums 3726
+off_ell stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_ell stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+off_ell lift 0.01 highest_um 7285 slid_um 128575
+off_ell lift 0.0025 highest_um 564 slid_um 132306
+off_ell lift 0.000625 highest_um 104 slid_um 133301
+off_ell lift 0.00015625 highest_um 24 slid_um 133316
+off_ell suite1 passed 9
+off_ell solver most_iterations 7 at_iteration_limit 0 warnings 0
+on_def hold 0 0.5 0.00114 creep_ums 581
+on_def hold 0 0.75 0.00114 creep_ums 1452
+on_def hold 0 0.95 0.00114 creep_ums 2150
+on_def slide 0 0.00114 slid_um 133031 side_um 0 highest_um 228
+on_def hold 22.5 0.5 0.00114 creep_ums 581
+on_def hold 22.5 0.75 0.00114 creep_ums 1286
+on_def hold 22.5 0.95 0.00114 creep_ums 490220
+on_def slide 22.5 0.00114 slid_um 159224 side_um 35448 highest_um 166
+on_def hold 45 0.5 0.00114 creep_ums 581
+on_def hold 45 0.75 0.00114 creep_ums 131274
+on_def hold 45 0.95 0.00114 creep_ums 743398
+on_def slide 45 0.00114 slid_um 188261 side_um 0 highest_um 199
+on_def free 0 0.00114 slid_um 133051 side_um 0 most_yaw_urad 0 most_tilt_urad 2743 steps_under_4_contacts 104
+on_def free 11.25 0.00114 slid_um 140764 side_um 23575 most_yaw_urad 5353 most_tilt_urad 4255 steps_under_4_contacts 185
+on_def free 22.5 0.00114 slid_um 159521 side_um 34808 most_yaw_urad 30138 most_tilt_urad 4085 steps_under_4_contacts 207
+on_def free 33.75 0.00114 slid_um 180129 side_um 22812 most_yaw_urad 78606 most_tilt_urad 4374 steps_under_4_contacts 223
+on_def free 45 0.00114 slid_um 188282 side_um 0 most_yaw_urad 2 most_tilt_urad 2624 steps_under_4_contacts 129
+on_def grip box 0 0.00114 creep_ums 6398
+on_def grip mesh 0 0.00114 creep_ums 6398
+on_def grip box 0.0093 0.00114 creep_ums 6054
+on_def grip mesh 0.0093 0.00114 creep_ums 8083
+on_def stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_def stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_def hold 0 0.5 0.000285 creep_ums 581
+on_def hold 0 0.75 0.000285 creep_ums 1452
+on_def hold 0 0.95 0.000285 creep_ums 2150
+on_def slide 0 0.000285 slid_um 133471 side_um 0 highest_um 66
+on_def hold 22.5 0.5 0.000285 creep_ums 581
+on_def hold 22.5 0.75 0.000285 creep_ums 1286
+on_def hold 22.5 0.95 0.000285 creep_ums 489709
+on_def slide 22.5 0.000285 slid_um 159658 side_um 35416 highest_um 23
+on_def hold 45 0.5 0.000285 creep_ums 581
+on_def hold 45 0.75 0.000285 creep_ums 131151
+on_def hold 45 0.95 0.000285 creep_ums 742663
+on_def slide 45 0.000285 slid_um 188683 side_um 0 highest_um 28
+on_def free 0 0.000285 slid_um 133472 side_um 0 most_yaw_urad 0 most_tilt_urad 1204 steps_under_4_contacts 373
+on_def free 11.25 0.000285 slid_um 141436 side_um 23209 most_yaw_urad 1649 most_tilt_urad 2809 steps_under_4_contacts 642
+on_def free 22.5 0.000285 slid_um 160910 side_um 32453 most_yaw_urad 49267 most_tilt_urad 1261 steps_under_4_contacts 804
+on_def free 33.75 0.000285 slid_um 180522 side_um 22971 most_yaw_urad 52722 most_tilt_urad 1587 steps_under_4_contacts 982
+on_def free 45 0.000285 slid_um 188697 side_um 0 most_yaw_urad 4 most_tilt_urad 4032 steps_under_4_contacts 645
+on_def grip box 0 0.000285 creep_ums 6398
+on_def grip mesh 0 0.000285 creep_ums 6398
+on_def grip box 0.0093 0.000285 creep_ums 6061
+on_def grip mesh 0.0093 0.000285 creep_ums 8073
+on_def stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_def stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_def lift 0.01 highest_um 7486 slid_um 128607
+on_def lift 0.0025 highest_um 846 slid_um 132340
+on_def lift 0.000625 highest_um 76 slid_um 133318
+on_def lift 0.00015625 highest_um 11 slid_um 133323
+on_def suite1 passed 9
+on_def solver most_iterations 8 at_iteration_limit 0 warnings 0
+on_rec hold 0 0.5 0.00114 creep_ums 0
+on_rec hold 0 0.75 0.00114 creep_ums 0
+on_rec hold 0 0.95 0.00114 creep_ums 0
+on_rec slide 0 0.00114 slid_um 133052 side_um 0 highest_um 0
+on_rec hold 22.5 0.5 0.00114 creep_ums 0
+on_rec hold 22.5 0.75 0.00114 creep_ums 0
+on_rec hold 22.5 0.95 0.00114 creep_ums 0
+on_rec slide 22.5 0.00114 slid_um 133052 side_um 0 highest_um 0
+on_rec hold 45 0.5 0.00114 creep_ums 0
+on_rec hold 45 0.75 0.00114 creep_ums 0
+on_rec hold 45 0.95 0.00114 creep_ums 0
+on_rec slide 45 0.00114 slid_um 133052 side_um 0 highest_um 0
+on_rec free 0 0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 most_tilt_urad 953 steps_under_4_contacts 0
+on_rec free 11.25 0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 most_tilt_urad 953 steps_under_4_contacts 0
+on_rec free 22.5 0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 most_tilt_urad 952 steps_under_4_contacts 0
+on_rec free 33.75 0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 most_tilt_urad 951 steps_under_4_contacts 0
+on_rec free 45 0.00114 slid_um 133036 side_um 0 most_yaw_urad 0 most_tilt_urad 951 steps_under_4_contacts 0
+on_rec grip box 0 0.00114 creep_ums 1
+on_rec grip mesh 0 0.00114 creep_ums 0
+on_rec grip box 0.0093 0.00114 creep_ums 1
+on_rec grip mesh 0.0093 0.00114 creep_ums 0
+on_rec stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_rec stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_rec hold 0 0.5 0.000285 creep_ums 0
+on_rec hold 0 0.75 0.000285 creep_ums 0
+on_rec hold 0 0.95 0.000285 creep_ums 0
+on_rec slide 0 0.000285 slid_um 133494 side_um 0 highest_um 0
+on_rec hold 22.5 0.5 0.000285 creep_ums 0
+on_rec hold 22.5 0.75 0.000285 creep_ums 0
+on_rec hold 22.5 0.95 0.000285 creep_ums 0
+on_rec slide 22.5 0.000285 slid_um 133494 side_um 0 highest_um 0
+on_rec hold 45 0.5 0.000285 creep_ums 0
+on_rec hold 45 0.75 0.000285 creep_ums 0
+on_rec hold 45 0.95 0.000285 creep_ums 0
+on_rec slide 45 0.000285 slid_um 133494 side_um 0 highest_um 0
+on_rec free 0 0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 most_tilt_urad 958 steps_under_4_contacts 0
+on_rec free 11.25 0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 most_tilt_urad 958 steps_under_4_contacts 0
+on_rec free 22.5 0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 most_tilt_urad 957 steps_under_4_contacts 0
+on_rec free 33.75 0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 most_tilt_urad 957 steps_under_4_contacts 0
+on_rec free 45 0.000285 slid_um 133478 side_um 0 most_yaw_urad 0 most_tilt_urad 956 steps_under_4_contacts 0
+on_rec grip box 0 0.000285 creep_ums 1
+on_rec grip mesh 0 0.000285 creep_ums 0
+on_rec grip box 0.0093 0.000285 creep_ums 1
+on_rec grip mesh 0.0093 0.000285 creep_ums 0
+on_rec stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_rec stack 9 0.000285 most_tilt_urad 3181 end_speed_ums 6136 end_spin_urads 25809
+on_rec lift 0.01 highest_um 0 slid_um 128479
+on_rec lift 0.0025 highest_um 0 slid_um 132342
+on_rec lift 0.000625 highest_um 0 slid_um 133320
+on_rec lift 0.00015625 highest_um 0 slid_um 133344
+on_rec suite1 passed 10
+on_rec solver most_iterations 17 at_iteration_limit 0 warnings 0
+on_ell hold 0 0.5 0.00114 creep_ums 498
+on_ell hold 0 0.75 0.00114 creep_ums 747
+on_ell hold 0 0.95 0.00114 creep_ums 946
+on_ell slide 0 0.00114 slid_um 133061 side_um 0 highest_um 0
+on_ell hold 22.5 0.5 0.00114 creep_ums 498
+on_ell hold 22.5 0.75 0.00114 creep_ums 747
+on_ell hold 22.5 0.95 0.00114 creep_ums 946
+on_ell slide 22.5 0.00114 slid_um 133061 side_um 0 highest_um 0
+on_ell hold 45 0.5 0.00114 creep_ums 498
+on_ell hold 45 0.75 0.00114 creep_ums 747
+on_ell hold 45 0.95 0.00114 creep_ums 946
+on_ell slide 45 0.00114 slid_um 133061 side_um 0 highest_um 0
+on_ell free 0 0.00114 slid_um 133041 side_um 0 most_yaw_urad 0 most_tilt_urad 940 steps_under_4_contacts 0
+on_ell free 11.25 0.00114 slid_um 133041 side_um 0 most_yaw_urad 0 most_tilt_urad 940 steps_under_4_contacts 0
+on_ell free 22.5 0.00114 slid_um 133041 side_um 0 most_yaw_urad 0 most_tilt_urad 939 steps_under_4_contacts 0
+on_ell free 33.75 0.00114 slid_um 133041 side_um 0 most_yaw_urad 0 most_tilt_urad 938 steps_under_4_contacts 0
+on_ell free 45 0.00114 slid_um 133041 side_um 0 most_yaw_urad 0 most_tilt_urad 938 steps_under_4_contacts 0
+on_ell grip box 0 0.00114 creep_ums 3374
+on_ell grip mesh 0 0.00114 creep_ums 3374
+on_ell grip box 0.0093 0.00114 creep_ums 3725
+on_ell grip mesh 0.0093 0.00114 creep_ums 3725
+on_ell stack 5 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_ell stack 9 0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_ell hold 0 0.5 0.000285 creep_ums 498
+on_ell hold 0 0.75 0.000285 creep_ums 747
+on_ell hold 0 0.95 0.000285 creep_ums 946
+on_ell slide 0 0.000285 slid_um 133504 side_um 0 highest_um 0
+on_ell hold 22.5 0.5 0.000285 creep_ums 498
+on_ell hold 22.5 0.75 0.000285 creep_ums 747
+on_ell hold 22.5 0.95 0.000285 creep_ums 946
+on_ell slide 22.5 0.000285 slid_um 133504 side_um 0 highest_um 0
+on_ell hold 45 0.5 0.000285 creep_ums 498
+on_ell hold 45 0.75 0.000285 creep_ums 747
+on_ell hold 45 0.95 0.000285 creep_ums 946
+on_ell slide 45 0.000285 slid_um 133504 side_um 0 highest_um 0
+on_ell free 0 0.000285 slid_um 133483 side_um 0 most_yaw_urad 0 most_tilt_urad 940 steps_under_4_contacts 0
+on_ell free 11.25 0.000285 slid_um 133483 side_um 0 most_yaw_urad 0 most_tilt_urad 940 steps_under_4_contacts 0
+on_ell free 22.5 0.000285 slid_um 133483 side_um 0 most_yaw_urad 0 most_tilt_urad 939 steps_under_4_contacts 0
+on_ell free 33.75 0.000285 slid_um 133483 side_um 0 most_yaw_urad 0 most_tilt_urad 938 steps_under_4_contacts 0
+on_ell free 45 0.000285 slid_um 133483 side_um 0 most_yaw_urad 0 most_tilt_urad 938 steps_under_4_contacts 0
+on_ell grip box 0 0.000285 creep_ums 3374
+on_ell grip mesh 0 0.000285 creep_ums 3374
+on_ell grip box 0.0093 0.000285 creep_ums 3726
+on_ell grip mesh 0.0093 0.000285 creep_ums 3726
+on_ell stack 5 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_ell stack 9 0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0
+on_ell lift 0.01 highest_um 0 slid_um 128479
+on_ell lift 0.0025 highest_um 0 slid_um 132351
+on_ell lift 0.000625 highest_um 0 slid_um 133329
+on_ell lift 0.00015625 highest_um 0 slid_um 133353
+on_ell suite1 passed 9
+on_ell solver most_iterations 15 at_iteration_limit 0 warnings 0

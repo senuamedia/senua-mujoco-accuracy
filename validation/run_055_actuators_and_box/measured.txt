@@ -1,0 +1,238 @@
+files 3.11.0 against 3.16.0: 28 of 28 the same; differ: none
+files 3.12.0 against 3.16.0: 28 of 28 the same; differ: none
+files 3.13.0 against 3.16.0: 28 of 28 the same; differ: none
+files 3.14.0 against 3.16.0: 28 of 28 the same; differ: none
+files 3.15.0 against 3.16.0: 28 of 28 the same; differ: none
+3.11.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.11.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.11.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.11.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.11.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.11.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.11.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.11.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.11.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.11.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.11.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.11.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.11.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.11.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.11.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.11.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.11.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.11.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.11.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.11.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.11.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.11.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.11.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.11.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.11.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.12.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.12.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.12.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.12.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.12.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.12.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.12.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.12.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.12.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.12.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.12.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.12.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.12.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.12.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.12.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.12.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.12.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.12.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.12.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.12.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.12.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.12.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.12.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.12.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.12.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.13.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.13.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.13.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.13.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.13.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.13.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.13.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.13.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.13.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.13.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.13.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.13.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.13.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.13.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.13.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.13.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.13.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.13.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.13.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.13.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.13.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.13.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.13.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.13.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.13.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.14.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.14.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.14.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.14.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.14.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.14.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.14.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.14.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.14.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.14.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.14.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.14.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.14.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.14.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.14.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.14.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.14.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.14.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.14.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.14.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.14.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.14.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.14.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.14.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.14.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.15.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.15.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.15.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.15.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.15.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.15.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.15.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.15.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.15.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.15.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.15.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.15.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.15.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.15.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.15.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.15.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.15.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.15.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.15.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.15.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.15.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.15.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.15.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.15.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.15.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.16.0 position_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 velocity_def_0.002 end q1_urad 1951667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.16.0 motor_def_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.16.0 filter_def_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 damper_def_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.16.0 fixed_def_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.16.0 spatial_def_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.16.0 muscle_def_0.002 end q1_urad 788900 qd1_urads -452367 q2_urad 0 qd2_urads 0 last -25135610
+3.16.0 position_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 velocity_def_0.0005 end q1_urad 1950167 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.16.0 motor_def_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.16.0 filter_def_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 damper_def_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.16.0 fixed_def_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.16.0 spatial_def_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.16.0 muscle_def_0.0005 end q1_urad 790303 qd1_urads -410146 q2_urad 0 qd2_urads 0 last -25132651
+3.16.0 position_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 velocity_implicitfast_0.002 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.16.0 motor_implicitfast_0.002 end q1_urad 15909934 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.16.0 filter_implicitfast_0.002 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 damper_implicitfast_0.002 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.16.0 fixed_implicitfast_0.002 end q1_urad 498896 qd1_urads -258931 q2_urad 1104 qd2_urads 258931 last 498828
+3.16.0 spatial_implicitfast_0.002 end q1_urad 12203 qd1_urads 673863 q2_urad 0 qd2_urads 0 last 494573
+3.16.0 muscle_implicitfast_0.002 end q1_urad 790801 qd1_urads -369954 q2_urad 0 qd2_urads 0 last -25132682
+3.16.0 position_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 velocity_implicitfast_0.0005 end q1_urad 1949667 qd1_urads 1000000 q2_urad 0 qd2_urads 0 last 0
+3.16.0 motor_implicitfast_0.0005 end q1_urad 15898013 qd1_urads 15894040 q2_urad 0 qd2_urads 0 last 1000000
+3.16.0 filter_implicitfast_0.0005 end q1_urad 410127 qd1_urads 0 q2_urad 0 qd2_urads 0 last 4493644
+3.16.0 damper_implicitfast_0.0005 NOT PLAYED: mjc_act: XML Error: Schema violation: unrecognized attribute: 'ctrllimited' Element 'damper', line 1  
+3.16.0 fixed_implicitfast_0.0005 end q1_urad 499104 qd1_urads -256945 q2_urad 896 qd2_urads 256945 last 498464
+3.16.0 spatial_implicitfast_0.0005 end q1_urad 11681 qd1_urads 673362 q2_urad 0 qd2_urads 0 last 494328
+3.16.0 muscle_implicitfast_0.0005 end q1_urad 790748 qd1_urads -389492 q2_urad 0 qd2_urads 0 last -25131850
+3.11.0 fixed_def_0.002 summed_speed_most_urads 0
+3.11.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.11.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.11.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+3.12.0 fixed_def_0.002 summed_speed_most_urads 0
+3.12.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.12.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.12.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+3.13.0 fixed_def_0.002 summed_speed_most_urads 0
+3.13.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.13.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.13.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+3.14.0 fixed_def_0.002 summed_speed_most_urads 0
+3.14.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.14.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.14.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+3.15.0 fixed_def_0.002 summed_speed_most_urads 0
+3.15.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.15.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.15.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+3.16.0 fixed_def_0.002 summed_speed_most_urads 0
+3.16.0 fixed_def_0.0005 summed_speed_most_urads 0
+3.16.0 fixed_implicitfast_0.002 summed_speed_most_urads 0
+3.16.0 fixed_implicitfast_0.0005 summed_speed_most_urads 0
+box identity run 049 step 2's scene_rel.txt made again: same
+box_rel_ns2_tol12 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978
+box_rel_ns2_tol12 solver most_iterations 7 at_iteration_limit 0 warnings 0 
+box_rel_ns10_tol12 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978
+box_rel_ns10_tol12 solver most_iterations 14 at_iteration_limit 0 warnings 0 
+box_rel_ns100_tol12 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978
+box_rel_ns100_tol12 solver most_iterations 104 at_iteration_limit 491 warnings 0 
+box_rel_ns1000_tol12 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978
+box_rel_ns1000_tol12 solver most_iterations 1004 at_iteration_limit 491 warnings 0 
+box_on_ns2_tol12 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55
+box_on_ns2_tol12 solver most_iterations 57 at_iteration_limit 0 warnings 0 
+box_on_ns10_tol12 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55
+box_on_ns10_tol12 solver most_iterations 57 at_iteration_limit 0 warnings 0 
+box_on_ns100_tol12 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55
+box_on_ns100_tol12 solver most_iterations 108 at_iteration_limit 166 warnings 0 
+box_on_ns1000_tol12 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55
+box_on_ns1000_tol12 solver most_iterations 1008 at_iteration_limit 166 warnings 0 

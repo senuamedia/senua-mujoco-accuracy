@@ -1,0 +1,22 @@
+dt_base 0.00625
+mass1 0.915
+mass2 0.587
+radius 0.0329
+arm1 0.224
+len1 0.462
+arm2 0.181
+angle2 -0.616
+omega1 2.73
+omega2 1.86
+swing1 0.259
+swing2 -0.41
+i1 0.003484
+i2 0.008062
+i3 0.009857
+  (spin drawn again: -2.01 3.43 -3.32)
+  (spin drawn again: 2.92 2.67 -2.24)
+  (spin drawn again: -0.11 -1.45 -0.09)
+  (w2 drawn again: 2.92)
+w1 0.65
+w2 1.98
+w3 -2.26

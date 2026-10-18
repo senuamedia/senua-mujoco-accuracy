@@ -1,0 +1,12 @@
+RULE Q1_released_joint_creeps ge 25404 100 : HELD
+RULE Q2_released_arm_creeps ge 40534 100 : HELD
+RULE Q3_configuration_arm_creeps ge 372 11 : HELD
+RULE n100_J1_joint_holds all_le 24 0 0 : HELD
+RULE n100_J2_arm_holds all_le 10 2 3 2 3 : HELD
+RULE n100_N1_contacts_as_with_10 eq 85 85 : HELD
+RULE n100_H1_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE n100_G1_grip_holds all_le 10 1 0 2 0 1 0 2 0 : HELD
+RULE n100_K1_ten_tests eq 10 10 : HELD
+RULE n100_V1_iteration_limit eq 0 0 : HELD
+RULE n100_V1_warnings eq 0 0 : HELD
+rules: 11, held: 11

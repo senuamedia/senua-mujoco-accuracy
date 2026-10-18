@@ -1,0 +1,103 @@
+release slide 0 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+release slide 25 0.0015 slid_um 73248 side_um 14582 highest_um 236 fastest_up_ums 63245
+release slide 50 0.0015 slid_um 82913 side_um -4675 highest_um 137 fastest_up_ums 51409
+release slide 70 0.0015 slid_um 68997 side_um -14511 highest_um 140 fastest_up_ums 54892
+release slide 85 0.0015 slid_um 59897 side_um -4966 highest_um 299 fastest_up_ums 71926
+release slide 0 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+release slide 25 0.000375 slid_um 73769 side_um 14522 highest_um 23 fastest_up_ums 20350
+release slide 50 0.000375 slid_um 83386 side_um -4639 highest_um 51 fastest_up_ums 30028
+release slide 70 0.000375 slid_um 69533 side_um -14430 highest_um 67 fastest_up_ums 35645
+release slide 85 0.000375 slid_um 60337 side_um -4960 highest_um 37 fastest_up_ums 26241
+release hold 0 0.76 creep_ums 2841
+release hold 25 0.76 creep_ums 30313
+release hold 50 0.76 creep_ums 212309
+release hold 70 0.76 creep_ums 2580
+release hold 85 0.76 creep_ums 2823
+release hold 0 0.93 creep_ums 3973
+release hold 25 0.93 creep_ums 685830
+release hold 50 0.93 creep_ums 931592
+release hold 70 0.93 creep_ums 547041
+release hold 85 0.93 creep_ums 22774
+release belt25 0.0015 stopped_at_step 196
+release belt50 0.0015 stopped_at_step 264
+release belt25 0.000375 stopped_at_step 804
+release belt50 0.000375 stopped_at_step 1075
+release free 0 slid_um 59437 side_um 0
+release free 25 slid_um 73527 side_um 13958
+release free 50 slid_um 82758 side_um -6650
+release free 70 slid_um 69555 side_um -13550
+release free 85 slid_um 59942 side_um -4978
+release solver most_iterations 6 at_iteration_limit 0 warnings 0
+off slide 0 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+off slide 25 0.0015 slid_um 73248 side_um 14582 highest_um 236 fastest_up_ums 63245
+off slide 50 0.0015 slid_um 82913 side_um -4675 highest_um 137 fastest_up_ums 51409
+off slide 70 0.0015 slid_um 68997 side_um -14511 highest_um 140 fastest_up_ums 54892
+off slide 85 0.0015 slid_um 59897 side_um -4966 highest_um 299 fastest_up_ums 71926
+off slide 0 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+off slide 25 0.000375 slid_um 73769 side_um 14522 highest_um 23 fastest_up_ums 20350
+off slide 50 0.000375 slid_um 83386 side_um -4639 highest_um 51 fastest_up_ums 30028
+off slide 70 0.000375 slid_um 69533 side_um -14430 highest_um 67 fastest_up_ums 35645
+off slide 85 0.000375 slid_um 60337 side_um -4960 highest_um 37 fastest_up_ums 26241
+off hold 0 0.76 creep_ums 2841
+off hold 25 0.76 creep_ums 30313
+off hold 50 0.76 creep_ums 212309
+off hold 70 0.76 creep_ums 2580
+off hold 85 0.76 creep_ums 2823
+off hold 0 0.93 creep_ums 3973
+off hold 25 0.93 creep_ums 685830
+off hold 50 0.93 creep_ums 931592
+off hold 70 0.93 creep_ums 547041
+off hold 85 0.93 creep_ums 22774
+off belt25 0.0015 stopped_at_step 196
+off belt50 0.0015 stopped_at_step 264
+off belt25 0.000375 stopped_at_step 804
+off belt50 0.000375 stopped_at_step 1075
+off free 0 slid_um 59437 side_um 0
+off free 25 slid_um 73527 side_um 13958
+off free 50 slid_um 82758 side_um -6650
+off free 70 slid_um 69555 side_um -13550
+off free 85 slid_um 59942 side_um -4978
+off solver most_iterations 6 at_iteration_limit 0 warnings 0
+on slide 0 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+on slide 25 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+on slide 50 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+on slide 70 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+on slide 85 0.0015 slid_um 59065 side_um 0 highest_um 318 fastest_up_ums 72755
+on slide 0 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+on slide 25 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+on slide 50 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+on slide 70 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+on slide 85 0.000375 slid_um 59586 side_um 0 highest_um 33 fastest_up_ums 23992
+on hold 0 0.76 creep_ums 2841
+on hold 25 0.76 creep_ums 2841
+on hold 50 0.76 creep_ums 2841
+on hold 70 0.76 creep_ums 2841
+on hold 85 0.76 creep_ums 2841
+on hold 0 0.93 creep_ums 3973
+on hold 25 0.93 creep_ums 3973
+on hold 50 0.93 creep_ums 3973
+on hold 70 0.93 creep_ums 3973
+on hold 85 0.93 creep_ums 3973
+on belt25 0.0015 stopped_at_step 166
+on belt50 0.0015 stopped_at_step 206
+on belt25 0.000375 stopped_at_step 685
+on belt50 0.000375 stopped_at_step 844
+on free 0 slid_um 59437 side_um 0
+on free 25 slid_um 59615 side_um -7
+on free 50 slid_um 60167 side_um -550
+on free 70 slid_um 59449 side_um -749
+on free 85 slid_um 59562 side_um -1176
+on solver most_iterations 7 at_iteration_limit 0 warnings 0
+elliptic belt25 0.0015 stopped_at_step 166
+elliptic belt50 0.0015 stopped_at_step 206
+elliptic belt25 0.000375 stopped_at_step 681
+elliptic belt50 0.000375 stopped_at_step 841
+axis pyramidal 25 0.0015 stopped_at_step 167 slid_um 71937
+axis elliptic 25 0.0015 stopped_at_step 166 slid_um 71936
+axis pyramidal 50 0.0015 stopped_at_step 209 slid_um 143286
+axis elliptic 50 0.0015 stopped_at_step 208 slid_um 143228
+axis pyramidal 25 0.000375 stopped_at_step 688 slid_um 72518
+axis elliptic 25 0.000375 stopped_at_step 683 slid_um 72482
+axis pyramidal 50 0.000375 stopped_at_step 856 slid_um 143931
+axis elliptic 50 0.000375 stopped_at_step 852 slid_um 143920
+reference solver most_iterations 3 at_iteration_limit 0 warnings 0

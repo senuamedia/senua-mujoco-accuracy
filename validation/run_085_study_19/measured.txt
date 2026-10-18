@@ -1,0 +1,60 @@
+rel box mujoco written fast_steps 106 fastest_ums 76978
+rel box 1 0.016 written fast_steps 107 fastest_ums 77000
+rel box 1 0.01411 written fast_steps 108 fastest_ums 67142
+rel box 2 0.016 written fast_steps 128 fastest_ums 76441
+rel box 2 0.01411 written fast_steps 106 fastest_ums 66951
+rel box 3 0.016 written fast_steps 106 fastest_ums 76955
+rel box 3 0.01411 written fast_steps 106 fastest_ums 67113
+rel box mujoco n100 fast_steps 106 fastest_ums 76978
+rel box 1 0.016 n100 fast_steps 107 fastest_ums 77000
+rel box 1 0.01411 n100 fast_steps 108 fastest_ums 67142
+rel box 2 0.016 n100 fast_steps 128 fastest_ums 76441
+rel box 2 0.01411 n100 fast_steps 106 fastest_ums 66951
+rel box 3 0.016 n100 fast_steps 106 fastest_ums 76955
+rel box 3 0.01411 n100 fast_steps 106 fastest_ums 67113
+rel solver most_iterations 8 at_iteration_limit 0 warnings 0
+off box mujoco written fast_steps 106 fastest_ums 76978
+off box 1 0.016 written fast_steps 107 fastest_ums 77000
+off box 1 0.01411 written fast_steps 108 fastest_ums 67142
+off box 2 0.016 written fast_steps 128 fastest_ums 76441
+off box 2 0.01411 written fast_steps 106 fastest_ums 66951
+off box 3 0.016 written fast_steps 106 fastest_ums 76955
+off box 3 0.01411 written fast_steps 106 fastest_ums 67113
+off box mujoco n100 fast_steps 106 fastest_ums 76978
+off box 1 0.016 n100 fast_steps 107 fastest_ums 77000
+off box 1 0.01411 n100 fast_steps 108 fastest_ums 67142
+off box 2 0.016 n100 fast_steps 128 fastest_ums 76441
+off box 2 0.01411 n100 fast_steps 106 fastest_ums 66951
+off box 3 0.016 n100 fast_steps 106 fastest_ums 76955
+off box 3 0.01411 n100 fast_steps 106 fastest_ums 67113
+off solver most_iterations 8 at_iteration_limit 0 warnings 0
+set4 box mujoco written fast_steps 106 fastest_ums 76903
+set4 box 1 0.016 written fast_steps 107 fastest_ums 76932
+set4 box 1 0.01411 written fast_steps 106 fastest_ums 67086
+set4 box 2 0.016 written fast_steps 128 fastest_ums 76487
+set4 box 2 0.01411 written fast_steps 106 fastest_ums 66833
+set4 box 3 0.016 written fast_steps 106 fastest_ums 76873
+set4 box 3 0.01411 written fast_steps 106 fastest_ums 67044
+set4 box mujoco n100 fast_steps 106 fastest_ums 76903
+set4 box 1 0.016 n100 fast_steps 107 fastest_ums 76932
+set4 box 1 0.01411 n100 fast_steps 106 fastest_ums 67086
+set4 box 2 0.016 n100 fast_steps 128 fastest_ums 76487
+set4 box 2 0.01411 n100 fast_steps 106 fastest_ums 66833
+set4 box 3 0.016 n100 fast_steps 106 fastest_ums 76873
+set4 box 3 0.01411 n100 fast_steps 106 fastest_ums 67044
+set4 solver most_iterations 64 at_iteration_limit 0 warnings 0
+set5 box mujoco written fast_steps 0 fastest_ums 0
+set5 box 1 0.016 written fast_steps 0 fastest_ums 0
+set5 box 1 0.01411 written fast_steps 0 fastest_ums 0
+set5 box 2 0.016 written fast_steps 0 fastest_ums 0
+set5 box 2 0.01411 written fast_steps 0 fastest_ums 0
+set5 box 3 0.016 written fast_steps 0 fastest_ums 0
+set5 box 3 0.01411 written fast_steps 0 fastest_ums 0
+set5 box mujoco n100 fast_steps 0 fastest_ums 0
+set5 box 1 0.016 n100 fast_steps 0 fastest_ums 0
+set5 box 1 0.01411 n100 fast_steps 0 fastest_ums 0
+set5 box 2 0.016 n100 fast_steps 0 fastest_ums 0
+set5 box 2 0.01411 n100 fast_steps 0 fastest_ums 0
+set5 box 3 0.016 n100 fast_steps 0 fastest_ums 0
+set5 box 3 0.01411 n100 fast_steps 0 fastest_ums 0
+set5 solver most_iterations 64 at_iteration_limit 0 warnings 0

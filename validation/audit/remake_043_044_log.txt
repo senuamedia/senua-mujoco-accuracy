@@ -1,0 +1,7 @@
+05:18:21 run_043_fixes_in_the_wild cleared
+05:18:21 run_044_study_11 cleared
+05:32:10 run 043 played, exit 0
+05:32:10 run 043 suite re-read, exit 0
+05:46:06 run 044 played, exit 0
+05:46:06 home folder written as ~ in the re-made outputs
+05:46:08 compared: 605 same, 35 differ, 0 missing, 0 new

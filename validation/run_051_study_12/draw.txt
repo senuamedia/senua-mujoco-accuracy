@@ -1,0 +1,28 @@
+dt_coarse 0.00116
+dt_fine 0.00029
+cube_mass 1.903
+  (cube_half drawn again: 0.0435)
+cube_half 0.0499
+cube_mu 0.379
+  (cube_v drawn again: 0.95)
+cube_v 0.81
+s1_mass 0.908
+s1_half 0.0431
+  (s1_h0 drawn again: 0.090)
+s1_h0 0.097
+s1_vx 3.19
+  (s1_vxchain drawn again: 1.16)
+s1_vxchain 0.98
+s1_mu 0.409
+s1_vslide 4.35
+s1_muhold 0.432
+grip_mass 0.248
+grip_half 0.0305
+grip_mu 0.732
+  (grip_squeeze drawn again: 3.20)
+  (grip_squeeze drawn again: 2.5)
+grip_squeeze 3.02
+grip_offset 0.0097
+stack_mass 0.408
+stack_half 0.0439
+stack_mu 0.534

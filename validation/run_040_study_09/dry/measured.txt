@@ -1,0 +1,25 @@
+release weld pose1 0.0016 straight apart_nm 56996 speed_apart_ums 0
+release weld pose1 0.0016 folded apart_nm 677 speed_apart_ums 0
+release weld pose1 0.0004 straight apart_nm 56996 speed_apart_ums 0
+release weld pose1 0.0004 folded apart_nm 677 speed_apart_ums 0
+release weld pose2 0.0016 straight apart_nm 84884 speed_apart_ums 0
+release weld pose2 0.0016 folded apart_nm 19079 speed_apart_ums 0
+release weld pose2 0.0004 straight apart_nm 84884 speed_apart_ums 0
+release weld pose2 0.0004 folded apart_nm 19079 speed_apart_ums 0
+release tumble Euler 0.01 energy_end_ppm 34145 energy_largest_ppm 34145 momentum_end_ppm 12677 momentum_largest_ppm 12677
+release tumble Euler 0.0025 energy_end_ppm 8215 energy_largest_ppm 8215 momentum_end_ppm 3062 momentum_largest_ppm 3062
+release tumble Euler 0.000625 energy_end_ppm 2034 energy_largest_ppm 2034 momentum_end_ppm 758 momentum_largest_ppm 758
+release tumble Euler 0.00015625 energy_end_ppm 507 energy_largest_ppm 507 momentum_end_ppm 188 momentum_largest_ppm 188
+release tumble implicitfast 0.01 energy_end_ppm -30868 energy_largest_ppm 30868 momentum_end_ppm -11585 momentum_largest_ppm 11585
+release tumble implicitfast 0.0025 energy_end_ppm -8010 energy_largest_ppm 8010 momentum_end_ppm -2995 momentum_largest_ppm 2995
+release tumble implicitfast 0.000625 energy_end_ppm -2021 energy_largest_ppm 2021 momentum_end_ppm -755 momentum_largest_ppm 755
+release tumble implicitfast 0.00015625 energy_end_ppm -506 energy_largest_ppm 506 momentum_end_ppm -190 momentum_largest_ppm 190
+release tumble implicit 0.01 energy_end_ppm -30868 energy_largest_ppm 30868 momentum_end_ppm -11585 momentum_largest_ppm 11585
+release tumble implicit 0.0025 energy_end_ppm -8010 energy_largest_ppm 8010 momentum_end_ppm -2995 momentum_largest_ppm 2995
+release tumble implicit 0.000625 energy_end_ppm -2021 energy_largest_ppm 2021 momentum_end_ppm -755 momentum_largest_ppm 755
+release tumble implicit 0.00015625 energy_end_ppm -506 energy_largest_ppm 506 momentum_end_ppm -190 momentum_largest_ppm 190
+release tumble RK4 0.01 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.0025 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.000625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.00015625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release solver at_iteration_limit 0 warnings 0

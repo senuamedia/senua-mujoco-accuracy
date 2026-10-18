@@ -1,0 +1,24 @@
+spin 3 rad/s 0.002 | FINAL dt_ns 2000000 angle_urad 3000000 speed_urads 3000000
+torque 1.5 N m 0.002 | FINAL dt_ns 2000000 angle_urad 2332885 speed_urads 4656457
+swing 0.002 | SWING dt_ns 2000000 released_at_urad 0 turn_urad -3141600 swing_per_10000 10000 turn_urad 11 swing_per_10000 10000 turn_urad -3141605 swing_per_10000 10000 turns 3
+hold, friction 12 N m 0.002 | CREEP dt_ns 2000000 steps 500 mean_speed_ums -25670 friction_over_normal_per_10000 -1 friction_limit_per_10000 0
+released inside the limit, damping 20 0.002 | FINAL dt_ns 2000000 angle_urad 397252 speed_urads 1466225
+released inside the limit, damping 150 0.002 | FINAL dt_ns 2000000 angle_urad -135602 speed_urads 388860
+spin 3 rad/s 0.0005 | FINAL dt_ns 500000 angle_urad 3000000 speed_urads 3000000
+torque 1.5 N m 0.0005 | FINAL dt_ns 500000 angle_urad 2329393 speed_urads 4656457
+swing 0.0005 | SWING dt_ns 500000 released_at_urad 0 turn_urad -3141593 swing_per_10000 9999 turn_urad 1 swing_per_10000 9999 turn_urad -3141593 swing_per_10000 9999 turns 3
+hold, friction 12 N m 0.0005 | CREEP dt_ns 500000 steps 2000 mean_speed_ums -25670 friction_over_normal_per_10000 -1 friction_limit_per_10000 0
+released inside the limit, damping 20 0.0005 | FINAL dt_ns 500000 angle_urad 383529 speed_urads 1441122
+released inside the limit, damping 150 0.0005 | FINAL dt_ns 500000 angle_urad -144495 speed_urads 371997
+spin 3 rad/s 0.000125 | FINAL dt_ns 125000 angle_urad 3000000 speed_urads 3000000
+torque 1.5 N m 0.000125 | FINAL dt_ns 125000 angle_urad 2328520 speed_urads 4656457
+swing 0.000125 | SWING dt_ns 125000 released_at_urad 0 turn_urad -3141593 swing_per_10000 9999 turn_urad 0 swing_per_10000 9999 turn_urad -3141593 swing_per_10000 9999 turns 3
+hold, friction 12 N m 0.000125 | CREEP dt_ns 125000 steps 8000 mean_speed_ums -25670 friction_over_normal_per_10000 -1 friction_limit_per_10000 0
+released inside the limit, damping 20 0.000125 | FINAL dt_ns 125000 angle_urad 380565 speed_urads 1435787
+released inside the limit, damping 150 0.000125 | FINAL dt_ns 125000 angle_urad -145606 speed_urads 370010
+spin 3 rad/s 0.00003125 | FINAL dt_ns 31250 angle_urad 3000000 speed_urads 3000000
+torque 1.5 N m 0.00003125 | FINAL dt_ns 31250 angle_urad 2328301 speed_urads 4656457
+swing 0.00003125 | SWING dt_ns 31250 released_at_urad 0 turn_urad -3141593 swing_per_10000 9999 turn_urad 0 swing_per_10000 9999 turn_urad -3141593 swing_per_10000 9999 turns 3
+hold, friction 12 N m 0.00003125 | CREEP dt_ns 31250 steps 32000 mean_speed_ums -25670 friction_over_normal_per_10000 -1 friction_limit_per_10000 0
+released inside the limit, damping 20 0.00003125 | FINAL dt_ns 31250 angle_urad 379869 speed_urads 1434544
+released inside the limit, damping 150 0.00003125 | FINAL dt_ns 31250 angle_urad -145865 speed_urads 369551

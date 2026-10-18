@@ -1,0 +1,236 @@
+// measure/sx_tumble.sx -- the measuring for one free rigid body tumbling in empty space (the
+// MuJoCo deep dive's rig mjc_tumble; MuJoCo's reported issue M10). Nothing acts on the body, so two things have a
+// right answer that does not depend on the time step (Euler's equations for a torque-free body): its rotational kinetic
+// energy, E = 1/2 (I1 w1^2 + I2 w2^2 + I3 w3^2), and the magnitude of its angular momentum, |L|, with
+// |L|^2 = (I1 w1)^2 + (I2 w2)^2 + (I3 w3)^2. Both are read in the body's own frame, from its principal moments and its
+// angular velocity there, so no rotation is needed. Each stays what it was.
+// The rig's file: a header "TUMBLE dt_ns <n> i1_nkgm2 <n> i2_nkgm2 <n> i3_nkgm2 <n> mass_g <n> steps <n>" (the moments
+// in units of 1e-9 kg m2), then one line a step, the first the state before any step: the step, and the angular
+// velocity along the body's x, y and z axes in micro-radians a second.
+// Every sum of products is worked out exactly, as a whole number kept in base-1000 digits whose count is taken from
+// the file's own largest number, so no reading overflows and nothing is rounded before the last division.
+// usage: sx_tumble tumble <file>
+//   prints one line: the step, the steps played, the energy at the start (nJ), its drift at the end and its largest
+//   drift over the play, in parts per million of the start; and the same for |L| (at the start in units of 1e-6 kg m2/s).
+//   The drift at the end carries its sign; the largest is a size. 999999999 when a drift is beyond what is measured.
+// exit 42 = ran
+extern fn malloc(size: i64) -> i64;
+extern fn free(ptr: i64);
+extern fn print_char(c: i64);
+extern fn print_int(x: i64);
+extern fn dvec_to_cstr(d: i64) -> i64;
+extern fn load_i64(base: i64, slot: i64) -> i64;
+extern fn store_i64(base: i64, slot: i64, val: i64);
+extern fn load_byte(buf: i64, off: i64) -> i64;
+extern fn store_byte(buf: i64, off: i64, val: i64);
+// use "senua_engine.sx"   // the Senua AI engine, not distributed: this program makes two calls into it, both in
+//                            xc_ints below, os_file_access and os_file_read_all, to read the rig's text file
+
+fn xt_nop() -> i64 { 0 }
+fn xt_puts(c: i64) { let mut i: i64 = 0; while load_byte(c, i) != 0 { print_char(load_byte(c, i)); i = i + 1; } }
+fn xt_lbl(s: i64) { let c: i64 = dvec_to_cstr(s); xt_puts(c); free(c); }
+fn xt_num(s: i64, v: i64) { xt_lbl(s); print_int(v); }
+fn xt_is(a: i64, lit_dv: i64) -> i64 { let b: i64 = dvec_to_cstr(lit_dv); let mut i: i64 = 0; let mut r: i64 = 2; while r == 2 { let x: i64 = load_byte(a, i); if x != load_byte(b, i) { r = 0; } else { if x == 0 { r = 1; } else { i = i + 1; } } } free(b); r }
+fn xt_space(ch: i64) -> i64 { if ch == 32 { 1 } else { if ch == 10 { 1 } else { if ch == 13 { 1 } else { if ch == 9 { 1 } else { 0 } } } } }
+fn xt_abs(x: i64) -> i64 { if x < 0 { 0 - x } else { x } }
+// the end of the token that starts at i (the first white space at or after i, or nb)
+fn xt_tok_end(b: i64, nb: i64, i: i64) -> i64 { let mut j: i64 = i; let mut go: i64 = 1; while go == 1 { if j >= nb { go = 0; } else { if xt_space(load_byte(b, j)) == 1 { go = 0; } else { j = j + 1; } } } j }
+// 1 when the token b[i, j) is a whole number: digits, with one leading minus allowed
+fn xt_tok_isnum(b: i64, i: i64, j: i64) -> i64 {
+    let mut k: i64 = i; let mut ok: i64 = 1; let mut digits: i64 = 0;
+    if load_byte(b, k) == 45 { k = k + 1; } else { let _: i64 = 0; }
+    while k < j { let ch: i64 = load_byte(b, k); if ch >= 48 { if ch <= 57 { digits = digits + 1; } else { ok = 0; } } else { ok = 0; } k = k + 1; }
+    if digits == 0 { 0 } else { ok }
+}
+fn xt_tok_val(b: i64, i: i64, j: i64) -> i64 {
+    let mut k: i64 = i; let mut neg: i64 = 0; let mut v: i64 = 0;
+    if load_byte(b, k) == 45 { neg = 1; k = k + 1; } else { let _: i64 = 0; }
+    while k < j { v = v * 10 + (load_byte(b, k) - 48); k = k + 1; }
+    if neg == 1 { 0 - v } else { v }
+}
+// every whole-number token of a text file, in order; out [0] = how many. Words (dt_ns, i1_nkgm2) are skipped whole.
+fn xt_ints(path: i64, out: i64) -> i64 {
+    store_i64(out, 0, 0);
+    // Senua AI engine call: os_file_access(path) asks whether the file exists. It returns 0 when it does and
+    // anything else when it does not, so a missing file is never read and the measure reads nothing from it.
+    if os_file_access(path) != 0 { return 0; } else { let _: i64 = 0; }
+    // Senua AI engine call: os_file_read_all(path, meta) reads the whole file into a buffer of its own. It returns
+    // the buffer, or 0 when the file cannot be read, and writes the number of bytes read into meta's first slot;
+    // the buffer is this program's to free. Every reading below is made from those bytes.
+    let meta: i64 = malloc(16); let b: i64 = os_file_read_all(path, meta); let nb: i64 = load_i64(meta, 0); free(meta);
+    if b == 0 { return 0; } else { let _: i64 = 0; }
+    let v: i64 = malloc(nb * 8 + 64); let mut n: i64 = 0; let mut i: i64 = 0;
+    while i < nb {
+        if xt_space(load_byte(b, i)) == 1 { i = i + 1; } else {
+            let j: i64 = xt_tok_end(b, nb, i);
+            if xt_tok_isnum(b, i, j) == 1 { store_i64(v, n, xt_tok_val(b, i, j)); n = n + 1; } else { let _: i64 = 0; }
+            i = j;
+        }
+    }
+    free(b); store_i64(out, 0, n); v
+}
+
+// ---- whole numbers of n base-1000 digits, least significant first, each digit in a slot ----
+fn xt_zero(a: i64, n: i64) { let mut i: i64 = 0; while i < n { store_i64(a, i, 0); i = i + 1; } }
+fn xt_copy(d: i64, a: i64, n: i64) { let mut i: i64 = 0; while i < n { store_i64(d, i, load_i64(a, i)); i = i + 1; } }
+// a = v, for v no less than 0
+fn xt_set(a: i64, n: i64, v: i64) { xt_zero(a, n); let mut x: i64 = v; let mut i: i64 = 0; while x > 0 { store_i64(a, i, x % 1000); x = intdiv(x, 1000); i = i + 1; } }
+// carries each digit's excess into the next, so every digit lies in 0 to 999 (every digit no less than 0 before)
+fn xt_carry(a: i64, n: i64) { let mut c: i64 = 0; let mut i: i64 = 0; while i < n { let t: i64 = load_i64(a, i) + c; store_i64(a, i, t % 1000); c = intdiv(t, 1000); i = i + 1; } }
+// r = r + a x d x 1000^j, d one digit, before the carry
+fn xt_addmul(r: i64, a: i64, n: i64, d: i64, j: i64) { let mut i: i64 = 0; while i + j < n { store_i64(r, i + j, load_i64(r, i + j) + load_i64(a, i) * d); i = i + 1; } }
+// r = a x v, for v no less than 0 (r and a are different slabs)
+fn xt_mul(r: i64, a: i64, n: i64, v: i64) {
+    xt_zero(r, n); let mut x: i64 = v; let mut j: i64 = 0;
+    while x > 0 { xt_addmul(r, a, n, x % 1000, j); x = intdiv(x, 1000); j = j + 1; }
+    xt_carry(r, n);
+}
+// acc = acc + a
+fn xt_add(acc: i64, a: i64, n: i64) { let mut i: i64 = 0; while i < n { store_i64(acc, i, load_i64(acc, i) + load_i64(a, i)); i = i + 1; } xt_carry(acc, n); }
+// 1, 0 or -1 as digit i of a is more than, equal to or less than digit i of b
+fn xt_cmp1(a: i64, b: i64, i: i64) -> i64 { if load_i64(a, i) > load_i64(b, i) { 1 } else { if load_i64(a, i) < load_i64(b, i) { 0 - 1 } else { 0 } } }
+// 1, 0 or -1 as a is more than, equal to or less than b
+fn xt_cmp(a: i64, b: i64, n: i64) -> i64 {
+    let mut r: i64 = 0; let mut i: i64 = n - 1;
+    while i >= 0 { if r == 0 { r = xt_cmp1(a, b, i); } else { let _: i64 = 0; } i = i - 1; }
+    r
+}
+// d = a - b, for a no less than b
+fn xt_sub(d: i64, a: i64, b: i64, n: i64) {
+    let mut br: i64 = 0; let mut i: i64 = 0;
+    while i < n {
+        let t: i64 = load_i64(a, i) - load_i64(b, i) - br;
+        if t < 0 { store_i64(d, i, t + 1000); br = 1; } else { store_i64(d, i, t); br = 0; }
+        i = i + 1;
+    }
+}
+// d = |a - b|; returns 1, 0 or -1 as a is more than, equal to or less than b
+fn xt_absdiff(d: i64, a: i64, b: i64, n: i64) -> i64 { let c: i64 = xt_cmp(a, b, n); if c < 0 { xt_sub(d, b, a, n); } else { xt_sub(d, a, b, n); } c }
+// a = a / 10, cut down
+fn xt_div10(a: i64, n: i64) {
+    let mut rem: i64 = 0; let mut i: i64 = n - 1;
+    while i >= 0 { let t: i64 = rem * 1000 + load_i64(a, i); store_i64(a, i, intdiv(t, 10)); rem = t % 10; i = i - 1; }
+}
+// 1 when a is less than 10^14, so that it is one whole number with room
+fn xt_small(a: i64, n: i64) -> i64 {
+    let mut ok: i64 = 1; let mut i: i64 = 5;
+    while i < n { if load_i64(a, i) != 0 { ok = 0; } else { let _: i64 = 0; } i = i + 1; }
+    if n > 4 { if load_i64(a, 4) >= 100 { ok = 0; } else { let _: i64 = 0; } } else { let _: i64 = 0; }
+    ok
+}
+// a as one whole number (a less than 10^14)
+fn xt_val(a: i64, n: i64) -> i64 {
+    let mut i: i64 = 4; if n < 5 { i = n - 1; } else { let _: i64 = 0; }
+    let mut v: i64 = 0;
+    while i >= 0 { v = v * 1000 + load_i64(a, i); i = i - 1; }
+    v
+}
+// 10^13, built from small factors
+fn xt_e13() -> i64 { let a: i64 = 1000000; let b: i64 = 10000000; a * b }
+// both a and b divided by ten until a is less than 10^14
+fn xt_shrink(a: i64, b: i64, n: i64) { let mut go: i64 = 1; while go == 1 { if xt_small(a, n) == 1 { go = 0; } else { xt_div10(a, n); xt_div10(b, n); } } }
+// diff in parts per million of base (neither changed; t1 and t2 are scratch): both scaled down by one power of ten
+// until base is less than 10^14, then diff / (base / 10^6). 999999999 when base is then under 10^13, too small to
+// measure against, or when the quotient would not be one whole number
+fn xt_ppm(diff: i64, base: i64, n: i64, t1: i64, t2: i64) -> i64 {
+    xt_copy(t1, base, n); xt_copy(t2, diff, n); xt_shrink(t1, t2, n);
+    if xt_small(t2, n) == 0 { 999999999 } else {
+        let b: i64 = xt_val(t1, n);
+        if b < xt_e13() { 999999999 } else { intdiv(xt_val(t2, n), intdiv(b, 1000000)) }
+    }
+}
+// the whole square root of x, cut down (x no less than 0, less than 1.39e14)
+fn xt_isqrt(x: i64) -> i64 {
+    let mut lo: i64 = 0; let mut hi: i64 = 11800000; if x < hi { hi = x; } else { let _: i64 = 0; }
+    while lo < hi { let mid: i64 = intdiv(lo + hi + 1, 2); if mid * mid <= x { lo = mid; } else { hi = mid - 1; } }
+    lo
+}
+// a drift of |L|^2 of d parts per million as a drift of |L|: the square root of (1 + d / 10^6), less 1, in parts per
+// million
+fn xt_root_ppm(d: i64) -> i64 {
+    if d >= 999999999 { 999999999 } else { if d <= 0 - 1000000 { 0 - 1000000 } else { xt_isqrt((1000000 + d) * 1000000) - 1000000 } }
+}
+
+// ---- the tumbling body. c is the measurement's slab: [0] n, the digits of every whole number below [1] e, the sum of
+// I w^2 of the row [2] l, the sum of (I w)^2 [3] [4] scratch [5] e at the start [6] l at the start [7] the largest
+// amount e rose above its start [8] the largest it fell below [9] [10] the same for l [11] scratch [12] [13] scratch
+// for the division [14] the file's numbers
+// e += I w^2 and l += (I w)^2, for one axis
+fn xt_term(c: i64, inr: i64, w: i64) {
+    let n: i64 = load_i64(c, 0); let t: i64 = load_i64(c, 3); let u: i64 = load_i64(c, 4);
+    xt_set(t, n, inr); xt_mul(u, t, n, w);
+    xt_mul(t, u, n, w); xt_add(load_i64(c, 1), t, n);
+    xt_mul(t, u, n, inr); xt_mul(u, t, n, w); xt_add(load_i64(c, 2), u, n);
+}
+// e and l of the row whose angular velocity starts at number `at` of the file
+fn xt_row(c: i64, at: i64) {
+    let n: i64 = load_i64(c, 0); let v: i64 = load_i64(c, 14);
+    xt_zero(load_i64(c, 1), n); xt_zero(load_i64(c, 2), n);
+    xt_term(c, load_i64(v, 1), xt_abs(load_i64(v, at)));
+    xt_term(c, load_i64(v, 2), xt_abs(load_i64(v, at + 1)));
+    xt_term(c, load_i64(v, 3), xt_abs(load_i64(v, at + 2)));
+}
+// how far x is from its start x0, kept when it is the largest yet above (slot up) or below (slot dn)
+fn xt_dev(c: i64, x: i64, x0: i64, up: i64, dn: i64) {
+    let n: i64 = load_i64(c, 0); let d: i64 = load_i64(c, 11);
+    let s: i64 = xt_absdiff(d, x, x0, n);
+    if s > 0 { if xt_cmp(d, load_i64(c, up), n) > 0 { xt_copy(load_i64(c, up), d, n); } else { let _: i64 = 0; } } else { let _: i64 = 0; }
+    if s < 0 { if xt_cmp(d, load_i64(c, dn), n) > 0 { xt_copy(load_i64(c, dn), d, n); } else { let _: i64 = 0; } } else { let _: i64 = 0; }
+}
+// the digits needed for the largest size of any of the file's cnt numbers (at least one)
+fn xt_digits(v: i64, cnt: i64) -> i64 {
+    let mut big: i64 = 0; let mut i: i64 = 0;
+    while i < cnt { if xt_abs(load_i64(v, i)) > big { big = xt_abs(load_i64(v, i)); } else { let _: i64 = 0; } i = i + 1; }
+    let mut dg: i64 = 1; let mut x: i64 = intdiv(big, 1000);
+    while x > 0 { dg = dg + 1; x = intdiv(x, 1000); }
+    dg
+}
+// the signed drift of x from x0, in parts per million of x0
+fn xt_drift(c: i64, x: i64, x0: i64) -> i64 {
+    let n: i64 = load_i64(c, 0); let d: i64 = load_i64(c, 11);
+    let s: i64 = xt_absdiff(d, x, x0, n);
+    let p: i64 = xt_ppm(d, x0, n, load_i64(c, 12), load_i64(c, 13));
+    if s < 0 { 0 - p } else { p }
+}
+// a whole number of a slab divided by 10^p and cut down, or -1 when that is still too large to print
+fn xt_down(c: i64, a: i64, p: i64) -> i64 {
+    let n: i64 = load_i64(c, 0); let t: i64 = load_i64(c, 12);
+    xt_copy(t, a, n); let mut k: i64 = 0; while k < p { xt_div10(t, n); k = k + 1; }
+    if xt_small(t, n) == 1 { xt_val(t, n) } else { 0 - 1 }
+}
+fn xt_tumble(path: i64) -> i64 {
+    let out: i64 = malloc(16); let v: i64 = xt_ints(path, out); let cnt: i64 = load_i64(out, 0); free(out);
+    if cnt < 10 { xt_lbl("the tumble file is missing or not whole\n"); return 1; } else { let _: i64 = 0; }
+    let steps: i64 = load_i64(v, 5);
+    if cnt != 6 + (steps + 1) * 4 { xt_lbl("the tumble file is missing or not whole\n"); return 1; } else { let _: i64 = 0; }
+    let n: i64 = xt_digits(v, cnt) * 4 + 2;
+    let c: i64 = malloc(16 * 8);
+    store_i64(c, 0, n); store_i64(c, 14, v);
+    let mut k: i64 = 1; while k <= 13 { store_i64(c, k, malloc(n * 8)); xt_zero(load_i64(c, k), n); k = k + 1; }
+    xt_row(c, 7); xt_copy(load_i64(c, 5), load_i64(c, 1), n); xt_copy(load_i64(c, 6), load_i64(c, 2), n);
+    let mut s: i64 = 0; let mut at: i64 = 11;
+    while s < steps { xt_row(c, at); xt_dev(c, load_i64(c, 1), load_i64(c, 5), 7, 8); xt_dev(c, load_i64(c, 2), load_i64(c, 6), 9, 10); at = at + 4; s = s + 1; }
+    let e_end: i64 = xt_drift(c, load_i64(c, 1), load_i64(c, 5));
+    let e_up: i64 = xt_ppm(load_i64(c, 7), load_i64(c, 5), n, load_i64(c, 12), load_i64(c, 13));
+    let e_dn: i64 = xt_ppm(load_i64(c, 8), load_i64(c, 5), n, load_i64(c, 12), load_i64(c, 13));
+    let l_end: i64 = xt_root_ppm(xt_drift(c, load_i64(c, 2), load_i64(c, 6)));
+    let l_up: i64 = xt_root_ppm(xt_ppm(load_i64(c, 9), load_i64(c, 6), n, load_i64(c, 12), load_i64(c, 13)));
+    let l_dn: i64 = 0 - xt_root_ppm(0 - xt_ppm(load_i64(c, 10), load_i64(c, 6), n, load_i64(c, 12), load_i64(c, 13)));
+    let e0: i64 = xt_down(c, load_i64(c, 5), 12);
+    let l0: i64 = xt_down(c, load_i64(c, 6), 18);
+    xt_num("TUMBLE dt_ns ", load_i64(v, 0)); xt_num(" steps ", steps);
+    xt_num(" energy_start_nj ", if e0 < 0 { 0 - 1 } else { intdiv(e0, 2) });
+    xt_num(" energy_end_ppm ", e_end); xt_num(" energy_largest_ppm ", if e_up > e_dn { e_up } else { e_dn });
+    xt_num(" momentum_start_ukgm2s ", if l0 < 0 { 0 - 1 } else { xt_isqrt(l0) });
+    xt_num(" momentum_end_ppm ", l_end); xt_num(" momentum_largest_ppm ", if l_up > l_dn { l_up } else { l_dn });
+    print_char(10);
+    42
+}
+fn xt_usage() -> i64 { xt_lbl("usage: sx_tumble tumble <file>\n"); 1 }
+fn main(argc: i64, argv: i64) -> i64 {
+    let _a: i64 = xt_nop();
+    if argc < 3 { return xt_usage(); } else { let _: i64 = 0; }
+    let mode: i64 = load_i64(argv, 1);
+    if xt_is(mode, "tumble") == 1 { return xt_tumble(load_i64(argv, 2)); } else { let _: i64 = 0; }
+    xt_usage()
+}

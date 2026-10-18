@@ -1,0 +1,7 @@
+Test project ~/work/t63
+    Start 2483: XMLReaderTest.LargeTextureAddressTest
+1/1 Test #2483: XMLReaderTest.LargeTextureAddressTest ...   Passed    6.70 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   6.77 sec

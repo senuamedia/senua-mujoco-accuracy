@@ -1,0 +1,89 @@
+--- a/src/engine/engine_collision_box.c	2026-10-17 11:27:34
++++ b/src/engine/engine_collision_box.c	2026-10-17 11:28:40
+@@ -13,6 +13,7 @@
+ // limitations under the License.
+ 
+ #include <math.h>
++#include <stdlib.h>
+ 
+ #include "engine/engine_collision_primitive.h"
+ #include "engine/engine_inline.h"
+@@ -679,6 +680,59 @@
+     }
+ 
+     // emit intersection if the edge strictly crosses the plane
++    if (((dp < 0 && dq > 0) || (dp > 0 && dq < 0)) && nout < mjBOXBOX_MAXVERT) {
++      const mjtNum* q = in[k1];
++      mjtNum t = dp / (dp - dq);
++      out[nout][0] = p[0] + t*(q[0] - p[0]);
++      out[nout][1] = p[1] + t*(q[1] - p[1]);
++      out[nout][2] = p[2] + t*(q[2] - p[2]);
++      nout++;
++    }
++  }
++  *cur = out;
++  *spare = in;
++  return nout;
++}
++
++
++// Senua AI patch, in design (off unless MUJOCO_BOXBOX_CLIPTOL=1): the clip of the incident face given the rounding
++// slack the separation tests already carry. Two boxes face to face whose faces have the same extent along an axis (a
++// straight stack of equal cubes) put the incident face's edges on the reference face's side planes; a drift at rounding
++// level then puts a corner a rounding error outside, and clipHalfPlane emits an intersection at an arbitrary place
++// along each edge that lies on the plane. Each becomes a contact at the corners' depth, so the face's contacts go from
++// 4 to 6 or 8 and back from step to step, and with them the force the face carries. This is clipHalfPlane with a vertex
++// within tol of the plane taken as on it, tol being the separation tests' slack (mjBOXBOX_SEPEPS times the summed
++// half-sizes, without the margin): an edge on the plane emits only its ends.
++static int boxboxClipTolOn(void) {
++  const char* s = getenv("MUJOCO_BOXBOX_CLIPTOL");
++  return s && s[0] == '1' && s[1] == 0;
++}
++
++static int clipHalfPlaneTol(int nin, mjtNum (**cur)[3], mjtNum (**spare)[3],
++                            int coord, mjtNum sign, mjtNum limit, mjtNum tol) {
++  mjtNum (*in)[3] = *cur;
++  mjtNum d[mjBOXBOX_MAXVERT];
++  int all_inside = 1;
++  for (int k = 0; k < nin; k++) {
++    d[k] = sign*in[k][coord] - limit;
++    if (mju_abs(d[k]) <= tol) {
++      d[k] = 0;
++    }
++    all_inside &= d[k] <= 0;
++  }
++  if (all_inside) {
++    return nin;
++  }
++
++  mjtNum (*out)[3] = *spare;
++  int nout = 0;
++  for (int k = 0; k < nin; k++) {
++    const mjtNum* p = in[k];
++    int k1 = k + 1 == nin ? 0 : k + 1;
++    mjtNum dp = d[k], dq = d[k1];
++    if (dp <= 0 && nout < mjBOXBOX_MAXVERT) {
++      mji_copy3(out[nout++], p);
++    }
+     if (((dp < 0 && dq > 0) || (dp > 0 && dq < 0)) && nout < mjBOXBOX_MAXVERT) {
+       const mjtNum* q = in[k1];
+       mjtNum t = dp / (dp - dq);
+@@ -1010,10 +1064,18 @@
+   int nvert = 4;
+   mjtNum (*cur)[3] = poly[0];
+   mjtNum (*spare)[3] = poly[1];
++  if (boxboxClipTolOn()) {
++    mjtNum tol = mjBOXBOX_SEPEPS*(size1[0] + size1[1] + size1[2] + size2[0] + size2[1] + size2[2]);
++    nvert = clipHalfPlaneTol(nvert, &cur, &spare, 0, 1, sizeref[ax], tol);
++    nvert = clipHalfPlaneTol(nvert, &cur, &spare, 0, -1, sizeref[ax], tol);
++    nvert = clipHalfPlaneTol(nvert, &cur, &spare, 1, 1, sizeref[ay], tol);
++    nvert = clipHalfPlaneTol(nvert, &cur, &spare, 1, -1, sizeref[ay], tol);
++  } else {
+   nvert = clipHalfPlane(nvert, &cur, &spare, 0, 1, sizeref[ax]);
+   nvert = clipHalfPlane(nvert, &cur, &spare, 0, -1, sizeref[ax]);
+   nvert = clipHalfPlane(nvert, &cur, &spare, 1, 1, sizeref[ay]);
+   nvert = clipHalfPlane(nvert, &cur, &spare, 1, -1, sizeref[ay]);
++  }
+ 
+   // accept vertices within the margin band, dropping near-duplicates produced by clipping
+   // at polygon corners; duplicate radius is relative to the reference face scale

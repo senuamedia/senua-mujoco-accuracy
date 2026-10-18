@@ -1,0 +1,8 @@
+arm_pose1_rest_0.00114 def same
+arm_pose2_rest_0.00114 def same
+arm_pose1_rest_0.000285 def same
+arm_pose2_rest_0.000285 def same
+arm_pose1_rest_0.00114 rec same
+arm_pose2_rest_0.00114 rec same
+arm_pose1_rest_0.000285 rec same
+arm_pose2_rest_0.000285 rec same

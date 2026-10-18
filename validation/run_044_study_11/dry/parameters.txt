@@ -1,0 +1,1 @@
+cube h0=0 mu=0.39 mass=1.861 radius=0.0434 limit 7.112742 N; grip mass=0.202 radius=0.0312 mu=0.772 squeeze=2.48 offset 0.0093; steps 0.00114 0.000285; teleport 2 mm at 0.8 s; shove 1.5 of the limit from 0.7 to 0.75 s, state saved at 0.6 s and restored at 1.2 s; demos 6 s

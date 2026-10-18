@@ -1,0 +1,46 @@
+release check exit 0 2026-10-17T22:58:28Z
+build srcA exit 0 2026-10-17T22:59:21Z
+build srcAnc exit 0 2026-10-17T23:00:14Z
+build setAnc exit 0 2026-10-17T23:01:08Z
+relA played twice 2026-10-17T23:01:12Z
+srcA played twice 2026-10-17T23:01:16Z
+srcAnc played twice 2026-10-17T23:01:20Z
+setAnc played twice 2026-10-17T23:01:39Z
+build clangA exit 0 2026-10-17T23:09:28Z
+build clangAnc exit 0 2026-10-17T23:10:17Z
+rig mjc_contact FAILED for clangA
+rig mjc_chain FAILED for clangA
+rig mjc_tumble FAILED for clangA
+rig mjc_stack FAILED for clangA
+rig mjc_scene FAILED for clangA
+rig mjc_arm FAILED for clangA
+rig mjc_grip FAILED for clangA
+clangA played twice 2026-10-17T23:10:19Z
+rig mjc_contact FAILED for clangAnc
+rig mjc_chain FAILED for clangAnc
+rig mjc_tumble FAILED for clangAnc
+rig mjc_stack FAILED for clangAnc
+rig mjc_scene FAILED for clangAnc
+rig mjc_arm FAILED for clangAnc
+rig mjc_grip FAILED for clangAnc
+clangAnc played twice 2026-10-17T23:10:21Z
+rig mjc_contact FAILED for clangA (2b)
+rig mjc_chain FAILED for clangA (2b)
+rig mjc_tumble FAILED for clangA (2b)
+rig mjc_stack FAILED for clangA (2b)
+rig mjc_scene FAILED for clangA (2b)
+rig mjc_arm FAILED for clangA (2b)
+rig mjc_grip FAILED for clangA (2b)
+clangA played twice (2b) 2026-10-17T23:11:22Z
+rig mjc_contact FAILED for clangAnc (2b)
+rig mjc_chain FAILED for clangAnc (2b)
+rig mjc_tumble FAILED for clangAnc (2b)
+rig mjc_stack FAILED for clangAnc (2b)
+rig mjc_scene FAILED for clangAnc (2b)
+rig mjc_arm FAILED for clangAnc (2b)
+rig mjc_grip FAILED for clangAnc (2b)
+clangAnc played twice (2b) 2026-10-17T23:11:24Z
+build clangA exit 0 2026-10-17T23:12:55Z
+build clangAnc exit 0 2026-10-17T23:13:44Z
+clangA played twice (2c) 2026-10-17T23:13:48Z
+clangAnc played twice (2c) 2026-10-17T23:13:53Z

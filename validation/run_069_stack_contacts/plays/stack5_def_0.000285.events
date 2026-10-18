@@ -1,0 +1,17 @@
+DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -94.492
+DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -148.740
+DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -112.859
+DEPTH step 1000 pair 3-4 contacts 4 mean_distance_um -75.888
+DEPTH step 1000 pair 4-5 contacts 4 mean_distance_um -38.144
+EVENT 1 step 5467 pair 2-3: 4 -> 6 contacts
+  before: (42400.0, 42400.0, -112.86) (-42400.0, 42400.0, -112.86) (-42400.0, -42400.0, -112.86) (42400.0, -42400.0, -112.86)
+  after: (42400.0, 42400.0, -112.86) (0.0, 42400.0, -112.86) (-42400.0, 42400.0, -112.86) (-42400.0, -42400.0, -112.86) (0.0, -42400.0, -112.86) (42400.0, -42400.0, -112.86)
+EVENT 2 step 5468 pair 2-3: 6 -> 4 contacts
+  before: (42400.0, 42400.0, -112.86) (0.0, 42400.0, -112.86) (-42400.0, 42400.0, -112.86) (-42400.0, -42400.0, -112.86) (0.0, -42400.0, -112.86) (42400.0, -42400.0, -112.86)
+  after: (42400.0, 42400.0, -112.85) (-42400.0, 42400.0, -112.85) (-42400.0, -42400.0, -112.85) (42400.0, -42400.0, -112.85)
+DEPTH step 7017 pair 0-1 contacts 4 mean_distance_um -94.493
+DEPTH step 7017 pair 1-2 contacts 4 mean_distance_um -148.740
+DEPTH step 7017 pair 2-3 contacts 4 mean_distance_um -112.861
+DEPTH step 7017 pair 3-4 contacts 4 mean_distance_um -75.890
+DEPTH step 7017 pair 4-5 contacts 4 mean_distance_um -38.146
+CHANGES after step 30: 2

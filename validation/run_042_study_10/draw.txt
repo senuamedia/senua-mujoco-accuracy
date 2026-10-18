@@ -1,0 +1,85 @@
+dt_coarse 0.00114
+dt_fine 0.000285
+cube_mass 1.861
+cube_half 0.0434
+cube_mu 0.39
+cube_v 1.01
+s1_mass 0.881
+s1_half 0.0392
+s1_h0 0.096
+s1_vx 3.24
+s1_vxchain 1.47
+s1_mu 0.371
+s1_vslide 3.67
+s1_muhold 0.421
+  (grip_mass drawn again: 0.200)
+grip_mass 0.202
+grip_half 0.0312
+grip_mu 0.772
+  (grip_squeeze drawn again: 2.64)
+  (grip_squeeze drawn again: 2.82)
+  (grip_squeeze drawn again: 3.17)
+  (grip_squeeze drawn again: 2.9)
+  (grip_squeeze drawn again: 2.65)
+  (grip_squeeze drawn again: 3.14)
+  (grip_squeeze drawn again: 2.98)
+  (grip_squeeze drawn again: 2.94)
+  (grip_squeeze drawn again: 2.61)
+  (grip_squeeze drawn again: 2.59)
+  (grip_squeeze drawn again: 2.93)
+  (grip_squeeze drawn again: 2.76)
+  (grip_squeeze drawn again: 2.67)
+  (grip_squeeze drawn again: 2.58)
+  (grip_squeeze drawn again: 2.94)
+  (grip_squeeze drawn again: 2.67)
+  (grip_squeeze drawn again: 2.72)
+  (grip_squeeze drawn again: 2.73)
+  (grip_squeeze drawn again: 3.06)
+  (grip_squeeze drawn again: 2.64)
+  (grip_squeeze drawn again: 3.19)
+  (grip_squeeze drawn again: 2.72)
+  (grip_squeeze drawn again: 2.79)
+  (grip_squeeze drawn again: 2.98)
+  (grip_squeeze drawn again: 3.12)
+grip_squeeze 2.48
+grip_offset 0.0093
+stack_mass 0.442
+stack_half 0.0424
+stack_mu 0.524
+stack_shift 0.017
+stack_v 1.16
+len1 0.271
+len2 0.275
+mass1 1.113
+mass2 0.524
+  (rb drawn again: 0.0250)
+rb 0.0264
+mb 0.176
+arm_mu 0.717
+contact1_q1 0.604
+contact1_q2 1.158
+contact2_q1 1.149
+contact2_q2 -0.545
+  (rest_h0 drawn again: 0.00050)
+rest_h0 0.00059
+drop_h0 0.0121
+held1_q1 0.245
+held1_q2 0.831
+held2_q1 0.223
+held2_q2 0.993
+limit1_lo -2.026
+limit2_lo -2.003
+joint_friction 5.96
+fold 2.463
+  (moments drawn again: 0.007303 0.005802 0.005739)
+  (moments drawn again: 0.009276 0.004213 0.009984)
+  (moments drawn again: 0.005957 0.008149 0.008339)
+  (moments drawn again: 0.009392 0.011524 0.010302)
+  (moments drawn again: 0.005982 0.009829 0.006619)
+i1 0.007011
+i2 0.005134
+i3 0.007883
+  (spin drawn again: 2.19 -1.85 -3.33)
+w1 -2.38
+w2 0.92
+w3 -1.75

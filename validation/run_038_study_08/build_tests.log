@@ -1,0 +1,1354 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CAN_BUILD_AVX
+-- Performing Test CAN_BUILD_AVX - Success
+-- Performing Test SUPPORTS_LLD
+-- Performing Test SUPPORTS_LLD - Failed
+-- Performing Test SUPPORTS_GOLD
+-- Performing Test SUPPORTS_GOLD - Success
+-- Performing Test SUPPORTS_GC_SECTIONS
+-- Performing Test SUPPORTS_GC_SECTIONS - Success
+-- mujoco::FindOrFetch: checking for targets in package `lodepng`
+-- mujoco::FindOrFetch: checking for targets in package `lodepng` - target `lodepng` not defined.
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- mujoco::FindOrFetch: Using FetchContent for lodepng: https://github.com/lvandeve/lodepng.git
+-- Populating lodepng
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/lodepng-subbuild
+[1/9] Creating directories for 'lodepng-populate'
+[1/9] Performing download step for 'lodepng-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/lodepng-src/.git/
+From https://github.com/lvandeve/lodepng
+ * branch            22561883dd63fd1850f18e1f6adac321e4f609b0 -> FETCH_HEAD
+HEAD is now at 2256188 Merge pull request #216 from polluks/master
+[2/9] No update_disconnected step for 'lodepng-populate'
+[3/9] No patch_disconnected step for 'lodepng-populate'
+[5/9] No configure step for 'lodepng-populate'
+[6/9] No build step for 'lodepng-populate'
+[7/9] No install step for 'lodepng-populate'
+[8/9] No test step for 'lodepng-populate'
+[9/9] Completed 'lodepng-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/third_party_deps/lodepng.cmake:23 (fetchpackage)
+  cmake/MujocoDependencies.cmake:86 (include)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `qhull`
+-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for qhull: https://github.com/qhull/qhull.git
+-- Populating qhull
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/qhull-subbuild
+[1/9] Creating directories for 'qhull-populate'
+[1/9] Performing download step for 'qhull-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/qhull-src/.git/
+From https://github.com/qhull/qhull
+ * branch            d1c2fc0caa5f644f3a0f220290d4a868c68ed4f6 -> FETCH_HEAD
+HEAD is now at d1c2fc0 poly2.c, poly2_r.c: fixed missing 'getid_(previousvertex)' for #143
+[2/9] No update_disconnected step for 'qhull-populate'
+[3/9] Performing patch_disconnected step for 'qhull-populate'
+~/work/mujoco-dd/mujoco-s8-src/cmake/qhull-support-emscripten.patch:10: trailing whitespace.
+add_library(${qhull_SHAREDR} SHARED 
+Checking patch CMakeLists.txt...
+Applied patch CMakeLists.txt cleanly.
+warning: 1 line adds whitespace errors.
+[5/9] No configure step for 'qhull-populate'
+[6/9] No build step for 'qhull-populate'
+[7/9] No install step for 'qhull-populate'
+[8/9] No test step for 'qhull-populate'
+[9/9] Completed 'qhull-populate'
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Check size of off_t
+-- Check size of off_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for ftello
+-- Looking for ftello - found
+-- Looking for PRIdMAX
+-- Looking for PRIdMAX - found
+-- 
+-- ========== qhull Build Information ==========
+-- Build Version:                             8.1-alpha3
+-- Install Prefix (CMAKE_INSTALL_PREFIX):     /usr/local
+-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+-- Build Type (CMAKE_BUILD_TYPE):             Release
+-- Build static libraries:                    ON
+-- Build shared library:                      OFF
+-- Use shared library for linking apps:       OFF
+-- Build tests:				   OFF
+-- To override these options, add -D{OPTION_NAME}=... to the cmake command
+--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+-- 
+-- To build and install qhull, enter "make" and "make install"
+-- To smoketest qhull, enter "ctest"
+-- 
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:108 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyxml2: https://github.com/leethomason/tinyxml2.git
+-- Populating tinyxml2
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/tinyxml2-subbuild
+[1/9] Creating directories for 'tinyxml2-populate'
+[1/9] Performing download step for 'tinyxml2-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/tinyxml2-src/.git/
+From https://github.com/leethomason/tinyxml2
+ * branch            e6caeae85799003f4ca74ff26ee16a789bc2af48 -> FETCH_HEAD
+HEAD is now at e6caeae Fix the build actions by increasing the ubuntu test version
+[2/9] No update_disconnected step for 'tinyxml2-populate'
+[3/9] No patch_disconnected step for 'tinyxml2-populate'
+[5/9] No configure step for 'tinyxml2-populate'
+[6/9] No build step for 'tinyxml2-populate'
+[7/9] No install step for 'tinyxml2-populate'
+[8/9] No test step for 'tinyxml2-populate'
+[9/9] Completed 'tinyxml2-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:133 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for tinyobjloader: https://github.com/tinyobjloader/tinyobjloader.git
+-- Populating tinyobjloader
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/tinyobjloader-subbuild
+[1/9] Creating directories for 'tinyobjloader-populate'
+[1/9] Performing download step for 'tinyobjloader-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/tinyobjloader-src/.git/
+From https://github.com/tinyobjloader/tinyobjloader
+ * branch            2945a967c5303b2c8c14174117c45f3302591150 -> FETCH_HEAD
+HEAD is now at 2945a96 apply python formatter.
+[2/9] No update_disconnected step for 'tinyobjloader-populate'
+[3/9] No patch_disconnected step for 'tinyobjloader-populate'
+[5/9] No configure step for 'tinyobjloader-populate'
+[6/9] No build step for 'tinyobjloader-populate'
+[7/9] No install step for 'tinyobjloader-populate'
+[8/9] No test step for 'tinyobjloader-populate'
+[9/9] Completed 'tinyobjloader-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:156 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `ccd`
+-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for ccd: https://github.com/danfis/libccd.git
+-- Populating ccd
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/ccd-subbuild
+[1/9] Creating directories for 'ccd-populate'
+[1/9] Performing download step for 'ccd-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/ccd-src/.git/
+From https://github.com/danfis/libccd
+ * branch            7931e764a19ef6b21b443376c699bbc9c6d4fba8 -> FETCH_HEAD
+HEAD is now at 7931e76 Fixed divison by zero in the computation of a direction vector in ccdMPRPenetration. (fixes #49)
+[2/9] No update_disconnected step for 'ccd-populate'
+[3/9] Performing patch_disconnected step for 'ccd-populate'
+Checking patch src/CMakeLists.txt...
+Applied patch src/CMakeLists.txt cleanly.
+[5/9] No configure step for 'ccd-populate'
+[6/9] No build step for 'ccd-populate'
+[7/9] No install step for 'ccd-populate'
+[8/9] No test step for 'ccd-populate'
+[9/9] Completed 'ccd-populate'
+CMake Deprecation Warning at ~/work/mujoco-dd/t38-s8/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at ~/work/mujoco-dd/t38-s8/_deps/ccd-src/CMakeLists.txt:9 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:194 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `miniz`
+-- mujoco::FindOrFetch: checking for targets in package `miniz` - target `miniz` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for miniz: https://github.com/richgel999/miniz.git
+-- Populating miniz
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/miniz-subbuild
+[1/9] Creating directories for 'miniz-populate'
+[1/9] Performing download step for 'miniz-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/miniz-src/.git/
+From https://github.com/richgel999/miniz
+ * branch            77d0dce8627735138c51770d1799a1ef48f2117d -> FETCH_HEAD
+HEAD is now at 77d0dce Increment version and update changelog
+[2/9] No update_disconnected step for 'miniz-populate'
+[3/9] No patch_disconnected step for 'miniz-populate'
+[5/9] No configure step for 'miniz-populate'
+[6/9] No build step for 'miniz-populate'
+[7/9] No install step for 'miniz-populate'
+[8/9] No test step for 'miniz-populate'
+[9/9] Completed 'miniz-populate'
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/FindOrFetch.cmake:221 (FindOrFetch)
+  cmake/MujocoDependencies.cmake:235 (fetchpackage)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `absl`
+-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for abseil-cpp: https://github.com/abseil/abseil-cpp.git
+-- Populating abseil-cpp
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-subbuild
+[1/9] Creating directories for 'abseil-cpp-populate'
+[1/9] Performing download step for 'abseil-cpp-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/.git/
+From https://github.com/abseil/abseil-cpp
+ * branch            2065f4ded0558c6f89fee67c8e5228feb4eb960e -> FETCH_HEAD
+HEAD is now at 2065f4d Apply LTS transformations for 20260817 LTS branch (#2129)
+[2/9] No update_disconnected step for 'abseil-cpp-populate'
+[3/9] Performing patch_disconnected step for 'abseil-cpp-populate'
+Checking patch absl/base/options.h...
+Checking patch absl/base/config.h...
+Hunk #1 succeeded at 515 (offset -28 lines).
+Applied patch absl/base/options.h cleanly.
+Applied patch absl/base/config.h cleanly.
+[5/9] No configure step for 'abseil-cpp-populate'
+[6/9] No build step for 'abseil-cpp-populate'
+[7/9] No install step for 'abseil-cpp-populate'
+[8/9] No test step for 'abseil-cpp-populate'
+[9/9] Completed 'abseil-cpp-populate'
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:263 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `GTest`
+-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for googletest: https://github.com/google/googletest.git
+-- Populating googletest
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/googletest-subbuild
+[1/9] Creating directories for 'googletest-populate'
+[1/9] Performing download step for 'googletest-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/googletest-src/.git/
+From https://github.com/google/googletest
+ * branch            063de7e9578f82b369302001269680b4b1553359 -> FETCH_HEAD
+HEAD is now at 063de7e Prepare for v1.18.0 (#5055)
+[2/9] No update_disconnected step for 'googletest-populate'
+[3/9] No patch_disconnected step for 'googletest-populate'
+[5/9] No configure step for 'googletest-populate'
+[6/9] No build step for 'googletest-populate'
+[7/9] No install step for 'googletest-populate'
+[8/9] No test step for 'googletest-populate'
+[9/9] Completed 'googletest-populate'
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:295 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- mujoco::FindOrFetch: checking for targets in package `benchmark`
+-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+-- mujoco::FindOrFetch: Using FetchContent for benchmark: https://github.com/google/benchmark.git
+-- Populating benchmark
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8/_deps/benchmark-subbuild
+[1/9] Creating directories for 'benchmark-populate'
+[1/9] Performing download step for 'benchmark-populate'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in ~/work/mujoco-dd/t38-s8/_deps/benchmark-src/.git/
+From https://github.com/google/benchmark
+ * branch            834a61fc65e8b7885fcf177f1230ae4b897118fa -> FETCH_HEAD
+HEAD is now at 834a61f Fix some clang-tidy warnings
+[2/9] No update_disconnected step for 'benchmark-populate'
+[3/9] No patch_disconnected step for 'benchmark-populate'
+[5/9] No configure step for 'benchmark-populate'
+[6/9] No build step for 'benchmark-populate'
+[7/9] No install step for 'benchmark-populate'
+[8/9] No test step for 'benchmark-populate'
+[9/9] Completed 'benchmark-populate'
+-- Failed to find LLVM FileCheck
+-- Google Benchmark version: v1.9.4, normalized to 1.9.4
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2 - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Performing Test STD_REGEX -- success
+-- Performing Test STEADY_CLOCK -- success
+-- Performing Test PTHREAD_AFFINITY -- success
+CMake Warning (dev) at cmake/FindOrFetch.cmake:170 (message):
+  Ignored CHECK_PASS without CHECK_START
+Call Stack (most recent call first):
+  cmake/MujocoDependencies.cmake:327 (findorfetch)
+  CMakeLists.txt:112 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (10.1s)
+-- Generating done (0.3s)
+-- Build files have been written to: ~/work/mujoco-dd/t38-s8
+[0/2] Re-checking globbed directories...
+[1/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o
+[2/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o
+[3/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_continuous.c.o
+[4/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o
+[5/462] Building CXX object CMakeFiles/mujoco.dir/plugin/stl_decoder/stl_decoder.cc.o
+[6/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_flex.c.o
+[7/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_driver.c.o
+[8/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_primitive.c.o
+[9/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_gjk.c.o
+[10/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_sdf.c.o
+[11/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_util.c.o
+[12/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_constraint.c.o
+[13/462] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_crossplatform.cc.o
+[14/462] Building CXX object CMakeFiles/mujoco.dir/plugin/gmsh_decoder/gmsh_decoder.cc.o
+[15/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative_fd.c.o
+[16/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_smooth.c.o
+[17/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative.c.o
+[18/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ipc.c.o
+[19/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_init.c.o
+[20/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_inverse.c.o
+[21/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_forward.c.o
+[22/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_memory.c.o
+[23/462] Building CXX object CMakeFiles/mujoco.dir/plugin/obj_decoder/obj_decoder.cc.o
+[24/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_name.c.o
+[25/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_island.c.o
+[26/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_passive.c.o
+[27/462] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o
+[28/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_metric.c.o
+[29/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o
+[30/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o
+[31/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o
+[32/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sleep.c.o
+[33/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_io.c.o
+[34/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o
+[35/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o
+[36/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o
+[37/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_errmem.c.o
+[38/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o
+[39/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o
+[40/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_spatial.c.o
+[41/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_init.c.o
+[42/462] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_thread.cc.o
+[43/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_interact.c.o
+[44/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_visualize.c.o
+[45/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_sparse.c.o
+[46/462] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_solve.c.o
+[47/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_cache.cc.o
+[48/462] Building C object CMakeFiles/mujoco.dir/src/user/user_init.c.o
+[49/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_api.cc.o
+[50/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_composite.cc.o
+[51/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_flexcomp.cc.o
+[52/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_mesh.cc.o
+[53/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_resource.cc.o
+[54/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_resolver.cc.o
+[55/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_threadpool.cc.o
+[56/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_vfs.cc.o
+[57/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_util.cc.o
+[58/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_api.cc.o
+[59/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_base.cc.o
+[60/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_global.cc.o
+[61/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_model.cc.o
+[62/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_numeric_format.cc.o
+[63/462] Building CXX object CMakeFiles/mujoco.dir/src/user/user_objects.cc.o
+[64/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml.cc.o
+[65/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_reader.cc.o
+[66/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_archive_provider.cc.o
+[67/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_writer.cc.o
+[68/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_urdf.cc.o
+[69/462] Building C object CMakeFiles/mujoco.dir/src/render/classic/glad/glad.c.o
+[70/462] Building CXX object CMakeFiles/mujoco.dir/src/render/classic/glad/loader.cc.o
+[71/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_decoder.cc.o
+[72/462] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl2.c.o
+[73/462] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_gl3.c.o
+[74/462] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_util.c.o
+[75/462] Building C object CMakeFiles/mujoco.dir/src/ui/ui_main.c.o
+[76/462] Building C object CMakeFiles/mujoco.dir/src/render/classic/render_context.c.o
+[77/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/mjz/mjz_encoder.cc.o
+[78/462] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_util.cc.o
+[79/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/global_r.c.o
+[80/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/stat_r.c.o
+[81/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom2_r.c.o
+[82/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly2_r.c.o
+[83/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/merge_r.c.o
+[84/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/libqhull_r.c.o
+[85/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly_r.c.o
+[86/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom_r.c.o
+[87/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/qset_r.c.o
+[88/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/mem_r.c.o
+[89/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/usermem_r.c.o
+[90/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_r.c.o
+[91/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/random_r.c.o
+[92/462] Building CXX object _deps/lodepng-build/CMakeFiles/lodepng.dir/lodepng.cpp.o
+[93/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/accessors_r.c.o
+[94/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/user_r.c.o
+[95/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_rbox_r.c.o
+[96/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/rboxlib_r.c.o
+[97/462] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o
+[98/462] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o
+[99/462] Building CXX object _deps/tinyxml2-build/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
+[100/462] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o
+[101/462] Linking CXX static library lib/libtinyxml2.a
+[102/462] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o
+[103/462] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o
+[104/462] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/io_r.c.o
+[105/462] Linking C static library lib/libccd.a
+[106/462] Linking C static library lib/libqhullstatic_r.a
+[107/462] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz.c.o
+In file included from ~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.c:27:
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[108/462] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tinfl.c.o
+In file included from ~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz_tinfl.c:27:
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[109/462] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_tdef.c.o
+In file included from ~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz_tdef.c:27:
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[110/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_hardening.dir/internal/hardening.cc.o
+[111/462] Linking CXX static library lib/libabsl_hardening.a
+[112/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base_cpu_detect.dir/internal/cpu_detect.cc.o
+[113/462] Building C object _deps/miniz-build/CMakeFiles/miniz.dir/miniz_zip.c.o
+In file included from ~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz_zip.c:27:
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:591:39: warning: ‘zError’ defined but not used [-Wunused-function]
+  591 |     static MZ_FORCEINLINE const char* zError(int err)
+      |                                       ^~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:583:36: warning: ‘adler32’ defined but not used [-Wunused-function]
+  583 |     static MZ_FORCEINLINE mz_ulong adler32(mz_ulong adler, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:578:36: warning: ‘crc32’ defined but not used [-Wunused-function]
+  578 |     static MZ_FORCEINLINE mz_ulong crc32(mz_ulong crc, const unsigned char *ptr, size_t buf_len)
+      |                                    ^~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:572:31: warning: ‘uncompress2’ defined but not used [-Wunused-function]
+  572 |     static MZ_FORCEINLINE int uncompress2(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong* pSource_len)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:567:31: warning: ‘uncompress’ defined but not used [-Wunused-function]
+  567 |     static MZ_FORCEINLINE int uncompress(unsigned char* pDest, mz_ulong* pDest_len, const unsigned char* pSource, mz_ulong source_len)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:562:31: warning: ‘inflateEnd’ defined but not used [-Wunused-function]
+  562 |     static MZ_FORCEINLINE int inflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:557:31: warning: ‘inflate’ defined but not used [-Wunused-function]
+  557 |     static MZ_FORCEINLINE int inflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:552:31: warning: ‘inflateReset’ defined but not used [-Wunused-function]
+  552 |     static MZ_FORCEINLINE int inflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:547:31: warning: ‘inflateInit2’ defined but not used [-Wunused-function]
+  547 |     static MZ_FORCEINLINE int inflateInit2(mz_streamp pStream, int window_bits)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:542:31: warning: ‘inflateInit’ defined but not used [-Wunused-function]
+  542 |     static MZ_FORCEINLINE int inflateInit(mz_streamp pStream)
+      |                               ^~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:534:36: warning: ‘compressBound’ defined but not used [-Wunused-function]
+  534 |     static MZ_FORCEINLINE mz_ulong compressBound(mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:530:31: warning: ‘compress2’ defined but not used [-Wunused-function]
+  530 |     static MZ_FORCEINLINE int compress2(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len, int level)
+      |                               ^~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:526:31: warning: ‘compress’ defined but not used [-Wunused-function]
+  526 |     static MZ_FORCEINLINE int compress(unsigned char *pDest, mz_ulong *pDest_len, const unsigned char *pSource, mz_ulong source_len)
+      |                               ^~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:522:36: warning: ‘deflateBound’ defined but not used [-Wunused-function]
+  522 |     static MZ_FORCEINLINE mz_ulong deflateBound(mz_streamp pStream, mz_ulong source_len)
+      |                                    ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:518:31: warning: ‘deflateEnd’ defined but not used [-Wunused-function]
+  518 |     static MZ_FORCEINLINE int deflateEnd(mz_streamp pStream)
+      |                               ^~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:514:31: warning: ‘deflate’ defined but not used [-Wunused-function]
+  514 |     static MZ_FORCEINLINE int deflate(mz_streamp pStream, int flush)
+      |                               ^~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:510:31: warning: ‘deflateReset’ defined but not used [-Wunused-function]
+  510 |     static MZ_FORCEINLINE int deflateReset(mz_streamp pStream)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:506:31: warning: ‘deflateInit2’ defined but not used [-Wunused-function]
+  506 |     static MZ_FORCEINLINE int deflateInit2(mz_streamp pStream, int level, int method, int window_bits, int mem_level, int strategy)
+      |                               ^~~~~~~~~~~~
+~/work/mujoco-dd/t38-s8/_deps/miniz-src/miniz.h:502:31: warning: ‘deflateInit’ defined but not used [-Wunused-function]
+  502 |     static MZ_FORCEINLINE int deflateInit(mz_streamp pStream, int level)
+      |                               ^~~~~~~~~~~
+[114/462] Linking C static library lib/libminiz.a
+[115/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+[116/462] Linking CXX static library lib/libabsl_log_severity.a
+[117/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+[118/462] Linking CXX static library lib/libabsl_spinlock_wait.a
+[119/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+[120/462] Linking CXX static library lib/libabsl_raw_logging_internal.a
+[121/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[122/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/casts.cc.o
+[123/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[124/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[125/462] Building CXX object _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o
+[126/462] Linking CXX static library lib/libtinyobjloader.a
+[127/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[128/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[129/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o
+[130/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/throw_delegate.cc.o
+[131/462] Linking CXX static library lib/libabsl_throw_delegate.a
+[132/462] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[133/462] Linking CXX static library lib/libabsl_base.a
+[134/462] Linking CXX static library lib/libabsl_base_cpu_detect.a
+[135/462] Linking CXX static library lib/libabsl_malloc_internal.a
+[136/462] Linking CXX static library lib/libabsl_tracing_internal.a
+[137/462] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+[138/462] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+[139/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+[140/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o
+[141/462] Linking CXX static library lib/libabsl_crc_internal.a
+[142/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o
+[143/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o
+[144/462] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+[145/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+[146/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+[147/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o
+[148/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+[149/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+[150/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+[151/462] Linking CXX static library lib/libabsl_debugging_internal.a
+[152/462] Linking CXX static library lib/libabsl_stacktrace.a
+[153/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[154/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
+[155/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
+[156/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
+[157/462] Linking CXX static library lib/libabsl_utf8_for_code_point.a
+[158/462] Linking CXX static library lib/libabsl_decode_rust_punycode.a
+[159/462] Linking CXX static library lib/libabsl_demangle_rust.a
+[160/462] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o
+[161/462] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[162/462] Linking CXX static library lib/libabsl_demangle_internal.a
+[163/462] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[164/462] Building CXX object _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+[165/462] Linking CXX static library lib/libabsl_int128.a
+[166/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+[167/462] Building CXX object _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+[168/462] Linking CXX static library lib/libabsl_exponential_biased.a
+[169/462] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[170/462] Linking CXX static library lib/libabsl_city.a
+[171/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[172/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[173/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o
+[174/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[175/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o
+[176/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[177/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[178/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[179/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[180/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[181/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[182/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[183/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[184/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[185/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[186/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[187/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[188/462] Linking CXX static library lib/libabsl_strings_internal.a
+[189/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[190/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[191/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[192/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[193/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[194/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[195/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[196/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[197/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[198/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[199/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+[200/462] Linking CXX static library lib/libabsl_cordz_functions.a
+[201/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[202/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+[203/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+[204/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+[205/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+[206/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[207/462] Linking CXX static library lib/libabsl_graphcycles_internal.a
+[208/462] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+[209/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+[210/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+[211/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+[212/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+[213/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+[214/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+[215/462] Linking CXX shared library lib/libmujoco.so.3.16.0
+[216/462] Creating library symlink lib/libmujoco.so
+[217/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+[218/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+[219/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+[220/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+[221/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+[222/462] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+[223/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[224/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[225/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[226/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+[227/462] Linking CXX static library lib/libabsl_civil_time.a
+[228/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+[229/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[230/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+[231/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+[232/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+[233/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+[234/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+[235/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+[236/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+[237/462] Building CXX object _deps/abseil-cpp-build/absl/types/CMakeFiles/absl_source_location.dir/source_location.cc.o
+[238/462] Linking CXX static library lib/libabsl_source_location.a
+[239/462] Linking CXX static library lib/libabsl_strings.a
+[240/462] Linking CXX static library lib/libabsl_symbolize.a
+[241/462] Linking CXX static library lib/libabsl_hash.a
+[242/462] Linking CXX static library lib/libabsl_str_format_internal.a
+[243/462] Linking CXX static library lib/libabsl_crc32c.a
+[244/462] Linking CXX static library lib/libabsl_crc_cord_state.a
+[245/462] Linking CXX static library lib/libabsl_cord_internal.a
+[246/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+[247/462] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+[248/462] Linking CXX static library lib/libabsl_time_zone.a
+[249/462] Linking CXX static library lib/libabsl_time.a
+[250/462] Linking CXX static library lib/libabsl_kernel_timeout_internal.a
+[251/462] Linking CXX static library lib/libabsl_synchronization.a
+[252/462] Linking CXX static library lib/libabsl_hashtablez_sampler.a
+[253/462] Linking CXX static library lib/libabsl_cordz_handle.a
+[254/462] Linking CXX static library lib/libabsl_cordz_info.a
+[255/462] Linking CXX static library lib/libabsl_cord.a
+[256/462] Linking CXX static library lib/libabsl_raw_hash_set.a
+[257/462] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[258/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[259/462] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[260/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[261/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[262/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[263/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[264/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[265/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[266/462] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[267/462] Linking CXX static library lib/libgtest.a
+[268/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[269/462] Linking CXX static library lib/libgmock.a
+[270/462] Linking CXX static library lib/libgtest_main.a
+[271/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[272/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[273/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[274/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[275/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[276/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[277/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[278/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[279/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[280/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[281/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[282/462] Linking CXX static library lib/libbenchmark.a
+[283/462] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[284/462] Linking CXX static library lib/libbenchmark_main.a
+[285/462] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/register.cc.o
+[286/462] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/cable.cc.o
+[287/462] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/register.cc.o
+[288/462] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/register.cc.o
+[289/462] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/pid.cc.o
+[290/462] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/elasticity.cc.o
+[291/462] Linking CXX shared library lib/libactuator.so
+[292/462] Linking CXX shared library lib/libelasticity.so
+[293/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/sdf.cc.o
+[294/462] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/touch_grid.cc.o
+[295/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bolt.cc.o
+[296/462] Linking CXX shared library lib/libsensor.so
+[297/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/gear.cc.o
+[298/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/register.cc.o
+[299/462] Building C object src/render/noop/CMakeFiles/render_noop.dir/render_noop.c.o
+[300/462] Linking C static library lib/librender_noop.a
+[301/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/bowl.cc.o
+[302/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/nut.cc.o
+[303/462] Building CXX object plugin/sdf/CMakeFiles/sdf_plugin.dir/torus.cc.o
+[304/462] Linking CXX shared library lib/libsdf_plugin.so
+[305/462] Building CXX object test/CMakeFiles/compare_spec.dir/compare_spec.cc.o
+[306/462] Linking CXX static library lib/libcompare_spec.a
+[307/462] Building CXX object test/CMakeFiles/compare_model.dir/compare_model.cc.o
+[308/462] Linking CXX static library lib/libcompare_model.a
+[309/462] Building CXX object test/CMakeFiles/fixture.dir/fixture.cc.o
+[310/462] Linking CXX static library lib/libfixture.a
+[311/462] Building CXX object test/CMakeFiles/fixture_test.dir/fixture_test.cc.o
+[312/462] Building CXX object test/CMakeFiles/compare_spec_test.dir/compare_spec_test.cc.o
+[313/462] Building CXX object test/CMakeFiles/mjspecmacro_test.dir/mjspecmacro_test.cc.o
+[314/462] Linking CXX executable bin/fixture_test
+[315/462] Building CXX object test/CMakeFiles/header_test.dir/header_test.cc.o
+[316/462] Linking CXX executable bin/mjspecmacro_test
+[317/462] Linking CXX executable bin/compare_spec_test
+[318/462] Linking CXX executable bin/header_test
+[319/462] Building CXX object test/CMakeFiles/pipeline_test.dir/pipeline_test.cc.o
+[320/462] Building CXX object test/benchmark/CMakeFiles/cone_benchmark_test.dir/cone_benchmark_test.cc.o
+[321/462] Building CXX object test/benchmark/CMakeFiles/ccd_benchmark_test.dir/ccd_benchmark_test.cc.o
+[322/462] Linking CXX executable bin/pipeline_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[323/462] Building CXX object test/benchmark/CMakeFiles/step_benchmark_test.dir/step_benchmark_test.cc.o
+[324/462] Linking CXX executable bin/cone_benchmark_test
+[325/462] Linking CXX executable bin/ccd_benchmark_test
+[326/462] Building CXX object test/benchmark/CMakeFiles/thread_performance_test.dir/thread_performance_test.cc.o
+[327/462] Linking CXX executable bin/step_benchmark_test
+[328/462] Building CXX object test/benchmark/CMakeFiles/spec_benchmark_test.dir/spec_benchmark_test.cc.o
+[329/462] Building CXX object test/benchmark/CMakeFiles/parse_benchmark_test.dir/parse_benchmark_test.cc.o
+[330/462] Linking CXX executable bin/thread_performance_test
+[331/462] Linking CXX executable bin/spec_benchmark_test
+[332/462] Building CXX object test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/engine_util_spatial_benchmark_test.cc.o
+[333/462] Linking CXX executable bin/parse_benchmark_test
+[334/462] Building CXX object test/benchmark/CMakeFiles/iszero_benchmark_test.dir/iszero_benchmark_test.cc.o
+[335/462] Building CXX object test/benchmark/CMakeFiles/factorI_benchmark_test.dir/factorI_benchmark_test.cc.o
+[336/462] Building CXX object test/benchmark/CMakeFiles/inertia_benchmark_test.dir/inertia_benchmark_test.cc.o
+[337/462] Linking CXX executable bin/engine_util_spatial_benchmark_test
+[338/462] Linking CXX executable bin/iszero_benchmark_test
+[339/462] Building CXX object test/benchmark/CMakeFiles/lu_benchmark_test.dir/lu_benchmark_test.cc.o
+[340/462] Linking CXX executable bin/factorI_benchmark_test
+[341/462] Linking CXX executable bin/inertia_benchmark_test
+[342/462] Building CXX object test/benchmark/CMakeFiles/solveLD_benchmark_test.dir/solveLD_benchmark_test.cc.o
+[343/462] Linking CXX executable bin/lu_benchmark_test
+[344/462] Linking CXX executable bin/solveLD_benchmark_test
+[345/462] Building CXX object test/benchmark/CMakeFiles/crb_benchmark_test.dir/crb_benchmark_test.cc.o
+[346/462] Building C object test/engine/CMakeFiles/boxbox_legacy.dir/boxbox_legacy.c.o
+[347/462] Linking C static library lib/libboxbox_legacy.a
+[348/462] Building CXX object test/benchmark/CMakeFiles/engine_util_sparse_benchmark_test.dir/engine_util_sparse_benchmark_test.cc.o
+[349/462] Building CXX object test/benchmark/CMakeFiles/chol_benchmark_test.dir/chol_benchmark_test.cc.o
+[350/462] Linking CXX executable bin/crb_benchmark_test
+[351/462] Linking CXX executable bin/engine_util_sparse_benchmark_test
+[352/462] Linking CXX executable bin/chol_benchmark_test
+[353/462] Building CXX object test/engine/CMakeFiles/engine_collision_box_test.dir/engine_collision_box_test.cc.o
+[354/462] Building CXX object test/engine/CMakeFiles/engine_collision_continuous_test.dir/engine_collision_continuous_test.cc.o
+[355/462] Building CXX object test/engine/CMakeFiles/engine_collision_box_fuzz_test.dir/engine_collision_box_fuzz_test.cc.o
+[356/462] Linking CXX executable bin/engine_collision_box_test
+[357/462] Building CXX object test/engine/CMakeFiles/engine_collision_convex_test.dir/engine_collision_convex_test.cc.o
+[358/462] Linking CXX executable bin/engine_collision_box_fuzz_test
+[359/462] Linking CXX executable bin/engine_collision_continuous_test
+[360/462] Linking CXX executable bin/engine_collision_convex_test
+[361/462] Building CXX object test/engine/CMakeFiles/engine_collision_driver_test.dir/engine_collision_driver_test.cc.o
+[362/462] Building CXX object test/engine/CMakeFiles/engine_collision_gjk_test.dir/engine_collision_gjk_test.cc.o
+[363/462] Building CXX object test/engine/CMakeFiles/engine_core_constraint_test.dir/engine_core_constraint_test.cc.o
+[364/462] Linking CXX executable bin/engine_collision_driver_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551586 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[365/462] Linking CXX executable bin/engine_collision_gjk_test
+[366/462] Building CXX object test/engine/CMakeFiles/engine_core_smooth_test.dir/engine_core_smooth_test.cc.o
+[367/462] Linking CXX executable bin/engine_core_constraint_test
+[368/462] Building CXX object test/engine/CMakeFiles/engine_core_util_test.dir/engine_core_util_test.cc.o
+[369/462] Linking CXX executable bin/engine_core_smooth_test
+[370/462] Linking CXX executable bin/engine_core_util_test
+[371/462] Building CXX object test/engine/CMakeFiles/engine_derivative_test.dir/engine_derivative_test.cc.o
+[372/462] Building CXX object test/engine/CMakeFiles/engine_inverse_test.dir/engine_inverse_test.cc.o
+[373/462] Linking CXX executable bin/engine_derivative_test
+[374/462] Linking CXX executable bin/engine_inverse_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[375/462] Building CXX object test/engine/CMakeFiles/engine_forward_test.dir/engine_forward_test.cc.o
+[376/462] Building CXX object test/engine/CMakeFiles/engine_island_test.dir/engine_island_test.cc.o
+[377/462] Building CXX object test/engine/CMakeFiles/engine_io_test.dir/engine_io_test.cc.o
+[378/462] Linking CXX executable bin/engine_forward_test
+[379/462] Building CXX object test/engine/CMakeFiles/engine_ipc_test.dir/engine_ipc_test.cc.o
+[380/462] Linking CXX executable bin/engine_island_test
+[381/462] Linking CXX executable bin/engine_ipc_test
+[382/462] Building CXX object test/engine/CMakeFiles/engine_passive_test.dir/engine_passive_test.cc.o
+[383/462] Building CXX object test/engine/CMakeFiles/engine_plugin_test.dir/engine_plugin_test.cc.o
+[384/462] Building CXX object test/engine/CMakeFiles/engine_print_test.dir/engine_print_test.cc.o
+[385/462] Linking CXX executable bin/engine_passive_test
+~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc: In member function ‘TestBody’:
+~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11: warning: ‘__builtin_memcpy’ writing 18446744073709551577 bytes into a region of size 16 [-Wstringop-overflow=]
+   53 |     memcpy(out, x.data(), x.size());
+      |           ^
+~/work/mujoco-dd/mujoco-s8-src/test/engine/engine_passive_test.cc:364:21: note: at offset 16 into destination object ‘xml_path’ of size 32
+  364 |   const std::string xml_path =
+      |                     ^
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:92:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35,
+    inlined from ‘TestBody’ at ~/work/mujoco-dd/mujoco-s8-src/test/engine/engine_passive_test.cc:365:68:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ writing 39 bytes into a region of size 0 overflows the destination [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+~/work/mujoco-dd/mujoco-s8-src/test/engine/engine_passive_test.cc: In member function ‘TestBody’:
+~/work/mujoco-dd/mujoco-s8-src/test/engine/engine_passive_test.cc:364:21: note: at offset -23 into destination object ‘xml_path’ of size 32
+  364 |   const std::string xml_path =
+      |                     ^
+[386/462] Linking CXX executable bin/engine_print_test
+[387/462] Linking CXX executable bin/engine_plugin_test
+[388/462] Linking CXX executable bin/engine_io_test
+[389/462] Building CXX object test/engine/CMakeFiles/engine_ray_test.dir/engine_ray_test.cc.o
+[390/462] Building CXX object test/engine/CMakeFiles/engine_setconst_test.dir/engine_setconst_test.cc.o
+[391/462] Building CXX object test/engine/CMakeFiles/engine_sleep_test.dir/engine_sleep_test.cc.o
+[392/462] Linking CXX executable bin/engine_ray_test
+[393/462] Linking CXX executable bin/engine_sleep_test
+[394/462] Linking CXX executable bin/engine_setconst_test
+[395/462] Building CXX object test/engine/CMakeFiles/engine_sensor_test.dir/engine_sensor_test.cc.o
+[396/462] Building CXX object test/engine/CMakeFiles/engine_sort_test.dir/engine_sort_test.cc.o
+[397/462] Building CXX object test/engine/CMakeFiles/engine_solver_test.dir/engine_solver_test.cc.o
+[398/462] Linking CXX executable bin/engine_sensor_test
+[399/462] Linking CXX executable bin/engine_sort_test
+[400/462] Building CXX object test/engine/CMakeFiles/engine_support_test.dir/engine_support_test.cc.o
+[401/462] Linking CXX executable bin/engine_solver_test
+[402/462] Linking CXX executable bin/engine_support_test
+[403/462] Building CXX object test/engine/CMakeFiles/engine_util_errmem_test.dir/engine_util_errmem_test.cc.o
+[404/462] Building CXX object test/engine/CMakeFiles/engine_thread_test.dir/engine_thread_test.cc.o
+[405/462] Building CXX object test/engine/CMakeFiles/engine_util_blas_test.dir/engine_util_blas_test.cc.o
+[406/462] Linking CXX executable bin/engine_util_errmem_test
+[407/462] Linking CXX executable bin/engine_thread_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetModelPath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:187:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551591 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[408/462] Linking CXX executable bin/engine_util_blas_test
+[409/462] Building CXX object test/engine/CMakeFiles/engine_util_solve_test.dir/engine_util_solve_test.cc.o
+[410/462] Building CXX object test/engine/CMakeFiles/engine_util_misc_test.dir/engine_util_misc_test.cc.o
+[411/462] Linking CXX executable bin/engine_util_solve_test
+[412/462] Building CXX object test/engine/CMakeFiles/engine_util_spatial_test.dir/engine_util_spatial_test.cc.o
+[413/462] Building CXX object test/engine/CMakeFiles/engine_util_sparse_test.dir/engine_util_sparse_test.cc.o
+[414/462] Linking CXX executable bin/engine_util_misc_test
+[415/462] Linking CXX executable bin/engine_util_spatial_test
+[416/462] Building CXX object test/engine/CMakeFiles/engine_vis_visualize_test.dir/engine_vis_visualize_test.cc.o
+[417/462] Linking CXX executable bin/engine_util_sparse_test
+[418/462] Linking CXX executable bin/engine_vis_visualize_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[419/462] Building CXX object test/user/CMakeFiles/user_objects_test.dir/user_objects_test.cc.o
+[420/462] Building CXX object test/user/CMakeFiles/user_recompile_test.dir/user_recompile_test.cc.o
+[421/462] Building CXX object test/user/CMakeFiles/user_model_test.dir/user_model_test.cc.o
+[422/462] Linking CXX executable bin/user_objects_test
+[423/462] Building CXX object test/user/CMakeFiles/user_api_test.dir/user_api_test.cc.o
+[424/462] Building CXX object test/user/CMakeFiles/user_flex_test.dir/user_flex_test.cc.o
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_flex_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserFlexTest_LoadMSHEndMarkerAtEOF_Success_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_flex_test.cc:1123:8: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1123 |   fread(msh.data(), 1, msh_size, f);
+      |   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_flex_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserFlexTest_FlexcompMeshLoadsFromVFS_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_flex_test.cc:1266:8: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1266 |   fread(stl_data.data(), 1, stl_size, f);
+      |   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[425/462] Linking CXX executable bin/user_flex_test
+[426/462] Linking CXX executable bin/user_recompile_test
+[427/462] Linking CXX executable bin/user_model_test
+In function ‘copy’,
+    inlined from ‘__ct ’ at /usr/include/c++/13/bits/basic_string.h:683:23,
+    inlined from ‘operator+’ at /usr/include/c++/13/bits/basic_string.h:3690:43,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/mujoco-s8-src/test/user/user_model_test.cc:2856:20,
+    inlined from ‘TestBody’ at ~/work/mujoco-dd/mujoco-s8-src/test/user/user_model_test.cc:2871:42:
+/usr/include/c++/13/bits/char_traits.h:435:56: warning: ‘__builtin_memcpy’ writing 256 bytes into a region of size 16 overflows the destination [-Wstringop-overflow=]
+  435 |         return static_cast<char_type*>(__builtin_memcpy(__s1, __s2, __n));
+      |                                                        ^
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_model_test.cc: In member function ‘TestBody’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_model_test.cc:2871:46: note: at offset 16 into destination object ‘<anonymous>’ of size 32
+ 2871 |   MjModelPtr fresh2 = LoadModelFromString(xml("2"));
+      |                                              ^
+[428/462] Building CXX object test/user/CMakeFiles/user_composite_test.dir/user_composite_test.cc.o
+[429/462] Building CXX object test/user/CMakeFiles/user_mesh_test.dir/user_mesh_test.cc.o
+[430/462] Building CXX object test/user/CMakeFiles/user_resource_test.dir/user_resource_test.cc.o
+[431/462] Linking CXX executable bin/user_composite_test
+[432/462] Linking CXX executable bin/user_api_test
+[433/462] Linking CXX executable bin/user_resource_test
+~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc: In member function ‘TestBody’:
+~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11: warning: ‘__builtin_memcpy’ writing 18446744073709551571 bytes into a region of size 16 [-Wstringop-overflow=]
+   53 |     memcpy(out, x.data(), x.size());
+      |           ^
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_resource_test.cc:416:21: note: at offset 16 into destination object ‘xml_path’ of size 32
+  416 |   const std::string xml_path = GetTestDataFilePath(file);
+      |                     ^
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:92:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35,
+    inlined from ‘TestBody’ at ~/work/mujoco-dd/mujoco-s8-src/test/user/user_resource_test.cc:416:56:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ writing 45 bytes into a region of size 0 overflows the destination [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_resource_test.cc: In member function ‘TestBody’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_resource_test.cc:416:21: note: at offset -29 into destination object ‘xml_path’ of size 32
+  416 |   const std::string xml_path = GetTestDataFilePath(file);
+      |                     ^
+[434/462] Linking CXX executable bin/user_mesh_test
+[435/462] Building CXX object test/user/CMakeFiles/user_vfs_test.dir/user_vfs_test.cc.o
+[436/462] Building CXX object test/user/CMakeFiles/user_util_test.dir/user_util_test.cc.o
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorFloat_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:157:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  157 |   std::vector<float> v = StringToVector<float>(" 1.2 3.2     5.3 6 ");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorEmpty_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:163:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  163 |   std::vector<float> v = StringToVector<float>("   ");
+      |                                                ^~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorError_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:169:48: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  169 |   std::vector<float> v = StringToVector<float>("2.1 3ABCD. /123/122/113");
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInt_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:175:44: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  175 |   std::vector<int> v = StringToVector<int>("  -1 3  5 6  ");
+      |                                            ^~~~~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorString_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:181:40: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  181 |   auto v = StringToVector<std::string>(" abc  def ");
+      |                                        ^~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorInvalidNumber_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:186:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  186 |   auto v = StringToVector<double>("1 0.1.2.3");
+      |                                   ^~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorNan_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:194:35: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  194 |   auto v = StringToVector<double>("1 2 nan 3.21");
+      |                                   ^~~~~~~~~~~~~~
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc: In member function ‘virtual void mujoco::{anonymous}::UserUtilTest_StringToVectorRange_Test::TestBody()’:
+~/work/mujoco-dd/mujoco-s8-src/test/user/user_util_test.cc:201:42: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  201 |   auto v = StringToVector<unsigned char>("-10");
+      |                                          ^~~~~
+[437/462] Building CXX object test/xml/CMakeFiles/xml_api_test.dir/xml_api_test.cc.o
+[438/462] Linking CXX executable bin/user_vfs_test
+[439/462] Linking CXX executable bin/xml_api_test
+[440/462] Linking CXX executable bin/user_util_test
+[441/462] Building CXX object test/xml/CMakeFiles/xml_urdf_test.dir/xml_urdf_test.cc.o
+[442/462] Linking CXX executable bin/xml_urdf_test
+[443/462] Building CXX object test/xml/CMakeFiles/schema_defaults_test.dir/schema_defaults_test.cc.o
+[444/462] Building CXX object test/xml/CMakeFiles/xml_utils_test.dir/xml_utils_test.cc.o
+[445/462] Linking CXX executable bin/schema_defaults_test
+[446/462] Linking CXX executable bin/xml_utils_test
+[447/462] Building CXX object test/xml/CMakeFiles/xml_write_read_test.dir/xml_write_read_test.cc.o
+[448/462] Building CXX object test/xml/CMakeFiles/xml_native_reader_test.dir/xml_native_reader_test.cc.o
+[449/462] Building CXX object test/xml/CMakeFiles/xml_native_writer_test.dir/xml_native_writer_test.cc.o
+[450/462] Building CXX object test/xml/mjz/CMakeFiles/mjz_archive_provider_test.dir/mjz_archive_provider_test.cc.o
+[451/462] Linking CXX executable bin/mjz_archive_provider_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551598 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[452/462] Building CXX object test/xml/mjz/CMakeFiles/mjz_decoder_test.dir/mjz_decoder_test.cc.o
+[453/462] Linking CXX executable bin/mjz_decoder_test
+[454/462] Linking CXX executable bin/xml_native_reader_test
+[455/462] Linking CXX executable bin/xml_write_read_test
+[456/462] Building CXX object test/xml/mjz/CMakeFiles/mjz_encoder_test.dir/mjz_encoder_test.cc.o
+[457/462] Linking CXX executable bin/xml_native_writer_test
+In function ‘memcpy’,
+    inlined from ‘Append’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:53:11,
+    inlined from ‘operator()’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:91:48,
+    inlined from ‘StringResizeAndOverwriteFallback’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:140:55,
+    inlined from ‘StringResizeAndOverwriteImpl’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:166:55,
+    inlined from ‘StringResizeAndOverwrite’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/resize_and_overwrite.h:187:49,
+    inlined from ‘StrCat’ at ~/work/mujoco-dd/t38-s8/_deps/abseil-cpp-src/absl/strings/str_cat.cc:88:33,
+    inlined from ‘GetTestDataFilePath.constprop’ at ~/work/mujoco-dd/mujoco-s8-src/test/fixture.cc:179:35:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘__builtin_memcpy’ specified bound 18446744073709551582 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |                                 ^
+[458/462] Building CXX object test/plugin/elasticity/CMakeFiles/elasticity_test.dir/elasticity_test.cc.o
+[459/462] Building CXX object test/plugin/actuator/CMakeFiles/pid_test.dir/pid_test.cc.o
+[460/462] Linking CXX executable bin/elasticity_test
+[461/462] Linking CXX executable bin/pid_test
+[462/462] Linking CXX executable bin/mjz_encoder_test

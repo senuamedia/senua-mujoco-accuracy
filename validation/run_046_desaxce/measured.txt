@@ -1,0 +1,251 @@
+rel lift16_rec_fric_0.01 highest_um 10570 slid_um 177979 steps_without_contact 22 of 100 most_iterations 5 warnings 0
+rel lift16_rec_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 3 warnings 0
+rel lift16_rec_fric_0.0025 highest_um 1176 slid_um 182334 steps_without_contact 74 of 400 most_iterations 4 warnings 0
+rel lift16_rec_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 3 warnings 0
+rel lift16_rec_fric_0.000625 highest_um 148 slid_um 183451 steps_without_contact 288 of 1600 most_iterations 4 warnings 0
+rel lift16_rec_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 3 warnings 0
+rel lift10_rec_0.00114 highest_um 97 slid_um 133036 steps_without_contact 128 of 1053 most_iterations 4 warnings 0
+rel free_rec_0_0.00114 slid_um 133042 highest_um 144 side_um 0 most_tilt_urad 3216 steps_under_4_contacts 68 most_iterations 7 warnings 0
+rel free_rec_11.25_0.00114 slid_um 135526 highest_um 165 side_um 62 most_tilt_urad 4073 steps_under_4_contacts 157 most_iterations 9 warnings 0
+rel free_rec_22.5_0.00114 slid_um 136043 highest_um 153 side_um -231 most_tilt_urad 3981 steps_under_4_contacts 170 most_iterations 9 warnings 0
+rel free_rec_33.75_0.00114 slid_um 135039 highest_um 210 side_um -74 most_tilt_urad 4403 steps_under_4_contacts 143 most_iterations 9 warnings 0
+rel free_rec_45_0.00114 slid_um 133266 highest_um 767 side_um 0 most_tilt_urad 9188 steps_under_4_contacts 110 most_iterations 8 warnings 0
+rel lift10_rec_0.000285 highest_um 32 slid_um 133471 steps_without_contact 505 of 4211 most_iterations 4 warnings 0
+rel free_rec_0_0.000285 slid_um 133491 highest_um 50 side_um 0 most_tilt_urad 1523 steps_under_4_contacts 430 most_iterations 6 warnings 0
+rel free_rec_11.25_0.000285 slid_um 135636 highest_um 48 side_um -27 most_tilt_urad 1429 steps_under_4_contacts 697 most_iterations 10 warnings 0
+rel free_rec_22.5_0.000285 slid_um 135734 highest_um 48 side_um 83 most_tilt_urad 1249 steps_under_4_contacts 633 most_iterations 9 warnings 0
+rel free_rec_33.75_0.000285 slid_um 135143 highest_um 37 side_um 1026 most_tilt_urad 1394 steps_under_4_contacts 707 most_iterations 10 warnings 0
+rel free_rec_45_0.000285 slid_um 133605 highest_um 352 side_um 0 most_tilt_urad 6487 steps_under_4_contacts 466 most_iterations 5 warnings 0
+rel lift16_ell_fric_0.01 highest_um 10570 slid_um 177979 steps_without_contact 22 of 100 most_iterations 3 warnings 0
+rel lift16_ell_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 1 warnings 0
+rel lift16_ell_fric_0.0025 highest_um 1176 slid_um 182342 steps_without_contact 74 of 400 most_iterations 2 warnings 0
+rel lift16_ell_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 1 warnings 0
+rel lift16_ell_fric_0.000625 highest_um 148 slid_um 183460 steps_without_contact 288 of 1600 most_iterations 2 warnings 0
+rel lift16_ell_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 1 warnings 0
+rel lift10_ell_0.00114 highest_um 97 slid_um 133045 steps_without_contact 128 of 1053 most_iterations 2 warnings 0
+rel free_ell_0_0.00114 slid_um 133047 highest_um 144 side_um 0 most_tilt_urad 3216 steps_under_4_contacts 68 most_iterations 4 warnings 0
+rel free_ell_11.25_0.00114 slid_um 135535 highest_um 165 side_um 62 most_tilt_urad 4072 steps_under_4_contacts 157 most_iterations 5 warnings 0
+rel free_ell_22.5_0.00114 slid_um 136051 highest_um 153 side_um -231 most_tilt_urad 3981 steps_under_4_contacts 170 most_iterations 7 warnings 0
+rel free_ell_33.75_0.00114 slid_um 135050 highest_um 210 side_um -75 most_tilt_urad 4403 steps_under_4_contacts 143 most_iterations 7 warnings 0
+rel free_ell_45_0.00114 slid_um 133279 highest_um 767 side_um 0 most_tilt_urad 9188 steps_under_4_contacts 110 most_iterations 5 warnings 0
+rel lift10_ell_0.000285 highest_um 32 slid_um 133480 steps_without_contact 505 of 4211 most_iterations 1 warnings 0
+rel free_ell_0_0.000285 slid_um 133500 highest_um 50 side_um 0 most_tilt_urad 1523 steps_under_4_contacts 430 most_iterations 3 warnings 0
+rel free_ell_11.25_0.000285 slid_um 135646 highest_um 48 side_um -27 most_tilt_urad 1429 steps_under_4_contacts 697 most_iterations 5 warnings 0
+rel free_ell_22.5_0.000285 slid_um 135741 highest_um 48 side_um 82 most_tilt_urad 1249 steps_under_4_contacts 633 most_iterations 7 warnings 0
+rel free_ell_33.75_0.000285 slid_um 135516 highest_um 30 side_um 532 most_tilt_urad 1031 steps_under_4_contacts 616 most_iterations 6 warnings 0
+rel free_ell_45_0.000285 slid_um 133620 highest_um 352 side_um 0 most_tilt_urad 6487 steps_under_4_contacts 467 most_iterations 3 warnings 0
+rel hold_0_0.5 creep_ums 0
+rel hold_0_0.75 creep_ums 0
+rel hold_0_0.95 creep_ums 0
+rel hold_22.5_0.5 creep_ums 0
+rel hold_22.5_0.75 creep_ums 0
+rel hold_22.5_0.95 creep_ums 0
+rel hold_45_0.5 creep_ums 0
+rel hold_45_0.75 creep_ums 0
+rel hold_45_0.95 creep_ums 0
+rel grip_box_off0.0093 creep_ums 1
+rel grip_box_off0 creep_ums 1
+rel grip_mesh_off0.0093 creep_ums 0
+rel grip_mesh_off0 creep_ums 0
+rel solver most_iterations 10 at_iteration_limit 0 warnings 0
+off lift16_rec_fric_0.01 highest_um 10570 slid_um 177979 steps_without_contact 22 of 100 most_iterations 5 warnings 0
+off lift16_rec_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 3 warnings 0
+off lift16_rec_fric_0.0025 highest_um 1176 slid_um 182334 steps_without_contact 74 of 400 most_iterations 4 warnings 0
+off lift16_rec_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 3 warnings 0
+off lift16_rec_fric_0.000625 highest_um 148 slid_um 183451 steps_without_contact 288 of 1600 most_iterations 4 warnings 0
+off lift16_rec_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 3 warnings 0
+off lift10_rec_0.00114 highest_um 97 slid_um 133036 steps_without_contact 128 of 1053 most_iterations 4 warnings 0
+off free_rec_0_0.00114 slid_um 133042 highest_um 144 side_um 0 most_tilt_urad 3216 steps_under_4_contacts 68 most_iterations 7 warnings 0
+off free_rec_11.25_0.00114 slid_um 135526 highest_um 165 side_um 62 most_tilt_urad 4073 steps_under_4_contacts 157 most_iterations 9 warnings 0
+off free_rec_22.5_0.00114 slid_um 136043 highest_um 153 side_um -231 most_tilt_urad 3981 steps_under_4_contacts 170 most_iterations 9 warnings 0
+off free_rec_33.75_0.00114 slid_um 135039 highest_um 210 side_um -74 most_tilt_urad 4403 steps_under_4_contacts 143 most_iterations 9 warnings 0
+off free_rec_45_0.00114 slid_um 133266 highest_um 767 side_um 0 most_tilt_urad 9188 steps_under_4_contacts 110 most_iterations 8 warnings 0
+off lift10_rec_0.000285 highest_um 32 slid_um 133471 steps_without_contact 505 of 4211 most_iterations 4 warnings 0
+off free_rec_0_0.000285 slid_um 133491 highest_um 50 side_um 0 most_tilt_urad 1523 steps_under_4_contacts 430 most_iterations 6 warnings 0
+off free_rec_11.25_0.000285 slid_um 135636 highest_um 48 side_um -27 most_tilt_urad 1429 steps_under_4_contacts 697 most_iterations 10 warnings 0
+off free_rec_22.5_0.000285 slid_um 135734 highest_um 48 side_um 83 most_tilt_urad 1249 steps_under_4_contacts 633 most_iterations 9 warnings 0
+off free_rec_33.75_0.000285 slid_um 135143 highest_um 37 side_um 1026 most_tilt_urad 1394 steps_under_4_contacts 707 most_iterations 10 warnings 0
+off free_rec_45_0.000285 slid_um 133605 highest_um 352 side_um 0 most_tilt_urad 6487 steps_under_4_contacts 466 most_iterations 5 warnings 0
+off lift16_ell_fric_0.01 highest_um 10570 slid_um 177979 steps_without_contact 22 of 100 most_iterations 3 warnings 0
+off lift16_ell_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 1 warnings 0
+off lift16_ell_fric_0.0025 highest_um 1176 slid_um 182342 steps_without_contact 74 of 400 most_iterations 2 warnings 0
+off lift16_ell_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 1 warnings 0
+off lift16_ell_fric_0.000625 highest_um 148 slid_um 183460 steps_without_contact 288 of 1600 most_iterations 2 warnings 0
+off lift16_ell_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 1 warnings 0
+off lift10_ell_0.00114 highest_um 97 slid_um 133045 steps_without_contact 128 of 1053 most_iterations 2 warnings 0
+off free_ell_0_0.00114 slid_um 133047 highest_um 144 side_um 0 most_tilt_urad 3216 steps_under_4_contacts 68 most_iterations 4 warnings 0
+off free_ell_11.25_0.00114 slid_um 135535 highest_um 165 side_um 62 most_tilt_urad 4072 steps_under_4_contacts 157 most_iterations 5 warnings 0
+off free_ell_22.5_0.00114 slid_um 136051 highest_um 153 side_um -231 most_tilt_urad 3981 steps_under_4_contacts 170 most_iterations 7 warnings 0
+off free_ell_33.75_0.00114 slid_um 135050 highest_um 210 side_um -75 most_tilt_urad 4403 steps_under_4_contacts 143 most_iterations 7 warnings 0
+off free_ell_45_0.00114 slid_um 133279 highest_um 767 side_um 0 most_tilt_urad 9188 steps_under_4_contacts 110 most_iterations 5 warnings 0
+off lift10_ell_0.000285 highest_um 32 slid_um 133480 steps_without_contact 505 of 4211 most_iterations 1 warnings 0
+off free_ell_0_0.000285 slid_um 133500 highest_um 50 side_um 0 most_tilt_urad 1523 steps_under_4_contacts 430 most_iterations 3 warnings 0
+off free_ell_11.25_0.000285 slid_um 135646 highest_um 48 side_um -27 most_tilt_urad 1429 steps_under_4_contacts 697 most_iterations 5 warnings 0
+off free_ell_22.5_0.000285 slid_um 135741 highest_um 48 side_um 82 most_tilt_urad 1249 steps_under_4_contacts 633 most_iterations 7 warnings 0
+off free_ell_33.75_0.000285 slid_um 135516 highest_um 30 side_um 532 most_tilt_urad 1031 steps_under_4_contacts 616 most_iterations 6 warnings 0
+off free_ell_45_0.000285 slid_um 133620 highest_um 352 side_um 0 most_tilt_urad 6487 steps_under_4_contacts 467 most_iterations 3 warnings 0
+off hold_0_0.5 creep_ums 0
+off hold_0_0.75 creep_ums 0
+off hold_0_0.95 creep_ums 0
+off hold_22.5_0.5 creep_ums 0
+off hold_22.5_0.75 creep_ums 0
+off hold_22.5_0.95 creep_ums 0
+off hold_45_0.5 creep_ums 0
+off hold_45_0.75 creep_ums 0
+off hold_45_0.95 creep_ums 0
+off grip_box_off0.0093 creep_ums 1
+off grip_box_off0 creep_ums 1
+off grip_mesh_off0.0093 creep_ums 0
+off grip_mesh_off0 creep_ums 0
+off solver most_iterations 10 at_iteration_limit 0 warnings 0
+on1 lift16_rec_fric_0.01 highest_um 360 slid_um 177803 steps_without_contact 9 of 100 most_iterations 5 warnings 0
+on1 lift16_rec_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 3 warnings 0
+on1 lift16_rec_fric_0.0025 highest_um 41 slid_um 182296 steps_without_contact 24 of 400 most_iterations 6 warnings 0
+on1 lift16_rec_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 3 warnings 0
+on1 lift16_rec_fric_0.000625 highest_um 8 slid_um 183457 steps_without_contact 91 of 1600 most_iterations 6 warnings 0
+on1 lift16_rec_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 3 warnings 0
+on1 lift10_rec_0.00114 highest_um 21 slid_um 133024 steps_without_contact 35 of 1053 most_iterations 6 warnings 0
+on1 free_rec_0_0.00114 slid_um 133046 highest_um 13 side_um 0 most_tilt_urad 1296 steps_under_4_contacts 39 most_iterations 7 warnings 0
+on1 free_rec_11.25_0.00114 slid_um 133058 highest_um 13 side_um -57 most_tilt_urad 1252 steps_under_4_contacts 86 most_iterations 10 warnings 0
+on1 free_rec_22.5_0.00114 slid_um 133069 highest_um 17 side_um 38 most_tilt_urad 1482 steps_under_4_contacts 147 most_iterations 10 warnings 0
+on1 free_rec_33.75_0.00114 slid_um 133045 highest_um 14 side_um 132 most_tilt_urad 1478 steps_under_4_contacts 120 most_iterations 10 warnings 0
+on1 free_rec_45_0.00114 slid_um 133025 highest_um 17 side_um 0 most_tilt_urad 1330 steps_under_4_contacts 119 most_iterations 7 warnings 0
+on1 lift10_rec_0.000285 highest_um 2 slid_um 133470 steps_without_contact 137 of 4211 most_iterations 5 warnings 0
+on1 free_rec_0_0.000285 slid_um 133462 highest_um 2 side_um 0 most_tilt_urad 587 steps_under_4_contacts 148 most_iterations 7 warnings 0
+on1 free_rec_11.25_0.000285 slid_um 133507 highest_um 1 side_um -60 most_tilt_urad 561 steps_under_4_contacts 498 most_iterations 11 warnings 0
+on1 free_rec_22.5_0.000285 slid_um 133515 highest_um 2 side_um -47 most_tilt_urad 544 steps_under_4_contacts 554 most_iterations 11 warnings 0
+on1 free_rec_33.75_0.000285 slid_um 133497 highest_um 3 side_um -4 most_tilt_urad 840 steps_under_4_contacts 560 most_iterations 10 warnings 0
+on1 free_rec_45_0.000285 slid_um 133466 highest_um 2 side_um 0 most_tilt_urad 509 steps_under_4_contacts 625 most_iterations 7 warnings 0
+on1 lift16_ell_fric_0.01 highest_um 360 slid_um 177803 steps_without_contact 9 of 100 most_iterations 3 warnings 0
+on1 lift16_ell_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 1 warnings 0
+on1 lift16_ell_fric_0.0025 highest_um 41 slid_um 182306 steps_without_contact 24 of 400 most_iterations 4 warnings 0
+on1 lift16_ell_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 1 warnings 0
+on1 lift16_ell_fric_0.000625 highest_um 8 slid_um 183467 steps_without_contact 91 of 1600 most_iterations 4 warnings 0
+on1 lift16_ell_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 1 warnings 0
+on1 lift10_ell_0.00114 highest_um 21 slid_um 133033 steps_without_contact 35 of 1053 most_iterations 4 warnings 0
+on1 free_ell_0_0.00114 slid_um 133052 highest_um 13 side_um 0 most_tilt_urad 1296 steps_under_4_contacts 39 most_iterations 4 warnings 0
+on1 free_ell_11.25_0.00114 slid_um 133063 highest_um 13 side_um -78 most_tilt_urad 1252 steps_under_4_contacts 87 most_iterations 8 warnings 0
+on1 free_ell_22.5_0.00114 slid_um 133074 highest_um 17 side_um 37 most_tilt_urad 1482 steps_under_4_contacts 147 most_iterations 8 warnings 0
+on1 free_ell_33.75_0.00114 slid_um 133051 highest_um 14 side_um 132 most_tilt_urad 1478 steps_under_4_contacts 120 most_iterations 8 warnings 0
+on1 free_ell_45_0.00114 slid_um 133031 highest_um 17 side_um 0 most_tilt_urad 1330 steps_under_4_contacts 119 most_iterations 5 warnings 0
+on1 lift10_ell_0.000285 highest_um 2 slid_um 133479 steps_without_contact 137 of 4211 most_iterations 3 warnings 0
+on1 free_ell_0_0.000285 slid_um 133468 highest_um 2 side_um 0 most_tilt_urad 506 steps_under_4_contacts 148 most_iterations 4 warnings 0
+on1 free_ell_11.25_0.000285 slid_um 133507 highest_um 2 side_um 0 most_tilt_urad 442 steps_under_4_contacts 465 most_iterations 8 warnings 0
+on1 free_ell_22.5_0.000285 slid_um 133521 highest_um 2 side_um -47 most_tilt_urad 462 steps_under_4_contacts 554 most_iterations 9 warnings 0
+on1 free_ell_33.75_0.000285 slid_um 133504 highest_um 3 side_um -2 most_tilt_urad 840 steps_under_4_contacts 572 most_iterations 8 warnings 0
+on1 free_ell_45_0.000285 slid_um 133472 highest_um 2 side_um 0 most_tilt_urad 509 steps_under_4_contacts 625 most_iterations 5 warnings 0
+on1 hold_0_0.5 creep_ums 0
+on1 hold_0_0.75 creep_ums 0
+on1 hold_0_0.95 creep_ums 0
+on1 hold_22.5_0.5 creep_ums 0
+on1 hold_22.5_0.75 creep_ums 0
+on1 hold_22.5_0.95 creep_ums 0
+on1 hold_45_0.5 creep_ums 0
+on1 hold_45_0.75 creep_ums 0
+on1 hold_45_0.95 creep_ums 0
+on1 grip_box_off0.0093 creep_ums 1
+on1 grip_box_off0 creep_ums 1
+on1 grip_mesh_off0.0093 creep_ums 0
+on1 grip_mesh_off0 creep_ums 0
+on1 solver most_iterations 11 at_iteration_limit 0 warnings 0
+on2 lift16_rec_fric_0.01 highest_um 10 slid_um 177741 steps_without_contact 1 of 100 most_iterations 5 warnings 0
+on2 lift16_rec_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 3 warnings 0
+on2 lift16_rec_fric_0.0025 highest_um 8 slid_um 182323 steps_without_contact 2 of 400 most_iterations 6 warnings 0
+on2 lift16_rec_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 3 warnings 0
+on2 lift16_rec_fric_0.000625 highest_um 1 slid_um 183480 steps_without_contact 6 of 1600 most_iterations 6 warnings 0
+on2 lift16_rec_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 3 warnings 0
+on2 lift10_rec_0.00114 highest_um 0 slid_um 133048 steps_without_contact 2 of 1053 most_iterations 6 warnings 0
+on2 free_rec_0_0.00114 slid_um 133029 highest_um 0 side_um 0 most_tilt_urad 1260 steps_under_4_contacts 5 most_iterations 9 warnings 0
+on2 free_rec_11.25_0.00114 slid_um 133030 highest_um 0 side_um -7 most_tilt_urad 1083 steps_under_4_contacts 18 most_iterations 12 warnings 0
+on2 free_rec_22.5_0.00114 slid_um 133028 highest_um 0 side_um -9 most_tilt_urad 1072 steps_under_4_contacts 31 most_iterations 12 warnings 0
+on2 free_rec_33.75_0.00114 slid_um 133029 highest_um 0 side_um -14 most_tilt_urad 1067 steps_under_4_contacts 36 most_iterations 12 warnings 0
+on2 free_rec_45_0.00114 slid_um 133028 highest_um 0 side_um 0 most_tilt_urad 1063 steps_under_4_contacts 49 most_iterations 8 warnings 0
+on2 lift10_rec_0.000285 highest_um 0 slid_um 133490 steps_without_contact 5 of 4211 most_iterations 5 warnings 0
+on2 free_rec_0_0.000285 slid_um 133470 highest_um 0 side_um 0 most_tilt_urad 1089 steps_under_4_contacts 15 most_iterations 8 warnings 0
+on2 free_rec_11.25_0.000285 slid_um 133470 highest_um 0 side_um -4 most_tilt_urad 1086 steps_under_4_contacts 135 most_iterations 12 warnings 0
+on2 free_rec_22.5_0.000285 slid_um 133471 highest_um 0 side_um -2 most_tilt_urad 1080 steps_under_4_contacts 196 most_iterations 13 warnings 0
+on2 free_rec_33.75_0.000285 slid_um 133472 highest_um 0 side_um -5 most_tilt_urad 1068 steps_under_4_contacts 223 most_iterations 12 warnings 0
+on2 free_rec_45_0.000285 slid_um 133470 highest_um 0 side_um 0 most_tilt_urad 1068 steps_under_4_contacts 282 most_iterations 7 warnings 0
+on2 lift16_ell_fric_0.01 highest_um 10 slid_um 177741 steps_without_contact 1 of 100 most_iterations 3 warnings 0
+on2 lift16_ell_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 1 warnings 0
+on2 lift16_ell_fric_0.0025 highest_um 8 slid_um 182332 steps_without_contact 2 of 400 most_iterations 4 warnings 0
+on2 lift16_ell_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 1 warnings 0
+on2 lift16_ell_fric_0.000625 highest_um 1 slid_um 183490 steps_without_contact 6 of 1600 most_iterations 4 warnings 0
+on2 lift16_ell_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 1 warnings 0
+on2 lift10_ell_0.00114 highest_um 0 slid_um 133057 steps_without_contact 2 of 1053 most_iterations 4 warnings 0
+on2 free_ell_0_0.00114 slid_um 133035 highest_um 0 side_um 0 most_tilt_urad 1260 steps_under_4_contacts 5 most_iterations 6 warnings 0
+on2 free_ell_11.25_0.00114 slid_um 133035 highest_um 0 side_um -7 most_tilt_urad 1070 steps_under_4_contacts 18 most_iterations 10 warnings 0
+on2 free_ell_22.5_0.00114 slid_um 133033 highest_um 0 side_um -9 most_tilt_urad 1057 steps_under_4_contacts 31 most_iterations 10 warnings 0
+on2 free_ell_33.75_0.00114 slid_um 133034 highest_um 0 side_um -14 most_tilt_urad 1052 steps_under_4_contacts 36 most_iterations 10 warnings 0
+on2 free_ell_45_0.00114 slid_um 133034 highest_um 0 side_um 0 most_tilt_urad 1046 steps_under_4_contacts 49 most_iterations 6 warnings 0
+on2 lift10_ell_0.000285 highest_um 0 slid_um 133500 steps_without_contact 5 of 4211 most_iterations 3 warnings 0
+on2 free_ell_0_0.000285 slid_um 133475 highest_um 0 side_um 0 most_tilt_urad 1074 steps_under_4_contacts 15 most_iterations 5 warnings 0
+on2 free_ell_11.25_0.000285 slid_um 133476 highest_um 0 side_um -3 most_tilt_urad 1072 steps_under_4_contacts 146 most_iterations 10 warnings 0
+on2 free_ell_22.5_0.000285 slid_um 133477 highest_um 0 side_um -2 most_tilt_urad 1063 steps_under_4_contacts 196 most_iterations 11 warnings 0
+on2 free_ell_33.75_0.000285 slid_um 133478 highest_um 0 side_um -5 most_tilt_urad 1048 steps_under_4_contacts 223 most_iterations 10 warnings 0
+on2 free_ell_45_0.000285 slid_um 133476 highest_um 0 side_um 0 most_tilt_urad 1049 steps_under_4_contacts 282 most_iterations 5 warnings 0
+on2 hold_0_0.5 creep_ums 0
+on2 hold_0_0.75 creep_ums 0
+on2 hold_0_0.95 creep_ums 0
+on2 hold_22.5_0.5 creep_ums 0
+on2 hold_22.5_0.75 creep_ums 0
+on2 hold_22.5_0.95 creep_ums 0
+on2 hold_45_0.5 creep_ums 0
+on2 hold_45_0.75 creep_ums 0
+on2 hold_45_0.95 creep_ums 0
+on2 grip_box_off0.0093 creep_ums 1
+on2 grip_box_off0 creep_ums 1
+on2 grip_mesh_off0.0093 creep_ums 0
+on2 grip_mesh_off0 creep_ums 0
+on2 solver most_iterations 13 at_iteration_limit 0 warnings 0
+on4 lift16_rec_fric_0.01 highest_um 0 slid_um 177755 steps_without_contact 0 of 100 most_iterations 7 warnings 0
+on4 lift16_rec_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 3 warnings 0
+on4 lift16_rec_fric_0.0025 highest_um 0 slid_um 182341 steps_without_contact 0 of 400 most_iterations 7 warnings 0
+on4 lift16_rec_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 3 warnings 0
+on4 lift16_rec_fric_0.000625 highest_um 0 slid_um 183495 steps_without_contact 0 of 1600 most_iterations 7 warnings 0
+on4 lift16_rec_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 3 warnings 0
+on4 lift10_rec_0.00114 highest_um 0 slid_um 133059 steps_without_contact 0 of 1053 most_iterations 7 warnings 0
+on4 free_rec_0_0.00114 slid_um 133040 highest_um 0 side_um 0 most_tilt_urad 1077 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 free_rec_11.25_0.00114 slid_um 133040 highest_um 0 side_um 0 most_tilt_urad 1077 steps_under_4_contacts 0 most_iterations 13 warnings 0
+on4 free_rec_22.5_0.00114 slid_um 133040 highest_um 0 side_um 0 most_tilt_urad 1076 steps_under_4_contacts 0 most_iterations 12 warnings 0
+on4 free_rec_33.75_0.00114 slid_um 133040 highest_um 0 side_um 0 most_tilt_urad 1074 steps_under_4_contacts 0 most_iterations 12 warnings 0
+on4 free_rec_45_0.00114 slid_um 133040 highest_um 0 side_um 0 most_tilt_urad 1074 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 lift10_rec_0.000285 highest_um 0 slid_um 133500 steps_without_contact 0 of 4211 most_iterations 7 warnings 0
+on4 free_rec_0_0.000285 slid_um 133481 highest_um 0 side_um 0 most_tilt_urad 1081 steps_under_4_contacts 0 most_iterations 11 warnings 0
+on4 free_rec_11.25_0.000285 slid_um 133481 highest_um 0 side_um 0 most_tilt_urad 1081 steps_under_4_contacts 0 most_iterations 13 warnings 0
+on4 free_rec_22.5_0.000285 slid_um 133481 highest_um 0 side_um 0 most_tilt_urad 1080 steps_under_4_contacts 0 most_iterations 13 warnings 0
+on4 free_rec_33.75_0.000285 slid_um 133481 highest_um 0 side_um 0 most_tilt_urad 1079 steps_under_4_contacts 0 most_iterations 14 warnings 0
+on4 free_rec_45_0.000285 slid_um 133481 highest_um 0 side_um 0 most_tilt_urad 1078 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 lift16_ell_fric_0.01 highest_um 0 slid_um 177755 steps_without_contact 0 of 100 most_iterations 5 warnings 0
+on4 lift16_ell_nofric_0.01 highest_um 0 slid_um 1200000 steps_without_contact 0 of 100 most_iterations 1 warnings 0
+on4 lift16_ell_fric_0.0025 highest_um 0 slid_um 182350 steps_without_contact 0 of 400 most_iterations 5 warnings 0
+on4 lift16_ell_nofric_0.0025 highest_um 0 slid_um 1200000 steps_without_contact 0 of 400 most_iterations 1 warnings 0
+on4 lift16_ell_fric_0.000625 highest_um 0 slid_um 183505 steps_without_contact 0 of 1600 most_iterations 5 warnings 0
+on4 lift16_ell_nofric_0.000625 highest_um 0 slid_um 1200000 steps_without_contact 0 of 1600 most_iterations 1 warnings 0
+on4 lift10_ell_0.00114 highest_um 0 slid_um 133068 steps_without_contact 0 of 1053 most_iterations 5 warnings 0
+on4 free_ell_0_0.00114 slid_um 133045 highest_um 0 side_um 0 most_tilt_urad 1069 steps_under_4_contacts 0 most_iterations 8 warnings 0
+on4 free_ell_11.25_0.00114 slid_um 133045 highest_um 0 side_um 0 most_tilt_urad 1069 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 free_ell_22.5_0.00114 slid_um 133045 highest_um 0 side_um 0 most_tilt_urad 1068 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 free_ell_33.75_0.00114 slid_um 133045 highest_um 0 side_um 0 most_tilt_urad 1067 steps_under_4_contacts 0 most_iterations 9 warnings 0
+on4 free_ell_45_0.00114 slid_um 133045 highest_um 0 side_um 0 most_tilt_urad 1066 steps_under_4_contacts 0 most_iterations 8 warnings 0
+on4 lift10_ell_0.000285 highest_um 0 slid_um 133510 steps_without_contact 0 of 4211 most_iterations 5 warnings 0
+on4 free_ell_0_0.000285 slid_um 133486 highest_um 0 side_um 0 most_tilt_urad 1070 steps_under_4_contacts 0 most_iterations 8 warnings 0
+on4 free_ell_11.25_0.000285 slid_um 133486 highest_um 0 side_um 0 most_tilt_urad 1069 steps_under_4_contacts 0 most_iterations 9 warnings 0
+on4 free_ell_22.5_0.000285 slid_um 133486 highest_um 0 side_um 0 most_tilt_urad 1068 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 free_ell_33.75_0.000285 slid_um 133486 highest_um 0 side_um 0 most_tilt_urad 1067 steps_under_4_contacts 0 most_iterations 10 warnings 0
+on4 free_ell_45_0.000285 slid_um 133486 highest_um 0 side_um 0 most_tilt_urad 1067 steps_under_4_contacts 0 most_iterations 8 warnings 0
+on4 hold_0_0.5 creep_ums 0
+on4 hold_0_0.75 creep_ums 0
+on4 hold_0_0.95 creep_ums 0
+on4 hold_22.5_0.5 creep_ums 0
+on4 hold_22.5_0.75 creep_ums 0
+on4 hold_22.5_0.95 creep_ums 0
+on4 hold_45_0.5 creep_ums 0
+on4 hold_45_0.75 creep_ums 0
+on4 hold_45_0.95 creep_ums 0
+on4 grip_box_off0.0093 creep_ums 1
+on4 grip_box_off0 creep_ums 1
+on4 grip_mesh_off0.0093 creep_ums 0
+on4 grip_mesh_off0 creep_ums 0
+on4 solver most_iterations 14 at_iteration_limit 0 warnings 0
+safe_when_off files_same 53 of 53

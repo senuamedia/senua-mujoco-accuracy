@@ -1,0 +1,28 @@
+n100 arm pose 1 0.00171 | rest creep_ums 0 | drop creep_ums 0
+n100 arm pose 2 0.00171 | rest creep_ums 0 | drop creep_ums 0
+n100 hold 0.5 0.00171 | creep_ums 0
+n100 hold 0.95 0.00171 | creep_ums 0
+n100 grip box 0.00171 | creep_ums 1
+n100 grip mesh 0.00171 | creep_ums 0
+n100 arm pose 1 0.0004275 | rest creep_ums 0 | drop creep_ums 0
+n100 arm pose 2 0.0004275 | rest creep_ums 0 | drop creep_ums 0
+n100 hold 0.5 0.0004275 | creep_ums 0
+n100 hold 0.95 0.0004275 | creep_ums 0
+n100 grip box 0.0004275 | creep_ums 1
+n100 grip mesh 0.0004275 | creep_ums 0
+n1000 arm pose 1 0.00171 | rest creep_ums 0 | drop creep_ums 0
+n1000 arm pose 2 0.00171 | rest creep_ums 0 | drop creep_ums 0
+n1000 hold 0.5 0.00171 | creep_ums 0
+n1000 hold 0.95 0.00171 | creep_ums 0
+n1000 grip box 0.00171 | creep_ums 0
+n1000 grip mesh 0.00171 | creep_ums 0
+n1000 arm pose 1 0.0004275 | rest creep_ums 0 | drop creep_ums 0
+n1000 arm pose 2 0.0004275 | rest creep_ums 0 | drop creep_ums 0
+n1000 hold 0.5 0.0004275 | creep_ums 0
+n1000 hold 0.95 0.0004275 | creep_ums 0
+n1000 grip box 0.0004275 | creep_ums 0
+n1000 grip mesh 0.0004275 | creep_ums 0
+n100 box step2_scene | fastest_ums 0
+n100 box scenes_box1_0.016 | fastest_ums 0
+n1000 box step2_scene | fastest_ums 0
+n1000 box scenes_box1_0.016 | fastest_ums 0

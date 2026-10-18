@@ -1,0 +1,11 @@
+10:56:45 rigs built against the release
+10:56:49 run 025 played
+10:56:54 run 026 played
+10:56:56 run 027 played
+10:57:09 run 028 played
+10:57:10 run 032 played
+10:57:12 run 034 played
+10:57:13 run 036 played
+SAME 794
+DIFFERS 0
+MISSING 0

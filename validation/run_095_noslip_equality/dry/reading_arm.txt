@@ -1,0 +1,24 @@
+tipweld pose 1 noslip n100 set5 | ball at 999996807 nm, speed -2 um/s | mean_speed_ums -2
+tipweld pose 1 noslip n100 set6 | ball at 999996807 nm, speed -2 um/s | mean_speed_ums -2
+tipweld pose 1 noslip n100 | set5 against set6 largest_um 0
+tipweld pose 2 noslip n100 set5 | ball at 999991977 nm, speed -5 um/s | mean_speed_ums -5
+tipweld pose 2 noslip n100 set6 | ball at 999991977 nm, speed -5 um/s | mean_speed_ums -5
+tipweld pose 2 noslip n100 | set5 against set6 largest_um 0
+tipweld pose 1 noslip none set5 | ball at 999728107 nm, speed 0 um/s | mean_speed_ums 0
+tipweld pose 1 noslip none set6 | ball at 999728107 nm, speed 0 um/s | mean_speed_ums 0
+tipweld pose 1 noslip none | set5 against set6 largest_um 0
+tipweld pose 2 noslip none set5 | ball at 1000008118 nm, speed 0 um/s | mean_speed_ums 0
+tipweld pose 2 noslip none set6 | ball at 1000008118 nm, speed 0 um/s | mean_speed_ums 0
+tipweld pose 2 noslip none | set5 against set6 largest_um 0
+tipconnect pose 1 noslip n100 set5 | ball at 999995138 nm, speed -4 um/s | mean_speed_ums -4
+tipconnect pose 1 noslip n100 set6 | ball at 999995138 nm, speed -4 um/s | mean_speed_ums -4
+tipconnect pose 1 noslip n100 | set5 against set6 largest_um 0
+tipconnect pose 2 noslip n100 set5 | ball at 999991999 nm, speed -5 um/s | mean_speed_ums -5
+tipconnect pose 2 noslip n100 set6 | ball at 999991999 nm, speed -5 um/s | mean_speed_ums -5
+tipconnect pose 2 noslip n100 | set5 against set6 largest_um 0
+tipconnect pose 1 noslip none set5 | ball at 999682914 nm, speed 0 um/s | mean_speed_ums 0
+tipconnect pose 1 noslip none set6 | ball at 999682914 nm, speed 0 um/s | mean_speed_ums 0
+tipconnect pose 1 noslip none | set5 against set6 largest_um 0
+tipconnect pose 2 noslip none set5 | ball at 1000037284 nm, speed 0 um/s | mean_speed_ums 0
+tipconnect pose 2 noslip none set6 | ball at 1000037284 nm, speed 0 um/s | mean_speed_ums 0
+tipconnect pose 2 noslip none | set5 against set6 largest_um 0

@@ -1,0 +1,75 @@
+release weld pose1 0.00163 straight apart_nm 39046 speed_apart_ums 0
+release weld pose1 0.00163 folded apart_nm 19841 speed_apart_ums 0
+release weld pose1 0.0004075 straight apart_nm 39046 speed_apart_ums 0
+release weld pose1 0.0004075 folded apart_nm 19841 speed_apart_ums 0
+release weld pose2 0.00163 straight apart_nm 79970 speed_apart_ums 0
+release weld pose2 0.00163 folded apart_nm 3420 speed_apart_ums 0
+release weld pose2 0.0004075 straight apart_nm 79970 speed_apart_ums 0
+release weld pose2 0.0004075 folded apart_nm 3420 speed_apart_ums 0
+release tumble Euler 0.01 energy_end_ppm 4170 energy_largest_ppm 4170 momentum_end_ppm 1662 momentum_largest_ppm 1662
+release tumble Euler 0.0025 energy_end_ppm 1038 energy_largest_ppm 1038 momentum_end_ppm 413 momentum_largest_ppm 413
+release tumble Euler 0.000625 energy_end_ppm 259 energy_largest_ppm 259 momentum_end_ppm 103 momentum_largest_ppm 103
+release tumble Euler 0.00015625 energy_end_ppm 64 energy_largest_ppm 65 momentum_end_ppm 25 momentum_largest_ppm 25
+release tumble implicitfast 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+release tumble implicitfast 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+release tumble implicitfast 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+release tumble implicitfast 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+release tumble implicit 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+release tumble implicit 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+release tumble implicit 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+release tumble implicit 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+release tumble RK4 0.01 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.0025 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.000625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release tumble RK4 0.00015625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+release solver at_iteration_limit 0 warnings 0
+off weld pose1 0.00163 straight apart_nm 39046 speed_apart_ums 0
+off weld pose1 0.00163 folded apart_nm 19841 speed_apart_ums 0
+off weld pose1 0.0004075 straight apart_nm 39046 speed_apart_ums 0
+off weld pose1 0.0004075 folded apart_nm 19841 speed_apart_ums 0
+off weld pose2 0.00163 straight apart_nm 79970 speed_apart_ums 0
+off weld pose2 0.00163 folded apart_nm 3420 speed_apart_ums 0
+off weld pose2 0.0004075 straight apart_nm 79970 speed_apart_ums 0
+off weld pose2 0.0004075 folded apart_nm 3420 speed_apart_ums 0
+off tumble Euler 0.01 energy_end_ppm 4170 energy_largest_ppm 4170 momentum_end_ppm 1662 momentum_largest_ppm 1662
+off tumble Euler 0.0025 energy_end_ppm 1038 energy_largest_ppm 1038 momentum_end_ppm 413 momentum_largest_ppm 413
+off tumble Euler 0.000625 energy_end_ppm 259 energy_largest_ppm 259 momentum_end_ppm 103 momentum_largest_ppm 103
+off tumble Euler 0.00015625 energy_end_ppm 64 energy_largest_ppm 65 momentum_end_ppm 25 momentum_largest_ppm 25
+off tumble implicitfast 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+off tumble implicitfast 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+off tumble implicitfast 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+off tumble implicitfast 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+off tumble implicit 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+off tumble implicit 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+off tumble implicit 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+off tumble implicit 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+off tumble RK4 0.01 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+off tumble RK4 0.0025 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+off tumble RK4 0.000625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+off tumble RK4 0.00015625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+off solver at_iteration_limit 0 warnings 0
+on weld pose1 0.00163 straight apart_nm 0 speed_apart_ums 0
+on weld pose1 0.00163 folded apart_nm 0 speed_apart_ums 0
+on weld pose1 0.0004075 straight apart_nm 0 speed_apart_ums 0
+on weld pose1 0.0004075 folded apart_nm 0 speed_apart_ums 0
+on weld pose2 0.00163 straight apart_nm 0 speed_apart_ums 0
+on weld pose2 0.00163 folded apart_nm 0 speed_apart_ums 0
+on weld pose2 0.0004075 straight apart_nm 0 speed_apart_ums 0
+on weld pose2 0.0004075 folded apart_nm 0 speed_apart_ums 0
+on tumble Euler 0.01 energy_end_ppm 4170 energy_largest_ppm 4170 momentum_end_ppm 1662 momentum_largest_ppm 1662
+on tumble Euler 0.0025 energy_end_ppm 1038 energy_largest_ppm 1038 momentum_end_ppm 413 momentum_largest_ppm 413
+on tumble Euler 0.000625 energy_end_ppm 259 energy_largest_ppm 259 momentum_end_ppm 103 momentum_largest_ppm 103
+on tumble Euler 0.00015625 energy_end_ppm 64 energy_largest_ppm 65 momentum_end_ppm 25 momentum_largest_ppm 25
+on tumble implicitfast 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+on tumble implicitfast 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+on tumble implicitfast 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+on tumble implicitfast 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+on tumble implicit 0.01 energy_end_ppm -4110 energy_largest_ppm 4110 momentum_end_ppm -1640 momentum_largest_ppm 1640
+on tumble implicit 0.0025 energy_end_ppm -1034 energy_largest_ppm 1034 momentum_end_ppm -413 momentum_largest_ppm 413
+on tumble implicit 0.000625 energy_end_ppm -259 energy_largest_ppm 259 momentum_end_ppm -104 momentum_largest_ppm 104
+on tumble implicit 0.00015625 energy_end_ppm -64 energy_largest_ppm 64 momentum_end_ppm -26 momentum_largest_ppm 26
+on tumble RK4 0.01 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+on tumble RK4 0.0025 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+on tumble RK4 0.000625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+on tumble RK4 0.00015625 energy_end_ppm 0 energy_largest_ppm 0 momentum_end_ppm 0 momentum_largest_ppm 0
+on solver at_iteration_limit 0 warnings 0

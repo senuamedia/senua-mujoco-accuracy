@@ -1,0 +1,2 @@
+STATS rotvec cases 40 real_bits 64 engine mujoco 3.16.0
+STATS rotvec cases 45 real_bits 64 engine mujoco 3.16.0

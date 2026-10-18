@@ -1,0 +1,17 @@
+build lib june exit 0 2026-10-16T04:32:19Z
+build tests june exit 0 2026-10-16T04:37:19Z
+build lib pr exit 0 2026-10-16T04:38:08Z
+build tests pr exit 0 2026-10-16T04:43:08Z
+part A defaults played 2026-10-16T04:43:09Z
+part A impratio10 played 2026-10-16T04:43:09Z
+part A impratio100 played 2026-10-16T04:43:09Z
+part A elliptic played 2026-10-16T04:43:09Z
+part A elliptic_impratio10 played 2026-10-16T04:43:10Z
+part A noslip_pyramidal played 2026-10-16T04:43:10Z
+part A configuration played 2026-10-16T04:43:10Z
+part B june played 2026-10-16T04:43:11Z
+part B off played 2026-10-16T04:43:12Z
+part B on played 2026-10-16T04:43:13Z
+part B cfg played 2026-10-16T04:43:14Z
+suite june exit 8 99% tests passed, 1 tests failed out of 1681 2026-10-16T04:44:10Z
+suite pr exit 8 99% tests passed, 1 tests failed out of 1694 2026-10-16T04:45:06Z

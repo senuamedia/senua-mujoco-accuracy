@@ -1,0 +1,112 @@
+== as it is
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 12
+== E0: the Intel machine's draw changed
+E0_both_machines_played_the_same_numbers FAILED
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== P0: d_hold.txt missing from both plays of srcA
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made FAILED
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== D1: one byte more in d_hold.txt of relA's second play
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice FAILED
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== X1: one byte more in d_hold.txt of both plays of srcA
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release FAILED
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== X2: one byte more in d_hold.txt of both plays of clangAnc
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release FAILED
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== X3: one byte more in d_hold.txt of both plays of setA
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel FAILED
+Q1_the_arm64_release_departs_somewhere HELD
+rules: 12, held: 11
+== Q1: relA's plays replaced by relX's
+E0_both_machines_played_the_same_numbers HELD
+P0_every_play_made HELD
+D1_relA_the_same_twice HELD
+D1_srcA_the_same_twice HELD
+D1_clangAnc_the_same_twice HELD
+D1_setA_the_same_twice HELD
+D1_relX_the_same_twice HELD
+D1_setX_the_same_twice HELD
+X1_gcc_on_arm64_makes_the_intel_release HELD
+X2_clang_without_fma_on_arm64_makes_the_intel_release HELD
+X3_the_set_on_arm64_makes_the_set_on_intel HELD
+Q1_the_arm64_release_departs_somewhere FAILED
+rules: 12, held: 11

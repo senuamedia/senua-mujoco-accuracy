@@ -1,0 +1,4 @@
+changed with the switch set: ForwardTest.DiscreteImplicitRowNoslip Passed -> Failed
+changed with the switch set: SolverTest.NewtonDecrementTermination Passed -> Failed
+changed with the switch set: SolverTest.SolversEquivalent Passed -> Failed
+changed with the switch set: SolverTest.ZeroToleranceDisablesTermination Passed -> Failed

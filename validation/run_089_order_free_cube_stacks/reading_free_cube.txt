@@ -1,0 +1,12 @@
+rel free 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 2368 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 7 most_yaw_urad 7 most_tilt_urad 2962 steps_under_4_contacts 60 
+rel free 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 548 friction_over_normal_per_10000 6972 friction_limit_per_10000 7340 | yaw_end_urad -2031 most_yaw_urad 2031 most_tilt_urad 4499 steps_under_4_contacts 918 
+rel noyaw 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 2367 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 2962 steps_under_4_contacts 60 
+rel noyaw 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 475 friction_over_normal_per_10000 6972 friction_limit_per_10000 7340 | yaw_end_urad -5 most_yaw_urad 6 most_tilt_urad 4497 steps_under_4_contacts 918 
+rel held 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 0 steps_under_4_contacts 0 
+rel held 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 0 steps_under_4_contacts 0 
+set free 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 1098 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 18 most_yaw_urad 18 most_tilt_urad 3842 steps_under_4_contacts 30 
+set free 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad -2 most_yaw_urad 2 most_tilt_urad 3904 steps_under_4_contacts 910 
+set noyaw 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 1124 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 3823 steps_under_4_contacts 25 
+set noyaw 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad -5 most_yaw_urad 5 most_tilt_urad 3912 steps_under_4_contacts 910 
+set held 0 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 0 steps_under_4_contacts 0 
+set held 22.5 | CREEP dt_ns 1277000 steps 627 mean_speed_ums 0 friction_over_normal_per_10000 6973 friction_limit_per_10000 7340 | yaw_end_urad 0 most_yaw_urad 0 most_tilt_urad 0 steps_under_4_contacts 0 

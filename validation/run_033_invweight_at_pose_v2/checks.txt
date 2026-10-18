@@ -1,0 +1,83 @@
+RULE 1_required_A_rest_0.002 ge 64834 1000 : HELD
+RULE 2_correct_place_A_rest_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_A_rest_0.002_folded le 2 100 : HELD
+RULE 2_correct_speed_A_rest_0.002_folded le 1 10 : HELD
+RULE 1_required_A_rest_0.0005 ge 64835 1000 : HELD
+RULE 2_correct_place_A_rest_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_A_rest_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_A_rest_0.0005_folded le 0 10 : HELD
+RULE 1_required_A_drop_0.002 ge 65149 1000 : HELD
+RULE 2_correct_place_A_drop_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_A_drop_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.002_folded le 0 10 : HELD
+RULE 1_required_A_drop_0.0005 ge 65156 1000 : HELD
+RULE 2_correct_place_A_drop_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_A_drop_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_A_drop_0.0005_folded le 0 10 : HELD
+RULE 1_required_B_rest_0.002 ge 13338 1000 : HELD
+RULE 2_correct_place_B_rest_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_B_rest_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.002_folded le 0 10 : HELD
+RULE 1_required_B_rest_0.0005 ge 13344 1000 : HELD
+RULE 2_correct_place_B_rest_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_B_rest_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_B_rest_0.0005_folded le 0 10 : HELD
+RULE 1_required_B_drop_0.002 ge 13494 1000 : HELD
+RULE 2_correct_place_B_drop_0.002_straight le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.002_straight le 0 10 : HELD
+RULE 2_correct_place_B_drop_0.002_folded le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.002_folded le 0 10 : HELD
+RULE 1_required_B_drop_0.0005 ge 13494 1000 : HELD
+RULE 2_correct_place_B_drop_0.0005_straight le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.0005_straight le 0 10 : HELD
+RULE 2_correct_place_B_drop_0.0005_folded le 0 100 : HELD
+RULE 2_correct_speed_B_drop_0.0005_folded le 0 10 : HELD
+RULE 2_correct_creep_A_0.002_straight near -852 -852 1 : HELD
+RULE 2_correct_creep_A_0.002_folded near -851 -852 1 : HELD
+RULE 2_correct_creep_A_0.0005_straight near -852 -852 1 : HELD
+RULE 2_correct_creep_A_0.0005_folded near -852 -852 1 : HELD
+RULE 2_correct_creep_B_0.002_straight near -607 -607 1 : HELD
+RULE 2_correct_creep_B_0.002_folded near -607 -607 1 : HELD
+RULE 2_correct_creep_B_0.0005_straight near -606 -606 1 : HELD
+RULE 2_correct_creep_B_0.0005_folded near -606 -606 1 : HELD
+RULE 1_required_swing_E_0.002 ge 838369 1000 : HELD
+RULE 2_correct_swing_place_E_0.002_straight le 0 100 : HELD
+RULE 2_correct_swing_speed_E_0.002_straight le 0 10 : HELD
+RULE 2_correct_swing_place_E_0.002_folded le 0 100 : HELD
+RULE 2_correct_swing_speed_E_0.002_folded le 0 10 : HELD
+RULE 1_required_swing_E_0.0005 ge 638275 1000 : HELD
+RULE 2_correct_swing_place_E_0.0005_straight le 0 100 : HELD
+RULE 2_correct_swing_speed_E_0.0005_straight le 0 10 : HELD
+RULE 2_correct_swing_place_E_0.0005_folded le 0 100 : HELD
+RULE 2_correct_swing_speed_E_0.0005_folded le 0 10 : HELD
+RULE 1_required_swing_F_0.002 ge 348240 1000 : HELD
+RULE 2_correct_swing_place_F_0.002_straight le 0 100 : HELD
+RULE 2_correct_swing_speed_F_0.002_straight le 0 10 : HELD
+RULE 2_correct_swing_place_F_0.002_folded le 0 100 : HELD
+RULE 2_correct_swing_speed_F_0.002_folded le 0 10 : HELD
+RULE 1_required_swing_F_0.0005 ge 415786 1000 : HELD
+RULE 2_correct_swing_place_F_0.0005_straight le 0 100 : HELD
+RULE 2_correct_swing_speed_F_0.0005_straight le 0 10 : HELD
+RULE 2_correct_swing_place_F_0.0005_folded le 0 100 : HELD
+RULE 2_correct_swing_speed_F_0.0005_folded le 0 10 : HELD
+RULE 3_cubes_and_suites_on_as_released eq 171 171 : HELD
+RULE 3_mujoco_suite_on_as_off eq 0 0 : HELD
+RULE 4_off_as_released_files eq 232 232 : HELD
+RULE 4_off_suite_as_released eq 0 0 : HELD
+RULE 5_iteration_limit eq 0 0 : HELD
+RULE 5_warnings eq 0 0 : HELD
+reported: recommended, A rest 0.002 straight: release apart 106549 nm, on apart 0 nm
+reported: recommended, A rest 0.002 folded: release apart 42952 nm, on apart 2 nm
+reported: recommended, A rest 0.0005 straight: release apart 106549 nm, on apart 0 nm
+reported: recommended, A rest 0.0005 folded: release apart 42955 nm, on apart 1 nm
+reported: recommended, B rest 0.002 straight: release apart 24881 nm, on apart 0 nm
+reported: recommended, B rest 0.002 folded: release apart 2239 nm, on apart 0 nm
+reported: recommended, B rest 0.0005 straight: release apart 24887 nm, on apart 0 nm
+reported: recommended, B rest 0.0005 folded: release apart 2212 nm, on apart 0 nm
+checks: 74, held: 74

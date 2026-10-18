@@ -1,0 +1,99 @@
+safe when off: 4 of 4 files byte for byte as released; traced byte for byte as untraced: 4 of 4; the trace build's stderr with the switch unset: 0 lines
+box_written: last 160 steps faster than 1 mm/s: 106; passes 987
+  the box's speed (vx, um/s), the last 12 steps: 13651 3830 564 54 58832 -76978 13651 3830 564 54 58832 -76978 
+  the last 12 passes, each contact's last sweep:
+    975 contact 0 dim 6 normal 5.11988 kept cone 1.000000 friction -0.00169956 -3.16369 -0.000158809 -0.000402533 2.83182e-07
+    975 contact 1 dim 6 normal 0.363203 restored cone 1.000000 friction 0.00024115 0.329704 8.73819e-09 -1.52353e-05 9.39195e-09
+    975 contact 2 dim 6 normal 5.11993 kept cone 1.000000 friction -0.00201096 -3.16006 -1.05456e-05 -0.000402836 2.48e-07
+    975 contact 3 dim 6 normal 0.363204 restored cone 1.000000 friction 0.000241149 0.329707 8.73794e-09 -1.52348e-05 9.39168e-09
+    976 contact 0 dim 6 normal 1.78202 kept cone 1.000000 friction -0.000296233 -0.568383 -0.000127489 -0.000168875 1.35488e-07
+    976 contact 1 dim 6 normal 2.28005 kept cone 1.000000 friction 0.000492596 0.873977 -3.79844e-06 -0.00021059 1.29984e-07
+    976 contact 2 dim 6 normal 1.78201 kept cone 1.000000 friction -0.00035745 -0.565749 1.55773e-08 -0.000168982 1.05027e-07
+    976 contact 3 dim 6 normal 2.28001 kept cone 1.000000 friction 0.000540553 0.873952 2.29954e-09 -0.000210586 1.30889e-07
+    977 contact 0 dim 6 normal 2.27893 kept cone 1.000000 friction 1.03527e-05 0.0201001 0.000108615 -0.000227874 1.12623e-07
+    977 contact 1 dim 6 normal 2.43848 kept cone 1.000000 friction 5.8698e-05 0.0819691 0.000118748 -0.000243699 1.76721e-07
+    977 contact 2 dim 6 normal 2.27893 kept cone 1.000000 friction 1.28839e-05 0.0200975 -0.000108551 -0.000227873 1.64267e-07
+    977 contact 3 dim 6 normal 2.43847 kept cone 1.000000 friction 4.3449e-05 0.0819668 -0.000118771 -0.000243698 1.19336e-07
+    978 contact 0 dim 6 normal 2.4281 kept cone 1.000000 friction 1.27447e-06 0.00388436 0.000134705 -0.000242794 1.64027e-07
+    978 contact 1 dim 6 normal 2.44446 kept cone 1.000000 friction 1.01249e-05 0.0120429 0.000135768 -0.000244428 2.23704e-07
+    978 contact 2 dim 6 normal 2.4281 kept cone 1.000000 friction 2.44641e-06 0.00388297 -0.000134736 -0.000242794 2.11129e-07
+    978 contact 3 dim 6 normal 2.44446 kept cone 1.000000 friction 6.8884e-06 0.0120405 -0.000135864 -0.000244428 1.59008e-07
+    979 contact 0 dim 6 normal 3.06833 restored cone 1.000000 friction -0.00105521 -1.8368 4.7419e-09 -0.00024578 1.41232e-07
+    979 contact 1 dim 6 normal 3.06833 restored cone 1.000000 friction -0.00105521 -1.83681 4.74191e-09 -0.00024578 1.41232e-07
+    980 contact 0 dim 6 normal 7.22655 restored cone 1.000000 friction 0.00257631 4.24499 0.000102815 0.00058483 -3.11465e-07
+    980 contact 1 dim 6 normal 7.22655 kept cone 1.000000 friction 0.00225379 4.24318 -3.26848e-05 0.000584964 -3.43396e-07
+    981 contact 0 dim 6 normal 5.11988 kept cone 1.000000 friction -0.00171076 -3.16369 -0.000158809 -0.000402533 2.84607e-07
+    981 contact 1 dim 6 normal 0.363203 restored cone 1.000000 friction 0.000242318 0.329704 8.73819e-09 -1.52353e-05 9.44591e-09
+    981 contact 2 dim 6 normal 5.11993 kept cone 1.000000 friction -0.00202216 -3.16006 -1.05456e-05 -0.000402836 2.49427e-07
+    981 contact 3 dim 6 normal 0.363204 restored cone 1.000000 friction 0.000242317 0.329707 8.73794e-09 -1.52348e-05 9.44564e-09
+    982 contact 0 dim 6 normal 1.78202 kept cone 1.000000 friction -0.000298246 -0.568383 -0.000127489 -0.000168875 1.36086e-07
+    982 contact 1 dim 6 normal 2.28005 kept cone 1.000000 friction 0.000495692 0.873977 -3.79844e-06 -0.00021059 1.3073e-07
+    982 contact 2 dim 6 normal 1.78201 kept cone 1.000000 friction -0.000359454 -0.565749 1.55773e-08 -0.000168982 1.05626e-07
+    982 contact 3 dim 6 normal 2.28001 kept cone 1.000000 friction 0.000543649 0.873952 2.29954e-09 -0.000210586 1.31635e-07
+    983 contact 0 dim 6 normal 2.27893 kept cone 1.000000 friction 1.04239e-05 0.0201001 0.000108615 -0.000227874 1.1343e-07
+    983 contact 1 dim 6 normal 2.43848 kept cone 1.000000 friction 5.89883e-05 0.0819691 0.000118748 -0.000243699 1.77584e-07
+    983 contact 2 dim 6 normal 2.27893 kept cone 1.000000 friction 1.29551e-05 0.0200975 -0.000108551 -0.000227873 1.65075e-07
+    983 contact 3 dim 6 normal 2.43847 kept cone 1.000000 friction 4.37393e-05 0.0819668 -0.000118771 -0.000243698 1.20199e-07
+    984 contact 0 dim 6 normal 2.4281 kept cone 1.000000 friction 1.28822e-06 0.00388436 0.000134705 -0.000242794 1.64887e-07
+    984 contact 1 dim 6 normal 2.44446 kept cone 1.000000 friction 1.01675e-05 0.0120429 0.000135768 -0.000244428 2.24569e-07
+    984 contact 2 dim 6 normal 2.4281 kept cone 1.000000 friction 2.46017e-06 0.00388297 -0.000134736 -0.000242794 2.11989e-07
+    984 contact 3 dim 6 normal 2.44446 kept cone 1.000000 friction 6.93104e-06 0.0120405 -0.000135864 -0.000244428 1.59873e-07
+    985 contact 0 dim 6 normal 3.06833 restored cone 1.000000 friction -0.00106172 -1.8368 4.7419e-09 -0.00024578 1.42102e-07
+    985 contact 1 dim 6 normal 3.06833 restored cone 1.000000 friction -0.00106172 -1.83681 4.74191e-09 -0.00024578 1.42103e-07
+    986 contact 0 dim 6 normal 7.22655 restored cone 1.000000 friction 0.00259134 4.24499 0.000102815 0.00058483 -3.13536e-07
+    986 contact 1 dim 6 normal 7.22655 kept cone 1.000000 friction 0.00226882 4.24318 -3.26848e-05 0.000584964 -3.45468e-07
+  over all passes: kept 2468
+  over all passes: restored 824
+box_condim4: last 160 steps faster than 1 mm/s: 0; passes 987
+  the box's speed (vx, um/s), the last 12 steps: 0 0 0 0 0 0 0 0 0 0 0 0 
+  the last 12 passes, each contact's last sweep:
+    975 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -2.59913e-15 2.94894e-15 2.988e-17
+    975 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction -2.80923e-15 2.56145e-15 1.3884e-30
+    975 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction -2.80923e-15 2.56145e-15 1.51461e-30
+    975 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction -2.80923e-15 2.56145e-15 1.45939e-30
+    976 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -5.01705e-16 2.15858e-16 -8.19544e-18
+    976 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction -6.73779e-17 -5.45595e-17 -1.40269e-31
+    976 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction -6.73779e-17 -5.45595e-17 -1.37804e-31
+    976 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction -6.73779e-17 -5.45595e-17 -1.57772e-31
+    977 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -4.008e-12 -1.37803e-11 -1.18434e-12
+    977 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 1.83165e-12 4.06693e-12 -3.23117e-28
+    977 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 1.83165e-12 4.06693e-12 3.55429e-28
+    977 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 1.83165e-12 4.06693e-12 1.29247e-28
+    978 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -6.55138e-13 6.98824e-13 -1.73436e-17
+    978 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction -6.55675e-13 6.99707e-13 3.55276e-17
+    978 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction -6.5532e-13 6.99352e-13 -6.46235e-29
+    978 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction -6.5603e-13 6.98997e-13 5.32914e-17
+    979 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 2.14578e-13 -2.29203e-13 1.77103e-17
+    979 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 2.14079e-13 -2.28704e-13 1.77638e-17
+    979 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 2.14435e-13 -2.29059e-13 1.77638e-17
+    979 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 2.13724e-13 -2.29059e-13 1.77638e-17
+    980 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 5.51377e-14 -6.15482e-14 -3.85614e-17
+    980 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 5.62833e-14 -6.19226e-14 -7.10552e-17
+    980 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 5.52175e-14 -6.08567e-14 -3.55276e-17
+    980 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 5.52175e-14 -6.08567e-14 3.02923e-29
+    981 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 1.15881e-14 -1.09083e-14 2.93076e-17
+    981 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 1.13778e-14 -1.1284e-14 2.01948e-30
+    981 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 1.13778e-14 -1.1284e-14 5.04871e-31
+    981 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 1.13778e-14 -1.1284e-14 -3.54987e-31
+    982 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 2.55851e-15 -2.86184e-15 -8.58262e-18
+    982 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 2.753e-15 -2.88468e-15 -7.57306e-31
+    982 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 2.753e-15 -2.88468e-15 -8.83524e-31
+    982 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 2.753e-15 -2.88468e-15 -9.68327e-31
+    983 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -8.1075e-17 -2.89939e-18 -6.1991e-18
+    983 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 7.84381e-17 -3.84304e-17 7.98722e-31
+    983 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 7.84381e-17 -3.84304e-17 8.10555e-31
+    983 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 7.84381e-17 -3.84304e-17 7.80972e-31
+    984 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 9.9128e-17 -1.85707e-17 2.41356e-18
+    984 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 4.3362e-17 -1.10757e-17 -1.97215e-32
+    984 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 4.3362e-17 -1.10757e-17 -1.08468e-32
+    984 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 4.3362e-17 -1.10757e-17 -2.02146e-32
+    985 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction -4.98724e-13 1.4573e-14 -2.58626e-14
+    985 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 7.41303e-15 2.56874e-14 1.99424e-29
+    985 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 7.41303e-15 2.56874e-14 1.91851e-29
+    985 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 7.41303e-15 2.56874e-14 -8.07794e-30
+    986 contact 0 dim 4 normal 2.4525 kept cone 0.000000 friction 2.09191e-13 -4.15733e-14 -7.2844e-17
+    986 contact 1 dim 4 normal 2.4525 kept cone 0.000000 friction 2.10565e-13 -4.07791e-14 0
+    986 contact 2 dim 4 normal 2.4525 kept cone 0.000000 friction 2.10209e-13 -4.04238e-14 -3.55276e-17
+    986 contact 3 dim 4 normal 2.4525 kept cone 0.000000 friction 2.1092e-13 -4.14896e-14 -1.77638e-17
+  over all passes: kept 3944
+  over all passes: restored 4

@@ -1,0 +1,3 @@
+steps 0.00171 0.0004275; ladder 0.01 0.0025 0.000625 0.00015625; arm len1=0.279 len2=0.286 mass1=1.116 mass2=0.436 rb=0.0284 mb=0.199 mu=0.686; contact poses 0.555,0.905 1.157,-0.378 0.57,1.123 1.296,-0.403, set down from 0.00043, dropped from 0.0129; held poses 0.312,0.811 0.277,0.796 joint friction 5.15
+cube mass=1.56 radius=0.041 mu 0.462 limit 7.063056 N speed 0.94 Coulomb 97579 um; grip mass=0.21 radius=0.0334 mu=0.69 squeeze=2.61 offset 0.0092
+suite 1: SUITE_CUBE=mass=1.704 radius=0.0314 SUITE_H0=0.083 SUITE_VX=3.51 SUITE_VXCHAIN=1.28 SUITE_MU=0.416 SUITE_VSLIDE=3.62 SUITE_MUHOLD=0.436 SUITE_HOLD=4.368511 SUITE_SLIP=8.737021 SUITE_LIFT=50.0976; read with SUITE_MU10K=4160 SUITE_SLIPMN=8737

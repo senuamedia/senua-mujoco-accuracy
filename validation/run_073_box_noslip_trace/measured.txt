@@ -1,0 +1,32 @@
+per pass in trace/*.steps: pass sweeps first_improvement last_improvement contacts zero_returns_all_sweeps largest_change_last_sweep_N
+safe when off: 4 of 4 files byte for byte as released; traced byte for byte as untraced: 4 of 4; the trace build's stderr with the switch unset: 0 lines
+box_written passes 987; the last 12 passes with the box's speed (vx, um/s) at the step each ends:
+  975 2 0.00599099 1.57303e-08 4 0 0.1096 vx 13651
+  976 2 0.00407368 1.66309e-09 4 0 2.37435e-05 vx 3830
+  977 2 0.00519209 3.11557e-11 4 0 3.37919e-06 vx 564
+  978 2 0.00541862 1.39487e-13 4 0 3.21321e-07 vx 54
+  979 2 0.00468878 0 2 0 0.0338815 vx 58832
+  980 2 0.0118101 4.29589e-18 2 0 0.000206805 vx -76978
+  981 2 0.00599099 1.57303e-08 4 0 0.1096 vx 13651
+  982 2 0.00407368 1.66309e-09 4 0 2.37436e-05 vx 3830
+  983 2 0.00519209 3.11557e-11 4 0 3.37919e-06 vx 564
+  984 2 0.00541862 1.39487e-13 4 0 3.21321e-07 vx 54
+  985 2 0.00468878 0 2 0 0.0338815 vx 58832
+  986 2 0.0118101 7.62418e-18 2 0 0.000206805 vx -76978
+  last 160 steps faster than 1 mm/s: 106
+  over the last 160 passes: passes with a zero return 0; most sweeps 2; mean sweeps 2.00
+box_n100 passes 987; the last 12 passes with the box's speed (vx, um/s) at the step each ends:
+  975 2 0.00599099 1.57303e-08 4 0 0.1096 vx 13651
+  976 2 0.00407368 1.66309e-09 4 0 2.37435e-05 vx 3830
+  977 2 0.00519209 3.11557e-11 4 0 3.37919e-06 vx 564
+  978 2 0.00541862 1.39487e-13 4 0 3.21321e-07 vx 54
+  979 2 0.00468878 0 2 0 0.0338815 vx 58832
+  980 2 0.0118101 4.29589e-18 2 0 0.000206805 vx -76978
+  981 2 0.00599099 1.57303e-08 4 0 0.1096 vx 13651
+  982 2 0.00407368 1.66309e-09 4 0 2.37436e-05 vx 3830
+  983 2 0.00519209 3.11557e-11 4 0 3.37919e-06 vx 564
+  984 2 0.00541862 1.39487e-13 4 0 3.21321e-07 vx 54
+  985 2 0.00468878 0 2 0 0.0338815 vx 58832
+  986 2 0.0118101 7.62418e-18 2 0 0.000206805 vx -76978
+  last 160 steps faster than 1 mm/s: 106
+  over the last 160 passes: passes with a zero return 0; most sweeps 2; mean sweeps 2.00

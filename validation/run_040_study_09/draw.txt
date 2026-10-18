@@ -1,0 +1,26 @@
+dt_coarse 0.00163
+dt_fine 0.0004075
+len1 0.273
+len2 0.267
+mass1 1.023
+mass2 0.519
+rb 0.0271
+  (mb drawn again: 0.170)
+mb 0.161
+weld1_q1 0.197
+weld1_q2 0.627
+weld2_q1 0.305
+weld2_q2 0.961
+fold 2.234
+i1 0.011372
+i2 0.009324
+i3 0.007512
+  (spin drawn again: 3.43 -0.61 -2.17)
+  (spin drawn again: 1.47 -0.68 -0.93)
+  (spin drawn again: 3.49 -2.79 -1.5)
+  (spin drawn again: 0.86 -2.7 3.11)
+  (spin drawn again: 0.29 1.31 -1.7)
+  (spin drawn again: 0.48 -0.22 -1.46)
+w1 2.52
+w2 2
+w3 -0.83

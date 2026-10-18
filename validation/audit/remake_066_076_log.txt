@@ -1,0 +1,25 @@
+01:49:33 run_066_combined cleared
+01:49:33 run_067_stack_noslip_trace cleared
+01:49:33 run_068_full_set cleared
+01:49:33 run_069_stack_contacts cleared
+01:49:33 run_070_boxbox_clip cleared
+01:49:33 run_071_study_15 cleared
+01:49:33 run_072_boxbox_trace cleared
+01:49:33 run_073_box_noslip_trace cleared
+01:49:33 run_074_boxbox_collinear cleared
+01:49:33 run_075_set_with_collinear cleared
+01:49:33 run_076_box_rolling_trace cleared
+02:04:59 run 066 played, exit 0
+02:06:22 run 067 played, exit 0
+02:25:01 run 068 played, exit 0
+02:25:23 run 069 played, exit 0
+02:41:47 run 070 played, exit 0
+02:42:03 run 070 step 2 played, exit 0
+03:04:07 run 071 played, exit 0
+03:06:08 run 072 played, exit 0
+03:08:02 run 073 played, exit 0
+03:25:35 run 074 played, exit 0
+03:45:45 run 075 played, exit 0
+03:47:46 run 076 played, exit 0
+03:47:57 home folder written as ~ in the re-made outputs
+03:48:41 compared: 10634 same, 104 differ, 0 missing, 0 new

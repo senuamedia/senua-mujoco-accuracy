@@ -1,0 +1,14 @@
+dt_coarse 0.00165
+dt_fine 0.0004125
+cube_mass 1.381
+cube_half 0.0435
+cube_mu 0.369
+grip_mass 0.218
+grip_half 0.0336
+grip_mu 0.78
+  (grip_squeeze drawn again: 2.80)
+  (grip_squeeze drawn again: 3.01)
+  (grip_squeeze drawn again: 3.06)
+grip_squeeze 2.58
+  (grip_offset drawn again: 0.0070)
+grip_offset 0.0079

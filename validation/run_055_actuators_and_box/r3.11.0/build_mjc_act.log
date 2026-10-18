@@ -1,0 +1,30 @@
+tools/mjc_act.c: In function ‘main’:
+tools/mjc_act.c:155:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘mjtSize’ {aka ‘long int’} [-Wformat=]
+  155 |   printf("STATS act scene %s dt %g steps %ld most_iterations %d at_iteration_limit %ld iteration_limit %d warnings %d "
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  156 |          "nu %d ntendon %d engine mujoco %s extra%s\n", scene, dt, steps, mostIters, atLimit, m->opt.iterations, warnings,
+  157 |          m->nu, m->ntendon, mj_versionString(), extra[0] ? extra : " none");
+      |          ~~~~~
+      |           |
+      |           mjtSize {aka long int}
+tools/mjc_act.c:156:15: note: format string is defined here
+  156 |          "nu %d ntendon %d engine mujoco %s extra%s\n", scene, dt, steps, mostIters, atLimit, m->opt.iterations, warnings,
+      |              ~^
+      |               |
+      |               int
+      |              %ld
+tools/mjc_act.c:155:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘mjtSize’ {aka ‘long int’} [-Wformat=]
+  155 |   printf("STATS act scene %s dt %g steps %ld most_iterations %d at_iteration_limit %ld iteration_limit %d warnings %d "
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  156 |          "nu %d ntendon %d engine mujoco %s extra%s\n", scene, dt, steps, mostIters, atLimit, m->opt.iterations, warnings,
+  157 |          m->nu, m->ntendon, mj_versionString(), extra[0] ? extra : " none");
+      |                 ~~~~~~~~~~
+      |                  |
+      |                  mjtSize {aka long int}
+tools/mjc_act.c:156:26: note: format string is defined here
+  156 |          "nu %d ntendon %d engine mujoco %s extra%s\n", scene, dt, steps, mostIters, atLimit, m->opt.iterations, warnings,
+      |                         ~^
+      |                          |
+      |                          int
+      |                         %ld
+built tools/mjc_act against ~/work/mujoco-3.11.0

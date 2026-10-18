@@ -1,0 +1,8 @@
+damping 20, step 0.002, impedance default | FINAL dt_ns 2000000 angle_urad 397252 speed_urads 1466225
+damping 20, step 0.002, impedance 0.9999 0.9999 0.001 | FINAL dt_ns 2000000 angle_urad 397252 speed_urads 1466225
+damping 20, step 0.00003125, impedance default | FINAL dt_ns 31250 angle_urad 379869 speed_urads 1434544
+damping 20, step 0.00003125, impedance 0.9999 0.9999 0.001 | FINAL dt_ns 31250 angle_urad 379869 speed_urads 1434544
+damping 150, step 0.002, impedance default | FINAL dt_ns 2000000 angle_urad -135602 speed_urads 388860
+damping 150, step 0.002, impedance 0.9999 0.9999 0.001 | FINAL dt_ns 2000000 angle_urad -135602 speed_urads 388860
+damping 150, step 0.00003125, impedance default | FINAL dt_ns 31250 angle_urad -145865 speed_urads 369551
+damping 150, step 0.00003125, impedance 0.9999 0.9999 0.001 | FINAL dt_ns 31250 angle_urad -145865 speed_urads 369551

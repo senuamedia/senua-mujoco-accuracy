@@ -1,0 +1,21 @@
+CHANGE 1 pair 1-2 at 0.71022 s: 4 -> 6 contacts
+  before: BOXBOX time 0.70908 geoms 1 2 corners_outside 0 1.38778e-17 yaw_sin 7.78767e-17 tilt 6.81976e-15 clipped 4 contacts 4
+  at:     BOXBOX time 0.71022 geoms 1 2 corners_outside -6.93889e-18 1.38778e-17 yaw_sin 8.32488e-17 tilt 7.38556e-15 clipped 6 contacts 6
+CHANGE 2 pair 1-2 at 0.77292 s: 6 -> 4 contacts
+  before: BOXBOX time 0.77178 geoms 1 2 corners_outside -6.93889e-18 1.38778e-17 yaw_sin 1.28999e-16 tilt 4.14315e-16 clipped 6 contacts 6
+  at:     BOXBOX time 0.77292 geoms 1 2 corners_outside 0 1.38778e-17 yaw_sin 1.29149e-16 tilt 3.58813e-16 clipped 4 contacts 4
+CHANGE 3 pair 3-4 at 1.47972 s: 4 -> 6 contacts
+  before: BOXBOX time 1.47858 geoms 3 4 corners_outside 0 1.38778e-17 yaw_sin 1.87687e-16 tilt 7.40444e-14 clipped 4 contacts 4
+  at:     BOXBOX time 1.47972 geoms 3 4 corners_outside 0 1.38778e-17 yaw_sin 1.88197e-16 tilt 7.58257e-14 clipped 6 contacts 6
+CHANGE 4 pair 3-4 at 1.48428 s: 6 -> 4 contacts
+  before: BOXBOX time 1.48314 geoms 3 4 corners_outside 0 1.38778e-17 yaw_sin 1.89225e-16 tilt 7.76802e-14 clipped 6 contacts 6
+  at:     BOXBOX time 1.48428 geoms 3 4 corners_outside 0 1.38778e-17 yaw_sin 1.89515e-16 tilt 7.73475e-14 clipped 4 contacts 4
+PAIR 5-6 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 7.53443e-17 most_tilt 4.83293e-14
+PAIR 3-4 first_change_s 1.47972 until_then most_corner_outside_m 2.77556e-17 most_yaw_sin 1.88197e-16 most_tilt 7.58257e-14
+PAIR 1-2 first_change_s 0.71022 until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 8.32488e-17 most_tilt 7.38556e-15
+PAIR 8-9 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 8.33885e-18 most_tilt 9.77512e-15
+PAIR 6-7 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 4.72101e-17 most_tilt 3.11655e-14
+PAIR 4-5 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 2.56658e-16 most_tilt 6.71213e-14
+PAIR 2-3 first_change_s none until_then most_corner_outside_m 5.55112e-17 most_yaw_sin 1.54793e-16 most_tilt 7.43816e-14
+PAIR 7-8 first_change_s none until_then most_corner_outside_m 2.08167e-17 most_yaw_sin 2.12053e-17 most_tilt 1.85156e-14
+CHANGES 4

@@ -1,0 +1,2 @@
+steps 0.00174 0.000435; cube mass=1.505 radius=0.0437 slid at 0.91 m/s for 2 s on a ground of friction 0, along 0 22.5 45 degrees, locked 1 0
+under condim 3 MuJoCo raises the friction to 1e-5 (mjMINMU): the speed that friction takes in 2 s, 1e-5 g t, is 196 um/s

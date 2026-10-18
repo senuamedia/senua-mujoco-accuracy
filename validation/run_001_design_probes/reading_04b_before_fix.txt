@@ -1,0 +1,6 @@
+damping 20, solimplimit 0.9 0.95 0.001, 1/64 | FINAL dt_ns 31250 angle_urad 152493 speed_urads 985484
+damping 20, solimplimit 0.99 0.99 0.001, 1/64 | FINAL dt_ns 31250 angle_urad 152493 speed_urads 985484
+damping 20, solimplimit 0.9999 0.9999 0.001, 1/64 | FINAL dt_ns 31250 angle_urad 152493 speed_urads 985484
+damping 150, solimplimit 0.9 0.95 0.001, 1/64 | FINAL dt_ns 31250 angle_urad -162453 speed_urads 338227
+damping 150, solimplimit 0.99 0.99 0.001, 1/64 | FINAL dt_ns 31250 angle_urad -162453 speed_urads 338227
+damping 150, solimplimit 0.9999 0.9999 0.001, 1/64 | FINAL dt_ns 31250 angle_urad -162453 speed_urads 338227

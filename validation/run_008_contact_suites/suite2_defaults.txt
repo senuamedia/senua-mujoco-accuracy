@@ -1,0 +1,20 @@
+stop 1/1 | STOP dt_ns 10000000 first_stopped_at_step 30 largest_speed_last_third_ums 0 slid_um 177953 came_back_um 10
+stop 1/4 | STOP dt_ns 2500000 first_stopped_at_step 156 largest_speed_last_third_ums 0 slid_um 182332 came_back_um 0
+stop 1/16 | STOP dt_ns 625000 first_stopped_at_step 645 largest_speed_last_third_ums 0 slid_um 183475 came_back_um 0
+stop 1/64 | STOP dt_ns 156250 first_stopped_at_step 2598 largest_speed_last_third_ums 0 slid_um 183450 came_back_um 0
+land 1/1 | STOP dt_ns 10000000 first_stopped_at_step 30 largest_speed_last_third_ums 0 slid_um 217944 came_back_um 9
+land 1/4 | STOP dt_ns 2500000 first_stopped_at_step 156 largest_speed_last_third_ums 0 slid_um 222326 came_back_um 0
+land 1/16 | STOP dt_ns 625000 first_stopped_at_step 643 largest_speed_last_third_ums 0 slid_um 223509 came_back_um 0
+land 1/64 | STOP dt_ns 156250 first_stopped_at_step 2593 largest_speed_last_third_ums 0 slid_um 223442 came_back_um 0
+rest 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+carry 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 124944940 per_million -1 final_speed_a_ums 3674952 final_speed_b_ums 3674111 relative_mean_ums -3631 force_up_a_mN 29407 force_up_b_mN 3924
+slip A 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7693 final_speed_ums 3016180
+slip B 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 4769 final_speed_ums 2406805
+side 1/1 | PAIR dt_ns 10000000 momentum_at_release 6000000 largest_change 220 per_million 36 final_speed_a_ums 216718 final_speed_b_ums -125387 relative_mean_ums -342105 force_up_a_mN 0 force_up_b_mN 0
+top 1/1 | PAIR dt_ns 10000000 momentum_at_release 4000000 largest_change 11740 per_million 2935 final_speed_a_ums 117852 final_speed_b_ums 117852 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+rest 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+carry 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 124964340 per_million -1 final_speed_a_ums 3675535 final_speed_b_ums 3674617 relative_mean_ums -1031 force_up_a_mN 29370 force_up_b_mN 3951
+slip A 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7529 final_speed_ums 3029161
+slip B 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 6005 final_speed_ums 2270956
+side 1/16 | PAIR dt_ns 625000 momentum_at_release 6000000 largest_change 300 per_million 50 final_speed_a_ums 199290 final_speed_b_ums 5323 relative_mean_ums -193967 force_up_a_mN 0 force_up_b_mN 0
+top 1/16 | PAIR dt_ns 625000 momentum_at_release 4000000 largest_change 5000 per_million 1250 final_speed_a_ums 117500 final_speed_b_ums 117500 relative_mean_ums 0 force_up_a_mN 29398 force_up_b_mN 3919

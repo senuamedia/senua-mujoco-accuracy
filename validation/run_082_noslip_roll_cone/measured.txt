@@ -1,0 +1,28 @@
+files rel against off: 35 of 35 the same
+files rel against on: 31 of 35 the same
+differ rel against on: p/box_n100.txt
+differ rel against on: p/box_written.txt
+differ rel against on: p/free_c6_0.000285.txt
+differ rel against on: p/free_c6_0.00114.txt
+rel box_written last 160 steps faster than 1 mm/s: 106, fastest 76978 um/s
+rel box_n100 last 160 steps faster than 1 mm/s: 106, fastest 76978 um/s
+rel box_condim4 last 160 steps faster than 1 mm/s: 0, fastest 0 um/s
+rel condim 6 0.00114 holds_creep_ums 498 946 slide_slid_um 133045 slide_highest_um 97 free_slid_um 134901
+rel condim 3 0.00114 holds_creep_ums 0 0 slide_slid_um 133036 slide_highest_um 97 free_slid_um 136043
+rel grips 0.00114 creep_ums 1 0 1 0 
+rel condim 6 0.000285 holds_creep_ums 498 946 slide_slid_um 133480 slide_highest_um 32 free_slid_um 135741
+rel condim 3 0.000285 holds_creep_ums 0 0 slide_slid_um 133471 slide_highest_um 32 free_slid_um 135734
+rel grips 0.000285 creep_ums 1 0 1 0 
+rel solver most_iterations 76 at_iteration_limit 0 warnings 0
+on box_written last 160 steps faster than 1 mm/s: 0, fastest 0 um/s
+on box_n100 last 160 steps faster than 1 mm/s: 0, fastest 0 um/s
+on box_condim4 last 160 steps faster than 1 mm/s: 0, fastest 0 um/s
+on condim 6 0.00114 holds_creep_ums 498 946 slide_slid_um 133045 slide_highest_um 97 free_slid_um 134901
+on condim 3 0.00114 holds_creep_ums 0 0 slide_slid_um 133036 slide_highest_um 97 free_slid_um 136043
+on grips 0.00114 creep_ums 1 0 1 0 
+on condim 6 0.000285 holds_creep_ums 498 946 slide_slid_um 133480 slide_highest_um 32 free_slid_um 135742
+on condim 3 0.000285 holds_creep_ums 0 0 slide_slid_um 133471 slide_highest_um 32 free_slid_um 135734
+on grips 0.000285 creep_ums 1 0 1 0 
+on solver most_iterations 15 at_iteration_limit 0 warnings 0
+MuJoCo suite: 3492 tests; changed with the switch set: 0
+MuJoCo suite, the switch unset against the release (run 064's suite_results_release.txt): 0 tests read differently

@@ -1,0 +1,35 @@
+CHANGE 1 pair 3-4 at 0.78945 s: 4 -> 6 contacts
+  before: BOXBOX time 0.789165 geoms 3 4 corners_outside -6.93889e-18 2.77556e-17 yaw_sin 2.45185e-16 tilt 4.18385e-14 clipped 4 contacts 4
+  at:     BOXBOX time 0.78945 geoms 3 4 corners_outside -6.93889e-18 2.77556e-17 yaw_sin 2.46453e-16 tilt 4.1959e-14 clipped 6 contacts 6
+CHANGE 2 pair 1-2 at 0.789735 s: 4 -> 6 contacts
+  before: BOXBOX time 0.78945 geoms 1 2 corners_outside -1.38778e-17 2.77556e-17 yaw_sin 9.73124e-17 tilt 2.36109e-14 clipped 4 contacts 4
+  at:     BOXBOX time 0.789735 geoms 1 2 corners_outside -2.25384e-12 8.25008e-12 yaw_sin 5.50209e-11 tilt 2.78691e-08 clipped 6 contacts 6
+CHANGE 3 pair 2-3 at 0.789735 s: 4 -> 6 contacts
+  before: BOXBOX time 0.78945 geoms 2 3 corners_outside 0 2.08167e-17 yaw_sin 2.88304e-17 tilt 3.70974e-14 clipped 4 contacts 4
+  at:     BOXBOX time 0.789735 geoms 2 3 corners_outside -7.6654e-12 2.1081e-11 yaw_sin 1.35705e-10 tilt 3.82286e-08 clipped 6 contacts 6
+CHANGE 4 pair 1-2 at 0.79002 s: 6 -> 8 contacts
+  before: BOXBOX time 0.789735 geoms 1 2 corners_outside -2.25384e-12 8.25008e-12 yaw_sin 5.50209e-11 tilt 2.78691e-08 clipped 6 contacts 6
+  at:     BOXBOX time 0.79002 geoms 1 2 corners_outside 5.82451e-14 4.36851e-12 yaw_sin 5.22025e-11 tilt 7.41079e-09 clipped 8 contacts 8
+CHANGE 5 pair 1-2 at 0.790305 s: 8 -> 4 contacts
+  before: BOXBOX time 0.79002 geoms 1 2 corners_outside 5.82451e-14 4.36851e-12 yaw_sin 5.22025e-11 tilt 7.41079e-09 clipped 8 contacts 8
+  at:     BOXBOX time 0.790305 geoms 1 2 corners_outside -1.03922e-11 1.03046e-10 yaw_sin 1.95303e-10 tilt 3.07655e-07 clipped 4 contacts 4
+CHANGE 6 pair 3-4 at 0.790305 s: 6 -> 4 contacts
+  before: BOXBOX time 0.79002 geoms 3 4 corners_outside -1.58688e-11 1.56787e-10 yaw_sin 2.42623e-10 tilt 7.94423e-07 clipped 6 contacts 6
+  at:     BOXBOX time 0.790305 geoms 3 4 corners_outside -1.46601e-11 3.03686e-10 yaw_sin 2.84872e-11 tilt 1.64883e-06 clipped 4 contacts 4
+CHANGE 7 pair 2-3 at 0.791445 s: 6 -> 8 contacts
+  before: BOXBOX time 0.79116 geoms 2 3 corners_outside -7.43293e-11 4.11683e-10 yaw_sin 3.97845e-09 tilt 6.65203e-07 clipped 6 contacts 6
+  at:     BOXBOX time 0.791445 geoms 2 3 corners_outside 1.21407e-10 3.29774e-10 yaw_sin 5.32057e-09 tilt 3.89725e-07 clipped 8 contacts 8
+CHANGE 8 pair 2-3 at 0.792015 s: 8 -> 6 contacts
+  before: BOXBOX time 0.79173 geoms 2 3 corners_outside 1.45757e-10 4.09282e-10 yaw_sin 6.54525e-09 tilt 5.95683e-07 clipped 8 contacts 8
+  at:     BOXBOX time 0.792015 geoms 2 3 corners_outside -3.07709e-11 6.95822e-10 yaw_sin 7.84299e-09 tilt 8.94404e-07 clipped 6 contacts 6
+CHANGE 9 pair 2-3 at 0.792585 s: 6 -> 8 contacts
+  before: BOXBOX time 0.7923 geoms 2 3 corners_outside -3.50749e-11 7.88581e-10 yaw_sin 8.88627e-09 tilt 1.11084e-06 clipped 6 contacts 6
+  at:     BOXBOX time 0.792585 geoms 2 3 corners_outside 7.79699e-11 7.41412e-10 yaw_sin 9.66227e-09 tilt 1.35648e-06 clipped 8 contacts 8
+CHANGE 10 pair 2-3 at 0.79344 s: 8 -> 6 contacts
+  before: BOXBOX time 0.793155 geoms 2 3 corners_outside 6.86023e-11 9.25086e-10 yaw_sin 1.17174e-08 tilt 1.66309e-06 clipped 8 contacts 8
+  at:     BOXBOX time 0.79344 geoms 2 3 corners_outside -9.30691e-12 1.1114e-09 yaw_sin 1.29978e-08 tilt 1.72024e-06 clipped 6 contacts 6
+PAIR 3-4 first_change_s 0.78945 until_then most_corner_outside_m 2.77556e-17 most_yaw_sin 2.46453e-16 most_tilt 4.1959e-14
+PAIR 1-2 first_change_s 0.789735 until_then most_corner_outside_m 8.25008e-12 most_yaw_sin 5.50209e-11 most_tilt 2.78691e-08
+PAIR 4-5 first_change_s 0.79401 until_then most_corner_outside_m 8.05548e-11 most_yaw_sin 1.74585e-10 most_tilt 6.78124e-07
+PAIR 2-3 first_change_s 0.789735 until_then most_corner_outside_m 2.1081e-11 most_yaw_sin 1.35705e-10 most_tilt 3.82286e-08
+CHANGES 297

@@ -1,0 +1,195 @@
+release arm defaults A rest 0.002 straight apart_nm 64834 speed_apart_ums 338
+release arm defaults A rest 0.002 folded apart_nm 27132 speed_apart_ums 143
+release creep defaults A 0.002 native mean_speed_ums -852
+release creep defaults A 0.002 straight mean_speed_ums -519
+release creep defaults A 0.002 folded mean_speed_ums -711
+release arm defaults A rest 0.0005 straight apart_nm 64835 speed_apart_ums 338
+release arm defaults A rest 0.0005 folded apart_nm 27135 speed_apart_ums 143
+release creep defaults A 0.0005 native mean_speed_ums -852
+release creep defaults A 0.0005 straight mean_speed_ums -519
+release creep defaults A 0.0005 folded mean_speed_ums -711
+release arm defaults A drop 0.002 straight apart_nm 65149 speed_apart_ums 270
+release arm defaults A drop 0.002 folded apart_nm 27268 speed_apart_ums 113
+release arm defaults A drop 0.0005 straight apart_nm 65156 speed_apart_ums 269
+release arm defaults A drop 0.0005 folded apart_nm 27271 speed_apart_ums 113
+release arm defaults B rest 0.002 straight apart_nm 13338 speed_apart_ums 124
+release arm defaults B rest 0.002 folded apart_nm 1204 speed_apart_ums 10
+release creep defaults B 0.002 native mean_speed_ums -503
+release creep defaults B 0.002 straight mean_speed_ums -376
+release creep defaults B 0.002 folded mean_speed_ums -513
+release arm defaults B rest 0.0005 straight apart_nm 13344 speed_apart_ums 123
+release arm defaults B rest 0.0005 folded apart_nm 1195 speed_apart_ums 11
+release creep defaults B 0.0005 native mean_speed_ums -503
+release creep defaults B 0.0005 straight mean_speed_ums -377
+release creep defaults B 0.0005 folded mean_speed_ums -514
+release arm defaults B drop 0.002 straight apart_nm 13494 speed_apart_ums 93
+release arm defaults B drop 0.002 folded apart_nm 1205 speed_apart_ums 8
+release arm defaults B drop 0.0005 straight apart_nm 13494 speed_apart_ums 93
+release arm defaults B drop 0.0005 folded apart_nm 1206 speed_apart_ums 8
+release arm recommended A rest 0.002 straight apart_nm 106549 speed_apart_ums 0
+release arm recommended A rest 0.002 folded apart_nm 42952 speed_apart_ums 0
+release creep recommended A 0.002 native mean_speed_ums 0
+release creep recommended A 0.002 straight mean_speed_ums 0
+release creep recommended A 0.002 folded mean_speed_ums 0
+release arm recommended A rest 0.0005 straight apart_nm 106549 speed_apart_ums 0
+release arm recommended A rest 0.0005 folded apart_nm 42955 speed_apart_ums 0
+release creep recommended A 0.0005 native mean_speed_ums 0
+release creep recommended A 0.0005 straight mean_speed_ums 0
+release creep recommended A 0.0005 folded mean_speed_ums 0
+release arm recommended A drop 0.002 straight apart_nm 106689 speed_apart_ums 0
+release arm recommended A drop 0.002 folded apart_nm 43005 speed_apart_ums 0
+release arm recommended A drop 0.0005 straight apart_nm 106694 speed_apart_ums 0
+release arm recommended A drop 0.0005 folded apart_nm 43007 speed_apart_ums 0
+release arm recommended B rest 0.002 straight apart_nm 24881 speed_apart_ums 77
+release arm recommended B rest 0.002 folded apart_nm 2239 speed_apart_ums 5
+release creep recommended B 0.002 native mean_speed_ums -309
+release creep recommended B 0.002 straight mean_speed_ums -231
+release creep recommended B 0.002 folded mean_speed_ums -314
+release arm recommended B rest 0.0005 straight apart_nm 24887 speed_apart_ums 76
+release arm recommended B rest 0.0005 folded apart_nm 2212 speed_apart_ums 7
+release creep recommended B 0.0005 native mean_speed_ums -308
+release creep recommended B 0.0005 straight mean_speed_ums -231
+release creep recommended B 0.0005 folded mean_speed_ums -315
+release arm recommended B drop 0.002 straight apart_nm 25187 speed_apart_ums 56
+release arm recommended B drop 0.002 folded apart_nm 2241 speed_apart_ums 5
+release arm recommended B drop 0.0005 straight apart_nm 25179 speed_apart_ums 57
+release arm recommended B drop 0.0005 folded apart_nm 2243 speed_apart_ums 5
+release swing E 0.002 straight apart_nm 838369 speed_apart_ums 2315
+release swing E 0.002 folded apart_nm 1240092 speed_apart_ums 3731
+release swing E 0.0005 straight apart_nm 638275 speed_apart_ums 261
+release swing E 0.0005 folded apart_nm 938952 speed_apart_ums 947
+release swing F 0.002 straight apart_nm 348240 speed_apart_ums 7237
+release swing F 0.002 folded apart_nm 138718 speed_apart_ums 2799
+release swing F 0.0005 straight apart_nm 415786 speed_apart_ums 8940
+release swing F 0.0005 folded apart_nm 190002 speed_apart_ums 4106
+release solver at_iteration_limit 0 warnings 0
+off arm defaults A rest 0.002 straight apart_nm 64834 speed_apart_ums 338
+off arm defaults A rest 0.002 folded apart_nm 27132 speed_apart_ums 143
+off creep defaults A 0.002 native mean_speed_ums -852
+off creep defaults A 0.002 straight mean_speed_ums -519
+off creep defaults A 0.002 folded mean_speed_ums -711
+off arm defaults A rest 0.0005 straight apart_nm 64835 speed_apart_ums 338
+off arm defaults A rest 0.0005 folded apart_nm 27135 speed_apart_ums 143
+off creep defaults A 0.0005 native mean_speed_ums -852
+off creep defaults A 0.0005 straight mean_speed_ums -519
+off creep defaults A 0.0005 folded mean_speed_ums -711
+off arm defaults A drop 0.002 straight apart_nm 65149 speed_apart_ums 270
+off arm defaults A drop 0.002 folded apart_nm 27268 speed_apart_ums 113
+off arm defaults A drop 0.0005 straight apart_nm 65156 speed_apart_ums 269
+off arm defaults A drop 0.0005 folded apart_nm 27271 speed_apart_ums 113
+off arm defaults B rest 0.002 straight apart_nm 13338 speed_apart_ums 124
+off arm defaults B rest 0.002 folded apart_nm 1204 speed_apart_ums 10
+off creep defaults B 0.002 native mean_speed_ums -503
+off creep defaults B 0.002 straight mean_speed_ums -376
+off creep defaults B 0.002 folded mean_speed_ums -513
+off arm defaults B rest 0.0005 straight apart_nm 13344 speed_apart_ums 123
+off arm defaults B rest 0.0005 folded apart_nm 1195 speed_apart_ums 11
+off creep defaults B 0.0005 native mean_speed_ums -503
+off creep defaults B 0.0005 straight mean_speed_ums -377
+off creep defaults B 0.0005 folded mean_speed_ums -514
+off arm defaults B drop 0.002 straight apart_nm 13494 speed_apart_ums 93
+off arm defaults B drop 0.002 folded apart_nm 1205 speed_apart_ums 8
+off arm defaults B drop 0.0005 straight apart_nm 13494 speed_apart_ums 93
+off arm defaults B drop 0.0005 folded apart_nm 1206 speed_apart_ums 8
+off arm recommended A rest 0.002 straight apart_nm 106549 speed_apart_ums 0
+off arm recommended A rest 0.002 folded apart_nm 42952 speed_apart_ums 0
+off creep recommended A 0.002 native mean_speed_ums 0
+off creep recommended A 0.002 straight mean_speed_ums 0
+off creep recommended A 0.002 folded mean_speed_ums 0
+off arm recommended A rest 0.0005 straight apart_nm 106549 speed_apart_ums 0
+off arm recommended A rest 0.0005 folded apart_nm 42955 speed_apart_ums 0
+off creep recommended A 0.0005 native mean_speed_ums 0
+off creep recommended A 0.0005 straight mean_speed_ums 0
+off creep recommended A 0.0005 folded mean_speed_ums 0
+off arm recommended A drop 0.002 straight apart_nm 106689 speed_apart_ums 0
+off arm recommended A drop 0.002 folded apart_nm 43005 speed_apart_ums 0
+off arm recommended A drop 0.0005 straight apart_nm 106694 speed_apart_ums 0
+off arm recommended A drop 0.0005 folded apart_nm 43007 speed_apart_ums 0
+off arm recommended B rest 0.002 straight apart_nm 24881 speed_apart_ums 77
+off arm recommended B rest 0.002 folded apart_nm 2239 speed_apart_ums 5
+off creep recommended B 0.002 native mean_speed_ums -309
+off creep recommended B 0.002 straight mean_speed_ums -231
+off creep recommended B 0.002 folded mean_speed_ums -314
+off arm recommended B rest 0.0005 straight apart_nm 24887 speed_apart_ums 76
+off arm recommended B rest 0.0005 folded apart_nm 2212 speed_apart_ums 7
+off creep recommended B 0.0005 native mean_speed_ums -308
+off creep recommended B 0.0005 straight mean_speed_ums -231
+off creep recommended B 0.0005 folded mean_speed_ums -315
+off arm recommended B drop 0.002 straight apart_nm 25187 speed_apart_ums 56
+off arm recommended B drop 0.002 folded apart_nm 2241 speed_apart_ums 5
+off arm recommended B drop 0.0005 straight apart_nm 25179 speed_apart_ums 57
+off arm recommended B drop 0.0005 folded apart_nm 2243 speed_apart_ums 5
+off swing E 0.002 straight apart_nm 838369 speed_apart_ums 2315
+off swing E 0.002 folded apart_nm 1240092 speed_apart_ums 3731
+off swing E 0.0005 straight apart_nm 638275 speed_apart_ums 261
+off swing E 0.0005 folded apart_nm 938952 speed_apart_ums 947
+off swing F 0.002 straight apart_nm 348240 speed_apart_ums 7237
+off swing F 0.002 folded apart_nm 138718 speed_apart_ums 2799
+off swing F 0.0005 straight apart_nm 415786 speed_apart_ums 8940
+off swing F 0.0005 folded apart_nm 190002 speed_apart_ums 4106
+off solver at_iteration_limit 0 warnings 0
+on arm defaults A rest 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm defaults A rest 0.002 folded apart_nm 2 speed_apart_ums 1
+on creep defaults A 0.002 native mean_speed_ums -852
+on creep defaults A 0.002 straight mean_speed_ums -852
+on creep defaults A 0.002 folded mean_speed_ums -851
+on arm defaults A rest 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm defaults A rest 0.0005 folded apart_nm 0 speed_apart_ums 0
+on creep defaults A 0.0005 native mean_speed_ums -852
+on creep defaults A 0.0005 straight mean_speed_ums -852
+on creep defaults A 0.0005 folded mean_speed_ums -852
+on arm defaults A drop 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm defaults A drop 0.002 folded apart_nm 0 speed_apart_ums 0
+on arm defaults A drop 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm defaults A drop 0.0005 folded apart_nm 0 speed_apart_ums 0
+on arm defaults B rest 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm defaults B rest 0.002 folded apart_nm 0 speed_apart_ums 0
+on creep defaults B 0.002 native mean_speed_ums -607
+on creep defaults B 0.002 straight mean_speed_ums -607
+on creep defaults B 0.002 folded mean_speed_ums -607
+on arm defaults B rest 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm defaults B rest 0.0005 folded apart_nm 0 speed_apart_ums 0
+on creep defaults B 0.0005 native mean_speed_ums -606
+on creep defaults B 0.0005 straight mean_speed_ums -606
+on creep defaults B 0.0005 folded mean_speed_ums -606
+on arm defaults B drop 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm defaults B drop 0.002 folded apart_nm 0 speed_apart_ums 0
+on arm defaults B drop 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm defaults B drop 0.0005 folded apart_nm 0 speed_apart_ums 0
+on arm recommended A rest 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm recommended A rest 0.002 folded apart_nm 2 speed_apart_ums 0
+on creep recommended A 0.002 native mean_speed_ums 0
+on creep recommended A 0.002 straight mean_speed_ums 0
+on creep recommended A 0.002 folded mean_speed_ums 0
+on arm recommended A rest 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm recommended A rest 0.0005 folded apart_nm 1 speed_apart_ums 0
+on creep recommended A 0.0005 native mean_speed_ums 0
+on creep recommended A 0.0005 straight mean_speed_ums 0
+on creep recommended A 0.0005 folded mean_speed_ums 0
+on arm recommended A drop 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm recommended A drop 0.002 folded apart_nm 0 speed_apart_ums 0
+on arm recommended A drop 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm recommended A drop 0.0005 folded apart_nm 0 speed_apart_ums 0
+on arm recommended B rest 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm recommended B rest 0.002 folded apart_nm 0 speed_apart_ums 0
+on creep recommended B 0.002 native mean_speed_ums -371
+on creep recommended B 0.002 straight mean_speed_ums -371
+on creep recommended B 0.002 folded mean_speed_ums -371
+on arm recommended B rest 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm recommended B rest 0.0005 folded apart_nm 0 speed_apart_ums 0
+on creep recommended B 0.0005 native mean_speed_ums -371
+on creep recommended B 0.0005 straight mean_speed_ums -371
+on creep recommended B 0.0005 folded mean_speed_ums -371
+on arm recommended B drop 0.002 straight apart_nm 0 speed_apart_ums 0
+on arm recommended B drop 0.002 folded apart_nm 0 speed_apart_ums 0
+on arm recommended B drop 0.0005 straight apart_nm 0 speed_apart_ums 0
+on arm recommended B drop 0.0005 folded apart_nm 0 speed_apart_ums 0
+on swing E 0.002 straight apart_nm 0 speed_apart_ums 0
+on swing E 0.002 folded apart_nm 0 speed_apart_ums 0
+on swing E 0.0005 straight apart_nm 0 speed_apart_ums 0
+on swing E 0.0005 folded apart_nm 0 speed_apart_ums 0
+on swing F 0.002 straight apart_nm 0 speed_apart_ums 0
+on swing F 0.002 folded apart_nm 0 speed_apart_ums 0
+on swing F 0.0005 straight apart_nm 0 speed_apart_ums 0
+on swing F 0.0005 folded apart_nm 0 speed_apart_ums 0
+on solver at_iteration_limit 0 warnings 0

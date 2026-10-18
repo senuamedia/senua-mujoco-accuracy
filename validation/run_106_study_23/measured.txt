@@ -1,0 +1,648 @@
+set g1 a 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3831680000
+set g1 a 3 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5790810000
+set g1 a 3 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7296630000
+set g1 a 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3831080000
+set g1 a 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5750400000
+set g1 a 3 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7647110000
+set g1 a 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3831180000
+set g1 a 3 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5789640000
+set g1 a 3 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7295450000
+set g1 a 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3830590000
+set g1 a 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5749610000
+set g1 a 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7647050000
+set g1 a 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3831420000
+set g1 a 4 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5791830000
+set g1 a 4 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7297330000
+set g1 a 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3831080000
+set g1 a 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5750400000
+set g1 a 4 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7647110000
+set g1 a 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3830930000
+set g1 a 4 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5790650000
+set g1 a 4 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7296140000
+set g1 a 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3830590000
+set g1 a 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5749610000
+set g1 a 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7647050000
+set g1 a 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3831420000
+set g1 a 6 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5791830000
+set g1 a 6 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7297320000
+set g1 a 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3831080000
+set g1 a 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5750400000
+set g1 a 6 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7647100000
+set g1 a 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3830930000
+set g1 a 6 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5790650000
+set g1 a 6 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7296140000
+set g1 a 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3830590000
+set g1 a 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5749610000
+set g1 a 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7647030000
+set g1 b 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4563130000
+set g1 b 3 0.001729 0 0.75 creep_ums 201 fwdinv_nn 6991280000
+set g1 b 3 0.001729 0 0.95 creep_ums 1500 fwdinv_nn 9555660000
+set g1 b 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4564400000
+set g1 b 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 7142100000
+set g1 b 3 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8709630000
+set g1 b 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4562540000
+set g1 b 3 0.00043225 0 0.75 creep_ums 65 fwdinv_nn 7054360000
+set g1 b 3 0.00043225 0 0.95 creep_ums 1296 fwdinv_nn 9565670000
+set g1 b 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4563790000
+set g1 b 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 7141660000
+set g1 b 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8707970000
+set g1 b 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4562630000
+set g1 b 4 0.001729 0 0.75 creep_ums 201 fwdinv_nn 6991940000
+set g1 b 4 0.001729 0 0.95 creep_ums 1500 fwdinv_nn 9555840000
+set g1 b 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4564400000
+set g1 b 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 7142080000
+set g1 b 4 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8709630000
+set g1 b 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4562050000
+set g1 b 4 0.00043225 0 0.75 creep_ums 129 fwdinv_nn 6990620000
+set g1 b 4 0.00043225 0 0.95 creep_ums 1337 fwdinv_nn 9565840000
+set g1 b 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4563790000
+set g1 b 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 7141650000
+set g1 b 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8707970000
+set g1 b 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4562630000
+set g1 b 6 0.001729 0 0.75 creep_ums 201 fwdinv_nn 6991940000
+set g1 b 6 0.001729 0 0.95 creep_ums 1500 fwdinv_nn 9555840000
+set g1 b 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4564400000
+set g1 b 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 7142080000
+set g1 b 6 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8709630000
+set g1 b 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4562050000
+set g1 b 6 0.00043225 0 0.75 creep_ums 129 fwdinv_nn 6990620000
+set g1 b 6 0.00043225 0 0.95 creep_ums 1337 fwdinv_nn 9565840000
+set g1 b 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4563780000
+set g1 b 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 7141640000
+set g1 b 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8707970000
+set g9 offset 1 0.000741 1 lean_urad 250 turn_urads 1
+set g9 offset 1 0.000741 2 lean_urad 673 turn_urads 239
+set g9 offset 1 0.000741 3 lean_urad 1517 turn_urads 219
+set g9 offset 2 0.000741 1 lean_urad 557 turn_urads 1
+set g9 offset 2 0.000741 2 lean_urad 1236 turn_urads 8
+set g9 offset 2 0.000741 3 lean_urad 451 turn_urads 7
+set g9 offset 3 0.000741 1 lean_urad 1805 turn_urads 4
+set g9 offset 3 0.000741 2 lean_urad 5359 turn_urads 14
+set g9 offset 3 0.000741 3 lean_urad 5078 turn_urads 15
+set g9 straight 3 0.000741 1 depth_nm 293669
+set g9 straight 3 0.000741 2 depth_nm 366909
+set g9 straight 3 0.000741 3 depth_nm 207044
+set g9 straight 5 0.000741 1 depth_nm 428217
+set g9 straight 5 0.000741 2 depth_nm 563645
+set g9 straight 5 0.000741 3 depth_nm 479614
+set g9 straight 5 0.000741 4 depth_nm 366909
+set g9 straight 5 0.000741 5 depth_nm 207044
+set g9 straight 10 0.000741 1 depth_nm 636821
+set g9 straight 10 0.000741 2 depth_nm 901106
+set g9 straight 10 0.000741 3 depth_nm 832755
+set g9 straight 10 0.000741 4 depth_nm 768309
+set g9 straight 10 0.000741 5 depth_nm 703979
+set g9 straight 10 0.000741 6 depth_nm 636821
+set g9 straight 10 0.000741 7 depth_nm 563645
+set g9 straight 10 0.000741 8 depth_nm 479614
+set g9 straight 10 0.000741 9 depth_nm 366909
+set g9 straight 10 0.000741 10 depth_nm 207044
+set g9 offset 1 0.00018525 1 lean_urad 251 turn_urads 1
+set g9 offset 1 0.00018525 2 lean_urad 461 turn_urads 183
+set g9 offset 1 0.00018525 3 lean_urad 1325 turn_urads 182
+set g9 offset 2 0.00018525 1 lean_urad 557 turn_urads 1
+set g9 offset 2 0.00018525 2 lean_urad 1230 turn_urads 9
+set g9 offset 2 0.00018525 3 lean_urad 441 turn_urads 8
+set g9 offset 3 0.00018525 1 lean_urad 1805 turn_urads 4
+set g9 offset 3 0.00018525 2 lean_urad 5353 turn_urads 13
+set g9 offset 3 0.00018525 3 lean_urad 5066 turn_urads 14
+set g9 straight 3 0.00018525 1 depth_nm 293669
+set g9 straight 3 0.00018525 2 depth_nm 366909
+set g9 straight 3 0.00018525 3 depth_nm 207044
+set g9 straight 5 0.00018525 1 depth_nm 428217
+set g9 straight 5 0.00018525 2 depth_nm 563645
+set g9 straight 5 0.00018525 3 depth_nm 479614
+set g9 straight 5 0.00018525 4 depth_nm 366909
+set g9 straight 5 0.00018525 5 depth_nm 207044
+set g9 straight 10 0.00018525 1 depth_nm 636821
+set g9 straight 10 0.00018525 2 depth_nm 901106
+set g9 straight 10 0.00018525 3 depth_nm 832755
+set g9 straight 10 0.00018525 4 depth_nm 768309
+set g9 straight 10 0.00018525 5 depth_nm 703979
+set g9 straight 10 0.00018525 6 depth_nm 636821
+set g9 straight 10 0.00018525 7 depth_nm 563645
+set g9 straight 10 0.00018525 8 depth_nm 479614
+set g9 straight 10 0.00018525 9 depth_nm 366909
+set g9 straight 10 0.00018525 10 depth_nm 207044
+set g14 held 1 held_nm 0 coupled_nm 18 gap_um 0 fwdinv_nn 1292420000000
+set g14 held 2 held_nm 0 coupled_nm 2 gap_um 0 fwdinv_nn 473360000000
+set g14 held 3 held_nm 0 coupled_nm 1 gap_um 0 fwdinv_nn 4873910000000
+set g14 i2430 1 held_nm 0 coupled_nm 311 gap_um 0 fwdinv_nn 32565400000000
+set g14 i2430 2 held_nm 0 coupled_nm 332 gap_um 0 fwdinv_nn 34722600000000
+set g14 load 1 held_nm 0 coupled_nm 563843 gap_um 579 fwdinv_nn 10223800000
+set g14 load 2 held_nm 0 coupled_nm 563843 gap_um 579 fwdinv_nn 10223800000
+set g14 arm tipweld 1 creep_ums 0 fwdinv_nn 2742020000
+set g14 arm tipconnect 1 creep_ums 0 fwdinv_nn 2763020000
+set g14 jf 1 0.00171 creep_ums 3 fwdinv_nn 2903990000
+set g14 jf 1 0.0004275 creep_ums 3 fwdinv_nn 2903990000
+set g14 arm tipweld 2 creep_ums 0 fwdinv_nn 1406870000
+set g14 arm tipconnect 2 creep_ums 0 fwdinv_nn 1418320000
+set g14 jf 2 0.00171 creep_ums 6 fwdinv_nn 2298430000
+set g14 jf 2 0.0004275 creep_ums 6 fwdinv_nn 2298430000
+set arm s10_drop1_0.000285 creep_ums 0
+set arm s10_drop1_0.00114 creep_ums 0
+set arm s10_drop2_0.000285 creep_ums 0
+set arm s10_drop2_0.00114 creep_ums 0
+set arm s10_rest1_0.000285 creep_ums 0
+set arm s10_rest1_0.00114 creep_ums 0
+set arm s10_rest2_0.000285 creep_ums 0
+set arm s10_rest2_0.00114 creep_ums 0
+set arm s13_drop1_0.00042 creep_ums 0
+set arm s13_drop1_0.00168 creep_ums 0
+set arm s13_drop2_0.00042 creep_ums 0
+set arm s13_drop2_0.00168 creep_ums 0
+set arm s13_rest1_0.00042 creep_ums 0
+set arm s13_rest1_0.00168 creep_ums 0
+set arm s13_rest2_0.00042 creep_ums 0
+set arm s13_rest2_0.00168 creep_ums 0
+set arm s14_drop1_0.0002975 creep_ums 0
+set arm s14_drop1_0.00119 creep_ums 0
+set arm s14_drop2_0.0002975 creep_ums 0
+set arm s14_drop2_0.00119 creep_ums 0
+set arm s14_drop3_0.0002975 creep_ums 0
+set arm s14_drop3_0.00119 creep_ums 0
+set arm s14_drop4_0.0002975 creep_ums 0
+set arm s14_drop4_0.00119 creep_ums 0
+set arm s14_rest1_0.0002975 creep_ums 0
+set arm s14_rest1_0.00119 creep_ums 0
+set arm s14_rest2_0.0002975 creep_ums 0
+set arm s14_rest2_0.00119 creep_ums 0
+set arm s14_rest3_0.0002975 creep_ums 0
+set arm s14_rest3_0.00119 creep_ums 0
+set arm s14_rest4_0.0002975 creep_ums 0
+set arm s14_rest4_0.00119 creep_ums 0
+set arm s15_drop1_0.0004275 creep_ums 0
+set arm s15_drop1_0.00171 creep_ums 0
+set arm s15_drop2_0.0004275 creep_ums 0
+set arm s15_drop2_0.00171 creep_ums 0
+set arm s15_drop3_0.0004275 creep_ums 0
+set arm s15_drop3_0.00171 creep_ums 0
+set arm s15_drop4_0.0004275 creep_ums 0
+set arm s15_drop4_0.00171 creep_ums 0
+set arm s15_rest1_0.0004275 creep_ums 0
+set arm s15_rest1_0.00171 creep_ums 0
+set arm s15_rest2_0.0004275 creep_ums 0
+set arm s15_rest2_0.00171 creep_ums 0
+set arm s15_rest3_0.0004275 creep_ums 0
+set arm s15_rest3_0.00171 creep_ums 0
+set arm s15_rest4_0.0004275 creep_ums 0
+set arm s15_rest4_0.00171 creep_ums 0
+set grip box 0 0.00171 creep_ums 1
+set grip mesh 0 0.00171 creep_ums 0
+set grip box 0.0092 0.00171 creep_ums 1
+set grip mesh 0.0092 0.00171 creep_ums 0
+set grip box 0 0.0004275 creep_ums 1
+set grip mesh 0 0.0004275 creep_ums 0
+set grip box 0.0092 0.0004275 creep_ums 1
+set grip mesh 0.0092 0.0004275 creep_ums 0
+set box box_box1_0.01411 fastest_ums 0
+set box box_box1_0.016 fastest_ums 0
+set box box_box2_0.01411 fastest_ums 0
+set box box_box2_0.016 fastest_ums 0
+set box box_box3_0.01411 fastest_ums 0
+set box box_box3_0.016 fastest_ums 0
+set box box_mujoco fastest_ums 0
+set hold 0.5 0.00171 creep_ums 0
+set hold 0.95 0.00171 creep_ums 0
+set hold 0.5 0.0004275 creep_ums 0
+set hold 0.95 0.0004275 creep_ums 0
+set slide 0 0.000619 slid_um 28267 expected_um 28019
+set slide 22.5 0.000619 slid_um 28267 expected_um 28019
+set slide 45 0.000619 slid_um 28267 expected_um 28019
+set slide 0 0.00015475 slid_um 28400 expected_um 28144
+set slide 22.5 0.00015475 slid_um 28400 expected_um 28144
+set slide 45 0.00015475 slid_um 28400 expected_um 28144
+set solver_eq most_iterations 101 at_iteration_limit 1423 warnings 0
+set solver_other most_iterations 64 at_iteration_limit 0 warnings 0
+hold g1 a 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3825230000
+hold g1 a 3 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5704820000
+hold g1 a 3 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7213280000
+hold g1 a 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3819180000
+hold g1 a 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5719880000
+hold g1 a 3 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7236140000
+hold g1 a 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3830650000
+hold g1 a 3 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5722530000
+hold g1 a 3 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7241690000
+hold g1 a 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3830300000
+hold g1 a 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5744900000
+hold g1 a 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7276320000
+hold g1 a 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3822660000
+hold g1 a 4 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5727690000
+hold g1 a 4 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7248700000
+hold g1 a 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3819180000
+hold g1 a 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5719880000
+hold g1 a 4 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7236140000
+hold g1 a 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3830520000
+hold g1 a 4 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5745390000
+hold g1 a 4 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7277110000
+hold g1 a 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3830300000
+hold g1 a 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5744900000
+hold g1 a 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7276320000
+hold g1 a 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 3812170000
+hold g1 a 6 0.001729 0 0.75 creep_ums 0 fwdinv_nn 5709520000
+hold g1 a 6 0.001729 0 0.95 creep_ums 0 fwdinv_nn 7232060000
+hold g1 a 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 3807600000
+hold g1 a 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 5709520000
+hold g1 a 6 0.001729 45 0.95 creep_ums 0 fwdinv_nn 7232060000
+hold g1 a 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 3819570000
+hold g1 a 6 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 5720860000
+hold g1 a 6 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 7236500000
+hold g1 a 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 3819280000
+hold g1 a 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 5720350000
+hold g1 a 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 7237950000
+hold g1 b 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4552030000
+hold g1 b 3 0.001729 0 0.75 creep_ums 0 fwdinv_nn 6775220000
+hold g1 b 3 0.001729 0 0.95 creep_ums 0 fwdinv_nn 8563410000
+hold g1 b 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4540770000
+hold g1 b 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 6800090000
+hold g1 b 3 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8613450000
+hold g1 b 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4562100000
+hold g1 b 3 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 6808120000
+hold g1 b 3 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 8615210000
+hold g1 b 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4561440000
+hold g1 b 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 6841130000
+hold g1 b 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8660930000
+hold g1 b 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4547230000
+hold g1 b 4 0.001729 0 0.75 creep_ums 0 fwdinv_nn 6809150000
+hold g1 b 4 0.001729 0 0.95 creep_ums 0 fwdinv_nn 8613460000
+hold g1 b 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4540770000
+hold g1 b 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 6800090000
+hold g1 b 4 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8613450000
+hold g1 b 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4561840000
+hold g1 b 4 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 6842040000
+hold g1 b 4 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 8665860000
+hold g1 b 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4561440000
+hold g1 b 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 6841130000
+hold g1 b 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8660930000
+hold g1 b 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 4555210000
+hold g1 b 6 0.001729 0 0.75 creep_ums 0 fwdinv_nn 6808790000
+hold g1 b 6 0.001729 0 0.95 creep_ums 0 fwdinv_nn 8613460000
+hold g1 b 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 4549650000
+hold g1 b 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 6800090000
+hold g1 b 6 0.001729 45 0.95 creep_ums 0 fwdinv_nn 8613450000
+hold g1 b 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 4562230000
+hold g1 b 6 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 6823820000
+hold g1 b 6 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 8623240000
+hold g1 b 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 4561870000
+hold g1 b 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 6822560000
+hold g1 b 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 8624960000
+hold g9 offset 1 0.000741 1 lean_urad 2 turn_urads 0
+hold g9 offset 1 0.000741 2 lean_urad 5 turn_urads 0
+hold g9 offset 1 0.000741 3 lean_urad 5 turn_urads 0
+hold g9 offset 2 0.000741 1 lean_urad 4 turn_urads 0
+hold g9 offset 2 0.000741 2 lean_urad 10 turn_urads 0
+hold g9 offset 2 0.000741 3 lean_urad 12 turn_urads 0
+hold g9 offset 3 0.000741 1 lean_urad 13 turn_urads 0
+hold g9 offset 3 0.000741 2 lean_urad 40 turn_urads 0
+hold g9 offset 3 0.000741 3 lean_urad 47 turn_urads 0
+hold g9 straight 3 0.000741 1 depth_nm 1799
+hold g9 straight 3 0.000741 2 depth_nm 2398
+hold g9 straight 3 0.000741 3 depth_nm 1199
+hold g9 straight 5 0.000741 1 depth_nm 2998
+hold g9 straight 5 0.000741 2 depth_nm 4796
+hold g9 straight 5 0.000741 3 depth_nm 3597
+hold g9 straight 5 0.000741 4 depth_nm 2398
+hold g9 straight 5 0.000741 5 depth_nm 1199
+hold g9 straight 10 0.000741 1 depth_nm 5995
+hold g9 straight 10 0.000741 2 depth_nm 10790
+hold g9 straight 10 0.000741 3 depth_nm 9592
+hold g9 straight 10 0.000741 4 depth_nm 8393
+hold g9 straight 10 0.000741 5 depth_nm 7194
+hold g9 straight 10 0.000741 6 depth_nm 5995
+hold g9 straight 10 0.000741 7 depth_nm 4796
+hold g9 straight 10 0.000741 8 depth_nm 3597
+hold g9 straight 10 0.000741 9 depth_nm 2398
+hold g9 straight 10 0.000741 10 depth_nm 1199
+hold g9 offset 1 0.00018525 1 lean_urad 0 turn_urads 0
+hold g9 offset 1 0.00018525 2 lean_urad 0 turn_urads 0
+hold g9 offset 1 0.00018525 3 lean_urad 0 turn_urads 0
+hold g9 offset 2 0.00018525 1 lean_urad 0 turn_urads 0
+hold g9 offset 2 0.00018525 2 lean_urad 1 turn_urads 0
+hold g9 offset 2 0.00018525 3 lean_urad 1 turn_urads 0
+hold g9 offset 3 0.00018525 1 lean_urad 1 turn_urads 0
+hold g9 offset 3 0.00018525 2 lean_urad 3 turn_urads 0
+hold g9 offset 3 0.00018525 3 lean_urad 3 turn_urads 0
+hold g9 straight 3 0.00018525 1 depth_nm 112
+hold g9 straight 3 0.00018525 2 depth_nm 150
+hold g9 straight 3 0.00018525 3 depth_nm 75
+hold g9 straight 5 0.00018525 1 depth_nm 187
+hold g9 straight 5 0.00018525 2 depth_nm 300
+hold g9 straight 5 0.00018525 3 depth_nm 225
+hold g9 straight 5 0.00018525 4 depth_nm 150
+hold g9 straight 5 0.00018525 5 depth_nm 75
+hold g9 straight 10 0.00018525 1 depth_nm 375
+hold g9 straight 10 0.00018525 2 depth_nm 674
+hold g9 straight 10 0.00018525 3 depth_nm 600
+hold g9 straight 10 0.00018525 4 depth_nm 525
+hold g9 straight 10 0.00018525 5 depth_nm 450
+hold g9 straight 10 0.00018525 6 depth_nm 375
+hold g9 straight 10 0.00018525 7 depth_nm 300
+hold g9 straight 10 0.00018525 8 depth_nm 225
+hold g9 straight 10 0.00018525 9 depth_nm 150
+hold g9 straight 10 0.00018525 10 depth_nm 75
+hold g14 held 1 held_nm 0 coupled_nm 18 gap_um 0 fwdinv_nn 1292420000000
+hold g14 held 2 held_nm 0 coupled_nm 2 gap_um 0 fwdinv_nn 473360000000
+hold g14 held 3 held_nm 0 coupled_nm 1 gap_um 0 fwdinv_nn 4873910000000
+hold g14 i2430 1 held_nm 0 coupled_nm 311 gap_um 0 fwdinv_nn 32565400000000
+hold g14 i2430 2 held_nm 0 coupled_nm 332 gap_um 0 fwdinv_nn 34722600000000
+hold g14 load 1 held_nm 0 coupled_nm 563843 gap_um 579 fwdinv_nn 10223800000
+hold g14 load 2 held_nm 0 coupled_nm 563843 gap_um 579 fwdinv_nn 10223800000
+hold g14 arm tipweld 1 creep_ums 0 fwdinv_nn 2742020000
+hold g14 arm tipconnect 1 creep_ums 0 fwdinv_nn 2763020000
+hold g14 jf 1 0.00171 creep_ums 3 fwdinv_nn 2903990000
+hold g14 jf 1 0.0004275 creep_ums 3 fwdinv_nn 2903990000
+hold g14 arm tipweld 2 creep_ums 0 fwdinv_nn 1406870000
+hold g14 arm tipconnect 2 creep_ums 0 fwdinv_nn 1418320000
+hold g14 jf 2 0.00171 creep_ums 6 fwdinv_nn 2298430000
+hold g14 jf 2 0.0004275 creep_ums 6 fwdinv_nn 2298430000
+hold arm s10_drop1_0.000285 creep_ums 0
+hold arm s10_drop1_0.00114 creep_ums 0
+hold arm s10_drop2_0.000285 creep_ums 0
+hold arm s10_drop2_0.00114 creep_ums 0
+hold arm s10_rest1_0.000285 creep_ums 0
+hold arm s10_rest1_0.00114 creep_ums 0
+hold arm s10_rest2_0.000285 creep_ums 0
+hold arm s10_rest2_0.00114 creep_ums 0
+hold arm s13_drop1_0.00042 creep_ums 0
+hold arm s13_drop1_0.00168 creep_ums 0
+hold arm s13_drop2_0.00042 creep_ums 0
+hold arm s13_drop2_0.00168 creep_ums 0
+hold arm s13_rest1_0.00042 creep_ums 0
+hold arm s13_rest1_0.00168 creep_ums 0
+hold arm s13_rest2_0.00042 creep_ums 0
+hold arm s13_rest2_0.00168 creep_ums 0
+hold arm s14_drop1_0.0002975 creep_ums 0
+hold arm s14_drop1_0.00119 creep_ums 0
+hold arm s14_drop2_0.0002975 creep_ums 0
+hold arm s14_drop2_0.00119 creep_ums 0
+hold arm s14_drop3_0.0002975 creep_ums 0
+hold arm s14_drop3_0.00119 creep_ums 0
+hold arm s14_drop4_0.0002975 creep_ums 0
+hold arm s14_drop4_0.00119 creep_ums 0
+hold arm s14_rest1_0.0002975 creep_ums 0
+hold arm s14_rest1_0.00119 creep_ums 0
+hold arm s14_rest2_0.0002975 creep_ums 0
+hold arm s14_rest2_0.00119 creep_ums 0
+hold arm s14_rest3_0.0002975 creep_ums 0
+hold arm s14_rest3_0.00119 creep_ums 0
+hold arm s14_rest4_0.0002975 creep_ums 0
+hold arm s14_rest4_0.00119 creep_ums 0
+hold arm s15_drop1_0.0004275 creep_ums 0
+hold arm s15_drop1_0.00171 creep_ums 0
+hold arm s15_drop2_0.0004275 creep_ums 0
+hold arm s15_drop2_0.00171 creep_ums 0
+hold arm s15_drop3_0.0004275 creep_ums 0
+hold arm s15_drop3_0.00171 creep_ums 0
+hold arm s15_drop4_0.0004275 creep_ums 0
+hold arm s15_drop4_0.00171 creep_ums 0
+hold arm s15_rest1_0.0004275 creep_ums 0
+hold arm s15_rest1_0.00171 creep_ums 0
+hold arm s15_rest2_0.0004275 creep_ums 0
+hold arm s15_rest2_0.00171 creep_ums 0
+hold arm s15_rest3_0.0004275 creep_ums 0
+hold arm s15_rest3_0.00171 creep_ums 0
+hold arm s15_rest4_0.0004275 creep_ums 0
+hold arm s15_rest4_0.00171 creep_ums 0
+hold grip box 0 0.00171 creep_ums 0
+hold grip mesh 0 0.00171 creep_ums 0
+hold grip box 0.0092 0.00171 creep_ums 0
+hold grip mesh 0.0092 0.00171 creep_ums 0
+hold grip box 0 0.0004275 creep_ums 0
+hold grip mesh 0 0.0004275 creep_ums 0
+hold grip box 0.0092 0.0004275 creep_ums 0
+hold grip mesh 0.0092 0.0004275 creep_ums 0
+hold box box_box1_0.01411 fastest_ums 0
+hold box box_box1_0.016 fastest_ums 0
+hold box box_box2_0.01411 fastest_ums 0
+hold box box_box2_0.016 fastest_ums 0
+hold box box_box3_0.01411 fastest_ums 0
+hold box box_box3_0.016 fastest_ums 0
+hold box box_mujoco fastest_ums 0
+hold hold 0.5 0.00171 creep_ums 0
+hold hold 0.95 0.00171 creep_ums 0
+hold hold 0.5 0.0004275 creep_ums 0
+hold hold 0.95 0.0004275 creep_ums 0
+hold slide 0 0.000619 slid_um 28019 expected_um 28019
+hold slide 22.5 0.000619 slid_um 28019 expected_um 28019
+hold slide 45 0.000619 slid_um 28019 expected_um 28019
+hold slide 0 0.00015475 slid_um 28143 expected_um 28144
+hold slide 22.5 0.00015475 slid_um 28143 expected_um 28144
+hold slide 45 0.00015475 slid_um 28143 expected_um 28144
+hold solver_eq most_iterations 101 at_iteration_limit 1423 warnings 0
+hold solver_other most_iterations 60 at_iteration_limit 0 warnings 0
+inverse g1 a 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.001729 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.001729 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.001729 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.001729 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 a 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.001729 0 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 3 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.001729 45 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 3 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 3 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.001729 0 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 4 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.001729 45 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 4 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 4 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.001729 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.001729 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.001729 0 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 6 0.001729 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.001729 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.001729 45 0.95 creep_ums 1 fwdinv_nn 0
+inverse g1 b 6 0.00043225 0 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.00043225 0 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.00043225 0 0.95 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.00043225 45 0.5 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.00043225 45 0.75 creep_ums 0 fwdinv_nn 0
+inverse g1 b 6 0.00043225 45 0.95 creep_ums 0 fwdinv_nn 0
+inverse g9 offset 1 0.000741 1 lean_urad 2 turn_urads 0
+inverse g9 offset 1 0.000741 2 lean_urad 5 turn_urads 0
+inverse g9 offset 1 0.000741 3 lean_urad 5 turn_urads 0
+inverse g9 offset 2 0.000741 1 lean_urad 4 turn_urads 0
+inverse g9 offset 2 0.000741 2 lean_urad 10 turn_urads 0
+inverse g9 offset 2 0.000741 3 lean_urad 12 turn_urads 0
+inverse g9 offset 3 0.000741 1 lean_urad 13 turn_urads 0
+inverse g9 offset 3 0.000741 2 lean_urad 40 turn_urads 0
+inverse g9 offset 3 0.000741 3 lean_urad 47 turn_urads 0
+inverse g9 straight 3 0.000741 1 depth_nm 1799
+inverse g9 straight 3 0.000741 2 depth_nm 2398
+inverse g9 straight 3 0.000741 3 depth_nm 1199
+inverse g9 straight 5 0.000741 1 depth_nm 2998
+inverse g9 straight 5 0.000741 2 depth_nm 4796
+inverse g9 straight 5 0.000741 3 depth_nm 3597
+inverse g9 straight 5 0.000741 4 depth_nm 2398
+inverse g9 straight 5 0.000741 5 depth_nm 1199
+inverse g9 straight 10 0.000741 1 depth_nm 5995
+inverse g9 straight 10 0.000741 2 depth_nm 10790
+inverse g9 straight 10 0.000741 3 depth_nm 9592
+inverse g9 straight 10 0.000741 4 depth_nm 8393
+inverse g9 straight 10 0.000741 5 depth_nm 7194
+inverse g9 straight 10 0.000741 6 depth_nm 5995
+inverse g9 straight 10 0.000741 7 depth_nm 4796
+inverse g9 straight 10 0.000741 8 depth_nm 3597
+inverse g9 straight 10 0.000741 9 depth_nm 2398
+inverse g9 straight 10 0.000741 10 depth_nm 1199
+inverse g9 offset 1 0.00018525 1 lean_urad 0 turn_urads 0
+inverse g9 offset 1 0.00018525 2 lean_urad 0 turn_urads 0
+inverse g9 offset 1 0.00018525 3 lean_urad 0 turn_urads 0
+inverse g9 offset 2 0.00018525 1 lean_urad 0 turn_urads 0
+inverse g9 offset 2 0.00018525 2 lean_urad 1 turn_urads 0
+inverse g9 offset 2 0.00018525 3 lean_urad 1 turn_urads 0
+inverse g9 offset 3 0.00018525 1 lean_urad 1 turn_urads 0
+inverse g9 offset 3 0.00018525 2 lean_urad 3 turn_urads 0
+inverse g9 offset 3 0.00018525 3 lean_urad 3 turn_urads 0
+inverse g9 straight 3 0.00018525 1 depth_nm 112
+inverse g9 straight 3 0.00018525 2 depth_nm 150
+inverse g9 straight 3 0.00018525 3 depth_nm 75
+inverse g9 straight 5 0.00018525 1 depth_nm 187
+inverse g9 straight 5 0.00018525 2 depth_nm 300
+inverse g9 straight 5 0.00018525 3 depth_nm 225
+inverse g9 straight 5 0.00018525 4 depth_nm 150
+inverse g9 straight 5 0.00018525 5 depth_nm 75
+inverse g9 straight 10 0.00018525 1 depth_nm 375
+inverse g9 straight 10 0.00018525 2 depth_nm 674
+inverse g9 straight 10 0.00018525 3 depth_nm 600
+inverse g9 straight 10 0.00018525 4 depth_nm 525
+inverse g9 straight 10 0.00018525 5 depth_nm 450
+inverse g9 straight 10 0.00018525 6 depth_nm 375
+inverse g9 straight 10 0.00018525 7 depth_nm 300
+inverse g9 straight 10 0.00018525 8 depth_nm 225
+inverse g9 straight 10 0.00018525 9 depth_nm 150
+inverse g9 straight 10 0.00018525 10 depth_nm 75
+inverse g14 held 1 held_nm 1783 coupled_nm 1783 gap_um 0 fwdinv_nn 0
+inverse g14 held 2 held_nm 1783 coupled_nm 1783 gap_um 0 fwdinv_nn 0
+inverse g14 held 3 held_nm 1783 coupled_nm 1783 gap_um 0 fwdinv_nn 0
+inverse g14 i2430 1 held_nm 5926318 coupled_nm 5926318 gap_um 10 fwdinv_nn 0
+inverse g14 i2430 2 held_nm 6318878 coupled_nm 6318878 gap_um 10 fwdinv_nn 0
+inverse g14 load 1 held_nm 1783 coupled_nm 565429 gap_um 579 fwdinv_nn 0
+inverse g14 load 2 held_nm 1783 coupled_nm 565429 gap_um 579 fwdinv_nn 0
+inverse g14 arm tipweld 1 creep_ums 3 fwdinv_nn 0
+inverse g14 arm tipconnect 1 creep_ums 3 fwdinv_nn 0
+inverse g14 jf 1 0.00171 creep_ums 4 fwdinv_nn 0
+inverse g14 jf 1 0.0004275 creep_ums 1 fwdinv_nn 0
+inverse g14 arm tipweld 2 creep_ums 5 fwdinv_nn 0
+inverse g14 arm tipconnect 2 creep_ums 6 fwdinv_nn 0
+inverse g14 jf 2 0.00171 creep_ums 7 fwdinv_nn 0
+inverse g14 jf 2 0.0004275 creep_ums 2 fwdinv_nn 0
+inverse arm s10_drop1_0.000285 creep_ums 0
+inverse arm s10_drop1_0.00114 creep_ums 0
+inverse arm s10_drop2_0.000285 creep_ums 0
+inverse arm s10_drop2_0.00114 creep_ums 0
+inverse arm s10_rest1_0.000285 creep_ums 0
+inverse arm s10_rest1_0.00114 creep_ums 0
+inverse arm s10_rest2_0.000285 creep_ums 0
+inverse arm s10_rest2_0.00114 creep_ums 0
+inverse arm s13_drop1_0.00042 creep_ums 0
+inverse arm s13_drop1_0.00168 creep_ums 0
+inverse arm s13_drop2_0.00042 creep_ums 0
+inverse arm s13_drop2_0.00168 creep_ums 0
+inverse arm s13_rest1_0.00042 creep_ums 0
+inverse arm s13_rest1_0.00168 creep_ums 0
+inverse arm s13_rest2_0.00042 creep_ums 0
+inverse arm s13_rest2_0.00168 creep_ums 0
+inverse arm s14_drop1_0.0002975 creep_ums 0
+inverse arm s14_drop1_0.00119 creep_ums 0
+inverse arm s14_drop2_0.0002975 creep_ums 0
+inverse arm s14_drop2_0.00119 creep_ums 0
+inverse arm s14_drop3_0.0002975 creep_ums 0
+inverse arm s14_drop3_0.00119 creep_ums 0
+inverse arm s14_drop4_0.0002975 creep_ums 0
+inverse arm s14_drop4_0.00119 creep_ums 0
+inverse arm s14_rest1_0.0002975 creep_ums 0
+inverse arm s14_rest1_0.00119 creep_ums 0
+inverse arm s14_rest2_0.0002975 creep_ums 0
+inverse arm s14_rest2_0.00119 creep_ums 0
+inverse arm s14_rest3_0.0002975 creep_ums 0
+inverse arm s14_rest3_0.00119 creep_ums 0
+inverse arm s14_rest4_0.0002975 creep_ums 0
+inverse arm s14_rest4_0.00119 creep_ums 0
+inverse arm s15_drop1_0.0004275 creep_ums 0
+inverse arm s15_drop1_0.00171 creep_ums 0
+inverse arm s15_drop2_0.0004275 creep_ums 0
+inverse arm s15_drop2_0.00171 creep_ums 0
+inverse arm s15_drop3_0.0004275 creep_ums 0
+inverse arm s15_drop3_0.00171 creep_ums 0
+inverse arm s15_drop4_0.0004275 creep_ums 0
+inverse arm s15_drop4_0.00171 creep_ums 0
+inverse arm s15_rest1_0.0004275 creep_ums 0
+inverse arm s15_rest1_0.00171 creep_ums 0
+inverse arm s15_rest2_0.0004275 creep_ums 0
+inverse arm s15_rest2_0.00171 creep_ums 0
+inverse arm s15_rest3_0.0004275 creep_ums 0
+inverse arm s15_rest3_0.00171 creep_ums 0
+inverse arm s15_rest4_0.0004275 creep_ums 0
+inverse arm s15_rest4_0.00171 creep_ums 0
+inverse grip box 0 0.00171 creep_ums 1
+inverse grip mesh 0 0.00171 creep_ums 1
+inverse grip box 0.0092 0.00171 creep_ums 1
+inverse grip mesh 0.0092 0.00171 creep_ums 1
+inverse grip box 0 0.0004275 creep_ums 0
+inverse grip mesh 0 0.0004275 creep_ums 0
+inverse grip box 0.0092 0.0004275 creep_ums 0
+inverse grip mesh 0.0092 0.0004275 creep_ums 0
+inverse box box_box1_0.01411 fastest_ums 0
+inverse box box_box1_0.016 fastest_ums 0
+inverse box box_box2_0.01411 fastest_ums 0
+inverse box box_box2_0.016 fastest_ums 0
+inverse box box_box3_0.01411 fastest_ums 0
+inverse box box_box3_0.016 fastest_ums 0
+inverse box box_mujoco fastest_ums 0
+inverse hold 0.5 0.00171 creep_ums 0
+inverse hold 0.95 0.00171 creep_ums 0
+inverse hold 0.5 0.0004275 creep_ums 0
+inverse hold 0.95 0.0004275 creep_ums 0
+inverse slide 0 0.000619 slid_um 28019 expected_um 28019
+inverse slide 22.5 0.000619 slid_um 28019 expected_um 28019
+inverse slide 45 0.000619 slid_um 28019 expected_um 28019
+inverse slide 0 0.00015475 slid_um 28143 expected_um 28144
+inverse slide 22.5 0.00015475 slid_um 28143 expected_um 28144
+inverse slide 45 0.00015475 slid_um 28143 expected_um 28144
+inverse solver_eq most_iterations 2 at_iteration_limit 0 warnings 0
+inverse solver_other most_iterations 58 at_iteration_limit 0 warnings 0

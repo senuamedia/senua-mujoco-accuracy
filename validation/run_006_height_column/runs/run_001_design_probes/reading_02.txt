@@ -1,0 +1,16 @@
+push 0.2 of the limit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 323 friction_over_normal_per_10000 1000 friction_limit_per_10000 5000
+push 0.4 of the limit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 646 friction_over_normal_per_10000 2000 friction_limit_per_10000 5000
+push 0.6 of the limit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+push 0.8 of the limit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 2263 friction_over_normal_per_10000 4000 friction_limit_per_10000 5000
+push 0.95 of the limit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 2990 friction_over_normal_per_10000 4750 friction_limit_per_10000 5000
+mass 0.2 kg at 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+mass 5 kg at 0.6 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, noslip=10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, noslip=100 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, cone=elliptic | CREEP dt_ns 2000000 steps 500 mean_speed_ums 766 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, cone=elliptic noslip=10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 0 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, integ=implicitfast | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, integ=implicit | CREEP dt_ns 2000000 steps 500 mean_speed_ums 1293 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, integ=rk4 | the file is missing or not whole
+0.6, impratio=10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 129 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000
+0.6, cone=elliptic impratio=10 | CREEP dt_ns 2000000 steps 500 mean_speed_ums 77 friction_over_normal_per_10000 3000 friction_limit_per_10000 5000

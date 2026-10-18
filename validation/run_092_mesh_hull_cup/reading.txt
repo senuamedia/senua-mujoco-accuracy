@@ -1,0 +1,7 @@
+the right answer: inside, the ball's centre 0.025 m up: 125,000,000 nm down from where it started; on the hull's top, 0.08 m up: 70,000,000 nm down
+cup_one_mesh defaults | FINAL dt_ns 2000000 angle_urad 70366910 speed_urads 0
+cup_one_mesh config | FINAL dt_ns 2000000 angle_urad 70366910 speed_urads 0
+cup_box_parts defaults | FINAL dt_ns 2000000 angle_urad 125366909 speed_urads 0
+cup_box_parts config | FINAL dt_ns 2000000 angle_urad 125366909 speed_urads 0
+cup_mesh_parts defaults | FINAL dt_ns 2000000 angle_urad 125366909 speed_urads 0
+cup_mesh_parts config | FINAL dt_ns 2000000 angle_urad 125366909 speed_urads 0

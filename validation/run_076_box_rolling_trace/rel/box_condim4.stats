@@ -1,0 +1,1 @@
+STATS scene ~/work/rec076/validation/run_076_box_rolling_trace/scene_condim4.xml body box dt 0.016 steps 1000 most_iterations 6 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra key=0

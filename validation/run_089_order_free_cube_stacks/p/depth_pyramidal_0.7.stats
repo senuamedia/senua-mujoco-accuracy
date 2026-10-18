@@ -1,0 +1,1 @@
+STATS contact dt 0.001 h0 0.02 vx0 0 mu 0.7 lock 1 mass 1 radius 0.05 steps 2000 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra cone=pyramidal

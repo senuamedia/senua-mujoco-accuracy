@@ -1,0 +1,40 @@
+defaults box offset 0 0.002 | CREEP steps 500 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults mesh offset 0 0.002 | CREEP steps 500 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults meshccd offset 0 0.002 | CREEP steps 500 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults box against mesh offset 0 0.002 | ENDS place_apart_nm 0 speed_apart_ums 0 | turned ENDS place_apart_nm 0 speed_apart_ums 0
+defaults box against meshccd offset 0 0.002 | ENDS place_apart_nm 0 speed_apart_ums 0 | turned ENDS place_apart_nm 0 speed_apart_ums 0
+defaults box offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 5969 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 217275 speed_urads 102241
+defaults mesh offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 8135 friction_over_normal_per_10000 3998 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4899 weight_mN 1960 | turned FINAL angle_urad 200826 speed_urads 83998
+defaults meshccd offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 8135 friction_over_normal_per_10000 3998 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4899 weight_mN 1960 | turned FINAL angle_urad 200826 speed_urads 83998
+defaults box against mesh offset 0.01 0.002 | ENDS place_apart_nm 2366430 speed_apart_ums 1381 | turned ENDS place_apart_nm 16449 speed_apart_ums 18243
+defaults box against meshccd offset 0.01 0.002 | ENDS place_apart_nm 2366430 speed_apart_ums 1381 | turned ENDS place_apart_nm 16449 speed_apart_ums 18243
+defaults box offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults mesh offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults meshccd offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 6069 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 0 speed_urads 0
+defaults box against mesh offset 0 0.0005 | ENDS place_apart_nm 0 speed_apart_ums 0 | turned ENDS place_apart_nm 0 speed_apart_ums 0
+defaults box against meshccd offset 0 0.0005 | ENDS place_apart_nm 0 speed_apart_ums 0 | turned ENDS place_apart_nm 0 speed_apart_ums 0
+defaults box offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 5978 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 217996 speed_urads 101583
+defaults mesh offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 8141 friction_over_normal_per_10000 3998 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4899 weight_mN 1960 | turned FINAL angle_urad 201583 speed_urads 83849
+defaults meshccd offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 8141 friction_over_normal_per_10000 3998 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4899 weight_mN 1960 | turned FINAL angle_urad 201583 speed_urads 83849
+defaults box against mesh offset 0.01 0.0005 | ENDS place_apart_nm 2367670 speed_apart_ums 1394 | turned ENDS place_apart_nm 16413 speed_apart_ums 17734
+defaults box against meshccd offset 0.01 0.0005 | ENDS place_apart_nm 2367670 speed_apart_ums 1394 | turned ENDS place_apart_nm 16413 speed_apart_ums 17734
+recommended box offset 0 0.002 | CREEP steps 500 mean_speed_ums 1 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 43 speed_urads 22
+recommended mesh offset 0 0.002 | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 99 speed_urads 51
+recommended meshccd offset 0 0.002 | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 99 speed_urads 51
+recommended box against mesh offset 0 0.002 | ENDS place_apart_nm 546 speed_apart_ums 1 | turned ENDS place_apart_nm 56 speed_apart_ums 29
+recommended box against meshccd offset 0 0.002 | ENDS place_apart_nm 546 speed_apart_ums 1 | turned ENDS place_apart_nm 56 speed_apart_ums 29
+recommended box offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 1 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 33 speed_urads 17
+recommended mesh offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 40 speed_urads 20
+recommended meshccd offset 0.01 0.002 | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 40 speed_urads 20
+recommended box against mesh offset 0.01 0.002 | ENDS place_apart_nm 774 speed_apart_ums 1 | turned ENDS place_apart_nm 7 speed_apart_ums 3
+recommended box against meshccd offset 0.01 0.002 | ENDS place_apart_nm 774 speed_apart_ums 1 | turned ENDS place_apart_nm 7 speed_apart_ums 3
+recommended box offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 1 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 44 speed_urads 22
+recommended mesh offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 99 speed_urads 50
+recommended meshccd offset 0 0.0005 | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 99 speed_urads 50
+recommended box against mesh offset 0 0.0005 | ENDS place_apart_nm 541 speed_apart_ums 1 | turned ENDS place_apart_nm 55 speed_apart_ums 28
+recommended box against meshccd offset 0 0.0005 | ENDS place_apart_nm 541 speed_apart_ums 1 | turned ENDS place_apart_nm 55 speed_apart_ums 28
+recommended box offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 1 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 33 speed_urads 17
+recommended mesh offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 40 speed_urads 20
+recommended meshccd offset 0.01 0.0005 | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 4000 friction_limit_per_10000 8000 | REST mean_ground_force_mN 4900 weight_mN 1960 | turned FINAL angle_urad 40 speed_urads 20
+recommended box against mesh offset 0.01 0.0005 | ENDS place_apart_nm 782 speed_apart_ums 1 | turned ENDS place_apart_nm 7 speed_apart_ums 3
+recommended box against meshccd offset 0.01 0.0005 | ENDS place_apart_nm 782 speed_apart_ums 1 | turned ENDS place_apart_nm 7 speed_apart_ums 3

@@ -1,0 +1,2 @@
+steps 0.00122 0.000305 0.0001525; tolerances def 1e-10 1e-12; stacks of 3 5 9 12: mass=0.596 radius=0.0405 mu=0.528; held and slid cube mass=1.561 radius=0.0489 mu 0.438 limit 6.700436 N speed 1.09
+Study 15's arm len1=0.279 len2=0.286 mass1=1.116 mass2=0.436 rb=0.0284 mb=0.199 mu=0.686 in poses 0.555,0.905 1.157,-0.378 (set down from 0.00043, dropped from 0.0129); Study 15's grip mass=0.21 radius=0.0334 mu=0.69 squeeze=2.61 offset 0.0092

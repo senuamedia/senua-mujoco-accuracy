@@ -1,0 +1,40 @@
+defaults E 0.002 native | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.002 straight | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.002 folded | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.002 native against straight | ENDS place_apart_nm 52637 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 51431 largest_um 56 summed_speed_difference_mm_s 26
+defaults E 0.002 native against folded | ENDS place_apart_nm 4327 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 4910 largest_um 5 summed_speed_difference_mm_s 1
+defaults E 0.0005 native | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.0005 straight | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.0005 folded | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults E 0.0005 native against straight | ENDS place_apart_nm 52637 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 205565 largest_um 56 summed_speed_difference_mm_s 101
+defaults E 0.0005 native against folded | ENDS place_apart_nm 4327 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 19593 largest_um 5 summed_speed_difference_mm_s 7
+defaults F 0.002 native | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.002 straight | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.002 folded | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.002 native against straight | ENDS place_apart_nm 100709 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 99614 largest_um 104 summed_speed_difference_mm_s 0
+defaults F 0.002 native against folded | ENDS place_apart_nm 33910 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 33591 largest_um 36 summed_speed_difference_mm_s 0
+defaults F 0.0005 native | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.0005 straight | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.0005 folded | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+defaults F 0.0005 native against straight | ENDS place_apart_nm 100709 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 398133 largest_um 104 summed_speed_difference_mm_s 0
+defaults F 0.0005 native against folded | ENDS place_apart_nm 33910 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 134231 largest_um 36 summed_speed_difference_mm_s 0
+diagexact E 0.002 native | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.002 straight | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.002 folded | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.002 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact E 0.002 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact E 0.0005 native | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.0005 straight | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.0005 folded | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact E 0.0005 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact E 0.0005 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact F 0.002 native | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.002 straight | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.002 folded | CREEP steps 500 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.002 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact F 0.002 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 2000000 against dt_ns 2000000 instants 1000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact F 0.0005 native | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.0005 straight | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.0005 folded | CREEP steps 2000 mean_speed_ums 0 friction_over_normal_per_10000 -1 friction_limit_per_10000 8000
+diagexact F 0.0005 native against straight | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0
+diagexact F 0.0005 native against folded | ENDS place_apart_nm 0 speed_apart_ums 0 | GAP base_ns 500000 against dt_ns 500000 instants 4000 summed_height_difference_um 0 largest_um 0 summed_speed_difference_mm_s 0

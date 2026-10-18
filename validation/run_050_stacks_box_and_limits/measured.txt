@@ -1,0 +1,153 @@
+rel stack5_rec_0.000285 most_tilt_urad 2302 end_speed_ums 2064 end_spin_urads 26304 most_iterations 4
+rel stack9_rec_0.000285 most_tilt_urad 2523 end_speed_ums 6801 end_spin_urads 45795 most_iterations 4
+rel stack5_ell_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+rel stack9_ell_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+rel stack5_pyr10_0.000285 most_tilt_urad 0 end_speed_ums 586 end_spin_urads 0 most_iterations 4
+rel stack9_pyr10_0.000285 most_tilt_urad 1231 end_speed_ums 823 end_spin_urads 2258 most_iterations 4
+rel stack5_def_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+rel stack9_def_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+rel stack5_ns30_0.000285 most_tilt_urad 2302 end_speed_ums 2064 end_spin_urads 26304 most_iterations 4
+rel stack9_ns30_0.000285 most_tilt_urad 2523 end_speed_ums 6801 end_spin_urads 45795 most_iterations 4
+rel stack5_ns100_0.000285 most_tilt_urad 2302 end_speed_ums 2064 end_spin_urads 26304 most_iterations 4
+rel stack9_ns100_0.000285 most_tilt_urad 2523 end_speed_ums 6801 end_spin_urads 45795 most_iterations 4
+rel stack5_tight_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+rel stack9_tight_0.000285 most_tilt_urad 0 end_speed_ums 19 end_spin_urads 0 most_iterations 5
+rel stack5_lock_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+rel stack9_lock_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 5
+rel stack5_ifast_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+rel stack9_ifast_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+rel stack5_rec_0.0001425 most_tilt_urad 4450 end_speed_ums 262 end_spin_urads 7230 most_iterations 4
+rel stack9_rec_0.0001425 most_tilt_urad 0 end_speed_ums 64 end_spin_urads 0 most_iterations 4
+rel stack5_rec_0.00057 most_tilt_urad 0 end_speed_ums 37 end_spin_urads 0 most_iterations 4
+rel stack9_rec_0.00057 most_tilt_urad 0 end_speed_ums 566 end_spin_urads 0 most_iterations 5
+rel stack5_rec_0.000855 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 5
+rel stack9_rec_0.000855 most_tilt_urad 270 end_speed_ums 12863 end_spin_urads 21338 most_iterations 5
+rel stack5_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 3
+rel stack9_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+rel box_asis steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978 moved_nm 194612255
+rel box_ns5 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978 moved_nm 194612255
+rel box_ns10 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978 moved_nm 194612255
+rel box_ns50 steps_40_199_over_1mms 106 fastest_ums 76978 speed_at_200 54 steps_840_999_over_1mms 106 fastest_ums 76978 speed_at_1000 -76978 moved_nm 194612255
+rel box_imp1 steps_40_199_over_1mms 128 fastest_ums 76829 speed_at_200 58798 steps_840_999_over_1mms 128 fastest_ums 76829 speed_at_1000 58798 moved_nm 195164438
+rel box_pyr steps_40_199_over_1mms 107 fastest_ums 77091 speed_at_200 704 steps_840_999_over_1mms 106 fastest_ums 77091 speed_at_1000 58807 moved_nm 199082148
+rel box_condim4 steps_40_199_over_1mms 0 fastest_ums 0 speed_at_200 0 steps_840_999_over_1mms 0 fastest_ums 0 speed_at_1000 0 moved_nm 195008349
+rel lift16_pyr10_0.01 highest_um 10848 slid_um 177953
+rel lift16_pyr10_0.0025 highest_um 822 slid_um 182326
+rel lift16_pyr10_0.000625 highest_um 196 slid_um 183469
+rel free_pyr10_0 slid_um 133049 side_um 0 most_tilt_urad 2743
+rel hold_pyr10_0_0.5 creep_ums 0
+rel hold_pyr10_0_0.95 creep_ums 2150
+rel free_pyr10_22.5 slid_um 159514 side_um 34803 most_tilt_urad 4085
+rel hold_pyr10_22.5_0.5 creep_ums 0
+rel hold_pyr10_22.5_0.95 creep_ums 490220
+rel free_pyr10_45 slid_um 188270 side_um 0 most_tilt_urad 2624
+rel hold_pyr10_45_0.5 creep_ums 0
+rel hold_pyr10_45_0.95 creep_ums 743398
+rel lift16_pyr_0.01 highest_um 10848 slid_um 177953
+rel lift16_pyr_0.0025 highest_um 822 slid_um 182332
+rel lift16_pyr_0.000625 highest_um 196 slid_um 183475
+rel free_pyr_0 slid_um 133051 side_um 0 most_tilt_urad 2743
+rel hold_pyr_0_0.5 creep_ums 581
+rel hold_pyr_0_0.95 creep_ums 2150
+rel free_pyr_22.5 slid_um 159521 side_um 34808 most_tilt_urad 4085
+rel hold_pyr_22.5_0.5 creep_ums 581
+rel hold_pyr_22.5_0.95 creep_ums 490220
+rel free_pyr_45 slid_um 188282 side_um 0 most_tilt_urad 2624
+rel hold_pyr_45_0.5 creep_ums 581
+rel hold_pyr_45_0.95 creep_ums 743398
+rel bounce_d1_1 BOUNCE dt_ns 10000000 speed_in_ums 1274000 steps_to_turn 1 rebound_nm -107856 drop_nm 80000000 rebound_per_10000 0
+rel bounce_d1_4 BOUNCE dt_ns 2500000 speed_in_ums 1249500 steps_to_turn 8 rebound_nm -107689 drop_nm 80000000 rebound_per_10000 0
+rel bounce_d1_16 BOUNCE dt_ns 625000 speed_in_ums 1249500 steps_to_turn 32 rebound_nm -107664 drop_nm 80000000 rebound_per_10000 0
+rel bounce_d1_64 BOUNCE dt_ns 156250 speed_in_ums 1252562 steps_to_turn 125 rebound_nm -107659 drop_nm 80000000 rebound_per_10000 0
+rel bounce_d0.1_1 BOUNCE dt_ns 10000000 speed_in_ums 1274000 steps_to_turn 1 rebound_nm 8178372208 drop_nm 80000000 rebound_per_10000 1022296
+rel bounce_d0.1_4 BOUNCE dt_ns 2500000 speed_in_ums 1249500 steps_to_turn 2 rebound_nm 41762146 drop_nm 80000000 rebound_per_10000 5220
+rel bounce_d0.1_16 BOUNCE dt_ns 625000 speed_in_ums 1249500 steps_to_turn 5 rebound_nm 40527363 drop_nm 80000000 rebound_per_10000 5065
+rel bounce_d0.1_64 BOUNCE dt_ns 156250 speed_in_ums 1252562 steps_to_turn 19 rebound_nm 43801467 drop_nm 80000000 rebound_per_10000 5475
+rel free_RK4_0 slid_um 133051 side_um 0 most_tilt_urad 3285
+rel free_RK4_22.5 slid_um 134897 side_um 590 most_tilt_urad 1071
+rel free_RK4_45 slid_um 133076 side_um 0 most_tilt_urad 1246
+rel lift16_RK4_0.01 highest_um 938
+rel lift16_RK4_0.0025 highest_um 114
+rel free_implicitfast_0 slid_um 133042 side_um 0 most_tilt_urad 3216
+rel free_implicitfast_22.5 slid_um 136043 side_um -231 most_tilt_urad 3981
+rel free_implicitfast_45 slid_um 133266 side_um 0 most_tilt_urad 9188
+rel lift16_implicitfast_0.01 highest_um 10570
+rel lift16_implicitfast_0.0025 highest_um 1176
+rel solver most_iterations 9 at_iteration_limit 0 warnings 0
+on stack5_rec_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on stack9_rec_0.000285 most_tilt_urad 3181 end_speed_ums 6136 end_spin_urads 25809 most_iterations 4
+on stack5_ell_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+on stack9_ell_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+on stack5_pyr10_0.000285 most_tilt_urad 0 end_speed_ums 586 end_spin_urads 0 most_iterations 4
+on stack9_pyr10_0.000285 most_tilt_urad 1231 end_speed_ums 823 end_spin_urads 2258 most_iterations 4
+on stack5_def_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+on stack9_def_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 1
+on stack5_ns30_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on stack9_ns30_0.000285 most_tilt_urad 3181 end_speed_ums 6136 end_spin_urads 25809 most_iterations 4
+on stack5_ns100_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on stack9_ns100_0.000285 most_tilt_urad 3181 end_speed_ums 6136 end_spin_urads 25809 most_iterations 4
+on stack5_tight_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on stack9_tight_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 5
+on stack5_lock_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on stack9_lock_0.000285 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 5
+on stack5_ifast_0.000285 most_tilt_urad 2816 end_speed_ums 2458 end_spin_urads 16135 most_iterations 4
+on stack9_ifast_0.000285 most_tilt_urad 7045 end_speed_ums 8956 end_spin_urads 50848 most_iterations 4
+on stack5_rec_0.0001425 most_tilt_urad 3489 end_speed_ums 3931 end_spin_urads 16174 most_iterations 4
+on stack9_rec_0.0001425 most_tilt_urad 3094 end_speed_ums 2588 end_spin_urads 16799 most_iterations 4
+on stack5_rec_0.00057 most_tilt_urad 0 end_speed_ums 38 end_spin_urads 0 most_iterations 4
+on stack9_rec_0.00057 most_tilt_urad 1073 end_speed_ums 6386 end_spin_urads 14574 most_iterations 5
+on stack5_rec_0.000855 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 5
+on stack9_rec_0.000855 most_tilt_urad 9791 end_speed_ums 2320 end_spin_urads 61171 most_iterations 5
+on stack5_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 3
+on stack9_rec_0.00114 most_tilt_urad 0 end_speed_ums 0 end_spin_urads 0 most_iterations 4
+on box_asis steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55 moved_nm 188019916
+on box_ns5 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55 moved_nm 188019916
+on box_ns10 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55 moved_nm 188019916
+on box_ns50 steps_40_199_over_1mms 108 fastest_ums 76903 speed_at_200 3854 steps_840_999_over_1mms 106 fastest_ums 76903 speed_at_1000 55 moved_nm 188019916
+on box_imp1 steps_40_199_over_1mms 128 fastest_ums 76772 speed_at_200 639 steps_840_999_over_1mms 128 fastest_ums 76772 speed_at_1000 639 moved_nm 187985716
+on box_pyr steps_40_199_over_1mms 107 fastest_ums 77091 speed_at_200 704 steps_840_999_over_1mms 106 fastest_ums 77091 speed_at_1000 58807 moved_nm 199082148
+on box_condim4 steps_40_199_over_1mms 0 fastest_ums 0 speed_at_200 0 steps_840_999_over_1mms 0 fastest_ums 0 speed_at_1000 0 moved_nm 188206346
+on lift16_pyr10_0.01 highest_um 10848 slid_um 177953
+on lift16_pyr10_0.0025 highest_um 822 slid_um 182326
+on lift16_pyr10_0.000625 highest_um 196 slid_um 183469
+on free_pyr10_0 slid_um 133049 side_um 0 most_tilt_urad 2743
+on hold_pyr10_0_0.5 creep_ums 0
+on hold_pyr10_0_0.95 creep_ums 2150
+on free_pyr10_22.5 slid_um 159514 side_um 34803 most_tilt_urad 4085
+on hold_pyr10_22.5_0.5 creep_ums 0
+on hold_pyr10_22.5_0.95 creep_ums 490220
+on free_pyr10_45 slid_um 188270 side_um 0 most_tilt_urad 2624
+on hold_pyr10_45_0.5 creep_ums 0
+on hold_pyr10_45_0.95 creep_ums 743398
+on lift16_pyr_0.01 highest_um 10848 slid_um 177953
+on lift16_pyr_0.0025 highest_um 822 slid_um 182332
+on lift16_pyr_0.000625 highest_um 196 slid_um 183475
+on free_pyr_0 slid_um 133051 side_um 0 most_tilt_urad 2743
+on hold_pyr_0_0.5 creep_ums 581
+on hold_pyr_0_0.95 creep_ums 2150
+on free_pyr_22.5 slid_um 159521 side_um 34808 most_tilt_urad 4085
+on hold_pyr_22.5_0.5 creep_ums 581
+on hold_pyr_22.5_0.95 creep_ums 490220
+on free_pyr_45 slid_um 188282 side_um 0 most_tilt_urad 2624
+on hold_pyr_45_0.5 creep_ums 581
+on hold_pyr_45_0.95 creep_ums 743398
+on bounce_d1_1 BOUNCE dt_ns 10000000 speed_in_ums 1274000 steps_to_turn 1 rebound_nm -107856 drop_nm 80000000 rebound_per_10000 0
+on bounce_d1_4 BOUNCE dt_ns 2500000 speed_in_ums 1249500 steps_to_turn 8 rebound_nm -107689 drop_nm 80000000 rebound_per_10000 0
+on bounce_d1_16 BOUNCE dt_ns 625000 speed_in_ums 1249500 steps_to_turn 32 rebound_nm -107664 drop_nm 80000000 rebound_per_10000 0
+on bounce_d1_64 BOUNCE dt_ns 156250 speed_in_ums 1252562 steps_to_turn 125 rebound_nm -107659 drop_nm 80000000 rebound_per_10000 0
+on bounce_d0.1_1 BOUNCE dt_ns 10000000 speed_in_ums 1274000 steps_to_turn 1 rebound_nm 8178372208 drop_nm 80000000 rebound_per_10000 1022296
+on bounce_d0.1_4 BOUNCE dt_ns 2500000 speed_in_ums 1249500 steps_to_turn 2 rebound_nm 41762146 drop_nm 80000000 rebound_per_10000 5220
+on bounce_d0.1_16 BOUNCE dt_ns 625000 speed_in_ums 1249500 steps_to_turn 5 rebound_nm 40527363 drop_nm 80000000 rebound_per_10000 5065
+on bounce_d0.1_64 BOUNCE dt_ns 156250 speed_in_ums 1252562 steps_to_turn 19 rebound_nm 43801467 drop_nm 80000000 rebound_per_10000 5475
+on free_RK4_0 slid_um 133054 side_um 0 most_tilt_urad 958
+on free_RK4_22.5 slid_um 133054 side_um 0 most_tilt_urad 957
+on free_RK4_45 slid_um 133054 side_um 0 most_tilt_urad 956
+on lift16_RK4_0.01 highest_um 0
+on lift16_RK4_0.0025 highest_um 0
+on free_implicitfast_0 slid_um 133036 side_um 0 most_tilt_urad 953
+on free_implicitfast_22.5 slid_um 133036 side_um 0 most_tilt_urad 952
+on free_implicitfast_45 slid_um 133036 side_um 0 most_tilt_urad 951
+on lift16_implicitfast_0.01 highest_um 0
+on lift16_implicitfast_0.0025 highest_um 0
+on solver most_iterations 64 at_iteration_limit 0 warnings 0
+files rel against on: 195 of 426 the same

@@ -1,0 +1,18 @@
+10:46:01 run_045_f12_free_cube_direction cleared
+10:46:01 run_046_desaxce cleared
+10:46:01 run_047_desaxce_v2 cleared
+10:46:01 run_048_desaxce_v3 cleared
+10:46:01 run_049_desaxce_v4 cleared
+10:46:01 run_050_stacks_box_and_limits cleared
+10:46:01 run_051_study_12 cleared
+10:46:05 run 045 played, exit 0
+10:46:07 run 045 step 2 played, exit 0
+10:47:16 run_046_desaxce played, exit 0
+10:58:54 run_047_desaxce_v2 played, exit 0
+11:09:23 run_048_desaxce_v3 played, exit 0
+11:20:11 run_049_desaxce_v4 played, exit 0
+11:20:12 run 049 step 2 played, exit 0
+11:23:38 run 050 played, exit 0
+11:35:39 run 051 played, exit 0
+11:35:46 home folder written as ~ in the re-made outputs
+11:35:59 compared: 6265 same, 58 differ, 1 missing, 0 new

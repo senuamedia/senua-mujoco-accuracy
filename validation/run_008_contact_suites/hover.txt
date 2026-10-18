@@ -1,0 +1,8 @@
+defaults 1/1 | HOVER dt_ns 10000000 sliding_steps 30 highest_um 10848 highest_at_step 5 fastest_up_ums 432566 deepest_um -3113
+defaults 1/4 | HOVER dt_ns 2500000 sliding_steps 156 highest_um 822 highest_at_step 29 fastest_up_ums 115101 deepest_um -262
+defaults 1/16 | HOVER dt_ns 625000 sliding_steps 645 highest_um 196 highest_at_step 73 fastest_up_ums 61221 deepest_um -52
+defaults 1/64 | HOVER dt_ns 156250 sliding_steps 2598 highest_um 32 highest_at_step 570 fastest_up_ums 24355 deepest_um -10
+elliptic_noslip 1/1 | HOVER dt_ns 10000000 sliding_steps 30 highest_um 10570 highest_at_step 5 fastest_up_ums 427011 deepest_um -3273
+elliptic_noslip 1/4 | HOVER dt_ns 2500000 sliding_steps 155 highest_um 1176 highest_at_step 44 fastest_up_ums 144560 deepest_um -432
+elliptic_noslip 1/16 | HOVER dt_ns 625000 sliding_steps 639 highest_um 148 highest_at_step 125 fastest_up_ums 51245 deepest_um -103
+elliptic_noslip 1/64 | HOVER dt_ns 156250 sliding_steps 2575 highest_um 13 highest_at_step 154 fastest_up_ums 16126 deepest_um -104

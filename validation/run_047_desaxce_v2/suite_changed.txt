@@ -1,0 +1,7 @@
+changed with the switch set: ForwardTest.DiscreteImplicitRowNoslip Passed -> Failed
+changed with the switch set: ForwardTest.DiscreteJointInverseConsistency Passed -> Failed
+changed with the switch set: SensorTest.Contact Passed -> Failed
+changed with the switch set: SleepTest.SleepingUnaffectedByWaking Passed -> Failed
+changed with the switch set: SolverTest.SolversEquivalent Passed -> Failed
+changed with the switch set: SolverTest.WarmstartZeroIterationsIslands Passed -> Failed
+changed with the switch set: SolverTest.ZeroToleranceDisablesTermination Passed -> Failed

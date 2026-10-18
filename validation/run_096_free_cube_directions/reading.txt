@@ -1,0 +1,7 @@
+the trace with tracedir: <step> <yaw urad> <tilt urad> <contacts>, then a contact: <along the push, um from the cube's centre> <across, um> <normal mN> <friction mN> <friction over its limit, ppm> <friction along the push, mN> <across, mN> <slip along, um/s> <across, um/s>
+free_set_0.95 | mean_speed_ums 1098
+free_set_0.75 | mean_speed_ums 0
+free_set_0.5 | mean_speed_ums 0
+free_rel_0.95 | mean_speed_ums 2368
+free_rel_0.75 | mean_speed_ums 601
+free_rel_0.5 | mean_speed_ums 0

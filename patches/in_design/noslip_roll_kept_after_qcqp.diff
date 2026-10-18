@@ -1,0 +1,65 @@
+--- a/src/engine/engine_solver.c	2026-10-17 14:37:24
++++ b/src/engine/engine_solver.c	2026-10-17 14:38:07
+@@ -496,6 +496,52 @@
+ 
+   // assign
+   mju_copy(force+i+1, v, dim-1);
++}
++
++
++// Senua AI patch, in design, to be applied after qcqp_reduced.diff (off unless MUJOCO_NOSLIP_ROLL_KEPT=1): noslip leaves a
++// contact's rolling friction (condim 6) as it was before the sweep, MuJoCo's main solve's on the first, and solves the
++// sliding and torsional friction in what the elliptic cone has left, through solveQCQP as a condim-4 contact, so the
++// friction solved in the directions that can move applies to it when its switch is set. MuJoCo's elliptic cone is one
++// ellipsoid over all of a contact's friction components; noslip, solving with the normal forces fixed, drives a resting
++// box's rolling torques to the cone's edge, and with a small rolling coefficient that leaves the sliding friction no room
++// (run 076). Noslip removes slip, and rolling is not slip. Returns 0, and the solve is as without this switch, when the
++// rolling part alone fills the cone.
++static int noslipRollKeptOn(void) {
++  const char* s = getenv("MUJOCO_NOSLIP_ROLL_KEPT");
++  return s && s[0] == '1' && s[1] == 0;
++}
++
++static int solveQCQPRollKept(mjtNum* force, int i, const mjtNum* Ac, const mjtNum* bc, const mjtNum* mu,
++                             const mjtNum* oldforce) {
++  // friction components: 0 and 1 sliding, 2 torsional, 3 and 4 rolling
++  mjtNum roll = 0;
++  for (int j=3; j < 5; j++) {
++    mjtNum q = oldforce[j] / mu[j];
++    roll += q*q;
++  }
++  mjtNum r2 = force[i]*force[i] - roll;
++  if (r2 <= 0) {
++    return 0;
++  }
++  mjtNum f4[4], A3[9], b3[3];
++  f4[0] = mju_sqrt(r2);
++  for (int j=0; j < 3; j++) {
++    b3[j] = bc[j];
++    for (int k=3; k < 5; k++) {
++      b3[j] += Ac[j*5+k]*oldforce[k];
++    }
++    for (int k=0; k < 3; k++) {
++      A3[j*3+k] = Ac[j*5+k];
++    }
++  }
++  solveQCQP(f4, 0, 4, A3, b3, mu);
++  for (int j=0; j < 3; j++) {
++    force[i+1+j] = f4[1+j];
++  }
++  force[i+4] = oldforce[3];
++  force[i+5] = oldforce[4];
++  return 1;
+ }
+ 
+ 
+@@ -990,7 +1036,9 @@
+ 
+         // QCQP
+         else {
++          if (!(noslipRollKeptOn() && dim == 6 && solveQCQPRollKept(force, i, Ac, bc, mu, oldforce))) {
+           solveQCQP(force, i, dim, Ac, bc, mu);
++          }
+         }
+ 
+         // accumulate improvement

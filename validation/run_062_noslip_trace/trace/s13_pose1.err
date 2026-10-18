@@ -1,0 +1,1720 @@
+NOSLIP iter 0 contact 0 dim 3 normal 25.8049805 old -0 2.36583852 new -0 2.41348767 res 0 -0.147049428 A 1e-10 0 0 3.08608736 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 91.8335502 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 25.8049805 old -0 2.41348767 new -0 2.41348767 res 0 -1.1379786e-15 A 1e-10 0 0 3.08608736 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 24.8068091 old -0 2.246965 new -0 2.29173665 res 0 -0.138129638 A 1e-10 0 0 3.08520314 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 83.9188195 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 24.8068091 old -0 2.29173665 new -0 2.29173665 res 0 -1.30451205e-15 A 1e-10 0 0 3.08520314 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 23.9173642 old -0 2.14278887 new -0 2.18434853 res 0 -0.12818701 A 1e-10 0 0 3.08440958 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 75.8993909 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 23.9173642 old -0 2.18434853 new -0 2.18434853 res 0 1.22124533e-15 A 1e-10 0 0 3.08440958 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 23.1146913 old -0 2.05088034 new -0 2.08913815 res 0 -0.117975596 A 1e-10 0 0 3.0836995 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 68.1561137 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 23.1146913 old -0 2.08913815 new -0 2.08913815 res 0 5.55111512e-16 A 1e-10 0 0 3.0836995 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 22.3822154 old -0 1.96928835 new -0 2.00431492 res 0 -0.107989244 A 1e-10 0 0 3.08306642 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 60.910711 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 22.3822154 old -0 2.00431492 new -0 2.00431492 res 0 -1.67921232e-15 A 1e-10 0 0 3.08306642 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 21.7074716 old -0 1.89643952 new -0 1.92840656 res 0 -0.0985385494 A 1e-10 0 0 3.08250444 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 54.2814155 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 21.7074716 old -0 1.92840656 new -0 1.92840656 res 0 2.77555756e-16 A 1e-10 0 0 3.08250444 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 21.081136 old -0 1.83105986 new -0 1.86019871 res 0 -0.0898061744 A 1e-10 0 0 3.08200811 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 48.3187302 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 21.081136 old -0 1.86019871 new -0 1.86019871 res 0 -1.31838984e-15 A 1e-10 0 0 3.08200811 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 20.4962785 old -0 1.77211359 new -0 1.79868652 res 0 -0.0818864158 A 1e-10 0 0 3.08157239 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 43.0289799 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 20.4962785 old -0 1.79868652 new -0 1.79868652 res 0 1.44328993e-15 A 1e-10 0 0 3.08157239 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 19.9447344 old -0 1.71855973 new -0 1.7428918 res 0 -0.0749717797 A 1e-10 0 0 3.08119255 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 38.4640954 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 19.9447344 old -0 1.7428918 new -0 1.7428918 res 0 -1.52655666e-16 A 1e-10 0 0 3.08119255 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.85061658e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 19.4167154 old -0 1.6693148 new -0 1.69183366 res 0 -0.0693775391 A 1e-10 0 0 3.08086415 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 34.7281256 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 19.4167154 old -0 1.69183366 new -0 1.69183366 res 0 4.02455846e-16 A 1e-10 0 0 3.08086415 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 18.9146328 old -0 1.62412127 new -0 1.64517254 res 0 -0.0648501968 A 1e-10 0 0 3.08058294 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 31.6612542 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 18.9146328 old -0 1.64517254 new -0 1.64517254 res 0 -1.40165657e-15 A 1e-10 0 0 3.08058294 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.31315278e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 18.4403995 old -0 1.5827462 new -0 1.60260309 res 0 -0.0611660691 A 1e-10 0 0 3.08034487 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 29.1256349 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 18.4403995 old -0 1.60260309 new -0 1.60260309 res 0 2.08166817e-16 A 1e-10 0 0 3.08034487 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 17.9949246 old -0 1.54494276 new -0 1.56382278 res 0 -0.0581532113 A 1e-10 0 0 3.08014611 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 27.014541 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 17.9949246 old -0 1.56382278 new -0 1.56382278 res 0 -4.92661467e-16 A 1e-10 0 0 3.08014611 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 17.5783634 old -0 1.5104595 new -0 1.52853726 res 0 -0.0556792074 A 1e-10 0 0 3.07998308 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 25.2453685 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 17.5783634 old -0 1.52853726 new -0 1.52853726 res 0 -7.56339436e-16 A 1e-10 0 0 3.07998308 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 17.1903175 old -0 1.47904716 new -0 1.49646417 res 0 -0.0536418443 A 1e-10 0 0 3.07985242 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 23.7540774 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 17.1903175 old -0 1.49646417 new -0 1.49646417 res 0 4.4408921e-16 A 1e-10 0 0 3.07985242 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 16.8299932 old -0 1.45046357 new -0 1.46733571 res 0 -0.0519619893 A 1e-10 0 0 3.07975101 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.4908489 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 16.8299932 old -0 1.46733571 new -0 1.46733571 res 0 7.2858386e-16 A 1e-10 0 0 3.07975101 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 16.4963247 old -0 1.42447699 new -0 1.4409002 res 0 -0.0505781498 A 1e-10 0 0 3.07967594 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.4167329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 16.4963247 old -0 1.4409002 new -0 1.4409002 res 0 6.86950496e-16 A 1e-10 0 0 3.07967594 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 16.1880696 old -0 1.40086824 new -0 1.41692289 res 0 -0.0494423186 A 1e-10 0 0 3.07962452 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.5010823 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 16.1880696 old -0 1.41692289 new -0 1.41692289 res 0 2.01227923e-16 A 1e-10 0 0 3.07962452 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 15.9038813 old -0 1.37943191 new -0 1.3951862 res 0 -0.0485167984 A 1e-10 0 0 3.07959427 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.7195999 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 15.9038813 old -0 1.3951862 new -0 1.3951862 res 0 -2.08166817e-16 A 1e-10 0 0 3.07959427 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 15.642363 old -0 1.35997697 new -0 1.37548939 res 0 -0.0477717759 A 1e-10 0 0 3.0795829 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.0528572 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 15.642363 old -0 1.37548939 new -0 1.37548939 res 0 -9.50628465e-16 A 1e-10 0 0 3.0795829 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 15.4021083 old -0 1.34232674 new -0 1.3576481 res 0 -0.0471834671 A 1e-10 0 0 3.0795883 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.4851719 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 15.4021083 old -0 1.3576481 new -0 1.3576481 res 0 4.51028104e-16 A 1e-10 0 0 3.0795883 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.0661122e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 15.1817297 old -0 1.32631865 new -0 1.34149353 res 0 -0.0467326994 A 1e-10 0 0 3.07960854 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.0037576 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 15.1817297 old -0 1.34149353 new -0 1.34149353 res 0 6.31439345e-16 A 1e-10 0 0 3.07960854 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.9798791 old -0 1.31180365 new -0 1.32687158 res 0 -0.0464038268 A 1e-10 0 0 3.07964185 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.5980789 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.9798791 old -0 1.32687158 new -0 1.32687158 res 0 1.04083409e-16 A 1e-10 0 0 3.07964185 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.35718074e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.7952611 old -0 1.29864553 new -0 1.31364183 res 0 -0.0461839011 A 1e-10 0 0 3.0796866 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.2593601 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.7952611 old -0 1.31364183 new -0 1.31364183 res 0 -1.35308431e-15 A 1e-10 0 0 3.0796866 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 9.87876222e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.6266423 old -0 1.28672012 new -0 1.30167658 res 0 -0.0460620383 A 1e-10 0 0 3.0797413 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.980211 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.6266423 old -0 1.30167658 new -0 1.30167658 res 0 2.8449465e-16 A 1e-10 0 0 3.0797413 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.4728555 old -0 1.27591445 new -0 1.29085986 res 0 -0.0460289352 A 1e-10 0 0 3.0798046 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.7543395 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.4728555 old -0 1.29085986 new -0 1.29085986 res 0 1.2490009e-15 A 1e-10 0 0 3.0798046 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.3328022 old -0 1.26612589 new -0 1.2810864 res 0 -0.0460765011 A 1e-10 0 0 3.07987526 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.5763301 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.3328022 old -0 1.2810864 new -0 1.2810864 res 0 2.01227923e-16 A 1e-10 0 0 3.07987526 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.3065e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.205453 old -0 1.25726131 new -0 1.27226076 res 0 -0.0461975776 A 1e-10 0 0 3.07995214 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.4414731 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.205453 old -0 1.27226076 new -0 1.27226076 res 0 2.49800181e-16 A 1e-10 0 0 3.07995214 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.00205075e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 14.0898457 old -0 1.24923628 new -0 1.26429642 res 0 -0.0463857276 A 1e-10 0 0 3.08003423 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.3456307 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 14.0898457 old -0 1.26429642 new -0 1.26429642 res 0 -7.63278329e-17 A 1e-10 0 0 3.08003423 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.59505501e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.9850836 old -0 1.24197429 new -0 1.25711495 res 0 -0.0466350752 A 1e-10 0 0 3.08012059 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.2851328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.9850836 old -0 1.25711495 new -0 1.25711495 res 0 -1.80411242e-16 A 1e-10 0 0 3.08012059 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.8903322 old -0 1.23540601 new -0 1.25064529 res 0 -0.0469401869 A 1e-10 0 0 3.08021039 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.2566951 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.8903322 old -0 1.25064529 new -0 1.25064529 res 0 -2.01227923e-16 A 1e-10 0 0 3.08021039 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.8048163 old -0 1.22946869 new -0 1.24482302 res 0 -0.0472959835 A 1e-10 0 0 3.08030286 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.2573536 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.8048163 old -0 1.24482302 new -0 1.24482302 res 0 1.52655666e-16 A 1e-10 0 0 3.08030286 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.84965158e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.7278165 old -0 1.22410545 new -0 1.23958971 res 0 -0.047697676 A 1e-10 0 0 3.0803973 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.2844138 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.7278165 old -0 1.23958971 new -0 1.23958971 res 0 -6.45317133e-16 A 1e-10 0 0 3.0803973 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.96336692e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.6586652 old -0 1.21926475 new -0 1.23489235 res 0 -0.0481407185 A 1e-10 0 0 3.08049311 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.3354089 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.6586652 old -0 1.23489235 new -0 1.23489235 res 0 -2.77555756e-17 A 1e-10 0 0 3.08049311 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5967437 old -0 1.2148999 new -0 1.23068284 res 0 -0.0486207768 A 1e-10 0 0 3.08058972 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.4080672 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5967437 old -0 1.23068284 new -0 1.23068284 res 0 7.84095011e-16 A 1e-10 0 0 3.08058972 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5414786 old -0 1.21096854 new -0 1.22691748 res 0 -0.0491337055 A 1e-10 0 0 3.08068664 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.5002855 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5414786 old -0 1.22691748 new -0 1.22691748 res 0 -1.45716772e-15 A 1e-10 0 0 3.08068664 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4923384 old -0 1.20743222 new -0 1.22355654 res 0 -0.0496755339 A 1e-10 0 0 3.08078343 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.610108 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4923384 old -0 1.22355654 new -0 1.22355654 res 0 -3.05311332e-16 A 1e-10 0 0 3.08078343 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.58783245e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4488306 old -0 1.20425606 new -0 1.22056389 res 0 -0.0502424575 A 1e-10 0 0 3.08087968 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.7357092 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4488306 old -0 1.22056389 new -0 1.22056389 res 0 5.34294831e-16 A 1e-10 0 0 3.08087968 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4104987 old -0 1.20140833 new -0 1.21790663 res 0 -0.0508308334 A 1e-10 0 0 3.08097506 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 16.87538 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4104987 old -0 1.21790663 new -0 1.21790663 res 0 -4.99600361e-16 A 1e-10 0 0 3.08097506 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3769198 old -0 1.1988602 new -0 1.21555478 res 0 -0.0514371784 A 1e-10 0 0 3.08106924 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.0275165 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3769198 old -0 1.21555478 new -0 1.21555478 res 0 -6.10622664e-16 A 1e-10 0 0 3.08106924 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3477014 old -0 1.19658539 new -0 1.21348102 res 0 -0.0520581691 A 1e-10 0 0 3.08116197 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.1906113 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3477014 old -0 1.21348102 new -0 1.21348102 res 0 -2.28983499e-16 A 1e-10 0 0 3.08116197 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.32248 old -0 1.19455998 new -0 1.21166038 res 0 -0.0526906437 A 1e-10 0 0 3.081253 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.3632459 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.32248 old -0 1.21166038 new -0 1.21166038 res 0 4.64905892e-16 A 1e-10 0 0 3.081253 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.19988745e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3009181 old -0 1.19276217 new -0 1.21007008 res 0 -0.0533316031 A 1e-10 0 0 3.08134214 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.5440849 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3009181 old -0 1.21007008 new -0 1.21007008 res 0 -3.1918912e-16 A 1e-10 0 0 3.08134214 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2827029 old -0 1.19117202 new -0 1.20868928 res 0 -0.0539782131 A 1e-10 0 0 3.08142922 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.7318713 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2827029 old -0 1.20868928 new -0 1.20868928 res 0 6.9388939e-17 A 1e-10 0 0 3.08142922 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2677458 old -0 1.18978427 new -0 1.20750845 res 0 -0.0546173112 A 1e-10 0 0 3.08151408 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 17.922327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2677458 old -0 1.20750845 new -0 1.20750845 res 0 -1.56819002e-15 A 1e-10 0 0 3.08151408 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.19782836e-30 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2559925 old -0 1.1885965 new -0 1.20652026 res 0 -0.055233817 A 1e-10 0 0 3.08159661 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.1106054 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2559925 old -0 1.20652026 new -0 1.20652026 res 0 -7.70217223e-16 A 1e-10 0 0 3.08159661 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2471032 old -0 1.18758861 new -0 1.20570448 res 0 -0.0558272685 A 1e-10 0 0 3.08167671 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.2961374 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2471032 old -0 1.20570448 new -0 1.20570448 res 0 -6.24500451e-17 A 1e-10 0 0 3.08167671 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.95264523e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2407643 old -0 1.18674211 new -0 1.20504255 res 0 -0.0563974862 A 1e-10 0 0 3.08175432 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.4784547 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2407643 old -0 1.20504255 new -0 1.20504255 res 0 -6.45317133e-16 A 1e-10 0 0 3.08175432 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2366879 old -0 1.18604008 new -0 1.20451757 res 0 -0.0569444764 A 1e-10 0 0 3.08182938 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.6571625 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2366879 old -0 1.20451757 new -0 1.20451757 res 0 -3.12250226e-16 A 1e-10 0 0 3.08182938 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.92127296e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2346104 old -0 1.18546708 new -0 1.20411414 res 0 -0.0574684012 A 1e-10 0 0 3.08190186 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 18.8319315 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2346104 old -0 1.20411414 new -0 1.20411414 res 0 5.13478149e-16 A 1e-10 0 0 3.08190186 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.234291 old -0 1.18500903 new -0 1.20381827 res 0 -0.0579695511 A 1e-10 0 0 3.08197175 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.0024903 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.234291 old -0 1.20381827 new -0 1.20381827 res 0 3.46944695e-16 A 1e-10 0 0 3.08197175 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2355103 old -0 1.18465309 new -0 1.20361726 res 0 -0.0584483229 A 1e-10 0 0 3.08203905 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.1686195 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2355103 old -0 1.20361726 new -0 1.20361726 res 0 1.38777878e-17 A 1e-10 0 0 3.08203905 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2380685 old -0 1.1843876 new -0 1.20349961 res 0 -0.0589051984 A 1e-10 0 0 3.08210376 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.3301459 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2380685 old -0 1.20349961 new -0 1.20349961 res 0 4.16333634e-16 A 1e-10 0 0 3.08210376 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2417845 old -0 1.18420196 new -0 1.2034549 res 0 -0.0593407279 A 1e-10 0 0 3.08216591 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.4869373 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2417845 old -0 1.2034549 new -0 1.2034549 res 0 -1.1379786e-15 A 1e-10 0 0 3.08216591 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2464942 old -0 1.18408659 new -0 1.20347372 res 0 -0.0597555142 A 1e-10 0 0 3.08222552 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.6388982 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2464942 old -0 1.20347372 new -0 1.20347372 res 0 1.80411242e-16 A 1e-10 0 0 3.08222552 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2520492 old -0 1.18403278 new -0 1.2035476 res 0 -0.0601501998 A 1e-10 0 0 3.08228265 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.7859653 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2520492 old -0 1.2035476 new -0 1.2035476 res 0 4.99600361e-16 A 1e-10 0 0 3.08228265 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -8.22409991e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2583161 old -0 1.18403267 new -0 1.2036689 res 0 -0.0605254562 A 1e-10 0 0 3.08233733 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 19.9281039 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2583161 old -0 1.2036689 new -0 1.2036689 res 0 6.10622664e-16 A 1e-10 0 0 3.08233733 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2651745 old -0 1.18407919 new -0 1.20383074 res 0 -0.0608819735 A 1e-10 0 0 3.08238961 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.0653047 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2651745 old -0 1.20383074 new -0 1.20383074 res 0 -3.46944695e-16 A 1e-10 0 0 3.08238961 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.62172283e-33 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2725166 old -0 1.18416595 new -0 1.20402699 res 0 -0.0612204532 A 1e-10 0 0 3.08243956 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.1975805 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2725166 old -0 1.20402699 new -0 1.20402699 res 0 2.15105711e-16 A 1e-10 0 0 3.08243956 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.44486224e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2802462 old -0 1.1842872 new -0 1.20425211 res 0 -0.0615416006 A 1e-10 0 0 3.08248722 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.3249636 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2802462 old -0 1.20425211 new -0 1.20425211 res 0 2.35922393e-16 A 1e-10 0 0 3.08248722 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.2882772 old -0 1.18443779 new -0 1.2045012 res 0 -0.06184612 A 1e-10 0 0 3.08253267 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.447503 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.2882772 old -0 1.2045012 new -0 1.2045012 res 0 2.08166817e-16 A 1e-10 0 0 3.08253267 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.3771728e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.296533 old -0 1.1846131 new -0 1.20476985 res 0 -0.0621347092 A 1e-10 0 0 3.08257597 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.5652627 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.296533 old -0 1.20476985 new -0 1.20476985 res 0 4.99600361e-16 A 1e-10 0 0 3.08257597 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3049459 old -0 1.18480901 new -0 1.20505416 res 0 -0.0624080564 A 1e-10 0 0 3.08261719 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.6783188 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3049459 old -0 1.20505416 new -0 1.20505416 res 0 -9.85322934e-16 A 1e-10 0 0 3.08261719 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3134562 old -0 1.18502183 new -0 1.20535067 res 0 -0.0626668366 A 1e-10 0 0 3.0826564 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.7867585 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3134562 old -0 1.20535067 new -0 1.20535067 res 0 8.8817842e-16 A 1e-10 0 0 3.0826564 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.322011 old -0 1.18524829 new -0 1.20565632 res 0 -0.0629117092 A 1e-10 0 0 3.08269366 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.8906777 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.322011 old -0 1.20565632 new -0 1.20565632 res 0 3.05311332e-16 A 1e-10 0 0 3.08269366 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3305642 old -0 1.18548547 new -0 1.2059684 res 0 -0.0631433162 A 1e-10 0 0 3.08272904 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 20.9901801 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3305642 old -0 1.2059684 new -0 1.2059684 res 0 1.38777878e-17 A 1e-10 0 0 3.08272904 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3390758 old -0 1.18573081 new -0 1.20628454 res 0 -0.0633622809 A 1e-10 0 0 3.08276262 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.0853752 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3390758 old -0 1.20628454 new -0 1.20628454 res 0 -1.38777878e-17 A 1e-10 0 0 3.08276262 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.47929001e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3475109 old -0 1.18598202 new -0 1.20660266 res 0 -0.0635692065 A 1e-10 0 0 3.08279447 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.1763777 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3475109 old -0 1.20660266 new -0 1.20660266 res 0 -3.88578059e-16 A 1e-10 0 0 3.08279447 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.52520715e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3558395 old -0 1.1862371 new -0 1.20692095 res 0 -0.0637646756 A 1e-10 0 0 3.08282465 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.2633061 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3558395 old -0 1.20692095 new -0 1.20692095 res 0 6.38378239e-16 A 1e-10 0 0 3.08282465 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.5804965e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3640359 old -0 1.18649431 new -0 1.20723784 res 0 -0.0639492497 A 1e-10 0 0 3.08285323 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.3462818 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3640359 old -0 1.20723784 new -0 1.20723784 res 0 -1.22124533e-15 A 1e-10 0 0 3.08285323 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3720786 old -0 1.18675211 new -0 1.20755196 res 0 -0.0641234688 A 1e-10 0 0 3.08288027 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.425428 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3720786 old -0 1.20755196 new -0 1.20755196 res 0 7.63278329e-16 A 1e-10 0 0 3.08288027 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.11311118e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3799493 old -0 1.18700916 new -0 1.20786217 res 0 -0.0642878519 A 1e-10 0 0 3.08290585 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.5008692 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3799493 old -0 1.20786217 new -0 1.20786217 res 0 4.30211422e-16 A 1e-10 0 0 3.08290585 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.387633 old -0 1.18726433 new -0 1.20816746 res 0 -0.0644428965 A 1e-10 0 0 3.08293003 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.5727308 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.387633 old -0 1.20816746 new -0 1.20816746 res 0 5.96744876e-16 A 1e-10 0 0 3.08293003 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.17386819e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.3951176 old -0 1.18751662 new -0 1.20846701 res 0 -0.0645890793 A 1e-10 0 0 3.08295287 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.6411376 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.3951176 old -0 1.20846701 new -0 1.20846701 res 0 -4.71844785e-16 A 1e-10 0 0 3.08295287 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4023933 old -0 1.18776518 new -0 1.20876012 res 0 -0.0647268565 A 1e-10 0 0 3.08297442 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.7062143 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4023933 old -0 1.20876012 new -0 1.20876012 res 0 -6.24500451e-16 A 1e-10 0 0 3.08297442 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4094528 old -0 1.18800931 new -0 1.20904621 res 0 -0.0648566641 A 1e-10 0 0 3.08299476 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.7680844 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4094528 old -0 1.20904621 new -0 1.20904621 res 0 1.66533454e-16 A 1e-10 0 0 3.08299476 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.71699047e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4162905 old -0 1.1882484 new -0 1.20932483 res 0 -0.0649789186 A 1e-10 0 0 3.08301393 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.82687 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4162905 old -0 1.20932483 new -0 1.20932483 res 0 2.35922393e-16 A 1e-10 0 0 3.08301393 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.03910691e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4229027 old -0 1.18848196 new -0 1.2095956 res 0 -0.0650940175 A 1e-10 0 0 3.083032 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.8826915 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4229027 old -0 1.2095956 new -0 1.2095956 res 0 1.2490009e-16 A 1e-10 0 0 3.083032 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.56422916e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4292873 old -0 1.1887096 new -0 1.20985826 res 0 -0.0652023397 A 1e-10 0 0 3.08304901 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.9356671 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4292873 old -0 1.20985826 new -0 1.20985826 res 0 6.9388939e-16 A 1e-10 0 0 3.08304901 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4354434 old -0 1.18893099 new -0 1.21011259 res 0 -0.0653042466 A 1e-10 0 0 3.08306502 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 21.985913 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4354434 old -0 1.21011259 new -0 1.21011259 res 0 5.96744876e-16 A 1e-10 0 0 3.08306502 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4413713 old -0 1.18914588 new -0 1.21035846 res 0 -0.0654000823 A 1e-10 0 0 3.08308008 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.0335425 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4413713 old -0 1.21035846 new -0 1.21035846 res 0 4.30211422e-16 A 1e-10 0 0 3.08308008 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4470725 old -0 1.18935409 new -0 1.21059579 res 0 -0.0654901742 A 1e-10 0 0 3.08309424 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.0786667 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4470725 old -0 1.21059579 new -0 1.21059579 res 0 2.77555756e-16 A 1e-10 0 0 3.08309424 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4525492 old -0 1.18955549 new -0 1.21082456 res 0 -0.0655748343 A 1e-10 0 0 3.08310753 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.1213936 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4525492 old -0 1.21082456 new -0 1.21082456 res 0 -3.1918912e-16 A 1e-10 0 0 3.08310753 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4578044 old -0 1.18975001 new -0 1.21104478 res 0 -0.0656543589 A 1e-10 0 0 3.08312002 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.1618283 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4578044 old -0 1.21104478 new -0 1.21104478 res 0 -3.88578059e-16 A 1e-10 0 0 3.08312002 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4628417 old -0 1.1899376 new -0 1.21125652 res 0 -0.0657290299 A 1e-10 0 0 3.08313173 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.200073 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4628417 old -0 1.21125652 new -0 1.21125652 res 0 -6.38378239e-16 A 1e-10 0 0 3.08313173 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4676654 old -0 1.19011828 new -0 1.21145985 res 0 -0.0657991152 A 1e-10 0 0 3.08314272 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.2362268 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4676654 old -0 1.21145985 new -0 1.21145985 res 0 -1.80411242e-16 A 1e-10 0 0 3.08314272 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4722801 old -0 1.19029208 new -0 1.21165491 res 0 -0.0658648694 A 1e-10 0 0 3.08315302 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.2703857 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4722801 old -0 1.21165491 new -0 1.21165491 res 0 1.94289029e-16 A 1e-10 0 0 3.08315302 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4766909 old -0 1.19045906 new -0 1.21184182 res 0 -0.0659265341 A 1e-10 0 0 3.08316266 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.3026425 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4766909 old -0 1.21184182 new -0 1.21184182 res 0 -2.77555756e-16 A 1e-10 0 0 3.08316266 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -6.32525612e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4809031 old -0 1.1906193 new -0 1.21202075 res 0 -0.0659843389 A 1e-10 0 0 3.08317169 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.333087 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4809031 old -0 1.21202075 new -0 1.21202075 res 0 5.27355937e-16 A 1e-10 0 0 3.08317169 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4849223 old -0 1.19077293 new -0 1.21219188 res 0 -0.0660385016 A 1e-10 0 0 3.08318013 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.3618058 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4849223 old -0 1.21219188 new -0 1.21219188 res 0 5.13478149e-16 A 1e-10 0 0 3.08318013 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4887542 old -0 1.19092005 new -0 1.21235541 res 0 -0.0660892288 A 1e-10 0 0 3.08318803 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.3888823 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4887542 old -0 1.21235541 new -0 1.21235541 res 0 -1.12410081e-15 A 1e-10 0 0 3.08318803 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4924047 old -0 1.19106083 new -0 1.21251153 res 0 -0.0661367165 A 1e-10 0 0 3.0831954 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.414397 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4924047 old -0 1.21251153 new -0 1.21251153 res 0 -4.02455846e-16 A 1e-10 0 0 3.0831954 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4958799 old -0 1.19119539 new -0 1.21266046 res 0 -0.0661811508 A 1e-10 0 0 3.08320229 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.4384273 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4958799 old -0 1.21266046 new -0 1.21266046 res 0 2.08166817e-16 A 1e-10 0 0 3.08320229 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.37789909e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.4991856 old -0 1.19132391 new -0 1.21280241 res 0 -0.0662227078 A 1e-10 0 0 3.08320871 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.4610474 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.4991856 old -0 1.21280241 new -0 1.21280241 res 0 1.2490009e-16 A 1e-10 0 0 3.08320871 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.12396515e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.502328 old -0 1.19144655 new -0 1.21293761 res 0 -0.0662615546 A 1e-10 0 0 3.08321471 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.4823289 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.502328 old -0 1.21293761 new -0 1.21293761 res 0 -2.77555756e-16 A 1e-10 0 0 3.08321471 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5053131 old -0 1.19156349 new -0 1.21306629 res 0 -0.0662978493 A 1e-10 0 0 3.08322029 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.5023402 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5053131 old -0 1.21306629 new -0 1.21306629 res 0 -9.85322934e-16 A 1e-10 0 0 3.08322029 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5081469 old -0 1.19167491 new -0 1.21318866 res 0 -0.066331742 A 1e-10 0 0 3.08322549 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.521147 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5081469 old -0 1.21318866 new -0 1.21318866 res 0 9.71445147e-17 A 1e-10 0 0 3.08322549 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.29327729e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5108352 old -0 1.19178099 new -0 1.21330497 res 0 -0.0663633745 A 1e-10 0 0 3.08323032 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.5388122 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5108352 old -0 1.21330497 new -0 1.21330497 res 0 -1.94289029e-16 A 1e-10 0 0 3.08323032 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.513384 old -0 1.19188191 new -0 1.21341542 res 0 -0.0663928813 A 1e-10 0 0 3.08323482 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.5553961 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.513384 old -0 1.21341542 new -0 1.21341542 res 0 1.66533454e-16 A 1e-10 0 0 3.08323482 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.97119177e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5157989 old -0 1.19197785 new -0 1.21352026 res 0 -0.0664203894 A 1e-10 0 0 3.083239 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.5709564 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5157989 old -0 1.21352026 new -0 1.21352026 res 0 -8.8817842e-16 A 1e-10 0 0 3.083239 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 5.33294992e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5180856 old -0 1.192069 new -0 1.21361969 res 0 -0.0664460192 A 1e-10 0 0 3.08324288 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.585548 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5180856 old -0 1.21361969 new -0 1.21361969 res 0 8.32667268e-17 A 1e-10 0 0 3.08324288 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.53074482e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5202497 old -0 1.19215554 new -0 1.21371395 res 0 -0.0664698845 A 1e-10 0 0 3.08324648 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.5992235 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5202497 old -0 1.21371395 new -0 1.21371395 res 0 -1.0269563e-15 A 1e-10 0 0 3.08324648 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5222963 old -0 1.19223765 new -0 1.21380324 res 0 -0.0664920929 A 1e-10 0 0 3.08324982 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6120332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5222963 old -0 1.21380324 new -0 1.21380324 res 0 -7.21644966e-16 A 1e-10 0 0 3.08324982 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.70596774e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5242309 old -0 1.19231551 new -0 1.21388777 res 0 -0.0665127461 A 1e-10 0 0 3.08325291 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.624025 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5242309 old -0 1.21388777 new -0 1.21388777 res 0 1.52655666e-16 A 1e-10 0 0 3.08325291 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5260585 old -0 1.19238928 new -0 1.21396775 res 0 -0.0665319401 A 1e-10 0 0 3.08325577 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6352445 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5260585 old -0 1.21396775 new -0 1.21396775 res 0 -7.63278329e-16 A 1e-10 0 0 3.08325577 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.1127039e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5277839 old -0 1.19245915 new -0 1.21404339 res 0 -0.0665497658 A 1e-10 0 0 3.08325841 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6457351 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5277839 old -0 1.21404339 new -0 1.21404339 res 0 4.4408921e-16 A 1e-10 0 0 3.08325841 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5294121 old -0 1.19252528 new -0 1.21411487 res 0 -0.0665663088 A 1e-10 0 0 3.08326085 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6555383 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5294121 old -0 1.21411487 new -0 1.21411487 res 0 -6.24500451e-16 A 1e-10 0 0 3.08326085 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5309476 old -0 1.19258784 new -0 1.21418238 res 0 -0.06658165 A 1e-10 0 0 3.0832631 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6646935 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5309476 old -0 1.21418238 new -0 1.21418238 res 0 2.35922393e-16 A 1e-10 0 0 3.0832631 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.03937717e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5323948 old -0 1.19264697 new -0 1.21424611 res 0 -0.0665958658 A 1e-10 0 0 3.08326518 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6732381 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5323948 old -0 1.21424611 new -0 1.21424611 res 0 -3.46944695e-16 A 1e-10 0 0 3.08326518 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5337582 old -0 1.19270285 new -0 1.21430624 res 0 -0.0666090281 A 1e-10 0 0 3.08326709 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6812077 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5337582 old -0 1.21430624 new -0 1.21430624 res 0 2.08166817e-16 A 1e-10 0 0 3.08326709 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.37796938e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5350417 old -0 1.19275561 new -0 1.21436294 res 0 -0.066621205 A 1e-10 0 0 3.08326885 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6886361 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5350417 old -0 1.21436294 new -0 1.21436294 res 0 -4.02455846e-16 A 1e-10 0 0 3.08326885 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5362495 old -0 1.1928054 new -0 1.21441637 res 0 -0.0666324603 A 1e-10 0 0 3.08327046 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.6955555 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5362495 old -0 1.21441637 new -0 1.21441637 res 0 1.80411242e-16 A 1e-10 0 0 3.08327046 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5373854 old -0 1.19285237 new -0 1.21446669 res 0 -0.0666428543 A 1e-10 0 0 3.08327194 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7019961 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5373854 old -0 1.21446669 new -0 1.21446669 res 0 1.09634524e-15 A 1e-10 0 0 3.08327194 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5384531 old -0 1.19289664 new -0 1.21451407 res 0 -0.0666524439 A 1e-10 0 0 3.0832733 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.707987 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5384531 old -0 1.21451407 new -0 1.21451407 res 0 -5.41233725e-16 A 1e-10 0 0 3.0832733 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.539456 old -0 1.19293835 new -0 1.21455864 res 0 -0.0666612826 A 1e-10 0 0 3.08327454 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7135554 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.539456 old -0 1.21455864 new -0 1.21455864 res 0 2.08166817e-16 A 1e-10 0 0 3.08327454 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5403977 old -0 1.19297764 new -0 1.21460055 res 0 -0.0666694206 A 1e-10 0 0 3.08327567 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7187273 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5403977 old -0 1.21460055 new -0 1.21460055 res 0 -1.2490009e-16 A 1e-10 0 0 3.08327567 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5412813 old -0 1.1930146 new -0 1.21463994 res 0 -0.0666769052 A 1e-10 0 0 3.08327671 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7235271 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5412813 old -0 1.21463994 new -0 1.21463994 res 0 -4.57966998e-16 A 1e-10 0 0 3.08327671 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5421099 old -0 1.19304938 new -0 1.21467694 res 0 -0.066683781 A 1e-10 0 0 3.08327765 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7279782 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5421099 old -0 1.21467694 new -0 1.21467694 res 0 -2.35922393e-16 A 1e-10 0 0 3.08327765 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5428865 old -0 1.19308207 new -0 1.21471167 res 0 -0.0666900898 A 1e-10 0 0 3.08327851 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7321023 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5428865 old -0 1.21471167 new -0 1.21471167 res 0 2.91433544e-16 A 1e-10 0 0 3.08327851 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5436141 old -0 1.19311279 new -0 1.21474426 res 0 -0.066695871 A 1e-10 0 0 3.08327928 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7359203 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5436141 old -0 1.21474426 new -0 1.21474426 res 0 -1.11022302e-16 A 1e-10 0 0 3.08327928 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5442951 old -0 1.19314163 new -0 1.21477481 res 0 -0.0667011612 A 1e-10 0 0 3.08327999 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7394518 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5442951 old -0 1.21477481 new -0 1.21477481 res 0 -6.38378239e-16 A 1e-10 0 0 3.08327999 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.89244979e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5449324 old -0 1.1931687 new -0 1.21480345 res 0 -0.0667059953 A 1e-10 0 0 3.08328062 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7427152 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5449324 old -0 1.21480345 new -0 1.21480345 res 0 7.07767178e-16 A 1e-10 0 0 3.08328062 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.57035345e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5455282 old -0 1.1931941 new -0 1.21483027 res 0 -0.0667104058 A 1e-10 0 0 3.08328119 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.745728 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5455282 old -0 1.21483027 new -0 1.21483027 res 0 -1.29063427e-15 A 1e-10 0 0 3.08328119 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 9.26474943e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.546085 old -0 1.1932179 new -0 1.21485537 res 0 -0.0667144229 A 1e-10 0 0 3.08328171 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7485066 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.546085 old -0 1.21485537 new -0 1.21485537 res 0 -5.55111512e-16 A 1e-10 0 0 3.08328171 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5466051 old -0 1.1932402 new -0 1.21487886 res 0 -0.0667180755 A 1e-10 0 0 3.08328217 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7510665 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5466051 old -0 1.21487886 new -0 1.21487886 res 0 0 A 1e-10 0 0 3.08328217 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.34427266e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5470904 old -0 1.19326109 new -0 1.21490082 res 0 -0.06672139 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7534224 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5470904 old -0 1.21490082 new -0 1.21490082 res 0 3.1918912e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5475431 old -0 1.19328064 new -0 1.21492133 res 0 -0.0667243917 A 1e-10 0 0 3.08328294 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.755588 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5475431 old -0 1.21492133 new -0 1.21492133 res 0 -7.07767178e-16 A 1e-10 0 0 3.08328294 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.547965 old -0 1.19329892 new -0 1.21494049 res 0 -0.0667271039 A 1e-10 0 0 3.08328327 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7575763 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.547965 old -0 1.21494049 new -0 1.21494049 res 0 -5.13478149e-16 A 1e-10 0 0 3.08328327 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.548358 old -0 1.193316 new -0 1.21495837 res 0 -0.0667295486 A 1e-10 0 0 3.08328355 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7593995 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.548358 old -0 1.21495837 new -0 1.21495837 res 0 -1.11022302e-16 A 1e-10 0 0 3.08328355 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5487238 old -0 1.19333196 new -0 1.21497504 res 0 -0.0667317463 A 1e-10 0 0 3.0832838 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7610689 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5487238 old -0 1.21497504 new -0 1.21497504 res 0 -1.94289029e-16 A 1e-10 0 0 3.0832838 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5490641 old -0 1.19334686 new -0 1.21499058 res 0 -0.066733716 A 1e-10 0 0 3.08328402 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7625954 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5490641 old -0 1.21499058 new -0 1.21499058 res 0 2.35922393e-16 A 1e-10 0 0 3.08328402 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5493804 old -0 1.19336077 new -0 1.21500505 res 0 -0.0667354757 A 1e-10 0 0 3.08328421 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.763989 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5493804 old -0 1.21500505 new -0 1.21500505 res 0 3.46944695e-16 A 1e-10 0 0 3.08328421 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5496741 old -0 1.19337373 new -0 1.21501852 res 0 -0.066737042 A 1e-10 0 0 3.08328437 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7652593 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5496741 old -0 1.21501852 new -0 1.21501852 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328437 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5499468 old -0 1.1933858 new -0 1.21503104 res 0 -0.0667384305 A 1e-10 0 0 3.0832845 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7664151 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5499468 old -0 1.21503104 new -0 1.21503104 res 0 -1.66533454e-16 A 1e-10 0 0 3.0832845 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5501996 old -0 1.19339705 new -0 1.21504268 res 0 -0.0667396556 A 1e-10 0 0 3.08328462 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7674648 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5501996 old -0 1.21504268 new -0 1.21504268 res 0 8.04911693e-16 A 1e-10 0 0 3.08328462 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51941522e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5504338 old -0 1.19340751 new -0 1.21505349 res 0 -0.066740731 A 1e-10 0 0 3.08328471 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7684162 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5504338 old -0 1.21505349 new -0 1.21505349 res 0 1.04083409e-15 A 1e-10 0 0 3.08328471 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5506506 old -0 1.19341723 new -0 1.21506352 res 0 -0.066741669 A 1e-10 0 0 3.08328479 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7692766 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5506506 old -0 1.21506352 new -0 1.21506352 res 0 1.38777878e-16 A 1e-10 0 0 3.08328479 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5508512 old -0 1.19342627 new -0 1.21507282 res 0 -0.0667424815 A 1e-10 0 0 3.08328484 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7700528 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5508512 old -0 1.21507282 new -0 1.21507282 res 0 4.02455846e-16 A 1e-10 0 0 3.08328484 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5510365 old -0 1.19343466 new -0 1.21508144 res 0 -0.0667431793 A 1e-10 0 0 3.08328489 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7707514 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5510365 old -0 1.21508144 new -0 1.21508144 res 0 2.35922393e-16 A 1e-10 0 0 3.08328489 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5512076 old -0 1.19344244 new -0 1.21508941 res 0 -0.0667437724 A 1e-10 0 0 3.08328492 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7713781 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5512076 old -0 1.21508941 new -0 1.21508941 res 0 9.71445147e-17 A 1e-10 0 0 3.08328492 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5513654 old -0 1.19344966 new -0 1.21509679 res 0 -0.0667442703 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7719387 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5513654 old -0 1.21509679 new -0 1.21509679 res 0 -2.22044605e-16 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5515108 old -0 1.19345634 new -0 1.2151036 res 0 -0.0667446816 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724383 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5515108 old -0 1.2151036 new -0 1.2151036 res 0 5.96744876e-16 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5516446 old -0 1.19346252 new -0 1.21510989 res 0 -0.0667450143 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7728819 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5516446 old -0 1.21510989 new -0 1.21510989 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328494 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5517676 old -0 1.19346823 new -0 1.21511569 res 0 -0.0667452759 A 1e-10 0 0 3.08328493 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.773274 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5517676 old -0 1.21511569 new -0 1.21511569 res 0 -1.94289029e-16 A 1e-10 0 0 3.08328493 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5518805 old -0 1.19347351 new -0 1.21512103 res 0 -0.0667454733 A 1e-10 0 0 3.08328491 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7736188 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5518805 old -0 1.21512103 new -0 1.21512103 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328491 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5519841 old -0 1.19347838 new -0 1.21512594 res 0 -0.0667456129 A 1e-10 0 0 3.08328489 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7739202 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5519841 old -0 1.21512594 new -0 1.21512594 res 0 7.21644966e-16 A 1e-10 0 0 3.08328489 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.7059297e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5520789 old -0 1.19348286 new -0 1.21513046 res 0 -0.0667457005 A 1e-10 0 0 3.08328486 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.774182 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5520789 old -0 1.21513046 new -0 1.21513046 res 0 -4.16333634e-17 A 1e-10 0 0 3.08328486 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5521656 old -0 1.193487 new -0 1.2151346 res 0 -0.0667457416 A 1e-10 0 0 3.08328482 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7744074 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5521656 old -0 1.2151346 new -0 1.2151346 res 0 -3.88578059e-16 A 1e-10 0 0 3.08328482 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5522447 old -0 1.1934908 new -0 1.21513841 res 0 -0.0667457411 A 1e-10 0 0 3.08328478 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7745998 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5522447 old -0 1.21513841 new -0 1.21513841 res 0 -1.80411242e-16 A 1e-10 0 0 3.08328478 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5523169 old -0 1.19349429 new -0 1.21514188 res 0 -0.0667457037 A 1e-10 0 0 3.08328473 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7747621 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5523169 old -0 1.21514188 new -0 1.21514188 res 0 4.16333634e-16 A 1e-10 0 0 3.08328473 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5523825 old -0 1.19349749 new -0 1.21514506 res 0 -0.0667456335 A 1e-10 0 0 3.08328469 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7748969 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5523825 old -0 1.21514506 new -0 1.21514506 res 0 -4.85722573e-16 A 1e-10 0 0 3.08328469 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5524422 old -0 1.19350042 new -0 1.21514797 res 0 -0.0667455346 A 1e-10 0 0 3.08328464 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7750068 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5524422 old -0 1.21514797 new -0 1.21514797 res 0 3.46944695e-16 A 1e-10 0 0 3.08328464 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5524962 old -0 1.19350311 new -0 1.21515061 res 0 -0.0667454103 A 1e-10 0 0 3.08328458 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7750942 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5524962 old -0 1.21515061 new -0 1.21515061 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328458 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5525451 old -0 1.19350556 new -0 1.21515302 res 0 -0.0667452641 A 1e-10 0 0 3.08328453 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7751611 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5525451 old -0 1.21515302 new -0 1.21515302 res 0 4.30211422e-16 A 1e-10 0 0 3.08328453 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5525892 old -0 1.1935078 new -0 1.2151552 res 0 -0.0667450988 A 1e-10 0 0 3.08328447 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752097 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5525892 old -0 1.2151552 new -0 1.2151552 res 0 6.38378239e-16 A 1e-10 0 0 3.08328447 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.89244492e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5526288 old -0 1.19350984 new -0 1.21515718 res 0 -0.0667449172 A 1e-10 0 0 3.08328442 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752418 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5526288 old -0 1.21515718 new -0 1.21515718 res 0 -9.71445147e-17 A 1e-10 0 0 3.08328442 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5526644 old -0 1.19351169 new -0 1.21515897 res 0 -0.0667447218 A 1e-10 0 0 3.08328436 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752591 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5526644 old -0 1.21515897 new -0 1.21515897 res 0 7.63278329e-16 A 1e-10 0 0 3.08328436 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5526963 old -0 1.19351337 new -0 1.21516058 res 0 -0.0667445149 A 1e-10 0 0 3.0832843 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752631 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5526963 old -0 1.21516058 new -0 1.21516058 res 0 -1.38777878e-17 A 1e-10 0 0 3.0832843 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527247 old -0 1.19351489 new -0 1.21516203 res 0 -0.0667442984 A 1e-10 0 0 3.08328424 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752553 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527247 old -0 1.21516203 new -0 1.21516203 res 0 4.16333634e-17 A 1e-10 0 0 3.08328424 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.9375323e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527499 old -0 1.19351626 new -0 1.21516333 res 0 -0.0667440743 A 1e-10 0 0 3.08328419 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752371 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527499 old -0 1.21516333 new -0 1.21516333 res 0 8.46545056e-16 A 1e-10 0 0 3.08328419 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527722 old -0 1.1935175 new -0 1.2151645 res 0 -0.0667438443 A 1e-10 0 0 3.08328413 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7752096 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527722 old -0 1.2151645 new -0 1.2151645 res 0 -6.10622664e-16 A 1e-10 0 0 3.08328413 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527918 old -0 1.19351861 new -0 1.21516553 res 0 -0.0667436098 A 1e-10 0 0 3.08328407 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7751741 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527918 old -0 1.21516553 new -0 1.21516553 res 0 -6.24500451e-16 A 1e-10 0 0 3.08328407 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528089 old -0 1.19351961 new -0 1.21516645 res 0 -0.0667433722 A 1e-10 0 0 3.08328402 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7751314 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528089 old -0 1.21516645 new -0 1.21516645 res 0 -8.46545056e-16 A 1e-10 0 0 3.08328402 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528238 old -0 1.1935205 new -0 1.21516726 res 0 -0.0667431328 A 1e-10 0 0 3.08328396 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7750827 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528238 old -0 1.21516726 new -0 1.21516726 res 0 9.71445147e-17 A 1e-10 0 0 3.08328396 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.39520851e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528366 old -0 1.19352129 new -0 1.21516798 res 0 -0.0667428926 A 1e-10 0 0 3.08328391 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7750286 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528366 old -0 1.21516798 new -0 1.21516798 res 0 -2.22044605e-16 A 1e-10 0 0 3.08328391 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528475 old -0 1.19352199 new -0 1.2151686 res 0 -0.0667426527 A 1e-10 0 0 3.08328385 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7749701 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528475 old -0 1.2151686 new -0 1.2151686 res 0 -2.08166817e-16 A 1e-10 0 0 3.08328385 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.37798756e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528568 old -0 1.1935226 new -0 1.21516914 res 0 -0.0667424139 A 1e-10 0 0 3.0832838 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7749078 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528568 old -0 1.21516914 new -0 1.21516914 res 0 2.22044605e-16 A 1e-10 0 0 3.0832838 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528645 old -0 1.19352314 new -0 1.2151696 res 0 -0.066742177 A 1e-10 0 0 3.08328375 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7748423 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528645 old -0 1.2151696 new -0 1.2151696 res 0 5.27355937e-16 A 1e-10 0 0 3.08328375 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.80779873e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528707 old -0 1.19352362 new -0 1.21517 res 0 -0.0667419427 A 1e-10 0 0 3.0832837 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7747744 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528707 old -0 1.21517 new -0 1.21517 res 0 -9.99200722e-16 A 1e-10 0 0 3.0832837 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 6.41754841e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528757 old -0 1.19352402 new -0 1.21517033 res 0 -0.0667417115 A 1e-10 0 0 3.08328365 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7747044 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528757 old -0 1.21517033 new -0 1.21517033 res 0 -4.99600361e-16 A 1e-10 0 0 3.08328365 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528795 old -0 1.19352437 new -0 1.21517061 res 0 -0.066741484 A 1e-10 0 0 3.0832836 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.774633 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528795 old -0 1.21517061 new -0 1.21517061 res 0 4.99600361e-16 A 1e-10 0 0 3.0832836 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -8.22518559e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528823 old -0 1.19352467 new -0 1.21517083 res 0 -0.0667412606 A 1e-10 0 0 3.08328356 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7745604 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528823 old -0 1.21517083 new -0 1.21517083 res 0 -5.689893e-16 A 1e-10 0 0 3.08328356 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528841 old -0 1.19352492 new -0 1.21517101 res 0 -0.0667410417 A 1e-10 0 0 3.08328351 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7744872 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528841 old -0 1.21517101 new -0 1.21517101 res 0 -5.13478149e-16 A 1e-10 0 0 3.08328351 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.67221812e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528851 old -0 1.19352512 new -0 1.21517114 res 0 -0.0667408276 A 1e-10 0 0 3.08328347 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7744136 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528851 old -0 1.21517114 new -0 1.21517114 res 0 -3.33066907e-16 A 1e-10 0 0 3.08328347 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528854 old -0 1.19352528 new -0 1.21517124 res 0 -0.0667406186 A 1e-10 0 0 3.08328343 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.77434 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528854 old -0 1.21517124 new -0 1.21517124 res 0 -7.91033905e-16 A 1e-10 0 0 3.08328343 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.38383564e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552885 old -0 1.19352541 new -0 1.2151713 res 0 -0.0667404149 A 1e-10 0 0 3.08328339 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7742667 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552885 old -0 1.2151713 new -0 1.2151713 res 0 -1.1379786e-15 A 1e-10 0 0 3.08328339 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.77335746e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528839 old -0 1.19352551 new -0 1.21517133 res 0 -0.0667402167 A 1e-10 0 0 3.08328335 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7741939 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528839 old -0 1.21517133 new -0 1.21517133 res 0 2.77555756e-17 A 1e-10 0 0 3.08328335 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528824 old -0 1.19352557 new -0 1.21517134 res 0 -0.0667400242 A 1e-10 0 0 3.08328331 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7741218 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528824 old -0 1.21517134 new -0 1.21517134 res 0 -4.85722573e-16 A 1e-10 0 0 3.08328331 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -8.0896044e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528804 old -0 1.19352561 new -0 1.21517132 res 0 -0.0667398373 A 1e-10 0 0 3.08328328 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7740506 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528804 old -0 1.21517132 new -0 1.21517132 res 0 2.63677968e-16 A 1e-10 0 0 3.08328328 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552878 old -0 1.19352563 new -0 1.21517128 res 0 -0.0667396562 A 1e-10 0 0 3.08328324 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7739804 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552878 old -0 1.21517128 new -0 1.21517128 res 0 -9.29811783e-16 A 1e-10 0 0 3.08328324 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528752 old -0 1.19352563 new -0 1.21517122 res 0 -0.066739481 A 1e-10 0 0 3.08328321 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7739115 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528752 old -0 1.21517122 new -0 1.21517122 res 0 1.80411242e-16 A 1e-10 0 0 3.08328321 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.10682512e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528722 old -0 1.1935256 new -0 1.21517114 res 0 -0.0667393116 A 1e-10 0 0 3.08328318 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7738439 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528722 old -0 1.21517114 new -0 1.21517114 res 0 -1.80411242e-16 A 1e-10 0 0 3.08328318 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528689 old -0 1.19352556 new -0 1.21517105 res 0 -0.066739148 A 1e-10 0 0 3.08328314 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7737778 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528689 old -0 1.21517105 new -0 1.21517105 res 0 9.71445147e-17 A 1e-10 0 0 3.08328314 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528653 old -0 1.19352551 new -0 1.21517094 res 0 -0.0667389902 A 1e-10 0 0 3.08328312 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7737132 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528653 old -0 1.21517094 new -0 1.21517094 res 0 6.52256027e-16 A 1e-10 0 0 3.08328312 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528616 old -0 1.19352544 new -0 1.21517082 res 0 -0.0667388381 A 1e-10 0 0 3.08328309 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7736503 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528616 old -0 1.21517082 new -0 1.21517082 res 0 -7.91033905e-16 A 1e-10 0 0 3.08328309 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.38383601e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528578 old -0 1.19352536 new -0 1.2151707 res 0 -0.0667386917 A 1e-10 0 0 3.08328306 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7735889 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528578 old -0 1.2151707 new -0 1.2151707 res 0 5.41233725e-16 A 1e-10 0 0 3.08328306 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528538 old -0 1.19352528 new -0 1.21517057 res 0 -0.0667385509 A 1e-10 0 0 3.08328303 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7735293 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528538 old -0 1.21517057 new -0 1.21517057 res 0 7.07767178e-16 A 1e-10 0 0 3.08328303 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528498 old -0 1.19352518 new -0 1.21517043 res 0 -0.0667384156 A 1e-10 0 0 3.08328301 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7734715 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528498 old -0 1.21517043 new -0 1.21517043 res 0 1.12410081e-15 A 1e-10 0 0 3.08328301 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.63777701e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528457 old -0 1.19352508 new -0 1.21517028 res 0 -0.0667382857 A 1e-10 0 0 3.08328299 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7734154 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528457 old -0 1.21517028 new -0 1.21517028 res 0 -7.91033905e-16 A 1e-10 0 0 3.08328299 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528415 old -0 1.19352497 new -0 1.21517013 res 0 -0.0667381611 A 1e-10 0 0 3.08328296 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7733611 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528415 old -0 1.21517013 new -0 1.21517013 res 0 3.05311332e-16 A 1e-10 0 0 3.08328296 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -7.41153576e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528374 old -0 1.19352486 new -0 1.21516998 res 0 -0.0667380417 A 1e-10 0 0 3.08328294 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7733085 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528374 old -0 1.21516998 new -0 1.21516998 res 0 -5.13478149e-16 A 1e-10 0 0 3.08328294 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528332 old -0 1.19352474 new -0 1.21516983 res 0 -0.0667379273 A 1e-10 0 0 3.08328292 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7732578 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528332 old -0 1.21516983 new -0 1.21516983 res 0 -5.96744876e-16 A 1e-10 0 0 3.08328292 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552829 old -0 1.19352462 new -0 1.21516967 res 0 -0.0667378179 A 1e-10 0 0 3.0832829 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7732088 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552829 old -0 1.21516967 new -0 1.21516967 res 0 -1.66533454e-16 A 1e-10 0 0 3.0832829 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528249 old -0 1.1935245 new -0 1.21516952 res 0 -0.0667377132 A 1e-10 0 0 3.08328288 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7731616 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528249 old -0 1.21516952 new -0 1.21516952 res 0 1.09634524e-15 A 1e-10 0 0 3.08328288 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528208 old -0 1.19352438 new -0 1.21516936 res 0 -0.0667376131 A 1e-10 0 0 3.08328286 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7731162 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528208 old -0 1.21516936 new -0 1.21516936 res 0 -4.30211422e-16 A 1e-10 0 0 3.08328286 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528168 old -0 1.19352425 new -0 1.21516921 res 0 -0.0667375176 A 1e-10 0 0 3.08328285 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7730725 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528168 old -0 1.21516921 new -0 1.21516921 res 0 3.60822483e-16 A 1e-10 0 0 3.08328285 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.80829255e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528128 old -0 1.19352413 new -0 1.21516905 res 0 -0.0667374264 A 1e-10 0 0 3.08328283 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7730304 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528128 old -0 1.21516905 new -0 1.21516905 res 0 -6.9388939e-16 A 1e-10 0 0 3.08328283 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528089 old -0 1.193524 new -0 1.2151689 res 0 -0.0667373395 A 1e-10 0 0 3.08328282 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7729901 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528089 old -0 1.2151689 new -0 1.2151689 res 0 9.71445147e-17 A 1e-10 0 0 3.08328282 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528051 old -0 1.19352388 new -0 1.21516875 res 0 -0.0667372566 A 1e-10 0 0 3.0832828 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7729513 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528051 old -0 1.21516875 new -0 1.21516875 res 0 -4.99600361e-16 A 1e-10 0 0 3.0832828 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5528013 old -0 1.19352376 new -0 1.2151686 res 0 -0.0667371777 A 1e-10 0 0 3.08328279 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7729142 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5528013 old -0 1.2151686 new -0 1.2151686 res 0 3.05311332e-16 A 1e-10 0 0 3.08328279 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.61494166e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527977 old -0 1.19352364 new -0 1.21516846 res 0 -0.0667371025 A 1e-10 0 0 3.08328277 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7728786 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527977 old -0 1.21516846 new -0 1.21516846 res 0 -3.88578059e-16 A 1e-10 0 0 3.08328277 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51991077e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527941 old -0 1.19352352 new -0 1.21516832 res 0 -0.0667370311 A 1e-10 0 0 3.08328276 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7728446 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527941 old -0 1.21516832 new -0 1.21516832 res 0 4.30211422e-16 A 1e-10 0 0 3.08328276 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 8.58733704e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527906 old -0 1.1935234 new -0 1.21516818 res 0 -0.0667369631 A 1e-10 0 0 3.08328275 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772812 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527906 old -0 1.21516818 new -0 1.21516818 res 0 2.35922393e-16 A 1e-10 0 0 3.08328275 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.03939848e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527873 old -0 1.19352329 new -0 1.21516804 res 0 -0.0667368986 A 1e-10 0 0 3.08328274 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7727809 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527873 old -0 1.21516804 new -0 1.21516804 res 0 5.55111512e-17 A 1e-10 0 0 3.08328274 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552784 old -0 1.19352317 new -0 1.21516791 res 0 -0.0667368372 A 1e-10 0 0 3.08328273 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7727511 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552784 old -0 1.21516791 new -0 1.21516791 res 0 3.46944695e-16 A 1e-10 0 0 3.08328273 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527808 old -0 1.19352306 new -0 1.21516778 res 0 -0.0667367791 A 1e-10 0 0 3.08328272 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7727227 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527808 old -0 1.21516778 new -0 1.21516778 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328272 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527777 old -0 1.19352295 new -0 1.21516765 res 0 -0.0667367239 A 1e-10 0 0 3.08328271 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7726957 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527777 old -0 1.21516765 new -0 1.21516765 res 0 -5.96744876e-16 A 1e-10 0 0 3.08328271 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.48570422e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527748 old -0 1.19352285 new -0 1.21516753 res 0 -0.0667366716 A 1e-10 0 0 3.0832827 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7726698 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527748 old -0 1.21516753 new -0 1.21516753 res 0 -5.82867088e-16 A 1e-10 0 0 3.0832827 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527719 old -0 1.19352275 new -0 1.21516741 res 0 -0.066736622 A 1e-10 0 0 3.08328269 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7726453 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527719 old -0 1.21516741 new -0 1.21516741 res 0 -5.96744876e-16 A 1e-10 0 0 3.08328269 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527691 old -0 1.19352265 new -0 1.2151673 res 0 -0.0667365751 A 1e-10 0 0 3.08328268 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7726218 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527691 old -0 1.2151673 new -0 1.2151673 res 0 -6.9388939e-17 A 1e-10 0 0 3.08328268 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527664 old -0 1.19352255 new -0 1.21516719 res 0 -0.0667365306 A 1e-10 0 0 3.08328268 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7725996 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527664 old -0 1.21516719 new -0 1.21516719 res 0 -1.27675648e-15 A 1e-10 0 0 3.08328268 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527638 old -0 1.19352246 new -0 1.21516708 res 0 -0.0667364886 A 1e-10 0 0 3.08328267 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7725784 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527638 old -0 1.21516708 new -0 1.21516708 res 0 8.32667268e-17 A 1e-10 0 0 3.08328267 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.15775844e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527614 old -0 1.19352237 new -0 1.21516698 res 0 -0.0667364489 A 1e-10 0 0 3.08328266 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7725583 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527614 old -0 1.21516698 new -0 1.21516698 res 0 4.02455846e-16 A 1e-10 0 0 3.08328266 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 5.87572069e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552759 old -0 1.19352228 new -0 1.21516688 res 0 -0.0667364113 A 1e-10 0 0 3.08328266 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7725391 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552759 old -0 1.21516688 new -0 1.21516688 res 0 2.22044605e-16 A 1e-10 0 0 3.08328266 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527567 old -0 1.1935222 new -0 1.21516678 res 0 -0.0667363759 A 1e-10 0 0 3.08328265 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772521 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527567 old -0 1.21516678 new -0 1.21516678 res 0 4.4408921e-16 A 1e-10 0 0 3.08328265 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527545 old -0 1.19352212 new -0 1.21516669 res 0 -0.0667363424 A 1e-10 0 0 3.08328265 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7725038 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527545 old -0 1.21516669 new -0 1.21516669 res 0 1.66533454e-16 A 1e-10 0 0 3.08328265 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527524 old -0 1.19352204 new -0 1.2151666 res 0 -0.0667363109 A 1e-10 0 0 3.08328264 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724874 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527524 old -0 1.2151666 new -0 1.2151666 res 0 4.4408921e-16 A 1e-10 0 0 3.08328264 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527504 old -0 1.19352196 new -0 1.21516652 res 0 -0.0667362811 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772472 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527504 old -0 1.21516652 new -0 1.21516652 res 0 1.52655666e-16 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.85288359e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527484 old -0 1.19352189 new -0 1.21516644 res 0 -0.0667362531 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724573 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527484 old -0 1.21516644 new -0 1.21516644 res 0 1.52655666e-16 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527466 old -0 1.19352182 new -0 1.21516636 res 0 -0.0667362266 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724434 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527466 old -0 1.21516636 new -0 1.21516636 res 0 2.35922393e-16 A 1e-10 0 0 3.08328263 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527448 old -0 1.19352176 new -0 1.21516629 res 0 -0.0667362018 A 1e-10 0 0 3.08328262 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724303 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527448 old -0 1.21516629 new -0 1.21516629 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328262 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527431 old -0 1.19352169 new -0 1.21516621 res 0 -0.0667361784 A 1e-10 0 0 3.08328262 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724179 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527431 old -0 1.21516621 new -0 1.21516621 res 0 2.63677968e-16 A 1e-10 0 0 3.08328262 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527415 old -0 1.19352163 new -0 1.21516615 res 0 -0.0667361564 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7724062 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527415 old -0 1.21516615 new -0 1.21516615 res 0 -6.38378239e-16 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.58099323e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.55274 old -0 1.19352157 new -0 1.21516608 res 0 -0.0667361357 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723951 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.55274 old -0 1.21516608 new -0 1.21516608 res 0 -3.60822483e-16 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527385 old -0 1.19352152 new -0 1.21516602 res 0 -0.0667361163 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723847 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527385 old -0 1.21516602 new -0 1.21516602 res 0 9.43689571e-16 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 5.87522611e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527371 old -0 1.19352146 new -0 1.21516596 res 0 -0.066736098 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723748 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527371 old -0 1.21516596 new -0 1.21516596 res 0 2.35922393e-16 A 1e-10 0 0 3.08328261 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -8.76734293e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527358 old -0 1.19352141 new -0 1.2151659 res 0 -0.0667360809 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723655 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527358 old -0 1.2151659 new -0 1.2151659 res 0 5.55111512e-16 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527346 old -0 1.19352136 new -0 1.21516585 res 0 -0.0667360649 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723567 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527346 old -0 1.21516585 new -0 1.21516585 res 0 4.85722573e-16 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527334 old -0 1.19352132 new -0 1.2151658 res 0 -0.0667360498 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723485 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527334 old -0 1.2151658 new -0 1.2151658 res 0 -2.91433544e-16 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527322 old -0 1.19352127 new -0 1.21516575 res 0 -0.0667360357 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723407 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527322 old -0 1.21516575 new -0 1.21516575 res 0 4.02455846e-16 A 1e-10 0 0 3.0832826 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527311 old -0 1.19352123 new -0 1.2151657 res 0 -0.0667360225 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723334 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527311 old -0 1.2151657 new -0 1.2151657 res 0 2.49800181e-16 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.03817441e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527301 old -0 1.19352119 new -0 1.21516566 res 0 -0.0667360102 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723265 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527301 old -0 1.21516566 new -0 1.21516566 res 0 1.38777878e-17 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527291 old -0 1.19352115 new -0 1.21516561 res 0 -0.0667359986 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.77232 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527291 old -0 1.21516561 new -0 1.21516561 res 0 2.91433544e-16 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527282 old -0 1.19352111 new -0 1.21516557 res 0 -0.0667359879 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723139 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527282 old -0 1.21516557 new -0 1.21516557 res 0 2.77555756e-17 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527273 old -0 1.19352108 new -0 1.21516554 res 0 -0.0667359778 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723082 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527273 old -0 1.21516554 new -0 1.21516554 res 0 -8.18789481e-16 A 1e-10 0 0 3.08328259 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527265 old -0 1.19352105 new -0 1.2151655 res 0 -0.0667359684 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7723028 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527265 old -0 1.2151655 new -0 1.2151655 res 0 -5.41233725e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527257 old -0 1.19352101 new -0 1.21516547 res 0 -0.0667359596 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722978 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527257 old -0 1.21516547 new -0 1.21516547 res 0 4.71844785e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552725 old -0 1.19352098 new -0 1.21516543 res 0 -0.0667359514 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722931 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552725 old -0 1.21516543 new -0 1.21516543 res 0 -4.99600361e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527243 old -0 1.19352096 new -0 1.2151654 res 0 -0.0667359438 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722887 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527243 old -0 1.2151654 new -0 1.2151654 res 0 4.30211422e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527236 old -0 1.19352093 new -0 1.21516537 res 0 -0.0667359367 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722846 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527236 old -0 1.21516537 new -0 1.21516537 res 0 -8.32667268e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552723 old -0 1.1935209 new -0 1.21516535 res 0 -0.0667359301 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722807 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552723 old -0 1.21516535 new -0 1.21516535 res 0 -8.04911693e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51941743e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527224 old -0 1.19352088 new -0 1.21516532 res 0 -0.066735924 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722771 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527224 old -0 1.21516532 new -0 1.21516532 res 0 -3.33066907e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527218 old -0 1.19352086 new -0 1.2151653 res 0 -0.0667359183 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722737 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527218 old -0 1.2151653 new -0 1.2151653 res 0 6.9388939e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.43477046e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527213 old -0 1.19352084 new -0 1.21516527 res 0 -0.066735913 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722705 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527213 old -0 1.21516527 new -0 1.21516527 res 0 -3.33066907e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527208 old -0 1.19352082 new -0 1.21516525 res 0 -0.0667359081 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722676 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527208 old -0 1.21516525 new -0 1.21516525 res 0 7.35522754e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527203 old -0 1.1935208 new -0 1.21516523 res 0 -0.0667359036 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722648 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527203 old -0 1.21516523 new -0 1.21516523 res 0 1.80411242e-16 A 1e-10 0 0 3.08328258 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527199 old -0 1.19352078 new -0 1.21516521 res 0 -0.0667358994 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722623 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527199 old -0 1.21516521 new -0 1.21516521 res 0 -1.66533454e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.97124356e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527195 old -0 1.19352076 new -0 1.21516519 res 0 -0.0667358955 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722599 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527195 old -0 1.21516519 new -0 1.21516519 res 0 4.57966998e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527191 old -0 1.19352074 new -0 1.21516517 res 0 -0.0667358919 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722576 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527191 old -0 1.21516517 new -0 1.21516517 res 0 2.91433544e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527187 old -0 1.19352073 new -0 1.21516516 res 0 -0.0667358886 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722556 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527187 old -0 1.21516516 new -0 1.21516516 res 0 -1.0269563e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527184 old -0 1.19352072 new -0 1.21516514 res 0 -0.0667358855 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722536 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527184 old -0 1.21516514 new -0 1.21516514 res 0 8.32667268e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552718 old -0 1.1935207 new -0 1.21516513 res 0 -0.0667358827 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722519 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552718 old -0 1.21516513 new -0 1.21516513 res 0 7.91033905e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.38383657e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527177 old -0 1.19352069 new -0 1.21516511 res 0 -0.0667358801 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722502 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527177 old -0 1.21516511 new -0 1.21516511 res 0 9.71445147e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527174 old -0 1.19352068 new -0 1.2151651 res 0 -0.0667358777 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722487 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527174 old -0 1.2151651 new -0 1.2151651 res 0 6.38378239e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.89244698e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527172 old -0 1.19352067 new -0 1.21516509 res 0 -0.0667358755 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722472 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527172 old -0 1.21516509 new -0 1.21516509 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527169 old -0 1.19352066 new -0 1.21516508 res 0 -0.0667358735 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722459 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527169 old -0 1.21516508 new -0 1.21516508 res 0 -7.35522754e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527167 old -0 1.19352065 new -0 1.21516507 res 0 -0.0667358717 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722447 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527167 old -0 1.21516507 new -0 1.21516507 res 0 6.66133815e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527165 old -0 1.19352064 new -0 1.21516506 res 0 -0.06673587 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722436 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527165 old -0 1.21516506 new -0 1.21516506 res 0 -3.46944695e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527163 old -0 1.19352063 new -0 1.21516505 res 0 -0.0667358685 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722425 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527163 old -0 1.21516505 new -0 1.21516505 res 0 5.82867088e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527161 old -0 1.19352062 new -0 1.21516504 res 0 -0.0667358671 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722415 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527161 old -0 1.21516504 new -0 1.21516504 res 0 1.76247905e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.38744976e-30 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527159 old -0 1.19352061 new -0 1.21516503 res 0 -0.0667358658 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722407 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527159 old -0 1.21516503 new -0 1.21516503 res 0 7.63278329e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527157 old -0 1.1935206 new -0 1.21516502 res 0 -0.0667358646 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722398 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527157 old -0 1.21516502 new -0 1.21516502 res 0 -6.52256027e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527156 old -0 1.1935206 new -0 1.21516502 res 0 -0.0667358636 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722391 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527156 old -0 1.21516502 new -0 1.21516502 res 0 -6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527154 old -0 1.19352059 new -0 1.21516501 res 0 -0.0667358626 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722384 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527154 old -0 1.21516501 new -0 1.21516501 res 0 7.07767178e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.57035134e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527153 old -0 1.19352059 new -0 1.215165 res 0 -0.0667358618 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722378 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527153 old -0 1.215165 new -0 1.215165 res 0 6.80011603e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527152 old -0 1.19352058 new -0 1.215165 res 0 -0.066735861 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722372 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527152 old -0 1.215165 new -0 1.215165 res 0 -5.689893e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552715 old -0 1.19352057 new -0 1.21516499 res 0 -0.0667358603 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722366 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552715 old -0 1.21516499 new -0 1.21516499 res 0 -5.41233725e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527149 old -0 1.19352057 new -0 1.21516499 res 0 -0.0667358597 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722362 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527149 old -0 1.21516499 new -0 1.21516499 res 0 -1.38777878e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.98846439e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527148 old -0 1.19352057 new -0 1.21516498 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722357 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527148 old -0 1.21516498 new -0 1.21516498 res 0 6.38378239e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527147 old -0 1.19352056 new -0 1.21516498 res 0 -0.0667358587 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722353 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527147 old -0 1.21516498 new -0 1.21516498 res 0 -5.55111512e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 2.07896176e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527147 old -0 1.19352056 new -0 1.21516498 res 0 -0.0667358582 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772235 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527147 old -0 1.21516498 new -0 1.21516498 res 0 4.30211422e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527146 old -0 1.19352055 new -0 1.21516497 res 0 -0.0667358578 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722346 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527146 old -0 1.21516497 new -0 1.21516497 res 0 -6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527145 old -0 1.19352055 new -0 1.21516497 res 0 -0.0667358575 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722343 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527145 old -0 1.21516497 new -0 1.21516497 res 0 1.11022302e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527144 old -0 1.19352055 new -0 1.21516497 res 0 -0.0667358572 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772234 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527144 old -0 1.21516497 new -0 1.21516497 res 0 -2.77555756e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527144 old -0 1.19352054 new -0 1.21516496 res 0 -0.066735857 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722338 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527144 old -0 1.21516496 new -0 1.21516496 res 0 3.1918912e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527143 old -0 1.19352054 new -0 1.21516496 res 0 -0.0667358568 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722336 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527143 old -0 1.21516496 new -0 1.21516496 res 0 -1.2490009e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527142 old -0 1.19352054 new -0 1.21516496 res 0 -0.0667358566 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722334 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527142 old -0 1.21516496 new -0 1.21516496 res 0 8.04911693e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51941744e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527142 old -0 1.19352054 new -0 1.21516495 res 0 -0.0667358564 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527142 old -0 1.21516495 new -0 1.21516495 res 0 -5.55111512e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527142 old -0 1.19352053 new -0 1.21516495 res 0 -0.0667358563 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527142 old -0 1.21516495 new -0 1.21516495 res 0 -4.02455846e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 5.87572171e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527141 old -0 1.19352053 new -0 1.21516495 res 0 -0.0667358562 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527141 old -0 1.21516495 new -0 1.21516495 res 0 5.82867088e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527141 old -0 1.19352053 new -0 1.21516495 res 0 -0.0667358561 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527141 old -0 1.21516495 new -0 1.21516495 res 0 -4.16333634e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552714 old -0 1.19352053 new -0 1.21516495 res 0 -0.0667358561 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552714 old -0 1.21516495 new -0 1.21516495 res 0 -1.12410081e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.63777748e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552714 old -0 1.19352053 new -0 1.21516495 res 0 -0.066735856 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722326 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552714 old -0 1.21516495 new -0 1.21516495 res 0 1.66533454e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.552714 old -0 1.19352053 new -0 1.21516494 res 0 -0.066735856 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722325 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.552714 old -0 1.21516494 new -0 1.21516494 res 0 -9.71445147e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527139 old -0 1.19352052 new -0 1.21516494 res 0 -0.066735856 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527139 old -0 1.21516494 new -0 1.21516494 res 0 8.46545056e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527139 old -0 1.19352052 new -0 1.21516494 res 0 -0.066735856 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527139 old -0 1.21516494 new -0 1.21516494 res 0 -3.05311332e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.61493929e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527139 old -0 1.19352052 new -0 1.21516494 res 0 -0.066735856 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527139 old -0 1.21516494 new -0 1.21516494 res 0 -7.35522754e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527139 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358561 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527139 old -0 1.21516494 new -0 1.21516494 res 0 -9.57567359e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527139 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358561 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527139 old -0 1.21516494 new -0 1.21516494 res 0 -4.16333634e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358561 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516494 new -0 1.21516494 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358562 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516494 new -0 1.21516494 res 0 -6.24500451e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.44541231e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358563 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516494 new -0 1.21516494 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516494 res 0 -0.0667358563 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516494 new -0 1.21516494 res 0 -4.85722573e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516493 res 0 -0.0667358564 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.85722573e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516493 res 0 -0.0667358565 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 3.33066907e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.03321864e-33 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516493 res 0 -0.0667358565 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 7.49400542e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.97709395e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352052 new -0 1.21516493 res 0 -0.0667358566 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.63677968e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352052 new -0 1.21516493 res 0 -0.0667358567 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.66533454e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358568 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358568 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722322 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358569 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 8.32667268e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.15775833e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735857 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.94289029e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358571 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 0 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358572 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.94289029e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358572 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722323 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -2.63677968e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358573 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -9.29811783e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358574 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 4.99600361e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358575 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -6.66133815e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.85215493e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358576 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722324 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 4.85722573e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358576 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722325 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -6.10622664e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358577 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722325 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358578 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722325 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -2.22044605e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.17497916e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358578 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722325 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 2.49800181e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358579 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722326 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -5.10682443e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735858 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722326 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.66636874e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735858 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722326 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -4.71844785e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358581 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722326 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.06858966e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358581 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358582 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 1.2490009e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358582 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.41553436e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.04849758e-30 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358583 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -7.63278329e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358583 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722327 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 4.30211422e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 8.58733913e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358584 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 2.08166817e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358584 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.38777878e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358585 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -8.04911693e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51941744e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358585 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.0269563e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358586 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722328 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 0 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358586 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -2.77555756e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358586 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 2.77555756e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358587 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 5.41233725e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -8.63192708e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358587 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358587 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -5.41233725e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.94338088e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358588 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358588 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722329 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 6.66133815e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.61328748e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358588 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 7.77156117e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358589 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -1.05471187e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358589 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 7.91033905e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.38383657e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358589 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 9.71445147e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.395207e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358589 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 2.77555756e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735859 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 -7.91033905e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.38383657e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527137 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735859 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527137 old -0 1.21516493 new -0 1.21516493 res 0 1.58206781e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.21119462e-30 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735859 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.35922393e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735859 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.772233 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 3.88578059e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 4.51991299e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.066735859 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.12410081e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 8.58700876e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 0 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.38777878e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.16333634e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.16333634e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.2490009e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 4.71844785e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 1.26547653e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.35922393e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358591 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -8.32667268e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.15775833e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 4.4408921e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -2.08166817e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.57966998e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -3.60822483e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -2.22044605e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 9.15933995e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 5.60406441e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722331 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 6.38378239e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.35922393e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.41233725e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.94289029e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358592 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.88659659e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 7.49400542e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.689893e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 8.46545056e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -6.24500451e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -7.21644966e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 3.70593221e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 5.13478149e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.06858966e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.095454e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.55431223e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -7.07767178e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -3.33066907e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -9.0332187e-33 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.58206781e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 8.8817842e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.66533454e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.80411242e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 8.46545056e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 4.71844785e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.66533454e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 8.04911693e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 3.1918912e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.41233725e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -2.66636874e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.16333634e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.23153041e-32 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.85288351e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -8.60422844e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.99600361e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 0 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 6.52256027e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -8.32667268e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.08166817e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -6.9388939e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.55111512e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 3.46944695e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.38777878e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.11022302e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 6.10622664e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.11022302e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 4.71844785e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.11022302e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -4.42892007e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.38777878e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -2.77555756e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 2.22044605e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -1.17497916e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -8.18789481e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.04083409e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.09634524e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.38777878e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.57966998e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.16333634e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 5.55111512e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 5.55111512e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 4.4408921e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 0 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement -3.3442731e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.11022302e-15 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 7.50219661e-31 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -4.16333634e-17 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -5.689893e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06
+NOSLIP iter 0 contact 0 dim 3 normal 13.5527138 old -0 1.19352051 new -0 1.21516493 res 0 -0.0667358593 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 0 improvement 22.7722332 tolerance 1e-06
+NOSLIP iter 1 contact 0 dim 3 normal 13.5527138 old -0 1.21516493 new -0 1.21516493 res 0 -1.52655666e-16 A 1e-10 0 0 3.08328257 mu 0.778
+NOSLIP_SWEEP iter 1 improvement 0 tolerance 1e-06

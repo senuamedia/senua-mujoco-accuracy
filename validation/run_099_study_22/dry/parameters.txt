@@ -1,0 +1,12 @@
+group 14: the step 0.0005
+held body 1: 5 kg, its friction 1.2 times its weight
+held body 2: 500 kg, its friction 3 times its weight
+held body 3: 50 kg, its friction 2.5 times its weight
+after issue 2430, 1: joint friction 100000 N, pushed by 0.9 of it
+after issue 2430, 2: joint friction 20000 N, pushed by 0.3 of it
+load 1: the friction 1.2 times the weight of the falling body
+load 2: the friction 3 times the weight of the falling body
+the joint friction of the arm 8 N m
+group 15: the step 0.003
+cup 1: outer half-width 0.04 m, 0.1 m high, walls and floor 0.003 m, a ball of radius 0.025 m and 0.5 kg
+cup 2: outer half-width 0.08 m, 0.04 m high, walls and floor 0.01 m, a ball of radius 0.01 m and 0.05 kg

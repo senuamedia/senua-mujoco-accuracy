@@ -1,0 +1,5 @@
+steps 0.0016 0.0004; cube mass=1.6 radius=0.045 mu 0.45 limit 7.056 N speed 1.1 Coulomb 137188 um
+suite 1: SUITE_CUBE=mass=1.6 radius=0.045 SUITE_H0=0.09 SUITE_VX=3 SUITE_VXCHAIN=1.2 SUITE_MU=0.45 SUITE_VSLIDE=4 SUITE_MUHOLD=0.4 SUITE_HOLD=3.7632 SUITE_SLIP=7.5264 SUITE_LIFT=47.04; read with SUITE_MU10K=4500 SUITE_SLIPMN=7526
+grip mass=0.24 radius=0.033 mu=0.68 squeeze=3.2 offset 0.007; stacks 5 9 of mass=0.45 radius=0.043 mu=0.58 shift 0.014 slide 0.9
+arm len1=0.29 len2=0.27 mass1=0.95 mass2=0.45 rb=0.026 mb=0.17 mu=0.72; contact poses 0.65,0.95 1.25,-0.45 rest h0 0.0006 drop h0 0.011; held poses 0.15,0.75 0.3,1.0 lower limits -2.1 -2 joint friction 5.5; folded 0,2.4
+body i1=0.0045 i2=0.0072 i3=0.0101 w1=2.2 w2=1.4 w3=-3.1 secs=2

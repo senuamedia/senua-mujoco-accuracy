@@ -1,0 +1,49 @@
+free Euler 0.00625 energy_largest_ppm 65518 momentum_largest_ppm 44185
+swing Euler 0.00625 energy_largest_ppm 483111
+tumble Euler 0.00625 energy_largest_ppm 9625 momentum_largest_ppm 3869
+free Euler 0.0015625 energy_largest_ppm 16547 momentum_largest_ppm 10861
+swing Euler 0.0015625 energy_largest_ppm 167224
+tumble Euler 0.0015625 energy_largest_ppm 2379 momentum_largest_ppm 957
+free Euler 0.000390625 energy_largest_ppm 4106 momentum_largest_ppm 2683
+swing Euler 0.000390625 energy_largest_ppm 48187
+tumble Euler 0.000390625 energy_largest_ppm 593 momentum_largest_ppm 238
+free Euler 9.765625e-05 energy_largest_ppm 1024 momentum_largest_ppm 669
+swing Euler 9.765625e-05 energy_largest_ppm 12748
+tumble Euler 9.765625e-05 energy_largest_ppm 148 momentum_largest_ppm 59
+free implicitfast 0.00625 energy_largest_ppm 65518 momentum_largest_ppm 44185
+swing implicitfast 0.00625 energy_largest_ppm 483111
+tumble implicitfast 0.00625 energy_largest_ppm 9341 momentum_largest_ppm 3771
+free implicitfast 0.0015625 energy_largest_ppm 16547 momentum_largest_ppm 10861
+swing implicitfast 0.0015625 energy_largest_ppm 167224
+tumble implicitfast 0.0015625 energy_largest_ppm 2361 momentum_largest_ppm 952
+free implicitfast 0.000390625 energy_largest_ppm 4106 momentum_largest_ppm 2683
+swing implicitfast 0.000390625 energy_largest_ppm 48187
+tumble implicitfast 0.000390625 energy_largest_ppm 592 momentum_largest_ppm 239
+free implicitfast 9.765625e-05 energy_largest_ppm 1024 momentum_largest_ppm 669
+swing implicitfast 9.765625e-05 energy_largest_ppm 12748
+tumble implicitfast 9.765625e-05 energy_largest_ppm 148 momentum_largest_ppm 60
+free implicit 0.00625 energy_largest_ppm 68947 momentum_largest_ppm 46742
+swing implicit 0.00625 energy_largest_ppm 399468
+tumble implicit 0.00625 energy_largest_ppm 9341 momentum_largest_ppm 3771
+free implicit 0.0015625 energy_largest_ppm 16463 momentum_largest_ppm 10949
+swing implicit 0.0015625 energy_largest_ppm 374778
+tumble implicit 0.0015625 energy_largest_ppm 2361 momentum_largest_ppm 952
+free implicit 0.000390625 energy_largest_ppm 4101 momentum_largest_ppm 2696
+swing implicit 0.000390625 energy_largest_ppm 54481
+tumble implicit 0.000390625 energy_largest_ppm 592 momentum_largest_ppm 239
+free implicit 9.765625e-05 energy_largest_ppm 1026 momentum_largest_ppm 671
+swing implicit 9.765625e-05 energy_largest_ppm 13102
+tumble implicit 9.765625e-05 energy_largest_ppm 148 momentum_largest_ppm 60
+free RK4 0.00625 energy_largest_ppm 1 momentum_largest_ppm 1
+swing RK4 0.00625 energy_largest_ppm 1702
+tumble RK4 0.00625 energy_largest_ppm 0 momentum_largest_ppm 0
+free RK4 0.0015625 energy_largest_ppm 1 momentum_largest_ppm 1
+swing RK4 0.0015625 energy_largest_ppm 3
+tumble RK4 0.0015625 energy_largest_ppm 0 momentum_largest_ppm 0
+free RK4 0.000390625 energy_largest_ppm 1 momentum_largest_ppm 1
+swing RK4 0.000390625 energy_largest_ppm 1
+tumble RK4 0.000390625 energy_largest_ppm 0 momentum_largest_ppm 0
+free RK4 9.765625e-05 energy_largest_ppm 1 momentum_largest_ppm 1
+swing RK4 9.765625e-05 energy_largest_ppm 1
+tumble RK4 9.765625e-05 energy_largest_ppm 0 momentum_largest_ppm 0
+warnings 0

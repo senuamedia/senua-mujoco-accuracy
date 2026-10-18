@@ -1,0 +1,7 @@
+DEPTH step 1000 pair 0-1 contacts 4 mean_distance_um -293.632
+DEPTH step 1000 pair 1-2 contacts 4 mean_distance_um -366.851
+DEPTH step 1000 pair 2-3 contacts 4 mean_distance_um -207.040
+DEPTH step 7017 pair 0-1 contacts 4 mean_distance_um -293.632
+DEPTH step 7017 pair 1-2 contacts 4 mean_distance_um -366.851
+DEPTH step 7017 pair 2-3 contacts 4 mean_distance_um -207.040
+CHANGES after step 30: 0

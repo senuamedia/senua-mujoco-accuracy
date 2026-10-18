@@ -1,0 +1,4 @@
+play files 24: the same bytes in p95 set5 24, in p95 set6 24
+solver statistics, p95 set5: the same bytes
+solver statistics, p95 set6: the same bytes
+plays at the iteration limit or with a warning, Study 21's build: 0

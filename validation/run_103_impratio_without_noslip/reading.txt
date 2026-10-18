@@ -1,0 +1,87 @@
+set free cube a 0.95 0.001277 | mean_speed_ums 613
+set free cube a 0.95 0.00031925 | mean_speed_ums 173
+set free cube b 0.95 0.001277 | mean_speed_ums 1098
+set free cube b 0.95 0.00031925 | mean_speed_ums 482
+set hold 0.5 0.00171 | mean_speed_ums 0
+set hold 0.95 0.00171 | mean_speed_ums 0
+set grip box 0.00171 | mean_speed_ums 1
+set grip mesh 0.00171 | mean_speed_ums 0
+set arm rest 1 0.00171 | mean_speed_ums 0
+set arm drop 1 0.00171 | mean_speed_ums 0
+set arm jointfriction 1 0.00171 | mean_speed_ums -3
+set arm rest 2 0.00171 | mean_speed_ums 0
+set arm drop 2 0.00171 | mean_speed_ums 0
+set arm jointfriction 2 0.00171 | mean_speed_ums -6
+set hold 0.5 0.0004275 | mean_speed_ums 0
+set hold 0.95 0.0004275 | mean_speed_ums 0
+set grip box 0.0004275 | mean_speed_ums 1
+set grip mesh 0.0004275 | mean_speed_ums 0
+set arm rest 1 0.0004275 | mean_speed_ums 0
+set arm drop 1 0.0004275 | mean_speed_ums 0
+set arm jointfriction 1 0.0004275 | mean_speed_ums -3
+set arm rest 2 0.0004275 | mean_speed_ums 0
+set arm drop 2 0.0004275 | mean_speed_ums 0
+set arm jointfriction 2 0.0004275 | mean_speed_ums -6
+set offset stack 0.001 6s | cube 1 tilt 130 429 | cube 2 tilt 530 3473 | cube 3 tilt 612 3567
+set offset stack 0.005 6s | cube 1 tilt 683 2 | cube 2 tilt 1495 11 | cube 3 tilt 480 11
+set offset stack 0.017 6s | cube 1 tilt 2352 6 | cube 2 tilt 7016 20 | cube 3 tilt 6673 21
+set straight stack 10 2s | top cube height_nm speed_ums -207044 0 | top tilt 0 0
+set MuJoCo's box | fastest_ums 0
+imp100 free cube a 0.95 0.001277 | mean_speed_ums 23
+imp100 free cube a 0.95 0.00031925 | mean_speed_ums 23
+imp100 free cube b 0.95 0.001277 | mean_speed_ums 29
+imp100 free cube b 0.95 0.00031925 | mean_speed_ums 29
+imp100 hold 0.5 0.00171 | mean_speed_ums 6
+imp100 hold 0.95 0.00171 | mean_speed_ums 11
+imp100 grip box 0.00171 | mean_speed_ums 38
+imp100 grip mesh 0.00171 | mean_speed_ums 38
+imp100 arm rest 1 0.00171 | mean_speed_ums 5
+imp100 arm drop 1 0.00171 | mean_speed_ums 6
+imp100 arm jointfriction 1 0.00171 | mean_speed_ums -20343
+imp100 arm rest 2 0.00171 | mean_speed_ums 3
+imp100 arm drop 2 0.00171 | mean_speed_ums 4
+imp100 arm jointfriction 2 0.00171 | mean_speed_ums -43394
+imp100 hold 0.5 0.0004275 | mean_speed_ums 6
+imp100 hold 0.95 0.0004275 | mean_speed_ums 11
+imp100 grip box 0.0004275 | mean_speed_ums 38
+imp100 grip mesh 0.0004275 | mean_speed_ums 38
+imp100 arm rest 1 0.0004275 | mean_speed_ums 5
+imp100 arm drop 1 0.0004275 | mean_speed_ums 6
+imp100 arm jointfriction 1 0.0004275 | mean_speed_ums -20347
+imp100 arm rest 2 0.0004275 | mean_speed_ums 3
+imp100 arm drop 2 0.0004275 | mean_speed_ums 4
+imp100 arm jointfriction 2 0.0004275 | mean_speed_ums -43401
+imp100 offset stack 0.001 6s | cube 1 tilt 137 0 | cube 2 tilt 293 0 | cube 3 tilt 348 0
+imp100 offset stack 0.005 6s | cube 1 tilt 685 0 | cube 2 tilt 1550 0 | cube 3 tilt 1853 0
+imp100 offset stack 0.017 6s | cube 1 tilt 2343 0 | cube 2 tilt 6520 0 | cube 3 tilt 7955 0
+imp100 straight stack 10 2s | top cube height_nm speed_ums -207044 0 | top tilt 0 0
+imp100 MuJoCo's box | fastest_ums 0
+imp1000 free cube a 0.95 0.001277 | mean_speed_ums 2
+imp1000 free cube a 0.95 0.00031925 | mean_speed_ums 2
+imp1000 free cube b 0.95 0.001277 | mean_speed_ums 3
+imp1000 free cube b 0.95 0.00031925 | mean_speed_ums 3
+imp1000 hold 0.5 0.00171 | mean_speed_ums 1
+imp1000 hold 0.95 0.00171 | mean_speed_ums 1
+imp1000 grip box 0.00171 | mean_speed_ums 4
+imp1000 grip mesh 0.00171 | mean_speed_ums 4
+imp1000 arm rest 1 0.00171 | mean_speed_ums 0
+imp1000 arm drop 1 0.00171 | mean_speed_ums 1
+imp1000 arm jointfriction 1 0.00171 | mean_speed_ums -20343
+imp1000 arm rest 2 0.00171 | mean_speed_ums 0
+imp1000 arm drop 2 0.00171 | mean_speed_ums 0
+imp1000 arm jointfriction 2 0.00171 | mean_speed_ums -43394
+imp1000 hold 0.5 0.0004275 | mean_speed_ums 1
+imp1000 hold 0.95 0.0004275 | mean_speed_ums 1
+imp1000 grip box 0.0004275 | mean_speed_ums 4
+imp1000 grip mesh 0.0004275 | mean_speed_ums 4
+imp1000 arm rest 1 0.0004275 | mean_speed_ums 0
+imp1000 arm drop 1 0.0004275 | mean_speed_ums 1
+imp1000 arm jointfriction 1 0.0004275 | mean_speed_ums -20347
+imp1000 arm rest 2 0.0004275 | mean_speed_ums 0
+imp1000 arm drop 2 0.0004275 | mean_speed_ums 0
+imp1000 arm jointfriction 2 0.0004275 | mean_speed_ums -43401
+imp1000 offset stack 0.001 6s | cube 1 tilt 137 0 | cube 2 tilt 293 0 | cube 3 tilt 348 0
+imp1000 offset stack 0.005 6s | cube 1 tilt 685 0 | cube 2 tilt 1550 0 | cube 3 tilt 1852 0
+imp1000 offset stack 0.017 6s | cube 1 tilt 2343 0 | cube 2 tilt 6518 0 | cube 3 tilt 7953 0
+imp1000 straight stack 10 2s | top cube height_nm speed_ums -207044 0 | top tilt 0 0
+imp1000 MuJoCo's box | fastest_ums 0

@@ -1,0 +1,5 @@
+PAIR 3-4 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+PAIR 1-2 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+PAIR 4-5 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+PAIR 2-3 first_change_s none until_then most_corner_outside_m 0 most_yaw_sin 0 most_tilt 0
+CHANGES 0

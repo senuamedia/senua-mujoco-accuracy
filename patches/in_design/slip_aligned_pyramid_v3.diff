@@ -1,0 +1,184 @@
+diff -ru a/doc/includes/references.h b/doc/includes/references.h
+--- a/doc/includes/references.h	2026-10-15 16:14:11
++++ b/doc/includes/references.h	2026-10-15 16:14:11
+@@ -39,6 +39,8 @@
+   // internal storage used by solver
+   mjtNum  mu;                      // friction of regularized cone, set by mj_makeConstraint
+   mjtNum  H[36];                   // cone Hessian, set by mj_constraintUpdate
++  mjtNum  frictionrot[2];          // pyramid friction basis turned from frame's tangents (cos, sin); set by
++                                   // mj_instantiateContact and read only when MUJOCO_SLIP_ALIGNED_PYRAMID=1
+ 
+   // contact descriptors set by mj_collideXXX
+   int     dim;                     // contact space dimensionality: 1, 3, 4 or 6
+diff -ru a/include/mujoco/mjdata.h b/include/mujoco/mjdata.h
+--- a/include/mujoco/mjdata.h	2026-10-15 16:14:11
++++ b/include/mujoco/mjdata.h	2026-10-15 16:14:11
+@@ -51,6 +51,8 @@
+   // internal storage used by solver
+   mjtNum  mu;                      // friction of regularized cone, set by mj_makeConstraint
+   mjtNum  H[36];                   // cone Hessian, set by mj_constraintUpdate
++  mjtNum  frictionrot[2];          // pyramid friction basis turned from frame's tangents (cos, sin); set by
++                                   // mj_instantiateContact and read only when MUJOCO_SLIP_ALIGNED_PYRAMID=1
+ 
+   // contact descriptors set by mj_collideXXX
+   int     dim;                     // contact space dimensionality: 1, 3, 4 or 6
+diff -ru a/src/engine/engine_core_constraint.c b/src/engine/engine_core_constraint.c
+--- a/src/engine/engine_core_constraint.c	2026-10-15 16:14:11
++++ b/src/engine/engine_core_constraint.c	2026-10-15 16:14:27
+@@ -1444,12 +1444,81 @@
+       continue;
+     }
+ 
++    // Senua AI patch, in design (off unless MUJOCO_SLIP_ALIGNED_PYRAMID=1): a pyramidal cone's edges lie along the
++    // contact frame's two tangents, so the friction it can give is a diamond, |f1| + |f2| <= mu N, and a contact
++    // slipping at 45 degrees to them gets only 0.707 of Coulomb's friction. Turn the pyramid's basis about the normal
++    // so its first tangent lies along the slip, for the rows built below only: the frame is restored after them, so
++    // every output that reads it is as released, and the turn is kept in frictionrot for mj_contactForce and
++    // mj_addSurfaceVel. The slip is the contact's relative velocity: its Jacobian difference times qvel, plus the
++    // surfaces' own velocity (surfacevel), as MuJoCo's contact velocity is (mj_velocityConstraint). A contact is
++    // turned only when its slip is at least opt.sleep_tolerance, the speed below which MuJoCo itself treats a body
++    // as at rest (treeCanSleep, engine_sleep.c), and only when its two sliding frictions (and its two rolling
++    // frictions) are equal, so that turning the basis changes its direction and nothing else.
++    mjtNum frame_saved[6];
++    int turned = 0;
++    if (mj_slipAlignedPyramid()) {
++      con->frictionrot[0] = 1;
++      con->frictionrot[1] = 0;
++      if (ispyramid && dim >= 3 && con->friction[0] == con->friction[1] &&
++          (dim < 6 || con->friction[3] == con->friction[4])) {
++        mjtNum vrel[3] = {0, 0, 0};
++        for (int r=0; r < 3; r++) {
++          for (int j=0; j < NV; j++) {
++            vrel[r] += jacdifp[r*NV + j] * d->qvel[issparse ? chain[j] : j];
++          }
++        }
++        if (m->flg_surfacevel) {
++          for (int side=0; side < 2; side++) {
++            int g = con->geom[side];
++            if (g < 0) {
++              continue;
++            }
++            const mjtNum* sv = m->geom_surfacevel + 6*g;
++            if (!sv[0] && !sv[1] && !sv[2] && !sv[3] && !sv[4] && !sv[5]) {
++              continue;
++            }
++            mjtNum vw[3], ww[3];
++            mj_geomSurfaceVelocity(m, d, g, con->pos, vw, ww);
++            mju_addToScl3(vrel, vw, side ? 1 : -1);
++          }
++        }
++        mjtNum vt[3], t2[3];
++        mju_addScl3(vt, vrel, con->frame, -mju_dot3(vrel, con->frame));  // the slip: vrel less its normal part
++        if (mju_normalize3(vt) >= m->opt.sleep_tolerance) {
++          // the pyramid is a square: turned by a multiple of 90 degrees it has the same four edges, in another order.
++          // So turn it only by the part of the slip's angle that is not such a multiple: of the slip and its three
++          // quarter turns about the normal, the one nearest the frame's first tangent. A slip along an edge then
++          // leaves the rows exactly as released.
++          mjtNum w[3], u[3];
++          mju_cross(w, con->frame, vt);
++          mjtNum cv = mju_dot3(vt, con->frame+3), cw = mju_dot3(w, con->frame+3);
++          if (mju_abs(cv) >= mju_abs(cw)) {
++            mju_scl3(u, vt, cv >= 0 ? 1 : -1);
++          } else {
++            mju_scl3(u, w, cw >= 0 ? 1 : -1);
++          }
++          mju_copy(frame_saved, con->frame+3, 6);
++          con->frictionrot[0] = mju_dot3(u, frame_saved);    // cos: along the frame's first tangent
++          con->frictionrot[1] = mju_dot3(u, frame_saved+3);  // sin: along its second
++          mju_cross(t2, con->frame, u);
++          mju_copy3(con->frame+3, u);
++          mju_copy3(con->frame+6, t2);
++          turned = 1;
++        }
++      }
++    }
++
+     // rotate Jacobian differences to contact frame
+     mju_mulMatMat(jac, con->frame, jacdifp, dim > 1 ? 3 : 1, 3, NV);
+     if (dim > 3) {
+       mju_mulMatMat(jac + 3*NV, con->frame, jacdifr, dim-3, 3, NV);
+     }
+ 
++    // Senua AI patch, in design: the frame as the release computed it, for every output that reads it
++    if (turned) {
++      mju_copy(con->frame+3, frame_saved, 6);
++    }
++
+     // make frictionless contact
+     if (dim == 1) {
+       // add constraint
+@@ -3113,6 +3182,13 @@
+     mjtNum cs[6];
+     mju_mulMatVec3(cs, con->frame, svel);
+     mju_mulMatVec3(cs + 3, con->frame, sang);
++
++    // Senua AI patch, in design: a turned pyramid's rows take the surface velocity in the turned basis
++    if (mj_slipAlignedPyramid() && ispyramid && con->dim >= 3) {
++      mjtNum c = con->frictionrot[0], s = con->frictionrot[1], v1 = cs[1], v2 = cs[2];
++      cs[1] = c*v1 + s*v2;
++      cs[2] = -s*v1 + c*v2;
++    }
+ 
+     // surface velocity acts in the tangent plane and torsional direction only
+     cs[0] = 0;  // no normal push
+diff -ru a/src/engine/engine_core_util.c b/src/engine/engine_core_util.c
+--- a/src/engine/engine_core_util.c	2026-10-15 16:14:11
++++ b/src/engine/engine_core_util.c	2026-10-15 16:14:11
+@@ -15,6 +15,7 @@
+ #include "engine/engine_core_util.h"
+ 
+ #include <stddef.h>
++#include <stdlib.h>
+ 
+ #include <mujoco/mjdata.h>
+ #include <mujoco/mjmacro.h>
+@@ -1390,6 +1391,16 @@
+ 
+ 
+ // extract 6D force:torque for one contact, in contact frame
++// Senua AI patch, in design: the switch of the slip-aligned pyramid, read once; every thread reads the same value
++int mj_slipAlignedPyramid(void) {
++  static int on = -1;
++  if (on < 0) {
++    const char* sw = getenv("MUJOCO_SLIP_ALIGNED_PYRAMID");
++    on = (sw && sw[0] == '1' && sw[1] == 0) ? 1 : 0;
++  }
++  return on;
++}
++
+ void mj_contactForce(const mjModel* m, const mjData* d, int id, mjtNum result[6]) {
+   mjContact* con;
+ 
+@@ -1403,6 +1414,19 @@
+ 
+     if (mj_isPyramidal(m)) {
+       mju_decodePyramid(result, d->efc_force + con->efc_address, con->friction, con->dim);
++      // Senua AI patch, in design: the pyramid's basis was turned from the frame's tangents by mj_instantiateContact;
++      // turn the decoded tangential forces and rolling torques back, so the result is in the contact frame
++      if (mj_slipAlignedPyramid() && con->dim >= 3) {
++        mjtNum c = con->frictionrot[0], s = con->frictionrot[1];
++        mjtNum f1 = result[1], f2 = result[2];
++        result[1] = c*f1 - s*f2;
++        result[2] = s*f1 + c*f2;
++        if (con->dim == 6) {
++          mjtNum r1 = result[4], r2 = result[5];
++          result[4] = c*r1 - s*r2;
++          result[5] = s*r1 + c*r2;
++        }
++      }
+     } else {
+       mju_copy(result, d->efc_force + con->efc_address, con->dim);
+     }
+diff -ru a/src/engine/engine_core_util.h b/src/engine/engine_core_util.h
+--- a/src/engine/engine_core_util.h	2026-10-15 16:14:11
++++ b/src/engine/engine_core_util.h	2026-10-15 16:14:11
+@@ -160,6 +160,9 @@
+ // extract 6D force:torque for one contact, in contact frame
+ MJAPI void mj_contactForce(const mjModel* m, const mjData* d, int id, mjtNum result[6]);
+ 
++// Senua AI patch, in design: 1 if MUJOCO_SLIP_ALIGNED_PYRAMID=1, read once
++int mj_slipAlignedPyramid(void);
++
+ // count the number of length limit violations for tendon i (0, 1 or 2)
+ int tendonLimit(const mjModel* m, const mjtNum* ten_length, int i);
+ 

@@ -1,0 +1,23 @@
+RULE Q1_released_stack_tilts ge 11710 101 : HELD
+RULE E1_safe_when_off_def eq 576 576 : HELD
+RULE E1_safe_when_off_rec eq 576 576 : HELD
+RULE M0_every_suite_read all_eq 3492 3492 3492 3492 3492 : HELD
+RULE E2_safe_when_off_mujoco_suite eq 0 0 : HELD
+RULE M1_mujoco_suite_set4_named_only eq 0 0 : HELD
+RULE M2_mujoco_suite_collinear_alone eq 1 0 : FAILED
+RULE set4_rec_S1_every_stack_stands all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE set4_rec_S2_contacts_never_change eq 0 0 : HELD
+RULE set4_rec_S3_every_stack_at_rest all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE col_def_S4_every_stack_stands all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE set4_rec_N1_nothing_else_changes eq 32 32 : HELD
+RULE col_def_N2_nothing_else_changes eq 32 32 : HELD
+RULE set4_rec_V1_iteration_limit eq 0 0 : HELD
+RULE set4_rec_V1_warnings eq 0 0 : HELD
+reported: changed with the four switches set: ForwardTest.DiscreteImplicitRowNoslip
+reported: changed with the four switches set: SolverTest.ZeroToleranceDisablesTermination
+reported: changed with the collinear switch alone: CoreConstraintTest.RestPenetration
+rules: 15, held: 14
+with the collinear-alone suite reading removed:
+diff: ~/work/plumb77/suite_results_col.txt: No such file or directory
+RULE M0_every_suite_read all_eq 3492 3492 3492 3492 0 : FAILED
+RULE M2_mujoco_suite_collinear_alone eq 0 0 : HELD

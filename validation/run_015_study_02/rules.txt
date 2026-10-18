@@ -1,0 +1,12 @@
+RULE R1_released_creeps ge 700 100 : HELD
+RULE R1_released_direction share 136296 177631 100 115 : HELD
+RULE R2_every_hold_holds all_le 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : HELD
+RULE R3_no_direction_0.002 all_within 136256 10000 136256 136256 : HELD
+RULE R3_no_direction_0.0005 all_within 137100 10000 137100 137100 : HELD
+RULE R4_coulomb all_within 137188 100 137100 137100 137100 : HELD
+RULE R5_ten_tests eq 10 10 : HELD
+RULE R5_released_hold_fails eq 1 1 : HELD
+RULE R6_iteration_limit eq 0 0 : HELD
+RULE R6_warnings eq 0 0 : HELD
+RULE R6_most_iterations le_plus 5 4 3 : HELD
+rules: 11, held: 11

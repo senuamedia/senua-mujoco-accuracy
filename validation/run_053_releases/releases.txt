@@ -1,0 +1,6 @@
+3.11.0 sha256 681a9353b296a06682e9e757d6d21ab7a0a5a5bdb218a1c05cb9a38536817c79; the published sha256 matches
+3.12.0 sha256 a9367911e6d5eaeade17c2197304687421c1fc932cdf7bcd4cb8cfaf0374dcb2; the published sha256 matches
+3.13.0 sha256 a01ab187aa017b3729f01bc2a8c05e56411fa0198a6ef26e7b8b93a3edbdc28e; the published sha256 matches
+3.14.0 sha256 326f0da78a7767cc18fab7205c993a771b5f19eda913648f958ee3f625240944; the published sha256 matches
+3.15.0 sha256 319943b332fd84c968f655f695d8f4b03cc6a68f658bacd0591f0a552744e497; the published sha256 matches
+3.16.0 already in the work folder (Study 10's release)

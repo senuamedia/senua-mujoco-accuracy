@@ -1,0 +1,244 @@
+rel lift16_rec_0.01 highest_um 10570 slid_um 177979
+rel lift16_rec_0.0025 highest_um 1176 slid_um 182334
+rel lift16_rec_0.000625 highest_um 148 slid_um 183451
+rel free_rec_0_0.00114 slid_um 133042 side_um 0 steps_under_4_contacts 68
+rel free_rec_11.25_0.00114 slid_um 135526 side_um 62 steps_under_4_contacts 157
+rel free_rec_22.5_0.00114 slid_um 136043 side_um -231 steps_under_4_contacts 170
+rel free_rec_33.75_0.00114 slid_um 135039 side_um -74 steps_under_4_contacts 143
+rel free_rec_45_0.00114 slid_um 133266 side_um 0 steps_under_4_contacts 110
+rel free_rec_0_0.000285 slid_um 133491 side_um 0 steps_under_4_contacts 430
+rel free_rec_11.25_0.000285 slid_um 135636 side_um -27 steps_under_4_contacts 697
+rel free_rec_22.5_0.000285 slid_um 135734 side_um 83 steps_under_4_contacts 633
+rel free_rec_33.75_0.000285 slid_um 135143 side_um 1026 steps_under_4_contacts 707
+rel free_rec_45_0.000285 slid_um 133605 side_um 0 steps_under_4_contacts 466
+rel lift16_ell_0.01 highest_um 10570 slid_um 177979
+rel lift16_ell_0.0025 highest_um 1176 slid_um 182342
+rel lift16_ell_0.000625 highest_um 148 slid_um 183460
+rel free_ell_0_0.00114 slid_um 133047 side_um 0 steps_under_4_contacts 68
+rel free_ell_11.25_0.00114 slid_um 135535 side_um 62 steps_under_4_contacts 157
+rel free_ell_22.5_0.00114 slid_um 136051 side_um -231 steps_under_4_contacts 170
+rel free_ell_33.75_0.00114 slid_um 135050 side_um -75 steps_under_4_contacts 143
+rel free_ell_45_0.00114 slid_um 133279 side_um 0 steps_under_4_contacts 110
+rel free_ell_0_0.000285 slid_um 133500 side_um 0 steps_under_4_contacts 430
+rel free_ell_11.25_0.000285 slid_um 135646 side_um -27 steps_under_4_contacts 697
+rel free_ell_22.5_0.000285 slid_um 135741 side_um 82 steps_under_4_contacts 633
+rel free_ell_33.75_0.000285 slid_um 135516 side_um 532 steps_under_4_contacts 616
+rel free_ell_45_0.000285 slid_um 133620 side_um 0 steps_under_4_contacts 467
+rel hold_0_0.5_0.00114 creep_ums 0
+rel hold_0_0.75_0.00114 creep_ums 0
+rel hold_0_0.95_0.00114 creep_ums 0
+rel slide_0_0.00114 slid_um 133036
+rel hold_22.5_0.5_0.00114 creep_ums 0
+rel hold_22.5_0.75_0.00114 creep_ums 0
+rel hold_22.5_0.95_0.00114 creep_ums 0
+rel slide_22.5_0.00114 slid_um 133036
+rel hold_45_0.5_0.00114 creep_ums 0
+rel hold_45_0.75_0.00114 creep_ums 0
+rel hold_45_0.95_0.00114 creep_ums 0
+rel slide_45_0.00114 slid_um 133036
+rel grip_box_off0.0093_0.00114 creep_ums 1
+rel grip_box_off0_0.00114 creep_ums 1
+rel grip_mesh_off0.0093_0.00114 creep_ums 0
+rel grip_mesh_off0_0.00114 creep_ums 0
+rel hold_0_0.5_0.000285 creep_ums 0
+rel hold_0_0.75_0.000285 creep_ums 0
+rel hold_0_0.95_0.000285 creep_ums 0
+rel slide_0_0.000285 slid_um 133471
+rel hold_22.5_0.5_0.000285 creep_ums 0
+rel hold_22.5_0.75_0.000285 creep_ums 0
+rel hold_22.5_0.95_0.000285 creep_ums 0
+rel slide_22.5_0.000285 slid_um 133471
+rel hold_45_0.5_0.000285 creep_ums 0
+rel hold_45_0.75_0.000285 creep_ums 0
+rel hold_45_0.95_0.000285 creep_ums 0
+rel slide_45_0.000285 slid_um 133471
+rel grip_box_off0.0093_0.000285 creep_ums 1
+rel grip_box_off0_0.000285 creep_ums 1
+rel grip_mesh_off0.0093_0.000285 creep_ums 0
+rel grip_mesh_off0_0.000285 creep_ums 0
+rel suite1 passed 10
+rel solver most_iterations 12 at_iteration_limit 0 warnings 0
+off lift16_rec_0.01 highest_um 10570 slid_um 177979
+off lift16_rec_0.0025 highest_um 1176 slid_um 182334
+off lift16_rec_0.000625 highest_um 148 slid_um 183451
+off free_rec_0_0.00114 slid_um 133042 side_um 0 steps_under_4_contacts 68
+off free_rec_11.25_0.00114 slid_um 135526 side_um 62 steps_under_4_contacts 157
+off free_rec_22.5_0.00114 slid_um 136043 side_um -231 steps_under_4_contacts 170
+off free_rec_33.75_0.00114 slid_um 135039 side_um -74 steps_under_4_contacts 143
+off free_rec_45_0.00114 slid_um 133266 side_um 0 steps_under_4_contacts 110
+off free_rec_0_0.000285 slid_um 133491 side_um 0 steps_under_4_contacts 430
+off free_rec_11.25_0.000285 slid_um 135636 side_um -27 steps_under_4_contacts 697
+off free_rec_22.5_0.000285 slid_um 135734 side_um 83 steps_under_4_contacts 633
+off free_rec_33.75_0.000285 slid_um 135143 side_um 1026 steps_under_4_contacts 707
+off free_rec_45_0.000285 slid_um 133605 side_um 0 steps_under_4_contacts 466
+off lift16_ell_0.01 highest_um 10570 slid_um 177979
+off lift16_ell_0.0025 highest_um 1176 slid_um 182342
+off lift16_ell_0.000625 highest_um 148 slid_um 183460
+off free_ell_0_0.00114 slid_um 133047 side_um 0 steps_under_4_contacts 68
+off free_ell_11.25_0.00114 slid_um 135535 side_um 62 steps_under_4_contacts 157
+off free_ell_22.5_0.00114 slid_um 136051 side_um -231 steps_under_4_contacts 170
+off free_ell_33.75_0.00114 slid_um 135050 side_um -75 steps_under_4_contacts 143
+off free_ell_45_0.00114 slid_um 133279 side_um 0 steps_under_4_contacts 110
+off free_ell_0_0.000285 slid_um 133500 side_um 0 steps_under_4_contacts 430
+off free_ell_11.25_0.000285 slid_um 135646 side_um -27 steps_under_4_contacts 697
+off free_ell_22.5_0.000285 slid_um 135741 side_um 82 steps_under_4_contacts 633
+off free_ell_33.75_0.000285 slid_um 135516 side_um 532 steps_under_4_contacts 616
+off free_ell_45_0.000285 slid_um 133620 side_um 0 steps_under_4_contacts 467
+off hold_0_0.5_0.00114 creep_ums 0
+off hold_0_0.75_0.00114 creep_ums 0
+off hold_0_0.95_0.00114 creep_ums 0
+off slide_0_0.00114 slid_um 133036
+off hold_22.5_0.5_0.00114 creep_ums 0
+off hold_22.5_0.75_0.00114 creep_ums 0
+off hold_22.5_0.95_0.00114 creep_ums 0
+off slide_22.5_0.00114 slid_um 133036
+off hold_45_0.5_0.00114 creep_ums 0
+off hold_45_0.75_0.00114 creep_ums 0
+off hold_45_0.95_0.00114 creep_ums 0
+off slide_45_0.00114 slid_um 133036
+off grip_box_off0.0093_0.00114 creep_ums 1
+off grip_box_off0_0.00114 creep_ums 1
+off grip_mesh_off0.0093_0.00114 creep_ums 0
+off grip_mesh_off0_0.00114 creep_ums 0
+off hold_0_0.5_0.000285 creep_ums 0
+off hold_0_0.75_0.000285 creep_ums 0
+off hold_0_0.95_0.000285 creep_ums 0
+off slide_0_0.000285 slid_um 133471
+off hold_22.5_0.5_0.000285 creep_ums 0
+off hold_22.5_0.75_0.000285 creep_ums 0
+off hold_22.5_0.95_0.000285 creep_ums 0
+off slide_22.5_0.000285 slid_um 133471
+off hold_45_0.5_0.000285 creep_ums 0
+off hold_45_0.75_0.000285 creep_ums 0
+off hold_45_0.95_0.000285 creep_ums 0
+off slide_45_0.000285 slid_um 133471
+off grip_box_off0.0093_0.000285 creep_ums 1
+off grip_box_off0_0.000285 creep_ums 1
+off grip_mesh_off0.0093_0.000285 creep_ums 0
+off grip_mesh_off0_0.000285 creep_ums 0
+off suite1 passed 10
+off solver most_iterations 12 at_iteration_limit 0 warnings 0
+on lift16_rec_0.01 highest_um 0 slid_um 177751
+on lift16_rec_0.0025 highest_um 0 slid_um 182336
+on lift16_rec_0.000625 highest_um 0 slid_um 183497
+on free_rec_0_0.00114 slid_um 133039 side_um 0 steps_under_4_contacts 0
+on free_rec_11.25_0.00114 slid_um 133039 side_um 0 steps_under_4_contacts 0
+on free_rec_22.5_0.00114 slid_um 133039 side_um 0 steps_under_4_contacts 0
+on free_rec_33.75_0.00114 slid_um 133039 side_um 0 steps_under_4_contacts 0
+on free_rec_45_0.00114 slid_um 133039 side_um 0 steps_under_4_contacts 0
+on free_rec_0_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+on free_rec_11.25_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+on free_rec_22.5_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+on free_rec_33.75_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+on free_rec_45_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+on lift16_ell_0.01 highest_um 0 slid_um 177751
+on lift16_ell_0.0025 highest_um 0 slid_um 182344
+on lift16_ell_0.000625 highest_um 0 slid_um 183506
+on free_ell_0_0.00114 slid_um 133043 side_um 0 steps_under_4_contacts 0
+on free_ell_11.25_0.00114 slid_um 133043 side_um 0 steps_under_4_contacts 0
+on free_ell_22.5_0.00114 slid_um 133043 side_um 0 steps_under_4_contacts 0
+on free_ell_33.75_0.00114 slid_um 133043 side_um 0 steps_under_4_contacts 0
+on free_ell_45_0.00114 slid_um 133043 side_um 0 steps_under_4_contacts 0
+on free_ell_0_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+on free_ell_11.25_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+on free_ell_22.5_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+on free_ell_33.75_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+on free_ell_45_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+on hold_0_0.5_0.00114 creep_ums 0
+on hold_0_0.75_0.00114 creep_ums 0
+on hold_0_0.95_0.00114 creep_ums 0
+on slide_0_0.00114 slid_um 133058
+on hold_22.5_0.5_0.00114 creep_ums 0
+on hold_22.5_0.75_0.00114 creep_ums 0
+on hold_22.5_0.95_0.00114 creep_ums 0
+on slide_22.5_0.00114 slid_um 133058
+on hold_45_0.5_0.00114 creep_ums 0
+on hold_45_0.75_0.00114 creep_ums 0
+on hold_45_0.95_0.00114 creep_ums 0
+on slide_45_0.00114 slid_um 133058
+on grip_box_off0.0093_0.00114 creep_ums 1
+on grip_box_off0_0.00114 creep_ums 1
+on grip_mesh_off0.0093_0.00114 creep_ums 0
+on grip_mesh_off0_0.00114 creep_ums 0
+on hold_0_0.5_0.000285 creep_ums 0
+on hold_0_0.75_0.000285 creep_ums 0
+on hold_0_0.95_0.000285 creep_ums 0
+on slide_0_0.000285 slid_um 133501
+on hold_22.5_0.5_0.000285 creep_ums 0
+on hold_22.5_0.75_0.000285 creep_ums 0
+on hold_22.5_0.95_0.000285 creep_ums 0
+on slide_22.5_0.000285 slid_um 133501
+on hold_45_0.5_0.000285 creep_ums 0
+on hold_45_0.75_0.000285 creep_ums 0
+on hold_45_0.95_0.000285 creep_ums 0
+on slide_45_0.000285 slid_um 133501
+on grip_box_off0.0093_0.000285 creep_ums 1
+on grip_box_off0_0.000285 creep_ums 1
+on grip_mesh_off0.0093_0.000285 creep_ums 0
+on grip_mesh_off0_0.000285 creep_ums 0
+on suite1 passed 10
+on solver most_iterations 28 at_iteration_limit 0 warnings 0
+v1 lift16_rec_0.01 highest_um 0 slid_um 177755
+v1 lift16_rec_0.0025 highest_um 0 slid_um 182341
+v1 lift16_rec_0.000625 highest_um 0 slid_um 183495
+v1 free_rec_0_0.00114 slid_um 133040 side_um 0 steps_under_4_contacts 0
+v1 free_rec_11.25_0.00114 slid_um 133040 side_um 0 steps_under_4_contacts 0
+v1 free_rec_22.5_0.00114 slid_um 133040 side_um 0 steps_under_4_contacts 0
+v1 free_rec_33.75_0.00114 slid_um 133040 side_um 0 steps_under_4_contacts 0
+v1 free_rec_45_0.00114 slid_um 133040 side_um 0 steps_under_4_contacts 0
+v1 free_rec_0_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+v1 free_rec_11.25_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+v1 free_rec_22.5_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+v1 free_rec_33.75_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+v1 free_rec_45_0.000285 slid_um 133481 side_um 0 steps_under_4_contacts 0
+v1 lift16_ell_0.01 highest_um 0 slid_um 177755
+v1 lift16_ell_0.0025 highest_um 0 slid_um 182350
+v1 lift16_ell_0.000625 highest_um 0 slid_um 183505
+v1 free_ell_0_0.00114 slid_um 133045 side_um 0 steps_under_4_contacts 0
+v1 free_ell_11.25_0.00114 slid_um 133045 side_um 0 steps_under_4_contacts 0
+v1 free_ell_22.5_0.00114 slid_um 133045 side_um 0 steps_under_4_contacts 0
+v1 free_ell_33.75_0.00114 slid_um 133045 side_um 0 steps_under_4_contacts 0
+v1 free_ell_45_0.00114 slid_um 133045 side_um 0 steps_under_4_contacts 0
+v1 free_ell_0_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+v1 free_ell_11.25_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+v1 free_ell_22.5_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+v1 free_ell_33.75_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+v1 free_ell_45_0.000285 slid_um 133486 side_um 0 steps_under_4_contacts 0
+v1 hold_0_0.5_0.00114 creep_ums 0
+v1 hold_0_0.75_0.00114 creep_ums 0
+v1 hold_0_0.95_0.00114 creep_ums 0
+v1 slide_0_0.00114 slid_um 133059
+v1 hold_22.5_0.5_0.00114 creep_ums 0
+v1 hold_22.5_0.75_0.00114 creep_ums 0
+v1 hold_22.5_0.95_0.00114 creep_ums 0
+v1 slide_22.5_0.00114 slid_um 133059
+v1 hold_45_0.5_0.00114 creep_ums 0
+v1 hold_45_0.75_0.00114 creep_ums 0
+v1 hold_45_0.95_0.00114 creep_ums 0
+v1 slide_45_0.00114 slid_um 133059
+v1 grip_box_off0.0093_0.00114 creep_ums 1
+v1 grip_box_off0_0.00114 creep_ums 1
+v1 grip_mesh_off0.0093_0.00114 creep_ums 0
+v1 grip_mesh_off0_0.00114 creep_ums 0
+v1 hold_0_0.5_0.000285 creep_ums 0
+v1 hold_0_0.75_0.000285 creep_ums 0
+v1 hold_0_0.95_0.000285 creep_ums 0
+v1 slide_0_0.000285 slid_um 133500
+v1 hold_22.5_0.5_0.000285 creep_ums 0
+v1 hold_22.5_0.75_0.000285 creep_ums 0
+v1 hold_22.5_0.95_0.000285 creep_ums 0
+v1 slide_22.5_0.000285 slid_um 133500
+v1 hold_45_0.5_0.000285 creep_ums 0
+v1 hold_45_0.75_0.000285 creep_ums 0
+v1 hold_45_0.95_0.000285 creep_ums 0
+v1 slide_45_0.000285 slid_um 133500
+v1 grip_box_off0.0093_0.000285 creep_ums 1
+v1 grip_box_off0_0.000285 creep_ums 1
+v1 grip_mesh_off0.0093_0.000285 creep_ums 0
+v1 grip_mesh_off0_0.000285 creep_ums 0
+v1 suite1 passed 10
+v1 solver most_iterations 14 at_iteration_limit 0 warnings 0
+files rel against off: 309 of 309 the same
+files rel against on: 77 of 309 the same
+files on against v1: 184 of 309 the same
+MuJoCo suite: 3492 tests; changed with the switch set: 7

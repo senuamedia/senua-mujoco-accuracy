@@ -1,0 +1,26 @@
+defaults: 12 files the same as run 008's, 16 different
+defaults rest 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+defaults carry 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 124949760 per_million -1 final_speed_a_ums 3675108 final_speed_b_ums 3674192 relative_mean_ums -916 force_up_a_mN 29400 force_up_b_mN 3920
+defaults slip A 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7619 final_speed_ums 3072283
+defaults slip B 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 5332 final_speed_ums 1947880
+defaults side 1/1 | PAIR dt_ns 10000000 momentum_at_release 6000000 largest_change 220 per_million 36 final_speed_a_ums 216718 final_speed_b_ums -125387 relative_mean_ums -342105 force_up_a_mN 0 force_up_b_mN 0
+defaults top 1/1 | PAIR dt_ns 10000000 momentum_at_release 4000000 largest_change 320 per_million 80 final_speed_a_ums 117647 final_speed_b_ums 117647 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+defaults rest 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+defaults carry 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 124949760 per_million -1 final_speed_a_ums 3675108 final_speed_b_ums 3674192 relative_mean_ums -915 force_up_a_mN 29400 force_up_b_mN 3920
+defaults slip A 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7664 final_speed_ums 3069050
+defaults slip B 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 4991 final_speed_ums 1972122
+defaults side 1/16 | PAIR dt_ns 625000 momentum_at_release 6000000 largest_change 300 per_million 50 final_speed_a_ums 199290 final_speed_b_ums 5323 relative_mean_ums -193967 force_up_a_mN 0 force_up_b_mN 0
+defaults top 1/16 | PAIR dt_ns 625000 momentum_at_release 4000000 largest_change 300 per_million 75 final_speed_a_ums 117647 final_speed_b_ums 117647 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip: 16 files the same as run 008's, 12 different
+elliptic_noslip rest 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip carry 1/1 | PAIR dt_ns 10000000 momentum_at_release 0 largest_change 124950000 per_million -1 final_speed_a_ums 3675000 final_speed_b_ums 3675000 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip slip A 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7871 final_speed_ums 3099274
+elliptic_noslip slip B 1/1 | ACCEL dt_ns 10000000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 3439 final_speed_ums 1745448
+elliptic_noslip side 1/1 | PAIR dt_ns 10000000 momentum_at_release 6000000 largest_change 80 per_million 13 final_speed_a_ums 213904 final_speed_b_ums -104278 relative_mean_ums -318182 force_up_a_mN 0 force_up_b_mN 0
+elliptic_noslip top 1/1 | PAIR dt_ns 10000000 momentum_at_release 4000000 largest_change 300 per_million 75 final_speed_a_ums 117647 final_speed_b_ums 117647 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip rest 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 0 per_million -1 final_speed_a_ums 0 final_speed_b_ums 0 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip carry 1/16 | PAIR dt_ns 625000 momentum_at_release 0 largest_change 124950000 per_million -1 final_speed_a_ums 3675000 final_speed_b_ums 3675000 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920
+elliptic_noslip slip A 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 7690 final_speed_ums 3073428
+elliptic_noslip slip B 1/16 | ACCEL dt_ns 625000 from_ms 700 to_ms 900 mean_acceleration_mm_s2 4797 final_speed_ums 1939287
+elliptic_noslip side 1/16 | PAIR dt_ns 625000 momentum_at_release 6000000 largest_change 320 per_million 53 final_speed_a_ums 199503 final_speed_b_ums 3726 relative_mean_ums -195777 force_up_a_mN 0 force_up_b_mN 0
+elliptic_noslip top 1/16 | PAIR dt_ns 625000 momentum_at_release 4000000 largest_change 300 per_million 75 final_speed_a_ums 117647 final_speed_b_ums 117647 relative_mean_ums 0 force_up_a_mN 29400 force_up_b_mN 3920

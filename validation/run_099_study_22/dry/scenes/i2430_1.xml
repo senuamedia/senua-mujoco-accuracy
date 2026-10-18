@@ -1,0 +1,8 @@
+<mujoco model="after issue 2430's second model, 1"><option timestep="0.0005" integrator="implicit"/>
+<worldbody>
+<body name="b1" pos="0 0 0"><joint name="j1" type="slide" axis="1 0 0" frictionloss="100000"/><geom type="box" size="0.05 0.05 0.05" mass="1" contype="0" conaffinity="0"/></body>
+<body name="b2" pos="0 0.5 0"><joint name="j2" type="slide" axis="1 0 0"/><geom type="box" size="0.05 0.05 0.05" mass="1" contype="0" conaffinity="0"/></body>
+</worldbody>
+<equality><joint joint1="j1" joint2="j2" polycoef="0 1 0 0 0"/></equality>
+<actuator><general joint="j1" gainprm="0" biastype="affine" biasprm="-90000.000000 0 0"/></actuator>
+</mujoco>

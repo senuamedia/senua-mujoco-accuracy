@@ -1,0 +1,4 @@
+offset001_set_0.000285 most_tilt_urad 2202 fastest_turn_at_end_urad_s 511 contact_changes_after_step_30 279 most_contacts 16
+offset017_set_0.000285 most_tilt_urad 9528 fastest_turn_at_end_urad_s 171 contact_changes_after_step_30 101 most_contacts 16
+offset001_set_0.00114 most_tilt_urad 2126 fastest_turn_at_end_urad_s 594 contact_changes_after_step_30 107 most_contacts 16
+offset017_set_0.00114 most_tilt_urad 9363 fastest_turn_at_end_urad_s 180 contact_changes_after_step_30 51 most_contacts 16

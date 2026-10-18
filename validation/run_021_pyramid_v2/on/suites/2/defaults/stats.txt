@@ -1,0 +1,18 @@
+STATS run stop_1 contact dt 0.01 h0 0 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 150 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run land_1 contact dt 0.01 h0 0.1 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 150 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run stop_4 contact dt 0.0025 h0 0 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 600 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run land_4 contact dt 0.0025 h0 0.1 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 600 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run stop_16 contact dt 0.000625 h0 0 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 2400 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run land_16 contact dt 0.000625 h0 0.1 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 2400 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run stop_64 contact dt 0.00015625 h0 0 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 9600 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run land_64 contact dt 0.00015625 h0 0.1 vx0 1.2 mu 0.4 lock 1 mass 1 radius 0.05 steps 9600 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run rest_1 pair dt 0.01 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 100 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run carry_1 pair dt 0.01 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 200 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run slip_1 pair dt 0.01 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 90 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run side_1 pair dt 0.01 layout side massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0 mug 0 steps 50 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run top_1 pair dt 0.01 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 150 most_iterations 4 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run rest_16 pair dt 0.000625 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 1600 most_iterations 1 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run carry_16 pair dt 0.000625 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 3200 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run slip_16 pair dt 0.000625 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 1440 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run side_16 pair dt 0.000625 layout side massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0 mug 0 steps 800 most_iterations 2 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none
+STATS run top_16 pair dt 0.000625 layout stack massa 3 ra 0.4 massb 0.4 rb 0.025 mu 0.5 mug 0 steps 2400 most_iterations 3 at_iteration_limit 0 iteration_limit 100 warnings 0 engine mujoco 3.16.0 extra none

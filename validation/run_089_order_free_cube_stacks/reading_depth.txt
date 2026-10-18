@@ -1,0 +1,12 @@
+depth pyramidal mu 0.2 | depth_nm -2271 fastest_vz_ums 0
+depth elliptic mu 0.2 | depth_nm -107649 fastest_vz_ums 0
+depth pyramidal mu 0.4 | depth_nm -10132 fastest_vz_ums 0
+depth elliptic mu 0.4 | depth_nm -107649 fastest_vz_ums 0
+depth pyramidal mu 0.7 | depth_nm -39783 fastest_vz_ums 0
+depth elliptic mu 0.7 | depth_nm -107649 fastest_vz_ums 0
+depth pyramidal mu 1 | depth_nm -107649 fastest_vz_ums 0
+depth elliptic mu 1 | depth_nm -107649 fastest_vz_ums 0
+depth pyramidal mu 1.41421356 | depth_nm -293669 fastest_vz_ums 0
+depth elliptic mu 1.41421356 | depth_nm -107649 fastest_vz_ums 0
+depth pyramidal mu 2 | depth_nm -636821 fastest_vz_ums 0
+depth elliptic mu 2 | depth_nm -107649 fastest_vz_ums 0

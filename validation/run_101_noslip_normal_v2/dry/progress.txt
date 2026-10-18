@@ -1,0 +1,4 @@
+rigs built 2026-10-17T13:20:04Z
+part A done 2026-10-17T13:20:15Z
+part B done 2026-10-17T13:22:32Z
+parts C and D done 2026-10-17T13:22:36Z
